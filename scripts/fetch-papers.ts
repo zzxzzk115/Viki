@@ -25,8 +25,9 @@ import { feeds } from '../config/feeds'
 import { FeedFile, type FeedPaper } from '../src/lib/papers-feed'
 
 /** What a fetcher can know. isNew (seen.json) and kind (selection) come later;
- *  citedBy starts 0 and is enriched from OpenAlex afterwards. */
-type Candidate = Omit<FeedPaper, 'isNew' | 'kind'>
+ *  citedBy starts 0 and is enriched from OpenAlex afterwards. coreHits is
+ *  selection-internal and stripped by FeedFile.parse on write. */
+type Candidate = Omit<FeedPaper, 'isNew' | 'kind'> & { coreHits: number }
 
 const ROOT = process.cwd()
 const DATA = join(ROOT, 'data', 'papers')
@@ -76,7 +77,7 @@ function judge(
   title: string,
   abstract: string,
   origin: 'topic' | 'sweep',
-): { score: number; matched: string[] } | null {
+): { score: number; matched: string[]; coreHits: number } | null {
   const hay = `${title} ${abstract}`.toLowerCase()
   const t = title.toLowerCase()
 
@@ -101,7 +102,7 @@ function judge(
   if (score < feeds.minScore) return null
 
   // Report the meaningful hits, not every context word.
-  return { score, matched: [...coreHits, ...relatedHits] }
+  return { score, matched: [...coreHits, ...relatedHits], coreHits: coreHits.length }
 }
 
 // ---- arXiv ----
@@ -172,6 +173,7 @@ async function queryArxiv(
       matched: verdict.matched,
       score: verdict.score,
       citedBy: 0,
+      coreHits: verdict.coreHits,
       comment: clean(
         typeof e['arxiv:comment'] === 'string' ? e['arxiv:comment'] : e['arxiv:comment']?.['#text'],
       ),
@@ -319,6 +321,7 @@ async function fetchOpenAlex(): Promise<Candidate[]> {
       matched: verdict.matched,
       score: verdict.score,
       citedBy: 0,
+      coreHits: verdict.coreHits,
     })
   }
   return out
@@ -372,8 +375,12 @@ async function main() {
   const fresh = candidates
     .filter((p) => p.published >= cutoff)
     .sort((a, b) => b.score - a.score || b.published.localeCompare(a.published))
+  // coreHits > 0: citations alone are not relevance. Without this gate the
+  // classics slots go to whatever heavily-cited ML paper grazed the related/
+  // context keywords (measured: a temporal-action-localization paper won a slot
+  // purely on citedBy) — a classic must hit a core term of the field.
   const classicPool = candidates
-    .filter((p) => p.published < cutoff && p.citedBy >= feeds.classics.minCitations)
+    .filter((p) => p.published < cutoff && p.coreHits > 0 && p.citedBy >= feeds.classics.minCitations)
     .sort((a, b) => b.citedBy - a.citedBy)
 
   const classics = classicPool.slice(0, feeds.classics.count)
