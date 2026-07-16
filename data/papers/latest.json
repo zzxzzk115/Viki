@@ -1,0 +1,423 @@
+{
+  "date": "2026-07-16",
+  "papers": [
+    {
+      "id": "2601.18372",
+      "source": "arxiv",
+      "title": "Gaze Prediction in Virtual Reality Without Eye Tracking Using Visual and Head Motion Cues",
+      "authors": [
+        "Christos Petrou",
+        "Harris Partaourides",
+        "Athanasios Balomenos",
+        "Yannis Kopsinis",
+        "Sotirios Chatzis"
+      ],
+      "abstract": "Gaze prediction plays a critical role in Virtual Reality (VR) applications by reducing sensor-induced latency and enabling computationally demanding techniques such as foveated rendering, which rely on anticipating user attention. However, direct eye tracking is often unavailable due to hardware limitations or privacy concerns. To address this, we present a novel gaze prediction framework that combines Head-Mounted Display (HMD) motion signals with visual saliency cues derived from video frames. Our method employs UniSal, a lightweight saliency encoder, to extract visual features, which are then fused with HMD motion data and processed through a time-series prediction module. We evaluate two lightweight architectures, TSMixer and LSTM, for forecasting future gaze directions. Experiments on the EHTask dataset, along with deployment on commercial VR hardware, show that our approach consistently outperforms baselines such as Center-of-HMD and Mean Gaze. These results demonstrate the effectiveness of predictive gaze modeling in reducing perceptual lag and enhancing natural interaction in VR environments where direct eye tracking is constrained.",
+      "published": "2026-01-26",
+      "url": "https://arxiv.org/abs/2601.18372",
+      "pdf": "https://arxiv.org/pdf/2601.18372",
+      "categories": [
+        "cs.CV"
+      ],
+      "matched": [
+        "foveat",
+        "gaze",
+        "eye tracking",
+        "saliency",
+        "head-mounted",
+        "hmd",
+        "virtual reality"
+      ],
+      "score": 52,
+      "comment": "",
+      "isNew": false
+    },
+    {
+      "id": "2605.27939",
+      "source": "arxiv",
+      "title": "EyeSpy: Inferring Eye Gaze via Side-Channel Attacks Against Foveated Rendering",
+      "authors": [
+        "Paul Maynard",
+        "Harris Amjad",
+        "Camila Molinares",
+        "Bo Ji",
+        "Brendan David-John"
+      ],
+      "abstract": "While eye tracking provides valuable capabilities for virtual reality, such as gaze interaction and dynamic foveated rendering (DFR), eye-tracking data can inadvertently reveal sensitive user information if not properly protected. Current protections, such as adding permission prompts or gatekeeping gaze data, are insufficient on DFR-enabled systems because gaze data is used internally to drive DFR. When DFR is implemented, objects in the fovea (i.e., immediate gaze area) incur a higher GPU workload than those in the periphery. This gaze-contingent workload creates a novel side channel, which can be leveraged to reconstruct gaze positions. Specifically, we design a novel attack that sweeps imperceptible high-cost objects (HCOs) across the user's field of view and logs rendering performance metrics (e.g., frame rate or frame time) commonly exposed through standard game engines. Then, we correlate variation in these metrics (caused by HCO-foveal overlap) with the known HCOs' positions to infer gaze coordinates directly without using eye-tracking APIs. Our experimental results show that mean gaze prediction errors (1.1-4.4 degrees) across the Meta Quest Pro, Varjo XR-4, and desktop platforms are comparable to typical eye-tracker accuracy. We demonstrate that the attack generalizes across various hardware platforms, standard game engines, and foveated rendering pipelines. Finally, we design defense mechanisms based on supervised and unsupervised detectors that can flag the attack reliably (F1 of 0.99) over short time windows.",
+      "published": "2026-05-27",
+      "url": "https://arxiv.org/abs/2605.27939",
+      "pdf": "https://arxiv.org/pdf/2605.27939",
+      "categories": [
+        "cs.HC"
+      ],
+      "matched": [
+        "foveat",
+        "gaze-contingent",
+        "gaze",
+        "eye tracking",
+        "eye-tracking",
+        "virtual reality"
+      ],
+      "score": 50,
+      "comment": "20 pages, 12 figures. Accepted to the 47th IEEE Symposium on Security and Privacy (IEEE S&P 2026). Artifacts: https://bmdj-vt.github.io/project_pages/xr_side_channels",
+      "isNew": false
+    },
+    {
+      "id": "2605.11536",
+      "source": "arxiv",
+      "title": "ToF ReSTIR: Time-of-Flight Rendering with Spatio-temporal Reservoir Resampling",
+      "authors": [
+        "Juhyeon Kim",
+        "Wojciech Jarosz",
+        "Adithya Pediredla"
+      ],
+      "abstract": "We present a novel spatio-temporal reuse framework for time-resolved light transport, enabling efficient Monte Carlo rendering of time-of-flight (ToF) phenomena such as time-gated imaging and transient light capture. Existing ToF rendering methods are computationally expensive, scale poorly to complex dynamic scenes, and are therefore unsuitable for applications with strict latency constraints. To address this limitation, we draw inspiration from ReSTIR, a reuse-based technique for steady-state real-time rendering, and adapt its core principles to interactive-rate ToF simulation. However, naively applying existing ReSTIR methods to ToF rendering leads to severe inefficiency, as reused paths frequently violate optical path-length constraints and thus contribute little or no signal. We overcome this challenge by introducing a path reuse formulation that explicitly enforces physically valid optical path lengths. The key idea is path-length-aware shift mapping, a geometric transformation based on Newton's method that adjusts reused light paths to satisfy temporal gating constraints, inspired by specular manifold exploration in steady-state caustics rendering. The resulting framework substantially improves the efficiency of ToF rendering across a wide range of scenarios, including complex scenes with glossy or specular materials and dynamic motion. Our method supports both time-gated and transient rendering at interactive frame rates, enabling simulation under practical latency constraints. We demonstrate the effectiveness of our approach through two downstream applications, including shape reconstruction and navigation.",
+      "published": "2026-05-12",
+      "url": "https://arxiv.org/abs/2605.11536",
+      "pdf": "https://arxiv.org/pdf/2605.11536",
+      "categories": [
+        "cs.GR"
+      ],
+      "matched": [
+        "restir",
+        "reservoir resampling",
+        "reservoir"
+      ],
+      "score": 48,
+      "comment": "",
+      "isNew": true
+    },
+    {
+      "id": "2603.23491",
+      "source": "arxiv",
+      "title": "Foveated Diffusion: Efficient Spatially Adaptive Image and Video Generation",
+      "authors": [
+        "Brian Chao",
+        "Lior Yariv",
+        "Howard Xiao",
+        "Gordon Wetzstein"
+      ],
+      "abstract": "Diffusion and flow matching models have unlocked unprecedented capabilities for creative content creation, such as interactive image and streaming video generation. The growing demand for higher resolutions, frame rates, and context lengths, however, makes efficient generation increasingly challenging, as computational complexity grows quadratically with the number of generated tokens. Our work seeks to optimize the efficiency of the generation process in settings where the user's gaze location is known or can be estimated, for example, by using eye tracking. In these settings, we leverage the eccentricity-dependent acuity of human vision: while a user perceives very high-resolution visual information in a small region around their gaze location (the foveal region), the ability to resolve detail quickly degrades in the periphery of the visual field. Our approach starts with a mask modeling the foveated resolution to allocate tokens non-uniformly, assigning higher token density to foveal regions and lower density to peripheral regions. An image or video is generated in a mixed-resolution token setting, yielding results perceptually indistinguishable from full-resolution generation, while drastically reducing the token count and generation time. To this end, we develop a principled mechanism for constructing mixed-resolution tokens directly from high-resolution data, allowing a foveated diffusion model to be post-trained from an existing base model while maintaining content consistency across resolutions. We validate our approach through extensive analysis and a carefully designed user study, demonstrating the efficacy of foveation as a practical and scalable axis for efficient generation.",
+      "published": "2026-03-24",
+      "url": "https://arxiv.org/abs/2603.23491",
+      "pdf": "https://arxiv.org/pdf/2603.23491",
+      "categories": [
+        "cs.CV"
+      ],
+      "matched": [
+        "foveat",
+        "eccentricity",
+        "gaze",
+        "eye tracking",
+        "perceptually"
+      ],
+      "score": 41,
+      "comment": "Project website at https://bchao1.github.io/foveated-diffusion",
+      "isNew": false
+    },
+    {
+      "id": "2601.19425",
+      "source": "arxiv",
+      "title": "It's Not Just a Phase: Creating Phase-Aligned Peripheral Metamers",
+      "authors": [
+        "Sophie Kergaßner",
+        "Piotr Didyk"
+      ],
+      "abstract": "Novel display technologies can deliver high-quality images across a wide field of view, creating immersive experiences. While rendering for such devices is expensive, most of the content falls into peripheral vision, where human perception differs from that in the fovea. Consequently, it is critical to understand and leverage the limitations of visual perception to enable efficient rendering. A standard approach is to exploit the reduced sensitivity to spatial details in the periphery by reducing rendering resolution, so-called foveated rendering. While this strategy avoids rendering part of the content altogether, an alternative promising direction is to replace accurate and expensive rendering with inexpensive synthesis of content that is perceptually indistinguishable from the ground-truth image. In this paper, we propose such a method for the efficient generation of an image signal that substitutes the rendering of high-frequency details. The method is grounded in findings from image statistics, which show that preserving appropriate local statistics is critical for perceived image quality. Based on this insight, we extrapolate several local image statistics from foveated content into higher spatial frequency ranges that are attenuated or omitted in the rendering process. This rich set of statistics is later used to synthesize a signal that is added to the initial rendering, boosting its perceived quality. We focus on phase information, demonstrating the importance of its alignment across space and frequencies. We calibrate and compare our method with state-of-the-art strategies, showing a significant reduction in the content that must be accurately rendered at a relatively small extra cost for synthesizing the additional signal.",
+      "published": "2026-01-27",
+      "url": "https://arxiv.org/abs/2601.19425",
+      "pdf": "https://arxiv.org/pdf/2601.19425",
+      "categories": [
+        "cs.GR"
+      ],
+      "matched": [
+        "foveat",
+        "peripheral vision",
+        "visual perception",
+        "perceptually"
+      ],
+      "score": 41,
+      "comment": "10 pages including references and figure only pages; 2 pages Supplementary Material",
+      "isNew": false
+    },
+    {
+      "id": "2606.00122",
+      "source": "arxiv",
+      "title": "Mathematical framework for perception-driven parameter choice in image denoising",
+      "authors": [
+        "Saara Isoranta",
+        "Emilia L. K. Blåsten",
+        "Lílian Ferreira de Freitas",
+        "Jukka Häkkinen",
+        "Markus Juvonen",
+        "Samuli Siltanen"
+      ],
+      "abstract": "We approach image denoising from a perception-driven perspective: how can we select the parameters that are best suited for human visual perception? We combine research methods in mathematics and psychology to develop a mathematical framework for measuring perceived similarity. We construct a sample set of differently denoised photographs by using the same base image as input data and by tuning the parameter value in a total variation denoising algorithm. A comparison test is conducted with human participants to survey perceived differences between the images. Analyzing the results with psychometric scaling provides us with a HaarPSI value to use as a threshold in discretizing parameter grids. As a result, we obtain psychometrically scaled, openly available image sets that are ready to use in further experiments in perception-driven imaging, as well as a framework for ensuing experiments involving comparison tests.",
+      "published": "2026-05-28",
+      "url": "https://arxiv.org/abs/2606.00122",
+      "pdf": "https://arxiv.org/pdf/2606.00122",
+      "categories": [
+        "eess.IV",
+        "math.NA"
+      ],
+      "matched": [
+        "perception-driven",
+        "visual perception",
+        "denois"
+      ],
+      "score": 39,
+      "comment": "",
+      "isNew": false
+    },
+    {
+      "id": "2605.17823",
+      "source": "arxiv",
+      "title": "Why We Look Where We Look: Emergent Human-like Fixations of a Foveated Visual Language Model Maximizing Scene Understanding",
+      "authors": [
+        "Shravan Murlidaran",
+        "Ziqi Wen",
+        "Sana Shehabi",
+        "Miguel P. Eckstein"
+      ],
+      "abstract": "When humans view scenes without a specific task (free-viewing), they initially direct their eye movements toward the scene center and then fixate on people, text, objects being gazed at or grasped, and semantically meaningful regions. What these signature fixation patterns reflect and whether they optimize an underlying perceptual task remain unknown. We show that a computational agent with simulated foveation, trained to optimize scene comprehension, exhibits emergent human fixation signature patterns. In contrast, versions of the agent trained to search or classify scenes, or equipped with peripheral vision that was better or worse than human vision, predicted human fixation patterns less accurately. Thus, human free-viewing fixation patterns may emerge as a functional byproduct of optimizing scene comprehension under the biological constraints of foveated vision.",
+      "published": "2026-05-18",
+      "url": "https://arxiv.org/abs/2605.17823",
+      "pdf": "https://arxiv.org/pdf/2605.17823",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "matched": [
+        "foveat",
+        "peripheral vision",
+        "gaze"
+      ],
+      "score": 34,
+      "comment": "",
+      "isNew": false
+    },
+    {
+      "id": "2604.09659",
+      "source": "arxiv",
+      "title": "GazeCode: Recall-Based Verification for Higher-Quality In-the-Wild Mobile Gaze Data Collection",
+      "authors": [
+        "Yaxiong Lei",
+        "Thomas Davies",
+        "Xinya Gong",
+        "Shijing He",
+        "Juan Ye"
+      ],
+      "abstract": "Large-scale mobile gaze estimation relies on in-the-wild datasets, yet unsupervised collection makes it difficult to verify whether participants truly foveate logged targets. Prior mobile protocols often use low-entropy validation (e.g., binary probes) that can be satisfied by guessing and may still allow peripheral viewing, introducing label noise. We present \\textbf{GazeCode}, a recall-based verification paradigm for higher-confidence in-the-wild mobile gaze data collection that strengthens \\emph{label validity} through a multi-digit recall task (reducing random success to $10^{-N}$) paired with anti-peripheral stimulus design (small, low-contrast, brief digits). The system logs synchronized front-camera video, IMU streams, and target events using high-resolution timestamps. In a formative study (N=3), we probe key parameters (opacity, duration) and directly test peripheral exploitability using an eccentricity-controlled \\textit{RING} condition. Results show that low-opacity digits substantially reduce peripheral readability while remaining usable for attentive foveation, supporting the inference that correct recall corresponds to higher-confidence gaze labels. We conclude with actionable design guidelines for robust in-the-wild gaze data collection.",
+      "published": "2026-03-30",
+      "url": "https://arxiv.org/abs/2604.09659",
+      "pdf": "https://arxiv.org/pdf/2604.09659",
+      "categories": [
+        "cs.HC"
+      ],
+      "matched": [
+        "foveat",
+        "eccentricity",
+        "gaze"
+      ],
+      "score": 34,
+      "comment": "6 pages, 3 figures, this paper is accepted by CHI'26 as Poster paper",
+      "isNew": false
+    },
+    {
+      "id": "2601.22026",
+      "source": "arxiv",
+      "title": "Hybrid Foveated Path Tracing with Peripheral Gaussians for Immersive Anatomy",
+      "authors": [
+        "Constantin Kleinbeck",
+        "Luisa Theelke",
+        "Hannah Schieber",
+        "Ulrich Eck",
+        "Rüdiger von Eisenhart-Rothe",
+        "Daniel Roth"
+      ],
+      "abstract": "Volumetric medical imaging offers great potential for understanding complex pathologies. Yet, traditional 2D slices provide little support for interpreting spatial relationships, forcing users to mentally reconstruct anatomy into three dimensions. Direct volumetric path tracing and VR rendering can improve perception but are computationally expensive, while precomputed representations, like Gaussian Splatting, require planning ahead. Both approaches limit interactive use. We propose a hybrid rendering approach for high-quality, interactive, and immersive anatomical visualization. Our method combines streamed foveated path tracing with a lightweight Gaussian Splatting approximation of the periphery. The peripheral model generation is optimized with volume data and continuously refined using foveal renderings, enabling interactive updates. Depth-guided reprojection further improves robustness to latency and allows users to balance fidelity with refresh rate. We compare our method against direct path tracing and Gaussian Splatting. Our results highlight how their combination can preserve strengths in visual quality while re-generating the peripheral model in under a second, eliminating extensive preprocessing and approximations. This opens new options for interactive medical visualization.",
+      "published": "2026-01-29",
+      "url": "https://arxiv.org/abs/2601.22026",
+      "pdf": "https://arxiv.org/pdf/2601.22026",
+      "categories": [
+        "cs.GR",
+        "cs.CV"
+      ],
+      "matched": [
+        "foveat",
+        "path tracing",
+        "reprojection"
+      ],
+      "score": 34,
+      "comment": "Scheduled for publication in the Proceedings of IEEE VR 2026",
+      "isNew": true
+    },
+    {
+      "id": "2606.02565",
+      "source": "arxiv",
+      "title": "Policy-based Foveated Imaging and Perception",
+      "authors": [
+        "Howard Xiao",
+        "Jan Ackermann",
+        "Boyang Deng",
+        "Gordon Wetzstein"
+      ],
+      "abstract": "Ultra-high-resolution image sensors offer the potential to capture fine spatial details critical for many visual perception tasks, but acquiring and processing all pixels at full resolution is often infeasible under realistic bandwidth, latency, and power constraints. Existing approaches address this challenge through acquisition strategies such as spatial or temporal downsampling, which irrevocably discard information before task relevance can be assessed. In this work, we introduce a real-time, predictive, and task-aware foveated imaging system that operates directly at image acquisition time. Leveraging emerging dual-stream sensor architectures, our method dynamically allocates limited pixel bandwidth to task-relevant regions of interest while maintaining a low-resolution global context. We formulate foveated acquisition as a sensor attention policy-learning problem, in which past observations guide actions that determine future measurements, closing the perception-acquisition loop. Through extensive simulation across multiple perception tasks, we demonstrate that our approach achieves high task performance under strict pixel budgets and significantly outperforms relevant baselines operating at the same bandwidth. We further validate our system on a 200-megapixel dual-stream sensor, capturing real-world videos under realistic bandwidth and latency constraints, demonstrating the practical feasibility of task-driven, acquisition-time foveated imaging.",
+      "published": "2026-06-01",
+      "url": "https://arxiv.org/abs/2606.02565",
+      "pdf": "https://arxiv.org/pdf/2606.02565",
+      "categories": [
+        "cs.CV"
+      ],
+      "matched": [
+        "foveat",
+        "visual perception"
+      ],
+      "score": 33,
+      "comment": "Project website at https://howardxiao.ca/foveated/",
+      "isNew": false
+    },
+    {
+      "id": "2603.18350",
+      "source": "arxiv",
+      "title": "PeriphAR: Fast and Accurate Real-World Object Selection with Peripheral Augmented Reality Displays",
+      "authors": [
+        "Yutong Ren",
+        "Arnav Reddy",
+        "Michael Nebeling"
+      ],
+      "abstract": "Gaze-based selection in XR requires visual confirmation due to eye-tracking limitations and target ambiguity in 3D contexts. Current designs for wide-FOV displays use world-locked, central overlays, which are not conducive to always-on AR glasses. This paper introduces PeriphAR (per-ree-far), a visualization technique that leverages peripheral vision for feedback during gaze-based selection on a monocular AR display. In a first user study, we isolated text, color, and shape properties of target objects to compare peripheral selection cues. Peripheral vision was more sensitive to color than shape, but this sensitivity rapidly declined at lower contrast. To preserve preattentive processing of color, we developed two strategies to enhance color in users' peripheral vision. In a second user study, our strategy that maximized contrast of the target to the neighboring object with the most similar color was subjectively preferred. As proof of concept, we implemented PeriphAR in an end-to-end system to test performance with real-world object detection.",
+      "published": "2026-03-18",
+      "url": "https://arxiv.org/abs/2603.18350",
+      "pdf": "https://arxiv.org/pdf/2603.18350",
+      "categories": [
+        "cs.HC"
+      ],
+      "matched": [
+        "peripheral vision",
+        "gaze",
+        "eye-tracking",
+        "augmented reality"
+      ],
+      "score": 32,
+      "comment": "",
+      "isNew": false
+    },
+    {
+      "id": "2603.15796",
+      "source": "arxiv",
+      "title": "Perceptual Requirements for Low-Latency Head-Mounted Displays",
+      "authors": [
+        "Eric Penner",
+        "Josephine D'Angelo",
+        "Clinton Smith",
+        "Nathan Matsuda",
+        "Neethan Siva",
+        "Phillip Guan"
+      ],
+      "abstract": "End-to-end (e2e) latency in head-mounted displays (HMD) is the time delay between a physical change in the world (e.g., a user's head movement) and the moment the display updates to reflect that change. Tracking, rendering, and other computation in real systems invariably introduce some amount of e2e latency to all HMDs. In modern devices this latency is usually in the range of 12-60 milliseconds which is partially addressed through pose prediction and late stage reprojection which means that perceptual studies and user experience evaluations cannot explore latencies below these values. Here, we introduce a video passthrough HMD, called Camsicle, which is capable of 2-millisecond e2e latency and, additionally, uses a catadioptric design to achieve perspective-correct passthrough without reprojection. This platform enables naturalistic user studies to interrogate the impacts of latency on user experience, preference, and performance. Across two user studies and 57 participants we find that 2 and 14.3 millisecond latencies are preferred over 23 and 29 milliseconds when attempting to catch a ball. Additionally, we compare individual latency preferences in this naturalistic ball-catching task to psychophysical thresholds for latency detection in a reference-grade system with zero latency to investigate how psychophysical thresholds may relate to subjective evaluations in naturalistic scenarios.",
+      "published": "2026-03-16",
+      "url": "https://arxiv.org/abs/2603.15796",
+      "pdf": "https://arxiv.org/pdf/2603.15796",
+      "categories": [
+        "cs.GR"
+      ],
+      "matched": [
+        "psychophysic",
+        "head-mounted",
+        "hmd",
+        "reprojection"
+      ],
+      "score": 29,
+      "comment": "",
+      "isNew": true
+    },
+    {
+      "id": "2602.06164",
+      "source": "arxiv",
+      "title": "The Eye-Head Mover Spectrum: Modelling Individual and Population Head Movement Tendencies in Virtual Reality",
+      "authors": [
+        "Jinghui Hu",
+        "Ludwig Sidenmark",
+        "Hock Siang Lee",
+        "Hans Gellersen"
+      ],
+      "abstract": "People differ in how much they move their head versus their eyes when shifting gaze, yet such tendencies remain largely unexplored in HCI. We introduce head movement tendencies as a fundamental dimension of individual difference in VR and provide a quantitative account of their population-level distribution. Using a 360° video free-viewing dataset (N=87), we model head contributions to gaze shifts with a hinge-based parametric function, revealing a spectrum of strategies from eye-movers to head-movers. We then conduct a user study (N=28) combining 360° video viewing with a short controlled task using gaze targets. While parameter values differ across tasks, individuals show partial alignment in their relative positions within the population, indicating that tendencies are meaningful but shaped by context. Our findings establish head movement tendencies as an important concept for VR and highlight implications for adaptive systems such as foveated rendering, viewport alignment, and multi-user experience design.",
+      "published": "2026-02-05",
+      "url": "https://arxiv.org/abs/2602.06164",
+      "pdf": "https://arxiv.org/pdf/2602.06164",
+      "categories": [
+        "cs.HC"
+      ],
+      "matched": [
+        "foveat",
+        "gaze",
+        "virtual reality"
+      ],
+      "score": 29,
+      "comment": "",
+      "isNew": false
+    },
+    {
+      "id": "2601.19753",
+      "source": "arxiv",
+      "title": "WaterClear-GS: Optical-Aware Gaussian Splatting for Underwater Reconstruction and Restoration",
+      "authors": [
+        "Xinrui Zhang",
+        "Yufeng Wang",
+        "Shuangkang Fang",
+        "Zesheng Wang",
+        "Dacheng Qi",
+        "Wenrui Ding"
+      ],
+      "abstract": "Underwater 3D reconstruction and appearance restoration are hindered by the complex optical properties of water, such as wavelength-dependent attenuation and scattering. Existing Neural Radiance Fields (NeRF)-based methods struggle with slow rendering speeds and suboptimal color restoration, while 3D Gaussian Splatting (3DGS) inherently lacks the capability to model complex volumetric scattering effects. To address these issues, we introduce WaterClear-GS, the first pure 3DGS-based framework that explicitly integrates underwater optical properties of local attenuation and scattering into Gaussian primitives, eliminating the need for an auxiliary medium network. Our method employs a dual-branch optimization strategy to ensure underwater photometric consistency while naturally recovering water-free appearances. This strategy is enhanced by depth-guided geometry regularization and perception-driven image loss, together with exposure constraints, spatially-adaptive regularization, and physically guided spectral regularization, which collectively enforce local 3D coherence and maintain natural visual perception. Experiments on standard benchmarks and our newly collected dataset demonstrate that WaterClear-GS achieves outstanding performance on both novel view synthesis (NVS) and underwater image restoration (UIR) tasks, while maintaining real-time rendering. The code will be available at https://buaaxrzhang.github.io/WaterClear-GS/.",
+      "published": "2026-01-27",
+      "url": "https://arxiv.org/abs/2601.19753",
+      "pdf": "https://arxiv.org/pdf/2601.19753",
+      "categories": [
+        "cs.CV"
+      ],
+      "matched": [
+        "perception-driven",
+        "visual perception"
+      ],
+      "score": 28,
+      "comment": "",
+      "isNew": false
+    },
+    {
+      "id": "2606.03118",
+      "source": "arxiv",
+      "title": "Learning to See via Epiretinal Implant Stimulation in silico with Model-Based Deep Reinforcement Learning",
+      "authors": [
+        "Jacob Lavoie",
+        "Marwan Besrour",
+        "William Lemaire",
+        "Jean Rouat",
+        "Réjean Fontaine",
+        "Eric Plourde"
+      ],
+      "abstract": "Objective: Diseases such as age-related macular degeneration and retinitis pigmentosa cause the degradation of the photoreceptor layer. One approach to restore vision is to electrically stimulate the surviving retinal ganglion cells with a microelectrode array such as epiretinal implants. Epiretinal implants are known to generate visible anisotropic shapes elongated along the axon fascicles of neighboring retinal ganglion cells. Recent work has demonstrated that to obtain isotropic pixel-like shapes, it is possible to map axon fascicles and avoid stimulating them by inactivating electrodes or lowering stimulation current levels. Avoiding axon fascicle stimulation aims to remove brushstroke-like shapes in favor of a more reduced set of pixel-like shapes. Approach: In this study, we propose the use of isotropic and anisotropic shapes to render intelligible images on the retina of a virtual patient in a reinforcement learning environment named rlretina. The environment formalizes the task as using brushstrokes in a stroke-based rendering task. Main Results: We train a deep reinforcement learning agent that learns to assemble isotropic and anisotropic shapes to form an image. We investigate which error-based or perception-based metrics is adequate to reward the agent. The agent is trained in a model-based data generation fashion using the psychophysically validated axon map model to render images as perceived by different virtual patients. We show that the agent can generate more intelligible images compared to the naive method in different virtual patients. Significance: This work shares a new way to address epiretinal stimulation that constitutes a first step towards improving visual acuity in artificially-restored vision using anisotropic phosphenes.",
+      "published": "2026-06-02",
+      "url": "https://arxiv.org/abs/2606.03118",
+      "pdf": "https://arxiv.org/pdf/2606.03118",
+      "categories": [
+        "cs.LG",
+        "cs.CV",
+        "q-bio.NC"
+      ],
+      "matched": [
+        "visual acuity",
+        "psychophysic"
+      ],
+      "score": 27,
+      "comment": "18 pages, 6 figures. Published version: Biomed. Phys. Eng. Express 10, 025006 (2024)",
+      "isNew": false
+    }
+  ],
+  "notes": [
+    "317 篇候选，其中 118 篇在最近 180 天内",
+    "118 篇符合条件，按分数取前 15 篇",
+    "其中 3 篇是首次出现"
+  ]
+}
