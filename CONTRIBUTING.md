@@ -147,6 +147,48 @@ id 重复会**直接构建失败**——因为两张卡共用一份进度是静�
 
 在 `_glossary.yml` 里但没被任何笔记用到的术语，构建时给个警告（不阻断）——预置词汇是允许的。
 
+## 算法演示
+
+网页内嵌的步进式演示（[实例：基数排序](content/cs/algorithms/radix-sort.md)）：
+
+````markdown
+::::demo{title="LSD 基数排序"}
+
+:::step{caption="初始数组"}
+::array{values="170 45 75 90"}
+
+每步都是**完整的 markdown** —— 公式 $O(d(n+k))$、代码块、表格都能用。
+:::
+
+:::step{caption="按个位分桶"}
+::array{values="170 90" label="桶 0" highlight="0 1"}
+::array{values="45 75" label="桶 5" highlight="0 1"}
+:::
+
+::::
+````
+
+规则：
+
+- `::::demo` 四冒号，`:::step` 三冒号（同卡片，remark-directive 的嵌套规则）。
+- `demo` 里除了 `step` 之外的内容会被丢弃——散落的正文会在每一步下面都出现，读起来像是每步的一部分。
+- 没有 `step` 的 `demo`、没有 `values` 的 `array`，都会构建失败。
+
+### `::array` 参数
+
+| 参数 | 作用 |
+|---|---|
+| `values` | 必填。空格或逗号分隔 |
+| `highlight` | 下标，高亮成蓝色（从 0 开始） |
+| `dim` | 下标，淡化 |
+| `label` | 左侧标签，如「个位」「桶 0」 |
+
+### 为什么不是 Manim
+
+Manim 渲染的是**视频**：CI 里要装 Python + cairo + ffmpeg（官方 action 光装依赖就 ~4 分钟），产物是几 MB 的二进制文件进仓库，部署从 30 秒变成好几分钟。而笔记真正需要的是「能一步步看懂」，幻灯片就够了——而且每步是 markdown，公式和代码直接复用现成管道。
+
+**所有步骤都在静态 HTML 里**，`DemoPlayer` 挂载后才逐步显示。所以关掉 JS 整个演示仍然可读，搜索索引也能看到全部内容——换成 canvas 动画或视频，这两点都做不到。
+
 ## Wiki 链接
 
 ```markdown
