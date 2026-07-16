@@ -380,7 +380,7 @@
       ],
       "score": 21,
       "comment": "",
-      "isNew": true,
+      "isNew": false,
       "citedBy": 139,
       "kind": "classic"
     },
@@ -407,7 +407,7 @@
       ],
       "score": 19,
       "comment": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017",
-      "isNew": true,
+      "isNew": false,
       "citedBy": 62,
       "kind": "classic"
     },
@@ -437,13 +437,12 @@
       ],
       "score": 16,
       "comment": "",
-      "isNew": true,
+      "isNew": false,
       "citedBy": 60,
       "kind": "classic"
     }
   ],
   "notes": [
-    "384 篇候选：近期相关 118 篇取 12，经典（>30 被引）5 篇混入 3",
-    "其中 3 篇是首次出现"
+    "384 篇候选：近期相关 118 篇取 12，经典（>30 被引）5 篇混入 3"
   ]
 }
