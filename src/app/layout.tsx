@@ -13,14 +13,15 @@ export const metadata: Metadata = {
   description: '数学、物理、计算机与图形学的个人知识库，含间隔重复与论文笔记。',
 }
 
-// Entries land as their phase does — a nav link to a route that does not exist
-// yet is a 404 under `output: 'export'`, not a graceful fallback. P5 adds /search/.
+// A nav link to a route that does not exist is a 404 under `output: 'export'`,
+// not a graceful fallback — entries land only once their page does.
 const NAV = [
   { href: '/notes/', label: '笔记' },
   { href: '/cards/', label: '复习' },
   { href: '/papers/', label: '论文' },
   { href: '/arxiv/', label: 'arXiv' },
   { href: '/glossary/', label: '术语' },
+  { href: '/search/', label: '搜索' },
 ]
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

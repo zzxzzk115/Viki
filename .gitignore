@@ -8,5 +8,10 @@ next-env.d.ts
 .generated/
 public/data/
 
+# The paper feed lives on the orphan `data` branch, not on master: the cron
+# rewrites it daily and 365 bot commits a year would bury the content commits.
+# Fetch it with `pnpm data:pull` before building locally.
+data/
+
 .DS_Store
 .env*.local

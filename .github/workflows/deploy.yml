@@ -26,6 +26,17 @@ jobs:
       NEXT_PUBLIC_BASE_PATH: /Viki
     steps:
       - uses: actions/checkout@v7
+
+      # The paper feed lives on the orphan `data` branch so the cron's daily
+      # commits stay out of master's history. Without this the build still
+      # succeeds and /arxiv silently renders empty — so it is fetched
+      # unconditionally rather than treated as optional.
+      - name: Fetch data branch
+        run: |
+          git fetch --depth=1 origin data
+          git checkout origin/data -- data
+          echo "feed: $(cat data/papers/latest.json | head -c 60)…"
+
       - uses: pnpm/action-setup@v6
       - uses: actions/setup-node@v7
         with:

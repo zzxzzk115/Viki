@@ -21,6 +21,15 @@ jobs:
       changed: ${{ steps.commit.outputs.changed }}
     steps:
       - uses: actions/checkout@v7
+
+      # The feed lives on the orphan `data` branch, not master: a daily bot
+      # commit would otherwise bury the content commits and collide with any
+      # edit made while the cron runs.
+      - name: Check out data branch into data/
+        run: |
+          git fetch --depth=1 origin data
+          git checkout origin/data -- data
+
       - uses: pnpm/action-setup@v6
       - uses: actions/setup-node@v7
         with:
@@ -33,26 +42,35 @@ jobs:
         # page. The script keeps the previous latest.json and exits 0.
         run: pnpm papers
 
-      - name: Commit
+      - name: Commit to data branch
         id: commit
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/papers
+
+          # Stage data/ against the data branch, leaving master untouched.
+          # A worktree keeps this from disturbing the checked-out master tree.
+          git fetch --depth=1 origin data
+          git worktree add ../data-branch origin/data
+          rm -rf ../data-branch/data
+          cp -r data ../data-branch/data
+          cd ../data-branch
+
+          git add data
           if git diff --staged --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "没有变化，跳过部署"
           else
             git commit -m "chore(papers): $(date -u +%F)"
-            git push
+            git push origin HEAD:data
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
   # A push made with the repo GITHUB_TOKEN does NOT trigger workflows, so the
   # commit above will never fire deploy.yml on its own. Without this explicit
-  # call the JSON would land in git and the site would silently never update —
-  # nothing errors, so it would go unnoticed for weeks. deploy.yml exposes
-  # workflow_call for exactly this.
+  # call the JSON would land on the data branch and the site would silently
+  # never update — nothing errors, so it would go unnoticed for weeks.
+  # deploy.yml exposes workflow_call for exactly this.
   redeploy:
     needs: fetch
     if: needs.fetch.outputs.changed == 'true'

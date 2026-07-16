@@ -17,6 +17,7 @@ import matter from 'gray-matter'
 import { z } from 'zod'
 import { resolveIcon } from '../src/lib/icons'
 import { countWords, render, renderFragment } from '../src/lib/pipeline'
+import { createIndex, type SearchDoc } from '../src/lib/search'
 import { hashSlug } from '../src/lib/slug'
 import {
   Glossary,
@@ -300,10 +301,42 @@ async function main() {
   await writeFile(join(GENERATED, 'backlinks.json'), JSON.stringify(backlinks))
   await writeFile(join(GENERATED, 'terms.json'), JSON.stringify(terms))
 
+  // Search index. Built here so the client never sees the corpus — it fetches
+  // the prebuilt index only when the search UI opens.
+  const searchDocs: SearchDoc[] = [
+    ...notes.map(
+      (n): SearchDoc => ({
+        id: n.slug,
+        title: n.meta.title,
+        subject: n.subject,
+        level: n.meta.level,
+        tags: n.meta.tags,
+        summary: n.meta.summary ?? '',
+        text: n.text,
+        href: n.href,
+        kind: 'note',
+      }),
+    ),
+    ...papers.map(
+      (p): SearchDoc => ({
+        id: p.slug,
+        title: p.meta.title,
+        subject: '',
+        level: 'advanced',
+        tags: [...p.meta.tags, p.meta.venue, String(p.meta.year), ...p.meta.authors],
+        summary: p.meta.summary ?? '',
+        text: p.text,
+        href: p.href,
+        kind: 'paper',
+      }),
+    ),
+  ]
+
   // public/data is browser-fetched at runtime. Never import these from a client
   // component: Next inlines imported JSON, so the bundle would grow with the KB.
   await writeFile(join(PUBLIC_DATA, 'cards.json'), JSON.stringify(allCards))
   await writeFile(join(PUBLIC_DATA, 'notes-index.json'), JSON.stringify(noteIndex))
+  await writeFile(join(PUBLIC_DATA, 'search.json'), JSON.stringify(createIndex(searchDocs)))
 
   if (warnings.length) {
     console.warn(`\n⚠ ${warnings.length} 个失效的 wiki-link (页面会标红，不阻断构建):`)
