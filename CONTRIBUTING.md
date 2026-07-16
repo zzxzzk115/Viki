@@ -184,14 +184,22 @@ order: 1                      # 排序，越小越靠前，默认 99
 
 要用别的图标集，`pnpm add -D @iconify-json/<集名>` 然后在 [src/lib/icons.ts](src/lib/icons.ts) 的 `SETS` 里加一行。**不要**装全量的 `@iconify/json`，那是 417MB。
 
+## 搜索
+
+搜索索引在构建时生成，用 `Intl.Segmenter` 分中文词。中文没有空格，minisearch 的默认分词器会把「辐射亮度沿真空中的光线传播不变」当成**一个 token**，搜什么都是零结果——这条实测过。
+
+术语的英文和缩写会拼进所在笔记的搜索文本，所以**搜 `radiance` 或 `SVD` 能找到从没写过这些字母的中文笔记**。论文额外可按会议、年份、作者搜。
+
 ## 本地跑
 
 ```bash
+pnpm data:pull    # 拉 arXiv feed（在 data 分支上，不拉也能构建，只是 /arxiv 为空）
 pnpm dev          # http://localhost:3000/Viki/
 pnpm content      # 只重建内容索引
-pnpm test         # SM-2 单测
+pnpm test         # 单测：SM-2 / 术语 / 搜索 / basePath
 pnpm check        # 类型检查
-pnpm build        # 完整静态导出到 out/
+pnpm build        # 内容 → 静态导出 → 死链检查
+pnpm papers:dry   # 试跑 arXiv 抓取，只打印不写文件
 ```
 
 `pnpm dev` **不会**在你改 markdown 时自动重建索引（内容管道是独立的 CLI 步骤，不是 bundler 插件）。改了内容另开一个终端跑：
