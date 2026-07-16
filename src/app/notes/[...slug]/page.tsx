@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { DemoPlayer } from '@/components/demo-player'
+import { EditOnGitHub } from '@/components/edit-on-github'
 import { Icon } from '@/components/icon'
 import { LevelBadge } from '@/components/level-badge'
 import { getBacklinks, getNote, getNoteIndex, getSubjects } from '@/lib/content'
@@ -104,6 +105,10 @@ export default async function NotePage({ params }: Props) {
               </ul>
             </section>
           )}
+
+          <div className="mt-12 border-t border-neutral-200 pt-6 dark:border-neutral-800">
+            <EditOnGitHub path={note.sourcePath} />
+          </div>
         </article>
 
         {note.toc.length > 0 && <Toc toc={note.toc} />}

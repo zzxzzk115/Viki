@@ -244,6 +244,7 @@ async function main() {
       cards,
       links: r.links,
       terms: r.terms,
+      sourcePath: `content/${p.rel}`,
     }
 
     if (isPaper) {

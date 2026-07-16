@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
+import { EditOnGitHub } from '@/components/edit-on-github'
 import { getBacklinks, getNoteIndex, getPaper, getPaperIndex } from '@/lib/content'
 import type { TocEntry } from '@/lib/schema'
 
@@ -106,6 +107,10 @@ export default async function PaperPage({ params }: Props) {
               </ul>
             </section>
           )}
+
+          <div className="mt-12 border-t border-neutral-200 pt-6 dark:border-neutral-800">
+            <EditOnGitHub path={paper.sourcePath} />
+          </div>
         </article>
 
         {paper.toc.length > 0 && <Toc toc={paper.toc} />}

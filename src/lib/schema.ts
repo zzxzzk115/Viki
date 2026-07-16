@@ -131,6 +131,9 @@ export interface Note {
   /** Glossary keys used, in first-use order. */
   terms: string[]
   wordCount: number
+  /** Repo-relative source path, e.g. 'content/cs/rendering/brdf.md', for the
+   *  "edit on GitHub" link. */
+  sourcePath: string
 }
 
 export interface Paper {
@@ -143,6 +146,7 @@ export interface Paper {
   cards: Card[]
   links: string[]
   terms: string[]
+  sourcePath: string
 }
 
 /** Body-less note record for list pages and the client-side filter UI. */
