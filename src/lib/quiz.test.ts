@@ -3,19 +3,18 @@ import { describe, it } from 'node:test'
 import type { Card, Glossary } from './schema'
 import {
   BLANK_MARKER,
-  blankTermSpan,
   buildChoiceQuestion,
   buildClozeQuestion,
   buildSession,
   checkCloze,
-  extractTerms,
+  findBlankables,
   gradeFor,
 } from './quiz'
 
-const card = (id: string, answer: string, note = `s/${id}`): Card => ({
+const card = (id: string, answer: string, quiz?: Card['quiz']): Card => ({
   id,
-  noteSlug: note,
-  noteHref: `/notes/${note}/`,
+  noteSlug: `s/${id}`,
+  noteHref: `/notes/s/${id}/`,
   anchor: '',
   noteTitle: id,
   subject: 'cs',
@@ -23,6 +22,7 @@ const card = (id: string, answer: string, note = `s/${id}`): Card => ({
   tags: [],
   questionHtml: `<p>Q-${id}?</p>`,
   answerHtml: answer,
+  quiz,
 })
 
 // The real shape the pipeline emits: term-en nested INSIDE the term span.
@@ -32,6 +32,8 @@ const TERM_HTML =
 const glossary: Glossary = {
   辐射亮度: { en: 'radiance', def: '沿光线不变', abbr: undefined, aka: ['亮度'], see: undefined },
 }
+
+const QUIZ = { correct: '对的表述', distractors: ['错 1', '错 2', '错 3'] }
 
 const seq = (...vals: number[]) => {
   let i = 0
@@ -47,79 +49,63 @@ describe('gradeFor', () => {
   })
 })
 
-describe('buildChoiceQuestion', () => {
-  // Same note => on-topic by construction; questions build from these.
-  const pool = [
-    card('a', '<p>答案A</p>', 'shared'),
-    card('b', '<p>答案B</p>', 'shared'),
-    card('c', '<p>答案C</p>', 'shared'),
-    card('d', '<p>答案D</p>', 'shared'),
-    card('e', '<p>答案E</p>', 'shared'),
-  ]
-
-  it('四个选项、correctIndex 指向真答案', () => {
-    const q = buildChoiceQuestion(pool[0], pool, seq(0.1, 0.5, 0.9, 0.3))!
-    assert.equal(q.options.length, 4)
-    assert.equal(q.options[q.correctIndex], '答案A')
-  })
-
-  it('干扰项不含正确答案、互不重复', () => {
-    const dup = [...pool, card('f', '<p>答案A</p>', 'shared')] // same text as the right answer
-    for (let s = 0; s < 20; s++) {
-      const q = buildChoiceQuestion(dup[0], dup, seq(s / 20, 0.4, 0.7))!
-      const others = q.options.filter((_, i) => i !== q.correctIndex)
-      assert.ok(!others.includes('答案A'), '干扰项混入了正确答案')
-      assert.equal(new Set(q.options).size, 4, '选项重复')
+describe('buildChoiceQuestion（选项来自卡片自己的 :::quiz，不再采集其他卡）', () => {
+  it('4 个选项、correctIndex 指向正确项', () => {
+    for (let s = 0; s < 10; s++) {
+      const q = buildChoiceQuestion(card('a', '<p>x</p>', QUIZ), seq(s / 10, 0.4, 0.8))!
+      assert.equal(q.options.length, 4)
+      assert.equal(q.options[q.correctIndex], '对的表述')
+      assert.deepEqual([...q.options].sort(), ['对的表述', '错 1', '错 2', '错 3'])
     }
   })
 
-  it('干扰项不足 3 个 -> null（两个选项是抛硬币不是题）', () => {
-    const tiny = [card('a', '<p>x</p>', 'shared'), card('b', '<p>y</p>', 'shared')]
-    assert.equal(buildChoiceQuestion(tiny[0], tiny), null)
-  })
-
-  it('同笔记的干扰项优先于不相关的卡', () => {
-    const mixed = [...pool, card('x', '<p>毫无关联的另一个领域的答案X</p>', 'far/away')]
-    const q = buildChoiceQuestion(mixed[0], mixed, seq(0.01))!
-    const others = q.options.filter((_, i) => i !== q.correctIndex)
-    assert.ok(!others.some((o) => o.includes('答案X')), '同笔记够用时不该抽不相关的卡')
-  })
-
-  it('主题相关的干扰项不足 2 个 -> null（送分题不如不出）', () => {
-    // One same-note sibling + two cards with zero lexical overlap: the two
-    // strays would visibly answer different questions, giving the answer away.
-    const giveaway = [
-      card('a', '<p>按位分桶保持相对顺序</p>', 'sort'),
-      card('b', '<p>低位在前逐位处理</p>', 'sort'),
-      card('x', '<p>光栅化吞吐要求极高</p>', 'gfx'),
-      card('y', '<p>特征向量构成正交基</p>', 'la'),
-    ]
-    assert.equal(buildChoiceQuestion(giveaway[0], giveaway), null)
-  })
-
-  it('跨笔记但文本高度相关的卡可以当干扰项', () => {
-    const related = [
-      card('a', '<p>虚函数通过虚表指针间接调用实现多态</p>', 'cpp/a'),
-      card('b', '<p>虚表指针在构造函数里被逐层设置</p>', 'cpp/b'),
-      card('c', '<p>虚函数的虚表在编译期生成每类一份</p>', 'cpp/c'),
-      card('d', '<p>析构函数是虚函数时删除指针才安全</p>', 'cpp/d'),
-    ]
-    const q = buildChoiceQuestion(related[0], related, seq(0.2, 0.6, 0.4))
-    assert.ok(q, '高相似度的跨笔记卡应该够出题')
+  it('没有 :::quiz 块 -> null', () => {
+    assert.equal(buildChoiceQuestion(card('a', '<p>x</p>')), null)
   })
 })
 
-describe('cloze', () => {
-  it('extractTerms 找到 data-term', () => {
-    assert.deepEqual(extractTerms(TERM_HTML), ['辐射亮度'])
+describe('findBlankables（术语 + 加粗关键词）', () => {
+  it('术语 span 可挖，accepted 含中英/别名', () => {
+    const bs = findBlankables(TERM_HTML, glossary)
+    assert.equal(bs.length, 1)
+    assert.equal(bs[0].kind, 'term')
+    assert.deepEqual(bs[0].accepted, ['辐射亮度', 'radiance', '亮度'])
   })
 
-  it('挖空替换整个 term span（含嵌套的 term-en）', () => {
-    const blanked = blankTermSpan(TERM_HTML, '辐射亮度')!
-    assert.ok(blanked.includes(BLANK_MARKER))
-    assert.ok(!blanked.includes('辐射亮度'), '中文术语泄漏')
-    assert.ok(!blanked.includes('radiance'), '嵌套的英文标注泄漏——正好是答案！')
-    assert.ok(blanked.includes('渲染方程用') && blanked.includes('表示。'), '周围文本保留')
+  it('加粗关键词可挖，accepted 是其文本', () => {
+    const bs = findBlankables('<p>开销是 <strong>无法内联</strong>，别的都是小头。</p>', {})
+    assert.equal(bs.length, 1)
+    assert.equal(bs[0].kind, 'keyword')
+    assert.deepEqual(bs[0].accepted, ['无法内联'])
+  })
+
+  it('文本出现多于一次的关键词不挖（挖一处、另一处漏答案）', () => {
+    const bs = findBlankables('<p><strong>基类</strong>的构造先跑，基类部分先完成。</p>', {})
+    assert.equal(bs.length, 0)
+  })
+
+  it('过长的加粗（整句）不挖', () => {
+    const bs = findBlankables(`<p><strong>${'长'.repeat(30)}</strong></p>`, {})
+    assert.equal(bs.length, 0)
+  })
+
+  it('包住术语 span 的加粗跳过（术语路径的 accepted 更全）', () => {
+    const html = `<p><strong>${TERM_HTML.slice(3, -4)}</strong></p>`
+    const bs = findBlankables(html, glossary)
+    assert.deepEqual(
+      bs.map((b) => b.kind),
+      ['term'],
+    )
+  })
+})
+
+describe('buildClozeQuestion', () => {
+  it('挖掉整个 term span（含嵌套的英文标注），周围文本保留', () => {
+    const q = buildClozeQuestion(card('a', TERM_HTML), glossary, seq(0))!
+    assert.ok(q.blankedHtml.includes(BLANK_MARKER))
+    assert.ok(!q.blankedHtml.includes('辐射亮度'), '中文术语泄漏')
+    assert.ok(!q.blankedHtml.includes('radiance'), '嵌套的英文标注泄漏——正好是答案！')
+    assert.ok(q.blankedHtml.includes('渲染方程用') && q.blankedHtml.includes('表示。'))
   })
 
   it('接受 中文/英文/别名，大小写与空白归一', () => {
@@ -130,33 +116,41 @@ describe('cloze', () => {
     assert.ok(!checkCloze('辐照度', q.accepted))
   })
 
-  it('无术语的卡 -> null', () => {
-    assert.equal(buildClozeQuestion(card('a', '<p>plain</p>'), glossary), null)
+  it('挖加粗关键词时 blanked 不再含该词', () => {
+    const q = buildClozeQuestion(card('a', '<p>贵在 <strong>无法内联</strong> 这一点。</p>'), {}, seq(0))!
+    assert.ok(!q.blankedHtml.includes('无法内联'))
+    assert.ok(checkCloze('无法内联', q.accepted))
   })
 
-  it('span 未闭合 -> null 而非错误输出', () => {
-    assert.equal(blankTermSpan('<span class="term" data-term="x">broken', 'x'), null)
+  it('无可挖内容的卡 -> null', () => {
+    assert.equal(buildClozeQuestion(card('a', '<p>plain</p>'), glossary), null)
   })
 })
 
 describe('buildSession', () => {
   const pool = [
-    card('a', TERM_HTML, 'shared'),
-    card('b', '<p>答案B</p>', 'shared'),
-    card('c', '<p>答案C</p>', 'shared'),
-    card('d', '<p>答案D</p>', 'shared'),
-    card('e', '<p>答案E</p>', 'shared'),
+    card('a', TERM_HTML), // cloze only
+    card('b', '<p>答案B</p>', QUIZ), // choice only
+    card('c', '<p>答案C <strong>关键词C</strong></p>', QUIZ), // both
+    card('d', '<p>答案D</p>'), // neither — not quizzable
+    card('e', '<p>答案E</p>', QUIZ),
   ]
 
-  it('生成 n 题，到期优先', () => {
-    const qs = buildSession(pool, new Set(['c']), new Set(['a']), glossary, 3, seq(0.9, 0.2, 0.6))
-    assert.equal(qs.length, 3)
+  it('生成 n 题，到期优先，不可出题的卡被跳过', () => {
+    const qs = buildSession(pool, new Set(['c']), new Set(['a']), glossary, 10, seq(0.9, 0.2, 0.6))
     assert.equal(qs[0].card.id, 'c', '到期卡应排第一')
+    assert.ok(!qs.some((q) => q.card.id === 'd'), '无 quiz 也无关键词的卡不该出题')
+    assert.equal(qs.length, 4)
   })
 
   it('池子小于 n 时不重复出题', () => {
     const qs = buildSession(pool, new Set(), new Set(), glossary, 10, seq(0.3, 0.8))
-    assert.ok(qs.length <= pool.length)
     assert.equal(new Set(qs.map((q) => q.card.id)).size, qs.length)
+  })
+
+  it('两种题型都会出现（有 quiz 的出选择、有术语的出填空）', () => {
+    const qs = buildSession(pool, new Set(), new Set(), glossary, 10, seq(0.1, 0.6, 0.3, 0.8))
+    const modes = new Set(qs.map((q) => q.mode))
+    assert.ok(modes.has('choice') && modes.has('cloze'))
   })
 })

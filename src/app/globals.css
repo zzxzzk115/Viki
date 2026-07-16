@@ -51,6 +51,50 @@ pre[data-theme] {
   border-radius: 0.25rem;
 }
 
+/* ---- copy button (CopyCode injects into every visible pre) ---- */
+
+/* Zero-height sticky row: pinned to the scrollport while long lines scroll
+   under it. width:auto of a block child is the pre's visible content width,
+   not the overflowed text width, which is exactly what sticky needs. */
+.code-copy-row {
+  position: sticky;
+  left: 0;
+  display: block;
+  height: 0;
+}
+
+.code-copy {
+  position: absolute;
+  top: -0.4rem;
+  right: 0;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.375rem;
+  font-size: 0.6875rem;
+  font-family: var(--font-sans);
+  color: var(--color-neutral-400);
+  background: color-mix(in oklab, var(--color-neutral-100) 85%, transparent);
+  opacity: 0.7;
+  transition: opacity 0.15s, color 0.15s;
+  cursor: pointer;
+}
+
+.code-copy:hover,
+.code-copy.is-done {
+  opacity: 1;
+  color: var(--color-neutral-700);
+}
+
+@media (prefers-color-scheme: dark) {
+  .code-copy {
+    color: var(--color-neutral-500);
+    background: color-mix(in oklab, var(--color-neutral-800) 85%, transparent);
+  }
+  .code-copy:hover,
+  .code-copy.is-done {
+    color: var(--color-neutral-200);
+  }
+}
+
 /* Long equations must scroll inside their own box; the page body must not. */
 .katex-display {
   overflow-x: auto;

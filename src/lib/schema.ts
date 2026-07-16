@@ -131,6 +131,12 @@ export interface Card {
   tags: string[]
   questionHtml: string
   answerHtml: string
+  /**
+   * Authored multiple-choice options (rendered HTML), from the card's
+   * :::quiz block. Absent when the author wrote none — the card is then
+   * quizzable only as cloze (if it has blankable keywords) or as a flip card.
+   */
+  quiz?: { correct: string; distractors: string[] }
 }
 
 export interface Note {

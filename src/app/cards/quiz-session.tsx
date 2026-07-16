@@ -17,10 +17,12 @@ interface Answered {
 
 /**
  * 刷题 mode: a 10-question run of choice/cloze questions built from the card
- * pool (due first, then new). Every answer writes through to the SM-2 store
- * with the agreed mapping (choice-correct=3, cloze-correct=5, wrong=0), so
- * drilling advances the review schedule instead of living beside it; accuracy
- * and the day-streak go to the separate quiz store.
+ * pool (due first, then new). Choice options are the card's own :::quiz
+ * block (authored, short, shown in full — never harvested from other cards);
+ * cloze blanks a glossary term or a **bold** keyword. Every answer writes
+ * through to the SM-2 store with the agreed mapping (choice-correct=3,
+ * cloze-correct=5, wrong=0), so drilling advances the review schedule instead
+ * of living beside it; accuracy and the day-streak go to the quiz store.
  */
 export function QuizSession({ subject }: { subject?: string }) {
   const hydrated = useHydrated()
@@ -114,10 +116,10 @@ export function QuizSession({ subject }: { subject?: string }) {
     return <div className="min-h-64 animate-pulse rounded-xl border border-neutral-200 bg-neutral-50 dark:border-neutral-800 dark:bg-neutral-900" />
   }
   if (error) return <p className="text-sm text-red-600 dark:text-red-400">数据加载失败。</p>
-  if (pool.length < 4) {
+  if (pool.length === 0) {
     return (
       <p className="rounded-xl border border-dashed border-neutral-300 p-6 text-center text-sm text-neutral-500 dark:border-neutral-700">
-        这个范围的卡片不足 4 张，凑不出选择题——先去写点卡片吧。
+        这个范围还没有卡片——先去写点卡片吧。
       </p>
     )
   }
@@ -129,7 +131,7 @@ export function QuizSession({ subject }: { subject?: string }) {
       <div className="rounded-xl border border-neutral-200 p-8 text-center dark:border-neutral-800">
         <p className="text-lg font-medium">刷题闯关</p>
         <p className="mt-2 text-sm text-neutral-500">
-          {Math.min(SESSION_SIZE, pool.length)} 题 · 到期优先 · 选择题答对计「模糊」、填空答对计「记得」，直接推进记忆计划
+          最多 {Math.min(SESSION_SIZE, pool.length)} 题 · 到期优先 · 选择答对计「模糊」、关键词填空答对计「记得」，直接推进记忆计划
         </p>
         <p className="mt-1 text-xs text-neutral-400">
           待复习 {s.due} · 新卡 {s.fresh} · 连续刷题 {quizStats.streak.current} 天
@@ -142,6 +144,16 @@ export function QuizSession({ subject }: { subject?: string }) {
           开始
         </button>
       </div>
+    )
+  }
+
+  // Built nothing: no card in range has authored options or blankable keywords.
+  if (session.length === 0) {
+    return (
+      <p className="rounded-xl border border-dashed border-neutral-300 p-6 text-center text-sm text-neutral-500 dark:border-neutral-700">
+        这个范围的卡片都还没法出题——给卡片加 :::quiz 选项，或在答案里用 :term
+        术语 / **加粗** 标出关键词。翻卡模式不受影响。
+      </p>
     )
   }
 
@@ -213,7 +225,8 @@ export function QuizSession({ subject }: { subject?: string }) {
                   }}
                   className={`block w-full rounded-lg border px-4 py-2.5 text-left text-sm transition ${cls}`}
                 >
-                  {opt}
+                  {/* Authored options are short statements — always shown in full. */}
+                  <span dangerouslySetInnerHTML={{ __html: opt }} />
                 </button>
               )
             })}
@@ -236,7 +249,7 @@ export function QuizSession({ subject }: { subject?: string }) {
                 value={clozeInput}
                 onChange={(e) => setClozeInput(e.target.value)}
                 disabled={revealed}
-                placeholder="填入被挖掉的术语（中文或英文）"
+                placeholder="填入被挖掉的关键词（术语可用中文/英文/缩写）"
                 className="w-full rounded-lg border border-neutral-300 bg-transparent px-3 py-2 text-sm outline-none focus:border-neutral-500 disabled:opacity-60 dark:border-neutral-700"
               />
               <button

@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { CopyCode } from '@/components/copy-code'
 import { SearchDialog } from '@/components/search-dialog'
+import { SrsSyncAgent } from '@/components/srs-sync-agent'
 import { TermPopover } from '@/components/term-popover'
 // Root layout, not per-page: on client navigation a per-page import would let
 // equations flash unstyled before the sheet lands.
@@ -26,6 +28,7 @@ const NAV = [
   { href: '/arxiv/', label: 'arXiv' },
   { href: '/shaders/', label: 'Shader' },
   { href: '/glossary/', label: '术语' },
+  { href: '/settings/', label: '设置' },
 ]
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -53,6 +56,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="flex-1">{children}</div>
 
         <TermPopover />
+        {/* In the layout, not /cards: reviews happen inline on note pages too. */}
+        <SrsSyncAgent />
+        <CopyCode />
 
         <footer className="border-t border-neutral-200 py-8 text-center text-xs text-neutral-400 dark:border-neutral-800">
           <a

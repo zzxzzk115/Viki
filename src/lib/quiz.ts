@@ -2,15 +2,21 @@ import type { Card, Glossary } from './schema'
 import type { Grade } from './srs'
 
 /**
- * Quiz-question builders. Pure — the correctness of distractor picking,
- * cloze blanking and answer checking is unit-tested, because a quiz that
- * sometimes shows two right options or rejects a right answer teaches wrong.
+ * Quiz-question builders. Pure — option shuffling, blank picking and answer
+ * checking are unit-tested, because a quiz that leaks its own answer or
+ * rejects a right one teaches wrong.
+ *
+ * Choice options are AUTHORED (the card's :::quiz block), never harvested
+ * from other cards: pool-harvested distractors were tried and failed twice —
+ * options from unrelated notes are eliminable on style alone, and full-answer
+ * snippets truncate into unreadable options. Written distractors are short,
+ * parallel, and wrong in instructive ways.
  */
 
 export interface ChoiceQuestion {
   mode: 'choice'
   card: Card
-  /** Plain-text answer snippets, shuffled. */
+  /** Rendered-HTML options, shuffled. Short by construction — display in full. */
   options: string[]
   correctIndex: number
 }
@@ -18,27 +24,34 @@ export interface ChoiceQuestion {
 export interface ClozeQuestion {
   mode: 'cloze'
   card: Card
-  /** answerHtml with one term span replaced by a blank marker. */
+  /** answerHtml with one blankable region replaced by the blank marker. */
   blankedHtml: string
-  /** The blanked term (Chinese key). */
+  /** Display text of what was blanked, for the reveal line. */
   term: string
-  /** Normalized accepted answers: Chinese term, English, abbreviation, akas. */
+  /** Normalized accepted answers (中文/en/abbr/aka for terms; the text itself for keywords). */
   accepted: string[]
 }
 
 export type QuizQuestion = ChoiceQuestion | ClozeQuestion
 
-/** 打通但降档: recognition (choice) caps at 模糊, recall (cloze) earns 记得. */
+/** 打通但降档: recognizing (choice) caps at 模糊, recalling (cloze) earns 记得. */
 export function gradeFor(mode: 'choice' | 'cloze', correct: boolean): Grade {
   if (!correct) return 0
   return mode === 'choice' ? 3 : 5
+}
+
+/** Shuffles the authored options; null when the card has no :::quiz block. */
+export function buildChoiceQuestion(card: Card, random: () => number = Math.random): ChoiceQuestion | null {
+  if (!card.quiz) return null
+  const options = shuffle([card.quiz.correct, ...card.quiz.distractors], random)
+  return { mode: 'choice', card, options, correctIndex: options.indexOf(card.quiz.correct) }
 }
 
 export function stripHtml(html: string): string {
   return (
     html
       // KaTeX renders math twice (screen-reader MathML + visual layer);
-      // keeping both turns "$E$" into "E E E" in option text.
+      // keeping both turns "$E$" into "E E E" in extracted text.
       .replace(/<span class="katex-mathml">[\s\S]*?<\/math><\/span>/g, ' ')
       .replace(/<[^>]+>/g, ' ')
       .replace(/\s+/g, ' ')
@@ -46,113 +59,57 @@ export function stripHtml(html: string): string {
   )
 }
 
-/** Answer as an option label: plain text, capped so four fit on screen. */
-export function answerSnippet(card: Card, max = 120): string {
-  const t = stripHtml(card.answerHtml)
-  return t.length > max ? `${t.slice(0, max - 1)}…` : t
+/** One candidate region of the answer that can be blanked out. */
+export interface Blankable {
+  kind: 'term' | 'keyword'
+  /** For terms the glossary key (中文); for keywords the visible text. */
+  text: string
+  start: number
+  end: number
+  accepted: string[]
 }
 
 /**
- * Character-bigram overlap coefficient — cheap topical similarity that works
- * for Chinese (no word boundaries to tokenize on). Overlap (÷ smaller set)
- * rather than Dice (÷ sum) because option snippets are much shorter than the
- * question+answer text they are compared against.
- */
-export function textSimilarity(a: string, b: string): number {
-  const A = bigrams(a)
-  const B = bigrams(b)
-  if (A.size === 0 || B.size === 0) return 0
-  let inter = 0
-  for (const g of A) if (B.has(g)) inter++
-  return inter / Math.min(A.size, B.size)
-}
-
-function bigrams(s: string): Set<string> {
-  const t = s.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '')
-  const out = new Set<string>()
-  for (let i = 0; i < t.length - 1; i++) out.add(t.slice(i, i + 2))
-  return out
-}
-
-/** Minimum similarity for a cross-note distractor to count as on-topic. */
-const RELATED_SIM = 0.18
-
-/**
- * Multiple choice: the card's answer vs 3 distractor answers, most-topical
- * first. Same-note cards are on-topic by construction; everything else ranks
- * by lexical similarity to this card's question+answer. Subject alone proved
- * too coarse — 面试/cpp and 面试/graphics share a subject and nothing else,
- * and a 虚函数 option under a 渲染管线 question is a giveaway.
+ * Blankable regions: glossary-term spans (the pipeline's semantic markup —
+ * zero authoring cost) plus **bold** phrases — bold in an answer is the
+ * author already marking "this is the key point", which is exactly what a
+ * keyword cloze should ask for.
  *
- * Returns null when fewer than 3 distinct distractors exist (a 2-option
- * "quiz" is a coin flip) or fewer than 2 of them are on-topic (the stray
- * options visibly answer different questions, so the right one is free).
+ * A region whose visible text appears more than once in the answer is
+ * excluded: blanking one occurrence while the other stays visible hands the
+ * answer over. Same reason keywords longer than ~24 chars are skipped —
+ * that's a sentence, not a keyword, and nobody types it verbatim.
  */
-export function buildChoiceQuestion(
-  card: Card,
-  pool: Card[],
-  random: () => number = Math.random,
-): ChoiceQuestion | null {
-  const correct = answerSnippet(card)
-  const target = `${stripHtml(card.questionHtml)} ${stripHtml(card.answerHtml)}`
+export function findBlankables(html: string, glossary: Glossary): Blankable[] {
+  const out: Blankable[] = []
+  const plain = stripHtml(html)
+  const occursOnce = (text: string) => plain.split(text).length === 2
 
-  const candidates = pool.filter((c) => c.id !== card.id)
-  const sameNote = shuffle(
-    candidates.filter((c) => c.noteSlug === card.noteSlug),
-    random,
-  )
-  const rest = candidates
-    .filter((c) => c.noteSlug !== card.noteSlug)
-    .map((c) => ({ c, sim: textSimilarity(stripHtml(c.answerHtml), target) }))
-    .sort((a, b) => b.sim - a.sim)
-
-  const onTopic = new Set(sameNote.map((c) => c.id))
-  for (const { c, sim } of rest) if (sim >= RELATED_SIM) onTopic.add(c.id)
-
-  const ordered = [...sameNote, ...rest.map((r) => r.c)]
-  const distractors: string[] = []
-  let onTopicCount = 0
-  for (const c of ordered) {
-    const s = answerSnippet(c)
-    // A distractor equal to the right answer makes two correct options.
-    if (s === correct || distractors.includes(s)) continue
-    distractors.push(s)
-    if (onTopic.has(c.id)) onTopicCount++
-    if (distractors.length === 3) break
+  for (const m of html.matchAll(/data-term="([^"]+)"/g)) {
+    const term = m[1]
+    const start = html.lastIndexOf('<span', m.index)
+    if (start === -1) continue
+    const end = scanElement(html, start, 'span')
+    if (end === null || !occursOnce(term)) continue
+    const g = glossary[term]
+    const accepted = [term, g?.en, g?.abbr, ...(g?.aka ?? [])]
+      .filter((s): s is string => !!s)
+      .map(normalizeAnswer)
+    out.push({ kind: 'term', text: term, start, end, accepted: [...new Set(accepted)] })
   }
-  if (distractors.length < 3 || onTopicCount < 2) return null
 
-  const options = shuffle([correct, ...distractors], random)
-  return { mode: 'choice', card, options, correctIndex: options.indexOf(correct) }
-}
+  for (const m of html.matchAll(/<strong[\s>]/g)) {
+    const start = m.index
+    const end = scanElement(html, start, 'strong')
+    if (end === null) continue
+    const inner = html.slice(html.indexOf('>', start) + 1, end - '</strong>'.length)
+    if (inner.includes('class="term')) continue // the term path covers it, with better accepted answers
+    const text = stripHtml(inner)
+    if (text.length < 2 || text.length > 24 || !occursOnce(text)) continue
+    out.push({ kind: 'keyword', text, start, end, accepted: [normalizeAnswer(text)] })
+  }
 
-/**
- * Cloze: blank one glossary-term span out of the answer. The term spans are
- * semantic markup the pipeline already emits (`<span class="term"
- * data-term="中文">中文<span class="term-en"> (english)</span></span>`), so
- * cloze needs no authoring syntax at all.
- *
- * Blanking walks span nesting by depth — the term-en child means a regex
- * cannot find the matching close tag reliably (measured twice this codebase).
- */
-export function buildClozeQuestion(
-  card: Card,
-  glossary: Glossary,
-  random: () => number = Math.random,
-): ClozeQuestion | null {
-  const terms = extractTerms(card.answerHtml)
-  if (terms.length === 0) return null
-  const term = terms[Math.floor(random() * terms.length)]
-
-  const blankedHtml = blankTermSpan(card.answerHtml, term)
-  if (!blankedHtml) return null
-
-  const g = glossary[term]
-  const accepted = [term, g?.en, g?.abbr, ...(g?.aka ?? [])]
-    .filter((s): s is string => !!s)
-    .map(normalizeAnswer)
-
-  return { mode: 'cloze', card, blankedHtml, term, accepted: [...new Set(accepted)] }
+  return out
 }
 
 export function checkCloze(input: string, accepted: string[]): boolean {
@@ -163,53 +120,33 @@ export function normalizeAnswer(s: string): string {
   return s.toLowerCase().replace(/\s+/g, ' ').trim()
 }
 
-/** Distinct data-term keys present in the HTML. */
-export function extractTerms(html: string): string[] {
-  const out = new Set<string>()
-  for (const m of html.matchAll(/data-term="([^"]+)"/g)) out.add(m[1])
-  return [...out]
-}
-
 export const BLANK_MARKER =
   '<span class="cloze-blank" aria-label="填空">____</span>'
 
-/**
- * Replaces the FIRST span carrying data-term="<term>" (including all nested
- * children) with the blank marker. Depth-counted scan, not a regex.
- * Returns null if the span is not found or is malformed.
- */
-export function blankTermSpan(html: string, term: string): string | null {
-  const attr = `data-term="${term}"`
-  const attrAt = html.indexOf(attr)
-  if (attrAt === -1) return null
-  const start = html.lastIndexOf('<span', attrAt)
-  if (start === -1) return null
-
-  let depth = 0
-  let i = start
-  while (i < html.length) {
-    const open = html.indexOf('<span', i)
-    const close = html.indexOf('</span>', i)
-    if (close === -1) return null // malformed
-    if (open !== -1 && open < close) {
-      depth++
-      i = open + 5
-    } else {
-      depth--
-      i = close + 7
-      if (depth === 0) {
-        return html.slice(0, start) + BLANK_MARKER + html.slice(i)
-      }
-    }
+/** Blank one randomly-chosen region; null when the card has nothing blankable. */
+export function buildClozeQuestion(
+  card: Card,
+  glossary: Glossary,
+  random: () => number = Math.random,
+): ClozeQuestion | null {
+  const blankables = findBlankables(card.answerHtml, glossary)
+  if (blankables.length === 0) return null
+  const b = blankables[Math.floor(random() * blankables.length)]
+  return {
+    mode: 'cloze',
+    card,
+    blankedHtml: card.answerHtml.slice(0, b.start) + BLANK_MARKER + card.answerHtml.slice(b.end),
+    term: b.text,
+    accepted: b.accepted,
   }
-  return null
 }
 
 /**
  * A quiz session: due cards first, then new, then already-reviewed as filler —
- * same priority as pickNext, but batched. Cloze when the card has terms and
- * the coin says so (recall practice is worth more), choice otherwise; falls
- * through to whichever mode is buildable.
+ * same priority as pickNext, but batched. A card with both authored options
+ * and blankable keywords alternates by coin flip (recall practice is worth
+ * more, but variety keeps sessions from feeling scripted); a card with
+ * neither is simply not quizzable — it still appears in 翻卡 mode.
  */
 export function buildSession(
   cards: Card[],
@@ -228,13 +165,40 @@ export function buildSession(
   const questions: QuizQuestion[] = []
   for (const card of ranked) {
     if (questions.length >= n) break
-    const preferCloze = extractTerms(card.answerHtml).length > 0 && random() < 0.5
+    const preferCloze = random() < 0.5
     const q = preferCloze
-      ? (buildClozeQuestion(card, glossary, random) ?? buildChoiceQuestion(card, cards, random))
-      : (buildChoiceQuestion(card, cards, random) ?? buildClozeQuestion(card, glossary, random))
+      ? (buildClozeQuestion(card, glossary, random) ?? buildChoiceQuestion(card, random))
+      : (buildChoiceQuestion(card, random) ?? buildClozeQuestion(card, glossary, random))
     if (q) questions.push(q)
   }
   return questions
+}
+
+/**
+ * Walks past nested same-tag elements to the matching close tag (a term-en
+ * span nests inside the term span — a regex cannot pair the close tag
+ * reliably; this codebase measured that twice). Returns the index just past
+ * the close tag, or null on malformed markup.
+ */
+function scanElement(html: string, openStart: number, tag: 'span' | 'strong'): number | null {
+  const openToken = `<${tag}`
+  const closeToken = `</${tag}>`
+  let depth = 0
+  let i = openStart
+  while (i < html.length) {
+    const open = html.indexOf(openToken, i)
+    const close = html.indexOf(closeToken, i)
+    if (close === -1) return null
+    if (open !== -1 && open < close) {
+      depth++
+      i = open + openToken.length
+    } else {
+      depth--
+      i = close + closeToken.length
+      if (depth === 0) return i
+    }
+  }
+  return null
 }
 
 function shuffle<T>(arr: T[], random: () => number): T[] {

@@ -29,7 +29,9 @@ export function ShaderPlayer() {
       block.dataset.wired = '1'
       const pre = block.querySelector('pre')
       if (!pre) continue
-      const source = pre.textContent ?? ''
+      // The <code> child, not the pre: CopyCode injects a button label into
+      // the pre, and "复制" is not valid GLSL.
+      const source = (pre.querySelector('code') ?? pre).textContent ?? ''
       const height = Number(block.dataset.height) || 260
 
       const down = mount(block, source, height)

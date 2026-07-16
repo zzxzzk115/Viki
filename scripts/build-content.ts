@@ -217,6 +217,16 @@ async function main() {
         renderFragment(raw.answer),
       ])
 
+      // Options render through the same pipeline (terms/math/code work), but
+      // as single statements they should be inline — drop the <p> wrapper.
+      const unwrap = (h: string) => h.trim().replace(/^<p>([\s\S]*)<\/p>$/, '$1')
+      const quiz = raw.quiz
+        ? {
+            correct: unwrap(await renderFragment(raw.quiz.correct)),
+            distractors: await Promise.all(raw.quiz.distractors.map(async (d) => unwrap(await renderFragment(d)))),
+          }
+        : undefined
+
       cards.push({
         id,
         noteSlug: p.slug,
@@ -228,6 +238,7 @@ async function main() {
         tags: meta.tags,
         questionHtml,
         answerHtml,
+        ...(quiz ? { quiz } : {}),
       })
     }
     allCards.push(...cards)

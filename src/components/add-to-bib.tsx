@@ -3,10 +3,11 @@
 import { useState } from 'react'
 import { appendBibEntry, bibHasArxivId, buildArxivBibEntry, type ArxivPaperRef } from '@/lib/bibtex'
 import { TOKEN_KEY, ghCommitFile, ghLoadFile } from '@/lib/github-edit'
+import { TokenQuickSet } from '@/components/token-settings'
 
 const BIB_PATH = 'scratch/related-work.bib'
 
-type State = 'idle' | 'busy' | 'done' | 'exists' | 'error'
+type State = 'idle' | 'busy' | 'done' | 'exists' | 'error' | 'need-token'
 
 /**
  * 「加入待读」on a feed paper: appends its BibTeX entry to the .bib and lets CI
@@ -30,8 +31,9 @@ export function AddToBib({ paper }: { paper: ArxivPaperRef }) {
       }
     })()
     if (!token) {
-      setState('error')
-      setMsg('需要 GitHub token——在任意笔记的「在线编辑」里配置一次即可')
+      // Inline quick-set: paste it here and the button works on the next
+      // click — no detour through /settings required.
+      setState('need-token')
       return
     }
     setState('busy')
@@ -76,6 +78,12 @@ export function AddToBib({ paper }: { paper: ArxivPaperRef }) {
         {state === 'busy' ? '提交中…' : '＋ 加入待读'}
       </button>
       {state === 'error' && <span className="text-xs text-red-600 dark:text-red-400">{msg}</span>}
+      {state === 'need-token' && (
+        <span className="inline-flex items-center gap-1.5 text-xs text-neutral-500">
+          需要 GitHub token（仅站主）
+          <TokenQuickSet onSaved={() => setState('idle')} />
+        </span>
+      )}
     </span>
   )
 }

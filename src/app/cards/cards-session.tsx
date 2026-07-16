@@ -6,6 +6,7 @@ import { ReviewCard } from '@/components/review-card'
 import type { Subject } from '@/lib/schema'
 import { QuizSession } from './quiz-session'
 import { StatsPanel } from './stats-panel'
+import { SyncStatus } from './sync-status'
 
 type Mode = 'flip' | 'quiz'
 
@@ -66,6 +67,7 @@ export function CardsSession({ subjects }: { subjects: Record<string, Subject> }
 
       <div className="mt-6">
         <StatsPanel subject={subject} />
+        <SyncStatus />
       </div>
     </>
   )
