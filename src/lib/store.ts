@@ -77,6 +77,10 @@ export function useSrsStore() {
       // Quota or private mode: the review still works for this session.
     }
     emit()
+    // Synthetic StorageEvent for listeners OUTSIDE this module's emit() set —
+    // the sync agent watches this key, and same-tab setItem never fires the
+    // real event (the spec fires it in other tabs only).
+    window.dispatchEvent(new StorageEvent('storage', { key: KEY }))
   }, [])
 
   return { store, save }

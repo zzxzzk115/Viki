@@ -96,6 +96,9 @@ export function useQuizStats() {
       localStorage.setItem(KEY, JSON.stringify(next))
     } catch {}
     emit()
+    // Same synthetic event as store.ts: the sync agent listens for this key;
+    // same-tab setItem never fires the real storage event.
+    window.dispatchEvent(new StorageEvent('storage', { key: KEY }))
   }, [])
 
   return { quizStats, saveQuizStats }
