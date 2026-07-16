@@ -35,10 +35,15 @@ export function gradeFor(mode: 'choice' | 'cloze', correct: boolean): Grade {
 }
 
 export function stripHtml(html: string): string {
-  return html
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim()
+  return (
+    html
+      // KaTeX renders math twice (screen-reader MathML + visual layer);
+      // keeping both turns "$E$" into "E E E" in option text.
+      .replace(/<span class="katex-mathml">[\s\S]*?<\/math><\/span>/g, ' ')
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+  )
 }
 
 /** Answer as an option label: plain text, capped so four fit on screen. */
@@ -48,9 +53,40 @@ export function answerSnippet(card: Card, max = 120): string {
 }
 
 /**
- * Multiple choice: the card's answer vs 3 distractor answers, same subject
- * preferred. Returns null when fewer than 3 distinct distractors exist — a
- * 2-option "quiz" is a coin flip, not a question.
+ * Character-bigram overlap coefficient — cheap topical similarity that works
+ * for Chinese (no word boundaries to tokenize on). Overlap (÷ smaller set)
+ * rather than Dice (÷ sum) because option snippets are much shorter than the
+ * question+answer text they are compared against.
+ */
+export function textSimilarity(a: string, b: string): number {
+  const A = bigrams(a)
+  const B = bigrams(b)
+  if (A.size === 0 || B.size === 0) return 0
+  let inter = 0
+  for (const g of A) if (B.has(g)) inter++
+  return inter / Math.min(A.size, B.size)
+}
+
+function bigrams(s: string): Set<string> {
+  const t = s.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '')
+  const out = new Set<string>()
+  for (let i = 0; i < t.length - 1; i++) out.add(t.slice(i, i + 2))
+  return out
+}
+
+/** Minimum similarity for a cross-note distractor to count as on-topic. */
+const RELATED_SIM = 0.18
+
+/**
+ * Multiple choice: the card's answer vs 3 distractor answers, most-topical
+ * first. Same-note cards are on-topic by construction; everything else ranks
+ * by lexical similarity to this card's question+answer. Subject alone proved
+ * too coarse — 面试/cpp and 面试/graphics share a subject and nothing else,
+ * and a 虚函数 option under a 渲染管线 question is a giveaway.
+ *
+ * Returns null when fewer than 3 distinct distractors exist (a 2-option
+ * "quiz" is a coin flip) or fewer than 2 of them are on-topic (the stray
+ * options visibly answer different questions, so the right one is free).
  */
 export function buildChoiceQuestion(
   card: Card,
@@ -58,23 +94,33 @@ export function buildChoiceQuestion(
   random: () => number = Math.random,
 ): ChoiceQuestion | null {
   const correct = answerSnippet(card)
+  const target = `${stripHtml(card.questionHtml)} ${stripHtml(card.answerHtml)}`
 
   const candidates = pool.filter((c) => c.id !== card.id)
-  // Same-subject distractors are harder (plausible domain); top up from the rest.
-  const ordered = [
-    ...shuffle(candidates.filter((c) => c.subject === card.subject), random),
-    ...shuffle(candidates.filter((c) => c.subject !== card.subject), random),
-  ]
+  const sameNote = shuffle(
+    candidates.filter((c) => c.noteSlug === card.noteSlug),
+    random,
+  )
+  const rest = candidates
+    .filter((c) => c.noteSlug !== card.noteSlug)
+    .map((c) => ({ c, sim: textSimilarity(stripHtml(c.answerHtml), target) }))
+    .sort((a, b) => b.sim - a.sim)
 
+  const onTopic = new Set(sameNote.map((c) => c.id))
+  for (const { c, sim } of rest) if (sim >= RELATED_SIM) onTopic.add(c.id)
+
+  const ordered = [...sameNote, ...rest.map((r) => r.c)]
   const distractors: string[] = []
+  let onTopicCount = 0
   for (const c of ordered) {
     const s = answerSnippet(c)
     // A distractor equal to the right answer makes two correct options.
     if (s === correct || distractors.includes(s)) continue
     distractors.push(s)
+    if (onTopic.has(c.id)) onTopicCount++
     if (distractors.length === 3) break
   }
-  if (distractors.length < 3) return null
+  if (distractors.length < 3 || onTopicCount < 2) return null
 
   const options = shuffle([correct, ...distractors], random)
   return { mode: 'choice', card, options, correctIndex: options.indexOf(correct) }

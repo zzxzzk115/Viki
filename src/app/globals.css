@@ -25,10 +25,24 @@ code[data-theme] span {
   }
 }
 
+/* GitHub's own code-block backgrounds. The tokens are github-light/github-dark;
+   without this, typography's default DARK pre background sits under the
+   light theme's dark ink — unreadable in light mode. */
 pre[data-theme] {
   overflow-x: auto;
   padding: 1rem;
   border-radius: 0.5rem;
+  background: #f6f8fa;
+  color: #1f2328;
+  border: 1px solid var(--color-neutral-200);
+}
+
+@media (prefers-color-scheme: dark) {
+  pre[data-theme] {
+    background: #161b22;
+    color: #e6edf3;
+    border-color: var(--color-neutral-800);
+  }
 }
 
 /* Inline code from rehype-pretty-code carries no padding of its own. */

@@ -12,13 +12,13 @@ import {
   gradeFor,
 } from './quiz'
 
-const card = (id: string, answer: string, subject = 'cs'): Card => ({
+const card = (id: string, answer: string, note = `s/${id}`): Card => ({
   id,
-  noteSlug: `s/${id}`,
-  noteHref: `/notes/s/${id}/`,
+  noteSlug: note,
+  noteHref: `/notes/${note}/`,
   anchor: '',
   noteTitle: id,
-  subject,
+  subject: 'cs',
   level: 'basic',
   tags: [],
   questionHtml: `<p>Q-${id}?</p>`,
@@ -48,12 +48,13 @@ describe('gradeFor', () => {
 })
 
 describe('buildChoiceQuestion', () => {
+  // Same note => on-topic by construction; questions build from these.
   const pool = [
-    card('a', '<p>答案A</p>'),
-    card('b', '<p>答案B</p>'),
-    card('c', '<p>答案C</p>'),
-    card('d', '<p>答案D</p>'),
-    card('e', '<p>答案E</p>'),
+    card('a', '<p>答案A</p>', 'shared'),
+    card('b', '<p>答案B</p>', 'shared'),
+    card('c', '<p>答案C</p>', 'shared'),
+    card('d', '<p>答案D</p>', 'shared'),
+    card('e', '<p>答案E</p>', 'shared'),
   ]
 
   it('四个选项、correctIndex 指向真答案', () => {
@@ -63,7 +64,7 @@ describe('buildChoiceQuestion', () => {
   })
 
   it('干扰项不含正确答案、互不重复', () => {
-    const dup = [...pool, card('f', '<p>答案A</p>')] // same text as the right answer
+    const dup = [...pool, card('f', '<p>答案A</p>', 'shared')] // same text as the right answer
     for (let s = 0; s < 20; s++) {
       const q = buildChoiceQuestion(dup[0], dup, seq(s / 20, 0.4, 0.7))!
       const others = q.options.filter((_, i) => i !== q.correctIndex)
@@ -73,21 +74,38 @@ describe('buildChoiceQuestion', () => {
   })
 
   it('干扰项不足 3 个 -> null（两个选项是抛硬币不是题）', () => {
-    const tiny = [card('a', '<p>x</p>'), card('b', '<p>y</p>')]
+    const tiny = [card('a', '<p>x</p>', 'shared'), card('b', '<p>y</p>', 'shared')]
     assert.equal(buildChoiceQuestion(tiny[0], tiny), null)
   })
 
-  it('同科目干扰项优先', () => {
-    const mixed = [
-      card('a', '<p>A</p>', 'cs'),
-      card('b', '<p>B</p>', 'cs'),
-      card('c', '<p>C</p>', 'cs'),
-      card('d', '<p>D</p>', 'cs'),
-      card('x', '<p>X</p>', 'math'),
-    ]
+  it('同笔记的干扰项优先于不相关的卡', () => {
+    const mixed = [...pool, card('x', '<p>毫无关联的另一个领域的答案X</p>', 'far/away')]
     const q = buildChoiceQuestion(mixed[0], mixed, seq(0.01))!
     const others = q.options.filter((_, i) => i !== q.correctIndex)
-    assert.ok(!others.includes('X'), '同科目够用时不该抽外科目')
+    assert.ok(!others.some((o) => o.includes('答案X')), '同笔记够用时不该抽不相关的卡')
+  })
+
+  it('主题相关的干扰项不足 2 个 -> null（送分题不如不出）', () => {
+    // One same-note sibling + two cards with zero lexical overlap: the two
+    // strays would visibly answer different questions, giving the answer away.
+    const giveaway = [
+      card('a', '<p>按位分桶保持相对顺序</p>', 'sort'),
+      card('b', '<p>低位在前逐位处理</p>', 'sort'),
+      card('x', '<p>光栅化吞吐要求极高</p>', 'gfx'),
+      card('y', '<p>特征向量构成正交基</p>', 'la'),
+    ]
+    assert.equal(buildChoiceQuestion(giveaway[0], giveaway), null)
+  })
+
+  it('跨笔记但文本高度相关的卡可以当干扰项', () => {
+    const related = [
+      card('a', '<p>虚函数通过虚表指针间接调用实现多态</p>', 'cpp/a'),
+      card('b', '<p>虚表指针在构造函数里被逐层设置</p>', 'cpp/b'),
+      card('c', '<p>虚函数的虚表在编译期生成每类一份</p>', 'cpp/c'),
+      card('d', '<p>析构函数是虚函数时删除指针才安全</p>', 'cpp/d'),
+    ]
+    const q = buildChoiceQuestion(related[0], related, seq(0.2, 0.6, 0.4))
+    assert.ok(q, '高相似度的跨笔记卡应该够出题')
   })
 })
 
@@ -123,11 +141,11 @@ describe('cloze', () => {
 
 describe('buildSession', () => {
   const pool = [
-    card('a', TERM_HTML),
-    card('b', '<p>答案B</p>'),
-    card('c', '<p>答案C</p>'),
-    card('d', '<p>答案D</p>'),
-    card('e', '<p>答案E</p>'),
+    card('a', TERM_HTML, 'shared'),
+    card('b', '<p>答案B</p>', 'shared'),
+    card('c', '<p>答案C</p>', 'shared'),
+    card('d', '<p>答案D</p>', 'shared'),
+    card('e', '<p>答案E</p>', 'shared'),
   ]
 
   it('生成 n 题，到期优先', () => {
