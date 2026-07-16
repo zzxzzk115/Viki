@@ -76,6 +76,21 @@ export interface FeedConfig {
   dailyLimit: number
   /** 归档保留天数，0 = 永久保留。 */
   historyDays: number
+  /**
+   * 经典论文混入。除了「近期 + 相关度高」，每天再混入几篇
+   * 「年份久远但引用数量多」的领域经典。
+   *
+   * 来源：把 topicQueries 再按 arXiv 的 sortBy=relevance 跑一遍（拿到该主题的
+   * 代表作而非最新投稿），引用数从 OpenAlex 按 arXiv DOI 批量补齐。
+   */
+  classics: {
+    /** 每个主题检索式按相关度取多少条。 */
+    perQuery: number
+    /** 视为「经典」的最低全球被引数（预印本版本的计数，偏低是正常的）。 */
+    minCitations: number
+    /** 每天最多混入几篇经典。 */
+    count: number
+  }
 }
 
 export const feeds: FeedConfig = {
@@ -222,4 +237,9 @@ export const feeds: FeedConfig = {
   recentDays: 180,
   dailyLimit: 15,
   historyDays: 0,
+  classics: {
+    perQuery: 25,
+    minCitations: 30,
+    count: 3,
+  },
 }

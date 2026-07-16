@@ -77,8 +77,9 @@ async function main() {
       const hash = rawHash ? decode(rawHash) : ''
       // Routes are keyed by on-disk names, which are literal (out/tags/光学/),
       // while hrefs are percent-encoded. Without decoding, every Chinese tag
-      // and heading anchor reads as a dead link.
-      const rawPath = decode(encodedPath)
+      // and heading anchor reads as a dead link. The query string (the editor's
+      // ?path=…) is not part of the route either.
+      const rawPath = decode(encodedPath.split('?')[0])
 
       // A bare '#anchor' targets the current page.
       let target = route

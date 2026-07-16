@@ -30,6 +30,14 @@ export const FeedPaper = z.object({
    * what was seen before.
    */
   isNew: z.boolean().default(false),
+  /** Global citation count (OpenAlex, preprint-version). 0 = unknown. */
+  citedBy: z.number().default(0),
+  /**
+   * 'fresh' = recent + relevant; 'classic' = old but highly cited, mixed in so
+   * the feed also surfaces the field's canonical papers. Defaults keep old
+   * latest.json files (which predate these fields) parseable.
+   */
+  kind: z.enum(['fresh', 'classic']).default('fresh'),
 })
 export type FeedPaper = z.infer<typeof FeedPaper>
 

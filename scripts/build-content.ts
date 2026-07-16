@@ -365,6 +365,20 @@ async function main() {
   await writeFile(join(PUBLIC_DATA, 'search.json'), JSON.stringify(createIndex(searchDocs)))
   await writeFile(join(PUBLIC_DATA, 'graph.json'), JSON.stringify(graph))
 
+  // Feed copy for the homepage's client-side daily pick. The pick must happen in
+  // the browser: the page is prerendered once, so a build-time "today" goes
+  // stale the first midnight with no deploy.
+  await readFile(join(ROOT, 'data', 'papers', 'latest.json'), 'utf8')
+    .then((t) => writeFile(join(PUBLIC_DATA, 'feed.json'), t))
+    .catch(() => {}) // no data:pull yet — homepage widget shows its empty state
+
+  // For the in-browser editor preview: the same glossary and a slug->title map,
+  // so :term[] and [[wiki-links]] render in the preview like they do on the site.
+  await writeFile(join(PUBLIC_DATA, 'glossary.json'), JSON.stringify(glossary))
+  const titleMap: Record<string, { title: string; href: string }> = {}
+  for (const d of [...notes, ...papers]) titleMap[d.slug] = { title: d.meta.title, href: d.href }
+  await writeFile(join(PUBLIC_DATA, 'titles.json'), JSON.stringify(titleMap))
+
   if (warnings.length) {
     console.warn(`\n⚠ ${warnings.length} 个失效的 wiki-link (页面会标红，不阻断构建):`)
     console.warn(warnings.join('\n'))

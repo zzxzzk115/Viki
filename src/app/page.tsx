@@ -1,11 +1,28 @@
 import Link from 'next/link'
+import { DailyPaper } from '@/components/daily-paper'
 import { Icon } from '@/components/icon'
 import { LevelBadge } from '@/components/level-badge'
 import { ReviewCard } from '@/components/review-card'
-import { getNoteIndex, getSubjects } from '@/lib/content'
+import { ToRead, type ToReadItem } from '@/components/to-read'
+import { getNoteIndex, getPaperIndex, getSubjects } from '@/lib/content'
 
 export default async function Home() {
-  const [notes, subjects] = await Promise.all([getNoteIndex(), getSubjects()])
+  const [notes, subjects, papers] = await Promise.all([
+    getNoteIndex(),
+    getSubjects(),
+    getPaperIndex(),
+  ])
+
+  const toRead: ToReadItem[] = papers
+    .filter((p) => p.meta.status === 'to-read')
+    .sort((a, b) => b.meta.year - a.meta.year)
+    .map((p) => ({
+      title: p.meta.title,
+      href: p.href,
+      venue: p.meta.venue,
+      year: p.meta.year,
+      sourcePath: p.sourcePath,
+    }))
 
   const dirs = [...new Set(notes.map((n) => n.subject))].sort(
     (a, b) => (subjects[a]?.order ?? 99) - (subjects[b]?.order ?? 99),
@@ -29,6 +46,11 @@ export default async function Home() {
             进入完整复习 →
           </Link>
         </p>
+      </section>
+
+      <section className="mt-8 grid gap-4 lg:grid-cols-2">
+        <DailyPaper />
+        <ToRead items={toRead} />
       </section>
 
       <section className="mt-12">

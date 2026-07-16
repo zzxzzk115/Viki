@@ -24,8 +24,9 @@ import { XMLParser } from 'fast-xml-parser'
 import { feeds } from '../config/feeds'
 import { FeedFile, type FeedPaper } from '../src/lib/papers-feed'
 
-/** What a fetcher can know. isNew is decided later, against seen.json. */
-type Candidate = Omit<FeedPaper, 'isNew'>
+/** What a fetcher can know. isNew (seen.json) and kind (selection) come later;
+ *  citedBy starts 0 and is enriched from OpenAlex afterwards. */
+type Candidate = Omit<FeedPaper, 'isNew' | 'kind'>
 
 const ROOT = process.cwd()
 const DATA = join(ROOT, 'data', 'papers')
@@ -125,11 +126,12 @@ async function queryArxiv(
   searchQuery: string,
   max: number,
   origin: 'topic' | 'sweep',
+  sortBy: 'submittedDate' | 'relevance' = 'submittedDate',
 ): Promise<Candidate[]> {
   // https, not http: http 301-redirects.
   const url =
     `https://export.arxiv.org/api/query?search_query=${encodeURIComponent(searchQuery)}` +
-    `&sortBy=submittedDate&sortOrder=descending&start=0&max_results=${max}`
+    `&sortBy=${sortBy}&sortOrder=descending&start=0&max_results=${max}`
 
   const xml = await getWithRetry(url)
   if (!xml) {
@@ -169,6 +171,7 @@ async function queryArxiv(
         .filter((c): c is string => !!c),
       matched: verdict.matched,
       score: verdict.score,
+      citedBy: 0,
       comment: clean(
         typeof e['arxiv:comment'] === 'string' ? e['arxiv:comment'] : e['arxiv:comment']?.['#text'],
       ),
@@ -201,20 +204,70 @@ async function fetchArxiv(): Promise<Candidate[]> {
     }
   }
 
+  // Progress goes to stderr as it happens — 30+ paced queries with 429 backoff
+  // can run for many minutes, and a silent script is undebuggable in cron logs.
+  const total = feeds.topicQueries.length * 2 + feeds.sweepCategories.length
+  let n = 0
+  const tick = (label: string) => console.error(`  [${++n}/${total}] ${label}`)
+
   for (const q of feeds.topicQueries) {
     // arXiv's manual asks for ~3s between sequential calls.
     if (!first) await sleep(3200)
     first = false
+    tick(q)
     add(await queryArxiv(q, feeds.perTopic, 'topic'))
+  }
+
+  // Same topics again, relevance-sorted: that is where a field's canonical
+  // papers surface (date-sorted only ever sees the newest submissions).
+  for (const q of feeds.topicQueries) {
+    await sleep(3200)
+    tick(`relevance: ${q}`)
+    add(await queryArxiv(q, feeds.classics.perQuery, 'topic', 'relevance'))
   }
 
   for (const cat of feeds.sweepCategories) {
     if (!first) await sleep(3200)
     first = false
+    tick(`sweep: cat:${cat}`)
     add(await queryArxiv(`cat:${cat}`, feeds.perSweep, 'sweep'))
   }
 
   return [...byId.values()]
+}
+
+/**
+ * Fills in citedBy from OpenAlex via the arXiv preprint DOI
+ * (10.48550/arXiv.<id>). arXiv's own API has no citation data. Counts are for
+ * the preprint version, so they run lower than the published paper's — fine for
+ * relative ranking, which is all the classic mix-in needs.
+ */
+async function enrichCitations(candidates: Candidate[]): Promise<void> {
+  const arxiv = candidates.filter((c) => c.source === 'arxiv')
+  for (let i = 0; i < arxiv.length; i += 50) {
+    const batch = arxiv.slice(i, i + 50)
+    const filter = `doi:${batch.map((c) => `10.48550/arXiv.${c.id}`).join('|')}`
+    const url =
+      `https://api.openalex.org/works?filter=${encodeURIComponent(filter)}` +
+      `&select=doi,cited_by_count&per-page=50&mailto=zzxzzk115@gmail.com`
+    const json = await getWithRetry(url)
+    if (!json) {
+      notes.push('OpenAlex 引用数补齐失败（该批经典判定退化为 0 被引）')
+      continue
+    }
+    const byDoi = new Map(
+      batch.map((c) => [`https://doi.org/10.48550/arxiv.${c.id}`.toLowerCase(), c]),
+    )
+    interface Row {
+      doi?: string
+      cited_by_count?: number
+    }
+    for (const w of (JSON.parse(json) as { results?: Row[] }).results ?? []) {
+      const hit = w.doi ? byDoi.get(w.doi.toLowerCase()) : undefined
+      if (hit) hit.citedBy = w.cited_by_count ?? 0
+    }
+    if (i + 50 < arxiv.length) await sleep(1200)
+  }
 }
 
 // ---- OpenAlex (fallback) ----
@@ -265,6 +318,7 @@ async function fetchOpenAlex(): Promise<Candidate[]> {
       categories: [],
       matched: verdict.matched,
       score: verdict.score,
+      citedBy: 0,
     })
   }
   return out
@@ -308,21 +362,32 @@ async function main() {
     candidates = await fetchOpenAlex()
   }
 
+  await enrichCitations(candidates)
+
   const cutoff = new Date(Date.now() - feeds.recentDays * 86400000).toISOString().slice(0, 10)
-  const recent = candidates.filter((p) => p.published >= cutoff)
-  if (candidates.length > recent.length) {
-    notes.push(`${candidates.length} 篇候选，其中 ${recent.length} 篇在最近 ${feeds.recentDays} 天内`)
-  }
 
-  const ranked = recent
-    .map((p) => ({ ...p, isNew: !firstSeen[p.id] }))
+  // Two pools: fresh (recent, ranked by relevance score) and classics (older
+  // than the window but heavily cited — the field's canonical papers, which a
+  // date-sorted feed would never surface).
+  const fresh = candidates
+    .filter((p) => p.published >= cutoff)
     .sort((a, b) => b.score - a.score || b.published.localeCompare(a.published))
+  const classicPool = candidates
+    .filter((p) => p.published < cutoff && p.citedBy >= feeds.classics.minCitations)
+    .sort((a, b) => b.citedBy - a.citedBy)
 
-  const picked = ranked.slice(0, feeds.dailyLimit)
-  if (ranked.length > picked.length) {
-    // Say what was dropped: a silent cut reads as "this was everything".
-    notes.push(`${ranked.length} 篇符合条件，按分数取前 ${picked.length} 篇`)
-  }
+  const classics = classicPool.slice(0, feeds.classics.count)
+  const freshPicked = fresh.slice(0, Math.max(0, feeds.dailyLimit - classics.length))
+
+  const picked: FeedPaper[] = [
+    ...freshPicked.map((p) => ({ ...p, kind: 'fresh' as const, isNew: !firstSeen[p.id] })),
+    ...classics.map((p) => ({ ...p, kind: 'classic' as const, isNew: !firstSeen[p.id] })),
+  ]
+
+  notes.push(
+    `${candidates.length} 篇候选：近期相关 ${fresh.length} 篇取 ${freshPicked.length}，` +
+      `经典（>${feeds.classics.minCitations} 被引）${classicPool.length} 篇混入 ${classics.length}`,
+  )
   const newCount = picked.filter((p) => p.isNew).length
   if (!dry && newCount > 0) notes.push(`其中 ${newCount} 篇是首次出现`)
 
@@ -335,13 +400,16 @@ async function main() {
   }
 
   if (dry) {
-    console.log(`\n${date} 试运行：${candidates.length} 篇候选 -> ${recent.length} 篇在窗口内 -> 取前 ${picked.length} 篇\n`)
+    console.log(
+      `\n${date} 试运行：${candidates.length} 篇候选 -> 近期 ${freshPicked.length} + 经典 ${classics.length}\n`,
+    )
     for (const [i, p] of picked.entries()) {
-      console.log(`${String(i + 1).padStart(2)}. [${String(p.score).padStart(3)}] ${p.title}`)
+      const badge = p.kind === 'classic' ? `经典·被引${p.citedBy}` : `分${p.score}`
+      console.log(`${String(i + 1).padStart(2)}. [${badge}] ${p.title}`)
       console.log(`      ${p.categories.join(' ')}  ${p.published}`)
       console.log(`      命中: ${p.matched.join(', ') || '(仅靠分类扫描)'}`)
     }
-    const cut = ranked.slice(picked.length, picked.length + 5)
+    const cut = fresh.slice(freshPicked.length, freshPicked.length + 5)
     if (cut.length) {
       console.log(`\n--- 落选的前几篇（供调阈值参考）---`)
       for (const p of cut) console.log(`    [${String(p.score).padStart(3)}] ${p.title.slice(0, 70)}`)

@@ -189,6 +189,16 @@ Manim 渲染的是**视频**：CI 里要装 Python + cairo + ffmpeg（官方 act
 
 **所有步骤都在静态 HTML 里**，`DemoPlayer` 挂载后才逐步显示。所以关掉 JS 整个演示仍然可读，搜索索引也能看到全部内容——换成 canvas 动画或视频，这两点都做不到。
 
+## 在线编辑器
+
+每篇笔记/论文底部有「在线编辑」——textarea + 实时预览（卡片/术语/公式/wiki-link 与站点渲染一致，唯一差别是代码块不做高亮），直接提交到 GitHub。主页「待读论文」的编辑链接也进这里。
+
+**提交需要 token**：在 [GitHub 设置](https://github.com/settings/personal-access-tokens/new) 创建 fine-grained PAT，只授权 Viki 一个仓库、只给 Contents 读写权限。贴进编辑器后存在**本机浏览器**（localStorage），不会上传到任何地方。用 PAT 提交是普通 push，会正常触发部署（约 1 分钟生效）。
+
+没有 token 的访客只能加载和预览，提交按钮禁用——写权限由 GitHub 锁死，想贡献走 fork + PR。
+
+安全边界：编辑器只接受 `content/`、`scratch/` 下的 `.md/.mdx/.yml/.bib` 路径，workflow、脚本等一律拒绝；提交用文件 sha 做乐观锁，别处改过会得到 409 提示而不是静默覆盖。
+
 ## 批量导入论文（BibTeX）
 
 把 BibTeX 追加到 [scratch/related-work.bib](scratch/related-work.bib)，然后：
