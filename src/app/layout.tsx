@@ -1,7 +1,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { CopyCode } from '@/components/copy-code'
+import { Icon } from '@/components/icon'
 import { SearchDialog } from '@/components/search-dialog'
+import { resolveIcon } from '@/lib/icons'
 import { SrsSyncAgent } from '@/components/srs-sync-agent'
 import { TermPopover } from '@/components/term-popover'
 // Root layout, not per-page: on client navigation a per-page import would let
@@ -28,7 +30,6 @@ const NAV = [
   { href: '/arxiv/', label: 'arXiv' },
   { href: '/shaders/', label: 'Shader' },
   { href: '/glossary/', label: '术语' },
-  { href: '/settings/', label: '设置' },
 ]
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -50,6 +51,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               ))}
             </div>
             <SearchDialog />
+            {/* Icon, not a nav label: settings is meta, not content. resolveIcon
+                runs server-side at build — same zero-CDN path as subject icons. */}
+            <Link
+              href="/settings/"
+              aria-label="设置"
+              title="设置"
+              className="text-neutral-400 transition hover:text-neutral-700 dark:hover:text-neutral-200"
+            >
+              <Icon svg={resolveIcon('mdi:cog-outline')} className="size-4.5 block" />
+            </Link>
           </nav>
         </header>
 
