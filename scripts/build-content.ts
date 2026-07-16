@@ -34,6 +34,7 @@ const CONTENT = join(ROOT, 'content')
 const GENERATED = join(ROOT, '.generated')
 const PUBLIC_DATA = join(ROOT, 'public', 'data')
 
+
 const IS_DEV = process.env.NODE_ENV !== 'production' && process.env.CI !== 'true'
 
 /** Collected then reported together: fixing one typo per build is miserable. */
@@ -125,11 +126,13 @@ async function main() {
     if (typeof t === 'string') titles.set(slug, t)
   }
 
+  // Emits a bare site path; rehypeBasePath in the pipeline prefixes basePath
+  // onto every root-relative href/src in the rendered HTML, so this (and any
+  // hand-written markdown link or image) does not have to remember to.
   const resolve = (target: string) => {
     const title = titles.get(target)
     if (!title) return null
-    const href = target.startsWith('papers/') ? `/${target}/` : `/notes/${target}/`
-    return { href, title }
+    return { href: target.startsWith('papers/') ? `/${target}/` : `/notes/${target}/`, title }
   }
 
   // Pass 2: compile.

@@ -14,9 +14,17 @@ import { toString as mdastToString } from 'mdast-util-to-string'
 import { unified } from 'unified'
 import { visit } from 'unist-util-visit'
 import type { VFile } from 'vfile'
+import { rehypeBasePath } from '@/plugins/rehype-base-path'
 import { remarkCards, type RawCard } from '@/plugins/remark-cards'
 import { remarkWikilink, type WikilinkOptions } from '@/plugins/remark-wikilink'
 import type { TocEntry } from './schema'
+
+/**
+ * Mirror of `basePath` in next.config.ts. Note HTML is injected with
+ * dangerouslySetInnerHTML, so Next never applies basePath to the hrefs inside
+ * it — rehypeBasePath does it here instead.
+ */
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? '/Viki'
 
 const HEADINGS = new Set(['h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
 
@@ -97,6 +105,7 @@ export function createProcessor(options: RenderOptions) {
       .use(rehypeAutolinkHeadings, { behavior: 'wrap' })
       .use(rehypeKatex)
       .use(rehypePrettyCode, SHIKI)
+      .use(rehypeBasePath, { base: BASE })
       .use(rehypeStringify, { allowDangerousHtml: true })
   )
 }
@@ -109,6 +118,9 @@ const fragmentProcessor = unified()
   .use(remarkRehype, { allowDangerousHtml: true })
   .use(rehypeKatex)
   .use(rehypePrettyCode, SHIKI)
+  // Cards can hold wiki-links too — remarkWikilink has already rewritten the
+  // captured subtree in place by the time this runs.
+  .use(rehypeBasePath, { base: BASE })
   .use(rehypeStringify, { allowDangerousHtml: true })
 
 export async function renderFragment(nodes: RootContent[]): Promise<string> {

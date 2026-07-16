@@ -144,6 +144,19 @@ pnpm build        # 完整静态导出到 out/
 pnpm content:watch
 ```
 
+## 链接和图片的路径
+
+站点部署在 `/Viki` 下。笔记正文里的**根相对路径会自动补上 `/Viki` 前缀**（由 [rehype-base-path](src/plugins/rehype-base-path.ts) 在构建时处理），所以你直接写就行：
+
+```markdown
+[SVD](/notes/math/linear-algebra/svd/)   ->  自动变成 /Viki/notes/...
+![图](/img/diagram.png)                   ->  自动变成 /Viki/img/diagram.png
+```
+
+锚点（`#标题`）、外链（`https://`）、相对路径（`./x`）都不会被动。
+
+这个自动处理是必要的：笔记 HTML 是构建时生成后直接注入页面的，Next 不会碰里面的 href——没有这层，链接看起来正常，一点就 404。
+
 ## 几个会咬人的地方
 
 - **不要用 PowerShell 编辑中文文件。** PowerShell 5.1 的 `Set-Content -Encoding utf8` 会写 BOM，`Get-Content -Raw` 按 ANSI 读，中文直接损坏。用编辑器或 node。
