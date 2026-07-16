@@ -1,6 +1,6 @@
 'use client'
 
-import { ghCommitFile, ghLoadFile, TOKEN_KEY } from './github-edit'
+import { ghCommitFile, ghLoadFile, readStoredToken } from './github-edit'
 import { emptyQuizStats, type QuizStats } from './quiz-store'
 import { emptyStore, STORE_VERSION, type CardState, type Store } from './srs'
 
@@ -127,14 +127,15 @@ let pushTimer: ReturnType<typeof setTimeout> | undefined
 let suppress = 0 // our own writeLocal must not schedule a push-back
 
 export function getToken(): string | null {
-  try {
-    return localStorage.getItem(TOKEN_KEY)
-  } catch {
-    return null
-  }
+  return readStoredToken() || null
 }
 
-/** Pull remote, merge into local, write back. Safe to call repeatedly. */
+/**
+ * Pull remote, merge into local, write back. Safe to call repeatedly.
+ * The try/catch matters: GitHub's intermittent 503 error pages carry no CORS
+ * headers, so the browser THROWS instead of returning a response — without
+ * the guard the state machine would hang on 'pulling' forever.
+ */
 export async function pullAndMerge(): Promise<void> {
   const token = getToken()
   if (!token) {
@@ -142,7 +143,13 @@ export async function pullAndMerge(): Promise<void> {
     return
   }
   setState({ phase: 'pulling' })
-  const r = await ghLoadFile(SYNC_PATH, token, SYNC_BRANCH)
+  let r: Awaited<ReturnType<typeof ghLoadFile>>
+  try {
+    r = await ghLoadFile(SYNC_PATH, token, SYNC_BRANCH)
+  } catch {
+    setState({ phase: 'error', message: '拉取失败：连不上 GitHub API（网络或其临时故障），稍后重试' })
+    return
+  }
   if (!r.ok) {
     setState({ phase: 'error', message: `拉取失败：${r.message}` })
     return
@@ -186,32 +193,50 @@ export async function pushNow(): Promise<void> {
   setState({ phase: 'pushing' })
   const local = readLocal()
   const doc: SyncDoc = { v: 1, savedAt: new Date().toISOString(), ...local }
-  const r = await ghCommitFile(SYNC_PATH, JSON.stringify(doc), sha, 'srs: sync progress', token, SYNC_BRANCH)
+  let r: Awaited<ReturnType<typeof ghCommitFile>>
+  try {
+    r = await ghCommitFile(SYNC_PATH, JSON.stringify(doc), sha, 'srs: sync progress', token, SYNC_BRANCH)
+  } catch {
+    // Same no-CORS-on-503 throw as pullAndMerge; keep the change queued.
+    dirty = true
+    setState({ phase: 'error', message: '推送失败：连不上 GitHub API，稍后自动重试或点「立即推送」' })
+    return
+  }
   if (r.ok) {
     // The PUT response has the new blob sha, but ghCommitFile doesn't surface
     // it — re-read is one request and also folds in whatever raced us.
-    const reread = await ghLoadFile(SYNC_PATH, token, SYNC_BRANCH)
-    if (reread.ok && !('isNew' in reread)) sha = reread.sha
+    try {
+      const reread = await ghLoadFile(SYNC_PATH, token, SYNC_BRANCH)
+      if (reread.ok && !('isNew' in reread)) sha = reread.sha
+    } catch {
+      // Commit landed; a failed sha refresh just means the NEXT push may 409
+      // and take the merge-retry path. Not an error worth surfacing.
+    }
     setState({ phase: 'synced', at: new Date().toISOString() })
     return
   }
   if (r.status === 409 || r.status === 422) {
     // Another device pushed since our pull: merge theirs in and retry once.
-    await pullAndMerge()
-    const merged = readLocal()
-    const retry = await ghCommitFile(
-      SYNC_PATH,
-      JSON.stringify({ v: 1, savedAt: new Date().toISOString(), ...merged } satisfies SyncDoc),
-      sha,
-      'srs: sync progress (merged)',
-      token,
-      SYNC_BRANCH,
-    )
-    if (retry.ok) {
-      setState({ phase: 'synced', at: new Date().toISOString() })
-      return
+    try {
+      await pullAndMerge()
+      const merged = readLocal()
+      const retry = await ghCommitFile(
+        SYNC_PATH,
+        JSON.stringify({ v: 1, savedAt: new Date().toISOString(), ...merged } satisfies SyncDoc),
+        sha,
+        'srs: sync progress (merged)',
+        token,
+        SYNC_BRANCH,
+      )
+      if (retry.ok) {
+        setState({ phase: 'synced', at: new Date().toISOString() })
+        return
+      }
+      setState({ phase: 'error', message: `推送失败：${retry.message}` })
+    } catch {
+      dirty = true
+      setState({ phase: 'error', message: '推送失败：连不上 GitHub API，稍后自动重试或点「立即推送」' })
     }
-    setState({ phase: 'error', message: `推送失败：${retry.message}` })
     return
   }
   setState({ phase: 'error', message: `推送失败：${r.message}` })

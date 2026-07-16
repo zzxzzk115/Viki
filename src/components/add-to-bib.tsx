@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { appendBibEntry, bibHasArxivId, buildArxivBibEntry, type ArxivPaperRef } from '@/lib/bibtex'
-import { TOKEN_KEY, ghCommitFile, ghLoadFile } from '@/lib/github-edit'
+import { ghCommitFile, ghLoadFile, readStoredToken } from '@/lib/github-edit'
 import { TokenQuickSet } from '@/components/token-settings'
 
 const BIB_PATH = 'scratch/related-work.bib'
@@ -23,13 +23,7 @@ export function AddToBib({ paper }: { paper: ArxivPaperRef }) {
   const [msg, setMsg] = useState('')
 
   const add = async () => {
-    const token = (() => {
-      try {
-        return localStorage.getItem(TOKEN_KEY) ?? ''
-      } catch {
-        return ''
-      }
-    })()
+    const token = readStoredToken()
     if (!token) {
       // Inline quick-set: paste it here and the button works on the next
       // click — no detour through /settings required.

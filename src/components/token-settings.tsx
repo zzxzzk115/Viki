@@ -1,7 +1,7 @@
 'use client'
 
 import { useCallback, useState, useSyncExternalStore } from 'react'
-import { REPO_NAME, REPO_OWNER, TOKEN_KEY } from '@/lib/github-edit'
+import { ghLoadFile, REPO_NAME, REPO_OWNER, TOKEN_KEY } from '@/lib/github-edit'
 
 /**
  * The one GitHub-token widget, shared by /settings and every feature that
@@ -30,8 +30,12 @@ const getServerSnapshot = () => ''
 export function useGithubToken() {
   const token = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot)
   const save = useCallback((t: string) => {
+    // Strip ALL whitespace, not just edges: a token copied out of a terminal
+    // often line-wraps, and a newline inside an Authorization header makes
+    // fetch() throw before sending — which surfaces as a phantom network error.
+    const clean = t.replace(/\s+/g, '')
     try {
-      if (t) localStorage.setItem(TOKEN_KEY, t)
+      if (clean) localStorage.setItem(TOKEN_KEY, clean)
       else localStorage.removeItem(TOKEN_KEY)
     } catch {}
     window.dispatchEvent(new StorageEvent('storage', { key: TOKEN_KEY }))
@@ -41,17 +45,26 @@ export function useGithubToken() {
 
 type TestState = { phase: 'idle' } | { phase: 'busy' } | { phase: 'ok' } | { phase: 'bad'; message: string }
 
-/** 401 means the token itself is invalid; write permission can only be proven
- *  by an actual commit, so a passing test says "usable", not "can push". */
+/**
+ * Tests with the same contents read the sync/editor actually perform. 401
+ * means the token itself is invalid; write permission can only be proven by
+ * an actual commit, so a passing test says "usable", not "can push".
+ *
+ * The catch branch is worded carefully: GitHub's API intermittently serves
+ * 503 "Unicorn" HTML pages WITHOUT CORS headers, which a browser surfaces as
+ * a thrown fetch — indistinguishable from being offline. Both cases are
+ * "try again", neither means the token is wrong.
+ */
 async function testToken(token: string): Promise<TestState> {
+  if (!/^[\x21-\x7E]+$/.test(token)) {
+    return { phase: 'bad', message: 'token 里混入了空格/换行或非 ASCII 字符——重新完整复制一次' }
+  }
   try {
-    const r = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}`, {
-      headers: { Accept: 'application/vnd.github+json', Authorization: `Bearer ${token}` },
-    })
+    const r = await ghLoadFile('README.md', token)
     if (r.ok) return { phase: 'ok' }
-    return { phase: 'bad', message: r.status === 401 ? 'token 无效（401）' : `HTTP ${r.status}` }
+    return { phase: 'bad', message: r.status === 401 ? 'token 无效（401）' : `HTTP ${r.status}：${r.message}` }
   } catch {
-    return { phase: 'bad', message: '网络错误' }
+    return { phase: 'bad', message: '连不上 api.github.com——网络问题或 GitHub API 临时故障（503），稍后重试' }
   }
 }
 

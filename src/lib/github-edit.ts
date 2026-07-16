@@ -21,6 +21,21 @@ const API = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents`
 
 export const TOKEN_KEY = 'viki:gh-token'
 
+/**
+ * The one sanctioned way to read the stored token. Strips ALL whitespace:
+ * tokens never contain any, but pasted ones often do (a terminal line-wrap
+ * puts a newline in the middle) — and a header with a newline makes fetch()
+ * throw "Invalid value" before anything is sent, which reads as a network
+ * error to the user.
+ */
+export function readStoredToken(): string {
+  try {
+    return (localStorage.getItem(TOKEN_KEY) ?? '').replace(/\s+/g, '')
+  } catch {
+    return ''
+  }
+}
+
 /** btoa chokes on code points > 0xFF, i.e. on any Chinese text — encode the
  *  UTF-8 bytes, not the UTF-16 string. */
 export function b64EncodeUtf8(text: string): string {

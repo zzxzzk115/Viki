@@ -9,6 +9,7 @@ import {
   TOKEN_KEY,
   ghCommitFile,
   ghLoadFile,
+  readStoredToken,
 } from '@/lib/github-edit'
 import { createPreview, type PreviewContext } from '@/lib/preview'
 
@@ -43,14 +44,15 @@ export function EditorUI() {
 
   // Token lives in localStorage — read after mount only (SSR has no storage).
   useEffect(() => {
-    try {
-      setToken(localStorage.getItem(TOKEN_KEY) ?? '')
-    } catch {}
+    setToken(readStoredToken())
   }, [])
   const saveToken = useCallback((t: string) => {
-    setToken(t)
+    // Whitespace-stripped like everywhere else: a line-wrapped paste puts a
+    // newline in the Authorization header and fetch() throws before sending.
+    const clean = t.replace(/\s+/g, '')
+    setToken(clean)
     try {
-      if (t) localStorage.setItem(TOKEN_KEY, t)
+      if (clean) localStorage.setItem(TOKEN_KEY, clean)
       else localStorage.removeItem(TOKEN_KEY)
     } catch {}
   }, [])
@@ -61,7 +63,7 @@ export function EditorUI() {
     let alive = true
     setLoad({ phase: 'loading' })
     ;(async () => {
-      const stored = localStorage.getItem(TOKEN_KEY) ?? undefined
+      const stored = readStoredToken() || undefined
       const [file, glossary, titles] = await Promise.all([
         ghLoadFile(path, stored),
         fetch(withBase('/data/glossary.json')).then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
