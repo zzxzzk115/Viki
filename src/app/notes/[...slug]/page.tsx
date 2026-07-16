@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
+import { DemoPlayer } from '@/components/demo-player'
 import { Icon } from '@/components/icon'
 import { LevelBadge } from '@/components/level-badge'
 import { getBacklinks, getNote, getNoteIndex, getSubjects } from '@/lib/content'
@@ -84,6 +85,8 @@ export default async function NotePage({ params }: Props) {
             className="prose prose-neutral dark:prose-invert mt-8 max-w-none"
             dangerouslySetInnerHTML={{ __html: note.html }}
           />
+          {/* Wires up any ::::demo in the body above. Cheap no-op when absent. */}
+          <DemoPlayer />
 
           {linkedFrom.length > 0 && (
             <section className="mt-16 border-t border-neutral-200 pt-6 dark:border-neutral-800">

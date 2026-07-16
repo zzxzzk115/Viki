@@ -171,6 +171,7 @@ async function main() {
     const r = await render(p.content, { resolve, glossary })
 
     for (const e of r.cardErrors) problems.push(`  content/${p.rel}\n    ${e}`)
+    for (const e of r.demoErrors) problems.push(`  content/${p.rel}\n    ${e}`)
     for (const t of r.unknownTerms) {
       // Fatal, unlike a broken wiki-link: the vocabulary is closed, so this is
       // a typo with nothing sensible to render, not link rot to live with.

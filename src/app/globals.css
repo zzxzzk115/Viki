@@ -91,6 +91,167 @@ pre[data-theme] {
   }
 }
 
+/* ---- Algorithm demos (::::demo / :::step) ---- */
+
+.prose .demo {
+  margin: 1.75rem 0;
+  border: 1px solid var(--color-neutral-200);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  outline: none;
+}
+
+.prose .demo:focus-visible {
+  border-color: var(--color-sky-500);
+}
+
+@media (prefers-color-scheme: dark) {
+  .prose .demo {
+    border-color: var(--color-neutral-800);
+  }
+}
+
+/* Every step ships in the HTML so the deck reads with JS off and the search
+   index sees all of it. DemoPlayer adds .is-active to reveal one at a time;
+   until it runs, they are all visible rather than all hidden. */
+.prose .demo[data-wired] .demo-step {
+  display: none;
+}
+
+.prose .demo[data-wired] .demo-step.is-active {
+  display: block;
+}
+
+.prose .demo-step {
+  padding: 1.25rem 1.5rem;
+  min-height: 7rem;
+}
+
+.prose .demo-step > :first-child {
+  margin-top: 0;
+}
+.prose .demo-step > :last-child {
+  margin-bottom: 0;
+}
+
+.prose .demo-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border-top: 1px solid var(--color-neutral-200);
+  background: var(--color-neutral-50);
+  font-size: 0.8125rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .prose .demo-bar {
+    border-top-color: var(--color-neutral-800);
+    background: var(--color-neutral-900);
+  }
+}
+
+.prose .demo-bar button {
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 0.375rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--color-neutral-600);
+  flex-shrink: 0;
+}
+
+.prose .demo-bar button:hover:not(:disabled) {
+  background: var(--color-neutral-200);
+}
+
+.prose .demo-bar button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+  .prose .demo-bar button {
+    border-color: var(--color-neutral-700);
+    color: var(--color-neutral-400);
+  }
+  .prose .demo-bar button:hover:not(:disabled) {
+    background: var(--color-neutral-800);
+  }
+}
+
+.prose .demo-caption {
+  flex: 1;
+  color: var(--color-neutral-600);
+}
+
+.prose .demo-counter {
+  font-variant-numeric: tabular-nums;
+  color: var(--color-neutral-400);
+  font-size: 0.75rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .prose .demo-caption {
+    color: var(--color-neutral-400);
+  }
+}
+
+/* ---- ::array visual ---- */
+
+.prose .array-viz {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+  margin: 0.75rem 0;
+  align-items: center;
+}
+
+.prose .array-viz[data-label]::before {
+  content: attr(data-label);
+  font-size: 0.75rem;
+  color: var(--color-neutral-400);
+  margin-right: 0.25rem;
+  min-width: 3.5rem;
+}
+
+.prose .array-cell {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.5rem;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 0.375rem;
+  font-family: var(--font-mono, ui-monospace), monospace;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-variant-numeric: tabular-nums;
+}
+
+.prose .array-cell.is-hl {
+  border-color: var(--color-sky-500);
+  background: var(--color-sky-50);
+  color: var(--color-sky-900);
+  font-weight: 600;
+}
+
+.prose .array-cell.is-dim {
+  opacity: 0.35;
+}
+
+@media (prefers-color-scheme: dark) {
+  .prose .array-cell {
+    border-color: var(--color-neutral-700);
+  }
+  .prose .array-cell.is-hl {
+    border-color: var(--color-sky-400);
+    background: var(--color-sky-950);
+    color: var(--color-sky-200);
+  }
+}
+
 /* Glossary terms: the dotted underline marks that a definition is on hover,
    without competing with real links for attention. */
 .prose .term {
