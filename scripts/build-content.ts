@@ -223,10 +223,12 @@ async function main() {
     }
     allCards.push(...cards)
 
-    // The English of every term used is appended to the search text, so
-    // searching "radiance" finds the Chinese note that never spells it out.
+    // The English, abbreviation and aliases of every term used are appended to
+    // the search text, so searching "radiance" — or "SVD" — finds the Chinese
+    // note that never spells either out. The abbreviation matters most here:
+    // it is what people actually type.
     const termEnglish = r.terms
-      .flatMap((t) => [glossary[t]?.en, ...(glossary[t]?.aka ?? [])])
+      .flatMap((t) => [glossary[t]?.en, glossary[t]?.abbr, ...(glossary[t]?.aka ?? [])])
       .filter(Boolean)
       .join(' ')
 

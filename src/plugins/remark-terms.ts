@@ -84,12 +84,16 @@ export function remarkTerms({ glossary }: TermsOptions) {
       // should still introduce the term properly on its own first mention.
       if (!inCard) annotated.add(key)
 
+      // 最小可分辨角 (minimum angle of resolution, MAR) — the abbreviation is
+      // what the literature actually uses, so it has to be on the page.
+      const english = entry.abbr ? `${entry.en}, ${entry.abbr}` : entry.en
+
       n.data = {
         hName: 'span',
         hProperties: {
           className: ['term'],
           'data-term': key,
-          title: entry.def ? `${entry.en} — ${entry.def}` : entry.en,
+          title: entry.def ? `${english} — ${entry.def}` : english,
         },
       }
       n.children = withEnglish
@@ -98,7 +102,7 @@ export function remarkTerms({ glossary }: TermsOptions) {
             {
               type: 'emphasis',
               data: { hName: 'span', hProperties: { className: ['term-en'] } },
-              children: [{ type: 'text', value: ` (${entry.en})` }],
+              children: [{ type: 'text', value: ` (${english})` }],
             } as unknown as RootContent,
           ]
         : [{ type: 'text', value: display }]

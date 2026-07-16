@@ -42,9 +42,17 @@ export type PaperMeta = z.infer<typeof PaperMeta>
 
 /** One entry of content/_glossary.yml, keyed by the Chinese term. */
 export const GlossaryEntry = z.object({
+  /** Full English term, lowercase unless a proper noun. Not the abbreviation. */
   en: z.string().min(1),
+  /**
+   * Standard abbreviation, rendered after the full form: 最小可分辨角
+   * (minimum angle of resolution, MAR). Distinct from `aka` because the
+   * abbreviation is what papers actually use — it belongs on the page, not
+   * only in the search index.
+   */
+  abbr: z.string().optional(),
   def: z.string().optional(),
-  /** Aliases and alternate translations. Indexed for search, not rendered. */
+  /** Alternate Chinese translations. Indexed for search, never rendered. */
   aka: z.array(z.string()).default([]),
   /** Slug of the note that covers this term, if any. */
   see: z.string().optional(),

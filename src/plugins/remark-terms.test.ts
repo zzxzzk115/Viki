@@ -14,6 +14,7 @@ import { remarkTerms } from './remark-terms'
 const glossary: Glossary = {
   辐射亮度: { en: 'radiance', def: '沿光线不变', aka: ['亮度'] },
   立体角: { en: 'solid angle', aka: [] },
+  最小可分辨角: { en: 'minimum angle of resolution', abbr: 'MAR', def: '能分辨的最小角度', aka: [] },
 }
 
 function run(md: string) {
@@ -57,6 +58,22 @@ describe('remarkTerms', () => {
   it('title 含英文和定义', () => {
     const { html } = run('这是:term[辐射亮度]。')
     assert.match(html, /title="radiance — 沿光线不变"/)
+  })
+
+  it('有缩写时渲染成「全拼, 缩写」—— 缩写才是文献里用的形式', () => {
+    const { html } = run('这是:term[最小可分辨角]。')
+    assert.match(html, /\(minimum angle of resolution, MAR\)/)
+  })
+
+  it('缩写也进 title', () => {
+    const { html } = run('这是:term[最小可分辨角]。')
+    assert.match(html, /title="minimum angle of resolution, MAR — 能分辨的最小角度"/)
+  })
+
+  it('没有缩写时不加逗号', () => {
+    const { html } = run('这是:term[辐射亮度]。')
+    assert.match(html, /\(radiance\)/)
+    assert.ok(!html.includes('radiance,'))
   })
 
   it('没有定义时 title 只有英文', () => {

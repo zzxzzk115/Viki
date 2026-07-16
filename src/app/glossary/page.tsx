@@ -23,6 +23,11 @@ export default async function GlossaryPage() {
             <dt className="flex flex-wrap items-baseline gap-2">
               <span className="text-lg font-medium">{t.term}</span>
               <span className="font-mono text-sm text-neutral-500">{t.en}</span>
+              {t.abbr && (
+                <span className="rounded bg-neutral-100 px-1.5 py-0.5 font-mono text-xs font-medium text-neutral-700 dark:bg-neutral-800 dark:text-neutral-300">
+                  {t.abbr}
+                </span>
+              )}
               {t.aka.length > 0 && (
                 <span className="text-xs text-neutral-400">又称 {t.aka.join('、')}</span>
               )}

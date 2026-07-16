@@ -4,10 +4,12 @@
 # 悬停显示 def。写了表里没有的术语，构建会失败并提示——所以译法不会漂。
 #
 # 字段：
-#   en   必填，英文术语
-#   def  可选，一句话定义（悬停显示，也出现在 /glossary 页）
-#   aka  可选，别名/其他常见译法，会进搜索索引
-#   see  可选，相关笔记的 slug，/glossary 页上会链过去
+#   en    必填，英文**全拼**（不是缩写），除专有名词外小写
+#   abbr  可选，标准缩写。渲染成「最小可分辨角 (minimum angle of resolution, MAR)」
+#         —— 缩写是文献里实际用的形式，必须显示出来，不能只塞进搜索索引
+#   def   可选，一句话定义（悬停显示，也出现在 /glossary 页）
+#   aka   可选，其他中文译法。只进搜索索引，不渲染
+#   see   可选，详解该术语的笔记 slug，/glossary 页上会链过去
 
 # ---- 辐射度量学 / 光学 ----
 辐射通量:
@@ -48,9 +50,9 @@
 
 # ---- 渲染 ----
 双向反射分布函数:
-  en: BRDF
-  def: Bidirectional Reflectance Distribution Function。描述从某方向入射的光有多少朝另一方向反射，单位 sr⁻¹。
-  aka: [BRDF]
+  en: bidirectional reflectance distribution function
+  abbr: BRDF
+  def: 描述从某方向入射的光有多少朝另一方向反射，单位 sr⁻¹。
   see: cs/rendering/brdf
 
 渲染方程:
@@ -64,7 +66,7 @@
 
 法线分布函数:
   en: normal distribution function
-  aka: [NDF]
+  abbr: NDF
   def: 微表面法线朝向的统计分布，Cook-Torrance 里的 D 项。
   see: cs/rendering/brdf
 
@@ -75,7 +77,7 @@
 
 几何遮蔽项:
   en: geometric attenuation
-  aka: [遮蔽项, G 项]
+  aka: [遮蔽项, 几何项]
   def: 微表面之间的自遮挡与自阴影，Cook-Torrance 里的 G 项。
   see: cs/rendering/brdf
 
@@ -94,7 +96,7 @@
 
 球谐:
   en: spherical harmonics
-  aka: [SH]
+  abbr: SH
   def: 球面上的正交基函数，常用于紧凑表示低频的方向相关信号。
 
 路径追踪:
@@ -107,7 +109,7 @@
 
 可变速率着色:
   en: variable rate shading
-  aka: [VRS]
+  abbr: VRS
   def: 允许屏幕不同区域以不同着色频率渲染的硬件特性。
 
 # ---- 注视点 / 感知驱动 ----
@@ -130,13 +132,13 @@
 
 最小可分辨角:
   en: minimum angle of resolution
-  aka: [MAR]
+  abbr: MAR
   def: 视觉系统能分辨的最小角度。随离心率近似线性增长，斜率约 1.32–1.65 arcmin/度。
   see: papers/foveated-3d-graphics
 
 眼动追踪:
   en: eye tracking
-  aka: [注视点追踪, gaze tracking]
+  aka: [注视点追踪, 视线追踪]
   def: 实时测量用户注视方向的技术，注视点渲染的前提。
 
 隧道视觉:
@@ -155,23 +157,24 @@
 
 头显:
   en: head-mounted display
-  aka: [HMD, 头戴显示器]
+  abbr: HMD
+  aka: [头戴显示器]
   def: 戴在头上的显示设备，VR/AR 的主要载体。宽视场使其成为注视点渲染的最佳场景。
 
 视场角:
   en: field of view
-  aka: [FOV]
+  abbr: FOV
   def: 显示设备或视觉系统覆盖的角度范围。
 
 时域抗锯齿:
   en: temporal antialiasing
-  aka: [TAA]
+  abbr: TAA
   def: 利用历史帧信息减少锯齿与闪烁的技术。
 
 # ---- 数学 ----
 奇异值分解:
   en: singular value decomposition
-  aka: [SVD]
+  abbr: SVD
   def: 把任意矩阵分解为 UΣVᵀ，几何上等价于「旋转-缩放-旋转」。
   see: math/linear-algebra/svd
 
