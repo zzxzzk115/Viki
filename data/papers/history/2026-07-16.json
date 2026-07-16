@@ -32,6 +32,7 @@
       "comment": "",
       "isNew": false,
       "citedBy": 0,
+      "topic": "注视点渲染",
       "kind": "fresh"
     },
     {
@@ -64,6 +65,7 @@
       "comment": "20 pages, 12 figures. Accepted to the 47th IEEE Symposium on Security and Privacy (IEEE S&P 2026). Artifacts: https://bmdj-vt.github.io/project_pages/xr_side_channels",
       "isNew": false,
       "citedBy": 0,
+      "topic": "注视点渲染",
       "kind": "fresh"
     },
     {
@@ -91,6 +93,7 @@
       "comment": "",
       "isNew": false,
       "citedBy": 0,
+      "topic": "光线追踪",
       "kind": "fresh"
     },
     {
@@ -121,6 +124,7 @@
       "comment": "Project website at https://bchao1.github.io/foveated-diffusion",
       "isNew": false,
       "citedBy": 0,
+      "topic": "注视点渲染",
       "kind": "fresh"
     },
     {
@@ -148,6 +152,7 @@
       "comment": "10 pages including references and figure only pages; 2 pages Supplementary Material",
       "isNew": false,
       "citedBy": 0,
+      "topic": "注视点渲染",
       "kind": "fresh"
     },
     {
@@ -179,6 +184,7 @@
       "comment": "",
       "isNew": false,
       "citedBy": 0,
+      "topic": "感知驱动",
       "kind": "fresh"
     },
     {
@@ -208,152 +214,155 @@
       "comment": "",
       "isNew": false,
       "citedBy": 1,
+      "topic": "注视点渲染",
       "kind": "fresh"
     },
     {
-      "id": "2604.09659",
+      "id": "2606.31918",
       "source": "arxiv",
-      "title": "GazeCode: Recall-Based Verification for Higher-Quality In-the-Wild Mobile Gaze Data Collection",
+      "title": "DriveWeaver: Point-Conditioned Video Inpainting for Controllable Vehicle Insertion in Autonomous Driving Simulation",
       "authors": [
-        "Yaxiong Lei",
-        "Thomas Davies",
-        "Xinya Gong",
-        "Shijing He",
-        "Juan Ye"
+        "Junzhe Jiang",
+        "Zipei Ma",
+        "Zijie Pan",
+        "Li Zhang"
       ],
-      "abstract": "Large-scale mobile gaze estimation relies on in-the-wild datasets, yet unsupervised collection makes it difficult to verify whether participants truly foveate logged targets. Prior mobile protocols often use low-entropy validation (e.g., binary probes) that can be satisfied by guessing and may still allow peripheral viewing, introducing label noise. We present \\textbf{GazeCode}, a recall-based verification paradigm for higher-confidence in-the-wild mobile gaze data collection that strengthens \\emph{label validity} through a multi-digit recall task (reducing random success to $10^{-N}$) paired with anti-peripheral stimulus design (small, low-contrast, brief digits). The system logs synchronized front-camera video, IMU streams, and target events using high-resolution timestamps. In a formative study (N=3), we probe key parameters (opacity, duration) and directly test peripheral exploitability using an eccentricity-controlled \\textit{RING} condition. Results show that low-opacity digits substantially reduce peripheral readability while remaining usable for attentive foveation, supporting the inference that correct recall corresponds to higher-confidence gaze labels. We conclude with actionable design guidelines for robust in-the-wild gaze data collection.",
-      "published": "2026-03-30",
-      "url": "https://arxiv.org/abs/2604.09659",
-      "pdf": "https://arxiv.org/pdf/2604.09659",
-      "categories": [
-        "cs.HC"
-      ],
-      "matched": [
-        "foveat",
-        "eccentricity",
-        "gaze"
-      ],
-      "score": 34,
-      "comment": "6 pages, 3 figures, this paper is accepted by CHI'26 as Poster paper",
-      "isNew": false,
-      "citedBy": 0,
-      "kind": "fresh"
-    },
-    {
-      "id": "2601.22026",
-      "source": "arxiv",
-      "title": "Hybrid Foveated Path Tracing with Peripheral Gaussians for Immersive Anatomy",
-      "authors": [
-        "Constantin Kleinbeck",
-        "Luisa Theelke",
-        "Hannah Schieber",
-        "Ulrich Eck",
-        "Rüdiger von Eisenhart-Rothe",
-        "Daniel Roth"
-      ],
-      "abstract": "Volumetric medical imaging offers great potential for understanding complex pathologies. Yet, traditional 2D slices provide little support for interpreting spatial relationships, forcing users to mentally reconstruct anatomy into three dimensions. Direct volumetric path tracing and VR rendering can improve perception but are computationally expensive, while precomputed representations, like Gaussian Splatting, require planning ahead. Both approaches limit interactive use. We propose a hybrid rendering approach for high-quality, interactive, and immersive anatomical visualization. Our method combines streamed foveated path tracing with a lightweight Gaussian Splatting approximation of the periphery. The peripheral model generation is optimized with volume data and continuously refined using foveal renderings, enabling interactive updates. Depth-guided reprojection further improves robustness to latency and allows users to balance fidelity with refresh rate. We compare our method against direct path tracing and Gaussian Splatting. Our results highlight how their combination can preserve strengths in visual quality while re-generating the peripheral model in under a second, eliminating extensive preprocessing and approximations. This opens new options for interactive medical visualization.",
-      "published": "2026-01-29",
-      "url": "https://arxiv.org/abs/2601.22026",
-      "pdf": "https://arxiv.org/pdf/2601.22026",
-      "categories": [
-        "cs.GR",
-        "cs.CV"
-      ],
-      "matched": [
-        "foveat",
-        "path tracing",
-        "reprojection"
-      ],
-      "score": 34,
-      "comment": "Scheduled for publication in the Proceedings of IEEE VR 2026",
-      "isNew": false,
-      "citedBy": 0,
-      "kind": "fresh"
-    },
-    {
-      "id": "2606.02565",
-      "source": "arxiv",
-      "title": "Policy-based Foveated Imaging and Perception",
-      "authors": [
-        "Howard Xiao",
-        "Jan Ackermann",
-        "Boyang Deng",
-        "Gordon Wetzstein"
-      ],
-      "abstract": "Ultra-high-resolution image sensors offer the potential to capture fine spatial details critical for many visual perception tasks, but acquiring and processing all pixels at full resolution is often infeasible under realistic bandwidth, latency, and power constraints. Existing approaches address this challenge through acquisition strategies such as spatial or temporal downsampling, which irrevocably discard information before task relevance can be assessed. In this work, we introduce a real-time, predictive, and task-aware foveated imaging system that operates directly at image acquisition time. Leveraging emerging dual-stream sensor architectures, our method dynamically allocates limited pixel bandwidth to task-relevant regions of interest while maintaining a low-resolution global context. We formulate foveated acquisition as a sensor attention policy-learning problem, in which past observations guide actions that determine future measurements, closing the perception-acquisition loop. Through extensive simulation across multiple perception tasks, we demonstrate that our approach achieves high task performance under strict pixel budgets and significantly outperforms relevant baselines operating at the same bandwidth. We further validate our system on a 200-megapixel dual-stream sensor, capturing real-world videos under realistic bandwidth and latency constraints, demonstrating the practical feasibility of task-driven, acquisition-time foveated imaging.",
-      "published": "2026-06-01",
-      "url": "https://arxiv.org/abs/2606.02565",
-      "pdf": "https://arxiv.org/pdf/2606.02565",
+      "abstract": "A pivotal step in autonomous driving simulation involves inserting foreground vehicles with predefined trajectories into simulated scenes. This process enhances scene diversity and facilitates the creation of various corner cases for testing and improving autonomous driving models. However, existing methods often rely on pre-reconstructed 3D assets, which frequently lead to lighting inconsistencies between the inserted foreground and the background. Moreover, the reliance on limited, manually-curated 3D assets hinders large-scale deployment. To address these challenges, we propose DriveWeaver, a novel framework for controllable vehicle insertion in autonomous driving simulation. Specifically, for a masked target insertion area, DriveWeaver performs video inpainting conditioned on vehicle point clouds to generate high-quality, temporally consistent vehicles. This video-inpainting-based approach ensures seamless blending between the foreground and background, while the readily available point cloud conditions enable superior generalization. To support long-term generation, we further design a global-to-local hierarchical inpainting strategy, ensuring the consistent identity and appearance of the inserted vehicles. Meanwhile, we extract explicit 3D Gaussian representations of the inserted vehicles through an urban reconstruction pipeline to enable real-time rendering for autonomous driving simulation. Extensive experiments across diverse datasets demonstrate that our method outperforms existing baselines in visual realism and geometric consistency, providing a robust tool for scalable autonomous driving scene augmentation.",
+      "published": "2026-06-30",
+      "url": "https://arxiv.org/abs/2606.31918",
+      "pdf": "https://arxiv.org/pdf/2606.31918",
       "categories": [
         "cs.CV"
       ],
       "matched": [
-        "foveat",
-        "visual perception"
-      ],
-      "score": 33,
-      "comment": "Project website at https://howardxiao.ca/foveated/",
-      "isNew": false,
-      "citedBy": 0,
-      "kind": "fresh"
-    },
-    {
-      "id": "2603.18350",
-      "source": "arxiv",
-      "title": "PeriphAR: Fast and Accurate Real-World Object Selection with Peripheral Augmented Reality Displays",
-      "authors": [
-        "Yutong Ren",
-        "Arnav Reddy",
-        "Michael Nebeling"
-      ],
-      "abstract": "Gaze-based selection in XR requires visual confirmation due to eye-tracking limitations and target ambiguity in 3D contexts. Current designs for wide-FOV displays use world-locked, central overlays, which are not conducive to always-on AR glasses. This paper introduces PeriphAR (per-ree-far), a visualization technique that leverages peripheral vision for feedback during gaze-based selection on a monocular AR display. In a first user study, we isolated text, color, and shape properties of target objects to compare peripheral selection cues. Peripheral vision was more sensitive to color than shape, but this sensitivity rapidly declined at lower contrast. To preserve preattentive processing of color, we developed two strategies to enhance color in users' peripheral vision. In a second user study, our strategy that maximized contrast of the target to the neighboring object with the most similar color was subjectively preferred. As proof of concept, we implemented PeriphAR in an end-to-end system to test performance with real-world object detection.",
-      "published": "2026-03-18",
-      "url": "https://arxiv.org/abs/2603.18350",
-      "pdf": "https://arxiv.org/pdf/2603.18350",
-      "categories": [
-        "cs.HC"
-      ],
-      "matched": [
-        "peripheral vision",
-        "gaze",
-        "eye-tracking",
-        "augmented reality"
+        "video inpainting",
+        "inpainting"
       ],
       "score": 32,
-      "comment": "",
-      "isNew": false,
+      "comment": "Accepted at ECCV 2026, Project Page: https://github.com/LogosRoboticsGroup/DriveWeaver",
+      "isNew": true,
       "citedBy": 0,
+      "topic": "图像补全",
       "kind": "fresh"
     },
     {
-      "id": "2603.15796",
+      "id": "2601.19753",
       "source": "arxiv",
-      "title": "Perceptual Requirements for Low-Latency Head-Mounted Displays",
+      "title": "WaterClear-GS: Optical-Aware Gaussian Splatting for Underwater Reconstruction and Restoration",
       "authors": [
-        "Eric Penner",
-        "Josephine D'Angelo",
-        "Clinton Smith",
-        "Nathan Matsuda",
-        "Neethan Siva",
-        "Phillip Guan"
+        "Xinrui Zhang",
+        "Yufeng Wang",
+        "Shuangkang Fang",
+        "Zesheng Wang",
+        "Dacheng Qi",
+        "Wenrui Ding"
       ],
-      "abstract": "End-to-end (e2e) latency in head-mounted displays (HMD) is the time delay between a physical change in the world (e.g., a user's head movement) and the moment the display updates to reflect that change. Tracking, rendering, and other computation in real systems invariably introduce some amount of e2e latency to all HMDs. In modern devices this latency is usually in the range of 12-60 milliseconds which is partially addressed through pose prediction and late stage reprojection which means that perceptual studies and user experience evaluations cannot explore latencies below these values. Here, we introduce a video passthrough HMD, called Camsicle, which is capable of 2-millisecond e2e latency and, additionally, uses a catadioptric design to achieve perspective-correct passthrough without reprojection. This platform enables naturalistic user studies to interrogate the impacts of latency on user experience, preference, and performance. Across two user studies and 57 participants we find that 2 and 14.3 millisecond latencies are preferred over 23 and 29 milliseconds when attempting to catch a ball. Additionally, we compare individual latency preferences in this naturalistic ball-catching task to psychophysical thresholds for latency detection in a reference-grade system with zero latency to investigate how psychophysical thresholds may relate to subjective evaluations in naturalistic scenarios.",
-      "published": "2026-03-16",
-      "url": "https://arxiv.org/abs/2603.15796",
-      "pdf": "https://arxiv.org/pdf/2603.15796",
+      "abstract": "Underwater 3D reconstruction and appearance restoration are hindered by the complex optical properties of water, such as wavelength-dependent attenuation and scattering. Existing Neural Radiance Fields (NeRF)-based methods struggle with slow rendering speeds and suboptimal color restoration, while 3D Gaussian Splatting (3DGS) inherently lacks the capability to model complex volumetric scattering effects. To address these issues, we introduce WaterClear-GS, the first pure 3DGS-based framework that explicitly integrates underwater optical properties of local attenuation and scattering into Gaussian primitives, eliminating the need for an auxiliary medium network. Our method employs a dual-branch optimization strategy to ensure underwater photometric consistency while naturally recovering water-free appearances. This strategy is enhanced by depth-guided geometry regularization and perception-driven image loss, together with exposure constraints, spatially-adaptive regularization, and physically guided spectral regularization, which collectively enforce local 3D coherence and maintain natural visual perception. Experiments on standard benchmarks and our newly collected dataset demonstrate that WaterClear-GS achieves outstanding performance on both novel view synthesis (NVS) and underwater image restoration (UIR) tasks, while maintaining real-time rendering. The code will be available at https://buaaxrzhang.github.io/WaterClear-GS/.",
+      "published": "2026-01-27",
+      "url": "https://arxiv.org/abs/2601.19753",
+      "pdf": "https://arxiv.org/pdf/2601.19753",
       "categories": [
-        "cs.GR"
+        "cs.CV"
       ],
       "matched": [
-        "psychophysic",
-        "head-mounted",
-        "hmd",
-        "reprojection"
+        "perception-driven",
+        "visual perception",
+        "view synthesis"
       ],
-      "score": 29,
+      "score": 31,
       "comment": "",
       "isNew": false,
       "citedBy": 0,
+      "topic": "感知驱动",
+      "kind": "fresh"
+    },
+    {
+      "id": "2604.12270",
+      "source": "arxiv",
+      "title": "DreamStereo: Towards Real-Time Stereo Inpainting for HD Videos",
+      "authors": [
+        "Yuan Huang",
+        "Sijie Zhao",
+        "Jing Cheng",
+        "Hao Xu",
+        "Shaohui Jiao"
+      ],
+      "abstract": "Stereo video inpainting, which aims to fill the occluded regions of warped videos with visually coherent content while maintaining temporal consistency, remains a challenging open problem. The regions to be filled are scattered along object boundaries and occupy only a small fraction of each frame, leading to two key challenges. First, existing approaches perform poorly on such tasks due to the scarcity of high-quality stereo inpainting datasets, which limits their ability to learn effective inpainting priors. Second, these methods apply equal processing to all regions of the frame, even though most pixels require no modification, resulting in substantial redundant computation. To address these issues, we introduce three interconnected components. We first propose Gradient-Aware Parallax Warping (GAPW), which leverages backward warping and the gradient of the coordinate mapping function to obtain continuous edges and smooth occlusion regions. Then, a Parallax-Based Dual Projection (PBDP) strategy is introduced, which incorporates GAPW to produce geometrically consistent stereo inpainting pairs and accurate occlusion masks without requiring stereo videos. Finally, we present Sparsity-Aware Stereo Inpainting (SASI), which reduces over 70% of redundant tokens, achieving a 10.7x speedup during diffusion inference and delivering results comparable to its full-computation counterpart, enabling real-time processing of HD (768 x 1280) videos at 25 FPS on a single A100 GPU.",
+      "published": "2026-04-14",
+      "url": "https://arxiv.org/abs/2604.12270",
+      "pdf": "https://arxiv.org/pdf/2604.12270",
+      "categories": [
+        "cs.CV"
+      ],
+      "matched": [
+        "video inpainting",
+        "inpainting"
+      ],
+      "score": 27,
+      "comment": "",
+      "isNew": true,
+      "citedBy": 0,
+      "topic": "图像补全",
+      "kind": "fresh"
+    },
+    {
+      "id": "2602.23022",
+      "source": "arxiv",
+      "title": "DMAligner: Enhancing Image Alignment via Diffusion Model Based View Synthesis",
+      "authors": [
+        "Xinglong Luo",
+        "Ao Luo",
+        "Zhengning Wang",
+        "Yueqi Yang",
+        "Chaoyu Feng",
+        "Lei Lei",
+        "Bing Zeng",
+        "Shuaicheng Liu"
+      ],
+      "abstract": "Image alignment is a fundamental task in computer vision with broad applications. Existing methods predominantly employ optical flow-based image warping. However, this technique is susceptible to common challenges such as occlusions and illumination variations, leading to degraded alignment visual quality and compromised accuracy in downstream tasks. In this paper, we present DMAligner, a diffusion-based framework for image alignment through alignment-oriented view synthesis. DMAligner is crafted to tackle the challenges in image alignment from a new perspective, employing a generation-based solution that showcases strong capabilities and avoids the problems associated with flow-based image warping. Specifically, we propose a Dynamics-aware Diffusion Training approach for learning conditional image generation, synthesizing a novel view for image alignment. This incorporates a Dynamics-aware Mask Producing (DMP) module to adaptively distinguish dynamic foreground regions from static backgrounds, enabling the diffusion model to more effectively handle challenges that classical methods struggle to solve. Furthermore, we develop the Dynamic Scene Image Alignment (DSIA) dataset using Blender, which includes 1,033 indoor and outdoor scenes with over 30K image pairs tailored for image alignment. Extensive experimental results demonstrate the superiority of the proposed approach on DSIA benchmarks, as well as on a series of widely-used video datasets for qualitative comparisons. Our code is available at https://github.com/boomluo02/DMAligner.",
+      "published": "2026-02-26",
+      "url": "https://arxiv.org/abs/2602.23022",
+      "pdf": "https://arxiv.org/pdf/2602.23022",
+      "categories": [
+        "cs.CV"
+      ],
+      "matched": [
+        "image warping",
+        "view synthesis"
+      ],
+      "score": 24,
+      "comment": "Accepted by CVPR 2026",
+      "isNew": true,
+      "citedBy": 0,
+      "topic": "图像变形",
+      "kind": "fresh"
+    },
+    {
+      "id": "2604.02851",
+      "source": "arxiv",
+      "title": "Streaming Real-Time Rendered Scenes as 3D Gaussians",
+      "authors": [
+        "Matti Siekkinen",
+        "Teemu Kämäräinen"
+      ],
+      "abstract": "Cloud rendering is widely used in gaming and XR to overcome limited client-side GPU resources and to support heterogeneous devices. Existing systems typically deliver the rendered scene as a 2D video stream, which tightly couples the transmitted content to the server-rendered viewpoint and limits latency compensation to image-space reprojection or warping. In this paper, we investigate an alternative approach based on streaming a live 3D Gaussian Splatting (3DGS) scene representation instead of only rendered video. We present a Unity-based prototype in which a server constructs and continuously optimizes a 3DGS model from real-time rendered reference views, while streaming the evolving representation to remote clients using full model snapshots and incremental updates supporting relighting and rigid object dynamics. The clients reconstruct the streamed Gaussian model locally and render their current viewpoint from the received representation. This approach aims to improve viewpoint flexibility for latency compensation and to better amortize server-side scene modeling across multiple users than per-user rendering and video streaming. We describe the system design, evaluate it, and compare it with conventional image warping.",
+      "published": "2026-04-03",
+      "url": "https://arxiv.org/abs/2604.02851",
+      "pdf": "https://arxiv.org/pdf/2604.02851",
+      "categories": [
+        "eess.IV",
+        "cs.GR",
+        "cs.MM"
+      ],
+      "matched": [
+        "image warping",
+        "reprojection"
+      ],
+      "score": 22,
+      "comment": "",
+      "isNew": true,
+      "citedBy": 0,
+      "topic": "图像变形",
       "kind": "fresh"
     },
     {
@@ -382,6 +391,7 @@
       "comment": "",
       "isNew": false,
       "citedBy": 139,
+      "topic": "注视点渲染",
       "kind": "classic"
     },
     {
@@ -412,35 +422,41 @@
       "comment": "",
       "isNew": false,
       "citedBy": 60,
+      "topic": "图像变形",
       "kind": "classic"
     },
     {
-      "id": "1705.00816",
+      "id": "1907.01131",
       "source": "arxiv",
-      "title": "Central and peripheral vision for scene recognition: A neurocomputational modeling exploration",
+      "title": "Learnable Gated Temporal Shift Module for Deep Video Inpainting",
       "authors": [
-        "Panqu Wang",
-        "Garrison W. Cottrell"
+        "Ya-Liang Chang",
+        "Zhe Yu Liu",
+        "Kuan-Ying Lee",
+        "Winston Hsu"
       ],
-      "abstract": "What are the roles of central and peripheral vision in human scene recognition? Larson and Loschky (2009) showed that peripheral vision contributes more than central vision in obtaining maximum scene recognition accuracy. However, central vision is more efficient for scene recognition than peripheral, based on the amount of visual area needed for accurate recognition. In this study, we model and explain the results of Larson and Loschky (2009) using a neurocomputational modeling approach. We show that the advantage of peripheral vision in scene recognition, as well as the efficiency advantage for central vision, can be replicated using state-of-the-art deep neural network models. In addition, we propose and provide support for the hypothesis that the peripheral advantage comes from the inherent usefulness of peripheral features. This result is consistent with data presented by Thibaut, Tran, Szaffarczyk, and Boucart (2014), who showed that patients with central vision loss can still categorize natural scenes efficiently. Furthermore, by using a deep mixture-of-experts model (\"The Deep Model,\" or TDM) that receives central and peripheral visual information on separate channels simultaneously, we show that the peripheral advantage emerges naturally in the learning process: When trained to categorize scenes, the model weights the peripheral pathway more than the central pathway. As we have seen in our previous modeling work, learning creates a transform that spreads different scene categories into different regions in representational space. Finally, we visualize the features for the two pathways, and find that different preferences for scene categories emerge for the two pathways during the training process.",
-      "published": "2017-05-02",
-      "url": "https://arxiv.org/abs/1705.00816",
-      "pdf": "https://arxiv.org/pdf/1705.00816",
+      "abstract": "How to efficiently utilize temporal information to recover videos in a consistent way is the main issue for video inpainting problems. Conventional 2D CNNs have achieved good performance on image inpainting but often lead to temporally inconsistent results where frames will flicker when applied to videos (see https://www.youtube.com/watch?v=87Vh1HDBjD0&list=PLPoVtv-xp_dL5uckIzz1PKwNjg1yI0I94&index=1); 3D CNNs can capture temporal information but are computationally intensive and hard to train. In this paper, we present a novel component termed Learnable Gated Temporal Shift Module (LGTSM) for video inpainting models that could effectively tackle arbitrary video masks without additional parameters from 3D convolutions. LGTSM is designed to let 2D convolutions make use of neighboring frames more efficiently, which is crucial for video inpainting. Specifically, in each layer, LGTSM learns to shift some channels to its temporal neighbors so that 2D convolutions could be enhanced to handle temporal information. Meanwhile, a gated convolution is applied to the layer to identify the masked areas that are poisoning for conventional convolutions. On the FaceForensics and Free-form Video Inpainting (FVI) dataset, our model achieves state-of-the-art results with simply 33% of parameters and inference time.",
+      "published": "2019-07-02",
+      "url": "https://arxiv.org/abs/1907.01131",
+      "pdf": "https://arxiv.org/pdf/1907.01131",
       "categories": [
-        "q-bio.NC"
+        "cs.CV"
       ],
       "matched": [
-        "peripheral vision"
+        "video inpainting",
+        "image inpainting",
+        "inpainting"
       ],
-      "score": 21,
-      "comment": "http://jov.arvojournals.org/Article.aspx?articleid=2623232",
+      "score": 40,
+      "comment": "Accepted to BMVC 2019",
       "isNew": true,
-      "citedBy": 42,
+      "citedBy": 52,
+      "topic": "图像补全",
       "kind": "classic"
     }
   ],
   "notes": [
-    "384 篇候选：近期相关 118 篇取 12，经典（>30 被引）4 篇混入 3",
-    "其中 1 篇是首次出现"
+    "536 篇候选：近期相关 147 篇取 12，经典（>30 被引）6 篇混入 3",
+    "其中 5 篇是首次出现"
   ]
 }
