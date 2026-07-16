@@ -30,7 +30,9 @@
       ],
       "score": 52,
       "comment": "",
-      "isNew": false
+      "isNew": false,
+      "citedBy": 0,
+      "kind": "fresh"
     },
     {
       "id": "2605.27939",
@@ -60,7 +62,9 @@
       ],
       "score": 50,
       "comment": "20 pages, 12 figures. Accepted to the 47th IEEE Symposium on Security and Privacy (IEEE S&P 2026). Artifacts: https://bmdj-vt.github.io/project_pages/xr_side_channels",
-      "isNew": false
+      "isNew": false,
+      "citedBy": 0,
+      "kind": "fresh"
     },
     {
       "id": "2605.11536",
@@ -85,7 +89,9 @@
       ],
       "score": 48,
       "comment": "",
-      "isNew": true
+      "isNew": false,
+      "citedBy": 0,
+      "kind": "fresh"
     },
     {
       "id": "2603.23491",
@@ -113,7 +119,9 @@
       ],
       "score": 41,
       "comment": "Project website at https://bchao1.github.io/foveated-diffusion",
-      "isNew": false
+      "isNew": false,
+      "citedBy": 0,
+      "kind": "fresh"
     },
     {
       "id": "2601.19425",
@@ -138,7 +146,9 @@
       ],
       "score": 41,
       "comment": "10 pages including references and figure only pages; 2 pages Supplementary Material",
-      "isNew": false
+      "isNew": false,
+      "citedBy": 0,
+      "kind": "fresh"
     },
     {
       "id": "2606.00122",
@@ -167,7 +177,9 @@
       ],
       "score": 39,
       "comment": "",
-      "isNew": false
+      "isNew": false,
+      "citedBy": 0,
+      "kind": "fresh"
     },
     {
       "id": "2605.17823",
@@ -194,7 +206,9 @@
       ],
       "score": 34,
       "comment": "",
-      "isNew": false
+      "isNew": false,
+      "citedBy": 1,
+      "kind": "fresh"
     },
     {
       "id": "2604.09659",
@@ -221,7 +235,9 @@
       ],
       "score": 34,
       "comment": "6 pages, 3 figures, this paper is accepted by CHI'26 as Poster paper",
-      "isNew": false
+      "isNew": false,
+      "citedBy": 0,
+      "kind": "fresh"
     },
     {
       "id": "2601.22026",
@@ -250,7 +266,9 @@
       ],
       "score": 34,
       "comment": "Scheduled for publication in the Proceedings of IEEE VR 2026",
-      "isNew": true
+      "isNew": false,
+      "citedBy": 0,
+      "kind": "fresh"
     },
     {
       "id": "2606.02565",
@@ -275,7 +293,9 @@
       ],
       "score": 33,
       "comment": "Project website at https://howardxiao.ca/foveated/",
-      "isNew": false
+      "isNew": false,
+      "citedBy": 0,
+      "kind": "fresh"
     },
     {
       "id": "2603.18350",
@@ -301,7 +321,9 @@
       ],
       "score": 32,
       "comment": "",
-      "isNew": false
+      "isNew": false,
+      "citedBy": 0,
+      "kind": "fresh"
     },
     {
       "id": "2603.15796",
@@ -330,94 +352,98 @@
       ],
       "score": 29,
       "comment": "",
-      "isNew": true
+      "isNew": false,
+      "citedBy": 0,
+      "kind": "fresh"
     },
     {
-      "id": "2602.06164",
+      "id": "1511.06292",
       "source": "arxiv",
-      "title": "The Eye-Head Mover Spectrum: Modelling Individual and Population Head Movement Tendencies in Virtual Reality",
+      "title": "Foveation-based Mechanisms Alleviate Adversarial Examples",
       "authors": [
-        "Jinghui Hu",
-        "Ludwig Sidenmark",
-        "Hock Siang Lee",
-        "Hans Gellersen"
+        "Yan Luo",
+        "Xavier Boix",
+        "Gemma Roig",
+        "Tomaso Poggio",
+        "Qi Zhao"
       ],
-      "abstract": "People differ in how much they move their head versus their eyes when shifting gaze, yet such tendencies remain largely unexplored in HCI. We introduce head movement tendencies as a fundamental dimension of individual difference in VR and provide a quantitative account of their population-level distribution. Using a 360° video free-viewing dataset (N=87), we model head contributions to gaze shifts with a hinge-based parametric function, revealing a spectrum of strategies from eye-movers to head-movers. We then conduct a user study (N=28) combining 360° video viewing with a short controlled task using gaze targets. While parameter values differ across tasks, individuals show partial alignment in their relative positions within the population, indicating that tendencies are meaningful but shaped by context. Our findings establish head movement tendencies as an important concept for VR and highlight implications for adaptive systems such as foveated rendering, viewport alignment, and multi-user experience design.",
-      "published": "2026-02-05",
-      "url": "https://arxiv.org/abs/2602.06164",
-      "pdf": "https://arxiv.org/pdf/2602.06164",
+      "abstract": "We show that adversarial examples, i.e., the visually imperceptible perturbations that result in Convolutional Neural Networks (CNNs) fail, can be alleviated with a mechanism based on foveations---applying the CNN in different image regions. To see this, first, we report results in ImageNet that lead to a revision of the hypothesis that adversarial perturbations are a consequence of CNNs acting as a linear classifier: CNNs act locally linearly to changes in the image regions with objects recognized by the CNN, and in other regions the CNN may act non-linearly. Then, we corroborate that when the neural responses are linear, applying the foveation mechanism to the adversarial example tends to significantly reduce the effect of the perturbation. This is because, hypothetically, the CNNs for ImageNet are robust to changes of scale and translation of the object produced by the foveation, but this property does not generalize to transformations of the perturbation. As a result, the accuracy after a foveation is almost the same as the accuracy of the CNN without the adversarial perturbation, even if the adversarial perturbation is calculated taking into account a foveation.",
+      "published": "2015-11-19",
+      "url": "https://arxiv.org/abs/1511.06292",
+      "pdf": "https://arxiv.org/pdf/1511.06292",
       "categories": [
-        "cs.HC"
+        "cs.LG",
+        "cs.CV"
       ],
       "matched": [
-        "foveat",
-        "gaze",
-        "virtual reality"
+        "foveat"
       ],
-      "score": 29,
+      "score": 21,
       "comment": "",
-      "isNew": false
+      "isNew": true,
+      "citedBy": 139,
+      "kind": "classic"
     },
     {
-      "id": "2601.19753",
+      "id": "1703.01515",
       "source": "arxiv",
-      "title": "WaterClear-GS: Optical-Aware Gaussian Splatting for Underwater Reconstruction and Restoration",
+      "title": "CDC: Convolutional-De-Convolutional Networks for Precise Temporal Action Localization in Untrimmed Videos",
       "authors": [
-        "Xinrui Zhang",
-        "Yufeng Wang",
-        "Shuangkang Fang",
-        "Zesheng Wang",
-        "Dacheng Qi",
-        "Wenrui Ding"
+        "Zheng Shou",
+        "Jonathan Chan",
+        "Alireza Zareian",
+        "Kazuyuki Miyazawa",
+        "Shih-Fu Chang"
       ],
-      "abstract": "Underwater 3D reconstruction and appearance restoration are hindered by the complex optical properties of water, such as wavelength-dependent attenuation and scattering. Existing Neural Radiance Fields (NeRF)-based methods struggle with slow rendering speeds and suboptimal color restoration, while 3D Gaussian Splatting (3DGS) inherently lacks the capability to model complex volumetric scattering effects. To address these issues, we introduce WaterClear-GS, the first pure 3DGS-based framework that explicitly integrates underwater optical properties of local attenuation and scattering into Gaussian primitives, eliminating the need for an auxiliary medium network. Our method employs a dual-branch optimization strategy to ensure underwater photometric consistency while naturally recovering water-free appearances. This strategy is enhanced by depth-guided geometry regularization and perception-driven image loss, together with exposure constraints, spatially-adaptive regularization, and physically guided spectral regularization, which collectively enforce local 3D coherence and maintain natural visual perception. Experiments on standard benchmarks and our newly collected dataset demonstrate that WaterClear-GS achieves outstanding performance on both novel view synthesis (NVS) and underwater image restoration (UIR) tasks, while maintaining real-time rendering. The code will be available at https://buaaxrzhang.github.io/WaterClear-GS/.",
-      "published": "2026-01-27",
-      "url": "https://arxiv.org/abs/2601.19753",
-      "pdf": "https://arxiv.org/pdf/2601.19753",
+      "abstract": "Temporal action localization is an important yet challenging problem. Given a long, untrimmed video consisting of multiple action instances and complex background contents, we need not only to recognize their action categories, but also to localize the start time and end time of each instance. Many state-of-the-art systems use segment-level classifiers to select and rank proposal segments of pre-determined boundaries. However, a desirable model should move beyond segment-level and make dense predictions at a fine granularity in time to determine precise temporal boundaries. To this end, we design a novel Convolutional-De-Convolutional (CDC) network that places CDC filters on top of 3D ConvNets, which have been shown to be effective for abstracting action semantics but reduce the temporal length of the input data. The proposed CDC filter performs the required temporal upsampling and spatial downsampling operations simultaneously to predict actions at the frame-level granularity. It is unique in jointly modeling action semantics in space-time and fine-grained temporal dynamics. We train the CDC network in an end-to-end manner efficiently. Our model not only achieves superior performance in detecting actions in every frame, but also significantly boosts the precision of localizing temporal boundaries. Finally, the CDC network demonstrates a very high efficiency with the ability to process 500 frames per second on a single GPU server. We will update the camera-ready version and publish the source codes online soon.",
+      "published": "2017-03-04",
+      "url": "https://arxiv.org/abs/1703.01515",
+      "pdf": "https://arxiv.org/pdf/1703.01515",
       "categories": [
         "cs.CV"
       ],
       "matched": [
-        "perception-driven",
-        "visual perception"
+        "temporal upsampling"
       ],
-      "score": 28,
-      "comment": "",
-      "isNew": false
+      "score": 19,
+      "comment": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017",
+      "isNew": true,
+      "citedBy": 62,
+      "kind": "classic"
     },
     {
-      "id": "2606.03118",
+      "id": "2011.10185",
       "source": "arxiv",
-      "title": "Learning to See via Epiretinal Implant Stimulation in silico with Model-Based Deep Reinforcement Learning",
+      "title": "ConvTransformer: A Convolutional Transformer Network for Video Frame Synthesis",
       "authors": [
-        "Jacob Lavoie",
-        "Marwan Besrour",
-        "William Lemaire",
-        "Jean Rouat",
-        "Réjean Fontaine",
-        "Eric Plourde"
+        "Zhouyong Liu",
+        "Shun Luo",
+        "Wubin Li",
+        "Jingben Lu",
+        "Yufan Wu",
+        "Shilei Sun",
+        "Chunguo Li",
+        "Luxi Yang"
       ],
-      "abstract": "Objective: Diseases such as age-related macular degeneration and retinitis pigmentosa cause the degradation of the photoreceptor layer. One approach to restore vision is to electrically stimulate the surviving retinal ganglion cells with a microelectrode array such as epiretinal implants. Epiretinal implants are known to generate visible anisotropic shapes elongated along the axon fascicles of neighboring retinal ganglion cells. Recent work has demonstrated that to obtain isotropic pixel-like shapes, it is possible to map axon fascicles and avoid stimulating them by inactivating electrodes or lowering stimulation current levels. Avoiding axon fascicle stimulation aims to remove brushstroke-like shapes in favor of a more reduced set of pixel-like shapes. Approach: In this study, we propose the use of isotropic and anisotropic shapes to render intelligible images on the retina of a virtual patient in a reinforcement learning environment named rlretina. The environment formalizes the task as using brushstrokes in a stroke-based rendering task. Main Results: We train a deep reinforcement learning agent that learns to assemble isotropic and anisotropic shapes to form an image. We investigate which error-based or perception-based metrics is adequate to reward the agent. The agent is trained in a model-based data generation fashion using the psychophysically validated axon map model to render images as perceived by different virtual patients. We show that the agent can generate more intelligible images compared to the naive method in different virtual patients. Significance: This work shares a new way to address epiretinal stimulation that constitutes a first step towards improving visual acuity in artificially-restored vision using anisotropic phosphenes.",
-      "published": "2026-06-02",
-      "url": "https://arxiv.org/abs/2606.03118",
-      "pdf": "https://arxiv.org/pdf/2606.03118",
+      "abstract": "Deep Convolutional Neural Networks (CNNs) are powerful models that have achieved excellent performance on difficult computer vision tasks. Although CNNs perform well whenever large labeled training samples are available, they work badly on video frame synthesis due to objects deforming and moving, scene lighting changes, and cameras moving in video sequence. In this paper, we present a novel and general end-to-end architecture, called convolutional Transformer or ConvTransformer, for video frame sequence learning and video frame synthesis. The core ingredient of ConvTransformer is the proposed attention layer, i.e., multi-head convolutional self-attention layer, that learns the sequential dependence of video sequence. ConvTransformer uses an encoder, built upon multi-head convolutional self-attention layer, to encode the sequential dependence between the input frames, and then a decoder decodes the long-term dependence between the target synthesized frames and the input frames. Experiments on video future frame extrapolation task show ConvTransformer to be superior in quality while being more parallelizable to recent approaches built upon convolutional LSTM (ConvLSTM). To the best of our knowledge, this is the first time that ConvTransformer architecture is proposed and applied to video frame synthesis.",
+      "published": "2020-11-20",
+      "url": "https://arxiv.org/abs/2011.10185",
+      "pdf": "https://arxiv.org/pdf/2011.10185",
       "categories": [
-        "cs.LG",
-        "cs.CV",
-        "q-bio.NC"
+        "cs.CV"
       ],
       "matched": [
-        "visual acuity",
-        "psychophysic"
+        "frame extrapolation"
       ],
-      "score": 27,
-      "comment": "18 pages, 6 figures. Published version: Biomed. Phys. Eng. Express 10, 025006 (2024)",
-      "isNew": false
+      "score": 16,
+      "comment": "",
+      "isNew": true,
+      "citedBy": 60,
+      "kind": "classic"
     }
   ],
   "notes": [
-    "317 篇候选，其中 118 篇在最近 180 天内",
-    "118 篇符合条件，按分数取前 15 篇",
+    "384 篇候选：近期相关 118 篇取 12，经典（>30 被引）5 篇混入 3",
     "其中 3 篇是首次出现"
   ]
 }
