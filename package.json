@@ -12,7 +12,8 @@
     "dev": "pnpm content && next dev",
     "build": "pnpm content && next build",
     "start": "next start",
-    "check": "tsc --noEmit"
+    "check": "tsc --noEmit",
+    "test": "node --import tsx --test \"src/**/*.test.ts\""
   },
   "dependencies": {
     "gray-matter": "4.0.3",

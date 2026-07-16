@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Icon } from '@/components/icon'
 import { LevelBadge } from '@/components/level-badge'
+import { ReviewCard } from '@/components/review-card'
 import { getNoteIndex, getSubjects } from '@/lib/content'
 
 export default async function Home() {
@@ -21,7 +22,14 @@ export default async function Home() {
         个人知识库 · 数学 / 物理 / 计算机 / 图形学
       </p>
 
-      {/* P2 replaces this slot with the 「还记得吗？」 review card. */}
+      <section className="mt-10">
+        <ReviewCard compact />
+        <p className="mt-3 text-right text-sm">
+          <Link href="/cards/" className="text-neutral-500 hover:underline">
+            进入完整复习 →
+          </Link>
+        </p>
+      </section>
 
       <section className="mt-12">
         <h2 className="text-sm font-semibold tracking-wide text-neutral-500 uppercase">科目</h2>

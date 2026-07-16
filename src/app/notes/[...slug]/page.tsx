@@ -2,8 +2,8 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { Icon } from '@/components/icon'
 import { LevelBadge } from '@/components/level-badge'
-import { getNote, getNoteIndex, getSubjects } from '@/lib/content'
-import type { TocEntry } from '@/lib/schema'
+import { getBacklinks, getNote, getNoteIndex, getSubjects } from '@/lib/content'
+import type { NoteIndexEntry, TocEntry } from '@/lib/schema'
 
 // Required by output: 'export' — every route must be enumerable at build time.
 export const dynamicParams = false
@@ -28,8 +28,15 @@ export default async function NotePage({ params }: Props) {
   const note = await getNote(slug.join('/')).catch(() => null)
   if (!note) notFound()
 
-  const subjects = await getSubjects()
+  const [subjects, backlinks, index] = await Promise.all([
+    getSubjects(),
+    getBacklinks(),
+    getNoteIndex(),
+  ])
   const subject = subjects[note.subject]
+  const linkedFrom = (backlinks[note.slug] ?? [])
+    .map((s) => index.find((n) => n.slug === s))
+    .filter((n): n is NoteIndexEntry => !!n)
 
   return (
     <div className="mx-auto max-w-6xl px-6 py-12">
@@ -77,6 +84,23 @@ export default async function NotePage({ params }: Props) {
             className="prose prose-neutral dark:prose-invert mt-8 max-w-none"
             dangerouslySetInnerHTML={{ __html: note.html }}
           />
+
+          {linkedFrom.length > 0 && (
+            <section className="mt-16 border-t border-neutral-200 pt-6 dark:border-neutral-800">
+              <h2 className="text-xs font-semibold tracking-wide text-neutral-500 uppercase">
+                被引用于
+              </h2>
+              <ul className="mt-3 space-y-1.5 text-sm">
+                {linkedFrom.map((n) => (
+                  <li key={n.slug}>
+                    <Link href={n.href} className="text-neutral-600 hover:underline dark:text-neutral-400">
+                      {n.meta.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
         </article>
 
         {note.toc.length > 0 && <Toc toc={note.toc} />}

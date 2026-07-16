@@ -40,6 +40,11 @@ export async function getSubjects(): Promise<Record<string, Subject>> {
   return readJson('subjects.json')
 }
 
+/** slug -> slugs of notes linking to it. Inverted from each note's `links`. */
+export async function getBacklinks(): Promise<Record<string, string[]>> {
+  return readJson('backlinks.json')
+}
+
 /** Display name for a subject dir, falling back to the dir name itself. */
 export function subjectName(subjects: Record<string, Subject>, dir: string): string {
   return subjects[dir]?.name ?? dir

@@ -28,6 +28,18 @@ $$
 
 互易性是双向路径追踪能成立的前提。能量守恒不满足的话，多次弹射会让画面越来越亮。
 
+::::card{id=brdf-reciprocity}
+BRDF 必须满足的三条物理约束是什么？各自不满足会怎样？
+
+:::answer
+1. **非负性** $f_r \ge 0$ —— 否则出现负光照
+2. **亥姆霍兹互易性** $f_r(\omega_i, \omega_o) = f_r(\omega_o, \omega_i)$ —— 不满足则双向路径追踪失效（从光源和从相机出发结果不一致）
+3. **能量守恒** $\int_{\Omega} f_r (\omega_i \cdot n)\,\mathrm{d}\omega_i \le 1$ —— 不满足则多次弹射后画面越来越亮
+:::
+::::
+
+关于 $(\omega_i \cdot n)$ 这个余弦项的物理来源，见 [[physics/optics/radiometry]]。
+
 ## Cook-Torrance 镜面项
 
 基于微表面理论，把表面看成无数个微小的完美镜面：
@@ -35,6 +47,22 @@ $$
 $$
 f_{\text{spec}} = \frac{D \, F \, G}{4 (\omega_i \cdot n)(\omega_o \cdot n)}
 $$
+
+::::card{id=ct-dfg}
+Cook-Torrance 的镜面项由哪三个函数组成？分母的 $4(\omega_i \cdot n)(\omega_o \cdot n)$ 是什么？
+
+:::answer
+$$
+f_{\text{spec}} = \frac{D \, F \, G}{4 (\omega_i \cdot n)(\omega_o \cdot n)}
+$$
+
+- $D$ —— 法线分布函数（多少微表面朝向半程向量 $h$）
+- $F$ —— 菲涅尔项（掠射角反射率上升）
+- $G$ —— 几何遮蔽项（微表面自遮挡与自阴影）
+
+分母**不是**凑出来的归一化常数，它是从微表面坐标变换到宏观坐标的**雅可比行列式**。
+:::
+::::
 
 三项各司其职：
 

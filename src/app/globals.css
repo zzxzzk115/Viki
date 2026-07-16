@@ -44,6 +44,69 @@ pre[data-theme] {
   padding: 0.5rem 0;
 }
 
+/* Cards rendered inline in the note body by remark-cards. */
+.prose .kcard {
+  margin: 1.5rem 0;
+  border: 1px solid var(--color-neutral-200);
+  border-left: 3px solid var(--color-sky-500);
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  background: var(--color-neutral-50);
+}
+
+@media (prefers-color-scheme: dark) {
+  .prose .kcard {
+    border-color: var(--color-neutral-800);
+    border-left-color: var(--color-sky-400);
+    background: var(--color-neutral-900);
+  }
+}
+
+.prose .kcard > :first-child,
+.prose .kcard-q > :first-child,
+.prose .kcard-a > :nth-child(2) {
+  margin-top: 0;
+}
+
+.prose .kcard > :last-child,
+.prose .kcard-q > :last-child {
+  margin-bottom: 0;
+}
+
+.prose .kcard-a > summary {
+  cursor: pointer;
+  margin: 0.75rem 0 0;
+  font-size: 0.8125rem;
+  color: var(--color-neutral-500);
+  user-select: none;
+}
+
+.prose .kcard-a > summary:hover {
+  color: var(--color-neutral-800);
+}
+
+@media (prefers-color-scheme: dark) {
+  .prose .kcard-a > summary:hover {
+    color: var(--color-neutral-200);
+  }
+}
+
+/* An unresolved [[wiki-link]] renders visibly rather than failing the build —
+   link rot should be noticeable, not fatal. */
+.prose .wikilink-broken {
+  color: var(--color-red-600);
+  font-style: normal;
+  text-decoration: underline wavy var(--color-red-400);
+  text-underline-offset: 0.2em;
+  cursor: help;
+}
+
+@media (prefers-color-scheme: dark) {
+  .prose .wikilink-broken {
+    color: var(--color-red-400);
+  }
+}
+
 /* Headings are wrapped in an <a> by rehype-autolink-headings — keep them
    looking like headings, not links, until hovered. */
 .prose :where(h1, h2, h3, h4, h5, h6) > a {

@@ -9,18 +9,20 @@
  * Every note compiles exactly once here, not once per route, which keeps shiki
  * and KaTeX out of the client bundle entirely.
  */
+import { createHash } from 'node:crypto'
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises'
 import { dirname, join, relative, sep } from 'node:path'
 import fg from 'fast-glob'
 import matter from 'gray-matter'
 import { z } from 'zod'
 import { resolveIcon } from '../src/lib/icons'
-import { countWords, render } from '../src/lib/pipeline'
+import { countWords, render, renderFragment } from '../src/lib/pipeline'
 import { hashSlug } from '../src/lib/slug'
 import {
   NoteMeta,
   PaperMeta,
   SubjectMeta,
+  type Card,
   type Note,
   type NoteIndexEntry,
   type Paper,
@@ -34,8 +36,9 @@ const PUBLIC_DATA = join(ROOT, 'public', 'data')
 
 const IS_DEV = process.env.NODE_ENV !== 'production' && process.env.CI !== 'true'
 
-/** Collected then reported together: fixing frontmatter one build at a time is miserable. */
+/** Collected then reported together: fixing one typo per build is miserable. */
 const problems: string[] = []
+const warnings: string[] = []
 
 function report(file: string, err: z.ZodError) {
   for (const issue of err.issues) {
@@ -48,8 +51,7 @@ function report(file: string, err: z.ZodError) {
 function identify(absPath: string) {
   const rel = relative(CONTENT, absPath).split(sep).join('/')
   const slug = rel.replace(/\.mdx?$/, '')
-  const subject = slug.split('/')[0]
-  return { rel, slug, subject }
+  return { rel, slug, subject: slug.split('/')[0] }
 }
 
 async function loadSubjects() {
@@ -60,13 +62,11 @@ async function loadSubjects() {
     const file = `content/${dir}/_subject.yml`
     // gray-matter needs frontmatter delimiters; a bare .yml has none.
     const raw = await readFile(f, 'utf8')
-    const parsed = matter(`---\n${raw}\n---\n`)
-    const res = SubjectMeta.safeParse(parsed.data)
+    const res = SubjectMeta.safeParse(matter(`---\n${raw}\n---\n`).data)
     if (!res.success) {
       report(file, res.error)
       continue
     }
-
     let iconSvg: string | undefined
     if (res.data.icon) {
       try {
@@ -82,72 +82,143 @@ async function loadSubjects() {
   return subjects
 }
 
+/**
+ * Card ids are the localStorage primary key, so their stability decides whether
+ * a review history survives an edit.
+ *
+ * Hashes the markdown SOURCE text, never rendered HTML: KaTeX and shiki output
+ * is not stable across their own version bumps, so hashing HTML would silently
+ * orphan every card's history on an unrelated dependency upgrade.
+ *
+ * Hashing the question (not the answer) means editing an answer — the common
+ * edit — keeps history, while rewording a question drops it. That is right: it
+ * is a different card. Pin {id=...} on cards you expect to reword.
+ */
+function cardId(explicit: string | undefined, noteSlug: string, questionSource: string): string {
+  if (explicit) return explicit
+  const normalized = questionSource.replace(/\s+/g, ' ').trim()
+  return createHash('sha1').update(`${noteSlug}::${normalized}`).digest('hex').slice(0, 10)
+}
+
 async function main() {
   const t0 = Date.now()
 
   const paths = await fg('**/*.{md,mdx}', { cwd: CONTENT, absolute: true, ignore: ['**/_*'] })
   const subjects = await loadSubjects()
 
-  const notes: Note[] = []
-  const papers: Paper[] = []
+  // Pass 1: the slug table. Wiki-links resolve against every note in the repo,
+  // so no file can compile until all slugs are known.
+  const titles = new Map<string, string>()
+  const parsed: {
+    rel: string
+    slug: string
+    subject: string
+    data: unknown
+    content: string
+  }[] = []
 
   for (const abs of paths) {
     const { rel, slug, subject } = identify(abs)
-    const raw = await readFile(abs, 'utf8')
-    const { data, content } = matter(raw)
+    const { data, content } = matter(await readFile(abs, 'utf8'))
+    parsed.push({ rel, slug, subject, data, content })
+    const t = (data as { title?: unknown }).title
+    if (typeof t === 'string') titles.set(slug, t)
+  }
 
-    if (subject === 'papers') {
-      const res = PaperMeta.safeParse(data)
-      if (!res.success) {
-        report(`content/${rel}`, res.error)
+  const resolve = (target: string) => {
+    const title = titles.get(target)
+    if (!title) return null
+    const href = target.startsWith('papers/') ? `/${target}/` : `/notes/${target}/`
+    return { href, title }
+  }
+
+  // Pass 2: compile.
+  const notes: Note[] = []
+  const papers: Paper[] = []
+  const allCards: Card[] = []
+  const seenCardIds = new Map<string, string>()
+
+  for (const p of parsed) {
+    const isPaper = p.subject === 'papers'
+    const res = isPaper ? PaperMeta.safeParse(p.data) : NoteMeta.safeParse(p.data)
+    if (!res.success) {
+      report(`content/${p.rel}`, res.error)
+      continue
+    }
+    const meta = res.data
+    if (meta.draft && !IS_DEV) continue
+
+    const r = await render(p.content, { resolve })
+
+    for (const e of r.cardErrors) problems.push(`  content/${p.rel}\n    ${e}`)
+    for (const b of r.brokenLinks) {
+      // Visible, not fatal: a KB you cannot build because you renamed a file is
+      // a KB you stop writing in.
+      warnings.push(`  content/${p.rel} -> [[${b}]] 找不到目标`)
+    }
+
+    const cards: Card[] = []
+    for (const raw of r.cards) {
+      const id = cardId(raw.explicitId, p.slug, raw.questionSource)
+
+      const prior = seenCardIds.get(id)
+      if (prior) {
+        problems.push(
+          `  content/${p.rel}\n    卡片 id "${id}" 与 ${prior} 重复。id 是复习进度的主键，重复会让两张卡共用同一份进度。给其中一张显式指定 ::::card{id=...}`,
+        )
         continue
       }
-      if (res.data.draft && !IS_DEV) continue
-      const r = await render(content)
-      papers.push({
-        slug,
-        href: `/${slug}/`,
-        meta: res.data,
-        html: r.html,
-        text: r.text,
-        toc: r.toc,
-        cards: [],
-        links: [],
+      seenCardIds.set(id, `content/${p.rel}`)
+
+      const [questionHtml, answerHtml] = await Promise.all([
+        renderFragment(raw.question),
+        renderFragment(raw.answer),
+      ])
+
+      cards.push({
+        id,
+        noteSlug: p.slug,
+        anchor: r.headingIds[raw.headingIndex] ?? '',
+        noteTitle: meta.title,
+        subject: p.subject,
+        level: isPaper ? 'advanced' : (meta as z.infer<typeof NoteMeta>).level,
+        tags: meta.tags,
+        questionHtml,
+        answerHtml,
       })
-      continue
     }
+    allCards.push(...cards)
 
-    const res = NoteMeta.safeParse(data)
-    if (!res.success) {
-      report(`content/${rel}`, res.error)
-      continue
+    const base = { slug: p.slug, html: r.html, text: r.text, toc: r.toc, cards, links: r.links }
+
+    if (isPaper) {
+      papers.push({ ...base, href: `/${p.slug}/`, meta: meta as z.infer<typeof PaperMeta> })
+    } else {
+      notes.push({
+        ...base,
+        href: `/notes/${p.slug}/`,
+        subject: p.subject,
+        meta: meta as z.infer<typeof NoteMeta>,
+        wordCount: countWords(r.text),
+      })
     }
-    if (res.data.draft && !IS_DEV) continue
-
-    const r = await render(content)
-    notes.push({
-      slug,
-      href: `/notes/${slug}/`,
-      subject,
-      meta: res.data,
-      html: r.html,
-      text: r.text,
-      toc: r.toc,
-      cards: [],
-      links: [],
-      wordCount: countWords(r.text),
-    })
   }
 
   if (problems.length) {
-    console.error(`\n✗ frontmatter 校验失败 (${problems.length} 处):\n`)
+    console.error(`\n✗ 内容校验失败 (${problems.length} 处):\n`)
     console.error(problems.join('\n\n'))
     console.error('')
     process.exit(1)
   }
 
-  // Emit. .generated/ holds bodies (read by RSC at build time); public/data/
-  // holds body-less indexes (fetched by the browser at runtime).
+  // Inverted link map, rendered as 「被引用于」 in the note footer.
+  const backlinks: Record<string, string[]> = {}
+  for (const n of [...notes, ...papers]) {
+    for (const target of n.links) {
+      ;(backlinks[target] ??= []).push(n.slug)
+    }
+  }
+
   await rm(GENERATED, { recursive: true, force: true })
   await mkdir(join(GENERATED, 'notes'), { recursive: true })
   await mkdir(join(GENERATED, 'papers'), { recursive: true })
@@ -160,18 +231,31 @@ async function main() {
     await writeFile(join(GENERATED, 'papers', `${hashSlug(p.slug)}.json`), JSON.stringify(p))
   }
 
-  const index: NoteIndexEntry[] = notes.map(({ html: _h, text: _t, cards: _c, toc: _o, ...rest }) => rest)
-  await writeFile(join(GENERATED, 'notes-index.json'), JSON.stringify(index))
-  await writeFile(
-    join(GENERATED, 'papers-index.json'),
-    JSON.stringify(papers.map(({ html: _h, text: _t, cards: _c, toc: _o, ...rest }) => rest)),
-  )
-  await writeFile(join(GENERATED, 'subjects.json'), JSON.stringify(subjects))
-  await writeFile(join(PUBLIC_DATA, 'notes-index.json'), JSON.stringify(index))
+  const strip = <T extends { html: unknown; text: unknown; cards: unknown; toc: unknown }>(x: T) => {
+    const { html: _h, text: _t, cards: _c, toc: _o, ...rest } = x
+    return rest
+  }
+  const noteIndex = notes.map(strip) as NoteIndexEntry[]
 
-  const ms = Date.now() - t0
+  await writeFile(join(GENERATED, 'notes-index.json'), JSON.stringify(noteIndex))
+  await writeFile(join(GENERATED, 'papers-index.json'), JSON.stringify(papers.map(strip)))
+  await writeFile(join(GENERATED, 'subjects.json'), JSON.stringify(subjects))
+  await writeFile(join(GENERATED, 'backlinks.json'), JSON.stringify(backlinks))
+
+  // public/data is browser-fetched at runtime. Never import these from a client
+  // component: Next inlines imported JSON, so the bundle would grow with the KB.
+  await writeFile(join(PUBLIC_DATA, 'cards.json'), JSON.stringify(allCards))
+  await writeFile(join(PUBLIC_DATA, 'notes-index.json'), JSON.stringify(noteIndex))
+
+  if (warnings.length) {
+    console.warn(`\n⚠ ${warnings.length} 个失效的 wiki-link (页面会标红，不阻断构建):`)
+    console.warn(warnings.join('\n'))
+    console.warn('')
+  }
+
+  const kb = (JSON.stringify(allCards).length / 1024).toFixed(0)
   console.log(
-    `✓ ${notes.length} 篇笔记, ${papers.length} 篇论文, ${Object.keys(subjects).length} 个科目 (${ms}ms)`,
+    `✓ ${notes.length} 篇笔记, ${papers.length} 篇论文, ${allCards.length} 张卡片 (${kb}KB), ${Object.keys(subjects).length} 个科目 (${Date.now() - t0}ms)`,
   )
 }
 
