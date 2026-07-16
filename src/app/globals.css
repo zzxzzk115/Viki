@@ -10,3 +10,49 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* rehype-pretty-code emits both themes as CSS vars on every token, so the
+   switch is a variable swap rather than a re-highlight. */
+code[data-theme],
+code[data-theme] span {
+  color: var(--shiki-light);
+}
+
+@media (prefers-color-scheme: dark) {
+  code[data-theme],
+  code[data-theme] span {
+    color: var(--shiki-dark);
+  }
+}
+
+pre[data-theme] {
+  overflow-x: auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+/* Inline code from rehype-pretty-code carries no padding of its own. */
+:not(pre) > code[data-theme] {
+  padding: 0.15em 0.35em;
+  border-radius: 0.25rem;
+}
+
+/* Long equations must scroll inside their own box; the page body must not. */
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.5rem 0;
+}
+
+/* Headings are wrapped in an <a> by rehype-autolink-headings — keep them
+   looking like headings, not links, until hovered. */
+.prose :where(h1, h2, h3, h4, h5, h6) > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.prose :where(h1, h2, h3, h4, h5, h6) > a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--color-neutral-400);
+  text-underline-offset: 0.2em;
+}
