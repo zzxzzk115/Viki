@@ -25,7 +25,14 @@ jobs:
     env:
       NEXT_PUBLIC_BASE_PATH: /Viki
     steps:
+      # ref: master, not the default (triggering event's SHA). When called via
+      # workflow_call from a workflow that itself commits to master (import-
+      # papers), the default checks out the tree from BEFORE that commit and the
+      # deploy silently publishes a site without the new pages — measured: the
+      # first materialized to-read page 404'd on the live site this way.
       - uses: actions/checkout@v7
+        with:
+          ref: master
 
       # The paper feed lives on the orphan `data` branch so the cron's daily
       # commits stay out of master's history. Without this the build still
