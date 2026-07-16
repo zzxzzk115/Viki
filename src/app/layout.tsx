@@ -14,12 +14,12 @@ export const metadata: Metadata = {
 }
 
 // Entries land as their phase does — a nav link to a route that does not exist
-// yet is a 404 under `output: 'export'`, not a graceful fallback.
-// P4 adds /arxiv/, P5 /search/.
+// yet is a 404 under `output: 'export'`, not a graceful fallback. P5 adds /search/.
 const NAV = [
   { href: '/notes/', label: '笔记' },
   { href: '/cards/', label: '复习' },
   { href: '/papers/', label: '论文' },
+  { href: '/arxiv/', label: 'arXiv' },
   { href: '/glossary/', label: '术语' },
 ]
 

@@ -1,0 +1,63 @@
+name: Fetch paper feed
+
+on:
+  schedule:
+    # 01:00 UTC = 09:00 CST. Scheduled workflows only fire on the default branch.
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Never race two fetches, and never race the commit with a deploy.
+concurrency:
+  group: papers
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      - name: Fetch
+        # Non-fatal: a provider outage must not fail the workflow or blank the
+        # page. The script keeps the previous latest.json and exits 0.
+        run: pnpm papers
+
+      - name: Commit
+        id: commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/papers
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "没有变化，跳过部署"
+          else
+            git commit -m "chore(papers): $(date -u +%F)"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  # A push made with the repo GITHUB_TOKEN does NOT trigger workflows, so the
+  # commit above will never fire deploy.yml on its own. Without this explicit
+  # call the JSON would land in git and the site would silently never update —
+  # nothing errors, so it would go unnoticed for weeks. deploy.yml exposes
+  # workflow_call for exactly this.
+  redeploy:
+    needs: fetch
+    if: needs.fetch.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

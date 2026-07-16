@@ -7,8 +7,9 @@
  * the whole content corpus into the browser bundle.
  */
 import 'server-only'
-import { readFile } from 'node:fs/promises'
+import { readFile, readdir } from 'node:fs/promises'
 import { join } from 'node:path'
+import type { FeedFile } from './papers-feed'
 import type { Note, NoteIndexEntry, Paper, Subject, Term } from './schema'
 import { hashSlug } from './slug'
 
@@ -48,6 +49,33 @@ export async function getBacklinks(): Promise<Record<string, string[]>> {
 /** Glossary terms actually used by some document, sorted by the Chinese term. */
 export async function getTerms(): Promise<Term[]> {
   return readJson('terms.json')
+}
+
+// ---- Paper feed (data/papers/, committed by the cron workflow) ----
+
+const FEED = join(process.cwd(), 'data', 'papers')
+
+/**
+ * Read at build time via fs, never fetched by the browser: no CORS, and a page
+ * view does not depend on arXiv being up. Returns null before the first fetch
+ * has ever run.
+ */
+export async function getFeed(): Promise<FeedFile | null> {
+  return readFile(join(FEED, 'latest.json'), 'utf8')
+    .then((t) => JSON.parse(t) as FeedFile)
+    .catch(() => null)
+}
+
+export async function getFeedDates(): Promise<string[]> {
+  return readdir(join(FEED, 'history'))
+    .then((fs) => fs.filter((f) => f.endsWith('.json')).map((f) => f.replace('.json', '')).sort().reverse())
+    .catch(() => [])
+}
+
+export async function getFeedByDate(date: string): Promise<FeedFile | null> {
+  return readFile(join(FEED, 'history', `${date}.json`), 'utf8')
+    .then((t) => JSON.parse(t) as FeedFile)
+    .catch(() => null)
 }
 
 /** Display name for a subject dir, falling back to the dir name itself. */

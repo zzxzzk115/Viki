@@ -18,6 +18,18 @@ export const FeedPaper = z.object({
   /** Higher = more relevant. Drives ordering and the daily cut. */
   score: z.number(),
   comment: z.string().optional(),
+  /**
+   * True when this fetch is the first time the paper was ever seen.
+   *
+   * The feed is a ranking of recent relevant work, not a strict "new today"
+   * list: foveated rendering gets a handful of arXiv papers a month, so a
+   * new-only feed would be empty most days. Permanently excluding seen papers
+   * would leave the page blank for weeks at a time.
+   *
+   * Set by main() against seen.json, not by the fetchers — they have no idea
+   * what was seen before.
+   */
+  isNew: z.boolean().default(false),
 })
 export type FeedPaper = z.infer<typeof FeedPaper>
 

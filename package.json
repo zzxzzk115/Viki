@@ -10,6 +10,8 @@
     "content": "tsx scripts/build-content.ts",
     "content:watch": "tsx watch scripts/build-content.ts",
     "links": "tsx scripts/check-links.ts",
+    "papers": "tsx scripts/fetch-papers.ts",
+    "papers:dry": "tsx scripts/fetch-papers.ts --dry",
     "dev": "pnpm content && next dev",
     "build": "pnpm content && next build && pnpm links",
     "start": "next start",

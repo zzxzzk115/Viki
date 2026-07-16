@@ -24,6 +24,9 @@ import { XMLParser } from 'fast-xml-parser'
 import { feeds } from '../config/feeds'
 import { FeedFile, type FeedPaper } from '../src/lib/papers-feed'
 
+/** What a fetcher can know. isNew is decided later, against seen.json. */
+type Candidate = Omit<FeedPaper, 'isNew'>
+
 const ROOT = process.cwd()
 const DATA = join(ROOT, 'data', 'papers')
 const UA = 'Viki/1.0 (https://github.com/zzxzzk115/Viki; mailto:zzxzzk115@gmail.com)'
@@ -71,7 +74,7 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 function judge(
   title: string,
   abstract: string,
-  categories: string[],
+  origin: 'topic' | 'sweep',
 ): { score: number; matched: string[] } | null {
   const hay = `${title} ${abstract}`.toLowerCase()
   const t = title.toLowerCase()
@@ -85,17 +88,14 @@ function judge(
   const coreHits = hit(core)
   const relatedHits = hit(related)
   const contextHits = hit(context)
-
   const inTitle = [...core, ...related].filter((k) => t.includes(k.toLowerCase()))
-
-  const isPrimary = categories.some((c) => feeds.primaryCategories.includes(c))
 
   const score =
     coreHits.length * w.core +
     relatedHits.length * w.related +
     contextHits.length * w.context +
     inTitle.length * w.titleBonus +
-    (isPrimary ? w.primaryBonus : 0)
+    (origin === 'topic' ? w.topicBonus : w.sweepBonus)
 
   if (score < feeds.minScore) return null
 
@@ -118,41 +118,39 @@ interface AtomEntry {
 
 const arr = <T>(x: T | T[] | undefined): T[] => (x === undefined ? [] : Array.isArray(x) ? x : [x])
 
-async function fetchArxiv(): Promise<FeedPaper[]> {
-  const cats = [...feeds.primaryCategories, ...feeds.secondaryCategories]
-  const query = cats.map((c) => `cat:${c}`).join('+OR+')
-  // https, not http: http 301-redirects and some clients will not follow it.
+const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '@_' })
+
+/** One arXiv query -> scored papers. */
+async function queryArxiv(
+  searchQuery: string,
+  max: number,
+  origin: 'topic' | 'sweep',
+): Promise<Candidate[]> {
+  // https, not http: http 301-redirects.
   const url =
-    `https://export.arxiv.org/api/query?search_query=${query}` +
-    `&sortBy=submittedDate&sortOrder=descending&start=0&max_results=${feeds.maxResults}`
+    `https://export.arxiv.org/api/query?search_query=${encodeURIComponent(searchQuery)}` +
+    `&sortBy=submittedDate&sortOrder=descending&start=0&max_results=${max}`
 
   const xml = await getWithRetry(url)
   if (!xml) {
-    notes.push('arXiv 抓取失败')
+    notes.push(`arXiv 查询失败: ${searchQuery}`)
     return []
   }
 
-  const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '@_' })
-  const feed = parser.parse(xml)?.feed
-  const entries: AtomEntry[] = arr(feed?.entry)
+  const entries: AtomEntry[] = arr(parser.parse(xml)?.feed?.entry)
+  const out: Candidate[] = []
 
-  const out: FeedPaper[] = []
   for (const e of entries) {
     const title = clean(e.title)
     const abstract = clean(e.summary)
     if (!title) continue
 
-    const categories = arr(e.category)
-      .map((c) => c['@_term'])
-      .filter((c): c is string => !!c)
-
-    const verdict = judge(title, abstract, categories)
+    const verdict = judge(title, abstract, origin)
     if (!verdict) continue
 
     // '2607.13808v1' -> '2607.13808'. Dedup must ignore the version, or a v2
     // re-announcement resurfaces a paper already seen.
-    const rawId = String(e.id ?? '').split('/abs/')[1] ?? ''
-    const id = rawId.replace(/v\d+$/, '')
+    const id = (String(e.id ?? '').split('/abs/')[1] ?? '').replace(/v\d+$/, '')
     if (!id) continue
 
     out.push({
@@ -166,23 +164,67 @@ async function fetchArxiv(): Promise<FeedPaper[]> {
       published: String(e.published ?? '').slice(0, 10),
       url: `https://arxiv.org/abs/${id}`,
       pdf: `https://arxiv.org/pdf/${id}`,
-      categories,
+      categories: arr(e.category)
+        .map((c) => c['@_term'])
+        .filter((c): c is string => !!c),
       matched: verdict.matched,
       score: verdict.score,
-      comment: clean(typeof e['arxiv:comment'] === 'string' ? e['arxiv:comment'] : e['arxiv:comment']?.['#text']),
+      comment: clean(
+        typeof e['arxiv:comment'] === 'string' ? e['arxiv:comment'] : e['arxiv:comment']?.['#text'],
+      ),
     })
   }
   return out
 }
 
+/**
+ * Two passes, because a single combined category query does not work.
+ *
+ * Measured: `cat:cs.GR OR cat:cs.CV OR cat:cs.HC` sorted by date returns 112
+ * cs.CV papers and 1 cs.GR paper per 150 — the home category is starved to
+ * 0.7% and the window covers only ~28 hours. Sweeping cs.CV directly is no
+ * better: at ~200 papers/day, finding its foveated papers would take thousands
+ * of results.
+ *
+ * So: let arXiv filter the big categories server-side by topic, and sweep only
+ * the small home category in full.
+ */
+async function fetchArxiv(): Promise<Candidate[]> {
+  const byId = new Map<string, Candidate>()
+  let first = true
+
+  const add = (papers: Candidate[]) => {
+    for (const p of papers) {
+      // The same paper can match several topic queries; keep the best score.
+      const prior = byId.get(p.id)
+      if (!prior || p.score > prior.score) byId.set(p.id, p)
+    }
+  }
+
+  for (const q of feeds.topicQueries) {
+    // arXiv's manual asks for ~3s between sequential calls.
+    if (!first) await sleep(3200)
+    first = false
+    add(await queryArxiv(q, feeds.perTopic, 'topic'))
+  }
+
+  for (const cat of feeds.sweepCategories) {
+    if (!first) await sleep(3200)
+    first = false
+    add(await queryArxiv(`cat:${cat}`, feeds.perSweep, 'sweep'))
+  }
+
+  return [...byId.values()]
+}
+
 // ---- OpenAlex (fallback) ----
 
-async function fetchOpenAlex(): Promise<FeedPaper[]> {
+async function fetchOpenAlex(): Promise<Candidate[]> {
   // Only the strongest keywords: OpenAlex search is broad and this is a backup.
   const q = encodeURIComponent('foveated rendering OR gaze-contingent rendering OR perceptual rendering')
   const url =
     `https://api.openalex.org/works?search=${q}` +
-    `&per-page=${Math.min(feeds.maxResults, 50)}&sort=publication_date:desc&mailto=zzxzzk115@gmail.com`
+    `&per-page=50&sort=publication_date:desc&mailto=zzxzzk115@gmail.com`
 
   const json = await getWithRetry(url)
   if (!json) {
@@ -201,13 +243,14 @@ async function fetchOpenAlex(): Promise<FeedPaper[]> {
   }
 
   const results: Work[] = JSON.parse(json)?.results ?? []
-  const out: FeedPaper[] = []
+  const out: Candidate[] = []
 
   for (const w of results) {
     const title = clean(w.title)
     if (!title) continue
     const abstract = deInvert(w.abstract_inverted_index)
-    const verdict = judge(title, abstract, [])
+    // 'topic': the OpenAlex query is itself a topic search, same as arXiv's.
+    const verdict = judge(title, abstract, 'topic')
     if (!verdict) continue
 
     out.push({
@@ -244,17 +287,20 @@ function clean(s: string | undefined): string {
 // ---- main ----
 
 async function main() {
+  // --dry: score and print, write nothing and do not consume the seen set.
+  // Tuning config/feeds.ts is guesswork without being able to see the ranking.
+  const dry = process.argv.includes('--dry')
   const date = todayKey()
-  await mkdir(join(DATA, 'history'), { recursive: true })
+  if (!dry) await mkdir(join(DATA, 'history'), { recursive: true })
 
-  // Rolling id set, so a paper is never recommended twice — this also absorbs
-  // arXiv re-announcing a cross-listed paper.
+  // id -> date first seen. A set that permanently excludes would blank the page
+  // for weeks: the field produces only a few arXiv papers a month.
   const seenPath = join(DATA, 'seen.json')
-  const seen = new Set<string>(
-    await readFile(seenPath, 'utf8')
-      .then((t) => JSON.parse(t) as string[])
-      .catch(() => []),
-  )
+  const firstSeen: Record<string, string> = dry
+    ? {}
+    : await readFile(seenPath, 'utf8')
+        .then((t) => JSON.parse(t) as Record<string, string>)
+        .catch(() => ({}))
 
   let candidates = await fetchArxiv()
   if (candidates.length === 0) {
@@ -262,15 +308,23 @@ async function main() {
     candidates = await fetchOpenAlex()
   }
 
-  const fresh = candidates
-    .filter((p) => !seen.has(p.id))
+  const cutoff = new Date(Date.now() - feeds.recentDays * 86400000).toISOString().slice(0, 10)
+  const recent = candidates.filter((p) => p.published >= cutoff)
+  if (candidates.length > recent.length) {
+    notes.push(`${candidates.length} 篇候选，其中 ${recent.length} 篇在最近 ${feeds.recentDays} 天内`)
+  }
+
+  const ranked = recent
+    .map((p) => ({ ...p, isNew: !firstSeen[p.id] }))
     .sort((a, b) => b.score - a.score || b.published.localeCompare(a.published))
 
-  const picked = fresh.slice(0, feeds.dailyLimit)
-  if (fresh.length > picked.length) {
+  const picked = ranked.slice(0, feeds.dailyLimit)
+  if (ranked.length > picked.length) {
     // Say what was dropped: a silent cut reads as "this was everything".
-    notes.push(`${fresh.length} 篇符合条件，按分数取前 ${picked.length} 篇`)
+    notes.push(`${ranked.length} 篇符合条件，按分数取前 ${picked.length} 篇`)
   }
+  const newCount = picked.filter((p) => p.isNew).length
+  if (!dry && newCount > 0) notes.push(`其中 ${newCount} 篇是首次出现`)
 
   if (picked.length === 0 && candidates.length === 0) {
     // Keep the previous latest.json rather than publish an empty feed — a
@@ -280,12 +334,28 @@ async function main() {
     process.exit(0)
   }
 
-  for (const p of picked) seen.add(p.id)
+  if (dry) {
+    console.log(`\n${date} 试运行：${candidates.length} 篇候选 -> ${recent.length} 篇在窗口内 -> 取前 ${picked.length} 篇\n`)
+    for (const [i, p] of picked.entries()) {
+      console.log(`${String(i + 1).padStart(2)}. [${String(p.score).padStart(3)}] ${p.title}`)
+      console.log(`      ${p.categories.join(' ')}  ${p.published}`)
+      console.log(`      命中: ${p.matched.join(', ') || '(仅靠分类扫描)'}`)
+    }
+    const cut = ranked.slice(picked.length, picked.length + 5)
+    if (cut.length) {
+      console.log(`\n--- 落选的前几篇（供调阈值参考）---`)
+      for (const p of cut) console.log(`    [${String(p.score).padStart(3)}] ${p.title.slice(0, 70)}`)
+    }
+    if (notes.length) console.log(`\n备注:\n${notes.map((n) => `  · ${n}`).join('\n')}`)
+    return
+  }
+
+  for (const p of picked) firstSeen[p.id] ??= date
 
   const file = FeedFile.parse({ date, papers: picked, notes })
   await writeFile(join(DATA, 'latest.json'), JSON.stringify(file, null, 2))
   await writeFile(join(DATA, 'history', `${date}.json`), JSON.stringify(file, null, 2))
-  await writeFile(seenPath, JSON.stringify([...seen], null, 0))
+  await writeFile(seenPath, JSON.stringify(firstSeen, null, 0))
 
   if (feeds.historyDays > 0) {
     const cutoff = new Date(Date.now() - feeds.historyDays * 86400000).toISOString().slice(0, 10)
@@ -294,7 +364,9 @@ async function main() {
     }
   }
 
-  console.log(`✓ ${date}: ${candidates.length} 篇候选 -> ${picked.length} 篇推荐 (已见过 ${seen.size} 篇)`)
+  console.log(
+    `✓ ${date}: ${candidates.length} 篇候选 -> ${picked.length} 篇推荐 (${newCount} 篇新, 累计见过 ${Object.keys(firstSeen).length} 篇)`,
+  )
   if (notes.length) console.log(notes.map((n) => `  · ${n}`).join('\n'))
   for (const p of picked.slice(0, 5)) {
     console.log(`  [${p.score}] ${p.title.slice(0, 70)}`)
