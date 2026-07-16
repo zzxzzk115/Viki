@@ -79,9 +79,20 @@ export interface FeedConfig {
 }
 
 export const feeds: FeedConfig = {
-  // 注视点 / 感知驱动渲染。这些是「无论发在哪个分类都要」的。
+  // 只放 cs.GR **之外**的检索式——cs.GR 已被 sweep 全覆盖（见下），
+  // 再写 `X AND cat:cs.GR` 纯属冗余。
+  //
+  // 每条都实测过命中量。教训：
+  //   · 缩写有毒。all:RTX 633 条（匹配 ML 论文里提显卡）、all:VRS AND cat:cs.GR
+  //     354 条（匹配无关字母串）、all:VRCS 22 条也被污染。用短语，不用缩写。
+  //   · 有些「显然」的说法根本不存在：abs:"stereo reprojection" = 0，
+  //     abs:"coarse pixel shading" = 0，abs:"asynchronous reprojection" = 0，
+  //     abs:"temporal antialiasing" = 0。加了等于加了个死查询。
+  //   · abs:inpainting 单独用 2645 条，会把 feed 冲垮；它在 cs.GR 里的部分
+  //     由 sweep 覆盖，这里不写。
   topicQueries: [
-    'all:foveated',
+    // 注视点 / 感知驱动
+    'all:foveated', // 163
     'all:foveation',
     'abs:"gaze-contingent"',
     'abs:"peripheral vision"',
@@ -89,18 +100,32 @@ export const feeds: FeedConfig = {
     'abs:"contrast sensitivity"',
     'abs:"perceptual rendering"',
     'abs:"perception-driven"',
-    'abs:"eye tracking" AND cat:cs.GR',
-    'abs:"variable rate shading"',
+    // 实时光追 / 降噪 / 重采样
+    'all:ReSTIR', // 3
+    'all:SVGF', // 1
+    'abs:"spatiotemporal variance-guided"', // 1
+    'abs:"real-time ray tracing"', // 7
+    'abs:"path tracing" AND abs:denoising', // 17
+    // 着色率（VRS 的真实说法，缩写不可用）
+    'abs:"shading rate"', // 3
+    // 重投影 / 图像变形 / 补洞
+    'abs:"temporal reprojection"', // 2
+    'abs:"frame extrapolation"', // 12
+    'abs:"temporal upsampling"', // 14
   ],
 
-  // 主场：图形学。每天约 4 篇，全部过一遍。
+  // 主场：图形学。实测日均 5.2 篇 —— 一次取 950 条即可覆盖整个 recentDays
+  // 窗口（1.7MB / 320ms），所以 cs.GR 里的 ReSTIR、inpainting、reprojection、
+  // visibility buffer 等等全都由这一次扫描 + 本地打分负责，不需要单独查询。
   sweepCategories: ['cs.GR'],
 
   perTopic: 40,
-  perSweep: 60,
+  perSweep: 950,
 
   keywords: {
+    // 直接命中方向，一个就足以入选。
     core: [
+      // 注视点 / 感知
       'foveat', // foveated / foveation / fovea
       'gaze-contingent',
       'gaze contingent',
@@ -114,7 +139,22 @@ export const feeds: FeedConfig = {
       'perceptual rendering',
       'perception-driven',
       'visual perception',
+      // 实时光追加速
+      'restir',
+      'svgf',
+      'variance-guided',
+      'reservoir resampling',
+      'spatiotemporal reservoir',
+      'shading rate', // VRS 的真实说法
+      'variable rate shading',
+      // 重投影 / 复用
+      'temporal reprojection',
+      'gaze-contingent reprojection',
+      'frame extrapolation',
+      'temporal upsampling',
+      'visibility buffer',
     ],
+    // 强相关，但需与其他词共现才说明问题。
     related: [
       'gaze',
       'eye tracking',
@@ -128,9 +168,27 @@ export const feeds: FeedConfig = {
       'hmd',
       'virtual reality',
       'augmented reality',
-      'variable rate shading',
       'level of detail',
+      // 光追 / 降噪
+      'path tracing',
+      'ray tracing',
+      'importance resampling',
+      'reservoir',
+      'denois', // denoising / denoiser
+      'temporal coherence',
+      'temporally stable',
+      'temporal accumulation',
+      // 重投影 / 补洞
+      'reprojection',
+      'image warping',
+      'hole filling',
+      'disocclusion', // 重投影产生空洞的技术名
+      'inpainting',
+      'frame interpolation',
+      'deferred shading',
+      'supersampling',
     ],
+    // 只作加权，单独出现说明不了什么。
     context: [
       'real-time rendering',
       'neural rendering',
@@ -140,6 +198,9 @@ export const feeds: FeedConfig = {
       'display',
       'user study',
       'rendering',
+      'gpu',
+      'stereo',
+      'temporal',
     ],
   },
 

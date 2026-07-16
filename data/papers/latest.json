@@ -58,9 +58,34 @@
         "eye-tracking",
         "virtual reality"
       ],
-      "score": 49,
+      "score": 50,
       "comment": "20 pages, 12 figures. Accepted to the 47th IEEE Symposium on Security and Privacy (IEEE S&P 2026). Artifacts: https://bmdj-vt.github.io/project_pages/xr_side_channels",
       "isNew": false
+    },
+    {
+      "id": "2605.11536",
+      "source": "arxiv",
+      "title": "ToF ReSTIR: Time-of-Flight Rendering with Spatio-temporal Reservoir Resampling",
+      "authors": [
+        "Juhyeon Kim",
+        "Wojciech Jarosz",
+        "Adithya Pediredla"
+      ],
+      "abstract": "We present a novel spatio-temporal reuse framework for time-resolved light transport, enabling efficient Monte Carlo rendering of time-of-flight (ToF) phenomena such as time-gated imaging and transient light capture. Existing ToF rendering methods are computationally expensive, scale poorly to complex dynamic scenes, and are therefore unsuitable for applications with strict latency constraints. To address this limitation, we draw inspiration from ReSTIR, a reuse-based technique for steady-state real-time rendering, and adapt its core principles to interactive-rate ToF simulation. However, naively applying existing ReSTIR methods to ToF rendering leads to severe inefficiency, as reused paths frequently violate optical path-length constraints and thus contribute little or no signal. We overcome this challenge by introducing a path reuse formulation that explicitly enforces physically valid optical path lengths. The key idea is path-length-aware shift mapping, a geometric transformation based on Newton's method that adjusts reused light paths to satisfy temporal gating constraints, inspired by specular manifold exploration in steady-state caustics rendering. The resulting framework substantially improves the efficiency of ToF rendering across a wide range of scenarios, including complex scenes with glossy or specular materials and dynamic motion. Our method supports both time-gated and transient rendering at interactive frame rates, enabling simulation under practical latency constraints. We demonstrate the effectiveness of our approach through two downstream applications, including shape reconstruction and navigation.",
+      "published": "2026-05-12",
+      "url": "https://arxiv.org/abs/2605.11536",
+      "pdf": "https://arxiv.org/pdf/2605.11536",
+      "categories": [
+        "cs.GR"
+      ],
+      "matched": [
+        "restir",
+        "reservoir resampling",
+        "reservoir"
+      ],
+      "score": 48,
+      "comment": "",
+      "isNew": true
     },
     {
       "id": "2603.23491",
@@ -113,6 +138,35 @@
       ],
       "score": 41,
       "comment": "10 pages including references and figure only pages; 2 pages Supplementary Material",
+      "isNew": false
+    },
+    {
+      "id": "2606.00122",
+      "source": "arxiv",
+      "title": "Mathematical framework for perception-driven parameter choice in image denoising",
+      "authors": [
+        "Saara Isoranta",
+        "Emilia L. K. Blåsten",
+        "Lílian Ferreira de Freitas",
+        "Jukka Häkkinen",
+        "Markus Juvonen",
+        "Samuli Siltanen"
+      ],
+      "abstract": "We approach image denoising from a perception-driven perspective: how can we select the parameters that are best suited for human visual perception? We combine research methods in mathematics and psychology to develop a mathematical framework for measuring perceived similarity. We construct a sample set of differently denoised photographs by using the same base image as input data and by tuning the parameter value in a total variation denoising algorithm. A comparison test is conducted with human participants to survey perceived differences between the images. Analyzing the results with psychometric scaling provides us with a HaarPSI value to use as a threshold in discretizing parameter grids. As a result, we obtain psychometrically scaled, openly available image sets that are ready to use in further experiments in perception-driven imaging, as well as a framework for ensuing experiments involving comparison tests.",
+      "published": "2026-05-28",
+      "url": "https://arxiv.org/abs/2606.00122",
+      "pdf": "https://arxiv.org/pdf/2606.00122",
+      "categories": [
+        "eess.IV",
+        "math.NA"
+      ],
+      "matched": [
+        "perception-driven",
+        "visual perception",
+        "denois"
+      ],
+      "score": 39,
+      "comment": "",
       "isNew": false
     },
     {
@@ -170,6 +224,35 @@
       "isNew": false
     },
     {
+      "id": "2601.22026",
+      "source": "arxiv",
+      "title": "Hybrid Foveated Path Tracing with Peripheral Gaussians for Immersive Anatomy",
+      "authors": [
+        "Constantin Kleinbeck",
+        "Luisa Theelke",
+        "Hannah Schieber",
+        "Ulrich Eck",
+        "Rüdiger von Eisenhart-Rothe",
+        "Daniel Roth"
+      ],
+      "abstract": "Volumetric medical imaging offers great potential for understanding complex pathologies. Yet, traditional 2D slices provide little support for interpreting spatial relationships, forcing users to mentally reconstruct anatomy into three dimensions. Direct volumetric path tracing and VR rendering can improve perception but are computationally expensive, while precomputed representations, like Gaussian Splatting, require planning ahead. Both approaches limit interactive use. We propose a hybrid rendering approach for high-quality, interactive, and immersive anatomical visualization. Our method combines streamed foveated path tracing with a lightweight Gaussian Splatting approximation of the periphery. The peripheral model generation is optimized with volume data and continuously refined using foveal renderings, enabling interactive updates. Depth-guided reprojection further improves robustness to latency and allows users to balance fidelity with refresh rate. We compare our method against direct path tracing and Gaussian Splatting. Our results highlight how their combination can preserve strengths in visual quality while re-generating the peripheral model in under a second, eliminating extensive preprocessing and approximations. This opens new options for interactive medical visualization.",
+      "published": "2026-01-29",
+      "url": "https://arxiv.org/abs/2601.22026",
+      "pdf": "https://arxiv.org/pdf/2601.22026",
+      "categories": [
+        "cs.GR",
+        "cs.CV"
+      ],
+      "matched": [
+        "foveat",
+        "path tracing",
+        "reprojection"
+      ],
+      "score": 34,
+      "comment": "Scheduled for publication in the Proceedings of IEEE VR 2026",
+      "isNew": true
+    },
+    {
       "id": "2606.02565",
       "source": "arxiv",
       "title": "Policy-based Foveated Imaging and Perception",
@@ -190,7 +273,7 @@
         "foveat",
         "visual perception"
       ],
-      "score": 32,
+      "score": 33,
       "comment": "Project website at https://howardxiao.ca/foveated/",
       "isNew": false
     },
@@ -221,32 +304,33 @@
       "isNew": false
     },
     {
-      "id": "2606.00122",
+      "id": "2603.15796",
       "source": "arxiv",
-      "title": "Mathematical framework for perception-driven parameter choice in image denoising",
+      "title": "Perceptual Requirements for Low-Latency Head-Mounted Displays",
       "authors": [
-        "Saara Isoranta",
-        "Emilia L. K. Blåsten",
-        "Lílian Ferreira de Freitas",
-        "Jukka Häkkinen",
-        "Markus Juvonen",
-        "Samuli Siltanen"
+        "Eric Penner",
+        "Josephine D'Angelo",
+        "Clinton Smith",
+        "Nathan Matsuda",
+        "Neethan Siva",
+        "Phillip Guan"
       ],
-      "abstract": "We approach image denoising from a perception-driven perspective: how can we select the parameters that are best suited for human visual perception? We combine research methods in mathematics and psychology to develop a mathematical framework for measuring perceived similarity. We construct a sample set of differently denoised photographs by using the same base image as input data and by tuning the parameter value in a total variation denoising algorithm. A comparison test is conducted with human participants to survey perceived differences between the images. Analyzing the results with psychometric scaling provides us with a HaarPSI value to use as a threshold in discretizing parameter grids. As a result, we obtain psychometrically scaled, openly available image sets that are ready to use in further experiments in perception-driven imaging, as well as a framework for ensuing experiments involving comparison tests.",
-      "published": "2026-05-28",
-      "url": "https://arxiv.org/abs/2606.00122",
-      "pdf": "https://arxiv.org/pdf/2606.00122",
+      "abstract": "End-to-end (e2e) latency in head-mounted displays (HMD) is the time delay between a physical change in the world (e.g., a user's head movement) and the moment the display updates to reflect that change. Tracking, rendering, and other computation in real systems invariably introduce some amount of e2e latency to all HMDs. In modern devices this latency is usually in the range of 12-60 milliseconds which is partially addressed through pose prediction and late stage reprojection which means that perceptual studies and user experience evaluations cannot explore latencies below these values. Here, we introduce a video passthrough HMD, called Camsicle, which is capable of 2-millisecond e2e latency and, additionally, uses a catadioptric design to achieve perspective-correct passthrough without reprojection. This platform enables naturalistic user studies to interrogate the impacts of latency on user experience, preference, and performance. Across two user studies and 57 participants we find that 2 and 14.3 millisecond latencies are preferred over 23 and 29 milliseconds when attempting to catch a ball. Additionally, we compare individual latency preferences in this naturalistic ball-catching task to psychophysical thresholds for latency detection in a reference-grade system with zero latency to investigate how psychophysical thresholds may relate to subjective evaluations in naturalistic scenarios.",
+      "published": "2026-03-16",
+      "url": "https://arxiv.org/abs/2603.15796",
+      "pdf": "https://arxiv.org/pdf/2603.15796",
       "categories": [
-        "eess.IV",
-        "math.NA"
+        "cs.GR"
       ],
       "matched": [
-        "perception-driven",
-        "visual perception"
+        "psychophysic",
+        "head-mounted",
+        "hmd",
+        "reprojection"
       ],
-      "score": 31,
+      "score": 29,
       "comment": "",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "2602.06164",
@@ -329,96 +413,11 @@
       "score": 27,
       "comment": "18 pages, 6 figures. Published version: Biomed. Phys. Eng. Express 10, 025006 (2024)",
       "isNew": false
-    },
-    {
-      "id": "2602.10619",
-      "source": "arxiv",
-      "title": "Improving Medical Visual Reinforcement Fine-Tuning via Perception and Reasoning Augmentation",
-      "authors": [
-        "Guangjing Yang",
-        "ZhangYuan Yu",
-        "Ziyuan Qin",
-        "Xinyuan Song",
-        "Huahui Yi",
-        "Qingbo Kang",
-        "Jun Gao",
-        "Yiyue Li",
-        "Chenlin Du",
-        "Qicheng Lao"
-      ],
-      "abstract": "While recent advances in Reinforcement Fine-Tuning (RFT) have shown that rule-based reward schemes can enable effective post-training for large language models, their extension to cross-modal, vision-centric domains remains largely underexplored. This limitation is especially pronounced in the medical imaging domain, where effective performance requires both robust visual perception and structured reasoning. In this work, we address this gap by proposing VRFT-Aug, a visual reinforcement fine-tuning framework tailored for the medical domain. VRFT-Aug introduces a series of training strategies designed to augment both perception and reasoning, including prior knowledge injection, perception-driven policy refinement, medically informed reward shaping, and behavioral imitation. Together, these methods aim to stabilize and improve the RFT process. Through extensive experiments across multiple medical datasets, we show that our approaches consistently outperform both standard supervised fine-tuning and RFT baselines. Moreover, we provide empirically grounded insights and practical training heuristics that can be generalized to other medical image tasks. We hope this work contributes actionable guidance and fresh inspiration for the ongoing effort to develop reliable, reasoning-capable models for high-stakes medical applications.",
-      "published": "2026-02-11",
-      "url": "https://arxiv.org/abs/2602.10619",
-      "pdf": "https://arxiv.org/pdf/2602.10619",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "matched": [
-        "perception-driven",
-        "visual perception"
-      ],
-      "score": 26,
-      "comment": "CPAL 2026",
-      "isNew": false
-    },
-    {
-      "id": "2607.12641",
-      "source": "arxiv",
-      "title": "GeoFovea-GS: Geometry-Aware Cross-Layer Gaussian Splatting for Wireless Aerial VR",
-      "authors": [
-        "Zeyi Ren",
-        "Wencheng Yan",
-        "Jiawen Zhang",
-        "Jintao Yan",
-        "Sheng Zhou",
-        "Zhisheng Niu"
-      ],
-      "abstract": "Wireless aerial virtual reality (VR) aims to provide immersive access to large-scale scenes, but high-resolution view generation and delivery are jointly constrained by limited bandwidth, latency, and power. 3D Gaussian Splatting (3DGS) can reduce the payload by rendering views from compact pose information, yet its geometry errors may cause severe VR quality degradation. Existing channel-aware or pixel-level resource allocation schemes fail to capture such geometry-sensitive distortion. To address this issue, this paper proposes GeoFovea-GS as a geometry-aware cross-layer framework for communication-efficient wireless aerial VR. A foveated geometry-aware distortion metric is developed to characterize photometric rendering error, geometric inconsistency, and view-dependent perceptual importance in a unified form. Based on this metric, the joint selection of pose-only 3DGS rendering and image/tile correction transmission is formulated as a cross-layer optimization problem under wireless constraints. A lightweight value-of-information scheduler is further developed to allocate communication resources to regions that are both geometry-critical and perceptually important. Experiments on real-world 3DGS scenes demonstrate that GeoFovea-GS achieves superior immersive rendering quality with substantially reduced transmission cost.",
-      "published": "2026-07-14",
-      "url": "https://arxiv.org/abs/2607.12641",
-      "pdf": "https://arxiv.org/pdf/2607.12641",
-      "categories": [
-        "cs.MM",
-        "eess.IV"
-      ],
-      "matched": [
-        "foveat",
-        "perceptually",
-        "virtual reality"
-      ],
-      "score": 24,
-      "comment": "7 pages, 5 figures",
-      "isNew": false
-    },
-    {
-      "id": "2605.00401",
-      "source": "arxiv",
-      "title": "SIMON: Saliency-aware Integrative Multi-view Object-centric Neural Decoding",
-      "authors": [
-        "YuSheng Lin",
-        "Ji-Hwa Tsai",
-        "Chun-Shu Wei"
-      ],
-      "abstract": "Recent EEG-to-image retrieval methods leverage pretrained vision encoders and foveation-inspired priors, but typically assume a fixed, center-focused view. This center bias conflicts with content-driven human attention, creating a geometric-semantic dissociation between visual features and EEG responses. We propose SIMON, a saliency-aware multi-view framework for zero-shot EEG-to-image retrieval. SIMON combines foreground segmentation and saliency prediction to select fixation centers via Saliency-Aware Sampling (SAS), then generates foveated views that emphasize informative object regions while suppressing background clutter. On THINGS-EEG, SIMON achieves state-of-the-art performance in both intra-subject and inter-subject settings, reaching an average Top-1 accuracy of 69.7% and 19.6%, respectively, consistently outperforming recent competitive baselines. Analyses across sampling granularity, EEG channel topology, and visual/brain encoder backbones further support the robustness of saliency-aware multi-view integration. Our code and models are publicly available at https://github.com/simonlink666/SIMON.",
-      "published": "2026-05-01",
-      "url": "https://arxiv.org/abs/2605.00401",
-      "pdf": "https://arxiv.org/pdf/2605.00401",
-      "categories": [
-        "cs.CV",
-        "q-bio.NC"
-      ],
-      "matched": [
-        "foveat",
-        "saliency"
-      ],
-      "score": 24,
-      "comment": "",
-      "isNew": false
     }
   ],
   "notes": [
-    "231 篇候选，其中 68 篇在最近 180 天内",
-    "68 篇符合条件，按分数取前 15 篇"
+    "317 篇候选，其中 118 篇在最近 180 天内",
+    "118 篇符合条件，按分数取前 15 篇",
+    "其中 3 篇是首次出现"
   ]
 }
