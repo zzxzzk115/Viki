@@ -134,19 +134,24 @@ pre[data-theme] {
   margin-bottom: 0;
 }
 
+/* Sticky so the controls stay reachable on a step taller than the viewport —
+   the same reason they sit at the top: the mouse should never chase them. */
 .prose .demo-bar {
   display: flex;
   align-items: center;
   gap: 0.75rem;
   padding: 0.5rem 0.75rem;
-  border-top: 1px solid var(--color-neutral-200);
+  border-bottom: 1px solid var(--color-neutral-200);
   background: var(--color-neutral-50);
   font-size: 0.8125rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 @media (prefers-color-scheme: dark) {
   .prose .demo-bar {
-    border-top-color: var(--color-neutral-800);
+    border-bottom-color: var(--color-neutral-800);
     background: var(--color-neutral-900);
   }
 }

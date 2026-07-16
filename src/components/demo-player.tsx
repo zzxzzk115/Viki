@@ -24,6 +24,23 @@ export function DemoPlayer() {
       const steps = [...deck.querySelectorAll<HTMLElement>('.demo-step')]
       if (steps.length === 0) continue
 
+      /**
+       * Pin every step to the tallest one's height, so stepping through does
+       * not resize the deck. Steps differ in height — one array row vs six —
+       * and without this the page reflows on every click and whatever the
+       * reader was looking at moves under them.
+       *
+       * Measurable only before data-wired hides them, hence the ordering here.
+       */
+      const equalize = () => {
+        steps.forEach((s) => (s.style.minHeight = ''))
+        const wired = deck.dataset.wired
+        delete deck.dataset.wired // reveal all to measure
+        const tallest = Math.max(...steps.map((s) => s.offsetHeight))
+        if (wired) deck.dataset.wired = wired
+        steps.forEach((s) => (s.style.minHeight = `${tallest}px`))
+      }
+
       let current = 0
 
       const bar = document.createElement('div')
@@ -46,7 +63,10 @@ export function DemoPlayer() {
       counter.className = 'demo-counter'
 
       bar.append(prev, caption, counter, next)
-      deck.append(bar)
+      // Top, not bottom: steps differ in height, so a bottom bar moves every
+      // time you advance and the mouse has to chase it. Anchored to the top of
+      // the deck it stays put.
+      deck.prepend(bar)
 
       const render = () => {
         steps.forEach((s, i) => s.classList.toggle('is-active', i === current))
@@ -76,19 +96,28 @@ export function DemoPlayer() {
         }
       }
 
+      // Widths change the wrap of the array rows, so the tallest step changes too.
+      const onResize = () => equalize()
+
       prev.addEventListener('click', onPrev)
       next.addEventListener('click', onNext)
       deck.addEventListener('keydown', onKey)
+      window.addEventListener('resize', onResize)
       deck.tabIndex = 0
 
+      equalize()
       render()
 
       teardown.push(() => {
         prev.removeEventListener('click', onPrev)
         next.removeEventListener('click', onNext)
         deck.removeEventListener('keydown', onKey)
+        window.removeEventListener('resize', onResize)
         bar.remove()
-        steps.forEach((s) => s.classList.remove('is-active'))
+        steps.forEach((s) => {
+          s.classList.remove('is-active')
+          s.style.minHeight = ''
+        })
         delete deck.dataset.wired
       })
     }
