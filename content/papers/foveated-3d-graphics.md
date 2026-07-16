@@ -10,7 +10,7 @@ venue: SIGGRAPH Asia 2012
 year: 2012
 doi: 10.1145/2366145.2366183
 project: https://www.microsoft.com/en-us/research/publication/foveated-3d-graphics/
-tags: [注视点渲染, 感知驱动, 视觉系统]
+tags: [注视点渲染, 感知驱动]
 rating: 5
 status: read
 summary: 注视点渲染的奠基工作。三层嵌套图层按离心率降采样，桌面 HD 上省 5-6 倍算力，并预言了「显示器越大越清晰，收益越大」。

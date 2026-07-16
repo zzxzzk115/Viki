@@ -84,6 +84,11 @@ export function PaperGraph() {
 
     const width = svg.clientWidth || 900
     const height = HEIGHT
+    // The timeline needs breathing room the year range can't get on a phone:
+    // 35 years across ~300px overlaps everything. Lay it out at a fixed minimum
+    // world width and fit-to-view initially, so a narrow screen sees the whole
+    // timeline (zoomed out) and can pinch in.
+    const worldWidth = Math.max(width, 760)
     setFocus(null)
 
     const visibleNodes: SimNode[] = data.nodes
@@ -99,7 +104,7 @@ export function PaperGraph() {
     const minY = Math.min(...years)
     const maxY = Math.max(...years)
     const span = Math.max(1, maxY - minY)
-    const xForYear = (y: number) => PAD.left + ((y - minY) / span) * (width - PAD.left - PAD.right)
+    const xForYear = (y: number) => PAD.left + ((y - minY) / span) * (worldWidth - PAD.left - PAD.right)
     const midY = (height - PAD.bottom + PAD.top) / 2
 
     const radius = (n: SimNode) => Math.min(26, 5 + Math.sqrt(n.citedBy) * 0.38)
@@ -271,7 +276,13 @@ export function PaperGraph() {
         setFocus((f) => (f?.sticky ? f : null))
       })
     root.call(zoomer)
-    root.call(zoomer.transform, zoomIdentity)
+    // Fit the world width into the viewport: identity on desktop (width ≥ world),
+    // scaled down + vertically centred on a phone.
+    const fitScale = Math.min(1, width / worldWidth)
+    root.call(
+      zoomer.transform,
+      zoomIdentity.translate(0, (height * (1 - fitScale)) / 2).scale(fitScale),
+    )
 
     sim.on('tick', () => {
       link
@@ -408,12 +419,19 @@ function PaperCard({ focus, onClose }: { focus: Focus; onClose: () => void }) {
           </span>
         ))}
       </div>
-      <Link
-        href={node.href}
-        className="mt-3 inline-block text-xs font-medium text-sky-600 hover:underline dark:text-sky-400"
-      >
-        打开论文 →
-      </Link>
+      {focus.sticky ? (
+        // Tapped (mobile): the card is pinned, so the link is reachable.
+        <Link
+          href={node.href}
+          className="mt-3 inline-block text-xs font-medium text-sky-600 hover:underline dark:text-sky-400"
+        >
+          打开论文 →
+        </Link>
+      ) : (
+        // Hover (desktop): the card follows the cursor and vanishes on leave, so
+        // a link here is unreachable — clicking the node itself navigates.
+        <p className="mt-3 text-xs text-neutral-400">点击节点打开 →</p>
+      )}
     </div>
   )
 }

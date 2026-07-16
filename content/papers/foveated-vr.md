@@ -13,7 +13,7 @@ venue: SIGGRAPH Asia 2016
 year: 2016
 doi: 10.1145/2980179.2980246
 project: https://research.nvidia.com/labs/rtr/publication/patney2016towards/
-tags: [注视点渲染, 感知驱动, 虚拟现实, 对比度]
+tags: [注视点渲染, 感知驱动, VR]
 rating: 5
 status: read
 summary: 发现周边模糊会降低对比度、诱发「隧道视觉」感；加一道对比度增强后，用户能容忍 2 倍大的模糊半径而察觉不出差异。
