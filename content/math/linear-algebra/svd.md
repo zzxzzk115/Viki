@@ -85,5 +85,5 @@ Eckart–Young 定理说了什么？
 :::
 ::::
 
-在渲染里，SVD 用于压缩预计算辐射传输矩阵，见 [[physics/optics/radiometry]]。
+在渲染里，SVD 用于压缩预计算辐射传输矩阵；相关的采样与立体角基础见 [[physics/optics/radiometry]]。
 

@@ -160,6 +160,8 @@ async function main() {
       warnings.push(`  content/${p.rel} -> [[${b}]] 找不到目标`)
     }
 
+    const href = isPaper ? `/${p.slug}/` : `/notes/${p.slug}/`
+
     const cards: Card[] = []
     for (const raw of r.cards) {
       const id = cardId(raw.explicitId, p.slug, raw.questionSource)
@@ -181,6 +183,7 @@ async function main() {
       cards.push({
         id,
         noteSlug: p.slug,
+        noteHref: href,
         anchor: r.headingIds[raw.headingIndex] ?? '',
         noteTitle: meta.title,
         subject: p.subject,
@@ -192,14 +195,13 @@ async function main() {
     }
     allCards.push(...cards)
 
-    const base = { slug: p.slug, html: r.html, text: r.text, toc: r.toc, cards, links: r.links }
+    const base = { slug: p.slug, href, html: r.html, text: r.text, toc: r.toc, cards, links: r.links }
 
     if (isPaper) {
-      papers.push({ ...base, href: `/${p.slug}/`, meta: meta as z.infer<typeof PaperMeta> })
+      papers.push({ ...base, meta: meta as z.infer<typeof PaperMeta> })
     } else {
       notes.push({
         ...base,
-        href: `/notes/${p.slug}/`,
         subject: p.subject,
         meta: meta as z.infer<typeof NoteMeta>,
         wordCount: countWords(r.text),

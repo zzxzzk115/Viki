@@ -70,6 +70,13 @@ export interface TocEntry {
 export interface Card {
   id: string
   noteSlug: string
+  /**
+   * Route of the source document, resolved at build time. Papers live at
+   * /papers/<slug>/ and notes at /notes/<slug>/, so a component cannot derive
+   * this from noteSlug without re-deciding the rule and getting papers wrong.
+   * basePath is NOT included — this is handed to next/link, which adds it.
+   */
+  noteHref: string
   /** Heading anchor the card sits under; '' when it precedes any heading. */
   anchor: string
   noteTitle: string

@@ -170,8 +170,10 @@ export function ReviewCard({ subject, compact = false }: { subject?: string; com
       </div>
 
       <div className="border-t border-neutral-200 px-5 py-2.5 text-xs dark:border-neutral-800">
+        {/* noteHref is resolved at build time: papers live at /papers/<slug>/,
+            not /notes/<slug>/, so deriving the path here would 404 on them. */}
         <Link
-          href={`/notes/${c.noteSlug}/${c.anchor ? `#${c.anchor}` : ''}`}
+          href={`${c.noteHref}${c.anchor ? `#${c.anchor}` : ''}`}
           className="text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-200"
         >
           出自：{c.noteTitle} →

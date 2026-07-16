@@ -109,6 +109,35 @@ async function main() {
     }
   }
 
+  // Card back-links are rendered client-side from cards.json, so they never
+  // appear in out/*.html and the scan above is blind to them. This is how the
+  // paper back-links (/notes/papers/... instead of /papers/...) slipped through.
+  const cardsFile = join(OUT, 'data', 'cards.json')
+  const cards: { id: string; noteHref: string; anchor: string; noteTitle: string }[] = JSON.parse(
+    await readFile(cardsFile, 'utf8'),
+  )
+  for (const c of cards) {
+    checked++
+    const target = posix.normalize(c.noteHref)
+    if (!pages.has(target)) {
+      dead.push({
+        page: 'public/data/cards.json',
+        href: c.noteHref,
+        text: `卡片 ${c.id} 的回链 (${c.noteTitle})`,
+        why: `目标页不存在: ${target}`,
+      })
+      continue
+    }
+    if (c.anchor && !idsOf.get(target)?.has(c.anchor)) {
+      dead.push({
+        page: 'public/data/cards.json',
+        href: `${c.noteHref}#${c.anchor}`,
+        text: `卡片 ${c.id} 的回链锚点`,
+        why: `锚点 #${c.anchor} 在 ${target} 上不存在`,
+      })
+    }
+  }
+
   if (dead.length) {
     console.error(`\n✗ 发现 ${dead.length} 个死链:\n`)
     for (const d of dead) {

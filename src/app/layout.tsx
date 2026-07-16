@@ -15,10 +15,11 @@ export const metadata: Metadata = {
 
 // Entries land as their phase does — a nav link to a route that does not exist
 // yet is a 404 under `output: 'export'`, not a graceful fallback.
-// P3 adds /papers/, P4 /arxiv/, P5 /search/.
+// P4 adds /arxiv/, P5 /search/.
 const NAV = [
   { href: '/notes/', label: '笔记' },
   { href: '/cards/', label: '复习' },
+  { href: '/papers/', label: '论文' },
 ]
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
