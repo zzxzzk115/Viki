@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { SearchDialog } from '@/components/search-dialog'
 // Root layout, not per-page: on client navigation a per-page import would let
 // equations flash unstyled before the sheet lands.
 import 'katex/dist/katex.min.css'
@@ -15,13 +16,14 @@ export const metadata: Metadata = {
 
 // A nav link to a route that does not exist is a 404 under `output: 'export'`,
 // not a graceful fallback — entries land only once their page does.
+// Search is the SearchDialog button rather than a link; /search still exists as
+// a deep-linkable page.
 const NAV = [
   { href: '/notes/', label: '笔记' },
   { href: '/cards/', label: '复习' },
   { href: '/papers/', label: '论文' },
   { href: '/arxiv/', label: 'arXiv' },
   { href: '/glossary/', label: '术语' },
-  { href: '/search/', label: '搜索' },
 ]
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -40,6 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </Link>
               ))}
             </div>
+            <SearchDialog />
           </nav>
         </header>
 
