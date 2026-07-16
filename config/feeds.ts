@@ -166,7 +166,6 @@ export const feeds: FeedConfig = {
       'temporal reprojection',
       'gaze-contingent reprojection',
       'frame extrapolation',
-      'temporal upsampling',
       'visibility buffer',
     ],
     // 强相关，但需与其他词共现才说明问题。
@@ -196,6 +195,7 @@ export const feeds: FeedConfig = {
       // 重投影 / 补洞
       'reprojection',
       'image warping',
+      'temporal upsampling',
       'hole filling',
       'disocclusion', // 重投影产生空洞的技术名
       'inpainting',
