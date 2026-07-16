@@ -10,6 +10,7 @@ authors:
   - David Luebke
   - Aaron Lefohn
 venue: SIGGRAPH Asia 2016
+venueType: conference
 year: 2016
 doi: 10.1145/2980179.2980246
 project: https://research.nvidia.com/labs/rtr/publication/patney2016towards/

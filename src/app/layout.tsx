@@ -24,6 +24,7 @@ const NAV = [
   { href: '/cards/', label: '复习' },
   { href: '/papers/', label: '论文' },
   { href: '/arxiv/', label: 'arXiv' },
+  { href: '/shaders/', label: 'Shader' },
   { href: '/glossary/', label: '术语' },
 ]
 
@@ -32,11 +33,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="zh-CN">
       <body className="flex min-h-screen flex-col bg-white text-neutral-900 antialiased dark:bg-neutral-950 dark:text-neutral-100">
         <header className="border-b border-neutral-200 dark:border-neutral-800">
-          <nav className="mx-auto flex max-w-6xl items-center gap-6 px-6 py-4">
+          {/* flex-wrap：7 个链接在窄屏（<500px）会撑破视口，把整页最小宽度
+              顶到 ~500px；换行到第二行是唯一不牺牲可达性的收法。 */}
+          <nav className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-6 py-4">
             <Link href="/" className="font-bold tracking-tight">
               Viki
             </Link>
-            <div className="flex gap-4 text-sm text-neutral-600 dark:text-neutral-400">
+            <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm text-neutral-600 dark:text-neutral-400">
               {NAV.map((n) => (
                 <Link key={n.href} href={n.href} className="hover:text-neutral-900 dark:hover:text-neutral-100">
                   {n.label}

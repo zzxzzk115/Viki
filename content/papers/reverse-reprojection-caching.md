@@ -2,6 +2,7 @@
 title: "Accelerating real-time shading with reverse reprojection caching"
 authors: ["Diego Nehab", "Pedro V. Sander", "Jason Lawrence", "Natalya Tatarchuk", "John R. Isidoro"]
 venue: "Graphics Hardware 2007"
+venueType: conference
 year: 2007
 tags: ["重投影", "着色"]
 status: to-read

@@ -2,6 +2,7 @@
 title: "Image Inpainting"
 authors: ["Marcelo Bertalmio", "Guillermo Sapiro", "Vincent Caselles", "Coloma Ballester"]
 venue: "SIGGRAPH 2000"
+venueType: conference
 year: 2000
 doi: "10.1145/344779.344972"
 tags: ["图像补全"]

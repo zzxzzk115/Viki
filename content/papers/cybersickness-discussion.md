@@ -2,6 +2,7 @@
 title: "A Discussion of Cybersickness in Virtual Environments"
 authors: ["Joseph J. LaViola"]
 venue: "SIGCHI Bulletin 2000"
+venueType: talk
 year: 2000
 doi: "10.1145/333329.333344"
 tags: ["VR", "感知驱动"]

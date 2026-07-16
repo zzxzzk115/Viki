@@ -2,6 +2,7 @@
 title: "Image-space horizon-based ambient occlusion"
 authors: ["Louis Bavoil", "Miguel Sainz", "Rouslan Dimitrov"]
 venue: "SIGGRAPH Talks 2008"
+venueType: talk
 year: 2008
 doi: "10.1145/1401032.1401061"
 tags: ["屏幕空间", "着色"]

@@ -2,6 +2,7 @@
 title: "Transformer-based image and video inpainting: current challenges and future directions"
 authors: ["Omar Elharrouss", "Rafat Damseh", "Abdelkader Nasreddine Belkacem", "Elarbi Badidi", "Abderrahmane Lakas"]
 venue: "Artificial Intelligence Review 2025"
+venueType: journal
 year: 2025
 doi: "10.1007/s10462-024-11075-9"
 tags: ["图像补全"]

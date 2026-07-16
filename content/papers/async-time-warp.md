@@ -2,6 +2,7 @@
 title: "The asynchronous time warp for virtual reality on consumer hardware"
 authors: ["J. M. P. van Waveren"]
 venue: "VRST 2016"
+venueType: conference
 year: 2016
 doi: "10.1145/2993369.2993375"
 tags: ["重投影", "VR"]

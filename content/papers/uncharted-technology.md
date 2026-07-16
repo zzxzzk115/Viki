@@ -2,6 +2,7 @@
 title: "The technology of Uncharted: Drake's Fortune"
 authors: ["Christophe Balestra", "Pål-Kristian Engstad"]
 venue: "GDC 2008"
+venueType: talk
 year: 2008
 project: "https://gdcvault.com/play/325/The-Technology-of-UNCHARTED-DRAKE"
 tags: ["着色"]

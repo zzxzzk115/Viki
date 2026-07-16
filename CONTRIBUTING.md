@@ -46,8 +46,11 @@ code: https://...            # 可选
 tags: [渲染, 辐射场]
 rating: 5                    # 可选，1-5
 status: read                 # to-read | reading | read，默认 read
+venueType: conference        # 可选：journal | conference | preprint | report | talk | book | course
 ---
 ```
+
+`venueType` 决定论文表「发表于」列的类型徽章（期刊/会议/预印本/…）。BibTeX 导入会从 `@article`/`@inproceedings` 等条目类型自动派生，手写论文页时才需要自己填；不填就没有徽章，不影响构建。
 
 ## 知识卡片
 
@@ -90,6 +93,18 @@ print("代码块也没问题")
 **打算日后改写问题措辞的卡，现在就钉一个 `{id=...}`。** 一旦钉了，改问题也不丢进度。
 
 id 重复会**直接构建失败**——因为两张卡共用一份进度是静默的数据损坏。
+
+### 卡片如何被刷题模式使用
+
+`/cards` 有两种模式，喂的都是同一批卡：
+
+- **翻卡**：看问题 → 自评（忘了/模糊/记得），经典 SM-2。
+- **刷题**：10 题一轮的闯关。每张卡自动变成**选择题**（正确答案 + 其他卡的答案当干扰项）或**填空题**（挖掉答案里的一个 `:term[…]` 术语，接受中文/英文/缩写）。结果按「选择答对 = 记得一般（grade 3）、填空答对 = 记得很清楚（grade 5）、答错 = 忘了（grade 0）」写回同一个 SM-2 进度——刷题不是独立的游戏，刷完间隔调度会真的变。
+
+这对写卡有两个实际影响：
+
+1. **答案里用 `:term[…]` 的卡才能出填空题**——没有术语的卡只会出选择题。想让一张卡可以被挖空，就把关键术语写成 `:term[]`。
+2. **答案开头一句话要能独立成立**——选择题的选项取答案前 ~100 字。答案第一句如果是「如上所述」这种，选项就没法读。
 
 ## 专业术语（重要）
 
@@ -188,6 +203,29 @@ id 重复会**直接构建失败**——因为两张卡共用一份进度是静�
 Manim 渲染的是**视频**：CI 里要装 Python + cairo + ffmpeg（官方 action 光装依赖就 ~4 分钟），产物是几 MB 的二进制文件进仓库，部署从 30 秒变成好几分钟。而笔记真正需要的是「能一步步看懂」，幻灯片就够了——而且每步是 markdown，公式和代码直接复用现成管道。
 
 **所有步骤都在静态 HTML 里**，`DemoPlayer` 挂载后才逐步显示。所以关掉 JS 整个演示仍然可读，搜索索引也能看到全部内容——换成 canvas 动画或视频，这两点都做不到。
+
+## 实时 Shader
+
+`content/shaders/` 下一效果一页，正文里用 `::::shader` 内嵌 GLSL，页面上**直接实时运行**（WebGL2），同时出现在 [/shaders 画廊](https://zzxzzk115.github.io/Viki/shaders/)：
+
+`````markdown
+::::shader{height=280}
+```glsl
+void mainImage(out vec4 fragColor, in vec2 fragCoord) {
+    vec2 uv = fragCoord / iResolution.xy;
+    fragColor = vec4(uv, 0.5 + 0.5 * sin(iTime), 1.0);
+}
+```
+::::
+`````
+
+规则：
+
+- **Shadertoy 惯例**：写 `mainImage(out vec4, in vec2)`，可用的 uniform 是 `iTime`（秒）、`iResolution`（像素，z=1）、`iMouse`（xy = 最近一次点击位置，仅点击时更新——所以手机上滑动不会被 canvas 劫持）。Shadertoy 上的单 pass 效果基本可以直接粘贴。
+- `::::shader` 里**必须**有一个 ` ```glsl ` 代码块，没有会构建失败。`height` 可选，默认 260px。
+- **GLSL 编译错误不阻断构建**（构建时不跑 GPU），但页面上 canvas 的位置会显示编译错误和行号，代码本身仍然可读——和 wiki 死链同一哲学：坏了要看得见，不是致命。
+- 代码块保持可见：关 JS 仍是一段 shiki 高亮的源码，也进搜索索引。运行器读的就是这个代码块的文本，源码只有一份。
+- 画廊页多个 canvas 同屏——滚出视口的会自动暂停渲染，不用担心费电。
 
 ## 在线编辑器
 

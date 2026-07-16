@@ -2,6 +2,7 @@
 title: "Image Inpainting by Patch Propagation Using Patch Sparsity"
 authors: ["Zongben Xu", "Jian Sun"]
 venue: "IEEE TIP 2010"
+venueType: journal
 year: 2010
 doi: "10.1109/TIP.2010.2042098"
 tags: ["图像补全"]

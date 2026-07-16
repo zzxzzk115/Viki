@@ -2,6 +2,7 @@
 title: "FXAA"
 authors: ["Timothy Lottes"]
 venue: "NVIDIA Tech Report 2009"
+venueType: report
 year: 2009
 project: "https://developer.download.nvidia.com/assets/gamedev/files/sdk/11/FXAA_WhitePaper.pdf"
 tags: ["屏幕空间", "时域抗锯齿"]

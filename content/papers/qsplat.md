@@ -2,6 +2,7 @@
 title: "QSplat: A Multiresolution Point Rendering System for Large Meshes"
 authors: ["Szymon Rusinkiewicz", "Marc Levoy"]
 venue: "SIGGRAPH 2000"
+venueType: conference
 year: 2000
 doi: "10.1145/344779.344940"
 tags: ["点渲染"]

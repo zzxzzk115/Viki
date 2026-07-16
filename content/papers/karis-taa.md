@@ -2,6 +2,7 @@
 title: "High-Quality Temporal Supersampling"
 authors: ["Brian Karis"]
 venue: "SIGGRAPH Course 2014"
+venueType: course
 year: 2014
 project: "https://advances.realtimerendering.com/s2014/#_HIGH-QUALITY_TEMPORAL_SUPERSAMPLING"
 tags: ["时域抗锯齿"]

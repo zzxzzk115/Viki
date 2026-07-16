@@ -2,6 +2,7 @@
 title: "Metameric Inpainting for Image Warping"
 authors: ["Rafael Kuffner Dos Anjos", "David Walton", "Kaan Akşit", "Sebastian Friston", "David Swapp", "Anthony Steed", "Tobias Ritschel"]
 venue: "IEEE TVCG 2023"
+venueType: journal
 year: 2023
 doi: "10.1109/TVCG.2022.3216712"
 tags: ["图像补全", "图像变形", "感知驱动"]

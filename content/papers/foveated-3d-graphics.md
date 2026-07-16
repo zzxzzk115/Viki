@@ -7,6 +7,7 @@ authors:
   - Desney Tan
   - John Snyder
 venue: SIGGRAPH Asia 2012
+venueType: conference
 year: 2012
 doi: 10.1145/2366145.2366183
 project: https://www.microsoft.com/en-us/research/publication/foveated-3d-graphics/

@@ -2,6 +2,7 @@
 title: "Digital Image Warping"
 authors: ["George Wolberg"]
 venue: "IEEE CS Press 1990"
+venueType: book
 year: 1990
 tags: ["图像变形"]
 status: to-read

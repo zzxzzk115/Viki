@@ -2,6 +2,7 @@
 title: "Footprint Evaluation for Volume Rendering"
 authors: ["Lee Westover"]
 venue: "SIGGRAPH 1990"
+venueType: conference
 year: 1990
 doi: "10.1145/97880.97919"
 tags: ["点渲染"]

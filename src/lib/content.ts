@@ -51,6 +51,19 @@ export async function getTerms(): Promise<Term[]> {
   return readJson('terms.json')
 }
 
+export interface ShaderEntry {
+  source: string
+  height: number
+  slug: string
+  title: string
+  href: string
+}
+
+/** Every ::::shader across the corpus, for the /shaders gallery. */
+export async function getShaders(): Promise<ShaderEntry[]> {
+  return readJson('shaders.json')
+}
+
 // ---- Paper feed (data/papers/, committed by the cron workflow) ----
 
 const FEED = join(process.cwd(), 'data', 'papers')

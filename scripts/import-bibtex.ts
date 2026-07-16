@@ -173,6 +173,39 @@ const VENUE_DICT: [RegExp, string][] = [
   [/arxiv/i, 'arXiv'],
 ]
 
+/**
+ * Publication kind from the BibTeX entry type — parseBib always captured
+ * `@article`/`@inproceedings`/…, it was just dropped on the floor before this.
+ * misc/unpublished need the venue text to disambiguate (arXiv vs a talk).
+ */
+export function deriveVenueType(e: Entry, venue: string): string {
+  const v = venue.toLowerCase()
+  const hp = (e.fields.howpublished ?? '').toLowerCase()
+  if (/arxiv/.test(v) || /arxiv/.test(hp)) return 'preprint'
+  switch (e.type) {
+    case 'article':
+      return 'journal'
+    case 'inproceedings':
+      return 'conference'
+    case 'techreport':
+      return 'report'
+    case 'book':
+    case 'incollection':
+      return 'book'
+    case 'unpublished':
+      return 'talk'
+    case 'misc':
+      if (/symposium|conference|proceedings/.test(hp)) return 'conference'
+      if (/course/.test(v) || /course/.test(hp)) return 'course'
+      return 'talk'
+    default:
+      // @inbook etc. — rare; venue text as tiebreaker, else journal-ish default.
+      if (/course/.test(v)) return 'course'
+      if (/talks|gdc/.test(v)) return 'talk'
+      return 'journal'
+  }
+}
+
 function deriveVenue(e: Entry): string {
   // note last, for grey lit like a GDC talk whose venue lives only there.
   const raw = delatex(
@@ -299,7 +332,14 @@ async function main() {
     const tags = deriveTags(title, venue)
     if (!doi) withoutDoi.push(slug)
 
-    const fm = ['---', `title: ${yamlStr(title)}`, `authors: [${authors.map(yamlStr).join(', ')}]`, `venue: ${yamlStr(venue)}`, `year: ${year}`]
+    const fm = [
+      '---',
+      `title: ${yamlStr(title)}`,
+      `authors: [${authors.map(yamlStr).join(', ')}]`,
+      `venue: ${yamlStr(venue)}`,
+      `venueType: ${deriveVenueType(e, venue)}`,
+      `year: ${year}`,
+    ]
     if (doi) fm.push(`doi: ${yamlStr(e.fields.doi!.trim())}`)
     else if (url) fm.push(`project: ${yamlStr(url)}`) // no generic url on PaperMeta; grey-lit link → project
     fm.push(`tags: [${tags.map(yamlStr).join(', ')}]`)

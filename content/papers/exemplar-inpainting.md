@@ -2,6 +2,7 @@
 title: "Region Filling and Object Removal by Exemplar-Based Image Inpainting"
 authors: ["Antonio Criminisi", "Patrick Pérez", "Kentaro Toyama"]
 venue: "IEEE TIP 2004"
+venueType: journal
 year: 2004
 doi: "10.1109/TIP.2004.833105"
 tags: ["图像补全"]

@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { EditOnGitHub } from '@/components/edit-on-github'
 import { getBacklinks, getNoteIndex, getPaper, getPaperIndex } from '@/lib/content'
-import type { TocEntry } from '@/lib/schema'
+import { VENUE_TYPE_LABEL, type TocEntry } from '@/lib/schema'
 
 export const dynamicParams = false
 
@@ -63,6 +63,11 @@ export default async function PaperPage({ params }: Props) {
           <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm">
             <span className="rounded bg-neutral-100 px-2 py-1 font-medium dark:bg-neutral-800">
               {m.venue}
+              {m.venueType && (
+                <span className="ml-1.5 font-normal text-neutral-500">
+                  · {VENUE_TYPE_LABEL[m.venueType]}
+                </span>
+              )}
             </span>
             {m.rating && <span className="text-amber-500">{'★'.repeat(m.rating)}</span>}
             <span className="text-xs text-neutral-500">{STATUS_LABEL[m.status] ?? m.status}</span>

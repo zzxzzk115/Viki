@@ -2,6 +2,7 @@
 title: "The Lumigraph"
 authors: ["Steven J. Gortler", "Radek Grzeszczuk", "Richard Szeliski", "Michael F. Cohen"]
 venue: "SIGGRAPH 1996"
+venueType: conference
 year: 1996
 doi: "10.1145/237170.237200"
 tags: ["光场/IBR"]

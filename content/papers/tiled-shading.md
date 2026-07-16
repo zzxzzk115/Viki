@@ -2,6 +2,7 @@
 title: "Tiled Shading"
 authors: ["Ola Olsson", "Ulf Assarsson"]
 venue: "JGT 2011"
+venueType: journal
 year: 2011
 doi: "10.1080/2151237X.2011.621761"
 tags: ["着色"]

@@ -2,6 +2,7 @@
 title: "Accelerating Stereo Rendering via Image Reprojection and Spatio-Temporal Supersampling"
 authors: ["Sipeng Yang", "Junhao Zhuge", "Jiayu Ji", "Qingchuan Zhu", "Xiaogang Jin"]
 venue: "IEEE TVCG 2025"
+venueType: journal
 year: 2025
 doi: "10.1109/TVCG.2025.3549557"
 tags: ["重投影", "立体渲染", "时域抗锯齿"]

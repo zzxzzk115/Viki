@@ -2,6 +2,7 @@
 title: "Post-Rendering 3D Warping"
 authors: ["William R. Mark", "Leonard McMillan", "Gary Bishop"]
 venue: "I3D 1997"
+venueType: conference
 year: 1997
 doi: "10.1145/253284.253292"
 tags: ["图像变形", "重投影"]

@@ -2,6 +2,7 @@
 title: "Perceptual Rasterization for Head-Mounted Display Image Synthesis"
 authors: ["Sebastian Friston", "Tobias Ritschel", "Anthony Steed"]
 venue: "SIGGRAPH Talks 2019"
+venueType: talk
 year: 2019
 doi: "10.1145/3306346.3323033"
 tags: ["注视点渲染", "感知驱动"]

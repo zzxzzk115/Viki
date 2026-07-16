@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { DemoPlayer } from '@/components/demo-player'
 import { EditOnGitHub } from '@/components/edit-on-github'
+import { ShaderPlayer } from '@/components/shader-player'
 import { Icon } from '@/components/icon'
 import { LevelBadge } from '@/components/level-badge'
 import { getBacklinks, getNote, getNoteIndex, getSubjects } from '@/lib/content'
@@ -86,8 +87,9 @@ export default async function NotePage({ params }: Props) {
             className="prose prose-neutral dark:prose-invert mt-8 max-w-none"
             dangerouslySetInnerHTML={{ __html: note.html }}
           />
-          {/* Wires up any ::::demo in the body above. Cheap no-op when absent. */}
+          {/* Wire up any ::::demo / ::::shader in the body. Cheap no-ops when absent. */}
           <DemoPlayer />
+          <ShaderPlayer />
 
           {linkedFrom.length > 0 && (
             <section className="mt-16 border-t border-neutral-200 pt-6 dark:border-neutral-800">

@@ -2,6 +2,7 @@
 title: "Clustered Deferred and Forward Shading"
 authors: ["Ola Olsson", "Markus Billeter", "Ulf Assarsson"]
 venue: "HPG 2012"
+venueType: conference
 year: 2012
 doi: "10.2312/EGGH/HPG12/087-096"
 tags: ["着色"]

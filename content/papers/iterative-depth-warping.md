@@ -2,6 +2,7 @@
 title: "Iterative Depth Warping"
 authors: ["Sanghun Lee", "Yongju Kim", "Elmar Eisemann"]
 venue: "ACM TOG 2018"
+venueType: journal
 year: 2018
 doi: "10.1145/3190859"
 tags: ["图像变形", "重投影"]

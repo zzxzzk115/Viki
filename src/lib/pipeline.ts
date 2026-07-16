@@ -17,6 +17,7 @@ import type { VFile } from 'vfile'
 import { rehypeBasePath } from '@/plugins/rehype-base-path'
 import { remarkCards, type RawCard } from '@/plugins/remark-cards'
 import { remarkArray, remarkDemo } from '@/plugins/remark-demo'
+import { remarkShader, type ShaderInfo } from '@/plugins/remark-shader'
 import { remarkTerms } from '@/plugins/remark-terms'
 import { remarkWikilink, type WikilinkOptions } from '@/plugins/remark-wikilink'
 import type { Glossary, TocEntry } from './schema'
@@ -105,6 +106,7 @@ export function createProcessor(options: RenderOptions) {
       .use(collectText)
       .use(remarkDemo)
       .use(remarkArray)
+      .use(remarkShader)
       .use(remarkCards)
       .use(remarkWikilink, options)
       .use(remarkRehype, { allowDangerousHtml: true })
@@ -150,6 +152,8 @@ export interface Rendered {
   unknownTerms: string[]
   demoErrors: string[]
   demoCount: number
+  shaders: ShaderInfo[]
+  shaderErrors: string[]
 }
 
 export async function render(markdown: string, options: RenderOptions): Promise<Rendered> {
@@ -167,6 +171,8 @@ export async function render(markdown: string, options: RenderOptions): Promise<
     unknownTerms: file.data.unknownTerms ?? [],
     demoErrors: file.data.demoErrors ?? [],
     demoCount: file.data.demoCount ?? 0,
+    shaders: file.data.shaders ?? [],
+    shaderErrors: file.data.shaderErrors ?? [],
   }
 }
 

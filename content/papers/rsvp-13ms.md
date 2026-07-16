@@ -2,6 +2,7 @@
 title: "Detecting meaning in RSVP at 13 ms per picture"
 authors: ["Mary C Potter", "Brad Wyble", "Carl Erick Hagmann", "Emily S McCourt"]
 venue: "Attention, Perception & Psychophysics 2014"
+venueType: journal
 year: 2014
 doi: "10.3758/s13414-013-0605-z"
 tags: ["感知驱动"]

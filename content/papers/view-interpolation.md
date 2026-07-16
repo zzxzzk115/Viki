@@ -2,6 +2,7 @@
 title: "View Interpolation for Image Synthesis"
 authors: ["Shenchang Eric Chen", "Lance Williams"]
 venue: "SIGGRAPH 1993"
+venueType: conference
 year: 1993
 doi: "10.1145/166117.166153"
 tags: ["图像变形", "光场/IBR"]

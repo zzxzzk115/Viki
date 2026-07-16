@@ -2,6 +2,7 @@
 title: "A Survey of Temporal Antialiasing Techniques"
 authors: ["Lei Yang", "Shiqiu Liu", "Marco Salvi"]
 venue: "Eurographics 2020"
+venueType: conference
 year: 2020
 doi: "10.1111/cgf.14018"
 tags: ["时域抗锯齿"]

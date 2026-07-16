@@ -2,6 +2,7 @@
 title: "Real-time polygonal-light shading with linearly transformed cosines"
 authors: ["Eric Heitz", "Jonathan Dupuy", "Stephen Hill", "David Neubelt"]
 venue: "SIGGRAPH 2016"
+venueType: conference
 year: 2016
 doi: "10.1145/2897824.2925895"
 tags: ["着色"]

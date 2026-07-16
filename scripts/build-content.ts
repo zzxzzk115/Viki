@@ -158,6 +158,8 @@ async function main() {
   const seenCardIds = new Map<string, string>()
   /** term -> slugs using it, for /glossary. */
   const termUsage = new Map<string, string[]>()
+  /** Every ::::shader across the corpus, for the /shaders gallery. */
+  const allShaders: { source: string; height: number; slug: string; title: string; href: string }[] = []
 
   for (const p of parsed) {
     const isPaper = p.subject === 'papers'
@@ -173,6 +175,10 @@ async function main() {
 
     for (const e of r.cardErrors) problems.push(`  content/${p.rel}\n    ${e}`)
     for (const e of r.demoErrors) problems.push(`  content/${p.rel}\n    ${e}`)
+    for (const e of r.shaderErrors) problems.push(`  content/${p.rel}\n    ${e}`)
+    for (const sh of r.shaders) {
+      allShaders.push({ ...sh, slug: p.slug, title: meta.title, href: isPaper ? `/${p.slug}/` : `/notes/${p.slug}/` })
+    }
     for (const t of r.unknownTerms) {
       // Fatal, unlike a broken wiki-link: the vocabulary is closed, so this is
       // a typo with nothing sensible to render, not link rot to live with.
@@ -303,6 +309,7 @@ async function main() {
   await writeFile(join(GENERATED, 'subjects.json'), JSON.stringify(subjects))
   await writeFile(join(GENERATED, 'backlinks.json'), JSON.stringify(backlinks))
   await writeFile(join(GENERATED, 'terms.json'), JSON.stringify(terms))
+  await writeFile(join(GENERATED, 'shaders.json'), JSON.stringify(allShaders))
 
   // Search index. Built here so the client never sees the corpus — it fetches
   // the prebuilt index only when the search UI opens.

@@ -2,6 +2,7 @@
 title: "Accelerated Stereo Rendering with Hybrid Reprojection-Based Rasterization and Adaptive Ray-Tracing"
 authors: ["Niko Wißmann", "Martin Mišiak", "Arnulph Fuhrmann", "Marc Erich Latoschik"]
 venue: "IEEE VR 2020"
+venueType: conference
 year: 2020
 doi: "10.1109/VR46266.2020.00107"
 tags: ["重投影", "立体渲染"]

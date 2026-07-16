@@ -23,10 +23,27 @@ export const NoteMeta = z.object({
 export type NoteMeta = z.infer<typeof NoteMeta>
 
 /** Frontmatter of content/papers/*.md. */
+export const VENUE_TYPES = ['journal', 'conference', 'preprint', 'report', 'talk', 'book', 'course'] as const
+export const VenueType = z.enum(VENUE_TYPES)
+export type VenueType = z.infer<typeof VenueType>
+
+export const VENUE_TYPE_LABEL: Record<VenueType, string> = {
+  journal: '期刊',
+  conference: '会议',
+  preprint: '预印本',
+  report: '报告',
+  talk: '演讲',
+  book: '书',
+  course: '课程',
+}
+
 export const PaperMeta = z.object({
   title: z.string().min(1),
   authors: z.array(z.string()).default([]),
   venue: z.string(),
+  /** What kind of publication `venue` is — the venue string alone mixes
+   *  journals, conferences, GDC talks and arXiv preprints indistinguishably. */
+  venueType: VenueType.optional(),
   year: z.number().int().min(1970).max(2100),
   arxiv: z.string().optional(),
   doi: z.string().optional(),

@@ -1,0 +1,65 @@
+---
+title: 渲染管线高频面试题
+level: intermediate
+tags: [面试, 渲染, 图形学, 八股文]
+summary: 图形/引擎岗位绕不开的管线题：阶段划分、深度测试时机、Early-Z 失效条件。
+created: 2026-07-17
+---
+
+图形岗面试的管线题往往从「说一下渲染管线」开始，然后往你答案里最薄的一层追问。这篇按追问链组织。
+
+## 管线阶段
+
+应用阶段（CPU：剔除、排序、提交 draw call）→ 顶点着色 → 图元装配 → 光栅化 → 片元着色 → 逐片元操作（模板/深度测试、混合）。
+
+面试关注点不在背全，而在**每个阶段是否可编程、瓶颈在哪**：顶点/片元可编程，光栅化和逐片元操作是固定功能；瓶颈定位（CPU bound / vertex bound / fill bound）决定优化方向。
+
+::::card{id=pipeline-stages}
+渲染管线里哪些阶段可编程、哪些是固定功能？为什么光栅化不做成可编程的？
+
+:::answer
+可编程：顶点着色、（曲面细分/几何）、片元着色，以及现代 API 的 mesh/task shader。
+固定功能：图元装配、**光栅化**、逐片元操作（深度/模板测试、混合）。
+
+光栅化固定是因为它是管线里吞吐要求最苛刻的一步（每三角形展开成海量片元），专用硬件（层级化光栅器、边函数求值单元）比可编程单元快一个量级以上；而它的行为（重心插值、覆盖判定）在所有应用间几乎不变，可编程化收益低。混合长期固定的原因类似——它需要读写同一像素，可编程化牵扯帧缓冲的读后写序（部分移动 GPU 以 framebuffer fetch 扩展形式放开了）。
+:::
+::::
+
+## Early-Z
+
+深度测试逻辑上在片元着色**之后**，但硬件会尽量提前到之前做（Early-Z），被挡住的片元直接不进片元着色器——这是不透明物体**从前往后**排序的收益来源。
+
+::::card{id=early-z-break}
+哪些操作会让 Early-Z 失效？为什么？
+
+:::answer
+片元着色器里凡是让「深度/覆盖在着色前不可知」的操作都会迫使硬件退回 Late-Z：
+
+1. **写 gl_FragDepth**——深度不再来自光栅化插值，测试只能等着色算完
+2. **discard / alpha test**——片元可能被丢弃，提前写深度会把被丢弃片元的深度错误地留在 buffer 里
+3. **开启 alpha blending 本身不禁 Early-Z 测试**，但透明物体本来就要从后往前画、常关深度写
+4. 带副作用的写入（UAV/SSBO 写）在部分硬件上也会禁
+
+所以「alpha test 的植被很贵」不只是 overdraw——它把整棵渲染顺序优化（Early-Z + Hi-Z）都打折了。常见对策：两遍法（先 opaque 部分 prepass）。
+:::
+::::
+
+## Draw Call 为什么贵？
+
+贵在 CPU 侧：每次提交要做状态校验、资源绑定、驱动层转换（旧 API 尤甚）。GPU 本身画一个小 batch 很快。所以优化手段全是围绕「减少提交次数/摊薄单次成本」：合批、实例化、间接绘制、bindless，以及新 API（Vulkan/DX12）把校验成本移到录制期。
+
+::::card{id=draw-call-cost}
+Draw call 的开销主要在 CPU 还是 GPU？列三个降低它的手段并说明原理。
+
+:::answer
+主要在 **CPU**（驱动校验、状态切换、内核提交），GPU 执行小 batch 本身很快。
+
+- **合批（batching）**：把同材质的多个物体合成一次提交——减少提交次数
+- **实例化（instancing）**：同网格多实例一次 draw，逐实例数据走 instance buffer——n 个物体 1 次调用
+- **GPU-driven / 间接绘制（indirect draw）**：绘制参数由 GPU 算好放 buffer，CPU 只提交一次 multi-draw——剔除也搬到 GPU，CPU 成本与物体数解耦
+
+（答到 bindless、新 API 录制 command buffer 摊薄校验，是加分项。）
+:::
+::::
+
+基础理论见 [[cs/rendering/brdf]] 与 [[physics/optics/radiometry]]；C++ 侧的高频题见 [[interview/cpp/virtual-functions]]。

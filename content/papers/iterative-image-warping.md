@@ -2,6 +2,7 @@
 title: "Iterative Image Warping"
 authors: ["Harry Bowles", "Kenny Mitchell", "Robert W. Sumner", "Jonathan Moore", "Markus Gross"]
 venue: "Eurographics 2012"
+venueType: conference
 year: 2012
 doi: "10.1111/j.1467-8659.2012.03002.x"
 tags: ["图像变形", "重投影"]

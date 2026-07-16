@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useMemo, useState } from 'react'
-import type { Paper } from '@/lib/schema'
+import { VENUE_TYPE_LABEL, type Paper } from '@/lib/schema'
 
 type Entry = Omit<Paper, 'html' | 'text' | 'cards' | 'toc'>
 type SortKey = 'year' | 'title' | 'venue' | 'rating'
@@ -76,7 +76,7 @@ export function PapersTable({ papers }: { papers: Entry[] }) {
             </Chip>
           ))}
         </Row>
-        <Row label="会议">
+        <Row label="发表">
           <Chip active={venue === null} onClick={() => setVenue(null)}>
             全部
           </Chip>
@@ -109,7 +109,7 @@ export function PapersTable({ papers }: { papers: Entry[] }) {
                 标题
               </Th>
               <Th onClick={() => toggleSort('venue')} active={sort === 'venue'} asc={asc}>
-                会议
+                发表于
               </Th>
               <Th onClick={() => toggleSort('year')} active={sort === 'year'} asc={asc}>
                 年份
@@ -140,6 +140,11 @@ export function PapersTable({ papers }: { papers: Entry[] }) {
                 </td>
                 <td className="py-3 pr-4 whitespace-nowrap text-neutral-600 dark:text-neutral-400">
                   {venueSeries(p.meta.venue)}
+                  {p.meta.venueType && (
+                    <span className="ml-1.5 rounded bg-neutral-100 px-1 py-0.5 text-[0.65rem] text-neutral-500 dark:bg-neutral-800 dark:text-neutral-400">
+                      {VENUE_TYPE_LABEL[p.meta.venueType]}
+                    </span>
+                  )}
                 </td>
                 <td className="py-3 pr-4 tabular-nums text-neutral-600 dark:text-neutral-400">
                   {p.meta.year}
