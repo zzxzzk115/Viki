@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { SearchDialog } from '@/components/search-dialog'
+import { TermPopover } from '@/components/term-popover'
 // Root layout, not per-page: on client navigation a per-page import would let
 // equations flash unstyled before the sheet lands.
 import 'katex/dist/katex.min.css'
@@ -47,6 +48,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </header>
 
         <div className="flex-1">{children}</div>
+
+        <TermPopover />
 
         <footer className="border-t border-neutral-200 py-8 text-center text-xs text-neutral-400 dark:border-neutral-800">
           <a

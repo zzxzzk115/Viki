@@ -347,6 +347,7 @@ async function main() {
       slug: p.slug,
       href: p.href,
       title: p.meta.title,
+      authors: p.meta.authors.slice(0, 4),
       year: p.meta.year,
       venue: p.meta.venue,
       tags: p.meta.tags,

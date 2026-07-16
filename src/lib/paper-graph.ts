@@ -7,6 +7,7 @@ export interface GraphNode {
   slug: string // 'papers/<name>'
   href: string
   title: string
+  authors: string[]
   year: number
   venue: string
   tags: string[]

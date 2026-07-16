@@ -139,7 +139,7 @@ def counting_sort_by_digit(arr, exp):
 ```
 
 ::::card{id=radix-reverse-loop}
-计数排序里那个 `for i in range(n-1, -1, -1)` 为什么必须**倒序**遍历？
+基数排序每一位用的**计数排序**子过程里，那个 `for i in range(n-1, -1, -1)` 为什么必须**倒序**遍历？
 
 :::answer
 因为 `count[d]` 经过前缀和后表示「数字 $d$ 的元素在输出中的**结束**位置」。

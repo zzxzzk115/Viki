@@ -2,19 +2,19 @@
 
 import { drag } from 'd3-drag'
 import {
-  forceCenter,
   forceCollide,
   forceLink,
   forceManyBody,
-  forceSimulation,
   forceX,
   forceY,
+  forceSimulation,
   type Simulation,
   type SimulationLinkDatum,
   type SimulationNodeDatum,
 } from 'd3-force'
 import { select } from 'd3-selection'
 import { zoom, zoomIdentity, type D3ZoomEvent } from 'd3-zoom'
+import Link from 'next/link'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { withBase } from '@/lib/base-path'
 import { NO_TAG_COLOR, TAG_COLORS, nodeColor, type GraphData, type GraphNode } from '@/lib/paper-graph'
@@ -22,24 +22,39 @@ import { NO_TAG_COLOR, TAG_COLORS, nodeColor, type GraphData, type GraphNode } f
 type SimNode = GraphNode & SimulationNodeDatum
 type SimLink = SimulationLinkDatum<SimNode>
 
-const HEIGHT = 620
+const HEIGHT = 600
+const PAD = { left: 56, right: 40, top: 30, bottom: 48 }
+
+/** Hovered (desktop) or tapped (mobile) node + its on-screen rect for the card. */
+interface Focus {
+  node: GraphNode
+  rect: { left: number; right: number; top: number; bottom: number }
+  /** true = tapped (card is sticky until closed); false = hover (follows). */
+  sticky: boolean
+}
 
 /**
- * Force-directed citation graph.
+ * Citation graph, timeline-style (à la Litmaps).
  *
- * "React owns the container, D3 owns the SVG contents": React renders the <svg>
- * shell and the tag filter; the simulation, zoom, drag and per-tick position
- * updates all happen in a D3-managed effect, so a 300-tick layout never triggers
- * a React re-render.
+ * The x axis is publication year, so every citation edge points left (a paper
+ * cites older work) and the arrows read consistently instead of tangling. Titles
+ * are not drawn — with 36 overlapping nodes they were unreadable — the title and
+ * details appear in a card on hover (desktop) or tap (mobile), which also solves
+ * the no-hover problem on touch. Edges sit faint until a node is focused, then
+ * that node's citation network lights up.
  *
- * graph.json is fetched, never imported — Next inlines imported JSON into the
- * bundle, which would grow with the library.
+ * "React owns the container, D3 owns the SVG": the simulation, zoom, drag and
+ * per-tick updates run in a D3 effect so a full layout never re-renders React.
+ * graph.json is fetched, never imported (Next would inline it into the bundle).
  */
 export function PaperGraph() {
   const svgRef = useRef<SVGSVGElement>(null)
   const [data, setData] = useState<GraphData | null>(null)
   const [state, setState] = useState<'loading' | 'ready' | 'error'>('loading')
   const [active, setActive] = useState<Set<string>>(new Set()) // empty = all tags
+  const [focus, setFocus] = useState<Focus | null>(null)
+  // Lets the card's close button clear the D3-managed highlight.
+  const highlightRef = useRef<(slug: string | null) => void>(() => {})
 
   useEffect(() => {
     let alive = true
@@ -60,20 +75,17 @@ export function PaperGraph() {
     if (!data) return []
     const counts = new Map<string, number>()
     for (const n of data.nodes) for (const t of n.tags) counts.set(t, (counts.get(t) ?? 0) + 1)
-    return [...counts.entries()]
-      .sort((a, b) => b[1] - a[1])
-      .map(([t]) => t)
+    return [...counts.entries()].sort((a, b) => b[1] - a[1]).map(([t]) => t)
   }, [data])
 
   useEffect(() => {
     const svg = svgRef.current
     if (!data || !svg) return
 
-    const width = svg.clientWidth || 800
+    const width = svg.clientWidth || 900
     const height = HEIGHT
+    setFocus(null)
 
-    // Visible subset: a node passes if any of its tags is active (or nothing is
-    // filtered); an edge only when both endpoints are visible.
     const visibleNodes: SimNode[] = data.nodes
       .filter((n) => active.size === 0 || n.tags.some((t) => active.has(t)))
       .map((n) => ({ ...n }))
@@ -82,125 +94,159 @@ export function PaperGraph() {
       .filter((e) => shown.has(e.source) && shown.has(e.target))
       .map((e) => ({ source: e.source, target: e.target }))
 
-    // Cluster anchors: each tag gets a point on a circle, nodes are pulled toward
-    // their first tag's anchor so topics form clumps even where citations are sparse.
-    const clusterTags = [...new Set(visibleNodes.flatMap((n) => n.tags))]
-    const anchor = new Map(
-      clusterTags.map((t, i) => {
-        const a = (i / clusterTags.length) * 2 * Math.PI
-        return [t, { x: width / 2 + Math.cos(a) * width * 0.28, y: height / 2 + Math.sin(a) * height * 0.32 }]
-      }),
-    )
-    const anchorOf = (n: SimNode) => anchor.get(n.tags[0]) ?? { x: width / 2, y: height / 2 }
-    // Seed near the anchor so the layout converges fast and without a big jump.
+    // Year → x. Older left, newer right, so every edge points left.
+    const years = visibleNodes.map((n) => n.year)
+    const minY = Math.min(...years)
+    const maxY = Math.max(...years)
+    const span = Math.max(1, maxY - minY)
+    const xForYear = (y: number) => PAD.left + ((y - minY) / span) * (width - PAD.left - PAD.right)
+    const midY = (height - PAD.bottom + PAD.top) / 2
+
+    const radius = (n: SimNode) => Math.min(26, 5 + Math.sqrt(n.citedBy) * 0.38)
+
     for (const n of visibleNodes) {
-      const a = anchorOf(n)
-      n.x = a.x + (Math.random() - 0.5) * 60
-      n.y = a.y + (Math.random() - 0.5) * 60
+      n.x = xForYear(n.year)
+      n.y = midY + (Math.random() - 0.5) * (height - PAD.top - PAD.bottom) * 0.7
     }
 
-    const radius = (n: SimNode) => Math.min(28, 5 + Math.sqrt(n.citedBy) * 0.4)
-
     const sim: Simulation<SimNode, SimLink> = forceSimulation(visibleNodes)
-      .force('link', forceLink<SimNode, SimLink>(visibleLinks).id((d) => d.slug).distance(70).strength(0.4))
-      .force('charge', forceManyBody().strength(-260))
-      .force('center', forceCenter(width / 2, height / 2).strength(0.05))
-      .force('x', forceX<SimNode>((d) => anchorOf(d).x).strength(0.09))
-      .force('y', forceY<SimNode>((d) => anchorOf(d).y).strength(0.09))
-      .force('collide', forceCollide<SimNode>((d) => radius(d) + 4))
+      // x pinned hard to the year; y spreads to avoid overlap.
+      .force('x', forceX<SimNode>((d) => xForYear(d.year)).strength(0.9))
+      .force('y', forceY<SimNode>(midY).strength(0.04))
+      .force('charge', forceManyBody().strength(-90))
+      .force('collide', forceCollide<SimNode>((d) => radius(d) + 3))
+      .force('link', forceLink<SimNode, SimLink>(visibleLinks).id((d) => d.slug).distance(40).strength(0.03))
 
-    // --- render ---
     const root = select(svg)
     root.selectAll('*').remove()
 
     root
       .append('defs')
       .append('marker')
-      .attr('id', 'arrow')
+      .attr('id', 'pg-arrow')
       .attr('viewBox', '0 -5 10 10')
-      .attr('refX', 20)
+      .attr('refX', 9)
       .attr('refY', 0)
-      .attr('markerWidth', 5)
-      .attr('markerHeight', 5)
-      .attr('orient', 'auto')
+      .attr('markerWidth', 6)
+      .attr('markerHeight', 6)
+      .attr('orient', 'auto-start-reverse')
       .append('path')
-      .attr('d', 'M0,-4L8,0L0,4')
-      .attr('fill', 'currentColor')
-      .attr('class', 'text-neutral-400')
+      .attr('d', 'M0,-4L9,0L0,4')
+      .attr('fill', 'context-stroke')
 
     const layer = root.append('g')
 
+    // Year axis.
+    const axis = layer.append('g').attr('class', 'axis')
+    const step = span <= 12 ? 2 : 5
+    const firstTick = Math.ceil(minY / step) * step
+    for (let y = firstTick; y <= maxY; y += step) {
+      const x = xForYear(y)
+      axis
+        .append('line')
+        .attr('x1', x)
+        .attr('x2', x)
+        .attr('y1', PAD.top)
+        .attr('y2', height - PAD.bottom + 10)
+        .attr('stroke', 'currentColor')
+        .attr('class', 'text-neutral-200 dark:text-neutral-800')
+        .attr('stroke-width', 1)
+      axis
+        .append('text')
+        .attr('x', x)
+        .attr('y', height - PAD.bottom + 26)
+        .attr('text-anchor', 'middle')
+        .attr('font-size', 11)
+        .attr('fill', 'currentColor')
+        .attr('class', 'text-neutral-400')
+        .text(y)
+    }
+
     const link = layer
       .append('g')
-      .attr('class', 'edges text-neutral-300 dark:text-neutral-700')
-      .attr('stroke', 'currentColor')
-      .attr('stroke-width', 1)
+      .attr('fill', 'none')
       .selectAll('line')
       .data(visibleLinks)
       .join('line')
-      .attr('marker-end', 'url(#arrow)')
+      .attr('stroke', 'currentColor')
+      .attr('class', 'text-neutral-400 dark:text-neutral-600')
+      .attr('stroke-width', 1)
+      .attr('opacity', 0.12)
+      .attr('marker-end', 'url(#pg-arrow)')
 
     const node = layer
       .append('g')
-      .attr('class', 'nodes')
-      .selectAll<SVGGElement, SimNode>('g')
+      .selectAll<SVGCircleElement, SimNode>('circle')
       .data(visibleNodes)
-      .join('g')
+      .join('circle')
       .attr('class', 'node')
-      .attr('cursor', 'pointer')
-
-    node
-      .append('circle')
       .attr('r', radius)
       .attr('fill', (d) => nodeColor(d.tags))
       .attr('stroke', 'white')
       .attr('stroke-width', 1.5)
+      .attr('cursor', 'pointer')
 
-    node
-      .append('text')
-      .text((d) => shortTitle(d.title))
-      .attr('x', (d) => radius(d) + 3)
-      .attr('y', 4)
-      .attr('font-size', 10)
-      .attr('fill', 'currentColor')
-      .attr('class', 'text-neutral-600 dark:text-neutral-300')
-      .attr('pointer-events', 'none')
-
-    // Neighbour highlight on hover.
-    const neighbours = new Map<string, Set<string>>()
+    // Neighbours for highlight.
+    const nbr = new Map<string, Set<string>>()
     for (const e of visibleLinks) {
       const s = typeof e.source === 'string' ? e.source : (e.source as SimNode).slug
       const t = typeof e.target === 'string' ? e.target : (e.target as SimNode).slug
-      ;(neighbours.get(s) ?? neighbours.set(s, new Set()).get(s)!).add(t)
-      ;(neighbours.get(t) ?? neighbours.set(t, new Set()).get(t)!).add(s)
+      ;(nbr.get(s) ?? nbr.set(s, new Set()).get(s)!).add(t)
+      ;(nbr.get(t) ?? nbr.set(t, new Set()).get(t)!).add(s)
     }
+    const highlight = (slug: string | null) => {
+      if (!slug) {
+        node.attr('opacity', 1)
+        link.attr('opacity', 0.12).attr('stroke-width', 1)
+        return
+      }
+      const keep = nbr.get(slug) ?? new Set()
+      node.attr('opacity', (n) => (n.slug === slug || keep.has(n.slug) ? 1 : 0.12))
+      link
+        .attr('opacity', (l) => (linkEnd(l, 'source') === slug || linkEnd(l, 'target') === slug ? 0.9 : 0.02))
+        .attr('stroke-width', (l) => (linkEnd(l, 'source') === slug || linkEnd(l, 'target') === slug ? 1.6 : 1))
+    }
+    highlightRef.current = highlight
+
+    const focusOf = (el: SVGCircleElement, d: SimNode, sticky: boolean): Focus => {
+      const r = el.getBoundingClientRect()
+      return { node: d, rect: { left: r.left, right: r.right, top: r.top, bottom: r.bottom }, sticky }
+    }
+
     node
-      .on('mouseenter', (_e, d) => {
-        const keep = neighbours.get(d.slug) ?? new Set()
-        node.attr('opacity', (n) => (n.slug === d.slug || keep.has(n.slug) ? 1 : 0.15))
-        link.attr('opacity', (l) => (endpoint(l, 'source') === d.slug || endpoint(l, 'target') === d.slug ? 1 : 0.05))
+      .on('mouseenter', function (_e, d) {
+        highlight(d.slug)
+        setFocus((f) => (f?.sticky ? f : focusOf(this, d, false)))
       })
       .on('mouseleave', () => {
-        node.attr('opacity', 1)
-        link.attr('opacity', 1)
+        setFocus((f) => {
+          if (f?.sticky) return f
+          highlight(null)
+          return null
+        })
       })
 
-    // Click vs drag: only navigate if the pointer barely moved.
+    // Tap vs drag; touch shows a sticky card, mouse navigates.
     let downXY: [number, number] | null = null
     node
       .on('pointerdown', (e: PointerEvent) => {
         downXY = [e.clientX, e.clientY]
       })
-      .on('pointerup', (e: PointerEvent, d) => {
+      .on('pointerup', function (e: PointerEvent, d) {
         if (!downXY) return
         const moved = Math.hypot(e.clientX - downXY[0], e.clientY - downXY[1])
         downXY = null
-        if (moved < 5) location.href = withBase(d.href)
+        if (moved >= 5) return
+        if (e.pointerType === 'touch') {
+          highlight(d.slug)
+          setFocus(focusOf(this, d, true))
+        } else {
+          location.href = withBase(d.href)
+        }
       })
 
-    // Drag nodes.
     node.call(
-      drag<SVGGElement, SimNode>()
+      drag<SVGCircleElement, SimNode>()
         .on('start', (e, d) => {
           if (!e.active) sim.alphaTarget(0.2).restart()
           d.fx = d.x
@@ -217,10 +263,13 @@ export function PaperGraph() {
         }),
     )
 
-    // Zoom / pan.
     const zoomer = zoom<SVGSVGElement, unknown>()
-      .scaleExtent([0.2, 4])
-      .on('zoom', (e: D3ZoomEvent<SVGSVGElement, unknown>) => layer.attr('transform', e.transform.toString()))
+      .scaleExtent([0.3, 5])
+      .on('zoom', (e: D3ZoomEvent<SVGSVGElement, unknown>) => {
+        layer.attr('transform', e.transform.toString())
+        // A card pinned to old screen coords would drift; drop it on zoom/pan.
+        setFocus((f) => (f?.sticky ? f : null))
+      })
     root.call(zoomer)
     root.call(zoomer.transform, zoomIdentity)
 
@@ -228,9 +277,11 @@ export function PaperGraph() {
       link
         .attr('x1', (l) => (l.source as SimNode).x!)
         .attr('y1', (l) => (l.source as SimNode).y!)
-        .attr('x2', (l) => (l.target as SimNode).x!)
-        .attr('y2', (l) => (l.target as SimNode).y!)
-      node.attr('transform', (d) => `translate(${d.x},${d.y})`)
+        // Stop the line at the target circle's edge so the arrow is visible, not
+        // buried under the node.
+        .attr('x2', (l) => edgePoint(l, radius).x)
+        .attr('y2', (l) => edgePoint(l, radius).y)
+      node.attr('cx', (d) => d.x!).attr('cy', (d) => d.y!)
     })
 
     return () => {
@@ -247,6 +298,11 @@ export function PaperGraph() {
       else next.add(t)
       return next
     })
+
+  const closeCard = () => {
+    highlightRef.current(null)
+    setFocus(null)
+  }
 
   return (
     <>
@@ -281,11 +337,11 @@ export function PaperGraph() {
       </div>
 
       <p className="mt-2 text-xs text-neutral-400">
-        节点=论文（大小 = 全球被引数），箭头=引用（A→B 表示 A 引用了 B），颜色=主题。
-        点开关筛主题、滚轮缩放、拖动平移、点节点进详情。
+        横轴 = 发表年份，箭头 A→B 表示 A 引用了 B（指向更早的工作）。大小 = 全球被引数，颜色 = 主题。
+        悬停（触屏点击）看论文详情、点节点进详情页；滚轮/双指缩放，拖动平移。
       </p>
 
-      <div className="mt-4 overflow-hidden rounded-xl border border-neutral-200 dark:border-neutral-800">
+      <div className="relative mt-4 overflow-hidden rounded-xl border border-neutral-200 dark:border-neutral-800">
         {state === 'error' ? (
           <p className="p-10 text-center text-sm text-red-600 dark:text-red-400">引用图加载失败。</p>
         ) : (
@@ -293,23 +349,87 @@ export function PaperGraph() {
             ref={svgRef}
             width="100%"
             height={HEIGHT}
+            style={{ touchAction: 'none' }}
             className={state === 'loading' ? 'animate-pulse bg-neutral-50 dark:bg-neutral-900' : ''}
             role="img"
             aria-label="论文引用关系图"
           />
         )}
       </div>
+
+      {focus && <PaperCard focus={focus} onClose={closeCard} />}
     </>
   )
 }
 
-function endpoint(l: SimLink, which: 'source' | 'target'): string {
+/** Hover/tap card, fixed to the node's on-screen position. */
+function PaperCard({ focus, onClose }: { focus: Focus; onClose: () => void }) {
+  const { node, rect } = focus
+  const W = 300
+  const left = Math.min(rect.right + 10, window.innerWidth - W - 8)
+  const clampedLeft = Math.max(8, left)
+  const top = Math.min(rect.top, window.innerHeight - 180)
+
+  return (
+    <div
+      role="tooltip"
+      onPointerDown={(e) => e.stopPropagation()}
+      style={{ left: clampedLeft, top: Math.max(8, top), width: W }}
+      className="fixed z-50 rounded-xl border border-neutral-200 bg-white p-4 shadow-xl dark:border-neutral-700 dark:bg-neutral-900"
+    >
+      {focus.sticky && (
+        <button
+          type="button"
+          onClick={onClose}
+          aria-label="关闭"
+          className="absolute right-2 top-2 text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-200"
+        >
+          ✕
+        </button>
+      )}
+      <p className="pr-4 text-sm font-medium leading-snug">{node.title}</p>
+      {node.authors.length > 0 && (
+        <p className="mt-1 text-xs text-neutral-500">
+          {node.authors.slice(0, 3).join(', ')}
+          {node.authors.length > 3 ? ' 等' : ''}
+        </p>
+      )}
+      <p className="mt-1.5 text-xs text-neutral-400">
+        {node.venue} · 被引 {node.citedBy}
+      </p>
+      <div className="mt-2 flex flex-wrap gap-1">
+        {node.tags.map((t) => (
+          <span
+            key={t}
+            className="rounded px-1.5 py-0.5 text-[0.65rem] text-white"
+            style={{ backgroundColor: TAG_COLORS[t] ?? NO_TAG_COLOR }}
+          >
+            {t}
+          </span>
+        ))}
+      </div>
+      <Link
+        href={node.href}
+        className="mt-3 inline-block text-xs font-medium text-sky-600 hover:underline dark:text-sky-400"
+      >
+        打开论文 →
+      </Link>
+    </div>
+  )
+}
+
+function linkEnd(l: SimLink, which: 'source' | 'target'): string {
   const v = l[which]
   return typeof v === 'string' ? v : (v as SimNode).slug
 }
 
-/** First clause of the title, capped, for an in-graph label. */
-function shortTitle(title: string): string {
-  const head = title.split(/[:：]/)[0]
-  return head.length > 22 ? head.slice(0, 21) + '…' : head
+/** Point on the target circle's edge, so the arrowhead sits outside the node. */
+function edgePoint(l: SimLink, radius: (n: SimNode) => number): { x: number; y: number } {
+  const s = l.source as SimNode
+  const t = l.target as SimNode
+  const dx = (t.x ?? 0) - (s.x ?? 0)
+  const dy = (t.y ?? 0) - (s.y ?? 0)
+  const dist = Math.hypot(dx, dy) || 1
+  const r = radius(t) + 5
+  return { x: (t.x ?? 0) - (dx / dist) * r, y: (t.y ?? 0) - (dy / dist) * r }
 }
