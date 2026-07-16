@@ -9,8 +9,9 @@
   "scripts": {
     "content": "tsx scripts/build-content.ts",
     "content:watch": "tsx watch scripts/build-content.ts",
+    "links": "tsx scripts/check-links.ts",
     "dev": "pnpm content && next dev",
-    "build": "pnpm content && next build",
+    "build": "pnpm content && next build && pnpm links",
     "start": "next start",
     "check": "tsc --noEmit",
     "test": "node --import tsx --test \"src/**/*.test.ts\""
