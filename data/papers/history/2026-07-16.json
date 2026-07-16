@@ -30,7 +30,7 @@
       ],
       "score": 52,
       "comment": "",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2605.27939",
@@ -60,7 +60,7 @@
       ],
       "score": 49,
       "comment": "20 pages, 12 figures. Accepted to the 47th IEEE Symposium on Security and Privacy (IEEE S&P 2026). Artifacts: https://bmdj-vt.github.io/project_pages/xr_side_channels",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2603.23491",
@@ -88,7 +88,7 @@
       ],
       "score": 41,
       "comment": "Project website at https://bchao1.github.io/foveated-diffusion",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2601.19425",
@@ -113,7 +113,7 @@
       ],
       "score": 41,
       "comment": "10 pages including references and figure only pages; 2 pages Supplementary Material",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2605.17823",
@@ -140,7 +140,7 @@
       ],
       "score": 34,
       "comment": "",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2604.09659",
@@ -167,7 +167,7 @@
       ],
       "score": 34,
       "comment": "6 pages, 3 figures, this paper is accepted by CHI'26 as Poster paper",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2606.02565",
@@ -192,7 +192,7 @@
       ],
       "score": 32,
       "comment": "Project website at https://howardxiao.ca/foveated/",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2603.18350",
@@ -218,7 +218,7 @@
       ],
       "score": 32,
       "comment": "",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2606.00122",
@@ -246,7 +246,7 @@
       ],
       "score": 31,
       "comment": "",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2602.06164",
@@ -272,7 +272,7 @@
       ],
       "score": 29,
       "comment": "",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2601.19753",
@@ -299,7 +299,7 @@
       ],
       "score": 28,
       "comment": "",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2606.03118",
@@ -328,7 +328,7 @@
       ],
       "score": 27,
       "comment": "18 pages, 6 figures. Published version: Biomed. Phys. Eng. Express 10, 025006 (2024)",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2602.10619",
@@ -360,7 +360,7 @@
       ],
       "score": 26,
       "comment": "CPAL 2026",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2607.12641",
@@ -389,7 +389,7 @@
       ],
       "score": 24,
       "comment": "7 pages, 5 figures",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2605.00401",
@@ -414,12 +414,11 @@
       ],
       "score": 24,
       "comment": "",
-      "isNew": true
+      "isNew": false
     }
   ],
   "notes": [
     "231 篇候选，其中 68 篇在最近 180 天内",
-    "68 篇符合条件，按分数取前 15 篇",
-    "其中 15 篇是首次出现"
+    "68 篇符合条件，按分数取前 15 篇"
   ]
 }
