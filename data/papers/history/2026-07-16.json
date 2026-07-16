@@ -385,33 +385,6 @@
       "kind": "classic"
     },
     {
-      "id": "1703.01515",
-      "source": "arxiv",
-      "title": "CDC: Convolutional-De-Convolutional Networks for Precise Temporal Action Localization in Untrimmed Videos",
-      "authors": [
-        "Zheng Shou",
-        "Jonathan Chan",
-        "Alireza Zareian",
-        "Kazuyuki Miyazawa",
-        "Shih-Fu Chang"
-      ],
-      "abstract": "Temporal action localization is an important yet challenging problem. Given a long, untrimmed video consisting of multiple action instances and complex background contents, we need not only to recognize their action categories, but also to localize the start time and end time of each instance. Many state-of-the-art systems use segment-level classifiers to select and rank proposal segments of pre-determined boundaries. However, a desirable model should move beyond segment-level and make dense predictions at a fine granularity in time to determine precise temporal boundaries. To this end, we design a novel Convolutional-De-Convolutional (CDC) network that places CDC filters on top of 3D ConvNets, which have been shown to be effective for abstracting action semantics but reduce the temporal length of the input data. The proposed CDC filter performs the required temporal upsampling and spatial downsampling operations simultaneously to predict actions at the frame-level granularity. It is unique in jointly modeling action semantics in space-time and fine-grained temporal dynamics. We train the CDC network in an end-to-end manner efficiently. Our model not only achieves superior performance in detecting actions in every frame, but also significantly boosts the precision of localizing temporal boundaries. Finally, the CDC network demonstrates a very high efficiency with the ability to process 500 frames per second on a single GPU server. We will update the camera-ready version and publish the source codes online soon.",
-      "published": "2017-03-04",
-      "url": "https://arxiv.org/abs/1703.01515",
-      "pdf": "https://arxiv.org/pdf/1703.01515",
-      "categories": [
-        "cs.CV"
-      ],
-      "matched": [
-        "temporal upsampling"
-      ],
-      "score": 19,
-      "comment": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017",
-      "isNew": false,
-      "citedBy": 62,
-      "kind": "classic"
-    },
-    {
       "id": "2011.10185",
       "source": "arxiv",
       "title": "ConvTransformer: A Convolutional Transformer Network for Video Frame Synthesis",
@@ -440,9 +413,34 @@
       "isNew": false,
       "citedBy": 60,
       "kind": "classic"
+    },
+    {
+      "id": "1705.00816",
+      "source": "arxiv",
+      "title": "Central and peripheral vision for scene recognition: A neurocomputational modeling exploration",
+      "authors": [
+        "Panqu Wang",
+        "Garrison W. Cottrell"
+      ],
+      "abstract": "What are the roles of central and peripheral vision in human scene recognition? Larson and Loschky (2009) showed that peripheral vision contributes more than central vision in obtaining maximum scene recognition accuracy. However, central vision is more efficient for scene recognition than peripheral, based on the amount of visual area needed for accurate recognition. In this study, we model and explain the results of Larson and Loschky (2009) using a neurocomputational modeling approach. We show that the advantage of peripheral vision in scene recognition, as well as the efficiency advantage for central vision, can be replicated using state-of-the-art deep neural network models. In addition, we propose and provide support for the hypothesis that the peripheral advantage comes from the inherent usefulness of peripheral features. This result is consistent with data presented by Thibaut, Tran, Szaffarczyk, and Boucart (2014), who showed that patients with central vision loss can still categorize natural scenes efficiently. Furthermore, by using a deep mixture-of-experts model (\"The Deep Model,\" or TDM) that receives central and peripheral visual information on separate channels simultaneously, we show that the peripheral advantage emerges naturally in the learning process: When trained to categorize scenes, the model weights the peripheral pathway more than the central pathway. As we have seen in our previous modeling work, learning creates a transform that spreads different scene categories into different regions in representational space. Finally, we visualize the features for the two pathways, and find that different preferences for scene categories emerge for the two pathways during the training process.",
+      "published": "2017-05-02",
+      "url": "https://arxiv.org/abs/1705.00816",
+      "pdf": "https://arxiv.org/pdf/1705.00816",
+      "categories": [
+        "q-bio.NC"
+      ],
+      "matched": [
+        "peripheral vision"
+      ],
+      "score": 21,
+      "comment": "http://jov.arvojournals.org/Article.aspx?articleid=2623232",
+      "isNew": true,
+      "citedBy": 42,
+      "kind": "classic"
     }
   ],
   "notes": [
-    "384 篇候选：近期相关 118 篇取 12，经典（>30 被引）5 篇混入 3"
+    "384 篇候选：近期相关 118 篇取 12，经典（>30 被引）4 篇混入 3",
+    "其中 1 篇是首次出现"
   ]
 }
