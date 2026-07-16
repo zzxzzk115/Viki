@@ -91,6 +91,28 @@ pre[data-theme] {
   }
 }
 
+/* Glossary terms: the dotted underline marks that a definition is on hover,
+   without competing with real links for attention. */
+.prose .term {
+  border-bottom: 1px dotted var(--color-neutral-400);
+  cursor: help;
+}
+
+.prose .term-en {
+  font-style: normal;
+  font-size: 0.85em;
+  color: var(--color-neutral-500);
+}
+
+@media (prefers-color-scheme: dark) {
+  .prose .term {
+    border-bottom-color: var(--color-neutral-600);
+  }
+  .prose .term-en {
+    color: var(--color-neutral-400);
+  }
+}
+
 /* An unresolved [[wiki-link]] renders visibly rather than failing the build —
    link rot should be noticeable, not fatal. */
 .prose .wikilink-broken {

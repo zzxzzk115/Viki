@@ -20,6 +20,7 @@ const NAV = [
   { href: '/notes/', label: '笔记' },
   { href: '/cards/', label: '复习' },
   { href: '/papers/', label: '论文' },
+  { href: '/glossary/', label: '术语' },
 ]
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

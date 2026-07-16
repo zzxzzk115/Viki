@@ -9,7 +9,7 @@
 import 'server-only'
 import { readFile } from 'node:fs/promises'
 import { join } from 'node:path'
-import type { Note, NoteIndexEntry, Paper, Subject } from './schema'
+import type { Note, NoteIndexEntry, Paper, Subject, Term } from './schema'
 import { hashSlug } from './slug'
 
 const GENERATED = join(process.cwd(), '.generated')
@@ -43,6 +43,11 @@ export async function getSubjects(): Promise<Record<string, Subject>> {
 /** slug -> slugs of notes linking to it. Inverted from each note's `links`. */
 export async function getBacklinks(): Promise<Record<string, string[]>> {
   return readJson('backlinks.json')
+}
+
+/** Glossary terms actually used by some document, sorted by the Chinese term. */
+export async function getTerms(): Promise<Term[]> {
+  return readJson('terms.json')
 }
 
 /** Display name for a subject dir, falling back to the dir name itself. */

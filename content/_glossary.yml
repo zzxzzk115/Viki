@@ -1,0 +1,205 @@
+# 术语表 —— 中文术语到英文的唯一映射。
+#
+# 笔记里写 :term[辐射亮度]，构建时查这张表渲染成「辐射亮度 (radiance)」，
+# 悬停显示 def。写了表里没有的术语，构建会失败并提示——所以译法不会漂。
+#
+# 字段：
+#   en   必填，英文术语
+#   def  可选，一句话定义（悬停显示，也出现在 /glossary 页）
+#   aka  可选，别名/其他常见译法，会进搜索索引
+#   see  可选，相关笔记的 slug，/glossary 页上会链过去
+
+# ---- 辐射度量学 / 光学 ----
+辐射通量:
+  en: radiant flux
+  def: 单位时间通过的总辐射能量，单位 W。
+  aka: [辐射功率]
+
+辐射强度:
+  en: radiant intensity
+  def: 每单位立体角的辐射通量，单位 W/sr。
+
+辐照度:
+  en: irradiance
+  def: 每单位面积接收到的辐射通量，单位 W/m²。不含方向信息。
+
+辐射亮度:
+  en: radiance
+  def: 每单位投影面积、每单位立体角的辐射通量，单位 W/(m²·sr)。沿真空中的光线传播不变，这是光线追踪成立的前提。
+  aka: [亮度]
+  see: physics/optics/radiometry
+
+立体角:
+  en: solid angle
+  def: 方向的「面积」，单位球面上的一块面积，单位 sr。整个球面为 4π sr。
+  see: physics/optics/radiometry
+
+投影面积:
+  en: projected area
+  def: 面积在垂直于给定方向上的投影，dA⊥ = dA·cosθ。渲染方程里余弦项的来源。
+
+透射率:
+  en: transmittance
+  def: 光从一点传播到另一点而未被吸收或散射的比例。
+
+雅可比行列式:
+  en: Jacobian determinant
+  def: 坐标变换时的体积/面积缩放因子。
+
+# ---- 渲染 ----
+双向反射分布函数:
+  en: BRDF
+  def: Bidirectional Reflectance Distribution Function。描述从某方向入射的光有多少朝另一方向反射，单位 sr⁻¹。
+  aka: [BRDF]
+  see: cs/rendering/brdf
+
+渲染方程:
+  en: rendering equation
+  def: 描述表面出射辐射亮度的积分方程，现代渲染的理论基础（Kajiya 1986）。
+
+微表面:
+  en: microfacet
+  def: 把粗糙表面建模成无数微小完美镜面的理论框架。
+  see: cs/rendering/brdf
+
+法线分布函数:
+  en: normal distribution function
+  aka: [NDF]
+  def: 微表面法线朝向的统计分布，Cook-Torrance 里的 D 项。
+  see: cs/rendering/brdf
+
+菲涅尔项:
+  en: Fresnel term
+  def: 描述反射率随入射角变化的项，掠射角时反射率趋近 1。Cook-Torrance 里的 F 项。
+  see: cs/rendering/brdf
+
+几何遮蔽项:
+  en: geometric attenuation
+  aka: [遮蔽项, G 项]
+  def: 微表面之间的自遮挡与自阴影，Cook-Torrance 里的 G 项。
+  see: cs/rendering/brdf
+
+半程向量:
+  en: half vector
+  def: 入射与出射方向的角平分方向，h = normalize(ωi + ωo)。
+
+亥姆霍兹互易性:
+  en: Helmholtz reciprocity
+  def: 交换光路的入射与出射方向，BRDF 值不变。双向路径追踪成立的前提。
+  see: cs/rendering/brdf
+
+能量守恒:
+  en: energy conservation
+  def: 表面反射的能量不超过入射能量，否则多次弹射会让画面越来越亮。
+
+球谐:
+  en: spherical harmonics
+  aka: [SH]
+  def: 球面上的正交基函数，常用于紧凑表示低频的方向相关信号。
+
+路径追踪:
+  en: path tracing
+  def: 通过蒙特卡洛采样光线路径求解渲染方程的方法。
+
+重要性采样:
+  en: importance sampling
+  def: 按被积函数的形状分配采样，降低蒙特卡洛估计的方差。
+
+可变速率着色:
+  en: variable rate shading
+  aka: [VRS]
+  def: 允许屏幕不同区域以不同着色频率渲染的硬件特性。
+
+# ---- 注视点 / 感知驱动 ----
+注视点渲染:
+  en: foveated rendering
+  def: 利用视锐度随离心率衰减，对周边区域降采样以省算力的渲染技术。
+  see: papers/foveated-3d-graphics
+
+中央凹:
+  en: fovea
+  def: 视网膜上视锥细胞密度最高的区域，对应约 2° 的视野，视锐度最高。
+
+离心率:
+  en: eccentricity
+  def: 视野中某点偏离注视点的角度。
+
+视锐度:
+  en: visual acuity
+  def: 视觉系统分辨细节的能力，随离心率迅速下降。
+
+最小可分辨角:
+  en: minimum angle of resolution
+  aka: [MAR]
+  def: 视觉系统能分辨的最小角度。随离心率近似线性增长，斜率约 1.32–1.65 arcmin/度。
+  see: papers/foveated-3d-graphics
+
+眼动追踪:
+  en: eye tracking
+  aka: [注视点追踪, gaze tracking]
+  def: 实时测量用户注视方向的技术，注视点渲染的前提。
+
+隧道视觉:
+  en: tunnel vision
+  def: 周边视野被削弱时的主观感受。周边滤波降低对比度即会诱发。
+  see: papers/foveated-vr
+
+对比度敏感度:
+  en: contrast sensitivity
+  def: 视觉系统分辨明暗差异的能力。周边视觉的对比度敏感度远高于其锐度所暗示的水平。
+  see: papers/foveated-vr
+
+周边视觉:
+  en: peripheral vision
+  def: 中央凹以外的视觉。锐度低但对运动和对比度敏感。
+
+头显:
+  en: head-mounted display
+  aka: [HMD, 头戴显示器]
+  def: 戴在头上的显示设备，VR/AR 的主要载体。宽视场使其成为注视点渲染的最佳场景。
+
+视场角:
+  en: field of view
+  aka: [FOV]
+  def: 显示设备或视觉系统覆盖的角度范围。
+
+时域抗锯齿:
+  en: temporal antialiasing
+  aka: [TAA]
+  def: 利用历史帧信息减少锯齿与闪烁的技术。
+
+# ---- 数学 ----
+奇异值分解:
+  en: singular value decomposition
+  aka: [SVD]
+  def: 把任意矩阵分解为 UΣVᵀ，几何上等价于「旋转-缩放-旋转」。
+  see: math/linear-algebra/svd
+
+奇异值:
+  en: singular value
+  def: SVD 中对角矩阵 Σ 上的非负实数，等于 AᵀA 特征值的平方根。
+
+正交矩阵:
+  en: orthogonal matrix
+  def: 满足 QᵀQ = I 的方阵，表示旋转或反射，保持长度和角度。
+
+特征值分解:
+  en: eigendecomposition
+  def: 把方阵分解为 QΛQ⁻¹。只对可对角化的方阵成立，不如 SVD 通用。
+
+低秩近似:
+  en: low-rank approximation
+  def: 用较低秩的矩阵逼近原矩阵。截断 SVD 给出 Frobenius 范数下的最优解。
+  see: math/linear-algebra/svd
+
+半正定:
+  en: positive semi-definite
+  def: 对任意向量 x 满足 xᵀAx ≥ 0 的对称矩阵。协方差矩阵必须半正定。
+
+协方差矩阵:
+  en: covariance matrix
+  def: 描述多维随机变量各维度间相关性的矩阵，必须对称半正定。
+
+条件数:
+  en: condition number
+  def: 最大奇异值与最小奇异值之比，衡量矩阵求逆的数值稳定性。

@@ -40,6 +40,27 @@ export const PaperMeta = z.object({
 })
 export type PaperMeta = z.infer<typeof PaperMeta>
 
+/** One entry of content/_glossary.yml, keyed by the Chinese term. */
+export const GlossaryEntry = z.object({
+  en: z.string().min(1),
+  def: z.string().optional(),
+  /** Aliases and alternate translations. Indexed for search, not rendered. */
+  aka: z.array(z.string()).default([]),
+  /** Slug of the note that covers this term, if any. */
+  see: z.string().optional(),
+})
+export type GlossaryEntry = z.infer<typeof GlossaryEntry>
+
+export const Glossary = z.record(z.string(), GlossaryEntry)
+export type Glossary = z.infer<typeof Glossary>
+
+/** A glossary entry plus its key and where it is used — emitted by the build. */
+export interface Term extends GlossaryEntry {
+  term: string
+  /** Slugs of documents using this term, so /glossary can link to them. */
+  usedIn: string[]
+}
+
 /** content/<subject>/_subject.yml — optional; falls back to the directory name. */
 export const SubjectMeta = z.object({
   name: z.string().min(1),
@@ -93,11 +114,14 @@ export interface Note {
   subject: string
   meta: NoteMeta
   html: string
+  /** Plain text for search; the English of every term used is appended. */
   text: string
   toc: TocEntry[]
   cards: Card[]
   /** Wiki-link targets resolved to slugs. */
   links: string[]
+  /** Glossary keys used, in first-use order. */
+  terms: string[]
   wordCount: number
 }
 
@@ -110,6 +134,7 @@ export interface Paper {
   toc: TocEntry[]
   cards: Card[]
   links: string[]
+  terms: string[]
 }
 
 /** Body-less note record for list pages and the client-side filter UI. */

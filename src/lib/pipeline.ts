@@ -16,8 +16,9 @@ import { visit } from 'unist-util-visit'
 import type { VFile } from 'vfile'
 import { rehypeBasePath } from '@/plugins/rehype-base-path'
 import { remarkCards, type RawCard } from '@/plugins/remark-cards'
+import { remarkTerms } from '@/plugins/remark-terms'
 import { remarkWikilink, type WikilinkOptions } from '@/plugins/remark-wikilink'
-import type { TocEntry } from './schema'
+import type { Glossary, TocEntry } from './schema'
 
 /**
  * Mirror of `basePath` in next.config.ts. Note HTML is injected with
@@ -84,6 +85,7 @@ const SHIKI = {
 
 export interface RenderOptions {
   resolve: WikilinkOptions['resolve']
+  glossary: Glossary
 }
 
 export function createProcessor(options: RenderOptions) {
@@ -96,6 +98,9 @@ export function createProcessor(options: RenderOptions) {
       .use(remarkGfm)
       .use(remarkMath)
       .use(remarkDirective)
+      // Before collectText so the search index gets the term text, and before
+      // remarkCards so a term inside a card resolves like anywhere else.
+      .use(remarkTerms, { glossary: options.glossary })
       .use(collectText)
       .use(remarkCards)
       .use(remarkWikilink, options)
@@ -138,6 +143,8 @@ export interface Rendered {
   cardErrors: string[]
   links: string[]
   brokenLinks: string[]
+  terms: string[]
+  unknownTerms: string[]
 }
 
 export async function render(markdown: string, options: RenderOptions): Promise<Rendered> {
@@ -151,6 +158,8 @@ export async function render(markdown: string, options: RenderOptions): Promise<
     cardErrors: file.data.cardErrors ?? [],
     links: file.data.links ?? [],
     brokenLinks: file.data.brokenLinks ?? [],
+    terms: file.data.terms ?? [],
+    unknownTerms: file.data.unknownTerms ?? [],
   }
 }
 

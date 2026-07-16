@@ -19,6 +19,7 @@ import { resolveIcon } from '../src/lib/icons'
 import { countWords, render, renderFragment } from '../src/lib/pipeline'
 import { hashSlug } from '../src/lib/slug'
 import {
+  Glossary,
   NoteMeta,
   PaperMeta,
   SubjectMeta,
@@ -27,6 +28,7 @@ import {
   type NoteIndexEntry,
   type Paper,
   type Subject,
+  type Term,
 } from '../src/lib/schema'
 
 const ROOT = process.cwd()
@@ -83,6 +85,18 @@ async function loadSubjects() {
   return subjects
 }
 
+async function loadGlossary(): Promise<Glossary> {
+  const file = 'content/_glossary.yml'
+  const raw = await readFile(join(CONTENT, '_glossary.yml'), 'utf8')
+  // gray-matter needs frontmatter delimiters; a bare .yml has none.
+  const res = Glossary.safeParse(matter(`---\n${raw}\n---\n`).data)
+  if (!res.success) {
+    report(file, res.error)
+    return {}
+  }
+  return res.data
+}
+
 /**
  * Card ids are the localStorage primary key, so their stability decides whether
  * a review history survives an edit.
@@ -105,7 +119,7 @@ async function main() {
   const t0 = Date.now()
 
   const paths = await fg('**/*.{md,mdx}', { cwd: CONTENT, absolute: true, ignore: ['**/_*'] })
-  const subjects = await loadSubjects()
+  const [subjects, glossary] = await Promise.all([loadSubjects(), loadGlossary()])
 
   // Pass 1: the slug table. Wiki-links resolve against every note in the repo,
   // so no file can compile until all slugs are known.
@@ -140,6 +154,8 @@ async function main() {
   const papers: Paper[] = []
   const allCards: Card[] = []
   const seenCardIds = new Map<string, string>()
+  /** term -> slugs using it, for /glossary. */
+  const termUsage = new Map<string, string[]>()
 
   for (const p of parsed) {
     const isPaper = p.subject === 'papers'
@@ -151,9 +167,21 @@ async function main() {
     const meta = res.data
     if (meta.draft && !IS_DEV) continue
 
-    const r = await render(p.content, { resolve })
+    const r = await render(p.content, { resolve, glossary })
 
     for (const e of r.cardErrors) problems.push(`  content/${p.rel}\n    ${e}`)
+    for (const t of r.unknownTerms) {
+      // Fatal, unlike a broken wiki-link: the vocabulary is closed, so this is
+      // a typo with nothing sensible to render, not link rot to live with.
+      problems.push(
+        `  content/${p.rel}\n    :term[${t}] 不在 content/_glossary.yml 里。要么补进术语表，要么改用已有术语。`,
+      )
+    }
+    for (const t of r.terms) {
+      const usage = termUsage.get(t) ?? []
+      usage.push(p.slug)
+      termUsage.set(t, usage)
+    }
     for (const b of r.brokenLinks) {
       // Visible, not fatal: a KB you cannot build because you renamed a file is
       // a KB you stop writing in.
@@ -195,7 +223,23 @@ async function main() {
     }
     allCards.push(...cards)
 
-    const base = { slug: p.slug, href, html: r.html, text: r.text, toc: r.toc, cards, links: r.links }
+    // The English of every term used is appended to the search text, so
+    // searching "radiance" finds the Chinese note that never spells it out.
+    const termEnglish = r.terms
+      .flatMap((t) => [glossary[t]?.en, ...(glossary[t]?.aka ?? [])])
+      .filter(Boolean)
+      .join(' ')
+
+    const base = {
+      slug: p.slug,
+      href,
+      html: r.html,
+      text: termEnglish ? `${r.text} ${termEnglish}` : r.text,
+      toc: r.toc,
+      cards,
+      links: r.links,
+      terms: r.terms,
+    }
 
     if (isPaper) {
       papers.push({ ...base, meta: meta as z.infer<typeof PaperMeta> })
@@ -242,10 +286,17 @@ async function main() {
   }
   const noteIndex = notes.map(strip) as NoteIndexEntry[]
 
+  // Only terms actually used reach the site; an unused glossary entry is a
+  // draft, not content.
+  const terms: Term[] = [...termUsage.entries()]
+    .map(([term, usedIn]) => ({ term, ...glossary[term], usedIn: [...new Set(usedIn)] }))
+    .sort((a, b) => a.term.localeCompare(b.term, 'zh'))
+
   await writeFile(join(GENERATED, 'notes-index.json'), JSON.stringify(noteIndex))
   await writeFile(join(GENERATED, 'papers-index.json'), JSON.stringify(papers.map(strip)))
   await writeFile(join(GENERATED, 'subjects.json'), JSON.stringify(subjects))
   await writeFile(join(GENERATED, 'backlinks.json'), JSON.stringify(backlinks))
+  await writeFile(join(GENERATED, 'terms.json'), JSON.stringify(terms))
 
   // public/data is browser-fetched at runtime. Never import these from a client
   // component: Next inlines imported JSON, so the bundle would grow with the KB.
@@ -258,9 +309,16 @@ async function main() {
     console.warn('')
   }
 
+  const unused = Object.keys(glossary).filter((t) => !termUsage.has(t))
+  if (unused.length) {
+    console.warn(`\n⚠ ${unused.length} 个术语在 _glossary.yml 里但没被任何笔记用到:`)
+    console.warn(`  ${unused.join('、')}`)
+    console.warn('')
+  }
+
   const kb = (JSON.stringify(allCards).length / 1024).toFixed(0)
   console.log(
-    `✓ ${notes.length} 篇笔记, ${papers.length} 篇论文, ${allCards.length} 张卡片 (${kb}KB), ${Object.keys(subjects).length} 个科目 (${Date.now() - t0}ms)`,
+    `✓ ${notes.length} 篇笔记, ${papers.length} 篇论文, ${allCards.length} 张卡片 (${kb}KB), ${terms.length}/${Object.keys(glossary).length} 个术语, ${Object.keys(subjects).length} 个科目 (${Date.now() - t0}ms)`,
   )
 }
 
