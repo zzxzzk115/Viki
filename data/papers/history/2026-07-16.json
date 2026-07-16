@@ -240,7 +240,7 @@
       ],
       "score": 32,
       "comment": "Accepted at ECCV 2026, Project Page: https://github.com/LogosRoboticsGroup/DriveWeaver",
-      "isNew": true,
+      "isNew": false,
       "citedBy": 0,
       "topic": "图像补全",
       "kind": "fresh"
@@ -300,7 +300,7 @@
       ],
       "score": 27,
       "comment": "",
-      "isNew": true,
+      "isNew": false,
       "citedBy": 0,
       "topic": "图像补全",
       "kind": "fresh"
@@ -332,7 +332,7 @@
       ],
       "score": 24,
       "comment": "Accepted by CVPR 2026",
-      "isNew": true,
+      "isNew": false,
       "citedBy": 0,
       "topic": "图像变形",
       "kind": "fresh"
@@ -360,7 +360,7 @@
       ],
       "score": 22,
       "comment": "",
-      "isNew": true,
+      "isNew": false,
       "citedBy": 0,
       "topic": "图像变形",
       "kind": "fresh"
@@ -449,14 +449,13 @@
       ],
       "score": 40,
       "comment": "Accepted to BMVC 2019",
-      "isNew": true,
+      "isNew": false,
       "citedBy": 52,
       "topic": "图像补全",
       "kind": "classic"
     }
   ],
   "notes": [
-    "536 篇候选：近期相关 147 篇取 12，经典（>30 被引）6 篇混入 3",
-    "其中 5 篇是首次出现"
+    "536 篇候选：近期相关 147 篇取 12，经典（>30 被引）6 篇混入 3"
   ]
 }
