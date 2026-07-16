@@ -189,6 +189,36 @@ Manim 渲染的是**视频**：CI 里要装 Python + cairo + ffmpeg（官方 act
 
 **所有步骤都在静态 HTML 里**，`DemoPlayer` 挂载后才逐步显示。所以关掉 JS 整个演示仍然可读，搜索索引也能看到全部内容——换成 canvas 动画或视频，这两点都做不到。
 
+## 批量导入论文（BibTeX）
+
+把 BibTeX 追加到 [scratch/related-work.bib](scratch/related-work.bib)，然后：
+
+```bash
+pnpm import-bibtex:dry   # 预览每条派生出的 slug/venue/tags，不写文件
+pnpm import-bibtex       # 生成 content/papers/*.md 占位页
+```
+
+全部**从 BibTeX 自动派生**，无需手写映射：
+- slug 从标题（去停用词，取前几个实词）
+- venue 从 journal/booktitle/note，经缩写词典规范化
+- tags 从关键词词典（同 [config/feeds.ts](config/feeds.ts) 的思路）
+
+**幂等**：按 DOI/标题去重，重跑不会重复生成，也不覆盖你已填的正文。数据集/3D 模型（note 里含 "3D model"/"ORCA" 等）自动跳过。作者名的 LaTeX 转义（`{\ss}`、`{\v{s}}`、`{\'e}`）会解析成 Unicode。
+
+tags 是关键词猜的，约八成准——个别不对就直接改生成的 md。生成的是占位页（`status: to-read`，正文空），读完补 `贡献/方法/评价`。
+
+## 论文引用关系图
+
+`/papers/graph` 的引用网络由 [OpenAlex](https://openalex.org) 按 DOI 拉取。加了新论文后刷新一次：
+
+```bash
+pnpm citations   # 拉 OpenAlex → data/citations/edges.json
+```
+
+引用关系存在 data 分支（外部 API 派生、更新不频繁，和 arXiv feed 一样不进 master 历史）。CI 上手动触发 `citations.yml` workflow 会拉取、提交到 data 分支并重新部署。
+
+无 DOI 的灰色文献（GDC talk、course notes）用标题搜 OpenAlex 兜底；搜不到的仍是图上的节点，只是没有引用边，靠主题聚类定位。
+
 ## Wiki 链接
 
 ```markdown

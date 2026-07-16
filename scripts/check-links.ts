@@ -138,6 +138,23 @@ async function main() {
     }
   }
 
+  // Graph node links are rendered client-side from graph.json too — same blind
+  // spot as card back-links. Every node's href must hit a real /papers/ page.
+  const graphFile = join(OUT, 'data', 'graph.json')
+  const graph: { nodes: { slug: string; href: string }[] } = JSON.parse(await readFile(graphFile, 'utf8'))
+  for (const n of graph.nodes) {
+    checked++
+    const target = posix.normalize(n.href)
+    if (!pages.has(target)) {
+      dead.push({
+        page: 'public/data/graph.json',
+        href: n.href,
+        text: `引用图节点 ${n.slug}`,
+        why: `目标页不存在: ${target}`,
+      })
+    }
+  }
+
   if (dead.length) {
     console.error(`\n✗ 发现 ${dead.length} 个死链:\n`)
     for (const d of dead) {

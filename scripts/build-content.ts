@@ -17,6 +17,7 @@ import matter from 'gray-matter'
 import { z } from 'zod'
 import { resolveIcon } from '../src/lib/icons'
 import { countWords, render, renderFragment } from '../src/lib/pipeline'
+import type { GraphData, GraphEdge } from '../src/lib/paper-graph'
 import { createIndex, type SearchDoc } from '../src/lib/search'
 import { hashSlug } from '../src/lib/slug'
 import {
@@ -333,11 +334,34 @@ async function main() {
     ),
   ]
 
+  // Citation graph: nodes = papers (title/tags/citedBy), edges from the OpenAlex
+  // pull on the data branch. Synthesized here so tag edits reflect next build
+  // while citations stay cached. Missing edges.json (no data:pull) → empty edges,
+  // still a valid graph of unconnected nodes.
+  const citations = await readFile(join(ROOT, 'data', 'citations', 'edges.json'), 'utf8')
+    .then((t) => JSON.parse(t) as { edges: GraphEdge[]; citedBy: Record<string, number> })
+    .catch(() => ({ edges: [], citedBy: {} as Record<string, number> }))
+  const paperSlugs = new Set(papers.map((p) => p.slug))
+  const graph: GraphData = {
+    nodes: papers.map((p) => ({
+      slug: p.slug,
+      href: p.href,
+      title: p.meta.title,
+      year: p.meta.year,
+      venue: p.meta.venue,
+      tags: p.meta.tags,
+      citedBy: citations.citedBy[p.slug] ?? 0,
+    })),
+    // Drop edges to papers no longer in the library (deleted since last fetch).
+    edges: citations.edges.filter((e) => paperSlugs.has(e.source) && paperSlugs.has(e.target)),
+  }
+
   // public/data is browser-fetched at runtime. Never import these from a client
   // component: Next inlines imported JSON, so the bundle would grow with the KB.
   await writeFile(join(PUBLIC_DATA, 'cards.json'), JSON.stringify(allCards))
   await writeFile(join(PUBLIC_DATA, 'notes-index.json'), JSON.stringify(noteIndex))
   await writeFile(join(PUBLIC_DATA, 'search.json'), JSON.stringify(createIndex(searchDocs)))
+  await writeFile(join(PUBLIC_DATA, 'graph.json'), JSON.stringify(graph))
 
   if (warnings.length) {
     console.warn(`\n⚠ ${warnings.length} 个失效的 wiki-link (页面会标红，不阻断构建):`)
