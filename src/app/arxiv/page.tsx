@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { FeedList } from '@/components/feed-list'
+import { FeedBrowser } from '@/components/feed-browser'
 import { getFeed, getFeedDates } from '@/lib/content'
 
 export const metadata = { title: 'arXiv 推荐' }
@@ -50,7 +50,7 @@ export default async function ArxivPage() {
             </details>
           )}
 
-          <FeedList papers={feed.papers} />
+          <FeedBrowser papers={feed.papers} />
         </>
       )}
 

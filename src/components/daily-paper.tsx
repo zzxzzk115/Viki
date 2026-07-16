@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { withBase } from '@/lib/base-path'
 import { pickDaily, todaySeed } from '@/lib/daily-pick'
 import type { FeedPaper } from '@/lib/papers-feed'
+import { AddToBib } from './add-to-bib'
 
 /**
  * 「今日论文」— one paper from the arXiv feed, picked by a date seed.
@@ -43,10 +44,7 @@ export function DailyPaper() {
   if (!pick) return null
 
   return (
-    <a
-      href={pick.url}
-      className="block rounded-xl border border-neutral-200 p-5 transition hover:border-neutral-300 hover:bg-neutral-50 dark:border-neutral-800 dark:hover:border-neutral-700 dark:hover:bg-neutral-900"
-    >
+    <div className="rounded-xl border border-neutral-200 p-5 dark:border-neutral-800">
       <div className="flex flex-wrap items-center gap-2 text-xs">
         <span className="font-semibold tracking-wide text-neutral-500 uppercase">今日论文</span>
         {pick.kind === 'classic' ? (
@@ -60,19 +58,27 @@ export function DailyPaper() {
             </span>
           )
         )}
+        {pick.topic && (
+          <span className="rounded bg-neutral-100 px-1.5 py-0.5 font-medium text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300">
+            {pick.topic}
+          </span>
+        )}
         <span className="ml-auto tabular-nums text-neutral-400">{pick.published}</span>
       </div>
-      <p className="mt-2 font-medium leading-snug">{pick.title}</p>
+      <a href={pick.url} className="mt-2 block font-medium leading-snug hover:underline">
+        {pick.title}
+      </a>
       <p className="mt-1 line-clamp-2 text-sm text-neutral-500">{pick.abstract}</p>
-      {pick.matched.length > 0 && (
-        <p className="mt-2 flex flex-wrap gap-1.5">
-          {pick.matched.slice(0, 5).map((m) => (
-            <span key={m} className="rounded bg-neutral-100 px-1.5 py-0.5 text-xs text-neutral-500 dark:bg-neutral-800">
-              {m}
-            </span>
-          ))}
-        </p>
-      )}
-    </a>
+      <p className="mt-3 flex flex-wrap items-center gap-3 text-xs">
+        <a href={pick.url} className="text-neutral-500 hover:underline">
+          arXiv:{pick.id}
+        </a>
+        {pick.source === 'arxiv' && (
+          <AddToBib
+            paper={{ id: pick.id, title: pick.title, authors: pick.authors, published: pick.published, url: pick.url }}
+          />
+        )}
+      </p>
+    </div>
   )
 }

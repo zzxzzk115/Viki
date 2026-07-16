@@ -22,12 +22,12 @@ import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import { XMLParser } from 'fast-xml-parser'
 import { feeds } from '../config/feeds'
+import { selectWithQuota } from '../src/lib/feed-select'
 import { FeedFile, type FeedPaper } from '../src/lib/papers-feed'
 
 /** What a fetcher can know. isNew (seen.json) and kind (selection) come later;
- *  citedBy starts 0 and is enriched from OpenAlex afterwards. coreHits is
- *  selection-internal and stripped by FeedFile.parse on write. */
-type Candidate = Omit<FeedPaper, 'isNew' | 'kind'> & { coreHits: number }
+ *  citedBy starts 0 and is enriched from OpenAlex afterwards. */
+type Candidate = Omit<FeedPaper, 'isNew' | 'kind'>
 
 const ROOT = process.cwd()
 const DATA = join(ROOT, 'data', 'papers')
@@ -66,31 +66,39 @@ async function getWithRetry(url: string, tries = 4): Promise<string | null> {
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 
 /**
- * Scores a paper against the tiered keywords. Returns null below minScore.
+ * Scores a paper against the topic terms + shared keywords, and classifies it
+ * into the first topic (config order) whose terms it hits. Returns null below
+ * minScore.
  *
  * Tiering matters: with a flat list, 'rendering' and 'foveated' count the same
  * and a dozen generic graphics papers a day bury the handful that are actually
- * on-topic. Core terms are worth more than the primary-category bonus, so a
- * foveated paper in cs.HC outranks a generic one in cs.GR.
+ * on-topic. Topic terms are worth more than the category bonus, so a foveated
+ * paper in cs.HC outranks a generic one in cs.GR.
  */
 function judge(
   title: string,
   abstract: string,
   origin: 'topic' | 'sweep',
-): { score: number; matched: string[]; coreHits: number } | null {
+): { score: number; matched: string[]; topic: string } | null {
   const hay = `${title} ${abstract}`.toLowerCase()
   const t = title.toLowerCase()
 
   if (feeds.exclude.some((w) => hay.includes(w.toLowerCase()))) return null
 
-  const { core, related, context } = feeds.keywords
   const w = feeds.weights
-
   const hit = (list: string[]) => list.filter((k) => hay.includes(k.toLowerCase()))
-  const coreHits = hit(core)
-  const relatedHits = hit(related)
-  const contextHits = hit(context)
-  const inTitle = [...core, ...related].filter((k) => t.includes(k.toLowerCase()))
+
+  let topic = ''
+  const coreHits: string[] = []
+  for (const group of feeds.topics) {
+    const hits = hit(group.terms)
+    if (hits.length && !topic) topic = group.name
+    coreHits.push(...hits)
+  }
+  const relatedHits = hit(feeds.related)
+  const contextHits = hit(feeds.context)
+  const allTerms = [...feeds.topics.flatMap((g) => g.terms), ...feeds.related]
+  const inTitle = allTerms.filter((k) => t.includes(k.toLowerCase()))
 
   const score =
     coreHits.length * w.core +
@@ -102,7 +110,7 @@ function judge(
   if (score < feeds.minScore) return null
 
   // Report the meaningful hits, not every context word.
-  return { score, matched: [...coreHits, ...relatedHits], coreHits: coreHits.length }
+  return { score, matched: [...coreHits, ...relatedHits], topic }
 }
 
 // ---- arXiv ----
@@ -173,7 +181,7 @@ async function queryArxiv(
       matched: verdict.matched,
       score: verdict.score,
       citedBy: 0,
-      coreHits: verdict.coreHits,
+      topic: verdict.topic,
       comment: clean(
         typeof e['arxiv:comment'] === 'string' ? e['arxiv:comment'] : e['arxiv:comment']?.['#text'],
       ),
@@ -208,11 +216,12 @@ async function fetchArxiv(): Promise<Candidate[]> {
 
   // Progress goes to stderr as it happens — 30+ paced queries with 429 backoff
   // can run for many minutes, and a silent script is undebuggable in cron logs.
-  const total = feeds.topicQueries.length * 2 + feeds.sweepCategories.length
+  const queries = feeds.topics.flatMap((g) => g.queries)
+  const total = queries.length * 2 + feeds.sweepCategories.length
   let n = 0
   const tick = (label: string) => console.error(`  [${++n}/${total}] ${label}`)
 
-  for (const q of feeds.topicQueries) {
+  for (const q of queries) {
     // arXiv's manual asks for ~3s between sequential calls.
     if (!first) await sleep(3200)
     first = false
@@ -222,7 +231,7 @@ async function fetchArxiv(): Promise<Candidate[]> {
 
   // Same topics again, relevance-sorted: that is where a field's canonical
   // papers surface (date-sorted only ever sees the newest submissions).
-  for (const q of feeds.topicQueries) {
+  for (const q of queries) {
     await sleep(3200)
     tick(`relevance: ${q}`)
     add(await queryArxiv(q, feeds.classics.perQuery, 'topic', 'relevance'))
@@ -321,7 +330,7 @@ async function fetchOpenAlex(): Promise<Candidate[]> {
       matched: verdict.matched,
       score: verdict.score,
       citedBy: 0,
-      coreHits: verdict.coreHits,
+      topic: verdict.topic,
     })
   }
   return out
@@ -369,22 +378,24 @@ async function main() {
 
   const cutoff = new Date(Date.now() - feeds.recentDays * 86400000).toISOString().slice(0, 10)
 
-  // Two pools: fresh (recent, ranked by relevance score) and classics (older
-  // than the window but heavily cited — the field's canonical papers, which a
-  // date-sorted feed would never surface).
-  const fresh = candidates
-    .filter((p) => p.published >= cutoff)
-    .sort((a, b) => b.score - a.score || b.published.localeCompare(a.published))
-  // coreHits > 0: citations alone are not relevance. Without this gate the
+  // Two pools: fresh (recent, per-topic quotas so no topic can crowd out the
+  // rest) and classics (older than the window but heavily cited).
+  const fresh = candidates.filter((p) => p.published >= cutoff)
+  // topic !== '': citations alone are not relevance. Without this gate the
   // classics slots go to whatever heavily-cited ML paper grazed the related/
   // context keywords (measured: a temporal-action-localization paper won a slot
-  // purely on citedBy) — a classic must hit a core term of the field.
+  // purely on citedBy) — a classic must hit a topic term of the field.
   const classicPool = candidates
-    .filter((p) => p.published < cutoff && p.coreHits > 0 && p.citedBy >= feeds.classics.minCitations)
+    .filter((p) => p.published < cutoff && p.topic !== '' && p.citedBy >= feeds.classics.minCitations)
     .sort((a, b) => b.citedBy - a.citedBy)
 
   const classics = classicPool.slice(0, feeds.classics.count)
-  const freshPicked = fresh.slice(0, Math.max(0, feeds.dailyLimit - classics.length))
+  const freshPicked = selectWithQuota(
+    fresh,
+    feeds.topics.map((t) => t.name),
+    feeds.quotaPerTopic,
+    Math.max(0, feeds.dailyLimit - classics.length),
+  )
 
   const picked: FeedPaper[] = [
     ...freshPicked.map((p) => ({ ...p, kind: 'fresh' as const, isNew: !firstSeen[p.id] })),
@@ -412,11 +423,15 @@ async function main() {
     )
     for (const [i, p] of picked.entries()) {
       const badge = p.kind === 'classic' ? `经典·被引${p.citedBy}` : `分${p.score}`
-      console.log(`${String(i + 1).padStart(2)}. [${badge}] ${p.title}`)
+      console.log(`${String(i + 1).padStart(2)}. [${badge}] [${p.topic || '无主题'}] ${p.title}`)
       console.log(`      ${p.categories.join(' ')}  ${p.published}`)
       console.log(`      命中: ${p.matched.join(', ') || '(仅靠分类扫描)'}`)
     }
-    const cut = fresh.slice(freshPicked.length, freshPicked.length + 5)
+    const taken = new Set(freshPicked)
+    const cut = fresh
+      .filter((p) => !taken.has(p))
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 5)
     if (cut.length) {
       console.log(`\n--- 落选的前几篇（供调阈值参考）---`)
       for (const p of cut) console.log(`    [${String(p.score).padStart(3)}] ${p.title.slice(0, 70)}`)

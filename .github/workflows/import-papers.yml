@@ -1,0 +1,66 @@
+name: Import papers from BibTeX
+
+# Fires when the 加入待读 button (or a manual edit) pushes to the .bib. Runs the
+# same import-bibtex pipeline that seeded the library, committing any new
+# placeholder pages. The importer is idempotent by DOI/title, so re-runs are safe.
+on:
+  push:
+    branches: [master]
+    paths: ['scratch/*.bib']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-papers
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          # The button's commit may be joined by another push moments later;
+          # pull the latest before generating against it.
+          ref: master
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      - name: Generate placeholder pages
+        run: pnpm import-bibtex
+
+      - name: Commit new pages
+        id: commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/papers
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "没有新论文页"
+          else
+            git commit -m "papers: materialize to-read pages from bibtex"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  # This job's own commit is made with GITHUB_TOKEN, which does not trigger
+  # workflows — without the explicit call the new pages would sit unbuilt.
+  # (The user's PAT push that started this run DOES trigger deploy.yml, but
+  # that build ran before the pages existed.)
+  redeploy:
+    needs: import
+    if: needs.import.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

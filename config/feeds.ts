@@ -2,240 +2,229 @@
  * 每日论文推荐的抓取配置。改这个文件即可，不用动 scripts/fetch-papers.ts。
  * 调完跑 `pnpm papers:dry` 看排序，不写文件。
  *
- * 抓取由 .github/workflows/papers.yml 每天定时跑，结果提交进 data/papers/，
+ * 抓取由 .github/workflows/papers.yml 每天定时跑，结果提交进 data 分支，
  * 构建时读取。页面本身不请求任何外部 API。
+ *
+ * ── 结构：按主题分组 ──
+ *
+ * 推荐按 topics 分主题：每个主题带自己的 arXiv 检索式和归类关键词，
+ * 每天的名额按主题配额分（quotaPerTopic），所以发文量大的主题（注视点）
+ * 不会把发文量小的主题（图像变形/补全）挤出榜单——此前按总分排，
+ * 注视点 11 个 core 词必然霸榜。配额也让高体量查询变安全：
+ * abs:inpainting 有 2645 条，但它最多只能占走自己主题的名额。
  *
  * ── 为什么是「主题查询 + 分类扫描」两路 ──
  *
  * 实测：`cat:cs.GR OR cat:cs.CV OR cat:cs.HC` 按时间取最新 150 篇，
- * 里面 cs.CV 有 112 篇、cs.GR 只有 1 篇（0.7%），且只覆盖 28 小时。
- * 合并查询会让小分类被彻底饿死。
+ * 里面 cs.CV 有 112 篇、cs.GR 只有 1 篇（0.7%）。合并查询会让小分类饿死；
+ * 而单独扫 cs.CV（日均两三百篇）也不可行。所以大分类交给 arXiv 服务端
+ * 按主题检索式过滤，只有小的主场分类（cs.GR，日均 5 篇）整个扫。
  *
- * 而单独扫 cs.CV 也不可行：它每天两三百篇，要捞出里面的注视点论文
- * 得取几千条。所以大分类交给 arXiv 服务端按关键词过滤（topicQueries），
- * 只有小的主场分类才整个扫（sweepCategories）。
+ * 教训存档（实测过的坑）：
+ *   · 缩写有毒：all:RTX 633 条全是提显卡的 ML 论文；VRS/VRCS/DLSS 同理。
+ *     用短语（"shading rate"），不用缩写。
+ *   · 有些「显然」的说法在 arXiv 上不存在：stereo reprojection、coarse pixel
+ *     shading、asynchronous reprojection、temporal antialiasing 全是 0 条。
+ *   · 'temporal upsampling' 不能当归类词：视频理解领域同用此短语，
+ *     曾把一篇时序动作定位论文顶上经典位。
  */
 
+export interface TopicGroup {
+  /** 主题名——与站内论文 tag 词汇一致，页面上直接做筛选 chip。 */
+  name: string
+  /**
+   * 该主题的 arXiv 检索式（不限分类）。语法见 arXiv API 手册：
+   *   all:foveated / abs:"gaze-contingent"（短语）/ A AND B
+   */
+  queries: string[]
+  /**
+   * 归类关键词（小写匹配 title+abstract）：命中即把论文归入该主题，
+   * 同时按 weights.core 计分。一篇可命中多个主题，归入配置顺序里的第一个。
+   */
+  terms: string[]
+}
+
 export interface FeedConfig {
-  /**
-   * arXiv 检索式，**不限分类**——你方向的论文发在 cs.CV、cs.HC、eess.IV
-   * 都有可能，按分类找会漏。语法见 arXiv API 手册：
-   *   all:foveated              标题/摘要/作者等全字段
-   *   abs:"gaze-contingent"     只搜摘要，带引号是短语
-   *   ti:foveated               只搜标题
-   */
-  topicQueries: string[]
-  /**
-   * 整个扫描的分类。只放你的主场、且量小的分类。
-   * cs.GR 每天约 4 篇，取 60 条覆盖两周。
-   */
+  topics: TopicGroup[]
+  /** 整个扫描的分类。只放主场且量小的分类。 */
   sweepCategories: string[]
-  /** 每个主题查询取多少条。 */
+  /** 每条检索式按时间取多少条。 */
   perTopic: number
   /** 每个扫描分类取多少条。 */
   perSweep: number
-
-  /**
-   * 分层关键词（小写匹配 title + abstract），用于打分。
-   * 分层是必要的：把 foveated 和 rendering 同等对待的话，
-   * 泛泛的图形学论文会把真正相关的挤下去。
-   */
-  keywords: {
-    /** 直接命中你的方向，一个就足以入选。 */
-    core: string[]
-    /** 强相关，但需与其他词共现才说明问题。 */
-    related: string[]
-    /** 只作加权，单独出现说明不了什么。 */
-    context: string[]
-  }
+  /** 跨主题的强相关词（×weights.related）：单独出现不足以定主题。 */
+  related: string[]
+  /** 只作加权的上下文词。 */
+  context: string[]
   weights: {
     core: number
     related: number
     context: number
-    /** 命中标题的额外加权——标题里出现比摘要里提一句强得多。 */
+    /** 命中标题的额外加权。 */
     titleBonus: number
-    /** 来自 topicQueries 的基础分：arXiv 服务端已经判定它相关了。 */
+    /** 来自主题检索式的基础分。 */
     topicBonus: number
-    /** 属于 sweepCategories 的基础分。 */
+    /** 来自分类扫描的基础分。 */
     sweepBonus: number
   }
   /** 低于此分丢弃。 */
   minScore: number
   /** 命中即丢弃。 */
   exclude: string[]
-  /**
-   * 只考虑最近多少天发表的论文。
-   *
-   * 这个字段的存在是因为一个实测事实：arXiv 上 foveated 相关总共约 163 篇，
-   * 你的方向每月新增只有几篇。如果只推「今天新增的」，页面绝大多数日子是空的；
-   * 如果不限时间，又会一直推 2019 年的老论文。
-   * 所以 feed 是「近期相关论文排行」，首次出现的会打「新」标。
-   */
+  /** 近期窗口（天）。窗口外的只能走经典通道。 */
   recentDays: number
-  /** 每天最多推荐几篇，超出按分数截断。 */
+  /** 每天最多推荐几篇（近期 + 经典合计）。 */
   dailyLimit: number
-  /** 归档保留天数，0 = 永久保留。 */
+  /** 每个主题在近期名额里的保底数。剩余名额按总分自由竞争。 */
+  quotaPerTopic: number
+  /** 归档保留天数，0 = 永久。 */
   historyDays: number
-  /**
-   * 经典论文混入。除了「近期 + 相关度高」，每天再混入几篇
-   * 「年份久远但引用数量多」的领域经典。
-   *
-   * 来源：把 topicQueries 再按 arXiv 的 sortBy=relevance 跑一遍（拿到该主题的
-   * 代表作而非最新投稿），引用数从 OpenAlex 按 arXiv DOI 批量补齐。
-   */
+  /** 经典混入：窗口外、高被引、且命中某主题关键词。 */
   classics: {
-    /** 每个主题检索式按相关度取多少条。 */
+    /** 每条检索式按 relevance 排序另取多少条（经典的来源）。 */
     perQuery: number
-    /** 视为「经典」的最低全球被引数（预印本版本的计数，偏低是正常的）。 */
+    /** 最低全球被引数（OpenAlex 预印本计数，偏低正常）。 */
     minCitations: number
-    /** 每天最多混入几篇经典。 */
+    /** 每天最多混入几篇。 */
     count: number
   }
 }
 
 export const feeds: FeedConfig = {
-  // 只放 cs.GR **之外**的检索式——cs.GR 已被 sweep 全覆盖（见下），
-  // 再写 `X AND cat:cs.GR` 纯属冗余。
-  //
-  // 每条都实测过命中量。教训：
-  //   · 缩写有毒。all:RTX 633 条（匹配 ML 论文里提显卡）、all:VRS AND cat:cs.GR
-  //     354 条（匹配无关字母串）、all:VRCS 22 条也被污染。用短语，不用缩写。
-  //   · 有些「显然」的说法根本不存在：abs:"stereo reprojection" = 0，
-  //     abs:"coarse pixel shading" = 0，abs:"asynchronous reprojection" = 0，
-  //     abs:"temporal antialiasing" = 0。加了等于加了个死查询。
-  //   · abs:inpainting 单独用 2645 条，会把 feed 冲垮；它在 cs.GR 里的部分
-  //     由 sweep 覆盖，这里不写。
-  topicQueries: [
-    // 注视点 / 感知驱动
-    'all:foveated', // 163
-    'all:foveation',
-    'abs:"gaze-contingent"',
-    'abs:"peripheral vision"',
-    'abs:"visual acuity"',
-    'abs:"contrast sensitivity"',
-    'abs:"perceptual rendering"',
-    'abs:"perception-driven"',
-    // 实时光追 / 降噪 / 重采样
-    'all:ReSTIR', // 3
-    'all:SVGF', // 1
-    'abs:"spatiotemporal variance-guided"', // 1
-    'abs:"real-time ray tracing"', // 7
-    'abs:"path tracing" AND abs:denoising', // 17
-    // 着色率（VRS 的真实说法，缩写不可用）
-    'abs:"shading rate"', // 3
-    // 重投影 / 图像变形 / 补洞
-    'abs:"temporal reprojection"', // 2
-    'abs:"frame extrapolation"', // 12
-    'abs:"temporal upsampling"', // 14
+  topics: [
+    {
+      name: '注视点渲染',
+      queries: [
+        'all:foveated',
+        'all:foveation',
+        'abs:"gaze-contingent"',
+        'abs:"peripheral vision"',
+        'abs:"visual acuity"',
+      ],
+      terms: [
+        'foveat',
+        'gaze-contingent',
+        'gaze contingent',
+        'peripheral vision',
+        'visual acuity',
+        'eccentricity',
+        'saccade',
+      ],
+    },
+    {
+      name: '感知驱动',
+      queries: ['abs:"contrast sensitivity"', 'abs:"perceptual rendering"', 'abs:"perception-driven"'],
+      terms: [
+        'contrast sensitivity',
+        'just noticeable difference',
+        'psychophysic',
+        'perceptual rendering',
+        'perception-driven',
+        'visual perception',
+      ],
+    },
+    {
+      name: '图像变形',
+      queries: ['abs:"image warping"', 'abs:"temporal reprojection"', 'abs:"frame extrapolation"'],
+      terms: [
+        'image warping',
+        'depth warping',
+        'temporal reprojection',
+        'frame extrapolation',
+        'disocclusion',
+        'timewarp',
+      ],
+    },
+    {
+      name: '图像补全',
+      queries: ['abs:"video inpainting"', 'abs:"hole filling"'],
+      terms: ['video inpainting', 'image inpainting', 'hole filling', 'image completion'],
+    },
+    {
+      name: '光线追踪',
+      queries: [
+        'all:ReSTIR',
+        'all:SVGF',
+        'abs:"spatiotemporal variance-guided"',
+        'abs:"real-time ray tracing"',
+        'abs:"path tracing" AND abs:denoising',
+      ],
+      terms: ['restir', 'svgf', 'variance-guided', 'reservoir resampling', 'spatiotemporal reservoir'],
+    },
+    {
+      name: '着色',
+      queries: ['abs:"shading rate"'],
+      terms: ['shading rate', 'variable rate shading', 'visibility buffer'],
+    },
   ],
 
-  // 主场：图形学。实测日均 5.2 篇 —— 一次取 950 条即可覆盖整个 recentDays
-  // 窗口（1.7MB / 320ms），所以 cs.GR 里的 ReSTIR、inpainting、reprojection、
-  // visibility buffer 等等全都由这一次扫描 + 本地打分负责，不需要单独查询。
+  // 主场：图形学。实测日均 5.2 篇——950 条覆盖整个 recentDays 窗口。
+  // 扫出来的论文按 terms 归主题；哪个主题都不沾的走自由名额。
   sweepCategories: ['cs.GR'],
 
   perTopic: 40,
   perSweep: 950,
 
-  keywords: {
-    // 直接命中方向，一个就足以入选。
-    core: [
-      // 注视点 / 感知
-      'foveat', // foveated / foveation / fovea
-      'gaze-contingent',
-      'gaze contingent',
-      'peripheral vision',
-      'visual acuity',
-      'contrast sensitivity',
-      'just noticeable difference',
-      'psychophysic',
-      'eccentricity',
-      'saccade',
-      'perceptual rendering',
-      'perception-driven',
-      'visual perception',
-      // 实时光追加速
-      'restir',
-      'svgf',
-      'variance-guided',
-      'reservoir resampling',
-      'spatiotemporal reservoir',
-      'shading rate', // VRS 的真实说法
-      'variable rate shading',
-      // 重投影 / 复用
-      'temporal reprojection',
-      'gaze-contingent reprojection',
-      'frame extrapolation',
-      'visibility buffer',
-    ],
-    // 强相关，但需与其他词共现才说明问题。
-    related: [
-      'gaze',
-      'eye tracking',
-      'eye-tracking',
-      'visual attention',
-      'saliency',
-      'perceptually',
-      'perceptual quality',
-      'near-eye',
-      'head-mounted',
-      'hmd',
-      'virtual reality',
-      'augmented reality',
-      'level of detail',
-      // 光追 / 降噪
-      'path tracing',
-      'ray tracing',
-      'importance resampling',
-      'reservoir',
-      'denois', // denoising / denoiser
-      'temporal coherence',
-      'temporally stable',
-      'temporal accumulation',
-      // 重投影 / 补洞
-      'reprojection',
-      'image warping',
-      'temporal upsampling',
-      'hole filling',
-      'disocclusion', // 重投影产生空洞的技术名
-      'inpainting',
-      'frame interpolation',
-      'deferred shading',
-      'supersampling',
-    ],
-    // 只作加权，单独出现说明不了什么。
-    context: [
-      'real-time rendering',
-      'neural rendering',
-      'upsampling',
-      'super-resolution',
-      'latency',
-      'display',
-      'user study',
-      'rendering',
-      'gpu',
-      'stereo',
-      'temporal',
-    ],
-  },
+  related: [
+    'gaze',
+    'eye tracking',
+    'eye-tracking',
+    'visual attention',
+    'saliency',
+    'perceptually',
+    'perceptual quality',
+    'near-eye',
+    'head-mounted',
+    'hmd',
+    'virtual reality',
+    'augmented reality',
+    'level of detail',
+    'path tracing',
+    'ray tracing',
+    'importance resampling',
+    'reservoir',
+    'denois', // denoising / denoiser
+    'temporal coherence',
+    'temporally stable',
+    'temporal accumulation',
+    'temporal upsampling', // 不能更高：视频理解领域同用此短语
+    'reprojection',
+    'inpainting',
+    'frame interpolation',
+    'deferred shading',
+    'supersampling',
+    'view synthesis',
+  ],
+  context: [
+    'real-time rendering',
+    'neural rendering',
+    'upsampling',
+    'super-resolution',
+    'latency',
+    'display',
+    'user study',
+    'rendering',
+    'gpu',
+    'stereo',
+    'temporal',
+  ],
 
   weights: {
     core: 10,
     related: 3,
     context: 1,
     titleBonus: 5,
-    // arXiv 服务端已经判定它匹配了主题检索式，给个起步分。
     topicBonus: 6,
-    // 刻意给得低：cs.GR 里一篇泛泛的论文不该压过 cs.HC 里真正的注视点研究。
+    // 刻意低：cs.GR 里泛泛的论文不该压过其他分类里真正对题的。
     sweepBonus: 2,
   },
 
   minScore: 10,
   exclude: [],
-  // 半年。注视点方向大约每月几篇，半年的窗口能凑出一页有内容的排行，
-  // 又不至于推到三年前的东西。
   recentDays: 180,
   dailyLimit: 15,
+  // 6 个主题 × 2 保底 = 12 个近期名额全覆盖；有主题没货时名额回流自由竞争。
+  quotaPerTopic: 2,
   historyDays: 0,
   classics: {
     perQuery: 25,

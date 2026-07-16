@@ -32,6 +32,9 @@ export const FeedPaper = z.object({
   isNew: z.boolean().default(false),
   /** Global citation count (OpenAlex, preprint-version). 0 = unknown. */
   citedBy: z.number().default(0),
+  /** Topic group name from config/feeds.ts ('' = matched no topic term).
+   *  Drives the per-topic quota and the /arxiv topic filter. */
+  topic: z.string().default(''),
   /**
    * 'fresh' = recent + relevant; 'classic' = old but highly cited, mixed in so
    * the feed also surfaces the field's canonical papers. Defaults keep old

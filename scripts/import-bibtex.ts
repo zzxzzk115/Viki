@@ -169,6 +169,8 @@ const VENUE_DICT: [RegExp, string][] = [
   [/attention,? perception/i, 'Attention, Perception & Psychophysics'],
   [/sigchi/i, 'SIGCHI Bulletin'],
   [/siggraph/i, 'SIGGRAPH'],
+  // Entries appended by the site's 加入待读 button (howpublished = arXiv preprint …).
+  [/arxiv/i, 'arXiv'],
 ]
 
 function deriveVenue(e: Entry): string {

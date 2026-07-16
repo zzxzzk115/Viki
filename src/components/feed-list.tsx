@@ -1,4 +1,5 @@
 import type { FeedPaper } from '@/lib/papers-feed'
+import { AddToBib } from './add-to-bib'
 
 export function FeedList({ papers }: { papers: FeedPaper[] }) {
   return (
@@ -9,6 +10,16 @@ export function FeedList({ papers }: { papers: FeedPaper[] }) {
             {p.isNew && (
               <span className="rounded bg-sky-100 px-1.5 py-0.5 font-medium text-sky-700 dark:bg-sky-950 dark:text-sky-300">
                 新
+              </span>
+            )}
+            {p.kind === 'classic' && (
+              <span className="rounded bg-amber-100 px-1.5 py-0.5 font-medium text-amber-700 dark:bg-amber-950 dark:text-amber-300">
+                经典 · 被引 {p.citedBy}
+              </span>
+            )}
+            {p.topic && (
+              <span className="rounded bg-neutral-100 px-1.5 py-0.5 font-medium text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300">
+                {p.topic}
               </span>
             )}
             <span className="tabular-nums">{p.published}</span>
@@ -44,7 +55,7 @@ export function FeedList({ papers }: { papers: FeedPaper[] }) {
             </p>
           )}
 
-          <p className="mt-2 flex gap-3 text-xs">
+          <p className="mt-2 flex flex-wrap items-center gap-3 text-xs">
             <a href={p.url} className="text-neutral-500 hover:underline">
               {p.source === 'arxiv' ? `arXiv:${p.id}` : '详情'}
             </a>
@@ -52,6 +63,11 @@ export function FeedList({ papers }: { papers: FeedPaper[] }) {
               <a href={p.pdf} className="text-neutral-500 hover:underline">
                 PDF
               </a>
+            )}
+            {p.source === 'arxiv' && (
+              <AddToBib
+                paper={{ id: p.id, title: p.title, authors: p.authors, published: p.published, url: p.url }}
+              />
             )}
           </p>
         </li>
