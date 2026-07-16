@@ -1,0 +1,248 @@
+{
+  "fetchedAt": "2026-07-16",
+  "edges": [
+    {
+      "source": "papers/accelerating-stereo-reprojection",
+      "target": "papers/post-rendering-warping"
+    },
+    {
+      "source": "papers/accelerating-stereo-reprojection",
+      "target": "papers/hybrid-image-warping"
+    },
+    {
+      "source": "papers/accelerating-stereo-reprojection",
+      "target": "papers/taa-survey"
+    },
+    {
+      "source": "papers/accelerating-stereo-reprojection",
+      "target": "papers/accelerated-stereo-reprojection"
+    },
+    {
+      "source": "papers/adaptive-stereo-view-synthesis",
+      "target": "papers/view-interpolation"
+    },
+    {
+      "source": "papers/adaptive-stereo-view-synthesis",
+      "target": "papers/reverse-reprojection-caching"
+    },
+    {
+      "source": "papers/async-time-warp",
+      "target": "papers/post-rendering-warping"
+    },
+    {
+      "source": "papers/exemplar-inpainting",
+      "target": "papers/image-inpainting-bertalmio"
+    },
+    {
+      "source": "papers/foveated-3d-graphics",
+      "target": "papers/reverse-reprojection-caching"
+    },
+    {
+      "source": "papers/foveated-ray-tracing",
+      "target": "papers/foveated-3d-graphics"
+    },
+    {
+      "source": "papers/foveated-ray-tracing",
+      "target": "papers/post-rendering-warping"
+    },
+    {
+      "source": "papers/foveated-ray-tracing",
+      "target": "papers/reverse-reprojection-caching"
+    },
+    {
+      "source": "papers/foveated-vr",
+      "target": "papers/foveated-3d-graphics"
+    },
+    {
+      "source": "papers/hybrid-image-warping",
+      "target": "papers/adaptive-stereo-view-synthesis"
+    },
+    {
+      "source": "papers/hybrid-image-warping",
+      "target": "papers/post-rendering-warping"
+    },
+    {
+      "source": "papers/hybrid-image-warping",
+      "target": "papers/iterative-image-warping"
+    },
+    {
+      "source": "papers/hybrid-image-warping",
+      "target": "papers/view-interpolation"
+    },
+    {
+      "source": "papers/hybrid-image-warping",
+      "target": "papers/reverse-reprojection-caching"
+    },
+    {
+      "source": "papers/iterative-depth-warping",
+      "target": "papers/adaptive-stereo-view-synthesis"
+    },
+    {
+      "source": "papers/iterative-depth-warping",
+      "target": "papers/post-rendering-warping"
+    },
+    {
+      "source": "papers/iterative-depth-warping",
+      "target": "papers/iterative-image-warping"
+    },
+    {
+      "source": "papers/iterative-depth-warping",
+      "target": "papers/view-interpolation"
+    },
+    {
+      "source": "papers/iterative-depth-warping",
+      "target": "papers/reverse-reprojection-caching"
+    },
+    {
+      "source": "papers/iterative-depth-warping",
+      "target": "papers/lumigraph"
+    },
+    {
+      "source": "papers/iterative-image-warping",
+      "target": "papers/adaptive-stereo-view-synthesis"
+    },
+    {
+      "source": "papers/iterative-image-warping",
+      "target": "papers/post-rendering-warping"
+    },
+    {
+      "source": "papers/iterative-image-warping",
+      "target": "papers/view-interpolation"
+    },
+    {
+      "source": "papers/iterative-image-warping",
+      "target": "papers/reverse-reprojection-caching"
+    },
+    {
+      "source": "papers/iterative-image-warping",
+      "target": "papers/lumigraph"
+    },
+    {
+      "source": "papers/karis-taa",
+      "target": "papers/image-inpainting-bertalmio"
+    },
+    {
+      "source": "papers/karis-taa",
+      "target": "papers/iterative-depth-warping"
+    },
+    {
+      "source": "papers/lumigraph",
+      "target": "papers/view-interpolation"
+    },
+    {
+      "source": "papers/metameric-inpainting",
+      "target": "papers/post-rendering-warping"
+    },
+    {
+      "source": "papers/metameric-inpainting",
+      "target": "papers/exemplar-inpainting"
+    },
+    {
+      "source": "papers/metameric-inpainting",
+      "target": "papers/lumigraph"
+    },
+    {
+      "source": "papers/patch-sparsity-inpainting",
+      "target": "papers/exemplar-inpainting"
+    },
+    {
+      "source": "papers/patch-sparsity-inpainting",
+      "target": "papers/image-inpainting-bertalmio"
+    },
+    {
+      "source": "papers/perceptual-rasterization",
+      "target": "papers/foveated-3d-graphics"
+    },
+    {
+      "source": "papers/perceptual-rasterization",
+      "target": "papers/post-rendering-warping"
+    },
+    {
+      "source": "papers/perceptual-rasterization",
+      "target": "papers/view-interpolation"
+    },
+    {
+      "source": "papers/perceptual-rasterization",
+      "target": "papers/foveated-vr"
+    },
+    {
+      "source": "papers/perceptual-rasterization",
+      "target": "papers/hybrid-image-warping"
+    },
+    {
+      "source": "papers/perceptual-rasterization",
+      "target": "papers/foveated-ray-tracing"
+    },
+    {
+      "source": "papers/post-rendering-warping",
+      "target": "papers/view-interpolation"
+    },
+    {
+      "source": "papers/post-rendering-warping",
+      "target": "papers/lumigraph"
+    },
+    {
+      "source": "papers/post-rendering-warping",
+      "target": "papers/footprint-splatting"
+    },
+    {
+      "source": "papers/reverse-reprojection-caching",
+      "target": "papers/post-rendering-warping"
+    },
+    {
+      "source": "papers/reverse-reprojection-caching",
+      "target": "papers/view-interpolation"
+    },
+    {
+      "source": "papers/semantic-inpainting",
+      "target": "papers/image-inpainting-bertalmio"
+    },
+    {
+      "source": "papers/taa-survey",
+      "target": "papers/foveated-vr"
+    }
+  ],
+  "citedBy": {
+    "papers/accelerated-stereo-reprojection": 13,
+    "papers/accelerating-stereo-reprojection": 3,
+    "papers/adaptive-stereo-view-synthesis": 41,
+    "papers/async-time-warp": 106,
+    "papers/clustered-shading": 31,
+    "papers/cybersickness-discussion": 1397,
+    "papers/digital-image-warping": 68,
+    "papers/exemplar-inpainting": 3235,
+    "papers/footprint-splatting": 408,
+    "papers/foveated-3d-graphics": 365,
+    "papers/foveated-ray-tracing": 81,
+    "papers/foveated-vr": 472,
+    "papers/fxaa": 4,
+    "papers/hbao": 135,
+    "papers/hybrid-image-warping": 25,
+    "papers/image-inpainting-bertalmio": 3588,
+    "papers/iterative-depth-warping": 22,
+    "papers/iterative-image-warping": 34,
+    "papers/karis-taa": 1,
+    "papers/linearly-transformed-cosines": 86,
+    "papers/lumigraph": 2464,
+    "papers/metameric-inpainting": 5,
+    "papers/patch-sparsity-inpainting": 534,
+    "papers/perceptual-rasterization": 34,
+    "papers/post-rendering-warping": 482,
+    "papers/qsplat": 956,
+    "papers/reverse-reprojection-caching": 92,
+    "papers/rsvp-13ms": 508,
+    "papers/screen-space-ray-tracing": 43,
+    "papers/semantic-inpainting": 1228,
+    "papers/taa-survey": 65,
+    "papers/tiled-forward-shading": 1,
+    "papers/tiled-shading": 32,
+    "papers/transformer-inpainting-survey": 25,
+    "papers/view-interpolation": 1107
+  },
+  "unresolved": [
+    "papers/uncharted-technology"
+  ],
+  "notes": [
+    "未在 OpenAlex 找到（无引用边，仅作节点）: papers/uncharted-technology"
+  ]
+}
