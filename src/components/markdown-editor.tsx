@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef } from 'react'
+import { useEffect, useImperativeHandle, useRef, type Ref } from 'react'
 import { defaultKeymap, history, historyKeymap, indentWithTab } from '@codemirror/commands'
 import { markdown, markdownLanguage } from '@codemirror/lang-markdown'
 import { languages } from '@codemirror/language-data'
@@ -22,18 +22,41 @@ import { classHighlighter } from '@lezer/highlight'
  * other theme rule. Fenced code blocks get their languages lazy-loaded via
  * @codemirror/language-data — none of them weigh on the initial bundle.
  */
+export interface MarkdownEditorHandle {
+  /**
+   * Replaces the whole document as ONE undoable transaction — an AI fill is
+   * a single Ctrl+Z away from the previous text. The updateListener fires,
+   * so onChange/dirty propagate exactly like typing.
+   */
+  setValue: (text: string) => void
+}
+
 export function MarkdownEditor({
   initialValue,
   onChange,
+  ref,
 }: {
   initialValue: string
   onChange: (value: string) => void
+  ref?: Ref<MarkdownEditorHandle>
 }) {
   const host = useRef<HTMLDivElement>(null)
   const view = useRef<EditorView | null>(null)
   // Keep the latest onChange without re-creating the editor.
   const onChangeRef = useRef(onChange)
   onChangeRef.current = onChange
+
+  useImperativeHandle(
+    ref,
+    () => ({
+      setValue: (text: string) => {
+        const v = view.current
+        if (!v) return
+        v.dispatch({ changes: { from: 0, to: v.state.doc.length, insert: text } })
+      },
+    }),
+    [],
+  )
 
   useEffect(() => {
     if (!host.current) return

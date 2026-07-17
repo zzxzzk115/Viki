@@ -59,3 +59,49 @@ export function bibHasArxivId(bib: string, id: string): boolean {
 export function appendBibEntry(bib: string, entry: string): string {
   return `${bib.replace(/\s*$/, '')}\n\n${entry}\n`
 }
+
+/** doi.org prefixes and case variance make substring checks unreliable —
+ *  normalize before comparing. */
+export function normalizeDoi(doi: string): string {
+  return doi
+    .trim()
+    .toLowerCase()
+    .replace(/^https?:\/\/(dx\.)?doi\.org\//, '')
+}
+
+/**
+ * Every DOI present in the .bib, extracted from `doi = {...}` fields (not
+ * substring search: a DOI can legitimately appear inside a url field of a
+ * DIFFERENT entry). Used by the Zotero importer for batch dedup.
+ */
+export function extractBibDois(bib: string): Set<string> {
+  const out = new Set<string>()
+  for (const m of bib.matchAll(/^\s*doi\s*=\s*[{"]([^}"]+)[}"]/gim) as Iterable<RegExpMatchArray>) {
+    out.add(normalizeDoi(m[1]))
+  }
+  return out
+}
+
+export function bibHasDoi(bib: string, doi: string): boolean {
+  return extractBibDois(bib).has(normalizeDoi(doi))
+}
+
+/**
+ * Splits a multi-entry BibTeX string (e.g. a Zotero export) into individual
+ * entries. Boundary = a line starting with '@' — braces inside field values
+ * never start a line in generated BibTeX, so no brace counting is needed.
+ */
+export function splitBibEntries(bibtex: string): string[] {
+  const out: string[] = []
+  let current: string[] = []
+  for (const line of bibtex.split('\n')) {
+    if (/^\s*@/.test(line) && current.some((l) => l.trim() !== '')) {
+      out.push(current.join('\n').trim())
+      current = []
+    }
+    current.push(line)
+  }
+  const last = current.join('\n').trim()
+  if (last.startsWith('@')) out.push(last)
+  return out.filter((e) => e.startsWith('@'))
+}

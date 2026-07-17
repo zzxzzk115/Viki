@@ -397,6 +397,15 @@ async function main() {
   const titleMap: Record<string, { title: string; href: string }> = {}
   for (const d of [...notes, ...papers]) titleMap[d.slug] = { title: d.meta.title, href: d.href }
   await writeFile(join(PUBLIC_DATA, 'titles.json'), JSON.stringify(titleMap))
+  // For the AI chat's draft placement proposal (valid subject dirs + names).
+  await writeFile(
+    join(PUBLIC_DATA, 'subjects.json'),
+    JSON.stringify(
+      Object.values(subjects)
+        .sort((a, b) => a.order - b.order)
+        .map((s) => ({ dir: s.dir, name: s.name })),
+    ),
+  )
 
   if (warnings.length) {
     console.warn(`\n⚠ ${warnings.length} 个失效的 wiki-link (页面会标红，不阻断构建):`)

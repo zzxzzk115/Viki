@@ -11,7 +11,8 @@ import {
   ghLoadFile,
   readStoredToken,
 } from '@/lib/github-edit'
-import { MarkdownEditor } from '@/components/markdown-editor'
+import { AiBriefPanel } from '@/components/ai-brief-panel'
+import { MarkdownEditor, type MarkdownEditorHandle } from '@/components/markdown-editor'
 import { createPreview, type PreviewContext } from '@/lib/preview'
 
 type LoadState =
@@ -32,6 +33,9 @@ export function EditorUI() {
   const params = useSearchParams()
   const path = params.get('path') ?? ''
   const validPath = /^(content|scratch)\/[\w\-./ ]+\.(md|mdx|yml|bib)$/.test(path) && !path.includes('..')
+  // ?brief=1 (from the paper page's AI 导读 link) shows the brief panel; the
+  // extra paper-path check makes hand-typed URLs on non-papers fail safe.
+  const brief = params.get('brief') === '1' && /^content\/papers\//.test(path)
 
   const [text, setText] = useState('')
   const [load, setLoad] = useState<LoadState>({ phase: 'loading' })
@@ -42,6 +46,11 @@ export function EditorUI() {
   const [result, setResult] = useState<{ ok: boolean; text: string; url?: string } | null>(null)
   const [previewHtml, setPreviewHtml] = useState('')
   const previewRef = useRef<((md: string) => Promise<string>) | null>(null)
+  const editorRef = useRef<MarkdownEditorHandle>(null)
+  // Latest text for the brief panel to read lazily (a prop would re-render
+  // the panel on every keystroke for no reason).
+  const textRef = useRef('')
+  textRef.current = text
 
   // Token lives in localStorage — read after mount only (SSR has no storage).
   useEffect(() => {
@@ -146,8 +155,17 @@ export function EditorUI() {
 
       {load.phase === 'ready' && (
         <>
+          {brief && (
+            <div className="mt-4">
+              <AiBriefPanel
+                getText={() => textRef.current}
+                onFilled={(merged) => editorRef.current?.setValue(merged)}
+              />
+            </div>
+          )}
           <div className="mt-4 grid gap-4 lg:grid-cols-2">
             <MarkdownEditor
+              ref={editorRef}
               initialValue={text}
               onChange={(v) => {
                 setText(v)

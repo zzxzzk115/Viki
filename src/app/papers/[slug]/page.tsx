@@ -113,8 +113,18 @@ export default async function PaperPage({ params }: Props) {
             </section>
           )}
 
-          <div className="mt-12 border-t border-neutral-200 pt-6 dark:border-neutral-800">
+          <div className="mt-12 flex flex-wrap items-center gap-4 border-t border-neutral-200 pt-6 dark:border-neutral-800">
             <EditOnGitHub path={paper.sourcePath} />
+            {/* to-read only: mergeBrief refuses to touch human-written
+                sections, so on read papers this button could only fail. */}
+            {m.status === 'to-read' && (
+              <Link
+                href={{ pathname: '/editor/', query: { path: paper.sourcePath, brief: '1' } }}
+                className="text-sm text-sky-600 underline decoration-dotted underline-offset-2 hover:text-sky-800 dark:text-sky-400 dark:hover:text-sky-200"
+              >
+                ✨ AI 导读
+              </Link>
+            )}
           </div>
         </article>
 

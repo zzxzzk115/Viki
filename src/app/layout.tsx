@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { AiChat } from '@/components/ai-chat'
 import { CopyCode } from '@/components/copy-code'
 import { Icon } from '@/components/icon'
 import { ImageLightbox } from '@/components/image-lightbox'
@@ -72,6 +73,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SrsSyncAgent />
         <CopyCode />
         <ImageLightbox />
+        {/* Renders nothing until an AI provider is configured in /settings. */}
+        <AiChat />
 
         <footer className="border-t border-neutral-200 py-8 text-center text-xs text-neutral-400 dark:border-neutral-800">
           <a

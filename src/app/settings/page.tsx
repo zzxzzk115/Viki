@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
+import { AiSettings } from '@/components/ai-settings'
 import { TokenSettings } from '@/components/token-settings'
+import { ZoteroSettings } from '@/components/zotero-settings'
 
 export const metadata: Metadata = {
   title: '设置',
@@ -20,13 +22,15 @@ export default function SettingsPage() {
 
       <div className="mt-8 space-y-6">
         <TokenSettings />
+        <AiSettings />
+        <ZoteroSettings />
 
         <div className="rounded-xl border border-neutral-200 p-5 text-sm leading-relaxed text-neutral-600 dark:border-neutral-800 dark:text-neutral-400">
-          <h2 className="text-sm font-semibold text-neutral-900 dark:text-neutral-100">token 解锁什么</h2>
+          <h2 className="text-sm font-semibold text-neutral-900 dark:text-neutral-100">各项配置解锁什么</h2>
           <ul className="mt-2 list-inside list-disc space-y-1 text-xs">
-            <li>在线编辑器：笔记/论文直接提交回仓库（普通 push，自动触发部署）</li>
-            <li>复习进度同步：SM-2 进度与刷题统计提交到 data 分支，换设备自动合并（注意：仓库公开，进度数据也公开——只是复习日期和难度系数，无笔记内容）</li>
-            <li>arXiv 推荐「加入待读」：BibTeX 追加 + CI 生成待读页</li>
+            <li>GitHub token：在线编辑器提交、复习进度同步到 data 分支（注意：仓库公开，进度数据也公开——只是复习日期和难度系数）、arXiv 推荐「加入待读」、AI 草稿入库、Zotero 导入提交</li>
+            <li>AI 助手：待读论文页的「AI 导读」（摘要生成初稿填入编辑器，人工核对后提交）、全站侧边栏问答与笔记草稿生成</li>
+            <li>Zotero：/import 页从 Zotero 收藏夹勾选文献、去重后追加进 .bib，CI 自动生成待读页</li>
           </ul>
         </div>
       </div>

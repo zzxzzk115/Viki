@@ -295,6 +295,18 @@ s("bd hh sd hh")
 
 安全边界：编辑器只接受 `content/`、`scratch/` 下的 `.md/.mdx/.yml/.bib` 路径，workflow、脚本等一律拒绝；提交用文件 sha 做乐观锁，别处改过会得到 409 提示而不是静默覆盖。
 
+## AI 功能（可选，全部需要在 /settings 配置提供商）
+
+在设置页配好 AI 提供商（Anthropic 支持浏览器直连；OpenAI 兼容端点需自填允许 CORS 的 baseURL，如本地 Ollama——OpenAI 官方 API 不允许浏览器直连）后解锁三处：
+
+- **AI 论文导读**：待读论文页出现「✨ AI 导读」，进编辑器一键生成——从 OpenAlex 按 DOI 拉摘要，AI 只基于**元数据+摘要**写 `贡献/方法` 初稿（带「AI 初稿，待核对」标记），填入编辑器供人工核对后走正常提交。**`我的评价` 永远不让 AI 碰**——没读过的论文写评价是造假；重跑会替换标记块而不是叠加；已有人工内容的小节拒绝覆盖。
+- **AI 侧边栏**：右下角 ✨ 按钮，问知识点；答完可「沉淀成笔记草稿」——AI 提议路径/标签/正文，路径过白名单校验+重名探测，**预览渲染与站点一致**，你改完确认才会提交入库（走 PAT，和编辑器同一通道）。对话存 sessionStorage，关标签页即弃。
+- 所有 AI 调用直接从你的浏览器发往提供商，本站没有中转服务器；key 存本机。
+
+## Zotero 导入
+
+设置页配好 Zotero userID（数字）+ 只读 API key 后，[/import](https://zzxzzk115.github.io/Viki/import/) 页可以浏览收藏夹、勾选条目导入：BibTeX 由 Zotero API 原样导出（零转换），按 DOI 与现有 .bib 去重（「已在库」徽章），一次 commit 追加，CI 照常生成待读页。arXiv 条目会从 URL 合成 `10.48550/arXiv.<id>` 参与去重，所以和「加入待读」按钮加过的不会重复。
+
 ## 批量导入论文（BibTeX）
 
 把 BibTeX 追加到 [scratch/related-work.bib](scratch/related-work.bib)，然后：
