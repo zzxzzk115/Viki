@@ -5,6 +5,7 @@ venue: "Graphics Hardware 2007"
 venueType: conference
 year: 2007
 tags: ["重投影", "着色"]
+rating: 5
 status: read
 ---
 
