@@ -33,6 +33,14 @@ const glossary: Glossary = {
   辐射亮度: { en: 'radiance', def: '沿光线不变', abbr: undefined, aka: ['亮度'], see: undefined },
 }
 
+// Enough entries to supply cloze distractors (3 needed besides the answer).
+const bigGlossary: Glossary = {
+  ...glossary,
+  辐照度: { en: 'irradiance', def: '', abbr: undefined, aka: [], see: undefined },
+  立体角: { en: 'solid angle', def: '', abbr: undefined, aka: [], see: undefined },
+  渲染方程: { en: 'rendering equation', def: '', abbr: undefined, aka: [], see: undefined },
+}
+
 const QUIZ = { correct: '对的表述', distractors: ['错 1', '错 2', '错 3'] }
 
 const seq = (...vals: number[]) => {
@@ -99,31 +107,54 @@ describe('findBlankables（术语 + 加粗关键词）', () => {
   })
 })
 
-describe('buildClozeQuestion', () => {
+describe('buildClozeQuestion（填空选择：候选词点选，不打字）', () => {
   it('挖掉整个 term span（含嵌套的英文标注），周围文本保留', () => {
-    const q = buildClozeQuestion(card('a', TERM_HTML), glossary, seq(0))!
+    const q = buildClozeQuestion(card('a', TERM_HTML), bigGlossary, seq(0))!
     assert.ok(q.blankedHtml.includes(BLANK_MARKER))
     assert.ok(!q.blankedHtml.includes('辐射亮度'), '中文术语泄漏')
     assert.ok(!q.blankedHtml.includes('radiance'), '嵌套的英文标注泄漏——正好是答案！')
     assert.ok(q.blankedHtml.includes('渲染方程用') && q.blankedHtml.includes('表示。'))
   })
 
-  it('接受 中文/英文/别名，大小写与空白归一', () => {
-    const q = buildClozeQuestion(card('a', TERM_HTML), glossary, seq(0))!
+  it('4 个候选词、correctIndex 指向被挖的词、无重复', () => {
+    const q = buildClozeQuestion(card('a', TERM_HTML), bigGlossary, seq(0, 0.4, 0.8, 0.2))!
+    assert.equal(q.options.length, 4)
+    assert.equal(q.options[q.correctIndex], '辐射亮度')
+    assert.equal(new Set(q.options).size, 4)
+  })
+
+  it('与答案等价的词（别名）不会成为干扰项——避免两个正确选项', () => {
+    const withAlias: Glossary = { ...bigGlossary, 亮度: { en: 'x', def: '', abbr: undefined, aka: [], see: undefined } }
+    for (let s = 0; s < 10; s++) {
+      const q = buildClozeQuestion(card('a', TERM_HTML), withAlias, seq(s / 10, 0.3, 0.7))!
+      const others = q.options.filter((_, i) => i !== q.correctIndex)
+      assert.ok(!others.includes('亮度'), '「亮度」是「辐射亮度」的别名，checkCloze 会判它对')
+    }
+  })
+
+  it('干扰词优先取同笔记/同科目的卡', () => {
+    const pool = [
+      card('a', TERM_HTML, undefined),
+      card('near', '<p><strong>近处关键词</strong>一次。</p>'),
+    ]
+    pool[1].noteSlug = pool[0].noteSlug
+    const q = buildClozeQuestion(pool[0], bigGlossary, seq(0, 0.01), pool)!
+    assert.ok(q.options.includes('近处关键词'), '同笔记的关键词应进候选')
+  })
+
+  it('凑不齐 3 个干扰词 -> null', () => {
+    assert.equal(buildClozeQuestion(card('a', TERM_HTML), glossary, seq(0)), null)
+  })
+
+  it('checkCloze 归一：接受 中文/英文/别名', () => {
+    const q = buildClozeQuestion(card('a', TERM_HTML), bigGlossary, seq(0))!
     assert.ok(checkCloze('辐射亮度', q.accepted))
     assert.ok(checkCloze('  Radiance ', q.accepted))
-    assert.ok(checkCloze('亮度', q.accepted))
     assert.ok(!checkCloze('辐照度', q.accepted))
   })
 
-  it('挖加粗关键词时 blanked 不再含该词', () => {
-    const q = buildClozeQuestion(card('a', '<p>贵在 <strong>无法内联</strong> 这一点。</p>'), {}, seq(0))!
-    assert.ok(!q.blankedHtml.includes('无法内联'))
-    assert.ok(checkCloze('无法内联', q.accepted))
-  })
-
   it('无可挖内容的卡 -> null', () => {
-    assert.equal(buildClozeQuestion(card('a', '<p>plain</p>'), glossary), null)
+    assert.equal(buildClozeQuestion(card('a', '<p>plain</p>'), bigGlossary), null)
   })
 })
 
@@ -137,19 +168,19 @@ describe('buildSession', () => {
   ]
 
   it('生成 n 题，到期优先，不可出题的卡被跳过', () => {
-    const qs = buildSession(pool, new Set(['c']), new Set(['a']), glossary, 10, seq(0.9, 0.2, 0.6))
+    const qs = buildSession(pool, new Set(['c']), new Set(['a']), bigGlossary, 10, seq(0.9, 0.2, 0.6))
     assert.equal(qs[0].card.id, 'c', '到期卡应排第一')
     assert.ok(!qs.some((q) => q.card.id === 'd'), '无 quiz 也无关键词的卡不该出题')
     assert.equal(qs.length, 4)
   })
 
   it('池子小于 n 时不重复出题', () => {
-    const qs = buildSession(pool, new Set(), new Set(), glossary, 10, seq(0.3, 0.8))
+    const qs = buildSession(pool, new Set(), new Set(), bigGlossary, 10, seq(0.3, 0.8))
     assert.equal(new Set(qs.map((q) => q.card.id)).size, qs.length)
   })
 
   it('两种题型都会出现（有 quiz 的出选择、有术语的出填空）', () => {
-    const qs = buildSession(pool, new Set(), new Set(), glossary, 10, seq(0.1, 0.6, 0.3, 0.8))
+    const qs = buildSession(pool, new Set(), new Set(), bigGlossary, 10, seq(0.1, 0.6, 0.3, 0.8))
     const modes = new Set(qs.map((q) => q.mode))
     assert.ok(modes.has('choice') && modes.has('cloze'))
   })

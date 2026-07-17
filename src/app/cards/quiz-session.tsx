@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { withBase } from '@/lib/base-path'
-import { buildSession, checkCloze, gradeFor, type QuizQuestion } from '@/lib/quiz'
+import { buildSession, gradeFor, type QuizQuestion } from '@/lib/quiz'
 import { recordAnswer, useQuizStats } from '@/lib/quiz-store'
 import type { Card, Glossary } from '@/lib/schema'
 import { pickNext, schedule, stats, sweep, toDateKey } from '@/lib/srs'
@@ -36,9 +36,8 @@ export function QuizSession({ subject }: { subject?: string }) {
   const [session, setSession] = useState<QuizQuestion[] | null>(null)
   const [index, setIndex] = useState(0)
   const [answered, setAnswered] = useState<Answered[]>([])
-  /** For the current question: chosen option index / cloze verdict. */
+  /** Chosen option index for the current question (choice and cloze alike). */
   const [choice, setChoice] = useState<number | null>(null)
-  const [clozeInput, setClozeInput] = useState('')
   const [revealed, setRevealed] = useState(false)
 
   useEffect(() => {
@@ -74,7 +73,6 @@ export function QuizSession({ subject }: { subject?: string }) {
     setIndex(0)
     setAnswered([])
     setChoice(null)
-    setClozeInput('')
     setRevealed(false)
     // store is intentionally read once at session start — mid-session grading
     // must not rebuild the running session.
@@ -108,7 +106,6 @@ export function QuizSession({ subject }: { subject?: string }) {
   const next = () => {
     setIndex((i) => i + 1)
     setChoice(null)
-    setClozeInput('')
     setRevealed(false)
   }
 
@@ -237,36 +234,37 @@ export function QuizSession({ subject }: { subject?: string }) {
               className="prose prose-neutral dark:prose-invert mt-5 max-w-none"
               dangerouslySetInnerHTML={{ __html: q.blankedHtml }}
             />
-            <form
-              className="mt-4 flex gap-2"
-              onSubmit={(e) => {
-                e.preventDefault()
-                if (!revealed) submit(checkCloze(clozeInput, q.accepted))
-              }}
-            >
-              <input
-                type="text"
-                value={clozeInput}
-                onChange={(e) => setClozeInput(e.target.value)}
-                disabled={revealed}
-                placeholder="填入被挖掉的关键词（术语可用中文/英文/缩写）"
-                className="w-full rounded-lg border border-neutral-300 bg-transparent px-3 py-2 text-sm outline-none focus:border-neutral-500 disabled:opacity-60 dark:border-neutral-700"
-              />
-              <button
-                type="submit"
-                disabled={revealed || !clozeInput.trim()}
-                className="shrink-0 rounded-lg bg-neutral-900 px-4 py-2 text-sm font-medium text-white disabled:opacity-40 dark:bg-neutral-100 dark:text-neutral-900"
-              >
-                提交
-              </button>
-            </form>
-            {revealed && (
-              <p
-                className={`mt-3 text-sm ${answered[answered.length - 1]?.correct ? 'text-emerald-600 dark:text-emerald-400' : 'text-red-600 dark:text-red-400'}`}
-              >
-                {answered[answered.length - 1]?.correct ? '✓ 正确' : '✗ 不对'}
-                ——答案是「{q.term}」
-              </p>
+            {/* Word options instead of a text input: typing exact Chinese
+                phrases (especially on mobile) tested transcription, not memory. */}
+            <div className="mt-4 flex flex-wrap gap-2" data-cloze-options>
+              {q.options.map((opt, i) => {
+                const isPicked = choice === i
+                const isRight = i === q.correctIndex
+                const cls = !revealed
+                  ? 'border-neutral-300 hover:border-neutral-500 hover:bg-neutral-50 dark:border-neutral-700 dark:hover:bg-neutral-800'
+                  : isRight
+                    ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-950'
+                    : isPicked
+                      ? 'border-red-400 bg-red-50 dark:bg-red-950'
+                      : 'border-neutral-200 opacity-50 dark:border-neutral-800'
+                return (
+                  <button
+                    key={i}
+                    type="button"
+                    disabled={revealed}
+                    onClick={() => {
+                      setChoice(i)
+                      submit(i === q.correctIndex)
+                    }}
+                    className={`rounded-lg border px-3.5 py-2 text-sm transition ${cls}`}
+                  >
+                    {opt}
+                  </button>
+                )
+              })}
+            </div>
+            {revealed && !answered[answered.length - 1]?.correct && (
+              <p className="mt-3 text-sm text-red-600 dark:text-red-400">✗ 不对——答案是「{q.term}」</p>
             )}
           </>
         )}

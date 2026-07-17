@@ -11,6 +11,7 @@ import {
   ghLoadFile,
   readStoredToken,
 } from '@/lib/github-edit'
+import { MarkdownEditor } from '@/components/markdown-editor'
 import { createPreview, type PreviewContext } from '@/lib/preview'
 
 type LoadState =
@@ -146,22 +147,21 @@ export function EditorUI() {
       {load.phase === 'ready' && (
         <>
           <div className="mt-4 grid gap-4 lg:grid-cols-2">
-            <textarea
-              value={text}
-              onChange={(e) => {
-                setText(e.target.value)
+            <MarkdownEditor
+              initialValue={text}
+              onChange={(v) => {
+                setText(v)
                 setDirty(true)
               }}
-              spellCheck={false}
-              className="min-h-[32rem] w-full resize-y rounded-xl border border-neutral-300 bg-transparent p-4 font-mono text-sm leading-relaxed outline-none focus:border-neutral-500 dark:border-neutral-700 dark:focus:border-neutral-400"
             />
             <div
-              className="prose prose-neutral dark:prose-invert min-h-[32rem] max-w-none overflow-y-auto rounded-xl border border-neutral-200 p-4 dark:border-neutral-800"
+              className="prose prose-neutral dark:prose-invert max-h-[70vh] min-h-[32rem] max-w-none overflow-y-auto rounded-xl border border-neutral-200 p-4 dark:border-neutral-800"
               dangerouslySetInnerHTML={{ __html: previewHtml }}
             />
           </div>
           <p className="mt-2 text-xs text-neutral-400">
-            预览与站点渲染一致（卡片 / 术语 / 公式 / wiki-link），唯一差别是代码块不做高亮。
+            Ctrl+B 加粗 · Ctrl+I 斜体 · Ctrl+K 链接 · 预览与站点渲染一致（卡片 / 术语 / 公式 /
+            wiki-link），唯一差别是代码块不做高亮。
           </p>
 
           <div className="mt-6 rounded-xl border border-neutral-200 p-4 dark:border-neutral-800">

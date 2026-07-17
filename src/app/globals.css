@@ -95,6 +95,111 @@ pre[data-theme] {
   }
 }
 
+/* ---- CodeMirror markdown editor (/editor) ----
+   classHighlighter emits semantic .tok-* classes; colors live here so light
+   and dark stay in one place, like every other theme rule in this file. */
+
+.md-editor .cm-editor {
+  min-height: 30rem;
+  max-height: 70vh;
+  font-size: 0.875rem;
+  line-height: 1.7;
+  background: transparent;
+  outline: none;
+}
+
+.md-editor .cm-scroller {
+  overflow: auto;
+  font-family: ui-monospace, 'Cascadia Code', Consolas, monospace;
+  padding: 0.75rem 0.5rem;
+}
+
+.md-editor .cm-content {
+  caret-color: currentColor;
+}
+
+.md-editor .cm-cursor {
+  border-left-color: currentColor;
+}
+
+.md-editor .cm-activeLine {
+  background: color-mix(in oklab, var(--color-neutral-100) 55%, transparent);
+}
+
+.md-editor .cm-selectionBackground,
+.md-editor .cm-editor ::selection {
+  background: color-mix(in oklab, var(--color-sky-200) 60%, transparent);
+}
+
+.md-editor .tok-heading {
+  font-weight: 700;
+  color: var(--color-sky-700);
+}
+.md-editor .tok-strong {
+  font-weight: 700;
+}
+.md-editor .tok-emphasis {
+  font-style: italic;
+}
+.md-editor .tok-link,
+.md-editor .tok-url {
+  color: var(--color-sky-600);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+.md-editor .tok-monospace,
+.md-editor .tok-literal {
+  color: var(--color-rose-700);
+  background: color-mix(in oklab, var(--color-neutral-100) 70%, transparent);
+  border-radius: 0.2em;
+}
+.md-editor .tok-keyword {
+  color: var(--color-purple-700);
+}
+.md-editor .tok-string {
+  color: var(--color-emerald-700);
+}
+.md-editor .tok-comment {
+  color: var(--color-neutral-400);
+}
+.md-editor .tok-meta,
+.md-editor .tok-processingInstruction {
+  color: var(--color-neutral-400);
+}
+
+@media (prefers-color-scheme: dark) {
+  .md-editor .cm-activeLine {
+    background: color-mix(in oklab, var(--color-neutral-800) 55%, transparent);
+  }
+  .md-editor .cm-selectionBackground,
+  .md-editor .cm-editor ::selection {
+    background: color-mix(in oklab, var(--color-sky-800) 50%, transparent);
+  }
+  .md-editor .tok-heading {
+    color: var(--color-sky-400);
+  }
+  .md-editor .tok-link,
+  .md-editor .tok-url {
+    color: var(--color-sky-400);
+  }
+  .md-editor .tok-monospace,
+  .md-editor .tok-literal {
+    color: var(--color-rose-300);
+    background: color-mix(in oklab, var(--color-neutral-800) 70%, transparent);
+  }
+  .md-editor .tok-keyword {
+    color: var(--color-purple-300);
+  }
+  .md-editor .tok-string {
+    color: var(--color-emerald-300);
+  }
+  .md-editor .tok-comment,
+  .md-editor .tok-meta,
+  .md-editor .tok-processingInstruction {
+    color: var(--color-neutral-500);
+  }
+}
+
 /* Long equations must scroll inside their own box; the page body must not. */
 .katex-display {
   overflow-x: auto;

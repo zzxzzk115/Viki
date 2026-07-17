@@ -30,6 +30,13 @@ export interface ClozeQuestion {
   term: string
   /** Normalized accepted answers (中文/en/abbr/aka for terms; the text itself for keywords). */
   accepted: string[]
+  /**
+   * Candidate words to fill the blank — the blanked text plus 3 keyword
+   * distractors. Selection instead of typing: typing exact Chinese phrases
+   * (worse on mobile) tested transcription, not memory.
+   */
+  options: string[]
+  correctIndex: number
 }
 
 export type QuizQuestion = ChoiceQuestion | ClozeQuestion
@@ -123,22 +130,57 @@ export function normalizeAnswer(s: string): string {
 export const BLANK_MARKER =
   '<span class="cloze-blank" aria-label="填空">____</span>'
 
-/** Blank one randomly-chosen region; null when the card has nothing blankable. */
+/**
+ * Blank one randomly-chosen region; null when the card has nothing blankable
+ * or too few plausible fill words exist.
+ *
+ * Distractor words come nearest-first — the card's other blankables, then
+ * same-note cards, then same-subject, then the whole glossary — and anything
+ * accepted-equal to the answer (e.g. an alias of the blanked term) is
+ * excluded, so exactly one option is right.
+ */
 export function buildClozeQuestion(
   card: Card,
   glossary: Glossary,
   random: () => number = Math.random,
+  pool: Card[] = [],
 ): ClozeQuestion | null {
   const blankables = findBlankables(card.answerHtml, glossary)
   if (blankables.length === 0) return null
   const b = blankables[Math.floor(random() * blankables.length)]
+
+  const tiers: string[][] = [
+    blankables.filter((x) => x !== b).map((x) => x.text),
+    cardTexts(pool.filter((c) => c.id !== card.id && c.noteSlug === card.noteSlug), glossary),
+    cardTexts(pool.filter((c) => c.noteSlug !== card.noteSlug && c.subject === card.subject), glossary),
+    Object.keys(glossary),
+  ]
+  const distractors: string[] = []
+  for (const tier of tiers) {
+    for (const text of shuffle(tier, random)) {
+      if (distractors.length === 3) break
+      if (text === b.text || distractors.includes(text)) continue
+      if (b.accepted.includes(normalizeAnswer(text))) continue // a second right answer
+      distractors.push(text)
+    }
+    if (distractors.length === 3) break
+  }
+  if (distractors.length < 3) return null
+
+  const options = shuffle([b.text, ...distractors], random)
   return {
     mode: 'cloze',
     card,
     blankedHtml: card.answerHtml.slice(0, b.start) + BLANK_MARKER + card.answerHtml.slice(b.end),
     term: b.text,
     accepted: b.accepted,
+    options,
+    correctIndex: options.indexOf(b.text),
   }
+}
+
+function cardTexts(cards: Card[], glossary: Glossary): string[] {
+  return cards.flatMap((c) => findBlankables(c.answerHtml, glossary).map((x) => x.text))
 }
 
 /**
@@ -167,8 +209,8 @@ export function buildSession(
     if (questions.length >= n) break
     const preferCloze = random() < 0.5
     const q = preferCloze
-      ? (buildClozeQuestion(card, glossary, random) ?? buildChoiceQuestion(card, random))
-      : (buildChoiceQuestion(card, random) ?? buildClozeQuestion(card, glossary, random))
+      ? (buildClozeQuestion(card, glossary, random, cards) ?? buildChoiceQuestion(card, random))
+      : (buildChoiceQuestion(card, random) ?? buildClozeQuestion(card, glossary, random, cards))
     if (q) questions.push(q)
   }
   return questions
