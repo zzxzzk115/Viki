@@ -257,16 +257,16 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
 
 图片就是普通 markdown 图片，放 `public/img/` 下、根相对路径引用（`![说明](/img/xxx.svg)`，basePath 自动补）。**站内所有正文图片点击即全屏查看**（lightbox）：Esc 关闭、←/→ 在本页图片间切换、再点一次图片放大细看。alt 文字会显示为图注——好好写。
 
-多图用 `:::gallery` 排成响应式网格：
+多图用 `:::gallery` 排成响应式网格（图片保持原始纵横比、不裁切）：
 
 ```markdown
 :::gallery
-![图一说明](/img/a.svg)
-![图二说明](/img/b.svg)
+![图一说明](/img/a.jpg)
+![图二说明](/img/b.jpg)
 :::
 ```
 
-画廊里的图同样进 lightbox，←/→ 顺序浏览。
+画廊里的图同样进 lightbox，←/→ 顺序浏览。**用途是图组**——多张截图、照片、效果对比；宽幅示意图（流程图、架构图）直接全宽内联，塞进多列网格会小到读不清。
 
 ## 音乐模式（Strudel）
 
