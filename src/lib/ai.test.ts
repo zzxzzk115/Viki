@@ -12,17 +12,42 @@ const OPENAI: AiConfig = {
 }
 const MSGS = [{ role: 'user' as const, content: 'hi' }]
 
+type CachedBlock = { type: string; text: string; cache_control?: { type: string } }
+type AnthropicBody = {
+  system?: CachedBlock[]
+  max_tokens: number
+  messages: { role: string; content: string | CachedBlock[] }[]
+}
+
 describe('buildAnthropicRequest', () => {
-  it('URL、三件套请求头、system 顶层字段、默认 max_tokens', () => {
+  it('URL、三件套请求头、默认 max_tokens', () => {
     const r = buildAnthropicRequest(ANTHROPIC, MSGS, { system: 'sys' })
     assert.equal(r.url, 'https://api.anthropic.com/v1/messages')
     assert.equal(r.headers['x-api-key'], 'sk-ant-x')
     assert.equal(r.headers['anthropic-version'], '2023-06-01')
     assert.equal(r.headers['anthropic-dangerous-direct-browser-access'], 'true')
-    const b = r.body as { system?: string; max_tokens: number; messages: unknown[] }
-    assert.equal(b.system, 'sys')
+    const b = r.body as AnthropicBody
     assert.equal(b.max_tokens, 4096)
     assert.equal(b.messages.length, 1)
+  })
+
+  it('system 与末条消息带 prompt caching 断点', () => {
+    const msgs = [
+      { role: 'user' as const, content: 'q1' },
+      { role: 'assistant' as const, content: 'a1' },
+      { role: 'user' as const, content: 'q2' },
+    ]
+    const b = buildAnthropicRequest(ANTHROPIC, msgs, { system: 'sys' }).body as AnthropicBody
+    assert.deepEqual(b.system, [{ type: 'text', text: 'sys', cache_control: { type: 'ephemeral' } }])
+    // 历史消息保持原样，只有末条转成带断点的块 —— 多轮时上一轮前缀命中缓存
+    assert.equal(b.messages[0].content, 'q1')
+    assert.equal(b.messages[1].content, 'a1')
+    assert.deepEqual(b.messages[2].content, [{ type: 'text', text: 'q2', cache_control: { type: 'ephemeral' } }])
+  })
+
+  it('无 system 时不发 system 字段', () => {
+    const b = buildAnthropicRequest(ANTHROPIC, MSGS).body as AnthropicBody
+    assert.ok(!('system' in b))
   })
 })
 

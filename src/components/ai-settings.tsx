@@ -45,9 +45,17 @@ function useAiDraft(): AiConfig | null {
 
 type TestState = { phase: 'idle' } | { phase: 'busy' } | { phase: 'ok'; model: string } | { phase: 'bad'; message: string }
 
-const EMPTY: AiConfig = { v: 1, provider: 'anthropic', apiKey: '', model: '' }
+// Haiku by default: brief/chat outputs are 1-2K tokens where Haiku is 1/5 the
+// price of Opus and plenty capable — users who want more pick it in the list.
+const DEFAULT_MODEL = 'claude-haiku-4-5'
+const EMPTY: AiConfig = { v: 1, provider: 'anthropic', apiKey: '', model: DEFAULT_MODEL }
 
-const ANTHROPIC_MODELS = ['claude-opus-4-8', 'claude-sonnet-5', 'claude-haiku-4-5']
+const ANTHROPIC_MODELS = ['claude-haiku-4-5', 'claude-sonnet-5', 'claude-opus-4-8']
+const MODEL_HINTS: Record<string, string> = {
+  'claude-haiku-4-5': '快、省钱，推荐',
+  'claude-sonnet-5': '均衡',
+  'claude-opus-4-8': '最强',
+}
 const OPENAI_MODEL_SUGGESTIONS = ['qwen3:14b', 'deepseek-chat', 'deepseek-reasoner', 'llama3.1:8b']
 const CUSTOM = '__custom__'
 
@@ -67,7 +75,8 @@ export function AiSettings() {
 
   const update = (patch: Partial<AiConfig>) => {
     const next = { ...cfg, ...patch }
-    const empty = !next.apiKey && !next.model && !next.baseUrl && next.provider === 'anthropic'
+    const empty =
+      !next.apiKey && !next.baseUrl && (!next.model || next.model === DEFAULT_MODEL) && next.provider === 'anthropic'
     saveAiConfig(empty ? null : next)
     setTest({ phase: 'idle' })
   }
@@ -127,7 +136,7 @@ export function AiSettings() {
                 </option>
                 {ANTHROPIC_MODELS.map((m) => (
                   <option key={m} value={m}>
-                    {m}
+                    {m}（{MODEL_HINTS[m]}）
                   </option>
                 ))}
                 <option value={CUSTOM}>自定义…</option>

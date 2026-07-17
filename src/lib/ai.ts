@@ -96,6 +96,15 @@ interface BuiltRequest {
 
 /** Pure and unit-tested — the fetch wrapper below adds nothing but transport. */
 export function buildAnthropicRequest(cfg: AiConfig, messages: ChatMessage[], opts?: ChatOptions): BuiltRequest {
+  // Prompt caching, two breakpoints: the system prompt (byte-identical across
+  // calls in a session) and the last message (in multi-turn chat the previous
+  // turn's whole prefix becomes a cache hit, ~0.1x input price). Prefixes
+  // below the model's minimum cacheable length are silently not cached, so
+  // short prompts pay nothing extra either way.
+  const cacheMark = { cache_control: { type: 'ephemeral' } }
+  const marked = messages.map((m, i) =>
+    i === messages.length - 1 ? { role: m.role, content: [{ type: 'text', text: m.content, ...cacheMark }] } : m,
+  )
   return {
     url: 'https://api.anthropic.com/v1/messages',
     headers: {
@@ -107,8 +116,8 @@ export function buildAnthropicRequest(cfg: AiConfig, messages: ChatMessage[], op
     body: {
       model: cfg.model,
       max_tokens: opts?.maxTokens ?? 4096,
-      ...(opts?.system ? { system: opts.system } : {}),
-      messages,
+      ...(opts?.system ? { system: [{ type: 'text', text: opts.system, ...cacheMark }] } : {}),
+      messages: marked,
     },
   }
 }
