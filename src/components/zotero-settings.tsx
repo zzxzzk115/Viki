@@ -3,6 +3,7 @@
 import { useMemo, useState, useSyncExternalStore } from 'react'
 import {
   readZoteroConfig,
+  readZoteroDraft,
   saveZoteroConfig,
   zFetchCollections,
   ZOTERO_KEY,
@@ -30,13 +31,27 @@ export function useZoteroConfig(): ZoteroConfig | null {
   }, [raw])
 }
 
+/**
+ * Form-only lenient variant: readZoteroConfig returns null until BOTH fields
+ * are filled, and rendering the inputs from it wiped whichever field was
+ * typed first on every keystroke.
+ */
+function useZoteroDraft(): ZoteroConfig | null {
+  const raw = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot)
+  return useMemo(() => {
+    void raw
+    return readZoteroDraft()
+  }, [raw])
+}
+
 type TestState = { phase: 'idle' } | { phase: 'busy' } | { phase: 'ok'; n: number } | { phase: 'bad'; message: string }
 
 const EMPTY: ZoteroConfig = { v: 1, userId: '', apiKey: '' }
 
 export function ZoteroSettings() {
   const stored = useZoteroConfig()
-  const cfg = stored ?? EMPTY
+  const draft = useZoteroDraft()
+  const cfg = draft ?? EMPTY
   const [test, setTest] = useState<TestState>({ phase: 'idle' })
 
   const update = (patch: Partial<ZoteroConfig>) => {
@@ -45,7 +60,7 @@ export function ZoteroSettings() {
     setTest({ phase: 'idle' })
   }
 
-  const configured = !!(stored && stored.userId && stored.apiKey)
+  const configured = !!stored
 
   return (
     <div className="rounded-xl border border-neutral-200 p-5 dark:border-neutral-800">
@@ -98,7 +113,7 @@ export function ZoteroSettings() {
         >
           {test.phase === 'busy' ? '测试中…' : '测试'}
         </button>
-        {stored && (
+        {draft && (
           <button
             type="button"
             onClick={() => {

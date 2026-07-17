@@ -29,11 +29,36 @@ export interface AiConfig {
 
 export const AI_KEY = 'viki:ai:v1'
 
+/**
+ * Strict read: null unless the config is actually usable for a chat() call —
+ * anthropic needs an API key, openai-compatible needs a baseURL (key optional,
+ * local endpoints run without auth). Feature surfaces (sidebar, brief panel)
+ * key off this.
+ */
 export function readAiConfig(): AiConfig | null {
+  const d = readAiDraft()
+  if (!d || !d.model) return null
+  if (d.provider === 'openai-compatible' ? !d.baseUrl : !d.apiKey) return null
+  return d
+}
+
+/**
+ * Lenient read for the settings form: returns whatever partial draft is
+ * stored, so a half-filled card survives the save-as-you-type round trip.
+ * (The strict reader returning null mid-fill used to wipe the inputs on
+ * every keystroke, which made field order matter when it shouldn't.)
+ */
+export function readAiDraft(): AiConfig | null {
   try {
     const d = JSON.parse(localStorage.getItem(AI_KEY) ?? 'null') as Partial<AiConfig> | null
-    if (d?.v !== 1 || !d.provider || !d.model) return null
-    return d as AiConfig
+    if (d?.v !== 1) return null
+    return {
+      v: 1,
+      provider: d.provider === 'openai-compatible' ? 'openai-compatible' : 'anthropic',
+      apiKey: typeof d.apiKey === 'string' ? d.apiKey : '',
+      model: typeof d.model === 'string' ? d.model : '',
+      ...(typeof d.baseUrl === 'string' && d.baseUrl ? { baseUrl: d.baseUrl } : {}),
+    }
   } catch {
     return null
   }

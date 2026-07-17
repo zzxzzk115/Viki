@@ -1,12 +1,17 @@
 'use client'
 
 import { useMemo, useState, useSyncExternalStore } from 'react'
-import { AI_KEY, chat, readAiConfig, saveAiConfig, type AiConfig, type AiProvider } from '@/lib/ai'
+import { AI_KEY, chat, readAiConfig, readAiDraft, saveAiConfig, type AiConfig, type AiProvider } from '@/lib/ai'
 
 /**
  * AI provider settings card, same shape as TokenSettings. One JSON blob in
  * localStorage (viki:ai:v1); saves announce themselves with a synthetic
  * StorageEvent so the chat sidebar / brief panel light up immediately.
+ *
+ * The form renders from the lenient draft reader, NOT readAiConfig — the
+ * strict reader returns null while the config is half-filled, and rendering
+ * from it would wipe the inputs on every keystroke (fields would only "stick"
+ * in one magic order).
  */
 
 const subscribe = (cb: () => void) => {
@@ -30,24 +35,45 @@ export function useAiConfig(): AiConfig | null {
   }, [raw])
 }
 
+function useAiDraft(): AiConfig | null {
+  const raw = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot)
+  return useMemo(() => {
+    void raw
+    return readAiDraft()
+  }, [raw])
+}
+
 type TestState = { phase: 'idle' } | { phase: 'busy' } | { phase: 'ok'; model: string } | { phase: 'bad'; message: string }
 
 const EMPTY: AiConfig = { v: 1, provider: 'anthropic', apiKey: '', model: '' }
+
+const ANTHROPIC_MODELS = ['claude-opus-4-8', 'claude-sonnet-5', 'claude-haiku-4-5']
+const OPENAI_MODEL_SUGGESTIONS = ['qwen3:14b', 'deepseek-chat', 'deepseek-reasoner', 'llama3.1:8b']
+const CUSTOM = '__custom__'
+
+const inputCls =
+  'mt-1 w-full rounded-lg border border-neutral-300 bg-transparent px-3 py-2 text-sm outline-none focus:border-neutral-500 dark:border-neutral-700'
 
 export function AiSettings() {
   const stored = useAiConfig()
   // Local draft mirrors the stored config; every field change persists — same
   // save-as-you-type behavior as the token card.
-  const cfg = stored ?? EMPTY
+  const draft = useAiDraft()
+  const cfg = draft ?? EMPTY
   const [test, setTest] = useState<TestState>({ phase: 'idle' })
+  // Sticky "自定义" choice: without it, picking custom would snap back to the
+  // placeholder as soon as the typed model happens to match nothing/a preset.
+  const [customModel, setCustomModel] = useState(false)
 
   const update = (patch: Partial<AiConfig>) => {
     const next = { ...cfg, ...patch }
-    saveAiConfig(next.apiKey || next.model || next.baseUrl ? next : null)
+    const empty = !next.apiKey && !next.model && !next.baseUrl && next.provider === 'anthropic'
+    saveAiConfig(empty ? null : next)
     setTest({ phase: 'idle' })
   }
 
-  const configured = !!(stored && stored.apiKey && stored.model && (stored.provider !== 'openai-compatible' || stored.baseUrl))
+  const configured = !!stored
+  const modelSelectValue = customModel || (cfg.model && !ANTHROPIC_MODELS.includes(cfg.model)) ? CUSTOM : cfg.model
 
   return (
     <div className="rounded-xl border border-neutral-200 p-5 dark:border-neutral-800">
@@ -69,8 +95,11 @@ export function AiSettings() {
           <span className="text-xs text-neutral-500">提供商</span>
           <select
             value={cfg.provider}
-            onChange={(e) => update({ provider: e.target.value as AiProvider })}
-            className="mt-1 w-full rounded-lg border border-neutral-300 bg-transparent px-3 py-2 text-sm outline-none focus:border-neutral-500 dark:border-neutral-700 dark:bg-neutral-950"
+            onChange={(e) => {
+              setCustomModel(false)
+              update({ provider: e.target.value as AiProvider })
+            }}
+            className={`${inputCls} dark:bg-neutral-950`}
           >
             <option value="anthropic">Anthropic（支持浏览器直连）</option>
             <option value="openai-compatible">OpenAI 兼容端点（需自填 baseURL）</option>
@@ -78,13 +107,58 @@ export function AiSettings() {
         </label>
         <label className="block">
           <span className="text-xs text-neutral-500">模型</span>
-          <input
-            type="text"
-            value={cfg.model}
-            onChange={(e) => update({ model: e.target.value.trim() })}
-            placeholder={cfg.provider === 'anthropic' ? 'claude-opus-4-8' : 'qwen3:14b'}
-            className="mt-1 w-full rounded-lg border border-neutral-300 bg-transparent px-3 py-2 text-sm outline-none focus:border-neutral-500 dark:border-neutral-700"
-          />
+          {cfg.provider === 'anthropic' ? (
+            <>
+              <select
+                value={modelSelectValue}
+                onChange={(e) => {
+                  if (e.target.value === CUSTOM) {
+                    setCustomModel(true)
+                    update({ model: '' })
+                  } else {
+                    setCustomModel(false)
+                    update({ model: e.target.value })
+                  }
+                }}
+                className={`${inputCls} dark:bg-neutral-950`}
+              >
+                <option value="" disabled>
+                  选择模型…
+                </option>
+                {ANTHROPIC_MODELS.map((m) => (
+                  <option key={m} value={m}>
+                    {m}
+                  </option>
+                ))}
+                <option value={CUSTOM}>自定义…</option>
+              </select>
+              {modelSelectValue === CUSTOM && (
+                <input
+                  type="text"
+                  value={cfg.model}
+                  onChange={(e) => update({ model: e.target.value.trim() })}
+                  placeholder="claude-…"
+                  className={inputCls}
+                />
+              )}
+            </>
+          ) : (
+            <>
+              <input
+                type="text"
+                list="viki-openai-model-suggestions"
+                value={cfg.model}
+                onChange={(e) => update({ model: e.target.value.trim() })}
+                placeholder="qwen3:14b"
+                className={inputCls}
+              />
+              <datalist id="viki-openai-model-suggestions">
+                {OPENAI_MODEL_SUGGESTIONS.map((m) => (
+                  <option key={m} value={m} />
+                ))}
+              </datalist>
+            </>
+          )}
         </label>
         <label className="block">
           <span className="text-xs text-neutral-500">API key{cfg.provider === 'openai-compatible' ? '（本地端点可留空）' : ''}</span>
@@ -93,7 +167,7 @@ export function AiSettings() {
             value={cfg.apiKey}
             onChange={(e) => update({ apiKey: e.target.value.replace(/\s+/g, '') })}
             placeholder={cfg.provider === 'anthropic' ? 'sk-ant-…' : 'sk-…'}
-            className="mt-1 w-full rounded-lg border border-neutral-300 bg-transparent px-3 py-2 text-sm outline-none focus:border-neutral-500 dark:border-neutral-700"
+            className={inputCls}
           />
         </label>
         {cfg.provider === 'openai-compatible' && (
@@ -104,7 +178,7 @@ export function AiSettings() {
               value={cfg.baseUrl ?? ''}
               onChange={(e) => update({ baseUrl: e.target.value.trim() })}
               placeholder="http://localhost:11434/v1"
-              className="mt-1 w-full rounded-lg border border-neutral-300 bg-transparent px-3 py-2 text-sm outline-none focus:border-neutral-500 dark:border-neutral-700"
+              className={inputCls}
             />
           </label>
         )}
@@ -124,11 +198,12 @@ export function AiSettings() {
         >
           {test.phase === 'busy' ? '测试中…' : '测试'}
         </button>
-        {stored && (
+        {draft && (
           <button
             type="button"
             onClick={() => {
               saveAiConfig(null)
+              setCustomModel(false)
               setTest({ phase: 'idle' })
             }}
             className="text-neutral-400 underline decoration-dotted underline-offset-2 hover:text-red-600 dark:hover:text-red-400"

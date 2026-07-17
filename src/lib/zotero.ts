@@ -15,11 +15,27 @@ export interface ZoteroConfig {
 
 export const ZOTERO_KEY = 'viki:zotero:v1'
 
+/** Strict read: null unless both fields are present (usable for API calls). */
 export function readZoteroConfig(): ZoteroConfig | null {
+  const d = readZoteroDraft()
+  return d && d.userId && d.apiKey ? d : null
+}
+
+/**
+ * Lenient read for the settings form: keeps a half-filled draft alive across
+ * the save-as-you-type round trip (the strict reader returning null mid-fill
+ * used to wipe whichever field was typed first).
+ */
+export function readZoteroDraft(): ZoteroConfig | null {
   try {
     const d = JSON.parse(localStorage.getItem(ZOTERO_KEY) ?? 'null') as Partial<ZoteroConfig> | null
-    if (d?.v !== 1 || !d.userId || !d.apiKey) return null
-    return d as ZoteroConfig
+    if (d?.v !== 1) return null
+    return {
+      v: 1,
+      userId: typeof d.userId === 'string' ? d.userId : '',
+      apiKey: typeof d.apiKey === 'string' ? d.apiKey : '',
+      ...(typeof d.apiBase === 'string' && d.apiBase ? { apiBase: d.apiBase } : {}),
+    }
   } catch {
     return null
   }

@@ -6,6 +6,12 @@
   "engines": {
     "node": ">=20.9"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp"
+    ]
+  },
   "scripts": {
     "content": "tsx scripts/build-content.ts",
     "content:watch": "tsx watch scripts/build-content.ts",
