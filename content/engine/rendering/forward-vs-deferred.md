@@ -16,6 +16,11 @@ created: 2026-07-17
 
 代价：G-Buffer 是一组全屏 RT（典型 3-4 张），**写出再读回**——带宽开销巨大；MSAA 在 G-Buffer 上代价爆炸（每 RT 每 sample 存一份）；透明物体没法进 G-Buffer（一个像素只存一层表面），得回落前向补画。
 
+:::gallery
+![延迟渲染的 G-Buffer 数据流](/img/gbuffer.svg)
+![渲染管线全景（对照：延迟只是重排了片元着色的时机）](/img/pipeline.svg)
+:::
+
 ::::card{id=deferred-tradeoffs}
 延迟渲染换来了什么、付出了什么？为什么透明物体是它的死角？
 

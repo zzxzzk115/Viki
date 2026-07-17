@@ -253,6 +253,38 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
 - 代码块保持可见：关 JS 仍是一段 shiki 高亮的源码，也进搜索索引。运行器读的就是这个代码块的文本，源码只有一份。
 - 画廊页多个 canvas 同屏——滚出视口的会自动暂停渲染，不用担心费电。
 
+## 图片与画廊
+
+图片就是普通 markdown 图片，放 `public/img/` 下、根相对路径引用（`![说明](/img/xxx.svg)`，basePath 自动补）。**站内所有正文图片点击即全屏查看**（lightbox）：Esc 关闭、←/→ 在本页图片间切换、再点一次图片放大细看。alt 文字会显示为图注——好好写。
+
+多图用 `:::gallery` 排成响应式网格：
+
+```markdown
+:::gallery
+![图一说明](/img/a.svg)
+![图二说明](/img/b.svg)
+:::
+```
+
+画廊里的图同样进 lightbox，←/→ 顺序浏览。
+
+## 音乐模式（Strudel）
+
+`::::strudel` 内嵌 [strudel.cc](https://strudel.cc)（TidalCycles 的 JS 移植）live-coding 播放器：
+
+`````markdown
+::::strudel{height=300}
+```js
+s("bd hh sd hh")
+```
+::::
+`````
+
+- 代码保持为可见代码块（JS-off 可读、进搜索），**点「加载播放器」才创建 iframe**——不点播放的访客不会向 strudel.cc 发任何请求。
+- 加载后是完整 REPL：读者可以当场改代码重跑，这是它比音频文件强的地方。
+- 没有代码块会构建失败；`height` 可选，默认 300px。
+- 为什么不自托管：Strudel 运行时是几 MB 的 Web Audio 合成器栈，不该让全站为它买单。
+
 ## 在线编辑器
 
 每篇笔记/论文底部有「在线编辑」——textarea + 实时预览（卡片/术语/公式/wiki-link 与站点渲染一致，唯一差别是代码块不做高亮），直接提交到 GitHub。主页「待读论文」的编辑链接也进这里。

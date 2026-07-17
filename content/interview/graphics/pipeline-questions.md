@@ -12,6 +12,8 @@ created: 2026-07-17
 
 应用阶段（CPU：剔除、排序、提交 draw call）→ 顶点着色 → 图元装配 → 光栅化 → 片元着色 → 逐片元操作（模板/深度测试、混合）。
 
+![实时渲染管线：可编程与固定功能阶段](/img/pipeline.svg)
+
 面试关注点不在背全，而在**每个阶段是否可编程、瓶颈在哪**：顶点/片元可编程，光栅化和逐片元操作是固定功能；瓶颈定位（CPU bound / vertex bound / fill bound）决定优化方向。
 
 ::::card{id=pipeline-stages}

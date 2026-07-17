@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { CopyCode } from '@/components/copy-code'
 import { Icon } from '@/components/icon'
+import { ImageLightbox } from '@/components/image-lightbox'
 import { SearchDialog } from '@/components/search-dialog'
 import { resolveIcon } from '@/lib/icons'
 import { SrsSyncAgent } from '@/components/srs-sync-agent'
@@ -70,6 +71,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* In the layout, not /cards: reviews happen inline on note pages too. */}
         <SrsSyncAgent />
         <CopyCode />
+        <ImageLightbox />
 
         <footer className="border-t border-neutral-200 py-8 text-center text-xs text-neutral-400 dark:border-neutral-800">
           <a

@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import { DemoPlayer } from '@/components/demo-player'
 import { EditOnGitHub } from '@/components/edit-on-github'
 import { ShaderPlayer } from '@/components/shader-player'
+import { StrudelPlayer } from '@/components/strudel-player'
 import { Icon } from '@/components/icon'
 import { LevelBadge } from '@/components/level-badge'
 import { getBacklinks, getNote, getNoteIndex, getSubjects } from '@/lib/content'
@@ -90,6 +91,7 @@ export default async function NotePage({ params }: Props) {
           {/* Wire up any ::::demo / ::::shader in the body. Cheap no-ops when absent. */}
           <DemoPlayer />
           <ShaderPlayer />
+          <StrudelPlayer />
 
           {linkedFrom.length > 0 && (
             <section className="mt-16 border-t border-neutral-200 pt-6 dark:border-neutral-800">

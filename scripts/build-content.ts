@@ -176,6 +176,7 @@ async function main() {
     for (const e of r.cardErrors) problems.push(`  content/${p.rel}\n    ${e}`)
     for (const e of r.demoErrors) problems.push(`  content/${p.rel}\n    ${e}`)
     for (const e of r.shaderErrors) problems.push(`  content/${p.rel}\n    ${e}`)
+    for (const e of r.strudelErrors) problems.push(`  content/${p.rel}\n    ${e}`)
     for (const sh of r.shaders) {
       allShaders.push({ ...sh, slug: p.slug, title: meta.title, href: isPaper ? `/${p.slug}/` : `/notes/${p.slug}/` })
     }
