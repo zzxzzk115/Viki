@@ -5,7 +5,7 @@ venue: "Graphics Hardware 2007"
 venueType: conference
 year: 2007
 tags: ["重投影", "着色"]
-status: to-read
+status: read
 ---
 
 <!-- 从 BibTeX 导入的占位页。读完后补下面三节，删掉本行。 -->
