@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { DailyPaper } from '@/components/daily-paper'
 import { DailyReading } from '@/components/daily-reading'
+import { DailyVideos } from '@/components/daily-videos'
 import { DailyWord } from '@/components/daily-word'
 import { Icon } from '@/components/icon'
 import { LevelBadge } from '@/components/level-badge'
@@ -38,8 +39,9 @@ export default async function Home() {
     <main className="mx-auto max-w-3xl px-6 py-16">
       <h1 className="text-4xl font-bold tracking-tight">Viki</h1>
       <p className="mt-3 text-lg text-neutral-600 dark:text-neutral-400">
-        个人知识库 · 数学 / 物理 / 计算机 / 图形学
+        个人知识库 · 图形学 · 引擎 · 算法 · 金融 · 历史 · 英语
       </p>
+      <p className="mt-1 text-sm text-neutral-400">笔记 / 卡片 / 论文 / 视频 / 阅读，一处收敛</p>
 
       <section className="mt-10">
         <ReviewCard compact />
@@ -58,6 +60,10 @@ export default async function Home() {
       <section className="mt-4 grid gap-4 lg:grid-cols-2">
         <DailyReading />
         <DailyWord />
+      </section>
+
+      <section className="mt-4">
+        <DailyVideos />
       </section>
 
       <section className="mt-12">

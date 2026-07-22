@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     default: 'Viki — 个人知识库',
     template: '%s · Viki',
   },
-  description: '数学、物理、计算机与图形学的个人知识库，含间隔重复与论文笔记。',
+  description: '图形学、引擎、算法、金融、历史、英语的个人知识库——笔记、卡片、论文、视频、阅读一处收敛，含间隔重复与 AI 助手。',
 }
 
 // A nav link to a route that does not exist is a 404 under `output: 'export'`,

@@ -6,8 +6,10 @@ import { askAiAbout } from '@/components/ai-chat'
 import { useAiConfig } from '@/components/ai-settings'
 
 const CATEGORIES: { key: ReadingItem['category']; label: string }[] = [
-  { key: 'english', label: '英语学习' },
+  { key: 'news', label: '世界新闻' },
+  { key: 'finance', label: '金融' },
   { key: 'tech', label: '技术研究' },
+  { key: 'english', label: '英语学习' },
   { key: 'culture', label: '通识文化' },
 ]
 

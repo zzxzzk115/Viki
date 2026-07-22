@@ -4,7 +4,7 @@ import { z } from 'zod'
 export const ReadingItem = z.object({
   /** Stable hash of the url. */
   id: z.string(),
-  category: z.enum(['english', 'tech', 'culture']),
+  category: z.enum(['english', 'tech', 'culture', 'finance', 'news']),
   /** Display name of the source, e.g. 'Hacker News'. */
   source: z.string(),
   title: z.string(),

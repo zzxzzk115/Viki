@@ -448,6 +448,9 @@ async function main() {
   await readFile(join(ROOT, 'data', 'vocab', 'daily.json'), 'utf8')
     .then((t) => writeFile(join(PUBLIC_DATA, 'daily-word.json'), t))
     .catch(() => {})
+  await readFile(join(ROOT, 'data', 'videos', 'latest.json'), 'utf8')
+    .then((t) => writeFile(join(PUBLIC_DATA, 'videos.json'), t))
+    .catch(() => {})
 
   // For the in-browser editor preview: the same glossary and a slug->title map,
   // so :term[] and [[wiki-links]] render in the preview like they do on the site.

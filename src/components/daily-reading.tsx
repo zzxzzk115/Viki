@@ -8,6 +8,8 @@ import { pickDaily, todaySeed } from '@/lib/daily-pick'
 import type { ReadingItem } from '@/lib/reading-feed'
 
 const CAT_LABEL: Record<ReadingItem['category'], string> = {
+  news: '新闻',
+  finance: '金融',
   english: '英语',
   tech: '技术',
   culture: '通识',

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { AddVideo } from '@/components/add-video'
 import { getNoteIndex } from '@/lib/content'
+import { VideosBrowser } from './videos-browser'
 
 export const metadata: Metadata = {
   title: '视频',
@@ -31,7 +32,7 @@ export default async function VideosPage() {
 
       {videos.length === 0 ? (
         <p className="mt-8 rounded-xl border border-dashed border-neutral-300 p-6 text-center text-sm text-neutral-500 dark:border-neutral-700">
-          还没有收藏的视频。粘贴一个链接开始,或去下方「推荐视频」发现内容。
+          还没有收藏的视频。粘贴一个链接开始,或在下方「推荐视频」里一键收藏。
         </p>
       ) : (
         <ul className="mt-6 space-y-3">
@@ -51,6 +52,8 @@ export default async function VideosPage() {
           ))}
         </ul>
       )}
+
+      <VideosBrowser />
     </main>
   )
 }

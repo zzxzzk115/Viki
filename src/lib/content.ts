@@ -11,6 +11,7 @@ import { readFile, readdir } from 'node:fs/promises'
 import { join } from 'node:path'
 import type { FeedFile } from './papers-feed'
 import type { ReadingFile } from './reading-feed'
+import type { VideoFile } from './video-feed'
 import type { Note, NoteIndexEntry, Paper, Subject, Term } from './schema'
 import { hashSlug } from './slug'
 
@@ -96,6 +97,13 @@ export async function getFeedByDate(date: string): Promise<FeedFile | null> {
 export async function getReading(): Promise<ReadingFile | null> {
   return readFile(join(process.cwd(), 'data', 'reading', 'latest.json'), 'utf8')
     .then((t) => JSON.parse(t) as ReadingFile)
+    .catch(() => null)
+}
+
+/** Video discovery feed, same pattern. */
+export async function getVideos(): Promise<VideoFile | null> {
+  return readFile(join(process.cwd(), 'data', 'videos', 'latest.json'), 'utf8')
+    .then((t) => JSON.parse(t) as VideoFile)
     .catch(() => null)
 }
 

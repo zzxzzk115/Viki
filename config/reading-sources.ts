@@ -14,7 +14,7 @@
 
 export interface ReadingSource {
   name: string
-  category: 'english' | 'tech' | 'culture'
+  category: 'english' | 'tech' | 'culture' | 'finance' | 'news'
   /** wikipedia = today's featured article; wiki-random = random page summary
    *  (Simple English Wikipedia has no featured-article process, but its random
    *  summaries are graded English); hn = Hacker News; rss = any RSS/Atom feed. */
@@ -45,4 +45,8 @@ export const readingSources: ReadingSource[] = [
     url: 'https://en.wikipedia.org/api/rest_v1/feed/featured',
     limit: 1,
   },
+  // 时效新闻——保持知识输入的时效性（非中英内容会被语言过滤丢弃）
+  { name: 'BBC 世界', category: 'news', kind: 'rss', url: 'https://feeds.bbci.co.uk/news/world/rss.xml', limit: 4 },
+  { name: 'Ars Technica', category: 'tech', kind: 'rss', url: 'https://feeds.arstechnica.com/arstechnica/index', limit: 3 },
+  { name: 'MarketWatch', category: 'finance', kind: 'rss', url: 'https://feeds.marketwatch.com/marketwatch/topstories/', limit: 3 },
 ]

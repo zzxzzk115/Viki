@@ -318,6 +318,16 @@ s("bd hh sd hh")
 
 安全边界：编辑器只接受 `content/`、`scratch/` 下的 `.md/.mdx/.yml/.bib` 路径，workflow、脚本等一律拒绝；提交用文件 sha 做乐观锁，别处改过会得到 409 提示而不是静默覆盖。
 
+## 视频收藏与笔记
+
+一视频一页:在 `/videos` 粘贴 YouTube/Bilibili 链接就自动建一篇 `content/videos/*.md`,frontmatter 带 `video: { platform, id }`,页面在正文上方嵌入播放器,正文是你的手写笔记——复用整套笔记管道(搜索/卡片/术语/编辑/AI)。正文里写 `@12:34` 会变成点击跳转的时间戳(YouTube 用 IFrame API,Bilibili 重设 `&t=`)。手写视频笔记的 frontmatter:
+
+```yaml
+video: { platform: youtube, id: "jNQXAC9IVRw", channel: "jawed" }
+```
+
+**订阅发现**:`config/video-sources.ts` 按领域列 YouTube 频道(`@handle` 或 `UC…` id,脚本自动解析);`videos.yml` 每天抓各频道最新上传写进 data 分支,主页「今日推荐视频」+ /videos「订阅发现」展示,一键「收藏」成视频笔记。YouTube 频道 RSS 无 key 稳定;**Bilibili 无官方 RSS**,自动发现 best-effort(RSSHub),但手动收藏完整支持。本地试跑:`pnpm videos`。
+
 ## 推荐阅读 + 每日单词（定时数据源）
 
 `/read`（导航「阅读」）和主页「今日推荐阅读 / 每日单词」由 `reading.yml` 每天定时抓取,和 arXiv feed 一样写进 `data` 孤儿分支(零 secret)、再 `workflow_call` 重部署。
