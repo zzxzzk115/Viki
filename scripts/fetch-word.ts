@@ -27,6 +27,25 @@ interface DictEntry {
   meanings?: { partOfSpeech?: string; definitions?: { definition?: string; example?: string }[] }[]
 }
 
+/**
+ * English → Chinese via MyMemory (free, no key; CI has no CORS issue). Returns
+ * '' on any failure — the word still ships, just without the gloss.
+ */
+async function translateZh(text: string): Promise<string> {
+  if (!text.trim()) return ''
+  try {
+    const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=en|zh-CN&de=zzxzzk115@gmail.com`
+    const r = await fetch(url, { signal: AbortSignal.timeout(15000) })
+    if (!r.ok) return ''
+    const j = (await r.json()) as { responseData?: { translatedText?: string } }
+    const t = j.responseData?.translatedText ?? ''
+    // MyMemory echoes a warning string into the field when it rejects a query.
+    return /MYMEMORY WARNING|INVALID/i.test(t) ? '' : t.trim()
+  } catch {
+    return ''
+  }
+}
+
 async function main() {
   await mkdir(OUT, { recursive: true })
   const date = new Date().toISOString().slice(0, 10)
@@ -41,14 +60,16 @@ async function main() {
   }
   const word = list[dailyIndex(date, list.length)]
 
-  const out: { date: string; word: string; ipa: string; pos: string; definition: string; example: string } = {
-    date,
-    word,
-    ipa: '',
-    pos: '',
-    definition: '',
-    example: '',
-  }
+  const out: {
+    date: string
+    word: string
+    ipa: string
+    pos: string
+    definition: string
+    definitionZh: string
+    example: string
+    exampleZh: string
+  } = { date, word, ipa: '', pos: '', definition: '', definitionZh: '', example: '', exampleZh: '' }
 
   try {
     const r = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`, {
@@ -70,8 +91,14 @@ async function main() {
     console.error(`词典 API 请求失败：${e instanceof Error ? e.message : e}，仅写单词`)
   }
 
+  // Chinese glosses so the card shows meaning + example translation, not just E-E.
+  ;[out.definitionZh, out.exampleZh] = await Promise.all([
+    translateZh(out.definition),
+    translateZh(out.example),
+  ])
+
   await writeFile(join(OUT, 'daily.json'), JSON.stringify(out, null, 2))
-  console.log(`✓ ${date}: 每日单词 ${word}${out.definition ? ` — ${out.definition.slice(0, 60)}` : ''}`)
+  console.log(`✓ ${date}: 每日单词 ${word}${out.definitionZh ? ` — ${out.definitionZh}` : out.definition ? ` — ${out.definition.slice(0, 50)}` : ''}`)
 }
 
 main().catch((e) => {

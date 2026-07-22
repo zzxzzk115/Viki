@@ -21,17 +21,22 @@ summary: 从「每日单词」一键收藏的词,进入 /english 的单词轨道
 
 type State = 'idle' | 'busy' | 'done' | 'exists' | 'error' | 'need-token'
 
-/** Builds a ::::word block from a daily word (definition is English). */
+/** Builds a ::::word block from a daily word — Chinese meaning first (English
+ *  in parens), bilingual example when available. */
 function wordBlock(w: DailyWordData): string {
   const attrs = [w.ipa ? `ipa="${w.ipa}"` : '', w.pos ? `pos=${w.pos}` : ''].filter(Boolean).join(' ')
+  const meaning = w.definitionZh
+    ? `${w.definitionZh}${w.definition ? `（${w.definition}）` : ''}`
+    : w.definition || '(补充释义)'
+  const example = w.example ? `${w.example}${w.exampleZh ? `\n${w.exampleZh}` : ''}` : ''
   return [
     `::::word${attrs ? `{${attrs}}` : ''}`,
     w.word,
     '',
     ':::meaning',
-    w.definition || '(补充释义)',
+    meaning,
     ':::',
-    ...(w.example ? ['', ':::example', w.example, ':::'] : []),
+    ...(example ? ['', ':::example', example, ':::'] : []),
     '::::',
     '',
   ].join('\n')

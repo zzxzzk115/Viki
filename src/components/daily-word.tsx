@@ -10,7 +10,11 @@ export interface DailyWordData {
   ipa: string
   pos: string
   definition: string
+  /** Chinese gloss of the definition (may be '' on translation failure). */
+  definitionZh?: string
   example: string
+  /** Chinese gloss of the example. */
+  exampleZh?: string
 }
 
 /**
@@ -50,8 +54,14 @@ export function DailyWord() {
         {w.ipa && <span className="text-sm text-neutral-400">{w.ipa}</span>}
         {w.pos && <span className="text-xs text-neutral-400">{w.pos}.</span>}
       </div>
-      {w.definition && <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-300">{w.definition}</p>}
-      {w.example && <p className="mt-1 text-sm text-neutral-400 italic">“{w.example}”</p>}
+      {w.definitionZh && <p className="mt-1 text-sm text-neutral-700 dark:text-neutral-200">{w.definitionZh}</p>}
+      {w.definition && <p className="mt-0.5 text-xs text-neutral-500">{w.definition}</p>}
+      {w.example && (
+        <p className="mt-2 text-sm text-neutral-500 italic">
+          “{w.example}”
+          {w.exampleZh && <span className="mt-0.5 block text-xs text-neutral-400 not-italic">{w.exampleZh}</span>}
+        </p>
+      )}
       <div className="mt-3">
         <AddToVocab word={w} />
       </div>
