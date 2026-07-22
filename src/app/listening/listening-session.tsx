@@ -14,19 +14,28 @@ import {
 } from '@/lib/listening-progress'
 
 /**
- * Dictation drill on real VOA Learning English broadcasts: play the newsreader
- * audio, type the blanked words in the opening lines, then reveal the transcript
- * and the source story. Progress (lifetime stats + which clips are done) is kept
- * in localStorage so a run is never lost and fresh clips surface first. Audio
- * plays via <audio> (no CORS needed for media playback).
+ * Passage dictation on real VOA Learning English broadcasts. Each clip is a whole
+ * news/feature story: the mp3 reads the entire article, so the dictation is the
+ * entire transcript — play the broadcast, fill the blanked words spread across
+ * the passage, then reveal and read along. Graded at the blank level (a full
+ * passage all-correct is not the bar); ≥70% passes. Progress (lifetime stats +
+ * which clips are done) persists in localStorage so a run is never lost and
+ * fresh clips surface first. Audio plays via <audio> (no CORS needed).
  */
-const SIZE = 8
+const SIZE = 3 // passages per run — each is a whole article
+const PASS = 0.7 // blank-accuracy needed to "pass" a passage
 const STORE = 'viki:listening:v1'
 
-/** Scale blanks to excerpt length — a longer clip earns more gaps. */
+/** ~1 blank per 20 words, so a long passage stays a dictation, not a typing test. */
 function blanksFor(text: string): number {
   const w = text.split(/\s+/).length
-  return Math.min(6, Math.max(3, Math.round(w / 7)))
+  return Math.min(24, Math.max(8, Math.round(w / 20)))
+}
+
+interface RunStat {
+  passed: number
+  right: number
+  total: number
 }
 
 export function ListeningSession() {
@@ -37,7 +46,7 @@ export function ListeningSession() {
   const [index, setIndex] = useState(0)
   const [inputs, setInputs] = useState<string[]>([])
   const [revealed, setRevealed] = useState(false)
-  const [score, setScore] = useState(0)
+  const [run, setRun] = useState<RunStat>({ passed: 0, right: 0, total: 0 })
   const audioRef = useRef<HTMLAudioElement | null>(null)
 
   useEffect(() => {
@@ -74,9 +83,10 @@ export function ListeningSession() {
     [current],
   )
 
-  // Autoplay each clip when it appears (best-effort; a manual replay button too).
+  // Reset the player when a new passage appears (don't autoplay — it's minutes long).
   useEffect(() => {
-    if (current) void audioRef.current?.play().catch(() => {})
+    const a = audioRef.current
+    if (a) a.pause()
   }, [current])
 
   const start = () => {
@@ -85,15 +95,17 @@ export function ListeningSession() {
     setIndex(0)
     setInputs([])
     setRevealed(false)
-    setScore(0)
+    setRun({ passed: 0, right: 0, total: 0 })
   }
 
   const submit = () => {
     if (!dict || revealed || !current) return
     const marks = checkDictation(inputs, dict.answers)
-    const allRight = marks.every(Boolean)
-    if (allRight) setScore((s) => s + 1)
-    persist(recordResult(progress, current.id, allRight))
+    const right = marks.filter(Boolean).length
+    const total = marks.length
+    const passed = total > 0 && right / total >= PASS
+    setRun((r) => ({ passed: r.passed + (passed ? 1 : 0), right: r.right + right, total: r.total + total }))
+    persist(recordResult(progress, current.id, passed))
     setRevealed(true)
   }
 
@@ -117,7 +129,7 @@ export function ListeningSession() {
 
   const stats = (
     <p className="mt-2 text-xs text-neutral-400">
-      累计 <span className="tabular-nums">{progress.attempted}</span> 句 · 正确率{' '}
+      累计 <span className="tabular-nums">{progress.attempted}</span> 段 · 正确率{' '}
       <span className="tabular-nums">{accuracy(progress)}%</span> · 完成{' '}
       <span className="tabular-nums">{progress.sessions}</span> 轮
     </p>
@@ -129,7 +141,7 @@ export function ListeningSession() {
       <div className="mt-6 rounded-xl border border-neutral-200 p-8 text-center dark:border-neutral-800">
         <p className="text-lg font-medium">听写闯关</p>
         <p className="mt-2 text-sm text-neutral-500">
-          {Math.min(SIZE, clips.length)} 段 VOA 真实广播 · 听音频,填出关键词
+          {Math.min(SIZE, clips.length)} 段 VOA 真实广播 · 听整段,填出通篇的关键词
         </p>
         {progress.attempted > 0 && stats}
         <p className="mt-1 text-xs text-neutral-400">{fresh} 段还没听过</p>
@@ -145,12 +157,13 @@ export function ListeningSession() {
   }
 
   if (index >= session.length) {
-    const pct = Math.round((score / session.length) * 100)
+    const pct = run.total ? Math.round((run.right / run.total) * 100) : 0
     return (
       <div className="mt-6 rounded-xl border border-neutral-200 p-8 text-center dark:border-neutral-800">
         <p className="text-3xl font-bold tabular-nums">{pct}%</p>
         <p className="mt-1 text-sm text-neutral-500">
-          {score} / {session.length} 全对 · {pct >= 80 ? '过关 🎉' : '再来一轮'}
+          {run.right} / {run.total} 空格正确 · 过关 {run.passed}/{session.length} 段 ·{' '}
+          {pct >= 80 ? '很棒 🎉' : '再来一轮'}
         </p>
         {stats}
         <button
@@ -165,6 +178,7 @@ export function ListeningSession() {
   }
 
   const marks = revealed && dict ? checkDictation(inputs, dict.answers) : []
+  const filled = inputs.filter((s) => s?.trim()).length
   let blankNo = -1
 
   return (
@@ -172,7 +186,7 @@ export function ListeningSession() {
       <div className="flex items-center gap-2 border-b border-neutral-200 px-5 py-2.5 text-xs text-neutral-500 dark:border-neutral-800">
         <span className="tabular-nums">{index + 1} / {session.length}</span>
         {current!.source && <span className="truncate">· {current!.source}</span>}
-        <span className="ml-auto">听开头,填空</span>
+        <span className="ml-auto tabular-nums">{filled}/{dict!.answers.length} 已填</span>
       </div>
 
       <div className="p-6">
@@ -199,11 +213,11 @@ export function ListeningSession() {
           >
             ↻ 从头
           </button>
-          <span className="text-xs text-neutral-400">播报先念标题,再念正文——填的是开头这句</span>
+          <span className="text-xs text-neutral-400">整段播报,边听边填(先念标题再念正文)</span>
         </div>
 
         <form
-          className="mt-5 text-lg leading-relaxed"
+          className="mt-5 max-h-[26rem] overflow-y-auto rounded-lg bg-neutral-50 p-4 text-[15px] leading-8 dark:bg-neutral-900/60"
           onSubmit={(e) => {
             e.preventDefault()
             submit()
@@ -239,9 +253,11 @@ export function ListeningSession() {
         </form>
 
         {revealed && (
-          <div className="mt-4 rounded-lg bg-neutral-50 p-3 text-sm dark:bg-neutral-900">
-            <p className="font-medium">{current!.text}</p>
-            {current!.translation && <p className="mt-1 text-neutral-500">{current!.translation}</p>}
+          <div className="mt-4 rounded-lg border border-neutral-200 p-3 text-sm dark:border-neutral-800">
+            <p className="text-xs font-medium text-neutral-500">
+              全文 · {marks.filter(Boolean).length}/{marks.length} 空格正确
+            </p>
+            <p className="mt-1.5 leading-relaxed text-neutral-700 dark:text-neutral-300">{current!.text}</p>
             {(current!.title || current!.url) && (
               <p className="mt-2 text-xs text-neutral-400">
                 {current!.title && <span>{current!.title}</span>}
@@ -266,10 +282,10 @@ export function ListeningSession() {
         <button
           type="button"
           onClick={revealed ? next : submit}
-          disabled={!revealed && inputs.filter((s) => s?.trim()).length === 0}
+          disabled={!revealed && filled === 0}
           className="mt-5 w-full rounded-lg border border-neutral-300 py-2.5 text-sm font-medium transition hover:bg-neutral-50 disabled:opacity-40 dark:border-neutral-700 dark:hover:bg-neutral-800"
         >
-          {revealed ? (index + 1 >= session.length ? '看结果' : '下一句 →') : '对答案'}
+          {revealed ? (index + 1 >= session.length ? '看结果' : '下一段 →') : '对答案'}
         </button>
       </div>
     </div>
