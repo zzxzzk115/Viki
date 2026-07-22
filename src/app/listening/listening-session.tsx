@@ -4,18 +4,35 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { withBase } from '@/lib/base-path'
 import { buildDictation, checkDictation, type Dictation } from '@/lib/listening'
 import type { ListeningItem } from '@/lib/listening-feed'
+import {
+  accuracy,
+  bumpSession,
+  emptyProgress,
+  type ListeningProgress,
+  pickSession,
+  recordResult,
+} from '@/lib/listening-progress'
 
 /**
- * Dictation drill: play a human-recorded sentence, type the blanked words.
- * A run of N clips; each is graded per-blank, then the full sentence and its
- * Chinese translation are revealed. Audio plays via <audio> (Tatoeba mp3, no
- * CORS needed for media playback).
+ * Dictation drill on real VOA Learning English broadcasts: play the newsreader
+ * audio, type the blanked words in the opening lines, then reveal the transcript
+ * and the source story. Progress (lifetime stats + which clips are done) is kept
+ * in localStorage so a run is never lost and fresh clips surface first. Audio
+ * plays via <audio> (no CORS needed for media playback).
  */
 const SIZE = 8
+const STORE = 'viki:listening:v1'
+
+/** Scale blanks to excerpt length — a longer clip earns more gaps. */
+function blanksFor(text: string): number {
+  const w = text.split(/\s+/).length
+  return Math.min(6, Math.max(3, Math.round(w / 7)))
+}
 
 export function ListeningSession() {
   const [clips, setClips] = useState<ListeningItem[] | null>(null)
   const [error, setError] = useState(false)
+  const [progress, setProgress] = useState<ListeningProgress>(emptyProgress)
   const [session, setSession] = useState<ListeningItem[] | null>(null)
   const [index, setIndex] = useState(0)
   const [inputs, setInputs] = useState<string[]>([])
@@ -36,9 +53,24 @@ export function ListeningSession() {
     }
   }, [])
 
+  // Load saved progress once.
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem(STORE)
+      if (raw) setProgress({ ...emptyProgress(), ...JSON.parse(raw) })
+    } catch {}
+  }, [])
+
+  const persist = (p: ListeningProgress) => {
+    setProgress(p)
+    try {
+      localStorage.setItem(STORE, JSON.stringify(p))
+    } catch {}
+  }
+
   const current = session?.[index] ?? null
   const dict: Dictation | null = useMemo(
-    () => (current ? buildDictation(current.text) : null),
+    () => (current ? buildDictation(current.text, Math.random, blanksFor(current.text)) : null),
     [current],
   )
 
@@ -49,8 +81,7 @@ export function ListeningSession() {
 
   const start = () => {
     if (!clips || clips.length === 0) return
-    const shuffled = [...clips].sort(() => Math.random() - 0.5).slice(0, SIZE)
-    setSession(shuffled)
+    setSession(pickSession(clips, progress, SIZE))
     setIndex(0)
     setInputs([])
     setRevealed(false)
@@ -58,14 +89,18 @@ export function ListeningSession() {
   }
 
   const submit = () => {
-    if (!dict || revealed) return
+    if (!dict || revealed || !current) return
     const marks = checkDictation(inputs, dict.answers)
-    if (marks.every(Boolean)) setScore((s) => s + 1)
+    const allRight = marks.every(Boolean)
+    if (allRight) setScore((s) => s + 1)
+    persist(recordResult(progress, current.id, allRight))
     setRevealed(true)
   }
 
   const next = () => {
-    setIndex((i) => i + 1)
+    const to = index + 1
+    if (session && to >= session.length) persist(bumpSession(progress))
+    setIndex(to)
     setInputs([])
     setRevealed(false)
   }
@@ -80,11 +115,24 @@ export function ListeningSession() {
     )
   }
 
+  const stats = (
+    <p className="mt-2 text-xs text-neutral-400">
+      累计 <span className="tabular-nums">{progress.attempted}</span> 句 · 正确率{' '}
+      <span className="tabular-nums">{accuracy(progress)}%</span> · 完成{' '}
+      <span className="tabular-nums">{progress.sessions}</span> 轮
+    </p>
+  )
+
   if (!session) {
+    const fresh = clips.filter((c) => !progress.done[c.id]).length
     return (
       <div className="mt-6 rounded-xl border border-neutral-200 p-8 text-center dark:border-neutral-800">
         <p className="text-lg font-medium">听写闯关</p>
-        <p className="mt-2 text-sm text-neutral-500">{Math.min(SIZE, clips.length)} 句 · 听音频,填出关键词</p>
+        <p className="mt-2 text-sm text-neutral-500">
+          {Math.min(SIZE, clips.length)} 段 VOA 真实广播 · 听音频,填出关键词
+        </p>
+        {progress.attempted > 0 && stats}
+        <p className="mt-1 text-xs text-neutral-400">{fresh} 段还没听过</p>
         <button
           type="button"
           onClick={start}
@@ -104,6 +152,7 @@ export function ListeningSession() {
         <p className="mt-1 text-sm text-neutral-500">
           {score} / {session.length} 全对 · {pct >= 80 ? '过关 🎉' : '再来一轮'}
         </p>
+        {stats}
         <button
           type="button"
           onClick={start}
@@ -122,12 +171,13 @@ export function ListeningSession() {
     <div className="mt-6 rounded-xl border border-neutral-200 dark:border-neutral-800">
       <div className="flex items-center gap-2 border-b border-neutral-200 px-5 py-2.5 text-xs text-neutral-500 dark:border-neutral-800">
         <span className="tabular-nums">{index + 1} / {session.length}</span>
-        <span className="ml-auto">听并填空</span>
+        {current!.source && <span className="truncate">· {current!.source}</span>}
+        <span className="ml-auto">听开头,填空</span>
       </div>
 
       <div className="p-6">
         {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
-        <audio ref={audioRef} src={current!.audio} preload="auto" />
+        <audio ref={audioRef} src={current!.audio} preload="none" />
         <div className="flex items-center gap-3">
           <button
             type="button"
@@ -136,7 +186,20 @@ export function ListeningSession() {
           >
             🔊 播放
           </button>
-          <span className="text-xs text-neutral-400">听不清可多放几遍</span>
+          <button
+            type="button"
+            onClick={() => {
+              const a = audioRef.current
+              if (a) {
+                a.currentTime = 0
+                void a.play().catch(() => {})
+              }
+            }}
+            className="rounded-lg border border-neutral-300 px-3 py-2 text-sm transition hover:bg-neutral-50 dark:border-neutral-700 dark:hover:bg-neutral-800"
+          >
+            ↻ 从头
+          </button>
+          <span className="text-xs text-neutral-400">播报先念标题,再念正文——填的是开头这句</span>
         </div>
 
         <form
@@ -179,6 +242,24 @@ export function ListeningSession() {
           <div className="mt-4 rounded-lg bg-neutral-50 p-3 text-sm dark:bg-neutral-900">
             <p className="font-medium">{current!.text}</p>
             {current!.translation && <p className="mt-1 text-neutral-500">{current!.translation}</p>}
+            {(current!.title || current!.url) && (
+              <p className="mt-2 text-xs text-neutral-400">
+                {current!.title && <span>{current!.title}</span>}
+                {current!.url && (
+                  <>
+                    {current!.title ? ' · ' : ''}
+                    <a
+                      href={current!.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline decoration-dotted underline-offset-2 hover:text-neutral-600 dark:hover:text-neutral-300"
+                    >
+                      阅读原文
+                    </a>
+                  </>
+                )}
+              </p>
+            )}
           </div>
         )}
 
