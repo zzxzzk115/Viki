@@ -31,6 +31,7 @@ import {
   type Paper,
   type Subject,
   type Term,
+  type Word,
 } from '../src/lib/schema'
 
 const ROOT = process.cwd()
@@ -117,6 +118,12 @@ function cardId(explicit: string | undefined, noteSlug: string, questionSource: 
   return createHash('sha1').update(`${noteSlug}::${normalized}`).digest('hex').slice(0, 10)
 }
 
+/** 'word::' seed keeps vocab ids in their own namespace, disjoint from cardId. */
+function wordId(noteSlug: string, word: string): string {
+  const normalized = word.replace(/\s+/g, ' ').trim().toLowerCase()
+  return createHash('sha1').update(`word::${noteSlug}::${normalized}`).digest('hex').slice(0, 10)
+}
+
 async function main() {
   const t0 = Date.now()
 
@@ -155,7 +162,9 @@ async function main() {
   const notes: Note[] = []
   const papers: Paper[] = []
   const allCards: Card[] = []
+  const allWords: Word[] = []
   const seenCardIds = new Map<string, string>()
+  const seenWordIds = new Map<string, string>()
   /** term -> slugs using it, for /glossary. */
   const termUsage = new Map<string, string[]>()
   /** Every ::::shader across the corpus, for the /shaders gallery. */
@@ -177,6 +186,7 @@ async function main() {
     for (const e of r.demoErrors) problems.push(`  content/${p.rel}\n    ${e}`)
     for (const e of r.shaderErrors) problems.push(`  content/${p.rel}\n    ${e}`)
     for (const e of r.strudelErrors) problems.push(`  content/${p.rel}\n    ${e}`)
+    for (const e of r.wordErrors) problems.push(`  content/${p.rel}\n    ${e}`)
     for (const sh of r.shaders) {
       allShaders.push({ ...sh, slug: p.slug, title: meta.title, href: isPaper ? `/${p.slug}/` : `/notes/${p.slug}/` })
     }
@@ -243,6 +253,36 @@ async function main() {
       })
     }
     allCards.push(...cards)
+
+    // Vocabulary cards (::::word) — a separate id namespace ('word::' seed) so
+    // they can never collide with card ids in the shared sync doc, and a
+    // separate output (vocab.json) so they never enter the knowledge-card pile.
+    for (const raw of r.words) {
+      const id = raw.explicitId ?? wordId(p.slug, raw.word)
+      const prior = seenWordIds.get(id)
+      if (prior) {
+        problems.push(
+          `  content/${p.rel}\n    单词 id "${id}"（${raw.word}）与 ${prior} 重复。同一单词在一篇里只写一次，或用 ::::word{id=...} 指定。`,
+        )
+        continue
+      }
+      seenWordIds.set(id, `content/${p.rel}`)
+      const [meaningHtml, exampleHtml] = await Promise.all([
+        renderFragment(raw.meaning),
+        raw.example ? renderFragment(raw.example) : Promise.resolve(undefined),
+      ])
+      allWords.push({
+        id,
+        word: raw.word,
+        ipa: raw.ipa,
+        pos: raw.pos,
+        meaningHtml,
+        exampleHtml,
+        noteSlug: p.slug,
+        noteHref: href,
+        noteTitle: meta.title,
+      })
+    }
 
     // The English, abbreviation and aliases of every term used are appended to
     // the search text, so searching "radiance" — or "SVD" — finds the Chinese
@@ -380,6 +420,7 @@ async function main() {
   // public/data is browser-fetched at runtime. Never import these from a client
   // component: Next inlines imported JSON, so the bundle would grow with the KB.
   await writeFile(join(PUBLIC_DATA, 'cards.json'), JSON.stringify(allCards))
+  await writeFile(join(PUBLIC_DATA, 'vocab.json'), JSON.stringify(allWords))
   await writeFile(join(PUBLIC_DATA, 'notes-index.json'), JSON.stringify(noteIndex))
   await writeFile(join(PUBLIC_DATA, 'search.json'), JSON.stringify(createIndex(searchDocs)))
   await writeFile(join(PUBLIC_DATA, 'graph.json'), JSON.stringify(graph))

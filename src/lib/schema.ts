@@ -139,6 +139,25 @@ export interface Card {
   quiz?: { correct: string; distractors: string[] }
 }
 
+/**
+ * A vocabulary card from a `::::word` block — a SEPARATE track from Card.
+ * Its own directive keeps word cards out of cards.json, its own store
+ * (viki:vocab:v1) keeps them out of the knowledge-card review pile; the SM-2
+ * engine reuses them because it only needs `{ id }`. `meaning`/`example` can
+ * be Chinese or English (E-E practice is fine for a language learner).
+ */
+export interface Word {
+  id: string
+  word: string
+  ipa?: string
+  pos?: string
+  meaningHtml: string
+  exampleHtml?: string
+  noteSlug: string
+  noteHref: string
+  noteTitle: string
+}
+
 export interface Note {
   slug: string
   href: string

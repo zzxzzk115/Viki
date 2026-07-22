@@ -17,7 +17,8 @@ export function SrsSyncAgent() {
     // a token appearing (quick-set on any page) starts syncing right away.
     const onChange = (e: StorageEvent) => {
       if (e.key === TOKEN_KEY) void pullAndMerge()
-      else if (e.key === null || e.key === 'viki:srs:v1' || e.key === 'viki:quiz:v1') schedulePush()
+      else if (e.key === null || e.key === 'viki:srs:v1' || e.key === 'viki:quiz:v1' || e.key === 'viki:vocab:v1')
+        schedulePush()
     }
     window.addEventListener('storage', onChange)
 

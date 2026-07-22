@@ -26,6 +26,9 @@ export interface SyncDoc {
   savedAt: string
   srs: Store
   quiz: QuizStats
+  /** Vocabulary review store (viki:vocab:v1). Optional on read for back-compat
+   *  with docs written before the vocab track existed. */
+  vocab: Store
 }
 
 /**
@@ -56,7 +59,9 @@ export function parseSyncDoc(text: string): SyncDoc | null {
   try {
     const d = JSON.parse(text) as Partial<SyncDoc>
     if (d?.v !== 1 || !d.srs || d.srs.v !== STORE_VERSION || !d.quiz || d.quiz.v !== 1) return null
-    return d as SyncDoc
+    // vocab is newer than the doc format; default it for pre-vocab docs.
+    const vocab = d.vocab?.v === STORE_VERSION && d.vocab.cards ? d.vocab : emptyStore()
+    return { ...(d as SyncDoc), vocab }
   } catch {
     return null
   }
@@ -74,6 +79,7 @@ export type SyncState =
 
 const SRS_KEY = 'viki:srs:v1'
 const QUIZ_KEY = 'viki:quiz:v1'
+const VOCAB_KEY = 'viki:vocab:v1'
 
 let state: SyncState = { phase: 'off' }
 const listeners = new Set<() => void>()
@@ -95,7 +101,7 @@ export function subscribeSyncState(cb: () => void): () => void {
 export const getSyncStateSnapshot = () => stateJson
 export const getSyncStateServerSnapshot = () => '{"phase":"off"}'
 
-function readLocal(): { srs: Store; quiz: QuizStats } {
+function readLocal(): { srs: Store; quiz: QuizStats; vocab: Store } {
   const read = <T,>(key: string, check: (d: unknown) => boolean, empty: () => T): T => {
     try {
       const d = JSON.parse(localStorage.getItem(key) ?? 'null') as unknown
@@ -107,17 +113,20 @@ function readLocal(): { srs: Store; quiz: QuizStats } {
   return {
     srs: read<Store>(SRS_KEY, (d) => (d as Store)?.v === STORE_VERSION && !!(d as Store).cards, emptyStore),
     quiz: read<QuizStats>(QUIZ_KEY, (d) => (d as QuizStats)?.v === 1 && !!(d as QuizStats).streak, emptyQuizStats),
+    vocab: read<Store>(VOCAB_KEY, (d) => (d as Store)?.v === STORE_VERSION && !!(d as Store).cards, emptyStore),
   }
 }
 
-function writeLocal(srs: Store, quiz: QuizStats) {
+function writeLocal(srs: Store, quiz: QuizStats, vocab: Store) {
   try {
     localStorage.setItem(SRS_KEY, JSON.stringify(srs))
     localStorage.setItem(QUIZ_KEY, JSON.stringify(quiz))
+    localStorage.setItem(VOCAB_KEY, JSON.stringify(vocab))
   } catch {}
   // Same-tab stores listen on 'storage' via their subscribe(); other tabs get
   // the real event. StorageEvent is constructible everywhere we run.
   window.dispatchEvent(new StorageEvent('storage', { key: SRS_KEY }))
+  window.dispatchEvent(new StorageEvent('storage', { key: VOCAB_KEY }))
 }
 
 let sha: string | null = null
@@ -161,9 +170,10 @@ export async function pullAndMerge(): Promise<void> {
   if (remote) {
     const srs = mergeSrs(local.srs, remote.srs)
     const quiz = mergeQuiz(local.quiz, remote.quiz)
+    const vocab = mergeSrs(local.vocab, remote.vocab) // per-card merge reused verbatim
     suppress++
     try {
-      writeLocal(srs, quiz)
+      writeLocal(srs, quiz, vocab)
     } finally {
       suppress--
     }

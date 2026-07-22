@@ -21,6 +21,7 @@ import { remarkGallery } from '@/plugins/remark-gallery'
 import { remarkShader, type ShaderInfo } from '@/plugins/remark-shader'
 import { remarkStrudel, type StrudelInfo } from '@/plugins/remark-strudel'
 import { remarkTerms } from '@/plugins/remark-terms'
+import { remarkWords, type RawWord } from '@/plugins/remark-words'
 import { remarkWikilink, type WikilinkOptions } from '@/plugins/remark-wikilink'
 import type { Glossary, TocEntry } from './schema'
 
@@ -111,6 +112,7 @@ export function createProcessor(options: RenderOptions) {
       .use(remarkShader)
       .use(remarkStrudel)
       .use(remarkGallery)
+      .use(remarkWords)
       .use(remarkCards)
       .use(remarkWikilink, options)
       .use(remarkRehype, { allowDangerousHtml: true })
@@ -150,6 +152,8 @@ export interface Rendered {
   headingIds: string[]
   cards: RawCard[]
   cardErrors: string[]
+  words: RawWord[]
+  wordErrors: string[]
   links: string[]
   brokenLinks: string[]
   terms: string[]
@@ -171,6 +175,8 @@ export async function render(markdown: string, options: RenderOptions): Promise<
     headingIds: file.data.headingIds ?? [],
     cards: file.data.cards ?? [],
     cardErrors: file.data.cardErrors ?? [],
+    words: file.data.words ?? [],
+    wordErrors: file.data.wordErrors ?? [],
     links: file.data.links ?? [],
     brokenLinks: file.data.brokenLinks ?? [],
     terms: file.data.terms ?? [],

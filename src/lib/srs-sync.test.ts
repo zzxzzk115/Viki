@@ -60,6 +60,19 @@ describe('parseSyncDoc', () => {
     assert.ok(parseSyncDoc(JSON.stringify(doc)))
   })
 
+  it('旧文档缺 vocab 时补默认空 store（向后兼容）', () => {
+    const doc = { v: 1, savedAt: 'x', srs: store({ a: cs('2026-07-16') }), quiz: quiz(0) }
+    const parsed = parseSyncDoc(JSON.stringify(doc))!
+    assert.ok(parsed.vocab && parsed.vocab.v === 1)
+    assert.deepEqual(parsed.vocab.cards, {})
+  })
+
+  it('带 vocab 的新文档保留 vocab', () => {
+    const doc = { v: 1, savedAt: 'x', srs: store({}), quiz: quiz(0), vocab: store({ w: cs('2026-07-16') }) }
+    const parsed = parseSyncDoc(JSON.stringify(doc))!
+    assert.ok(parsed.vocab.cards.w)
+  })
+
   it('版本不符 / 缺字段 / 非 JSON -> null（宁可不合并，不能吃坏数据）', () => {
     assert.equal(parseSyncDoc('{"v":2}'), null)
     assert.equal(parseSyncDoc('{"v":1,"srs":{"v":1,"cards":{}}}'), null)
