@@ -3,7 +3,7 @@ import { describe, it } from 'node:test'
 import type { ListeningItem } from './listening-feed'
 import { accuracy, bumpSession, emptyProgress, pickSession, recordResult } from './listening-progress'
 
-const clip = (id: string): ListeningItem => ({ id, text: 't', audio: 'a', translation: '', title: '', source: '', url: '' })
+const clip = (id: string): ListeningItem => ({ id, text: 't', audio: 'a', startFrac: 0, endFrac: 1, translation: '', title: '', source: '', url: '' })
 
 describe('recordResult', () => {
   it('累计 attempted/correct，记录每条结果', () => {

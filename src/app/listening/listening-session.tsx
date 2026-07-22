@@ -14,22 +14,23 @@ import {
 } from '@/lib/listening-progress'
 
 /**
- * Passage dictation on real VOA Learning English broadcasts. Each clip is a whole
- * news/feature story: the mp3 reads the entire article, so the dictation is the
- * entire transcript — play the broadcast, fill the blanked words spread across
- * the passage, then reveal and read along. Graded at the blank level (a full
- * passage all-correct is not the bar); ≥70% passes. Progress (lifetime stats +
- * which clips are done) persists in localStorage so a run is never lost and
- * fresh clips surface first. Audio plays via <audio> (no CORS needed).
+ * Dictation on real VOA Learning English broadcasts, cut into short segments.
+ * Each clip is a ~20–30s slice of a news/feature story: the player seeks to the
+ * segment's window inside the article mp3 and auto-pauses at its end, so you hear
+ * just that piece — not the whole article. Speed is adjustable (VOA reads slowly;
+ * 1.25× is closer to natural). Fill the blanked words, then reveal and read along.
+ * Progress persists in localStorage so a run is never lost and fresh clips come
+ * first. Audio plays via <audio> (no CORS needed).
  */
-const SIZE = 3 // passages per run — each is a whole article
-const PASS = 0.7 // blank-accuracy needed to "pass" a passage
+const SIZE = 6 // segments per run
+const PASS = 0.7 // blank-accuracy to "pass" a segment
 const STORE = 'viki:listening:v1'
+const SPEEDS = [0.75, 1, 1.25, 1.5]
+const END_PAD = 0.25 // seconds of grace so the last word is never clipped
 
-/** ~1 blank per 20 words, so a long passage stays a dictation, not a typing test. */
+/** ~1 blank per 7 words. */
 function blanksFor(text: string): number {
-  const w = text.split(/\s+/).length
-  return Math.min(24, Math.max(8, Math.round(w / 20)))
+  return Math.min(10, Math.max(5, Math.round(text.split(/\s+/).length / 7)))
 }
 
 interface RunStat {
@@ -47,13 +48,15 @@ export function ListeningSession() {
   const [inputs, setInputs] = useState<string[]>([])
   const [revealed, setRevealed] = useState(false)
   const [run, setRun] = useState<RunStat>({ passed: 0, right: 0, total: 0 })
+  const [rate, setRate] = useState(1.25)
   const audioRef = useRef<HTMLAudioElement | null>(null)
+  const rateRef = useRef(1.25)
+  const winRef = useRef({ start: 0, end: 1 })
 
   useEffect(() => {
     let alive = true
     fetch(withBase('/data/listening.json'))
-      // A missing file (feed not fetched yet) is the empty state, not an error;
-      // only a real network failure sets error.
+      // A missing file (feed not fetched yet) is the empty state, not an error.
       .then((r) => (r.ok ? r.json() : { items: [] }))
       .then((f: { items?: ListeningItem[] }) => alive && setClips(f.items ?? []))
       .catch(() => alive && setError(true))
@@ -62,7 +65,6 @@ export function ListeningSession() {
     }
   }, [])
 
-  // Load saved progress once.
   useEffect(() => {
     try {
       const raw = localStorage.getItem(STORE)
@@ -83,11 +85,44 @@ export function ListeningSession() {
     [current],
   )
 
-  // Reset the player when a new passage appears (don't autoplay — it's minutes long).
+  // Keep the play window in a ref so the audio event handlers never go stale.
   useEffect(() => {
-    const a = audioRef.current
-    if (a) a.pause()
+    if (current) winRef.current = { start: current.startFrac, end: current.endFrac }
   }, [current])
+
+  const playSeg = () => {
+    const a = audioRef.current
+    if (!a) return
+    a.playbackRate = rateRef.current
+    const go = () => {
+      if (isFinite(a.duration)) a.currentTime = a.duration * winRef.current.start
+      void a.play().catch(() => {})
+    }
+    if (a.readyState >= 1 && isFinite(a.duration)) go()
+    else {
+      a.addEventListener('loadedmetadata', go, { once: true })
+      a.load()
+    }
+  }
+
+  // Auto-pause when playback reaches the segment's end.
+  const onTimeUpdate = () => {
+    const a = audioRef.current
+    if (!a || !isFinite(a.duration)) return
+    if (a.currentTime >= a.duration * winRef.current.end + END_PAD) a.pause()
+  }
+
+  // Play the new segment from its start (best-effort; a Play button too).
+  useEffect(() => {
+    if (current) playSeg()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [current])
+
+  const setSpeed = (s: number) => {
+    setRate(s)
+    rateRef.current = s
+    if (audioRef.current) audioRef.current.playbackRate = s
+  }
 
   const start = () => {
     if (!clips || clips.length === 0) return
@@ -141,7 +176,7 @@ export function ListeningSession() {
       <div className="mt-6 rounded-xl border border-neutral-200 p-8 text-center dark:border-neutral-800">
         <p className="text-lg font-medium">听写闯关</p>
         <p className="mt-2 text-sm text-neutral-500">
-          {Math.min(SIZE, clips.length)} 段 VOA 真实广播 · 听整段,填出通篇的关键词
+          {Math.min(SIZE, clips.length)} 段 VOA 真实广播 · 每段只播一小节,填出关键词
         </p>
         {progress.attempted > 0 && stats}
         <p className="mt-1 text-xs text-neutral-400">{fresh} 段还没听过</p>
@@ -191,33 +226,37 @@ export function ListeningSession() {
 
       <div className="p-6">
         {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
-        <audio ref={audioRef} src={current!.audio} preload="none" />
-        <div className="flex items-center gap-3">
+        <audio ref={audioRef} src={current!.audio} preload="none" onTimeUpdate={onTimeUpdate} />
+        <div className="flex flex-wrap items-center gap-2">
           <button
             type="button"
-            onClick={() => void audioRef.current?.play().catch(() => {})}
+            onClick={playSeg}
             className="rounded-lg bg-neutral-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-neutral-700 dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-neutral-300"
           >
-            🔊 播放
+            🔊 播放本段
           </button>
-          <button
-            type="button"
-            onClick={() => {
-              const a = audioRef.current
-              if (a) {
-                a.currentTime = 0
-                void a.play().catch(() => {})
-              }
-            }}
-            className="rounded-lg border border-neutral-300 px-3 py-2 text-sm transition hover:bg-neutral-50 dark:border-neutral-700 dark:hover:bg-neutral-800"
-          >
-            ↻ 从头
-          </button>
-          <span className="text-xs text-neutral-400">整段播报,边听边填(先念标题再念正文)</span>
+          {/* Speed control — VOA reads slowly, so default to 1.25×. */}
+          <div className="inline-flex overflow-hidden rounded-lg border border-neutral-300 text-xs dark:border-neutral-700">
+            {SPEEDS.map((s) => (
+              <button
+                key={s}
+                type="button"
+                onClick={() => setSpeed(s)}
+                className={`px-2.5 py-2 tabular-nums transition ${
+                  rate === s
+                    ? 'bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900'
+                    : 'text-neutral-600 hover:bg-neutral-100 dark:text-neutral-400 dark:hover:bg-neutral-800'
+                }`}
+              >
+                {s}×
+              </button>
+            ))}
+          </div>
+          <span className="w-full text-xs text-neutral-400 sm:w-auto">只播当前小段,可反复听、调速</span>
         </div>
 
         <form
-          className="mt-5 max-h-[26rem] overflow-y-auto rounded-lg bg-neutral-50 p-4 text-[15px] leading-8 dark:bg-neutral-900/60"
+          className="mt-5 rounded-lg bg-neutral-50 p-4 text-[15px] leading-8 dark:bg-neutral-900/60"
           onSubmit={(e) => {
             e.preventDefault()
             submit()
@@ -254,9 +293,7 @@ export function ListeningSession() {
 
         {revealed && (
           <div className="mt-4 rounded-lg border border-neutral-200 p-3 text-sm dark:border-neutral-800">
-            <p className="text-xs font-medium text-neutral-500">
-              全文 · {marks.filter(Boolean).length}/{marks.length} 空格正确
-            </p>
+            <p className="text-xs font-medium text-neutral-500">{marks.filter(Boolean).length}/{marks.length} 空格正确</p>
             <p className="mt-1.5 leading-relaxed text-neutral-700 dark:text-neutral-300">{current!.text}</p>
             {(current!.title || current!.url) && (
               <p className="mt-2 text-xs text-neutral-400">
