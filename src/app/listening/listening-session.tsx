@@ -26,7 +26,9 @@ export function ListeningSession() {
   useEffect(() => {
     let alive = true
     fetch(withBase('/data/listening.json'))
-      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+      // A missing file (feed not fetched yet) is the empty state, not an error;
+      // only a real network failure sets error.
+      .then((r) => (r.ok ? r.json() : { items: [] }))
       .then((f: { items?: ListeningItem[] }) => alive && setClips(f.items ?? []))
       .catch(() => alive && setError(true))
     return () => {

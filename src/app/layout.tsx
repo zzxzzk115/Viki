@@ -30,6 +30,7 @@ const NAV = [
   { href: '/cards/', label: '复习' },
   { href: '/english/', label: '单词' },
   { href: '/listening/', label: '听力' },
+  { href: '/writing/', label: '写作' },
   { href: '/papers/', label: '论文' },
   { href: '/arxiv/', label: 'arXiv' },
   { href: '/read/', label: '阅读' },
