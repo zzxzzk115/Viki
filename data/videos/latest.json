@@ -1,0 +1,77 @@
+{
+  "date": "2026-07-22",
+  "items": [
+    {
+      "id": "9363752886a6",
+      "platform": "youtube",
+      "videoId": "axOcn--n_lM",
+      "title": "Claude Just Revealed AI's Biggest Problem",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=axOcn--n_lM",
+      "thumb": "https://i2.ytimg.com/vi/axOcn--n_lM/hqdefault.jpg",
+      "published": "2026-07-16",
+      "category": "图形学"
+    },
+    {
+      "id": "b87b50ece3d7",
+      "platform": "youtube",
+      "videoId": "0CqLVnx-2UM",
+      "title": "Anthropic Found Something That Shouldn't Exist",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=0CqLVnx-2UM",
+      "thumb": "https://i1.ytimg.com/vi/0CqLVnx-2UM/hqdefault.jpg",
+      "published": "2026-07-15",
+      "category": "图形学"
+    },
+    {
+      "id": "d86677f44077",
+      "platform": "youtube",
+      "videoId": "Ae9q7KsRbuI",
+      "title": "Minecraft Was Missing One Brilliant Idea",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=Ae9q7KsRbuI",
+      "thumb": "https://i2.ytimg.com/vi/Ae9q7KsRbuI/hqdefault.jpg",
+      "published": "2026-07-12",
+      "category": "图形学"
+    },
+    {
+      "id": "41a44f1be560",
+      "platform": "youtube",
+      "videoId": "mGuYUEuVDYc",
+      "title": "The Entire History Of TETRIS Game Design",
+      "channel": "Acerola",
+      "url": "https://www.youtube.com/watch?v=mGuYUEuVDYc",
+      "thumb": "https://i2.ytimg.com/vi/mGuYUEuVDYc/hqdefault.jpg",
+      "published": "2026-07-12",
+      "category": "图形学"
+    },
+    {
+      "id": "b9ac62c4aa65",
+      "platform": "youtube",
+      "videoId": "x-DIGi8Sc9E",
+      "title": "\"Indie\" doesn't really mean \"Independent\"",
+      "channel": "Acerola",
+      "url": "https://www.youtube.com/watch?v=x-DIGi8Sc9E",
+      "thumb": "https://i1.ytimg.com/vi/x-DIGi8Sc9E/hqdefault.jpg",
+      "published": "2026-01-30",
+      "category": "图形学"
+    },
+    {
+      "id": "2c2ff1b7add8",
+      "platform": "youtube",
+      "videoId": "JstW96GM1TQ",
+      "title": "Everything I Made And Played in 2025",
+      "channel": "Acerola",
+      "url": "https://www.youtube.com/watch?v=JstW96GM1TQ",
+      "thumb": "https://i3.ytimg.com/vi/JstW96GM1TQ/hqdefault.jpg",
+      "published": "2025-12-24",
+      "category": "图形学"
+    }
+  ],
+  "notes": [
+    "图形学 · @TwoMinutePapers: 3 条",
+    "图形学 · @Acerola_t: 3 条",
+    "引擎 · @TheCherno: 0 条",
+    "CS · @javidx9: 0 条"
+  ]
+}
