@@ -9,6 +9,7 @@
 import 'server-only'
 import { readFile, readdir } from 'node:fs/promises'
 import { join } from 'node:path'
+import type { ListeningFile } from './listening-feed'
 import type { FeedFile } from './papers-feed'
 import type { ReadingFile } from './reading-feed'
 import type { VideoFile } from './video-feed'
@@ -104,6 +105,13 @@ export async function getReading(): Promise<ReadingFile | null> {
 export async function getVideos(): Promise<VideoFile | null> {
   return readFile(join(process.cwd(), 'data', 'videos', 'latest.json'), 'utf8')
     .then((t) => JSON.parse(t) as VideoFile)
+    .catch(() => null)
+}
+
+/** Listening dictation clips, same pattern. */
+export async function getListening(): Promise<ListeningFile | null> {
+  return readFile(join(process.cwd(), 'data', 'listening', 'latest.json'), 'utf8')
+    .then((t) => JSON.parse(t) as ListeningFile)
     .catch(() => null)
 }
 

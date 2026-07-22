@@ -40,6 +40,8 @@ jobs:
         run: pnpm reading
       - name: Fetch daily word
         run: pnpm word
+      - name: Fetch listening clips
+        run: pnpm listening
 
       - name: Commit to data branch
         id: commit
@@ -49,10 +51,11 @@ jobs:
 
           git fetch --depth=1 origin data
           git worktree add ../data-branch origin/data
-          rm -rf ../data-branch/data/reading ../data-branch/data/vocab
+          rm -rf ../data-branch/data/reading ../data-branch/data/vocab ../data-branch/data/listening
           mkdir -p ../data-branch/data
           [ -d data/reading ] && cp -r data/reading ../data-branch/data/reading || true
           [ -d data/vocab ] && cp -r data/vocab ../data-branch/data/vocab || true
+          [ -d data/listening ] && cp -r data/listening ../data-branch/data/listening || true
           cd ../data-branch
 
           git add data

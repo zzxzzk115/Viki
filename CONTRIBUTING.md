@@ -328,6 +328,10 @@ video: { platform: youtube, id: "jNQXAC9IVRw", channel: "jawed" }
 
 **订阅发现**:`config/video-sources.ts` 按领域列 YouTube 频道(`@handle` 或 `UC…` id,脚本自动解析);`videos.yml` 每天抓各频道最新上传写进 data 分支,主页「今日推荐视频」+ /videos「订阅发现」展示,一键「收藏」成视频笔记。YouTube 频道 RSS 无 key 稳定;**Bilibili 无官方 RSS**,自动发现 best-effort(RSSHub),但手动收藏完整支持。本地试跑:`pnpm videos`。
 
+## 听力听写
+
+`/listening`(导航「听力」)是听写闯关:播放真人朗读的句子,填出被挖掉的关键词。音频与逐字稿来自 [Tatoeba](https://tatoeba.org)(CC-BY,真人录音),带中文翻译;`fetch-listening.ts` 每天从 Tatoeba 抓一批有音频的英文句子(4-16 词)写进 data 分支。挖空是运行时选内容词(≥3 字母、非停用词),答案大小写/标点无关。本地试跑:`pnpm listening`。
+
 ## 推荐阅读 + 每日单词（定时数据源）
 
 `/read`（导航「阅读」）和主页「今日推荐阅读 / 每日单词」由 `reading.yml` 每天定时抓取,和 arXiv feed 一样写进 `data` 孤儿分支(零 secret)、再 `workflow_call` 重部署。
