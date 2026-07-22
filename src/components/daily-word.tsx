@@ -8,7 +8,10 @@ import { withBase } from '@/lib/base-path'
 export interface DailyWordData {
   date: string
   word: string
+  /** UK IPA. */
   ipa: string
+  /** US IPA (Cambridge source). */
+  ipaUs?: string
   pos: string
   definition: string
   /** Chinese gloss of the definition (may be '' on translation failure). */
@@ -55,7 +58,8 @@ export function DailyWord() {
       <span className="text-xs font-semibold tracking-wide text-neutral-500 uppercase">每日单词</span>
       <div className="mt-2 flex flex-wrap items-baseline gap-x-3 gap-y-1">
         <span className="text-2xl font-bold tracking-tight">{w.word}</span>
-        {w.ipa && <span className="text-sm text-neutral-400">{w.ipa}</span>}
+        {w.ipa && <span className="text-sm text-neutral-400">英 /{w.ipa}/</span>}
+        {w.ipaUs && <span className="text-sm text-neutral-400">美 /{w.ipaUs}/</span>}
         {w.pos && <span className="text-xs text-neutral-400">{w.pos}.</span>}
         <PlayWord word={w.word} audioUk={w.audioUk} audioUs={w.audioUs} />
       </div>

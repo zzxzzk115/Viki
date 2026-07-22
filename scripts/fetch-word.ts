@@ -1,17 +1,70 @@
 /**
- * Picks a date-seeded word from config/word-list.txt, enriches it from the
- * free Dictionary API (api.dictionaryapi.dev — no key, and CI has no CORS
- * problem), and writes data/vocab/daily.json.
+ * Picks a date-seeded word from config/word-list.txt, enriches it, and writes
+ * data/vocab/daily.json.
  *
- * Runs in reading.yml. Non-fatal: on any API failure the word still ships with
- * whatever fields we have. The definition is English (E-E practice); the
- * homepage's 「加入单词本」 turns it into a ::::word for the vocab track.
+ * Primary source is Cambridge's 英语-汉语（简体）dictionary page — it has
+ * human-curated Chinese definitions, UK+US audio and both IPAs, all far better
+ * than machine-translating a monolingual definition. Cambridge has no free open
+ * API (theirs is approval-gated), so this reads the public page; it is one word
+ * a day for personal, non-redistributive use, and falls back to the free
+ * dictionary API + MyMemory when the page can't be parsed. Runs in reading.yml,
+ * non-fatal at every step.
  */
 import { readFile, mkdir, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 
 const ROOT = process.cwd()
 const OUT = join(ROOT, 'data', 'vocab')
+const BROWSER_UA =
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36'
+
+interface WordData {
+  ipa: string
+  ipaUs: string
+  pos: string
+  definition: string
+  definitionZh: string
+  example: string
+  exampleZh: string
+  audioUk: string
+  audioUs: string
+}
+
+/** Scrape Cambridge 英汉简体. Returns null when the page is missing/unparseable. */
+async function fetchCambridge(word: string): Promise<WordData | null> {
+  let html: string
+  try {
+    const r = await fetch(
+      `https://dictionary.cambridge.org/zhs/%E8%AF%8D%E5%85%B8/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/${encodeURIComponent(word)}`,
+      { headers: { 'User-Agent': BROWSER_UA, 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8' }, signal: AbortSignal.timeout(20000) },
+    )
+    if (!r.ok) return null
+    html = await r.text()
+  } catch {
+    return null
+  }
+
+  const strip = (s: string) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim()
+  const definition = strip(html.match(/class="def ddef_d[^"]*"[^>]*>([\s\S]*?)<\/div>/)?.[1] ?? '')
+  const definitionZh = strip(html.match(/class="trans dtrans dtrans-se[^"]*"[^>]*>([\s\S]*?)<\/span>/)?.[1] ?? '')
+  if (!definition && !definitionZh) return null // not a real entry (e.g. a spellcheck page)
+
+  const ipas = [...html.matchAll(/class="ipa dipa[^"]*"[^>]*>([^<]+)</g)].map((m) => m[1])
+  const audioAbs = (rel: string | undefined) => (rel ? `https://dictionary.cambridge.org${rel}` : '')
+  const eg = html.match(/class="examp dexamp"[\s\S]*?<\/div>/)?.[0] ?? ''
+
+  return {
+    ipa: ipas[0] ?? '',
+    ipaUs: ipas[1] ?? '',
+    pos: html.match(/class="pos dpos"[^>]*>([^<]+)</)?.[1] ?? '',
+    definition,
+    definitionZh,
+    example: strip(eg.match(/class="eg deg"[^>]*>([\s\S]*?)<\/span>/)?.[1] ?? ''),
+    exampleZh: strip(eg.match(/class="trans dtrans[^"]*"[^>]*>([\s\S]*?)<\/span>/)?.[1] ?? ''),
+    audioUk: audioAbs(html.match(/"([^"]*\/uk_pron\/[^"]*\.mp3)"/i)?.[1]),
+    audioUs: audioAbs(html.match(/"([^"]*\/us_pron\/[^"]*\.mp3)"/i)?.[1]),
+  }
+}
 
 /** djb2 over the UTC date — deterministic pick, stable within a day. */
 function dailyIndex(seed: string, len: number): number {
@@ -60,54 +113,38 @@ async function main() {
   }
   const word = list[dailyIndex(date, list.length)]
 
-  const out: {
-    date: string
-    word: string
-    ipa: string
-    pos: string
-    definition: string
-    definitionZh: string
-    example: string
-    exampleZh: string
-    audioUk: string
-    audioUs: string
-  } = { date, word, ipa: '', pos: '', definition: '', definitionZh: '', example: '', exampleZh: '', audioUk: '', audioUs: '' }
+  let data = await fetchCambridge(word)
+  let source = 'Cambridge'
 
-  try {
-    const r = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`, {
-      signal: AbortSignal.timeout(20000),
-    })
-    if (r.ok) {
-      const entries = (await r.json()) as DictEntry[]
-      const e = entries[0]
-      out.ipa = e?.phonetic ?? e?.phonetics?.find((p) => p.text)?.text ?? ''
-      const meaning = e?.meanings?.[0]
-      out.pos = meaning?.partOfSpeech ?? ''
-      const def = meaning?.definitions?.[0]
-      out.definition = def?.definition ?? ''
-      out.example = def?.example ?? ''
-      // Real UK/US pronunciation mp3s (CORS-open static files) when the API has them.
-      for (const p of e?.phonetics ?? []) {
-        if (!p.audio) continue
-        const url = p.audio.startsWith('//') ? `https:${p.audio}` : p.audio
-        if (/-uk\.mp3$/i.test(url) && !out.audioUk) out.audioUk = url
-        else if (/-us\.mp3$/i.test(url) && !out.audioUs) out.audioUs = url
+  // Fallback: free dictionary API + MyMemory translation.
+  if (!data) {
+    source = 'dictionaryapi.dev'
+    const fb: WordData = { ipa: '', ipaUs: '', pos: '', definition: '', definitionZh: '', example: '', exampleZh: '', audioUk: '', audioUs: '' }
+    try {
+      const r = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`, { signal: AbortSignal.timeout(20000) })
+      if (r.ok) {
+        const e = ((await r.json()) as DictEntry[])[0]
+        fb.ipa = e?.phonetic ?? e?.phonetics?.find((p) => p.text)?.text ?? ''
+        const meaning = e?.meanings?.[0]
+        fb.pos = meaning?.partOfSpeech ?? ''
+        fb.definition = meaning?.definitions?.[0]?.definition ?? ''
+        fb.example = meaning?.definitions?.[0]?.example ?? ''
+        for (const p of e?.phonetics ?? []) {
+          if (!p.audio) continue
+          const url = p.audio.startsWith('//') ? `https:${p.audio}` : p.audio
+          if (/-uk\.mp3$/i.test(url) && !fb.audioUk) fb.audioUk = url
+          else if (/-us\.mp3$/i.test(url) && !fb.audioUs) fb.audioUs = url
+        }
       }
-    } else {
-      console.error(`词典 API 返回 ${r.status}，仅写单词`)
-    }
-  } catch (e) {
-    console.error(`词典 API 请求失败：${e instanceof Error ? e.message : e}，仅写单词`)
+    } catch {}
+    ;[fb.definitionZh, fb.exampleZh] = await Promise.all([translateZh(fb.definition), translateZh(fb.example)])
+    data = fb
   }
 
-  // Chinese glosses so the card shows meaning + example translation, not just E-E.
-  ;[out.definitionZh, out.exampleZh] = await Promise.all([
-    translateZh(out.definition),
-    translateZh(out.example),
-  ])
-
+  // daily.json shape unchanged (ipa = UK); component reads these fields as-is.
+  const out = { date, word, ...data }
   await writeFile(join(OUT, 'daily.json'), JSON.stringify(out, null, 2))
-  console.log(`✓ ${date}: 每日单词 ${word}${out.definitionZh ? ` — ${out.definitionZh}` : out.definition ? ` — ${out.definition.slice(0, 50)}` : ''}`)
+  console.log(`✓ ${date}: 每日单词 ${word}（${source}）${out.definitionZh ? ` — ${out.definitionZh}` : out.definition ? ` — ${out.definition.slice(0, 50)}` : ''}`)
 }
 
 main().catch((e) => {
