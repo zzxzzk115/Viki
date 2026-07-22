@@ -2,24 +2,24 @@
   "date": "2026-07-22",
   "items": [
     {
-      "id": "8a97335c36cc",
+      "id": "6aa440f91b5f",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Corcoran, Minnesota",
-      "url": "https://simple.wikipedia.org/wiki/Corcoran%2C_Minnesota",
-      "summary": "Corcoran is a city in Hennepin County, Minnesota, United States.",
+      "title": "Toyota 200 presented by CK Power",
+      "url": "https://simple.wikipedia.org/wiki/Toyota_200_presented_by_CK_Power",
+      "summary": "The Toyota 200 was a NASCAR Craftsman Truck Series race at World Wide Technology Raceway at Gateway. The race has been held each year since 1998 except for 2011, 2012 and 2013. The track closed after the 2010 race, reopened in 2012 under new ownership, and the race returned to t…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "6dcd6baab0d9",
+      "id": "44b829a85ec8",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Blackjack Lanza",
-      "url": "https://simple.wikipedia.org/wiki/Blackjack_Lanza",
-      "summary": "John Mortl Lanzo was an American professional wrestler, better known by his ring name, Blackjack Lanza. He was known for working with Blackjack Mulligan as they were known as The Blackjacks.",
+      "title": "Ashford, Connecticut",
+      "url": "https://simple.wikipedia.org/wiki/Ashford%2C_Connecticut",
+      "summary": "Ashford is a town in Windham County, Connecticut. The town had a population of 4,191 at the 2020 census. Ashford was founded in 1714. Eastford was a part of Ashford until 1848 or 1847. Eastford split into its own town. Ashford has the largest Boy scout camps in the US state of C…",
       "published": "",
       "tags": [
         "今日精选"
@@ -35,7 +35,7 @@
       "author": "mfiguiere",
       "published": "2026-07-21",
       "tags": [
-        "▲ 808"
+        "▲ 820"
       ]
     },
     {
@@ -48,7 +48,7 @@
       "author": "piotrgrabowski",
       "published": "2026-07-21",
       "tags": [
-        "▲ 377"
+        "▲ 382"
       ]
     },
     {
@@ -61,7 +61,7 @@
       "author": "DemiGuru",
       "published": "2026-07-22",
       "tags": [
-        "▲ 35"
+        "▲ 47"
       ]
     },
     {
@@ -74,7 +74,7 @@
       "author": "FriedPickles",
       "published": "2026-07-21",
       "tags": [
-        "▲ 444"
+        "▲ 447"
       ]
     },
     {
@@ -87,82 +87,84 @@
       "author": "jeremyscanvic",
       "published": "2026-07-21",
       "tags": [
-        "▲ 205"
+        "▲ 208"
       ]
     },
     {
-      "id": "f5d9d355a5b7",
+      "id": "8fd735d60318",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Advertise in ChatGPT",
-      "url": "https://ads.openai.com/",
-      "summary": "",
-      "author": "montecarl",
+      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "summary": "https://console.cloud.google.com/agent-platform/publishers/g...",
+      "author": "logickkk1",
       "published": "2026-07-21",
       "tags": [
-        "▲ 434"
+        "▲ 635"
       ]
     },
     {
-      "id": "5a660ac41de8",
+      "id": "ec1b084876c8",
       "category": "tech",
       "source": "DEV Community",
-      "title": "The AI Engineer Job Description Is a Lie. Here's What the Role Actually Is.",
-      "url": "https://dev.to/aibughunter/the-ai-engineer-job-description-is-a-lie-heres-what-the-role-actually-is-4kb9",
-      "summary": "I spend a lot of time in the AI space -- reading papers, building things, talking to engineers who are actually shipping. And there is a gap between what the demos show and what production systems actually look like that nobody is being fully honest about. So here is my honest t…",
-      "author": "AI Bug Slayer 🐞",
-      "published": "Wed, 22 Jul 2026 03:31:30 +0000",
+      "title": "AI Coding Conversations Are Becoming Build Artifacts",
+      "url": "https://dev.to/neurobin_/ai-coding-conversations-are-becoming-build-artifacts-488h",
+      "summary": "AI coding tools made it easier to create code. They also created a new handoff problem. The final code is often not the only useful artifact anymore. The conversation around the code can matter just as much. It contains the reasoning trail: what the agent changed what failed whi…",
+      "author": "Neurobin",
+      "published": "Wed, 22 Jul 2026 03:45:04 +0000",
       "tags": [
-        "aiagents",
         "ai",
-        "llm",
-        "webdev"
+        "webdev",
+        "tooling",
+        "productivity"
       ]
     },
     {
-      "id": "e08195201cb0",
+      "id": "b4b0b5b9f21c",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Multi-Tenancy Data Isolation Patterns for B2B SaaS Backends",
-      "url": "https://dev.to/kapil/multi-tenancy-data-isolation-patterns-for-b2b-saas-backends-11c2",
-      "summary": "Key takeaways Multi-tenancy improves resource efficiency but poses data risks. Row-level security can prevent data leaks in shared environments. Partitioning strategies can optimize performance for individual tenants. Choosing the right isolation level is crucial for compliance.…",
-      "author": "kapil Maheshwari",
-      "published": "Wed, 22 Jul 2026 03:30:50 +0000",
+      "title": "How to Deploy Llama 2 on DigitalOcean for $5/month: Complete Self-Hosting Guide",
+      "url": "https://dev.to/ramosai/how-to-deploy-llama-2-on-digitalocean-for-5month-complete-self-hosting-guide-1e0p",
+      "summary": "⚡ Deploy this in under 10 minutes Get $200 free: https://m.do.co/c/9fa609b86a0e ($5/month server — this is what I used) How to Deploy Llama 2 on DigitalOcean for $5/Month: Complete Self-Hosting Guide Stop overpaying for AI APIs. I'm about to show you how I run a production Llama…",
+      "author": "RamosAI",
+      "published": "Wed, 22 Jul 2026 03:42:14 +0000",
       "tags": [
-        "api",
-        "backend",
         "programming",
+        "tutorial",
+        "ai",
         "webdev"
       ]
     },
     {
-      "id": "65c280f2ecf0",
+      "id": "79399960401e",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Instant TradingView Execution",
-      "url": "https://dev.to/ayush1406/instant-tradingview-execution-1c4h",
-      "summary": "Most retail traders have profitable strategies on TradingView, but executing them manually is difficult. Missed alerts and emotional decision-making often ruin backtested results. Automation solves these problems. Why Speed Matters Xalgos processes TradingView webhooks in millis…",
-      "author": "Ayush",
-      "published": "Wed, 22 Jul 2026 03:29:32 +0000",
+      "title": "Build a Contribution-Margin Check That Doesn't Lie About Refunds or FX",
+      "url": "https://dev.to/sunny_sun_df44eed060dc074/build-a-contribution-margin-check-that-doesnt-lie-about-refunds-or-fx-mkb",
+      "summary": "Building e-commerce or financial calculation tools sounds straightforward until you hit the real-world edge cases: blended platform fees, return rate impact, and foreign exchange (FX) settlement slippage. Most generic calculators oversimplify these factors, leading to incorrect …",
+      "author": "sunny sun",
+      "published": "Wed, 22 Jul 2026 03:41:46 +0000",
       "tags": [
-        "webdev",
         "javascript",
-        "automation"
+        "webdev",
+        "ecommerce",
+        "tutorial"
       ]
     },
     {
-      "id": "96f9a003e0a4",
+      "id": "96504b3f0999",
       "category": "tech",
       "source": "DEV Community",
-      "title": "No-Code Trading Automation",
-      "url": "https://dev.to/ayush1406/no-code-trading-automation-4cbd",
-      "summary": "Manual trading can be exhausting. Watching charts all day, waiting for the perfect setup, and then placing orders manually leads to stress and execution delays. Automation is the key to trading with focus and speed. Why Speed Matters Xalgos processes TradingView webhooks in mill…",
-      "author": "Ayush",
-      "published": "Wed, 22 Jul 2026 03:25:59 +0000",
+      "title": "CentSettle: exact shared-expense settlement without an account",
+      "url": "https://dev.to/nekoautomata/centsettle-exact-shared-expense-settlement-without-an-account-ah7",
+      "summary": "Shared-expense apps are useful until a small edge becomes important: a cent has to go somewhere, a result needs to be reproducible, or the group does not want to create another account just to settle one trip. I built CentSettle for that narrow job. It turns one shared-expense l…",
+      "author": "Nekoautomata Miki",
+      "published": "Wed, 22 Jul 2026 03:40:02 +0000",
       "tags": [
-        "webdev",
+        "opensource",
         "javascript",
-        "automation"
+        "webdev",
+        "productivity"
       ]
     },
     {
@@ -299,6 +301,7 @@
   "notes": [
     "Simple English Wikipedia: 2 条",
     "Hacker News: 6 条",
+    "dev.to 请求失败 (fetch failed)",
     "DEV Community: 4 条",
     "Wikipedia: 1 条",
     "BBC 世界: 4 条",
