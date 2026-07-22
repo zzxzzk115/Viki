@@ -2,24 +2,24 @@
   "date": "2026-07-22",
   "items": [
     {
-      "id": "9d652804b469",
+      "id": "834f57fd5653",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Aveiro District",
-      "url": "https://simple.wikipedia.org/wiki/Aveiro_District",
-      "summary": "Aveiro District is in the central coastal region of Portugal. The capital of the district is the city of Aveiro.",
+      "title": "Ossi Runne",
+      "url": "https://simple.wikipedia.org/wiki/Ossi_Runne",
+      "summary": "Yrjö Osvald \"Ossi\" Rundberg was a Finnish trumpeter, orchestra leader, composer, and record producer. He was born in Viipuri, Finland. He conducted Finland's entries at the Eurovision Song Contest. He first conducted the entry \"Playboy\" at Luxembourg in 1966.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "1f89cb41ffed",
+      "id": "e1e2e6ea3d54",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Mount Kenya",
-      "url": "https://simple.wikipedia.org/wiki/Mount_Kenya",
-      "summary": "Mount Kenya is the highest mountain in Kenya. It is 5,199 metres high. It is the second highest mountain in Africa. It is an extinct volcano. It is on the equator. It is 193 kilometres northeast of Nairobi.",
+      "title": "Allied-occupied Germany",
+      "url": "https://simple.wikipedia.org/wiki/Allied-occupied_Germany",
+      "summary": "After World War II Nazi Germany west of the Oder-Neisse line was divided into four occupation zones. This had been agreed in London in September 1944.",
       "published": "",
       "tags": [
         "今日精选"
@@ -35,7 +35,7 @@
       "author": "mfiguiere",
       "published": "2026-07-21",
       "tags": [
-        "▲ 895"
+        "▲ 916"
       ]
     },
     {
@@ -48,7 +48,7 @@
       "author": "DemiGuru",
       "published": "2026-07-22",
       "tags": [
-        "▲ 132"
+        "▲ 149"
       ]
     },
     {
@@ -61,20 +61,20 @@
       "author": "piotrgrabowski",
       "published": "2026-07-21",
       "tags": [
-        "▲ 439"
+        "▲ 457"
       ]
     },
     {
-      "id": "14576512adad",
+      "id": "ac9c2ae4e1b3",
       "category": "tech",
       "source": "Hacker News",
-      "title": "FreeInk: Open ecosystem for e-readers",
-      "url": "https://freeink.org/",
+      "title": "Original Apollo 11 Guidance Computer source code for command and lunar modules",
+      "url": "https://github.com/chrislgarry/Apollo-11",
       "summary": "",
-      "author": "FriedPickles",
-      "published": "2026-07-21",
+      "author": "noteness",
+      "published": "2026-07-22",
       "tags": [
-        "▲ 472"
+        "▲ 8"
       ]
     },
     {
@@ -87,47 +87,62 @@
       "author": "montecarl",
       "published": "2026-07-21",
       "tags": [
-        "▲ 543"
+        "▲ 567"
       ]
     },
     {
-      "id": "3911d69dd953",
+      "id": "14576512adad",
       "category": "tech",
       "source": "Hacker News",
-      "title": "A digestion of the Jacobian conjecture counterexample",
-      "url": "https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/",
+      "title": "FreeInk: Open ecosystem for e-readers",
+      "url": "https://freeink.org/",
       "summary": "",
-      "author": "jeremyscanvic",
+      "author": "FriedPickles",
       "published": "2026-07-21",
       "tags": [
-        "▲ 222"
+        "▲ 480"
       ]
     },
     {
-      "id": "0dcffcb08b42",
+      "id": "d9ee7b60148c",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Build a Client-Side Image Compressor in 30 Minutes (No Backend Needed)",
-      "url": "https://dev.to/vijay_kanna_56/build-a-client-side-image-compressor-in-30-minutes-no-backend-needed-552m",
-      "summary": "Most image compression tutorials assume you're running something server-side — Sharp, ImageMagick, a Node backend. This one doesn't need any of that. We're going to build a working image compressor that runs entirely in the browser, using nothing but the Canvas API. By the end, …",
-      "author": "Vijay Kanna",
-      "published": "Wed, 22 Jul 2026 05:08:41 +0000",
+      "title": "Introducing CodePrints: A Collection of Simple Online Tools for Developers and Everyone",
+      "url": "https://dev.to/codeprintshub/introducing-codeprints-a-collection-of-simple-online-tools-for-developers-and-everyone-3i16",
+      "summary": "As developers, we often need small tools while working on projects. Maybe you need to format a JSON response from an API. Maybe you want to generate a QR code for a website or create a hash for testing. Sometimes you just need a quick utility to solve a small problem without ins…",
+      "author": "Code Prints",
+      "published": "Wed, 22 Jul 2026 05:41:17 +0000",
       "tags": [
-        "tutorial",
-        "javascript",
         "webdev",
-        "performance"
+        "devtools",
+        "programming",
+        "opensource"
       ]
     },
     {
-      "id": "4b99f86c3933",
+      "id": "fb8a0ecc2989",
       "category": "tech",
       "source": "DEV Community",
-      "title": "**Win iPhone 15 Review:",
-      "url": "https://dev.to/al_beruni_6f2dfaf29b51d96/win-iphone-15-review-5e0b",
-      "summary": "As a freelance digital marketer and affiliate promoter working from Rajshahi, Bangladesh, I regularly test email submit, sweepstakes, and giveaway offers to find high-engagement campaigns that convert well and provide value for my audience. When I came across Win iPhone 15 — the…",
-      "author": "Al Beruni",
-      "published": "Wed, 22 Jul 2026 05:08:06 +0000",
+      "title": "Web Scraping Services UK: Transform Online Data into Business Intelligence",
+      "url": "https://dev.to/techwithandrew/web-scraping-services-uk-transform-online-data-into-business-intelligence-12i3",
+      "summary": "In today's digital economy, businesses rely on accurate and timely data to make informed decisions. Whether you need competitor pricing, market research, lead generation, or product information, web scraping services provide an efficient way to collect large volumes of publicly …",
+      "author": "ANDREW",
+      "published": "Wed, 22 Jul 2026 05:41:17 +0000",
+      "tags": [
+        "webdev",
+        "ai",
+        "programming"
+      ]
+    },
+    {
+      "id": "95b809e47cf3",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Top Factors That Increase AI Chatbot Development Costs",
+      "url": "https://dev.to/jade_williams/top-factors-that-increase-ai-chatbot-development-costs-3je4",
+      "summary": "Every AI chatbot project has unique requirements, which is why development costs can vary widely. Understanding the major cost factors helps businesses make informed decisions and plan their budgets effectively. One of the biggest factors is customization. A chatbot designed spe…",
+      "author": "Jade Williams",
+      "published": "Wed, 22 Jul 2026 05:34:41 +0000",
       "tags": [
         "ai",
         "webdev",
@@ -136,35 +151,18 @@
       ]
     },
     {
-      "id": "65bdadf408cb",
+      "id": "86b346f6d01f",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Analyzing the Implications of Apple's Lawsuit on O…",
-      "url": "https://dev.to/norviktech/analyzing-the-implications-of-apples-lawsuit-on-o-2e9d",
-      "summary": "Originally published at norvik.tech Introduction A deep dive into the potential impact of Apple's lawsuit on OpenAI's hardware development and market strategies. Understanding the Lawsuit: Core Issues and Technical Landscape The lawsuit between Apple and OpenAI revolves around i…",
-      "author": "Norvik Tech",
-      "published": "Wed, 22 Jul 2026 05:05:51 +0000",
+      "title": "From Lyrks",
+      "url": "https://dev.to/p2code/from-lyrks-430b",
+      "summary": "Track of the day: 'Wonderwall' by Jamestown Story is taking over the Billboard Global chart, currently at rank 4! 'Today is gonna be the day That they're gonna throw it back to you...' Want to know what's next? Read the full lyrics on Lyrks: https://lyrks.com/lyrics/jamestown-st…",
+      "author": "Prashant Pokhriyal",
+      "published": "Wed, 22 Jul 2026 05:32:34 +0000",
       "tags": [
-        "webdev",
-        "openai",
-        "applelawsuit",
-        "hardwaredevelopment"
-      ]
-    },
-    {
-      "id": "43f6df10f0a9",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "“it parses” does not mean “it is secure”",
-      "url": "https://dev.to/secdim/it-parses-does-not-mean-it-is-secure-3n82",
-      "summary": "In the JavaScript ecosystem, many libraries prioritise ease of use or safety by omission rather than offering fine-grained security controls. There is no actively maintained JS XML to JSON convertor that supports both internal and external entity resolution in a controlled way. …",
-      "author": "Hamza",
-      "published": "Wed, 22 Jul 2026 05:03:57 +0000",
-      "tags": [
-        "javascript",
-        "programming",
-        "webdev",
-        "security"
+        "music",
+        "lyrics",
+        "webdev"
       ]
     },
     {
@@ -186,7 +184,7 @@
       "title": "Zelensky sacks Ukraine's top army commander after days of protests",
       "url": "https://www.bbc.co.uk/news/articles/cyvl35z3917o?at_medium=RSS&at_campaign=rss",
       "summary": "Oleksandr Syrskyi is dismissed after backlash over the removal of popular Defence Minister Mykhailo Fedorov.",
-      "published": "Tue, 21 Jul 2026 23:59:34 GMT",
+      "published": "Wed, 22 Jul 2026 05:37:43 GMT",
       "tags": []
     },
     {
