@@ -65,12 +65,12 @@ export function DailyPaper() {
         )}
         <span className="ml-auto tabular-nums text-neutral-400">{pick.published}</span>
       </div>
-      <a href={pick.url} className="mt-2 block font-medium leading-snug hover:underline">
+      <a href={pick.url} target="_blank" rel="noopener noreferrer" className="mt-2 block font-medium leading-snug hover:underline">
         {pick.title}
       </a>
       <p className="mt-1 line-clamp-2 text-sm text-neutral-500">{pick.abstract}</p>
       <p className="mt-3 flex flex-wrap items-center gap-3 text-xs">
-        <a href={pick.url} className="text-neutral-500 hover:underline">
+        <a href={pick.url} target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:underline">
           arXiv:{pick.id}
         </a>
         {pick.source === 'arxiv' && (

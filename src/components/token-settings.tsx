@@ -165,6 +165,8 @@ export function TokenSettings() {
         在{' '}
         <a
           href="https://github.com/settings/personal-access-tokens/new"
+          target="_blank"
+          rel="noopener noreferrer"
           className="underline decoration-dotted underline-offset-2"
         >
           GitHub 设置

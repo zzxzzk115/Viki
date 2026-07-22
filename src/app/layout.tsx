@@ -32,6 +32,7 @@ const NAV = [
   { href: '/papers/', label: '论文' },
   { href: '/arxiv/', label: 'arXiv' },
   { href: '/read/', label: '阅读' },
+  { href: '/videos/', label: '视频' },
   { href: '/shaders/', label: 'Shader' },
   { href: '/glossary/', label: '术语' },
 ]
@@ -81,6 +82,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="border-t border-neutral-200 py-8 text-center text-xs text-neutral-400 dark:border-neutral-800">
           <a
             href="https://github.com/zzxzzk115/Viki"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-neutral-600 dark:hover:text-neutral-300"
           >
             源码在 GitHub

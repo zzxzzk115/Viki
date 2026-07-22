@@ -8,15 +8,44 @@ import type { ReadingItem } from './reading-feed'
 
 export type RawReading = Omit<ReadingItem, 'id'>
 
-export function stripHtml(s: string): string {
+const NAMED: Record<string, string> = {
+  amp: '&',
+  lt: '<',
+  gt: '>',
+  quot: '"',
+  apos: "'",
+  nbsp: ' ',
+  hellip: '…',
+  mdash: '—',
+  ndash: '–',
+  rsquo: '’',
+  lsquo: '‘',
+  ldquo: '“',
+  rdquo: '”',
+}
+
+/**
+ * Decodes HTML entities — named, decimal (&#47;) AND hex (&#x2F;). Hacker News
+ * in particular returns text with hex-encoded slashes/quotes, which showed up
+ * raw in reading summaries (`https:&#x2F;&#x2F;…`) before this handled them.
+ */
+export function decodeEntities(s: string): string {
   return s
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&#39;|&apos;/g, "'")
-    .replace(/&quot;/g, '"')
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, h) => safeCodePoint(parseInt(h, 16)))
+    .replace(/&#(\d+);/g, (_, d) => safeCodePoint(parseInt(d, 10)))
+    .replace(/&([a-zA-Z]+);/g, (m, name) => NAMED[name] ?? m)
+}
+
+function safeCodePoint(n: number): string {
+  try {
+    return Number.isFinite(n) && n > 0 && n <= 0x10ffff ? String.fromCodePoint(n) : ''
+  } catch {
+    return ''
+  }
+}
+
+export function stripHtml(s: string): string {
+  return decodeEntities(s.replace(/<[^>]+>/g, ' '))
     .replace(/\s+/g, ' ')
     .trim()
 }

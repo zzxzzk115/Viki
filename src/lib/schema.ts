@@ -10,6 +10,15 @@ export const LEVEL_LABEL: Record<Level, string> = {
   advanced: '高阶',
 }
 
+/** An embedded video: a note in content/videos/ is one video + your notes. */
+export const VideoRef = z.object({
+  platform: z.enum(['youtube', 'bilibili']),
+  /** YouTube 11-char id, or Bilibili BV id. */
+  id: z.string().min(1),
+  channel: z.string().optional(),
+})
+export type VideoRef = z.infer<typeof VideoRef>
+
 /** Frontmatter of content/<subject>/**\/*.md — everything else is derived. */
 export const NoteMeta = z.object({
   title: z.string().min(1),
@@ -19,6 +28,8 @@ export const NoteMeta = z.object({
   created: z.coerce.date().optional(),
   updated: z.coerce.date().optional(),
   draft: z.boolean().default(false),
+  /** When set, the note page embeds a player above the body. */
+  video: VideoRef.optional(),
 })
 export type NoteMeta = z.infer<typeof NoteMeta>
 

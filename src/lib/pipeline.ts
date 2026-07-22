@@ -15,6 +15,7 @@ import { unified } from 'unified'
 import { visit } from 'unist-util-visit'
 import type { VFile } from 'vfile'
 import { rehypeBasePath } from '@/plugins/rehype-base-path'
+import { rehypeExternalLinks } from '@/plugins/rehype-external-links'
 import { remarkCards, type RawCard } from '@/plugins/remark-cards'
 import { remarkArray, remarkDemo } from '@/plugins/remark-demo'
 import { remarkGallery } from '@/plugins/remark-gallery'
@@ -122,6 +123,7 @@ export function createProcessor(options: RenderOptions) {
       .use(rehypeKatex)
       .use(rehypePrettyCode, SHIKI)
       .use(rehypeBasePath, { base: BASE })
+      .use(rehypeExternalLinks)
       .use(rehypeStringify, { allowDangerousHtml: true })
   )
 }
@@ -134,6 +136,7 @@ const fragmentProcessor = unified()
   .use(remarkRehype, { allowDangerousHtml: true })
   .use(rehypeKatex)
   .use(rehypePrettyCode, SHIKI)
+  .use(rehypeExternalLinks)
   // Cards can hold wiki-links too — remarkWikilink has already rewritten the
   // captured subtree in place by the time this runs.
   .use(rehypeBasePath, { base: BASE })
@@ -166,8 +169,17 @@ export interface Rendered {
   strudelErrors: string[]
 }
 
+/**
+ * Escapes the colons in `@mm:ss` timestamps so remark-directive doesn't parse
+ * the `:ss` as a text directive (`:45`) and mangle the line. The rendered text
+ * is unchanged (`@0:45`); VideoEmbed wires it into a seek button at runtime.
+ */
+function protectTimestamps(markdown: string): string {
+  return markdown.replace(/@(?:\d{1,2}:)?\d{1,2}:\d{2}\b/g, (m) => m.replace(/:/g, '\\:'))
+}
+
 export async function render(markdown: string, options: RenderOptions): Promise<Rendered> {
-  const file = await createProcessor(options).process(markdown)
+  const file = await createProcessor(options).process(protectTimestamps(markdown))
   return {
     html: String(file),
     text: file.data.text ?? '',

@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import { AddToVocab } from '@/components/add-to-vocab'
+import { PlayWord } from '@/components/play-word'
 import { withBase } from '@/lib/base-path'
 
 export interface DailyWordData {
@@ -49,10 +50,11 @@ export function DailyWord() {
   return (
     <div className="rounded-xl border border-neutral-200 p-5 dark:border-neutral-800">
       <span className="text-xs font-semibold tracking-wide text-neutral-500 uppercase">每日单词</span>
-      <div className="mt-2 flex items-baseline gap-3">
+      <div className="mt-2 flex flex-wrap items-baseline gap-x-3 gap-y-1">
         <span className="text-2xl font-bold tracking-tight">{w.word}</span>
         {w.ipa && <span className="text-sm text-neutral-400">{w.ipa}</span>}
         {w.pos && <span className="text-xs text-neutral-400">{w.pos}.</span>}
+        <PlayWord word={w.word} />
       </div>
       {w.definitionZh && <p className="mt-1 text-sm text-neutral-700 dark:text-neutral-200">{w.definitionZh}</p>}
       {w.definition && <p className="mt-0.5 text-xs text-neutral-500">{w.definition}</p>}

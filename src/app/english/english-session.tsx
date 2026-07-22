@@ -6,6 +6,7 @@ import { withBase } from '@/lib/base-path'
 import type { Word } from '@/lib/schema'
 import { GRADES, pickNext, schedule, stats, sweep, type Grade } from '@/lib/srs'
 import { useHydrated } from '@/lib/store'
+import { PlayWord } from '@/components/play-word'
 import { buildSpellQuestion, checkSpelling, gradeSpell } from '@/lib/vocab-quiz'
 import { useVocabStore } from '@/lib/vocab-store'
 
@@ -175,6 +176,9 @@ function FlipCard({
       <div className="p-6 text-center">
         <p className="text-3xl font-bold tracking-tight">{word.word}</p>
         {word.ipa && <p className="mt-1 text-sm text-neutral-400">{word.ipa}</p>}
+        <div className="mt-2 flex justify-center">
+          <PlayWord word={word.word} />
+        </div>
         {revealed ? (
           <>
             <hr className="my-5 border-neutral-200 dark:border-neutral-800" />

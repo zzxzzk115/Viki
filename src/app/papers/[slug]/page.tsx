@@ -138,6 +138,8 @@ function Ext({ href, children }: { href: string; children: React.ReactNode }) {
   return (
     <a
       href={href}
+      target="_blank"
+      rel="noopener noreferrer"
       className="text-neutral-500 underline decoration-neutral-300 underline-offset-4 hover:text-neutral-900 dark:decoration-neutral-600 dark:hover:text-neutral-100"
     >
       {children}

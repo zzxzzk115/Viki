@@ -15,6 +15,8 @@ export default async function ArxivPage() {
         每天由 GitHub Actions 抓取，配置见{' '}
         <a
           href="https://github.com/zzxzzk115/Viki/blob/master/config/feeds.ts"
+          target="_blank"
+          rel="noopener noreferrer"
           className="underline decoration-neutral-300 underline-offset-2 hover:text-neutral-900 dark:decoration-neutral-600 dark:hover:text-neutral-100"
         >
           config/feeds.ts

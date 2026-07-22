@@ -114,12 +114,12 @@ export function ImportUI() {
             {phase.commitUrl && (
               <>
                 {' '}
-                <a href={phase.commitUrl} className="underline">
+                <a href={phase.commitUrl} target="_blank" rel="noopener noreferrer" className="underline">
                   查看 commit
                 </a>
               </>
             )}{' '}
-            <a href={REPO_ACTIONS} className="underline">
+            <a href={REPO_ACTIONS} target="_blank" rel="noopener noreferrer" className="underline">
               查看 Actions
             </a>
           </p>

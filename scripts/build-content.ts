@@ -432,6 +432,15 @@ async function main() {
     .then((t) => writeFile(join(PUBLIC_DATA, 'feed.json'), t))
     .catch(() => {}) // no data:pull yet — homepage widget shows its empty state
 
+  // arXiv ids already in the reading list — from the .bib (source of truth,
+  // covers just-added-not-yet-materialized) plus materialized papers. Lets the
+  // homepage 「加入待读」 button show 「已在待读库」 on load, not only after a click.
+  const bibText = await readFile(join(ROOT, 'scratch', 'related-work.bib'), 'utf8').catch(() => '')
+  const readingListIds = new Set<string>()
+  for (const m of bibText.matchAll(/(?:eprint\s*=\s*[{"]\s*|arxiv[:.]\s*)(\d{4}\.\d{4,5})/gi)) readingListIds.add(m[1])
+  for (const p of papers) if (p.meta.arxiv) readingListIds.add(p.meta.arxiv)
+  await writeFile(join(PUBLIC_DATA, 'reading-list.json'), JSON.stringify([...readingListIds]))
+
   // Reading feed + daily word: same client-side-pick copy pattern.
   await readFile(join(ROOT, 'data', 'reading', 'latest.json'), 'utf8')
     .then((t) => writeFile(join(PUBLIC_DATA, 'reading.json'), t))

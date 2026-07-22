@@ -131,7 +131,7 @@ export function ZoteroSettings() {
 
       <p className="mt-4 text-xs leading-relaxed text-neutral-500">
         解锁论文页的「Zotero 导入」。在{' '}
-        <a href="https://www.zotero.org/settings/keys" className="underline decoration-dotted underline-offset-2">
+        <a href="https://www.zotero.org/settings/keys" target="_blank" rel="noopener noreferrer" className="underline decoration-dotted underline-offset-2">
           zotero.org/settings/keys
         </a>{' '}
         创建只读 key，userID 显示在该页顶部。key 存在本机浏览器。

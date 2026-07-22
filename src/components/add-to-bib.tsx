@@ -1,7 +1,8 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { appendBibEntry, bibHasArxivId, buildArxivBibEntry, type ArxivPaperRef } from '@/lib/bibtex'
+import { withBase } from '@/lib/base-path'
 import { ghCommitFile, ghLoadFile, readStoredToken } from '@/lib/github-edit'
 import { TokenQuickSet } from '@/components/token-settings'
 
@@ -21,6 +22,21 @@ type State = 'idle' | 'busy' | 'done' | 'exists' | 'error' | 'need-token'
 export function AddToBib({ paper }: { paper: ArxivPaperRef }) {
   const [state, setState] = useState<State>('idle')
   const [msg, setMsg] = useState('')
+
+  // Show 「已在待读库」 on load if this paper is already in the .bib — the id
+  // set is emitted at build time, so no token or network round-trip is needed.
+  useEffect(() => {
+    let alive = true
+    fetch(withBase('/data/reading-list.json'))
+      .then((r) => (r.ok ? r.json() : []))
+      .then((ids: string[]) => {
+        if (alive && Array.isArray(ids) && ids.includes(paper.id)) setState('exists')
+      })
+      .catch(() => {})
+    return () => {
+      alive = false
+    }
+  }, [paper.id])
 
   const add = async () => {
     const token = readStoredToken()

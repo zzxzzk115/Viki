@@ -4,6 +4,7 @@ import { DemoPlayer } from '@/components/demo-player'
 import { EditOnGitHub } from '@/components/edit-on-github'
 import { ShaderPlayer } from '@/components/shader-player'
 import { StrudelPlayer } from '@/components/strudel-player'
+import { VideoEmbed } from '@/components/video-embed'
 import { Icon } from '@/components/icon'
 import { LevelBadge } from '@/components/level-badge'
 import { getBacklinks, getNote, getNoteIndex, getSubjects } from '@/lib/content'
@@ -81,6 +82,9 @@ export default async function NotePage({ params }: Props) {
               {note.meta.summary}
             </p>
           )}
+
+          {/* A video note embeds its player above the body. */}
+          {note.meta.video && <VideoEmbed video={note.meta.video} />}
 
           {/* Prebuilt at build time from our own repo — shiki and KaTeX ran in
               Node and never reach the client. */}

@@ -6,6 +6,11 @@ describe('stripHtml / capSummary', () => {
   it('去标签、解实体、压空白', () => {
     assert.equal(stripHtml('<p>a &amp; b<br> c</p>'), 'a & b c')
   })
+  it('解码 十六进制/十进制 实体（HN 的 &#x2F; 乱码）', () => {
+    assert.equal(stripHtml('https:&#x2F;&#x2F;a.com&#x2F;x'), 'https://a.com/x')
+    assert.equal(stripHtml('a&#38;b &#8230;'), 'a&b …')
+    assert.equal(stripHtml('&hellip;&mdash;'), '…—')
+  })
   it('超长截断带省略号', () => {
     assert.equal(capSummary('x'.repeat(300)).length, 280)
     assert.ok(capSummary('x'.repeat(300)).endsWith('…'))

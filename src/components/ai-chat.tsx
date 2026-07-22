@@ -257,7 +257,7 @@ export function AiChat() {
                 {committed.url && (
                   <>
                     {' '}
-                    <a href={committed.url} className="underline">
+                    <a href={committed.url} target="_blank" rel="noopener noreferrer" className="underline">
                       查看 commit
                     </a>
                   </>

@@ -218,11 +218,11 @@ export function EditorUI() {
               {!token && (
                 <span className="text-xs text-neutral-400">
                   没有 token 只能预览。仓库所有者在{' '}
-                  <a href="https://github.com/settings/personal-access-tokens/new" className="underline">
+                  <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer" className="underline">
                     GitHub 设置
                   </a>{' '}
                   创建；其他人请走{' '}
-                  <a href={REPO_URL} className="underline">
+                  <a href={REPO_URL} target="_blank" rel="noopener noreferrer" className="underline">
                     fork + PR
                   </a>
                   。
@@ -234,7 +234,7 @@ export function EditorUI() {
                   {result.url && (
                     <>
                       {' '}
-                      <a href={result.url} className="underline">
+                      <a href={result.url} target="_blank" rel="noopener noreferrer" className="underline">
                         查看 commit
                       </a>
                     </>
