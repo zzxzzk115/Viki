@@ -2,24 +2,24 @@
   "date": "2026-07-22",
   "items": [
     {
-      "id": "6aa440f91b5f",
+      "id": "bc777af89dc2",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Toyota 200 presented by CK Power",
-      "url": "https://simple.wikipedia.org/wiki/Toyota_200_presented_by_CK_Power",
-      "summary": "The Toyota 200 was a NASCAR Craftsman Truck Series race at World Wide Technology Raceway at Gateway. The race has been held each year since 1998 except for 2011, 2012 and 2013. The track closed after the 2010 race, reopened in 2012 under new ownership, and the race returned to t…",
+      "title": "Natalie Wood",
+      "url": "https://simple.wikipedia.org/wiki/Natalie_Wood",
+      "summary": "Natalie Wood was an American actress.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "44b829a85ec8",
+      "id": "cfcf58bce399",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Ashford, Connecticut",
-      "url": "https://simple.wikipedia.org/wiki/Ashford%2C_Connecticut",
-      "summary": "Ashford is a town in Windham County, Connecticut. The town had a population of 4,191 at the 2020 census. Ashford was founded in 1714. Eastford was a part of Ashford until 1848 or 1847. Eastford split into its own town. Ashford has the largest Boy scout camps in the US state of C…",
+      "title": "Citytv Saskatchewan",
+      "url": "https://simple.wikipedia.org/wiki/Citytv_Saskatchewan",
+      "summary": "Citytv Saskatchewan is a Canadian English language cable television channel. It is in the province of Saskatchewan. the channel has its headquarters in the capital of the province, Regina. The channel is owned by Rogers Sports & Media. It is a subsidiary of Rogers Communications…",
       "published": "",
       "tags": [
         "今日精选"
@@ -35,7 +35,7 @@
       "author": "mfiguiere",
       "published": "2026-07-21",
       "tags": [
-        "▲ 820"
+        "▲ 882"
       ]
     },
     {
@@ -48,7 +48,7 @@
       "author": "piotrgrabowski",
       "published": "2026-07-21",
       "tags": [
-        "▲ 382"
+        "▲ 428"
       ]
     },
     {
@@ -61,7 +61,7 @@
       "author": "DemiGuru",
       "published": "2026-07-22",
       "tags": [
-        "▲ 47"
+        "▲ 114"
       ]
     },
     {
@@ -74,7 +74,20 @@
       "author": "FriedPickles",
       "published": "2026-07-21",
       "tags": [
-        "▲ 447"
+        "▲ 467"
+      ]
+    },
+    {
+      "id": "f5d9d355a5b7",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Advertise in ChatGPT",
+      "url": "https://ads.openai.com/",
+      "summary": "",
+      "author": "montecarl",
+      "published": "2026-07-21",
+      "tags": [
+        "▲ 530"
       ]
     },
     {
@@ -87,84 +100,69 @@
       "author": "jeremyscanvic",
       "published": "2026-07-21",
       "tags": [
-        "▲ 208"
+        "▲ 218"
       ]
     },
     {
-      "id": "8fd735d60318",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
-      "summary": "https://console.cloud.google.com/agent-platform/publishers/g...",
-      "author": "logickkk1",
-      "published": "2026-07-21",
-      "tags": [
-        "▲ 635"
-      ]
-    },
-    {
-      "id": "ec1b084876c8",
+      "id": "8b5c0bc85540",
       "category": "tech",
       "source": "DEV Community",
-      "title": "AI Coding Conversations Are Becoming Build Artifacts",
-      "url": "https://dev.to/neurobin_/ai-coding-conversations-are-becoming-build-artifacts-488h",
-      "summary": "AI coding tools made it easier to create code. They also created a new handoff problem. The final code is often not the only useful artifact anymore. The conversation around the code can matter just as much. It contains the reasoning trail: what the agent changed what failed whi…",
-      "author": "Neurobin",
-      "published": "Wed, 22 Jul 2026 03:45:04 +0000",
+      "title": "Break Up Your React App: Micro-Frontends with Next.js 🧩",
+      "url": "https://dev.to/iprajapatiparesh/break-up-your-react-app-micro-frontends-with-nextjs-1k2m",
+      "summary": "The Frontend Monolith Bottleneck Backend architectures evolved from monoliths to decoupled services years ago, but the frontend was largely left behind. As enterprise React applications grow, the main repository becomes a bottleneck. Deployment times skyrocket, merge conflicts b…",
+      "author": "Prajapati Paresh",
+      "published": "Wed, 22 Jul 2026 04:52:16 +0000",
       "tags": [
-        "ai",
-        "webdev",
-        "tooling",
-        "productivity"
-      ]
-    },
-    {
-      "id": "b4b0b5b9f21c",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "How to Deploy Llama 2 on DigitalOcean for $5/month: Complete Self-Hosting Guide",
-      "url": "https://dev.to/ramosai/how-to-deploy-llama-2-on-digitalocean-for-5month-complete-self-hosting-guide-1e0p",
-      "summary": "⚡ Deploy this in under 10 minutes Get $200 free: https://m.do.co/c/9fa609b86a0e ($5/month server — this is what I used) How to Deploy Llama 2 on DigitalOcean for $5/Month: Complete Self-Hosting Guide Stop overpaying for AI APIs. I'm about to show you how I run a production Llama…",
-      "author": "RamosAI",
-      "published": "Wed, 22 Jul 2026 03:42:14 +0000",
-      "tags": [
-        "programming",
-        "tutorial",
-        "ai",
+        "nextjs",
+        "react",
+        "javascript",
         "webdev"
       ]
     },
     {
-      "id": "79399960401e",
+      "id": "77821e4e7900",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Build a Contribution-Margin Check That Doesn't Lie About Refunds or FX",
-      "url": "https://dev.to/sunny_sun_df44eed060dc074/build-a-contribution-margin-check-that-doesnt-lie-about-refunds-or-fx-mkb",
-      "summary": "Building e-commerce or financial calculation tools sounds straightforward until you hit the real-world edge cases: blended platform fees, return rate impact, and foreign exchange (FX) settlement slippage. Most generic calculators oversimplify these factors, leading to incorrect …",
-      "author": "sunny sun",
-      "published": "Wed, 22 Jul 2026 03:41:46 +0000",
+      "title": "How to Build a Powerful Solana TradingView Chart in 4 Steps",
+      "url": "https://dev.to/moiapi/how-to-build-a-powerful-solana-tradingview-chart-in-4-steps-46km",
+      "summary": "The Solana TradingView Chart API guide: resolve tokens, seed up to 5,000 OHLCV candles, backfill on scroll, and keep the live bar fresh with Birdeye Data. Table of Contents Direct Answer: Build a Solana TradingView Chart in 4 Steps Stage 1: Resolve a Token or Pair with the Searc…",
+      "author": "moiapi",
+      "published": "Wed, 22 Jul 2026 04:50:40 +0000",
       "tags": [
-        "javascript",
         "webdev",
-        "ecommerce",
         "tutorial"
       ]
     },
     {
-      "id": "96504b3f0999",
+      "id": "3f9d33972d67",
       "category": "tech",
       "source": "DEV Community",
-      "title": "CentSettle: exact shared-expense settlement without an account",
-      "url": "https://dev.to/nekoautomata/centsettle-exact-shared-expense-settlement-without-an-account-ah7",
-      "summary": "Shared-expense apps are useful until a small edge becomes important: a cent has to go somewhere, a result needs to be reproducible, or the group does not want to create another account just to settle one trip. I built CentSettle for that narrow job. It turns one shared-expense l…",
-      "author": "Nekoautomata Miki",
-      "published": "Wed, 22 Jul 2026 03:40:02 +0000",
+      "title": "Boost Leads: India's Top Lead Gen Strategies 2026",
+      "url": "https://dev.to/shivatechdigitalnoid/boost-leads-indias-top-lead-gen-strategies-2026-3oac",
+      "summary": "Originally published at shivatechdigital.com Read Full Article Click here to read the complete article About ShivaTechDigital: Leading web development and digital marketing agency in Noida, India. Visit our website | Contact Us",
+      "author": "Shivatechdigital",
+      "published": "Wed, 22 Jul 2026 04:41:55 +0000",
       "tags": [
-        "opensource",
-        "javascript",
         "webdev",
-        "productivity"
+        "seo",
+        "marketing",
+        "tutorial"
+      ]
+    },
+    {
+      "id": "b6b2cb7ac2be",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "synkin - preview website on phone with usb",
+      "url": "https://dev.to/owsam22/synkin-preview-website-on-phone-with-usb-1efi",
+      "summary": "🚀 I built Synkin — a free, open-source npm CLI that lets you preview localhost websites directly on your Android device over USB. I built it because I was tired of: Setting up local IPs every time Connecting both devices to the same Wi-Fi Running into localhost/backend API issu…",
+      "author": "Samarpan",
+      "published": "Wed, 22 Jul 2026 04:38:02 +0000",
+      "tags": [
+        "npm",
+        "webdev",
+        "cli",
+        "opensource"
       ]
     },
     {
@@ -190,33 +188,33 @@
       "tags": []
     },
     {
-      "id": "31d16025de84",
+      "id": "d27a33d94c93",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal",
-      "url": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o?at_medium=RSS&at_campaign=rss",
-      "summary": "A US-brokered agreement should see Israeli troops pulling out of a small part of Lebanon occupied during their conflict with Hezbollah.",
-      "published": "Tue, 21 Jul 2026 18:07:34 GMT",
+      "title": "US renews strikes on Iran as Trump threatens to attack underground nuclear site",
+      "url": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss",
+      "summary": "The US president's threat to target a key Iranian nuclear site came ahead of the 11th consecutive night of attacks.",
+      "published": "Wed, 22 Jul 2026 03:05:08 GMT",
       "tags": []
     },
     {
-      "id": "eadcf9422681",
+      "id": "85229a18fb73",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Carney looking at 'all options' as Trump announces 50% tariffs on Canada",
-      "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
-      "summary": "The duties mark a major escalation in trade tensions between the North American neighbours.",
-      "published": "Tue, 21 Jul 2026 17:33:22 GMT",
+      "title": "France passes law banning under-15s from social media",
+      "url": "https://www.bbc.co.uk/news/articles/cq56l9p4y93o?at_medium=RSS&at_campaign=rss",
+      "summary": "The law will require social media platforms in France to verify all users age from January.",
+      "published": "Wed, 22 Jul 2026 03:50:55 GMT",
       "tags": []
     },
     {
-      "id": "36f46f8d69ef",
+      "id": "a55581a1c49f",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Dozens hurt in Bologna protests after man dies while being restrained by police",
-      "url": "https://www.bbc.co.uk/news/articles/c86nwgw148xo?at_medium=RSS&at_campaign=rss",
-      "summary": "Thousands of people took to the streets demanding justice for a Moroccan-born man who died on Sunday.",
-      "published": "Tue, 21 Jul 2026 12:48:37 GMT",
+      "title": "Tokyo urges men to wear shorts to work, but some women say it's 'leg hair harassment'",
+      "url": "https://www.bbc.co.uk/news/articles/cvgwp513jpvo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Tokyo Metropolitan Government wants workers to ditch the suit and tie for t-shirts, trainers - and shorts.",
+      "published": "Tue, 21 Jul 2026 22:26:19 GMT",
       "tags": []
     },
     {
@@ -301,7 +299,6 @@
   "notes": [
     "Simple English Wikipedia: 2 条",
     "Hacker News: 6 条",
-    "dev.to 请求失败 (fetch failed)",
     "DEV Community: 4 条",
     "Wikipedia: 1 条",
     "BBC 世界: 4 条",
