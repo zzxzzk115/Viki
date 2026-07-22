@@ -2,24 +2,24 @@
   "date": "2026-07-22",
   "items": [
     {
-      "id": "c7737c01e397",
+      "id": "8a97335c36cc",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "François Perigot",
-      "url": "https://simple.wikipedia.org/wiki/Fran%C3%A7ois_Perigot",
-      "summary": "François Perigot was a French businessman and trade unionist. He was President of the Conseil national du patronat français from 1986 to 1994 and President of the Mouvement des Entreprises de France from 1997 to 2005.",
+      "title": "Corcoran, Minnesota",
+      "url": "https://simple.wikipedia.org/wiki/Corcoran%2C_Minnesota",
+      "summary": "Corcoran is a city in Hennepin County, Minnesota, United States.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "ba3c09dbca56",
+      "id": "6dcd6baab0d9",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Gulf St Vincent",
-      "url": "https://simple.wikipedia.org/wiki/Gulf_St_Vincent",
-      "summary": "Gulf St Vincent, also called St Vincent Gulf or Gulf of St Vincent, is one of two big water bays on the southern coast of South Australia. The other big bay is Spencer Gulf, which is bigger and is separated from Gulf St Vincent by Yorke Peninsula. On the east side of Gulf St Vin…",
+      "title": "Blackjack Lanza",
+      "url": "https://simple.wikipedia.org/wiki/Blackjack_Lanza",
+      "summary": "John Mortl Lanzo was an American professional wrestler, better known by his ring name, Blackjack Lanza. He was known for working with Blackjack Mulligan as they were known as The Blackjacks.",
       "published": "",
       "tags": [
         "今日精选"
@@ -35,7 +35,7 @@
       "author": "mfiguiere",
       "published": "2026-07-21",
       "tags": [
-        "▲ 784"
+        "▲ 808"
       ]
     },
     {
@@ -48,7 +48,20 @@
       "author": "piotrgrabowski",
       "published": "2026-07-21",
       "tags": [
-        "▲ 350"
+        "▲ 377"
+      ]
+    },
+    {
+      "id": "76af5b683c70",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "LG to ban residential proxies from smart TV apps",
+      "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "summary": "",
+      "author": "DemiGuru",
+      "published": "2026-07-22",
+      "tags": [
+        "▲ 35"
       ]
     },
     {
@@ -61,7 +74,7 @@
       "author": "FriedPickles",
       "published": "2026-07-21",
       "tags": [
-        "▲ 439"
+        "▲ 444"
       ]
     },
     {
@@ -74,20 +87,7 @@
       "author": "jeremyscanvic",
       "published": "2026-07-21",
       "tags": [
-        "▲ 193"
-      ]
-    },
-    {
-      "id": "8fd735d60318",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
-      "summary": "https://console.cloud.google.com/agent-platform/publishers/g...",
-      "author": "logickkk1",
-      "published": "2026-07-21",
-      "tags": [
-        "▲ 629"
+        "▲ 205"
       ]
     },
     {
@@ -100,71 +100,69 @@
       "author": "montecarl",
       "published": "2026-07-21",
       "tags": [
-        "▲ 393"
+        "▲ 434"
       ]
     },
     {
-      "id": "c3eceac29dbe",
+      "id": "5a660ac41de8",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Capital Hospitality Villas Preparation — خدمة ضيافة للمناسبات في فلل العاصمة: تجهيزات فاخرة تليق بضيوفك",
-      "url": "https://dev.to/zaool/capital-hospitality-villas-preparation-khdm-dyf-llmnsbt-fy-fll-lsm-tjhyzt-fkhr-tlyq-1hlj",
-      "summary": "شفت كيف النوبي يهتم بأدق التفاصيل في تجهيز فلل الضيافة بالعاصمة، بصراحة شغلهم احترافي جدًا ويخلّي أي مناسبة ذكرى لا تُنسى. خدمة ضيافة للمناسبات في فلل العاصمة: تجهيزات فاخرة تليق بضيوفك اكتشف كيف يضمن النوبي للضيافة تجهيز فلل الضيافة بالعاصمة بأعلى معايير الجودة والاحترافية. htt…",
-      "author": "ismail",
-      "published": "Wed, 22 Jul 2026 03:10:32 +0000",
+      "title": "The AI Engineer Job Description Is a Lie. Here's What the Role Actually Is.",
+      "url": "https://dev.to/aibughunter/the-ai-engineer-job-description-is-a-lie-heres-what-the-role-actually-is-4kb9",
+      "summary": "I spend a lot of time in the AI space -- reading papers, building things, talking to engineers who are actually shipping. And there is a gap between what the demos show and what production systems actually look like that nobody is being fully honest about. So here is my honest t…",
+      "author": "AI Bug Slayer 🐞",
+      "published": "Wed, 22 Jul 2026 03:31:30 +0000",
       "tags": [
-        "arabic",
-        "seo",
-        "webdev",
-        "business"
+        "aiagents",
+        "ai",
+        "llm",
+        "webdev"
       ]
     },
     {
-      "id": "2220fbbcfa76",
+      "id": "e08195201cb0",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Chair Rental Art Exhibitions Kuwait City Mall — دليل شامل لاختيار وتأجير الكراسي والطاولات للمعارض الفنية في مدينة الكويت مول: ل",
-      "url": "https://dev.to/zaool/chair-rental-art-exhibitions-kuwait-city-mall-dlyl-shml-lkhtyr-wtjyr-lkrsy-wltwlt-llmrd-4c1i",
-      "summary": "شفت في مقال فريقنا الجديد طرق مبتكرة لتأجير أثاث راقي للمعارض الفنية بالكويت مول، ونصائح عملية فعلاً! دليل شامل لاختيار وتأجير الكراسي والطاولات للمعارض الفنية في مدينة الكويت مول: لمسة فنية لكل حدث خدمات تأجير كراسي عالية الجودة للمعارض الفنية في مدينة الكويت مول. نوفر حلولاً م…",
-      "author": "ismail",
-      "published": "Wed, 22 Jul 2026 03:09:26 +0000",
+      "title": "Multi-Tenancy Data Isolation Patterns for B2B SaaS Backends",
+      "url": "https://dev.to/kapil/multi-tenancy-data-isolation-patterns-for-b2b-saas-backends-11c2",
+      "summary": "Key takeaways Multi-tenancy improves resource efficiency but poses data risks. Row-level security can prevent data leaks in shared environments. Partitioning strategies can optimize performance for individual tenants. Choosing the right isolation level is crucial for compliance.…",
+      "author": "kapil Maheshwari",
+      "published": "Wed, 22 Jul 2026 03:30:50 +0000",
       "tags": [
-        "arabic",
-        "seo",
-        "webdev",
-        "business"
+        "api",
+        "backend",
+        "programming",
+        "webdev"
       ]
     },
     {
-      "id": "8e4aef91fe67",
+      "id": "65c280f2ecf0",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Analyzing Cricket Data: Cricket quiz: Can you name all eight teams in The Hundred? — What the Numbers Say",
-      "url": "https://dev.to/muhammad_binnazeer_6a810/analyzing-cricket-data-cricket-quiz-can-you-name-all-eight-teams-in-the-hundred-what-the-1n7e",
-      "summary": "Analyzing Cricket Data: Cricket quiz: Can you name all eight teams in The Hundred? — What the Numbers Say TL;DR : Eight teams, six summers, and one question that trips up more cricket fans than it should: name them all. The Hundred begins its sixth staging on Tuesday, 21 July, a…",
-      "author": "Muhammad Bin Nazeer",
-      "published": "Wed, 22 Jul 2026 03:08:07 +0000",
+      "title": "Instant TradingView Execution",
+      "url": "https://dev.to/ayush1406/instant-tradingview-execution-1c4h",
+      "summary": "Most retail traders have profitable strategies on TradingView, but executing them manually is difficult. Missed alerts and emotional decision-making often ruin backtested results. Automation solves these problems. Why Speed Matters Xalgos processes TradingView webhooks in millis…",
+      "author": "Ayush",
+      "published": "Wed, 22 Jul 2026 03:29:32 +0000",
       "tags": [
         "webdev",
         "javascript",
-        "api",
-        "sports"
+        "automation"
       ]
     },
     {
-      "id": "f1b2fb0638a3",
+      "id": "96f9a003e0a4",
       "category": "tech",
       "source": "DEV Community",
-      "title": "I Scraped 100 Formula 1 Matches — Here Is What I Found: Why was Hamilton penalised but not Leclerc? F1 Q&A",
-      "url": "https://dev.to/muhammad_binnazeer_6a810/i-scraped-100-formula-1-matches-here-is-what-i-found-why-was-hamilton-penalised-but-not-leclerc-2g1f",
-      "summary": "I Scraped 100 Formula 1 Matches — Here Is What I Found: Why was Hamilton penalised but not Leclerc? F1 Q&A TL;DR : One note before the article: I dont have verified reporting on the specific Hamilton/Leclerc incident behind this Q&A, so Ive written it around the stewarding frame…",
-      "author": "Muhammad Bin Nazeer",
-      "published": "Wed, 22 Jul 2026 03:07:27 +0000",
+      "title": "No-Code Trading Automation",
+      "url": "https://dev.to/ayush1406/no-code-trading-automation-4cbd",
+      "summary": "Manual trading can be exhausting. Watching charts all day, waiting for the perfect setup, and then placing orders manually leads to stress and execution delays. Automation is the key to trading with focus and speed. Why Speed Matters Xalgos processes TradingView webhooks in mill…",
+      "author": "Ayush",
+      "published": "Wed, 22 Jul 2026 03:25:59 +0000",
       "tags": [
-        "api",
-        "opensource",
-        "sportsanalytics",
-        "webdev"
+        "webdev",
+        "javascript",
+        "automation"
       ]
     },
     {
@@ -178,12 +176,133 @@
       "tags": [
         "今日精选"
       ]
+    },
+    {
+      "id": "4ce2c9e1e406",
+      "category": "news",
+      "source": "BBC 世界",
+      "title": "Zelensky sacks Ukraine's top army commander after days of protests",
+      "url": "https://www.bbc.co.uk/news/articles/cyvl35z3917o?at_medium=RSS&at_campaign=rss",
+      "summary": "Oleksandr Syrskyi is dismissed after backlash over the removal of popular Defence Minister Mykhailo Fedorov.",
+      "published": "Tue, 21 Jul 2026 23:59:34 GMT",
+      "tags": []
+    },
+    {
+      "id": "31d16025de84",
+      "category": "news",
+      "source": "BBC 世界",
+      "title": "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal",
+      "url": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o?at_medium=RSS&at_campaign=rss",
+      "summary": "A US-brokered agreement should see Israeli troops pulling out of a small part of Lebanon occupied during their conflict with Hezbollah.",
+      "published": "Tue, 21 Jul 2026 18:07:34 GMT",
+      "tags": []
+    },
+    {
+      "id": "eadcf9422681",
+      "category": "news",
+      "source": "BBC 世界",
+      "title": "Carney looking at 'all options' as Trump announces 50% tariffs on Canada",
+      "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
+      "summary": "The duties mark a major escalation in trade tensions between the North American neighbours.",
+      "published": "Tue, 21 Jul 2026 17:33:22 GMT",
+      "tags": []
+    },
+    {
+      "id": "36f46f8d69ef",
+      "category": "news",
+      "source": "BBC 世界",
+      "title": "Dozens hurt in Bologna protests after man dies while being restrained by police",
+      "url": "https://www.bbc.co.uk/news/articles/c86nwgw148xo?at_medium=RSS&at_campaign=rss",
+      "summary": "Thousands of people took to the streets demanding justice for a Moroccan-born man who died on Sunday.",
+      "published": "Tue, 21 Jul 2026 12:48:37 GMT",
+      "tags": []
+    },
+    {
+      "id": "dd5b31d5f9c9",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Range Rover answers the question: \"What if we built a not-SUV?\"",
+      "url": "https://arstechnica.com/cars/2026/07/heres-range-rovers-first-not-suv-the-range-rover-gt/",
+      "summary": "The Range Rover GT will debut as an EV with a hybrid version to follow.",
+      "author": "Jonathan M. Gitlin",
+      "published": "Tue, 21 Jul 2026 23:01:23 +0000",
+      "tags": [
+        "Cars",
+        "Range Rover GT"
+      ]
+    },
+    {
+      "id": "f7b732521aee",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "On the run for 20 years, most-wanted fugitive caught hiding as a biotech exec",
+      "url": "https://arstechnica.com/health/2026/07/on-the-run-for-20-years-most-wanted-fugitive-caught-hiding-as-a-biotech-exec/",
+      "summary": "Ronald Fischer, aka Richard Graydon, was arrested in New York last week.",
+      "author": "Beth Mole",
+      "published": "Tue, 21 Jul 2026 22:04:56 +0000",
+      "tags": [
+        "Health",
+        "biotech",
+        "fugitive"
+      ]
+    },
+    {
+      "id": "78052867c16e",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Sony releases one last trailer for Spider-Man: Brand New Day",
+      "url": "https://arstechnica.com/culture/2026/07/sony-releases-one-last-trailer-for-spider-man-brand-new-day/",
+      "summary": "\"Maybe that's my responsibility, to live alone with the truth.\"",
+      "author": "Jennifer Ouellette",
+      "published": "Tue, 21 Jul 2026 19:50:10 +0000",
+      "tags": [
+        "Culture",
+        "entertainment",
+        "Sony Pictures",
+        "Spider-Man: Brand New Day"
+      ]
+    },
+    {
+      "id": "27bad75ea440",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "Super Micro’s stock soars as its margins unexpectedly double",
+      "url": "https://www.marketwatch.com/story/super-micros-stock-soars-as-its-margins-unexpectedly-double-8aa83784?mod=mw_rss_topstories",
+      "summary": "The AI server maker now expects gross margins to be in the range of 15% to 17% thanks to an improving customer and product mix",
+      "author": "Christine Ji",
+      "published": "Wed, 22 Jul 2026 00:33:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "7a58f5e6ec34",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "This is the ideal retirement strategy if you want to keep your healthcare costs down",
+      "url": "https://www.marketwatch.com/story/heres-how-to-time-your-retirement-to-keep-your-healthcare-costs-down-b1a4d427?mod=mw_rss_topstories",
+      "summary": "Plus, more ways to lower how much you pay out of pocket for medical care in retirement.",
+      "author": "Richard Eisenberg",
+      "published": "Tue, 21 Jul 2026 23:56:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "3c7d56b6244d",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "SpaceX’s stock snaps brutal losing streak ahead of key Starship rocket launch",
+      "url": "https://www.marketwatch.com/story/spacexs-stock-looks-to-snap-brutal-losing-streak-as-it-heads-for-one-of-its-best-days-yet-74220273?mod=mw_rss_topstories",
+      "summary": "Plus, investors just found out when insiders can start dumping their shares.",
+      "author": "William Gavin",
+      "published": "Tue, 21 Jul 2026 20:59:00 GMT",
+      "tags": []
     }
   ],
   "notes": [
     "Simple English Wikipedia: 2 条",
     "Hacker News: 6 条",
     "DEV Community: 4 条",
-    "Wikipedia: 1 条"
+    "Wikipedia: 1 条",
+    "BBC 世界: 4 条",
+    "Ars Technica: 3 条",
+    "MarketWatch: 3 条"
   ]
 }
