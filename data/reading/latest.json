@@ -1,0 +1,189 @@
+{
+  "date": "2026-07-22",
+  "items": [
+    {
+      "id": "13722dc813d3",
+      "category": "english",
+      "source": "Simple English Wikipedia",
+      "title": "Lee Sun-kyun",
+      "url": "https://simple.wikipedia.org/wiki/Lee_Sun-kyun",
+      "summary": "Lee Sun-kyun was a South Korean actor. He played Park Dong-ik in Bong Joon-ho's Academy Award-winning movie Parasite (2019). He won a Screen Actors Guild Award for his acting in that movie. Lee was born in Seoul, South Korea.",
+      "published": "",
+      "tags": [
+        "今日精选"
+      ]
+    },
+    {
+      "id": "edd4442d8c83",
+      "category": "english",
+      "source": "Simple English Wikipedia",
+      "title": "Claire Forlani",
+      "url": "https://simple.wikipedia.org/wiki/Claire_Forlani",
+      "summary": "Claire Antonia Forlani is an English movie performer who also stars on TV programs. She starred in the movie Meet Joe Black in 1998. and Mystery Men in 1999. She also starred in other movies.",
+      "published": "",
+      "tags": [
+        "今日精选"
+      ]
+    },
+    {
+      "id": "f29a04d123ca",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "OpenAI and Hugging Face address security incident during model evaluation",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "summary": "https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;07&#x2F;21&#x2F;openai-says-hugging-face-br... See also Security incident disclosure – July 2026 - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48956248 (9 comments)",
+      "author": "mfiguiere",
+      "published": "2026-07-21",
+      "tags": [
+        "▲ 739"
+      ]
+    },
+    {
+      "id": "162a22c492bc",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
+      "url": "https://fireworks.ai/blog/kimik3-fable",
+      "summary": "",
+      "author": "piotrgrabowski",
+      "published": "2026-07-21",
+      "tags": [
+        "▲ 312"
+      ]
+    },
+    {
+      "id": "14576512adad",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "FreeInk: Open ecosystem for e-readers",
+      "url": "https://freeink.org/",
+      "summary": "",
+      "author": "FriedPickles",
+      "published": "2026-07-21",
+      "tags": [
+        "▲ 419"
+      ]
+    },
+    {
+      "id": "3911d69dd953",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "A digestion of the Jacobian conjecture counterexample",
+      "url": "https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/",
+      "summary": "",
+      "author": "jeremyscanvic",
+      "published": "2026-07-21",
+      "tags": [
+        "▲ 177"
+      ]
+    },
+    {
+      "id": "8fd735d60318",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "summary": "https:&#x2F;&#x2F;console.cloud.google.com&#x2F;agent-platform&#x2F;publishers&#x2F;g...",
+      "author": "logickkk1",
+      "published": "2026-07-21",
+      "tags": [
+        "▲ 620"
+      ]
+    },
+    {
+      "id": "f5d9d355a5b7",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Advertise in ChatGPT",
+      "url": "https://ads.openai.com/",
+      "summary": "",
+      "author": "montecarl",
+      "published": "2026-07-21",
+      "tags": [
+        "▲ 319"
+      ]
+    },
+    {
+      "id": "b299d11c2971",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Is there anyone who tell me about future software development ?",
+      "url": "https://dev.to/shahriar_mehedi_4daa3b841/is-there-anyone-who-tell-me-about-future-software-development--3lic",
+      "summary": "Please share your thoughts.....",
+      "author": "shahriar mehedi",
+      "published": "Wed, 22 Jul 2026 02:17:34 +0000",
+      "tags": [
+        "ai",
+        "webdev",
+        "programming",
+        "career"
+      ]
+    },
+    {
+      "id": "d271e00e58eb",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "OeeBook: OEE without the fragile shift spreadsheet",
+      "url": "https://dev.to/sybilgambleyyu/oeebook-oee-without-the-fragile-shift-spreadsheet-3d2n",
+      "summary": "Planned 480 minutes, seventy-two of them down, twelve-second ideal cycle, nineteen hundred parts with forty-eight scrap — and by the morning meeting someone has to turn that into Availability, Performance, Quality, and one OEE number the plant can trust. The formula is standard;…",
+      "author": "SybilGambleyyu",
+      "published": "Wed, 22 Jul 2026 02:12:42 +0000",
+      "tags": [
+        "opensource",
+        "manufacturing",
+        "productivity",
+        "webdev"
+      ]
+    },
+    {
+      "id": "22db01593497",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Scrape any company's job postings — Greenhouse, Lever & Ashby, with one API call",
+      "url": "https://dev.to/quantoracle/scrape-any-companys-job-postings-greenhouse-lever-ashby-with-one-api-call-4db",
+      "summary": "Almost every tech company's job board runs on one of a handful of ATS platforms — Greenhouse, Lever, Ashby, Workable, SmartRecruiters, Recruitee. And nearly all of them expose a public, documented JSON API for their postings. Which means \"scrape job postings\" isn't really a scra…",
+      "author": "quantoracledev",
+      "published": "Wed, 22 Jul 2026 02:11:12 +0000",
+      "tags": [
+        "webdev",
+        "api",
+        "career",
+        "data"
+      ]
+    },
+    {
+      "id": "1efba5b6816e",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "3 Things Nobody Tells You About Building Public APIs",
+      "url": "https://dev.to/sirmax/3-things-nobody-tells-you-about-building-public-apis-2i1c",
+      "summary": "3 Things Nobody Tells You About Building Public APIs Last year, I spent six months building and maintaining a public API. I thought I knew what I was getting into — I'd built internal APIs for years. REST endpoints, authentication, some docs. How different could \"public\" be? Ver…",
+      "author": "Sir Max",
+      "published": "Wed, 22 Jul 2026 02:10:42 +0000",
+      "tags": [
+        "api",
+        "webdev",
+        "programming",
+        "beginners"
+      ]
+    },
+    {
+      "id": "35190d3e80c0",
+      "category": "culture",
+      "source": "Wikipedia",
+      "title": "Ludwig Ross",
+      "url": "https://en.wikipedia.org/wiki/Ludwig_Ross",
+      "summary": "Ludwig Ross was a German classical archaeologist. He is chiefly remembered for the rediscovery and reconstruction of the Temple of Athena Nike in 1835–1836, and for his other excavation and conservation work on the Acropolis of Athens. He was also an important figure in the earl…",
+      "published": "",
+      "tags": [
+        "今日精选"
+      ]
+    }
+  ],
+  "notes": [
+    "Simple English Wikipedia: 2 条",
+    "Hacker News: 6 条",
+    "DEV Community: 4 条",
+    "Wikipedia: 1 条"
+  ]
+}
