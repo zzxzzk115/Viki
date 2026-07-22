@@ -2,24 +2,24 @@
   "date": "2026-07-22",
   "items": [
     {
-      "id": "bc777af89dc2",
+      "id": "9d652804b469",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Natalie Wood",
-      "url": "https://simple.wikipedia.org/wiki/Natalie_Wood",
-      "summary": "Natalie Wood was an American actress.",
+      "title": "Aveiro District",
+      "url": "https://simple.wikipedia.org/wiki/Aveiro_District",
+      "summary": "Aveiro District is in the central coastal region of Portugal. The capital of the district is the city of Aveiro.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "cfcf58bce399",
+      "id": "1f89cb41ffed",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Citytv Saskatchewan",
-      "url": "https://simple.wikipedia.org/wiki/Citytv_Saskatchewan",
-      "summary": "Citytv Saskatchewan is a Canadian English language cable television channel. It is in the province of Saskatchewan. the channel has its headquarters in the capital of the province, Regina. The channel is owned by Rogers Sports & Media. It is a subsidiary of Rogers Communications…",
+      "title": "Mount Kenya",
+      "url": "https://simple.wikipedia.org/wiki/Mount_Kenya",
+      "summary": "Mount Kenya is the highest mountain in Kenya. It is 5,199 metres high. It is the second highest mountain in Africa. It is an extinct volcano. It is on the equator. It is 193 kilometres northeast of Nairobi.",
       "published": "",
       "tags": [
         "今日精选"
@@ -35,20 +35,7 @@
       "author": "mfiguiere",
       "published": "2026-07-21",
       "tags": [
-        "▲ 882"
-      ]
-    },
-    {
-      "id": "162a22c492bc",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
-      "url": "https://fireworks.ai/blog/kimik3-fable",
-      "summary": "",
-      "author": "piotrgrabowski",
-      "published": "2026-07-21",
-      "tags": [
-        "▲ 428"
+        "▲ 895"
       ]
     },
     {
@@ -61,7 +48,20 @@
       "author": "DemiGuru",
       "published": "2026-07-22",
       "tags": [
-        "▲ 114"
+        "▲ 132"
+      ]
+    },
+    {
+      "id": "162a22c492bc",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
+      "url": "https://fireworks.ai/blog/kimik3-fable",
+      "summary": "",
+      "author": "piotrgrabowski",
+      "published": "2026-07-21",
+      "tags": [
+        "▲ 439"
       ]
     },
     {
@@ -74,7 +74,7 @@
       "author": "FriedPickles",
       "published": "2026-07-21",
       "tags": [
-        "▲ 467"
+        "▲ 472"
       ]
     },
     {
@@ -87,7 +87,7 @@
       "author": "montecarl",
       "published": "2026-07-21",
       "tags": [
-        "▲ 530"
+        "▲ 543"
       ]
     },
     {
@@ -100,69 +100,71 @@
       "author": "jeremyscanvic",
       "published": "2026-07-21",
       "tags": [
-        "▲ 218"
+        "▲ 222"
       ]
     },
     {
-      "id": "8b5c0bc85540",
+      "id": "0dcffcb08b42",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Break Up Your React App: Micro-Frontends with Next.js 🧩",
-      "url": "https://dev.to/iprajapatiparesh/break-up-your-react-app-micro-frontends-with-nextjs-1k2m",
-      "summary": "The Frontend Monolith Bottleneck Backend architectures evolved from monoliths to decoupled services years ago, but the frontend was largely left behind. As enterprise React applications grow, the main repository becomes a bottleneck. Deployment times skyrocket, merge conflicts b…",
-      "author": "Prajapati Paresh",
-      "published": "Wed, 22 Jul 2026 04:52:16 +0000",
+      "title": "Build a Client-Side Image Compressor in 30 Minutes (No Backend Needed)",
+      "url": "https://dev.to/vijay_kanna_56/build-a-client-side-image-compressor-in-30-minutes-no-backend-needed-552m",
+      "summary": "Most image compression tutorials assume you're running something server-side — Sharp, ImageMagick, a Node backend. This one doesn't need any of that. We're going to build a working image compressor that runs entirely in the browser, using nothing but the Canvas API. By the end, …",
+      "author": "Vijay Kanna",
+      "published": "Wed, 22 Jul 2026 05:08:41 +0000",
       "tags": [
-        "nextjs",
-        "react",
+        "tutorial",
         "javascript",
-        "webdev"
+        "webdev",
+        "performance"
       ]
     },
     {
-      "id": "77821e4e7900",
+      "id": "4b99f86c3933",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How to Build a Powerful Solana TradingView Chart in 4 Steps",
-      "url": "https://dev.to/moiapi/how-to-build-a-powerful-solana-tradingview-chart-in-4-steps-46km",
-      "summary": "The Solana TradingView Chart API guide: resolve tokens, seed up to 5,000 OHLCV candles, backfill on scroll, and keep the live bar fresh with Birdeye Data. Table of Contents Direct Answer: Build a Solana TradingView Chart in 4 Steps Stage 1: Resolve a Token or Pair with the Searc…",
-      "author": "moiapi",
-      "published": "Wed, 22 Jul 2026 04:50:40 +0000",
+      "title": "**Win iPhone 15 Review:",
+      "url": "https://dev.to/al_beruni_6f2dfaf29b51d96/win-iphone-15-review-5e0b",
+      "summary": "As a freelance digital marketer and affiliate promoter working from Rajshahi, Bangladesh, I regularly test email submit, sweepstakes, and giveaway offers to find high-engagement campaigns that convert well and provide value for my audience. When I came across Win iPhone 15 — the…",
+      "author": "Al Beruni",
+      "published": "Wed, 22 Jul 2026 05:08:06 +0000",
       "tags": [
+        "ai",
         "webdev",
-        "tutorial"
+        "programming",
+        "productivity"
       ]
     },
     {
-      "id": "3f9d33972d67",
+      "id": "65bdadf408cb",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Boost Leads: India's Top Lead Gen Strategies 2026",
-      "url": "https://dev.to/shivatechdigitalnoid/boost-leads-indias-top-lead-gen-strategies-2026-3oac",
-      "summary": "Originally published at shivatechdigital.com Read Full Article Click here to read the complete article About ShivaTechDigital: Leading web development and digital marketing agency in Noida, India. Visit our website | Contact Us",
-      "author": "Shivatechdigital",
-      "published": "Wed, 22 Jul 2026 04:41:55 +0000",
+      "title": "Analyzing the Implications of Apple's Lawsuit on O…",
+      "url": "https://dev.to/norviktech/analyzing-the-implications-of-apples-lawsuit-on-o-2e9d",
+      "summary": "Originally published at norvik.tech Introduction A deep dive into the potential impact of Apple's lawsuit on OpenAI's hardware development and market strategies. Understanding the Lawsuit: Core Issues and Technical Landscape The lawsuit between Apple and OpenAI revolves around i…",
+      "author": "Norvik Tech",
+      "published": "Wed, 22 Jul 2026 05:05:51 +0000",
       "tags": [
         "webdev",
-        "seo",
-        "marketing",
-        "tutorial"
+        "openai",
+        "applelawsuit",
+        "hardwaredevelopment"
       ]
     },
     {
-      "id": "b6b2cb7ac2be",
+      "id": "43f6df10f0a9",
       "category": "tech",
       "source": "DEV Community",
-      "title": "synkin - preview website on phone with usb",
-      "url": "https://dev.to/owsam22/synkin-preview-website-on-phone-with-usb-1efi",
-      "summary": "🚀 I built Synkin — a free, open-source npm CLI that lets you preview localhost websites directly on your Android device over USB. I built it because I was tired of: Setting up local IPs every time Connecting both devices to the same Wi-Fi Running into localhost/backend API issu…",
-      "author": "Samarpan",
-      "published": "Wed, 22 Jul 2026 04:38:02 +0000",
+      "title": "“it parses” does not mean “it is secure”",
+      "url": "https://dev.to/secdim/it-parses-does-not-mean-it-is-secure-3n82",
+      "summary": "In the JavaScript ecosystem, many libraries prioritise ease of use or safety by omission rather than offering fine-grained security controls. There is no actively maintained JS XML to JSON convertor that supports both internal and external entity resolution in a controlled way. …",
+      "author": "Hamza",
+      "published": "Wed, 22 Jul 2026 05:03:57 +0000",
       "tags": [
-        "npm",
+        "javascript",
+        "programming",
         "webdev",
-        "cli",
-        "opensource"
+        "security"
       ]
     },
     {
