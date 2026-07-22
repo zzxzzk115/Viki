@@ -10,6 +10,7 @@ import 'server-only'
 import { readFile, readdir } from 'node:fs/promises'
 import { join } from 'node:path'
 import type { FeedFile } from './papers-feed'
+import type { ReadingFile } from './reading-feed'
 import type { Note, NoteIndexEntry, Paper, Subject, Term } from './schema'
 import { hashSlug } from './slug'
 
@@ -88,6 +89,13 @@ export async function getFeedDates(): Promise<string[]> {
 export async function getFeedByDate(date: string): Promise<FeedFile | null> {
   return readFile(join(FEED, 'history', `${date}.json`), 'utf8')
     .then((t) => JSON.parse(t) as FeedFile)
+    .catch(() => null)
+}
+
+/** Recommended-reading feed, same build-time-read pattern as getFeed. */
+export async function getReading(): Promise<ReadingFile | null> {
+  return readFile(join(process.cwd(), 'data', 'reading', 'latest.json'), 'utf8')
+    .then((t) => JSON.parse(t) as ReadingFile)
     .catch(() => null)
 }
 

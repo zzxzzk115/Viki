@@ -18,6 +18,8 @@
     "links": "tsx scripts/check-links.ts",
     "papers": "tsx scripts/fetch-papers.ts",
     "papers:dry": "tsx scripts/fetch-papers.ts --dry",
+    "reading": "tsx scripts/fetch-reading.ts",
+    "word": "tsx scripts/fetch-word.ts",
     "import-bibtex": "tsx scripts/import-bibtex.ts",
     "import-bibtex:dry": "tsx scripts/import-bibtex.ts --dry",
     "citations": "tsx scripts/fetch-citations.ts",

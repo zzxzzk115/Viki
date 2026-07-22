@@ -31,6 +31,7 @@ const NAV = [
   { href: '/english/', label: '单词' },
   { href: '/papers/', label: '论文' },
   { href: '/arxiv/', label: 'arXiv' },
+  { href: '/read/', label: '阅读' },
   { href: '/shaders/', label: 'Shader' },
   { href: '/glossary/', label: '术语' },
 ]

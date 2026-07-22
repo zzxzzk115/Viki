@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import { DailyPaper } from '@/components/daily-paper'
+import { DailyReading } from '@/components/daily-reading'
+import { DailyWord } from '@/components/daily-word'
 import { Icon } from '@/components/icon'
 import { LevelBadge } from '@/components/level-badge'
 import { ReviewCard } from '@/components/review-card'
@@ -51,6 +53,11 @@ export default async function Home() {
       <section className="mt-8 grid gap-4 lg:grid-cols-2">
         <DailyPaper />
         <ToRead items={toRead} />
+      </section>
+
+      <section className="mt-4 grid gap-4 lg:grid-cols-2">
+        <DailyReading />
+        <DailyWord />
       </section>
 
       <section className="mt-12">

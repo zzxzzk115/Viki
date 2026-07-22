@@ -432,6 +432,14 @@ async function main() {
     .then((t) => writeFile(join(PUBLIC_DATA, 'feed.json'), t))
     .catch(() => {}) // no data:pull yet — homepage widget shows its empty state
 
+  // Reading feed + daily word: same client-side-pick copy pattern.
+  await readFile(join(ROOT, 'data', 'reading', 'latest.json'), 'utf8')
+    .then((t) => writeFile(join(PUBLIC_DATA, 'reading.json'), t))
+    .catch(() => {})
+  await readFile(join(ROOT, 'data', 'vocab', 'daily.json'), 'utf8')
+    .then((t) => writeFile(join(PUBLIC_DATA, 'daily-word.json'), t))
+    .catch(() => {})
+
   // For the in-browser editor preview: the same glossary and a slug->title map,
   // so :term[] and [[wiki-links]] render in the preview like they do on the site.
   await writeFile(join(PUBLIC_DATA, 'glossary.json'), JSON.stringify(glossary))

@@ -8,7 +8,19 @@ import { withBase } from '@/lib/base-path'
 import { ghCommitFile, ghLoadFile, readStoredToken } from '@/lib/github-edit'
 import { buildChatSystem, buildDraftRequest, parseDraftResponse, validateDraftPath, type DraftProposal } from '@/lib/note-draft'
 import { createPreview } from '@/lib/preview'
+import type { ReadingItem } from '@/lib/reading-feed'
 import type { Glossary } from '@/lib/schema'
+
+/** Article context to seed the sidebar with (from a /read「问 AI」click). */
+type SeedArticle = { title: string; summary: string; url: string }
+const SEED_EVENT = 'viki:ai-seed'
+
+/** Opens the AI sidebar preloaded with an article's context. Called from the
+ *  reading page; the sidebar itself listens for the event so the two need no
+ *  shared state. */
+export function askAiAbout(item: Pick<ReadingItem, 'title' | 'summary' | 'url'>): void {
+  window.dispatchEvent(new CustomEvent<SeedArticle>(SEED_EVENT, { detail: { title: item.title, summary: item.summary, url: item.url } }))
+}
 
 /**
  * Site-wide AI sidebar: ask about a topic, then optionally turn the exchange
@@ -45,7 +57,34 @@ export function AiChat() {
   const [committed, setCommitted] = useState<{ path: string; url?: string } | null>(null)
   const [subjects, setSubjects] = useState<{ dir: string; name: string }[]>([])
   const glossaryRef = useRef<Glossary>({})
+  const articleRef = useRef<SeedArticle | null>(null)
   const listRef = useRef<HTMLDivElement>(null)
+
+  // A /read「问 AI」click opens the drawer preloaded with the article.
+  useEffect(() => {
+    const onSeed = (e: Event) => {
+      const article = (e as CustomEvent<SeedArticle>).detail
+      articleRef.current = article
+      setOpen(true)
+      setDraft(null)
+      setError('')
+      setMessages((m) => [
+        ...m,
+        { role: 'assistant', content: `已载入《${article.title}》。基于它的摘要问我问题吧，聊完可以一键沉淀成笔记。` },
+      ])
+    }
+    window.addEventListener(SEED_EVENT, onSeed)
+    return () => window.removeEventListener(SEED_EVENT, onSeed)
+  }, [])
+
+  // System prompt, with the seeded article appended as grounding context.
+  const systemWithArticle = useCallback(() => {
+    const base = buildChatSystem(subjects.map((s) => s.dir))
+    const a = articleRef.current
+    return a
+      ? `${base}\n\n用户正在读这篇文章，回答时可参考其摘要（不要编造摘要之外的内容）：\n标题：${a.title}\n摘要：${a.summary}\n链接：${a.url}`
+      : base
+  }, [subjects])
 
   // Restore session conversation once.
   useEffect(() => {
@@ -83,7 +122,7 @@ export function AiChat() {
     setInput('')
     setError('')
     setPhase('thinking')
-    const r = await chat(cfg, next, { system: buildChatSystem(subjects.map((s) => s.dir)) })
+    const r = await chat(cfg, next, { system: systemWithArticle() })
     setPhase('idle')
     if (!r.ok) {
       setError(r.message)
@@ -92,7 +131,7 @@ export function AiChat() {
       return
     }
     setMessages([...next, { role: 'assistant', content: r.text }])
-  }, [cfg, input, phase, messages, subjects])
+  }, [cfg, input, phase, messages, systemWithArticle])
 
   const makeDraft = useCallback(async () => {
     if (!cfg || phase !== 'idle') return

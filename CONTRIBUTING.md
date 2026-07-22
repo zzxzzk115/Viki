@@ -318,6 +318,14 @@ s("bd hh sd hh")
 
 安全边界：编辑器只接受 `content/`、`scratch/` 下的 `.md/.mdx/.yml/.bib` 路径，workflow、脚本等一律拒绝；提交用文件 sha 做乐观锁，别处改过会得到 409 提示而不是静默覆盖。
 
+## 推荐阅读 + 每日单词（定时数据源）
+
+`/read`（导航「阅读」）和主页「今日推荐阅读 / 每日单词」由 `reading.yml` 每天定时抓取,和 arXiv feed 一样写进 `data` 孤儿分支(零 secret)、再 `workflow_call` 重部署。
+
+- **推荐阅读**:源在 [config/reading-sources.ts](config/reading-sources.ts)——三类(英语学习 / 技术研究 / 通识文化),支持 `wikipedia`(今日精选)、`wiki-random`(随机词条摘要,分级英语)、`hn`(Hacker News)、`rss`(任意 RSS/Atom)。全部无 key、CORS 干净、只存**摘要 + 原文链接**(不转载全文,版权安全)。加源就改这一个文件;抓取失败的源会被跳过并记日志,不阻断。本地试跑:`pnpm reading`。
+- **每日单词**:[config/word-list.txt](config/word-list.txt) 里日期种子挑一个词,`fetch-word.ts` 从 [dictionaryapi.dev](https://dictionaryapi.dev)(无 key)取音标/词性/英文释义/例句,写 `data/vocab/daily.json`。主页「加入单词本」一键把它提成 `::::word` 提交进 [content/english/vocab/collected.md](content/english/vocab/collected.md),CI 物化后进单词轨道。本地试跑:`pnpm word`。
+- **读后问 AI**:配置了 AI 提供商时,每条阅读旁有「问 AI / 记笔记」——打开侧边栏并把文章摘要作为上下文,聊完可走草稿流程沉淀成笔记。
+
 ## AI 功能（可选，全部需要在 /settings 配置提供商）
 
 在设置页配好 AI 提供商（Anthropic 支持浏览器直连；OpenAI 兼容端点需自填允许 CORS 的 baseURL，如本地 Ollama——OpenAI 官方 API 不允许浏览器直连）后解锁三处：
