@@ -2,24 +2,24 @@
   "date": "2026-07-22",
   "items": [
     {
-      "id": "13722dc813d3",
+      "id": "f2f891b7d283",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Lee Sun-kyun",
-      "url": "https://simple.wikipedia.org/wiki/Lee_Sun-kyun",
-      "summary": "Lee Sun-kyun was a South Korean actor. He played Park Dong-ik in Bong Joon-ho's Academy Award-winning movie Parasite (2019). He won a Screen Actors Guild Award for his acting in that movie. Lee was born in Seoul, South Korea.",
+      "title": "Giraffoidea",
+      "url": "https://simple.wikipedia.org/wiki/Giraffoidea",
+      "summary": "Giraffoidea is a superfamily that contains Climacoceratidae and Giraffidae. The only living members are giraffes and okapis.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "edd4442d8c83",
+      "id": "a51fff779722",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Claire Forlani",
-      "url": "https://simple.wikipedia.org/wiki/Claire_Forlani",
-      "summary": "Claire Antonia Forlani is an English movie performer who also stars on TV programs. She starred in the movie Meet Joe Black in 1998. and Mystery Men in 1999. She also starred in other movies.",
+      "title": "Uzhhorodskyi Raion",
+      "url": "https://simple.wikipedia.org/wiki/Uzhhorodskyi_Raion",
+      "summary": "Uzhhorodskyi Raion is one of the raions (districts) of Zakarpattia Oblast in western Ukraine. It's administrative center is the city of Uzhhorod, also the center of the surrounding oblast. Population: 255,000.",
       "published": "",
       "tags": [
         "今日精选"
@@ -35,7 +35,7 @@
       "author": "mfiguiere",
       "published": "2026-07-21",
       "tags": [
-        "▲ 739"
+        "▲ 760"
       ]
     },
     {
@@ -48,7 +48,7 @@
       "author": "piotrgrabowski",
       "published": "2026-07-21",
       "tags": [
-        "▲ 312"
+        "▲ 332"
       ]
     },
     {
@@ -61,7 +61,7 @@
       "author": "FriedPickles",
       "published": "2026-07-21",
       "tags": [
-        "▲ 419"
+        "▲ 429"
       ]
     },
     {
@@ -74,7 +74,7 @@
       "author": "jeremyscanvic",
       "published": "2026-07-21",
       "tags": [
-        "▲ 177"
+        "▲ 184"
       ]
     },
     {
@@ -87,7 +87,7 @@
       "author": "logickkk1",
       "published": "2026-07-21",
       "tags": [
-        "▲ 620"
+        "▲ 624"
       ]
     },
     {
@@ -100,7 +100,55 @@
       "author": "montecarl",
       "published": "2026-07-21",
       "tags": [
-        "▲ 319"
+        "▲ 339"
+      ]
+    },
+    {
+      "id": "4311f66bde54",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "How I Built a Game Wiki with 38 Pages Using Next.js Static Export",
+      "url": "https://dev.to/cksmct/how-i-built-a-game-wiki-with-38-pages-using-nextjs-static-export-4c6b",
+      "summary": "I recently built Gakuran Guide (gakuranguide.wiki), a comprehensive wiki for a Roblox fighting game. It has 38 static pages, rich SEO metadata, and builds in under 30 seconds. Here's how. The Stack Next.js 14 with App Router Static Export ( output: 'export' ) Tailwind CSS for st…",
+      "author": "Chen Tao",
+      "published": "Wed, 22 Jul 2026 02:34:27 +0000",
+      "tags": [
+        "nextjs",
+        "webdev",
+        "ai",
+        "seo"
+      ]
+    },
+    {
+      "id": "dd3249d84c67",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Building AI Agents? The Hard Part Might Not Be The AI Model",
+      "url": "https://dev.to/kerryw/building-ai-agents-the-hard-part-might-not-be-the-ai-model-1381",
+      "summary": "I have been exploring AI agents and automation workflows recently, and I noticed something interesting: The hardest part is not always the AI model. In many real projects, the bigger challenge is getting reliable data. A demo may work perfectly, but production brings new problem…",
+      "author": "Balle Tan",
+      "published": "Wed, 22 Jul 2026 02:34:02 +0000",
+      "tags": [
+        "ai",
+        "webdev",
+        "programming",
+        "productivity"
+      ]
+    },
+    {
+      "id": "54369fe487ad",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Verification Sandboxes Need Data Boundaries",
+      "url": "https://dev.to/bitheirstake/verification-sandboxes-need-data-boundaries-5862",
+      "summary": "Verification environments are supposed to reduce risk. Funny enough, they often create a quieter kind of risk instead. A team adds a sandbox inbox for signup tests, then starts copying more metadata into logs so failed verifications are easier to explain. A month later the sandb…",
+      "author": "Lewis",
+      "published": "Wed, 22 Jul 2026 02:24:12 +0000",
+      "tags": [
+        "privacy",
+        "security",
+        "webdev",
+        "testing"
       ]
     },
     {
@@ -117,54 +165,6 @@
         "webdev",
         "programming",
         "career"
-      ]
-    },
-    {
-      "id": "d271e00e58eb",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "OeeBook: OEE without the fragile shift spreadsheet",
-      "url": "https://dev.to/sybilgambleyyu/oeebook-oee-without-the-fragile-shift-spreadsheet-3d2n",
-      "summary": "Planned 480 minutes, seventy-two of them down, twelve-second ideal cycle, nineteen hundred parts with forty-eight scrap — and by the morning meeting someone has to turn that into Availability, Performance, Quality, and one OEE number the plant can trust. The formula is standard;…",
-      "author": "SybilGambleyyu",
-      "published": "Wed, 22 Jul 2026 02:12:42 +0000",
-      "tags": [
-        "opensource",
-        "manufacturing",
-        "productivity",
-        "webdev"
-      ]
-    },
-    {
-      "id": "22db01593497",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Scrape any company's job postings — Greenhouse, Lever & Ashby, with one API call",
-      "url": "https://dev.to/quantoracle/scrape-any-companys-job-postings-greenhouse-lever-ashby-with-one-api-call-4db",
-      "summary": "Almost every tech company's job board runs on one of a handful of ATS platforms — Greenhouse, Lever, Ashby, Workable, SmartRecruiters, Recruitee. And nearly all of them expose a public, documented JSON API for their postings. Which means \"scrape job postings\" isn't really a scra…",
-      "author": "quantoracledev",
-      "published": "Wed, 22 Jul 2026 02:11:12 +0000",
-      "tags": [
-        "webdev",
-        "api",
-        "career",
-        "data"
-      ]
-    },
-    {
-      "id": "1efba5b6816e",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "3 Things Nobody Tells You About Building Public APIs",
-      "url": "https://dev.to/sirmax/3-things-nobody-tells-you-about-building-public-apis-2i1c",
-      "summary": "3 Things Nobody Tells You About Building Public APIs Last year, I spent six months building and maintaining a public API. I thought I knew what I was getting into — I'd built internal APIs for years. REST endpoints, authentication, some docs. How different could \"public\" be? Ver…",
-      "author": "Sir Max",
-      "published": "Wed, 22 Jul 2026 02:10:42 +0000",
-      "tags": [
-        "api",
-        "webdev",
-        "programming",
-        "beginners"
       ]
     },
     {
