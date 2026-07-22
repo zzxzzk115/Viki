@@ -2,147 +2,148 @@
   "date": "2026-07-22",
   "items": [
     {
-      "id": "834f57fd5653",
+      "id": "8020c89c1c8a",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Ossi Runne",
-      "url": "https://simple.wikipedia.org/wiki/Ossi_Runne",
-      "summary": "Yrjö Osvald \"Ossi\" Rundberg was a Finnish trumpeter, orchestra leader, composer, and record producer. He was born in Viipuri, Finland. He conducted Finland's entries at the Eurovision Song Contest. He first conducted the entry \"Playboy\" at Luxembourg in 1966.",
+      "title": "Stuart Heydinger",
+      "url": "https://simple.wikipedia.org/wiki/Stuart_Heydinger",
+      "summary": "Stuart Heydinger was a British photojournalist and portrait photographer. He was chief photographer at The Observer from 1960 to 1966. Heydinger was born in Kingston upon Thames, London.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "e1e2e6ea3d54",
+      "id": "461000211e22",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Allied-occupied Germany",
-      "url": "https://simple.wikipedia.org/wiki/Allied-occupied_Germany",
-      "summary": "After World War II Nazi Germany west of the Oder-Neisse line was divided into four occupation zones. This had been agreed in London in September 1944.",
+      "title": "Eye of Providence",
+      "url": "https://simple.wikipedia.org/wiki/Eye_of_Providence",
+      "summary": "The Eye of Providence, also known as the All-Seeing Eye of God is a symbol that is often used in Christian context. Very often, it is shown as a single human eye, surrounded by triangle and rays of light or glory. It is often seen as a symbol for knowledge, trinity or for a god …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "f29a04d123ca",
+      "id": "8fcc591b02eb",
       "category": "tech",
       "source": "Hacker News",
-      "title": "OpenAI and Hugging Face address security incident during model evaluation",
-      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-      "summary": "https://www.axios.com/2026/07/21/openai-says-hugging-face-br... See also Security incident disclosure – July 2026 - https://news.ycombinator.com/item?id=48956248 (9 comments)",
-      "author": "mfiguiere",
-      "published": "2026-07-21",
-      "tags": [
-        "▲ 916"
-      ]
-    },
-    {
-      "id": "76af5b683c70",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "LG to ban residential proxies from smart TV apps",
-      "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "title": "Terrence Tao's ChatGPT Conversation about the Jacobian Conjecture Counterexample",
+      "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
       "summary": "",
-      "author": "DemiGuru",
+      "author": "gmays",
       "published": "2026-07-22",
       "tags": [
-        "▲ 149"
+        "▲ 99"
       ]
     },
     {
-      "id": "162a22c492bc",
+      "id": "819b2724ca9e",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
-      "url": "https://fireworks.ai/blog/kimik3-fable",
-      "summary": "",
-      "author": "piotrgrabowski",
-      "published": "2026-07-21",
-      "tags": [
-        "▲ 457"
-      ]
-    },
-    {
-      "id": "ac9c2ae4e1b3",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Original Apollo 11 Guidance Computer source code for command and lunar modules",
-      "url": "https://github.com/chrislgarry/Apollo-11",
-      "summary": "",
-      "author": "noteness",
+      "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
+      "url": "https://bento.page/slides/",
+      "summary": "Over the past few months, our team has been building more and more slidedecks using web frontend technologies with coding harnesses like Claude Code, but a common complaint is to make even small edits we need to edit the code either manually or via the harness. To avoid this loo…",
+      "author": "starfallg",
       "published": "2026-07-22",
       "tags": [
-        "▲ 8"
+        "▲ 361"
       ]
     },
     {
-      "id": "f5d9d355a5b7",
+      "id": "e08b4c6de43c",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Advertise in ChatGPT",
-      "url": "https://ads.openai.com/",
+      "title": "GigaToken: ~1000x faster Language model tokenization",
+      "url": "https://github.com/marcelroed/gigatoken/",
       "summary": "",
-      "author": "montecarl",
-      "published": "2026-07-21",
+      "author": "syrusakbary",
+      "published": "2026-07-22",
       "tags": [
-        "▲ 567"
+        "▲ 46"
       ]
     },
     {
-      "id": "14576512adad",
+      "id": "789d043bcbf8",
       "category": "tech",
       "source": "Hacker News",
-      "title": "FreeInk: Open ecosystem for e-readers",
-      "url": "https://freeink.org/",
+      "title": "Making",
+      "url": "https://beej.us/blog/data/ai-making/",
       "summary": "",
-      "author": "FriedPickles",
-      "published": "2026-07-21",
+      "author": "erikschoster",
+      "published": "2026-07-22",
       "tags": [
-        "▲ 480"
+        "▲ 129"
       ]
     },
     {
-      "id": "d9ee7b60148c",
+      "id": "7e41e843d5a5",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "The startup's Postgres survival guide",
+      "url": "https://hatchet.run/blog/postgres-survival-guide",
+      "summary": "",
+      "author": "abelanger",
+      "published": "2026-07-22",
+      "tags": [
+        "▲ 180"
+      ]
+    },
+    {
+      "id": "accc1b9b3971",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Can a MUD evaluate LLMs? A $99 proof of concept",
+      "url": "https://cruciblebench.ai/",
+      "summary": "I'm the author of a paper my friends and I wrote after we were curious if a MUD, text games originating in the 1970s, could be used to evaluate LLMs. We've spent the last several months on nights and weekends running this experiment and writing the paper on just our personal com…",
+      "author": "Davisb135",
+      "published": "2026-07-22",
+      "tags": [
+        "▲ 45"
+      ]
+    },
+    {
+      "id": "0807a9d8d72d",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Introducing CodePrints: A Collection of Simple Online Tools for Developers and Everyone",
-      "url": "https://dev.to/codeprintshub/introducing-codeprints-a-collection-of-simple-online-tools-for-developers-and-everyone-3i16",
-      "summary": "As developers, we often need small tools while working on projects. Maybe you need to format a JSON response from an API. Maybe you want to generate a QR code for a website or create a hash for testing. Sometimes you just need a quick utility to solve a small problem without ins…",
-      "author": "Code Prints",
-      "published": "Wed, 22 Jul 2026 05:41:17 +0000",
+      "title": "Threads Search Scraper — 3K Users Can't Be Wrong",
+      "url": "https://dev.to/nick_davies_323125afbb05c/threads-search-scraper-3k-users-cant-be-wrong-17f7",
+      "summary": "Are you spending hours writing custom scrapers? There's probably an actor for that already. What is Threads Search Scraper? Powerful Meta Threads search scraper for posts and users. Filter by keywords or usernames, export structured data for analytics, research, monitoring and r…",
+      "author": "Nick Davies",
+      "published": "Wed, 22 Jul 2026 18:07:01 +0000",
       "tags": [
         "webdev",
-        "devtools",
-        "programming",
-        "opensource"
+        "automation",
+        "api",
+        "tools"
       ]
     },
     {
-      "id": "fb8a0ecc2989",
+      "id": "5d4920412b41",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Web Scraping Services UK: Transform Online Data into Business Intelligence",
-      "url": "https://dev.to/techwithandrew/web-scraping-services-uk-transform-online-data-into-business-intelligence-12i3",
-      "summary": "In today's digital economy, businesses rely on accurate and timely data to make informed decisions. Whether you need competitor pricing, market research, lead generation, or product information, web scraping services provide an efficient way to collect large volumes of publicly …",
-      "author": "ANDREW",
-      "published": "Wed, 22 Jul 2026 05:41:17 +0000",
+      "title": "Universality y sus Implicaciones…",
+      "url": "https://dev.to/norviktech/universality-y-sus-implicaciones-1i2e",
+      "summary": "Originally published at norvik.tech Introduction Explora cómo la universality se selecciona a través de restricciones y su impacto en el desarrollo web moderno. Universality: Definición y Contexto La universality en el desarrollo web se refiere a la capacidad de una aplicación o…",
+      "author": "Norvik Tech",
+      "published": "Wed, 22 Jul 2026 18:05:44 +0000",
       "tags": [
         "webdev",
-        "ai",
-        "programming"
+        "universality",
+        "desarrolloweb",
+        "nextjs"
       ]
     },
     {
-      "id": "95b809e47cf3",
+      "id": "bf656b6651cc",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Top Factors That Increase AI Chatbot Development Costs",
-      "url": "https://dev.to/jade_williams/top-factors-that-increase-ai-chatbot-development-costs-3je4",
-      "summary": "Every AI chatbot project has unique requirements, which is why development costs can vary widely. Understanding the major cost factors helps businesses make informed decisions and plan their budgets effectively. One of the biggest factors is customization. A chatbot designed spe…",
-      "author": "Jade Williams",
-      "published": "Wed, 22 Jul 2026 05:34:41 +0000",
+      "title": "Buy Trustpilot Reviews to Boost Credibility and Conversions usasafebiz Best",
+      "url": "https://dev.to/usasafebiz1258/buy-trustpilot-reviews-to-boost-credibility-and-conversions-usasafebiz-best-iom",
+      "summary": "Buy Trustpilot Verified Reviews – Build Trust and Grow Your Business In today's digital world, trust is everything. Before a customer buys from you, they will almost certainly check your online reviews. And one of the first places they look is Trustpilot. Trustpilot has become t…",
+      "author": "Buy Verified Binance Account",
+      "published": "Wed, 22 Jul 2026 17:57:30 +0000",
       "tags": [
         "ai",
         "webdev",
@@ -151,18 +152,18 @@
       ]
     },
     {
-      "id": "86b346f6d01f",
+      "id": "7ff81a3a6bea",
       "category": "tech",
       "source": "DEV Community",
-      "title": "From Lyrks",
-      "url": "https://dev.to/p2code/from-lyrks-430b",
-      "summary": "Track of the day: 'Wonderwall' by Jamestown Story is taking over the Billboard Global chart, currently at rank 4! 'Today is gonna be the day That they're gonna throw it back to you...' Want to know what's next? Read the full lyrics on Lyrks: https://lyrks.com/lyrics/jamestown-st…",
-      "author": "Prashant Pokhriyal",
-      "published": "Wed, 22 Jul 2026 05:32:34 +0000",
+      "title": "Baseline 2026: 4 APIs That Changed How I Code",
+      "url": "https://dev.to/morellodev/baseline-2026-4-apis-that-changed-how-i-code-43n9",
+      "summary": "Baseline 2026 brought a wave of new interoperable web platform APIs. Not the kind of big where everything changes overnight. The kind where APIs that have been experimental for years finally ship in every browser. Baseline means you can use them in production without a polyfill,…",
+      "author": "Dennis Morello",
+      "published": "Wed, 22 Jul 2026 17:54:22 +0000",
       "tags": [
-        "music",
-        "lyrics",
-        "webdev"
+        "webdev",
+        "javascript",
+        "css"
       ]
     },
     {
@@ -178,121 +179,124 @@
       ]
     },
     {
-      "id": "4ce2c9e1e406",
+      "id": "b9a681b56216",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Zelensky sacks Ukraine's top army commander after days of protests",
-      "url": "https://www.bbc.co.uk/news/articles/cyvl35z3917o?at_medium=RSS&at_campaign=rss",
-      "summary": "Oleksandr Syrskyi is dismissed after backlash over the removal of popular Defence Minister Mykhailo Fedorov.",
-      "published": "Wed, 22 Jul 2026 05:37:43 GMT",
+      "title": "US to announce deal allowing Saudi Arabia a nuclear programme",
+      "url": "https://www.bbc.co.uk/news/articles/cj03r59z73po?at_medium=RSS&at_campaign=rss",
+      "summary": "The agreement would fulfil a long-held Saudi ambition but could attract concern in Israel and from some US lawmakers.",
+      "published": "Wed, 22 Jul 2026 14:49:12 GMT",
       "tags": []
     },
     {
       "id": "d27a33d94c93",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US renews strikes on Iran as Trump threatens to attack underground nuclear site",
+      "title": "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
       "url": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss",
-      "summary": "The US president's threat to target a key Iranian nuclear site came ahead of the 11th consecutive night of attacks.",
-      "published": "Wed, 22 Jul 2026 03:05:08 GMT",
+      "summary": "Donald Trump says the US will respond any time Iranian forces shoot at a ship in the Strait of Hormuz.",
+      "published": "Wed, 22 Jul 2026 10:15:03 GMT",
       "tags": []
     },
     {
-      "id": "85229a18fb73",
+      "id": "cce6611a1bf6",
       "category": "news",
       "source": "BBC 世界",
-      "title": "France passes law banning under-15s from social media",
-      "url": "https://www.bbc.co.uk/news/articles/cq56l9p4y93o?at_medium=RSS&at_campaign=rss",
-      "summary": "The law will require social media platforms in France to verify all users age from January.",
-      "published": "Wed, 22 Jul 2026 03:50:55 GMT",
+      "title": "Tankers make sharp U-turns after Houthi shipping threat",
+      "url": "https://www.bbc.co.uk/news/articles/cn0n127lpzgo?at_medium=RSS&at_campaign=rss",
+      "summary": "All of the ships were travelling to or from Saudi ports before changing course, ship-tracking data shows.",
+      "published": "Wed, 22 Jul 2026 14:42:49 GMT",
       "tags": []
     },
     {
-      "id": "a55581a1c49f",
+      "id": "a0cb92464d40",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Tokyo urges men to wear shorts to work, but some women say it's 'leg hair harassment'",
-      "url": "https://www.bbc.co.uk/news/articles/cvgwp513jpvo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Tokyo Metropolitan Government wants workers to ditch the suit and tie for t-shirts, trainers - and shorts.",
-      "published": "Tue, 21 Jul 2026 22:26:19 GMT",
+      "title": "British woman jailed for blackmail after accusing banker of rape in Hong Kong",
+      "url": "https://www.bbc.co.uk/news/articles/cz97gdjgezno?at_medium=RSS&at_campaign=rss",
+      "summary": "Isabel Rose was convicted of trying to extort £100,000 from the UK banker and perverting the course of justice.",
+      "published": "Wed, 22 Jul 2026 14:14:16 GMT",
       "tags": []
     },
     {
-      "id": "dd5b31d5f9c9",
+      "id": "bf66d7a685ba",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Range Rover answers the question: \"What if we built a not-SUV?\"",
-      "url": "https://arstechnica.com/cars/2026/07/heres-range-rovers-first-not-suv-the-range-rover-gt/",
-      "summary": "The Range Rover GT will debut as an EV with a hybrid version to follow.",
-      "author": "Jonathan M. Gitlin",
-      "published": "Tue, 21 Jul 2026 23:01:23 +0000",
+      "title": "What happens when you try to chop a photon in half?",
+      "url": "https://arstechnica.com/science/2026/07/what-happens-when-you-try-to-chop-a-photon-in-half/",
+      "summary": "A mirror that moves mid-photon could release a shower of new photons.",
+      "author": "John Timmer",
+      "published": "Wed, 22 Jul 2026 14:17:08 +0000",
       "tags": [
-        "Cars",
-        "Range Rover GT"
+        "Science",
+        "optics",
+        "particle physics",
+        "photons"
       ]
     },
     {
-      "id": "f7b732521aee",
+      "id": "ec06410487b5",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "On the run for 20 years, most-wanted fugitive caught hiding as a biotech exec",
-      "url": "https://arstechnica.com/health/2026/07/on-the-run-for-20-years-most-wanted-fugitive-caught-hiding-as-a-biotech-exec/",
-      "summary": "Ronald Fischer, aka Richard Graydon, was arrested in New York last week.",
-      "author": "Beth Mole",
-      "published": "Tue, 21 Jul 2026 22:04:56 +0000",
+      "title": "Samsung unveils new Galaxy Z8 foldables and Galaxy Watches, available August 7",
+      "url": "https://arstechnica.com/gadgets/2026/07/samsung-unveils-new-galaxy-z8-foldables-and-galaxy-watches-available-august-7/",
+      "summary": "Samsung's new foldables are slimmer, faster, and more expensive.",
+      "author": "Ryan Whitwam",
+      "published": "Wed, 22 Jul 2026 13:58:24 +0000",
       "tags": [
-        "Health",
-        "biotech",
-        "fugitive"
+        "Tech",
+        "android",
+        "Foldables",
+        "galaxy z fold"
       ]
     },
     {
-      "id": "78052867c16e",
+      "id": "d1a137b6b1c8",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Sony releases one last trailer for Spider-Man: Brand New Day",
-      "url": "https://arstechnica.com/culture/2026/07/sony-releases-one-last-trailer-for-spider-man-brand-new-day/",
-      "summary": "\"Maybe that's my responsibility, to live alone with the truth.\"",
-      "author": "Jennifer Ouellette",
-      "published": "Tue, 21 Jul 2026 19:50:10 +0000",
+      "title": "Unlimited AI tokens aren't unlimited after all as US Army burns through supply",
+      "url": "https://arstechnica.com/ai/2026/07/us-army-faces-ai-use-limits-after-exhausting-years-supply-of-ai-tokens/",
+      "summary": "Troops received an email informing them that they were rapidly depleting their AI tokens.",
+      "author": "WIRED",
+      "published": "Wed, 22 Jul 2026 13:35:17 +0000",
       "tags": [
-        "Culture",
-        "entertainment",
-        "Sony Pictures",
-        "Spider-Man: Brand New Day"
+        "AI",
+        "AI tokens",
+        "army",
+        "As Sage"
       ]
     },
     {
-      "id": "27bad75ea440",
+      "id": "d03ac8f98aaf",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Super Micro’s stock soars as its margins unexpectedly double",
-      "url": "https://www.marketwatch.com/story/super-micros-stock-soars-as-its-margins-unexpectedly-double-8aa83784?mod=mw_rss_topstories",
-      "summary": "The AI server maker now expects gross margins to be in the range of 15% to 17% thanks to an improving customer and product mix",
-      "author": "Christine Ji",
-      "published": "Wed, 22 Jul 2026 00:33:00 GMT",
+      "title": "Americans are skipping lettuce and salads as investigation into cyclospora outbreak continues",
+      "url": "https://www.marketwatch.com/story/americans-are-skipping-lettuce-and-salads-as-investigation-into-cyclospora-outbreak-continues-562499b6?mod=mw_rss_topstories",
+      "summary": "Shares of restaurant chains like Cava, Chipotle and Sweetgreen have come under pressure.",
+      "author": "Jaimy Lee,Bill Peters",
+      "published": "Wed, 22 Jul 2026 18:10:00 GMT",
       "tags": []
     },
     {
-      "id": "7a58f5e6ec34",
+      "id": "25ef216511ab",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "This is the ideal retirement strategy if you want to keep your healthcare costs down",
-      "url": "https://www.marketwatch.com/story/heres-how-to-time-your-retirement-to-keep-your-healthcare-costs-down-b1a4d427?mod=mw_rss_topstories",
-      "summary": "Plus, more ways to lower how much you pay out of pocket for medical care in retirement.",
-      "author": "Richard Eisenberg",
-      "published": "Tue, 21 Jul 2026 23:56:00 GMT",
+      "title": "‘I have a $2,000 deductible’: I reported a cracked windshield on my Hertz rental car. Can they charge me?",
+      "url": "https://www.marketwatch.com/story/i-have-a-2-000-deductible-i-reported-a-cracked-windshield-on-my-hertz-rental-car-can-they-charge-me-1e07d28a?mod=mw_rss_topstories",
+      "summary": "“I never heard a rock hit the windshield.”",
+      "author": "Quentin Fottrell",
+      "published": "Wed, 22 Jul 2026 18:00:00 GMT",
       "tags": []
     },
     {
-      "id": "3c7d56b6244d",
+      "id": "4dec475ffa0d",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "SpaceX’s stock snaps brutal losing streak ahead of key Starship rocket launch",
-      "url": "https://www.marketwatch.com/story/spacexs-stock-looks-to-snap-brutal-losing-streak-as-it-heads-for-one-of-its-best-days-yet-74220273?mod=mw_rss_topstories",
-      "summary": "Plus, investors just found out when insiders can start dumping their shares.",
-      "author": "William Gavin",
-      "published": "Tue, 21 Jul 2026 20:59:00 GMT",
+      "title": "Intel earnings will pit red-hot AI demand against a sluggish PC market",
+      "url": "https://www.marketwatch.com/story/intel-earnings-will-pit-red-hot-ai-demand-against-a-sluggish-pc-market-6b9984fe?mod=mw_rss_topstories",
+      "summary": "Intel’s stock has fallen 25% from its June high, but remains a standout gainer in 2026.",
+      "author": "Britney Nguyen",
+      "published": "Wed, 22 Jul 2026 17:46:00 GMT",
       "tags": []
     }
   ],
