@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict'
 import { describe, it } from 'node:test'
-import { capSummary, hnStoryToReading, rssItemsToReading, stripHtml, wikiTfaToReading } from './reading-normalize'
+import { capSummary, hnStoryToReading, isReadableTitle, rssItemsToReading, stripHtml, wikiTfaToReading } from './reading-normalize'
 
 describe('stripHtml / capSummary', () => {
   it('去标签、解实体、压空白', () => {
@@ -14,6 +14,20 @@ describe('stripHtml / capSummary', () => {
   it('超长截断带省略号', () => {
     assert.equal(capSummary('x'.repeat(300)).length, 280)
     assert.ok(capSummary('x'.repeat(300)).endsWith('…'))
+  })
+})
+
+describe('isReadableTitle', () => {
+  it('英文/中文/混排 → 保留', () => {
+    assert.ok(isReadableTitle('How the GPU Works'))
+    assert.ok(isReadableTitle('图形学渲染管线详解'))
+    assert.ok(isReadableTitle('Nanite 虚拟几何体 (virtualized geometry)'))
+    assert.ok(isReadableTitle('12:34 — a number-heavy title'))
+  })
+  it('阿拉伯语/西里尔/韩文为主 → 丢弃', () => {
+    assert.ok(!isReadableTitle('خدمة ضيافة للمناسبات في فلل العاصمة'))
+    assert.ok(!isReadableTitle('Как работает GPU в реальном времени'))
+    assert.ok(!isReadableTitle('안녕하세요 반갑습니다'))
   })
 })
 

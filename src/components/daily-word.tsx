@@ -16,6 +16,9 @@ export interface DailyWordData {
   example: string
   /** Chinese gloss of the example. */
   exampleZh?: string
+  /** Real UK/US pronunciation mp3s from the dictionary API, when available. */
+  audioUk?: string
+  audioUs?: string
 }
 
 /**
@@ -54,7 +57,7 @@ export function DailyWord() {
         <span className="text-2xl font-bold tracking-tight">{w.word}</span>
         {w.ipa && <span className="text-sm text-neutral-400">{w.ipa}</span>}
         {w.pos && <span className="text-xs text-neutral-400">{w.pos}.</span>}
-        <PlayWord word={w.word} />
+        <PlayWord word={w.word} audioUk={w.audioUk} audioUs={w.audioUs} />
       </div>
       {w.definitionZh && <p className="mt-1 text-sm text-neutral-700 dark:text-neutral-200">{w.definitionZh}</p>}
       {w.definition && <p className="mt-0.5 text-xs text-neutral-500">{w.definition}</p>}

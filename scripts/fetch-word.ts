@@ -23,7 +23,7 @@ function dailyIndex(seed: string, len: number): number {
 
 interface DictEntry {
   phonetic?: string
-  phonetics?: { text?: string }[]
+  phonetics?: { text?: string; audio?: string }[]
   meanings?: { partOfSpeech?: string; definitions?: { definition?: string; example?: string }[] }[]
 }
 
@@ -69,7 +69,9 @@ async function main() {
     definitionZh: string
     example: string
     exampleZh: string
-  } = { date, word, ipa: '', pos: '', definition: '', definitionZh: '', example: '', exampleZh: '' }
+    audioUk: string
+    audioUs: string
+  } = { date, word, ipa: '', pos: '', definition: '', definitionZh: '', example: '', exampleZh: '', audioUk: '', audioUs: '' }
 
   try {
     const r = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`, {
@@ -84,6 +86,13 @@ async function main() {
       const def = meaning?.definitions?.[0]
       out.definition = def?.definition ?? ''
       out.example = def?.example ?? ''
+      // Real UK/US pronunciation mp3s (CORS-open static files) when the API has them.
+      for (const p of e?.phonetics ?? []) {
+        if (!p.audio) continue
+        const url = p.audio.startsWith('//') ? `https:${p.audio}` : p.audio
+        if (/-uk\.mp3$/i.test(url) && !out.audioUk) out.audioUk = url
+        else if (/-us\.mp3$/i.test(url) && !out.audioUs) out.audioUs = url
+      }
     } else {
       console.error(`词典 API 返回 ${r.status}，仅写单词`)
     }

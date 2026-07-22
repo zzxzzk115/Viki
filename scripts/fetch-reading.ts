@@ -15,7 +15,7 @@ import { join } from 'node:path'
 import { XMLParser } from 'fast-xml-parser'
 import { readingSources, type ReadingSource } from '../config/reading-sources'
 import { ReadingFile, type ReadingItem } from '../src/lib/reading-feed'
-import { hnStoryToReading, rssItemsToReading, wikiTfaToReading, type RawReading } from '../src/lib/reading-normalize'
+import { hnStoryToReading, isReadableTitle, rssItemsToReading, wikiTfaToReading, type RawReading } from '../src/lib/reading-normalize'
 
 const ROOT = process.cwd()
 const DATA = join(ROOT, 'data', 'reading')
@@ -108,13 +108,20 @@ async function main() {
   for (const src of readingSources) {
     try {
       const items = await fromSource(src)
+      let dropped = 0
       for (const raw of items) {
+        // Skip content in scripts a Chinese/English reader can't follow
+        // (the dev.to feed surfaced Arabic SEO spam).
+        if (!isReadableTitle(raw.title)) {
+          dropped++
+          continue
+        }
         const item = withId(raw)
         if (seenUrls.has(item.url)) continue
         seenUrls.add(item.url)
         collected.push(item)
       }
-      notes.push(`${src.name}: ${items.length} 条`)
+      notes.push(`${src.name}: ${items.length - dropped} 条${dropped ? `（跳过 ${dropped} 条非中英内容）` : ''}`)
     } catch (e) {
       notes.push(`${src.name} 抓取异常：${e instanceof Error ? e.message : e}`)
     }

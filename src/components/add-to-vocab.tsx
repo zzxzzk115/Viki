@@ -1,8 +1,9 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { TokenQuickSet } from '@/components/token-settings'
 import type { DailyWordData } from '@/components/daily-word'
+import { withBase } from '@/lib/base-path'
 import { ghCommitFile, ghLoadFile, readStoredToken } from '@/lib/github-edit'
 
 /** Collected daily words land here; build materializes them into vocab.json. */
@@ -50,6 +51,22 @@ function wordBlock(w: DailyWordData): string {
 export function AddToVocab({ word }: { word: DailyWordData }) {
   const [state, setState] = useState<State>('idle')
   const [msg, setMsg] = useState('')
+
+  // Show 「已在单词本」 on load if this word is already in the vocab track —
+  // vocab.json is the built list of every ::::word, no token needed.
+  useEffect(() => {
+    let alive = true
+    fetch(withBase('/data/vocab.json'))
+      .then((r) => (r.ok ? r.json() : []))
+      .then((words: { word: string }[]) => {
+        if (alive && Array.isArray(words) && words.some((w) => w.word.toLowerCase() === word.word.toLowerCase()))
+          setState('exists')
+      })
+      .catch(() => {})
+    return () => {
+      alive = false
+    }
+  }, [word.word])
 
   const add = async () => {
     const token = readStoredToken()

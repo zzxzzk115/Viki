@@ -55,6 +55,23 @@ export function capSummary(s: string, max = 280): string {
   return t.length > max ? `${t.slice(0, max - 1)}…` : t
 }
 
+// Latin (+ accents) and CJK ideographs — the scripts a Chinese/English reader
+// follows. Kana, Hangul, Arabic, Cyrillic, etc. are "foreign" here.
+const READABLE = /[A-Za-zÀ-ɏ一-鿿㐀-䶿]/
+const LETTER = /\p{L}/u
+
+/**
+ * Keeps items a Chinese/English reader can actually read: true unless the
+ * title's letters are mostly a script they don't read (the DEV Community feed
+ * was surfacing Arabic SEO spam). No letters at all (numbers/symbols) → keep.
+ */
+export function isReadableTitle(title: string): boolean {
+  const letters = [...title].filter((c) => LETTER.test(c))
+  if (letters.length === 0) return true
+  const ok = letters.filter((c) => READABLE.test(c)).length
+  return ok / letters.length >= 0.5
+}
+
 /** RSS `<item>` objects (as parsed by fast-xml-parser) → RawReading[]. */
 export function rssItemsToReading(
   items: unknown[],
