@@ -146,8 +146,10 @@ async function fromSource(src: VideoSource): Promise<RawVideo[]> {
     title: (v.title ?? '').replace(/<[^>]+>/g, '').trim(),
     channel: v.author ?? `UID ${src.channel}`,
     url: `https://www.bilibili.com/video/${v.bvid}`,
-    // Bilibili thumbs are //i*.hdslb.com/...; make absolute.
-    thumb: v.pic ? (v.pic.startsWith('//') ? `https:${v.pic}` : v.pic) : '',
+    // Bilibili thumbs come as http://i*.hdslb.com/... — force https (the page is
+    // https, so http would be mixed-content-blocked). The <img> also needs
+    // referrerpolicy=no-referrer or hdslb.com 403s the hotlink.
+    thumb: v.pic ? v.pic.replace(/^\/\//, 'https://').replace(/^http:\/\//, 'https://') : '',
     published: v.created ? new Date(v.created * 1000).toISOString().slice(0, 10) : '',
     category: src.category,
   })).filter((v) => v.videoId)

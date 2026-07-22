@@ -59,10 +59,12 @@ export function DailyVideos() {
             <a href={v.url} target="_blank" rel="noopener noreferrer" className="group block">
               {v.thumb && (
                 <img
-                  src={v.thumb}
+                  src={v.thumb.replace(/^http:/, 'https:')}
                   alt=""
                   loading="lazy"
-                  className="aspect-video w-full rounded-lg object-cover"
+                  // hdslb.com (Bilibili) 403s a foreign Referer; no-referrer loads fine.
+                  referrerPolicy="no-referrer"
+                  className="aspect-video w-full rounded-lg bg-neutral-100 object-cover dark:bg-neutral-800"
                 />
               )}
               <div className="mt-1 flex items-center gap-2 text-xs text-neutral-400">

@@ -47,7 +47,15 @@ export function VideosBrowser() {
         {shown.map((v) => (
           <li key={v.id} className="rounded-xl border border-neutral-200 p-3 dark:border-neutral-800">
             <a href={v.url} target="_blank" rel="noopener noreferrer" className="group block">
-              {v.thumb && <img src={v.thumb} alt="" loading="lazy" className="aspect-video w-full rounded-lg object-cover" />}
+              {v.thumb && (
+                <img
+                  src={v.thumb.replace(/^http:/, 'https:')}
+                  alt=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer"
+                  className="aspect-video w-full rounded-lg bg-neutral-100 object-cover dark:bg-neutral-800"
+                />
+              )}
               <p className="mt-2 line-clamp-2 text-sm font-medium leading-snug group-hover:underline">{v.title}</p>
             </a>
             <div className="mt-1 flex items-center gap-2 text-xs text-neutral-400">
