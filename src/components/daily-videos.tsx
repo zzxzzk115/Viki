@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useMemo, useState } from 'react'
+import { AddVideo } from '@/components/add-video'
 import { withBase } from '@/lib/base-path'
 import { pickDaily, todaySeed } from '@/lib/daily-pick'
 import type { VideoItem } from '@/lib/video-feed'
@@ -75,6 +76,9 @@ export function DailyVideos() {
               </div>
               <p className="mt-0.5 line-clamp-2 text-sm font-medium leading-snug group-hover:underline">{v.title}</p>
             </a>
+            <div className="mt-1">
+              <AddVideo preset={{ platform: v.platform, id: v.videoId, title: v.title, channel: v.channel, category: v.category }} />
+            </div>
           </li>
         ))}
       </ul>
