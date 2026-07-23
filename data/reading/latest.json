@@ -1,54 +1,67 @@
 {
-  "date": "2026-07-22",
+  "date": "2026-07-23",
   "items": [
     {
-      "id": "8020c89c1c8a",
+      "id": "f930186706ab",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Stuart Heydinger",
-      "url": "https://simple.wikipedia.org/wiki/Stuart_Heydinger",
-      "summary": "Stuart Heydinger was a British photojournalist and portrait photographer. He was chief photographer at The Observer from 1960 to 1966. Heydinger was born in Kingston upon Thames, London.",
+      "title": "Art Fleming",
+      "url": "https://simple.wikipedia.org/wiki/Art_Fleming",
+      "summary": "Arthur Fleming Fazzin was an American television host. He is best known as the original host of the game show Jeopardy! from 1964 until 1975 and again from 1978 to 1979.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "461000211e22",
+      "id": "849eb64f02ae",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Eye of Providence",
-      "url": "https://simple.wikipedia.org/wiki/Eye_of_Providence",
-      "summary": "The Eye of Providence, also known as the All-Seeing Eye of God is a symbol that is often used in Christian context. Very often, it is shown as a single human eye, surrounded by triangle and rays of light or glory. It is often seen as a symbol for knowledge, trinity or for a god …",
+      "title": "Laguna de Bay",
+      "url": "https://simple.wikipedia.org/wiki/Laguna_de_Bay",
+      "summary": "Laguna de Bay, conveniently referred to as Laguna Lake, is the largest lake in the Philippines. Laguna de Bay is pronounced Laguna de bai, where the vowel “a” has a short sound, and was named after the town of Bay, in the province of Laguna during the Spanish colonial period.",
       "published": "",
       "tags": [
         "今日精选"
+      ]
+    },
+    {
+      "id": "dfb2a8867244",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "git's –end-of-options Flag",
+      "url": "https://nesbitt.io/2026/07/21/end-of-options.html",
+      "summary": "",
+      "author": "Erenay09",
+      "published": "2026-07-21",
+      "tags": [
+        "▲ 37"
       ]
     },
     {
       "id": "8fcc591b02eb",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Terrence Tao's ChatGPT Conversation about the Jacobian Conjecture Counterexample",
+      "title": "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample",
       "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
-      "summary": "",
+      "summary": "A digestion of the Jacobian conjecture counterexample - https://news.ycombinator.com/item?id=48998362 - July 2026 (133 comments) Claude Fable produced a counterexample to the Jacobian Conjecture - https://news.ycombinator.com/item?id=48973869 - July 2026 (508 comments)",
       "author": "gmays",
       "published": "2026-07-22",
       "tags": [
-        "▲ 99"
+        "▲ 705"
       ]
     },
     {
-      "id": "819b2724ca9e",
+      "id": "2ef0d8acfbb8",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
-      "url": "https://bento.page/slides/",
-      "summary": "Over the past few months, our team has been building more and more slidedecks using web frontend technologies with coding harnesses like Claude Code, but a common complaint is to make even small edits we need to edit the code either manually or via the harness. To avoid this loo…",
-      "author": "starfallg",
+      "title": "Quality non-fiction books are the antithesis of AI slop",
+      "url": "https://resobscura.substack.com/p/quality-non-fiction-books-are-the",
+      "summary": "https://book-prize-index.vercel.app/",
+      "author": "benbreen",
       "published": "2026-07-22",
       "tags": [
-        "▲ 361"
+        "▲ 235"
       ]
     },
     {
@@ -61,89 +74,44 @@
       "author": "syrusakbary",
       "published": "2026-07-22",
       "tags": [
-        "▲ 46"
+        "▲ 414"
       ]
     },
     {
-      "id": "789d043bcbf8",
+      "id": "819b2724ca9e",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Making",
-      "url": "https://beej.us/blog/data/ai-making/",
+      "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
+      "url": "https://bento.page/slides/",
+      "summary": "Over the past few months, our team has been building more and more slidedecks using web frontend technologies with coding harnesses like Claude Code, but a common complaint is to make even small edits we need to edit the code either manually or via the harness. To avoid this loo…",
+      "author": "starfallg",
+      "published": "2026-07-22",
+      "tags": [
+        "▲ 716"
+      ]
+    },
+    {
+      "id": "55d6d3cbedbc",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Medici family mystery may be solved after more than 400 years",
+      "url": "https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria",
       "summary": "",
-      "author": "erikschoster",
+      "author": "effects",
       "published": "2026-07-22",
       "tags": [
-        "▲ 129"
+        "▲ 98"
       ]
     },
     {
-      "id": "7e41e843d5a5",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "The startup's Postgres survival guide",
-      "url": "https://hatchet.run/blog/postgres-survival-guide",
-      "summary": "",
-      "author": "abelanger",
-      "published": "2026-07-22",
-      "tags": [
-        "▲ 180"
-      ]
-    },
-    {
-      "id": "accc1b9b3971",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Can a MUD evaluate LLMs? A $99 proof of concept",
-      "url": "https://cruciblebench.ai/",
-      "summary": "I'm the author of a paper my friends and I wrote after we were curious if a MUD, text games originating in the 1970s, could be used to evaluate LLMs. We've spent the last several months on nights and weekends running this experiment and writing the paper on just our personal com…",
-      "author": "Davisb135",
-      "published": "2026-07-22",
-      "tags": [
-        "▲ 45"
-      ]
-    },
-    {
-      "id": "0807a9d8d72d",
+      "id": "752e8d30b9ed",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Threads Search Scraper — 3K Users Can't Be Wrong",
-      "url": "https://dev.to/nick_davies_323125afbb05c/threads-search-scraper-3k-users-cant-be-wrong-17f7",
-      "summary": "Are you spending hours writing custom scrapers? There's probably an actor for that already. What is Threads Search Scraper? Powerful Meta Threads search scraper for posts and users. Filter by keywords or usernames, export structured data for analytics, research, monitoring and r…",
-      "author": "Nick Davies",
-      "published": "Wed, 22 Jul 2026 18:07:01 +0000",
-      "tags": [
-        "webdev",
-        "automation",
-        "api",
-        "tools"
-      ]
-    },
-    {
-      "id": "5d4920412b41",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Universality y sus Implicaciones…",
-      "url": "https://dev.to/norviktech/universality-y-sus-implicaciones-1i2e",
-      "summary": "Originally published at norvik.tech Introduction Explora cómo la universality se selecciona a través de restricciones y su impacto en el desarrollo web moderno. Universality: Definición y Contexto La universality en el desarrollo web se refiere a la capacidad de una aplicación o…",
-      "author": "Norvik Tech",
-      "published": "Wed, 22 Jul 2026 18:05:44 +0000",
-      "tags": [
-        "webdev",
-        "universality",
-        "desarrolloweb",
-        "nextjs"
-      ]
-    },
-    {
-      "id": "bf656b6651cc",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Buy Trustpilot Reviews to Boost Credibility and Conversions usasafebiz Best",
-      "url": "https://dev.to/usasafebiz1258/buy-trustpilot-reviews-to-boost-credibility-and-conversions-usasafebiz-best-iom",
-      "summary": "Buy Trustpilot Verified Reviews – Build Trust and Grow Your Business In today's digital world, trust is everything. Before a customer buys from you, they will almost certainly check your online reviews. And one of the first places they look is Trustpilot. Trustpilot has become t…",
-      "author": "Buy Verified Binance Account",
-      "published": "Wed, 22 Jul 2026 17:57:30 +0000",
+      "title": "Cracked Laptop Bezel: Causes, Risks, and How to Fix It",
+      "url": "https://dev.to/zprostudio/is-a-cracked-laptop-bezel-really-just-cosmetic-heres-what-i-learned-3g68",
+      "summary": "Laptop hardware problems often begin with small signs that are easy to ignore. One common example is a cracked laptop bezel. Although it may appear to be only cosmetic damage, the location and severity of the crack determine whether it requires immediate attention. This article …",
+      "author": "zprostudio",
+      "published": "Thu, 23 Jul 2026 04:37:46 +0000",
       "tags": [
         "ai",
         "webdev",
@@ -152,27 +120,60 @@
       ]
     },
     {
-      "id": "7ff81a3a6bea",
+      "id": "04f65ecd1899",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Baseline 2026: 4 APIs That Changed How I Code",
-      "url": "https://dev.to/morellodev/baseline-2026-4-apis-that-changed-how-i-code-43n9",
-      "summary": "Baseline 2026 brought a wave of new interoperable web platform APIs. Not the kind of big where everything changes overnight. The kind where APIs that have been experimental for years finally ship in every browser. Baseline means you can use them in production without a polyfill,…",
-      "author": "Dennis Morello",
-      "published": "Wed, 22 Jul 2026 17:54:22 +0000",
+      "title": "KPIs That Actually Matter for Outsourced Engineering Success published: false",
+      "url": "https://dev.to/symvolus_42579e3ee36a9a80/kpis-that-actually-matter-for-outsourced-engineering-successpublished-false-35gl",
+      "summary": "A productive outsourced team isn't simply one that writes more code. It's one that consistently delivers reliable releases, maintains high quality, communicates proactively, and helps your product reach customers faster. Instead of focusing only on velocity, consider these five …",
+      "author": "Symvolus",
+      "published": "Thu, 23 Jul 2026 04:33:07 +0000",
       "tags": [
+        "ai",
         "webdev",
-        "javascript",
-        "css"
+        "programming",
+        "productivity"
       ]
     },
     {
-      "id": "35190d3e80c0",
+      "id": "58f955f565fa",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Schemas Won. Form Libraries Haven't Noticed Yet",
+      "url": "https://dev.to/oluwawunmiadesewa/schemas-won-form-libraries-havent-noticed-yet-2ek6",
+      "summary": "A look at how TypeScript projects came to treat schemas as the source of truth for data, why the big form libraries were designed before that happened, and what a form library looks like when it's designed after . I work on Formisch , so I'm obviously biased, and you should keep…",
+      "author": "Oluwawunmi Adesewa",
+      "published": "Thu, 23 Jul 2026 04:29:32 +0000",
+      "tags": [
+        "typescript",
+        "react",
+        "forms",
+        "webdev"
+      ]
+    },
+    {
+      "id": "f73d38481569",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Why Users Search for the Allpanelexch WhatsApp Number",
+      "url": "https://dev.to/allpanelexchapp/why-users-search-for-the-allpanelexch-whatsapp-number-54n6",
+      "summary": "The Main Problem: Users Need Faster Support Many online platforms provide support through email or ticket systems, but these methods can sometimes take longer than users expect. When someone is trying to create an account, recover access, or verify a mobile number, they usually …",
+      "author": "Allpanel Exchange",
+      "published": "Thu, 23 Jul 2026 04:28:54 +0000",
+      "tags": [
+        "automation",
+        "ai",
+        "webdev",
+        "programming"
+      ]
+    },
+    {
+      "id": "18fcc0bc1bb9",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Ludwig Ross",
-      "url": "https://en.wikipedia.org/wiki/Ludwig_Ross",
-      "summary": "Ludwig Ross was a German classical archaeologist. He is chiefly remembered for the rediscovery and reconstruction of the Temple of Athena Nike in 1835–1836, and for his other excavation and conservation work on the Acropolis of Athens. He was also an important figure in the earl…",
+      "title": "Diaspora Revolt",
+      "url": "https://en.wikipedia.org/wiki/Diaspora_Revolt",
+      "summary": "The Diaspora Revolt, sometimes known as the Second Jewish–Roman War, was a series of uprisings launched by Jewish diaspora communities in several eastern provinces of the Roman Empire during the final years of Emperor Trajan's reign. Hostilities began while Trajan was engaged in…",
       "published": "",
       "tags": [
         "今日精选"
@@ -182,20 +183,20 @@
       "id": "b9a681b56216",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US to announce deal allowing Saudi Arabia a nuclear programme",
+      "title": "US signs landmark nuclear deal with Saudi Arabia",
       "url": "https://www.bbc.co.uk/news/articles/cj03r59z73po?at_medium=RSS&at_campaign=rss",
-      "summary": "The agreement would fulfil a long-held Saudi ambition but could attract concern in Israel and from some US lawmakers.",
-      "published": "Wed, 22 Jul 2026 14:49:12 GMT",
+      "summary": "The US Department of Energy says the \"peaceful\" co-operation agreement will give US firms \"great access\" to the Saudi nuclear energy programme.",
+      "published": "Thu, 23 Jul 2026 00:21:53 GMT",
       "tags": []
     },
     {
-      "id": "d27a33d94c93",
+      "id": "341e3e413aab",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump threatens to target Iran's bridges and power plants if Hormuz attacks persist",
-      "url": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss",
-      "summary": "Donald Trump says the US will respond any time Iranian forces shoot at a ship in the Strait of Hormuz.",
-      "published": "Wed, 22 Jul 2026 10:15:03 GMT",
+      "title": "Houthis claim attack on oil tankers as US launches more strikes on Iran",
+      "url": "https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko?at_medium=RSS&at_campaign=rss",
+      "summary": "The Houthi attacks would be the first in the Red Sea since the Iran-backed group announced a \"maritime embargo\" against Saudi Arabia.",
+      "published": "Thu, 23 Jul 2026 03:48:27 GMT",
       "tags": []
     },
     {
@@ -209,94 +210,92 @@
       "tags": []
     },
     {
-      "id": "a0cb92464d40",
+      "id": "bea210e2aedf",
       "category": "news",
       "source": "BBC 世界",
-      "title": "British woman jailed for blackmail after accusing banker of rape in Hong Kong",
-      "url": "https://www.bbc.co.uk/news/articles/cz97gdjgezno?at_medium=RSS&at_campaign=rss",
-      "summary": "Isabel Rose was convicted of trying to extort £100,000 from the UK banker and perverting the course of justice.",
-      "published": "Wed, 22 Jul 2026 14:14:16 GMT",
+      "title": "Russia's businesses under strain from Ukraine's attacks on Wildberries",
+      "url": "https://www.bbc.co.uk/news/articles/cvg9n2y61w6o?at_medium=RSS&at_campaign=rss",
+      "summary": "Ukrainian drones have hit several retail warehouses belonging to Russia's biggest online retailer Wildberries in a matter of days.",
+      "published": "Wed, 22 Jul 2026 23:06:08 GMT",
       "tags": []
     },
     {
-      "id": "bf66d7a685ba",
+      "id": "1ece4b26cff4",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "What happens when you try to chop a photon in half?",
-      "url": "https://arstechnica.com/science/2026/07/what-happens-when-you-try-to-chop-a-photon-in-half/",
-      "summary": "A mirror that moves mid-photon could release a shower of new photons.",
-      "author": "John Timmer",
-      "published": "Wed, 22 Jul 2026 14:17:08 +0000",
+      "title": "Sales were up at Tesla but so were costs and spending",
+      "url": "https://arstechnica.com/cars/2026/07/teslas-revenues-are-up-but-profits-squeezed-as-musk-spends-on-ai/",
+      "summary": "Q2 2026 was profitable, but barely.",
+      "author": "Jonathan M. Gitlin",
+      "published": "Wed, 22 Jul 2026 21:15:19 +0000",
       "tags": [
-        "Science",
-        "optics",
-        "particle physics",
-        "photons"
+        "Cars",
+        "Tesla earnings"
       ]
     },
     {
-      "id": "ec06410487b5",
+      "id": "bc7f9600788c",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Samsung unveils new Galaxy Z8 foldables and Galaxy Watches, available August 7",
-      "url": "https://arstechnica.com/gadgets/2026/07/samsung-unveils-new-galaxy-z8-foldables-and-galaxy-watches-available-august-7/",
-      "summary": "Samsung's new foldables are slimmer, faster, and more expensive.",
-      "author": "Ryan Whitwam",
-      "published": "Wed, 22 Jul 2026 13:58:24 +0000",
+      "title": "Microsoft brings original Xbox backward compatibility to Windows PCs",
+      "url": "https://arstechnica.com/gaming/2026/07/microsoft-brings-original-xbox-backward-compatibility-to-windows-pcs/",
+      "summary": "First four compatible titles can be run with an 11-year-old graphics card.",
+      "author": "Kyle Orland",
+      "published": "Wed, 22 Jul 2026 20:36:19 +0000",
       "tags": [
-        "Tech",
-        "android",
-        "Foldables",
-        "galaxy z fold"
+        "Gaming",
+        "back compat",
+        "backward compatibility",
+        "microsoft"
       ]
     },
     {
-      "id": "d1a137b6b1c8",
+      "id": "0ee7d54eb1e6",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Unlimited AI tokens aren't unlimited after all as US Army burns through supply",
-      "url": "https://arstechnica.com/ai/2026/07/us-army-faces-ai-use-limits-after-exhausting-years-supply-of-ai-tokens/",
-      "summary": "Troops received an email informing them that they were rapidly depleting their AI tokens.",
-      "author": "WIRED",
-      "published": "Wed, 22 Jul 2026 13:35:17 +0000",
+      "title": "ISPs' long nightmare of having to list all the fees they charge is finally over",
+      "url": "https://arstechnica.com/tech-policy/2026/07/isps-long-nightmare-of-having-to-list-all-the-fees-they-charge-is-finally-over/",
+      "summary": "FCC lets ISPs stop listing all fees after companies complained it was too hard.",
+      "author": "Jon Brodkin",
+      "published": "Wed, 22 Jul 2026 20:17:18 +0000",
       "tags": [
-        "AI",
-        "AI tokens",
-        "army",
-        "As Sage"
+        "Policy",
+        "broadband labels",
+        "FCC",
+        "ISPs"
       ]
     },
     {
-      "id": "d03ac8f98aaf",
+      "id": "b13f9a541b62",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Americans are skipping lettuce and salads as investigation into cyclospora outbreak continues",
-      "url": "https://www.marketwatch.com/story/americans-are-skipping-lettuce-and-salads-as-investigation-into-cyclospora-outbreak-continues-562499b6?mod=mw_rss_topstories",
-      "summary": "Shares of restaurant chains like Cava, Chipotle and Sweetgreen have come under pressure.",
-      "author": "Jaimy Lee,Bill Peters",
-      "published": "Wed, 22 Jul 2026 18:10:00 GMT",
+      "title": "The bull market faces higher likelihood of a Fed rate hike as Iran crisis intensifies",
+      "url": "https://www.marketwatch.com/story/the-bull-market-faces-higher-likelihood-of-a-fed-rate-hike-as-iran-crisis-intensifies-58f268e8?mod=mw_rss_topstories",
+      "summary": "Treasury yields are approaching the highest levels seen since the Iran war started in February as oil prices rise",
+      "author": "Joy Wiltermuth",
+      "published": "Thu, 23 Jul 2026 00:27:00 GMT",
       "tags": []
     },
     {
-      "id": "25ef216511ab",
+      "id": "884a3b6f30ca",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘I have a $2,000 deductible’: I reported a cracked windshield on my Hertz rental car. Can they charge me?",
-      "url": "https://www.marketwatch.com/story/i-have-a-2-000-deductible-i-reported-a-cracked-windshield-on-my-hertz-rental-car-can-they-charge-me-1e07d28a?mod=mw_rss_topstories",
-      "summary": "“I never heard a rock hit the windshield.”",
-      "author": "Quentin Fottrell",
-      "published": "Wed, 22 Jul 2026 18:00:00 GMT",
+      "title": "ServiceNow’s stock rises as earnings show momentum in cybersecurity",
+      "url": "https://www.marketwatch.com/story/servicenows-stock-gains-as-earnings-show-momentum-in-cybersecurity-86e7a038?mod=mw_rss_topstories",
+      "summary": "Against a gloomy backdrop for software sentiment, ServiceNow just topped revenue expectations.",
+      "author": "Christine Ji,Emily Bary",
+      "published": "Thu, 23 Jul 2026 00:18:00 GMT",
       "tags": []
     },
     {
-      "id": "4dec475ffa0d",
+      "id": "abb2877fc337",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Intel earnings will pit red-hot AI demand against a sluggish PC market",
-      "url": "https://www.marketwatch.com/story/intel-earnings-will-pit-red-hot-ai-demand-against-a-sluggish-pc-market-6b9984fe?mod=mw_rss_topstories",
-      "summary": "Intel’s stock has fallen 25% from its June high, but remains a standout gainer in 2026.",
-      "author": "Britney Nguyen",
-      "published": "Wed, 22 Jul 2026 17:46:00 GMT",
+      "title": "IBM just cut its outlook, but not by as much as investors feared",
+      "url": "https://www.marketwatch.com/story/ibm-just-cut-its-outlook-why-its-stock-is-bouncing-anyway-9d36e22a?mod=mw_rss_topstories",
+      "summary": "IBM’s official earnings report comes after a bruising profit warning last week.",
+      "author": "Hannah Pedone",
+      "published": "Thu, 23 Jul 2026 00:17:00 GMT",
       "tags": []
     }
   ],
