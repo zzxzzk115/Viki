@@ -19,3 +19,16 @@ He has an esoteric collection of old toys and games.
 他收藏了一批极罕见的老玩具和游戏。
 :::
 ::::
+
+::::word{ipa="ɪɡˈzæs.ə.beɪt" pos=verb}
+exacerbate
+
+:::meaning
+使恶化（to make something that is already bad even worse）
+:::
+
+:::example
+This attack will exacerbate the already tense relations between the two communities.
+这次袭击将使两个团体间已经紧张的关系更加恶化。
+:::
+::::
