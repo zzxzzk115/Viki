@@ -1,13 +1,13 @@
 {
-  "date": "2026-07-24",
-  "word": "exacerbate",
-  "ipa": "ɪɡˈzæs.ə.beɪt",
-  "ipaUs": "ɪɡˈzæs.ɚ.beɪt",
+  "date": "2026-07-25",
+  "word": "exemplify",
+  "ipa": "ɪɡˈzem.plɪ.faɪ",
+  "ipaUs": "ɪɡˈzem.plə.faɪ",
   "pos": "verb",
-  "definition": "to make something that is already bad even worse",
-  "definitionZh": "使恶化",
-  "example": "This attack will exacerbate the already tense relations between the two communities.",
-  "exampleZh": "这次袭击将使两个团体间已经紧张的关系更加恶化。",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uke/ukevi/ukevil_015.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/exa/exace/exacerbate.mp3"
+  "definition": "to be or give a typical example of something",
+  "definitionZh": "作为",
+  "example": "This painting perfectly exemplifies the naturalistic style which was so popular at the time.",
+  "exampleZh": "这幅油画是那个时期风靡一时的自然主义风格的完美典范。",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uke/ukexc/ukexcre026.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/eus/eus75/eus75724.mp3"
 }

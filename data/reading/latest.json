@@ -1,302 +1,302 @@
 {
-  "date": "2026-07-24",
+  "date": "2026-07-25",
   "items": [
     {
-      "id": "8ccc7ad5aaee",
+      "id": "99ca223d0ffd",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Townsend, Massachusetts",
-      "url": "https://simple.wikipedia.org/wiki/Townsend%2C_Massachusetts",
-      "summary": "Townsend is a town in Middlesex County, Massachusetts, United States.",
+      "title": "Reboleira (Lisbon Metro)",
+      "url": "https://simple.wikipedia.org/wiki/Reboleira_(Lisbon_Metro)",
+      "summary": "Reboleira station is the northern terminal station on the Blue Line of the Lisbon Metro.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "7850a647e388",
+      "id": "dcec27924c4b",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Bebe Rexha",
-      "url": "https://simple.wikipedia.org/wiki/Bebe_Rexha",
-      "summary": "Bleta \"Bebe\" Rexha is an American singer and songwriter. Rexha was born in New York City. She signed a contract with Warner Bros. Records in 2013. Rexha helped write Eminem and Rihanna's song \"The Monster\". The song got a Grammy Award for Best Rap/Sung Performance. Rexha also he…",
+      "title": "Ron Goulart",
+      "url": "https://simple.wikipedia.org/wiki/Ron_Goulart",
+      "summary": "Ron Goulart was an American popular culture historian and science fiction author.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "9ed91de40d20",
+      "id": "e75df1016aa1",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Writing by hand is good for your brain",
-      "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
-      "summary": "",
-      "author": "dwwoelfel",
-      "published": "2026-07-23",
+      "title": "Claude Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "summary": "https://www.anthropic.com/claude-opus-5-system-card",
+      "author": "alvis",
+      "published": "2026-07-24",
       "tags": [
-        "▲ 1086"
+        "▲ 1391"
       ]
     },
     {
-      "id": "521d675475b7",
+      "id": "70b0fd3555ed",
       "category": "tech",
       "source": "Hacker News",
-      "title": "The Beam Engine",
-      "url": "https://glinscott.github.io/beam-engine/",
+      "title": "Postgres LISTEN/NOTIFY actually scales",
+      "url": "https://www.dbos.dev/blog/postgres-listen-notify-scalability",
       "summary": "",
-      "author": "glinscott",
+      "author": "KraftyOne",
+      "published": "2026-07-24",
+      "tags": [
+        "▲ 241"
+      ]
+    },
+    {
+      "id": "31931af2271a",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Taylor Farms Called White House to Try to Delay Cyclospora Recall",
+      "url": "https://www.wsj.com/health/taylor-farms-cyclospora-recall-delay-call-41fef0bc",
+      "summary": "",
+      "author": "JumpCrisscross",
+      "published": "2026-07-25",
+      "tags": [
+        "▲ 99"
+      ]
+    },
+    {
+      "id": "5d991c125467",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Re: Bye Bye Gravatar",
+      "url": "https://unattributed.cc/re-bye-bye-gravatar",
+      "summary": "",
+      "author": "surprisetalk",
       "published": "2026-07-22",
       "tags": [
-        "▲ 215"
+        "▲ 14"
       ]
     },
     {
-      "id": "2d78a28f9f25",
+      "id": "e616440e259b",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
-      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
-      "summary": "https://littletech.org/ https://static.politico.com/4a/bf/9c4021d8404386b0a311dcccf0...",
-      "author": "theanonymousone",
-      "published": "2026-07-23",
-      "tags": [
-        "▲ 801"
-      ]
-    },
-    {
-      "id": "2ffe80c9e615",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "What happened to TheNumbers.com",
-      "url": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
+      "title": "Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard",
+      "url": "https://artificialanalysis.ai/models",
       "summary": "",
-      "author": "nickthegreek",
-      "published": "2026-07-23",
+      "author": "aarondong",
+      "published": "2026-07-24",
       "tags": [
-        "▲ 320"
+        "▲ 195"
       ]
     },
     {
-      "id": "ed7f3c141ecf",
+      "id": "02c4e818bddc",
       "category": "tech",
       "source": "Hacker News",
-      "title": "What else do people draw on gradient.horse?",
-      "url": "https://rybakov.com/blog/what_else_do_people_draw_on_gradient-copy.horse/",
+      "title": "Sperm Whales blow bubbles to achieve restful, vertical sleep",
+      "url": "https://news.st-andrews.ac.uk/archive/sperm-whales-blow-bubbles-to-achieve-restful-vertical-sleep/",
       "summary": "",
-      "author": "spython",
-      "published": "2026-07-18",
+      "author": "hhs",
+      "published": "2026-07-24",
       "tags": [
-        "▲ 71"
+        "▲ 62"
       ]
     },
     {
-      "id": "0eb0c13310f8",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "98.css",
-      "url": "https://jdan.github.io/98.css/#status-bar",
-      "summary": "",
-      "author": "lopespm",
-      "published": "2026-07-23",
-      "tags": [
-        "▲ 356"
-      ]
-    },
-    {
-      "id": "d95b6f2ecac5",
+      "id": "e9644e530d8e",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Your Product schema is invalid and you don't know it — the price string gotcha",
-      "url": "https://dev.to/sgbp/your-product-schema-is-invalid-and-you-dont-know-it-the-price-string-gotcha-2am3",
-      "summary": "If you've added Product structured data, watched it pass a JSON linter, and still got \"Invalid\" in Search Console (or no price shown in rich results), you've almost certainly hit the one that catches everyone: the price field. Valid JSON is not valid schema.org. Here's the trap …",
-      "author": "Daniel Cheong",
-      "published": "Fri, 24 Jul 2026 04:32:43 +0000",
+      "title": "YouTube Data API alternative — no quota limits, no Google Cloud setup, from $0.01/1K",
+      "url": "https://dev.to/anupam_pathak_a2ed0924a4c/youtube-data-api-alternative-no-quota-limits-no-google-cloud-setup-from-0011k-23bj",
+      "summary": "If you've tried to build anything serious on top of YouTube's official Data API, you've probably been bitten by the quota system. Each search costs 100 units, you get 10,000 free/day, and requesting more requires Google's approval (which takes weeks and sometimes gets denied). W…",
+      "author": "Anupam Pathak",
+      "published": "Sat, 25 Jul 2026 04:28:24 +0000",
+      "tags": [
+        "api",
+        "youtubeapi",
+        "webdev",
+        "python"
+      ]
+    },
+    {
+      "id": "7c56fea6716e",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "How to Verify Telegram Without Using Your Personal Phone Number",
+      "url": "https://dev.to/flovoice53tech/how-to-verify-telegram-without-using-your-personal-phone-number-9cm",
+      "summary": "Telegram, like WhatsApp, requires a phone number to create an account, and shows that number to anyone who has it saved (unless you tighten your privacy settings after the fact). A lot of people — especially anyone managing multiple Telegram accounts for bots, communities, or te…",
+      "author": "sms-florin",
+      "published": "Sat, 25 Jul 2026 04:26:46 +0000",
       "tags": [
         "webdev",
-        "seo",
-        "json"
+        "api",
+        "tutorial",
+        "privacy"
       ]
     },
     {
-      "id": "1d41176a133b",
+      "id": "82e6a30a8bf4",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Fixing One Automation Problem Just Created Ten New Bugs",
-      "url": "https://dev.to/bhavnish_e35294bf0fd0b2df/fixing-one-automation-problem-just-created-ten-new-bugs-1ia",
-      "summary": "TL;DR : Replacing developers with fragile AI web agents sounds great on slides—until a 2px layout change breaks your entire production workflow. We’ve been hearing a lot of noise lately about how AI agents are going to replace traditional developers. The theory is that these age…",
-      "author": "Bhavnish",
-      "published": "Fri, 24 Jul 2026 04:29:58 +0000",
+      "title": "Keeping Laravel Projects Findable When Local Work Starts to Sprawl",
+      "url": "https://dev.to/saqueib/keeping-laravel-projects-findable-when-local-work-starts-to-sprawl-55na",
+      "summary": "If you keep more than a handful of Laravel apps on your machine, the real problem is not php artisan serve . It is finding the right project fast enough to stay in flow . That sounds minor until you are juggling client work, experiments, internal tools, and old repos with nearly…",
+      "author": "Saqueib Ansari",
+      "published": "Sat, 25 Jul 2026 04:23:11 +0000",
       "tags": [
-        "ai",
-        "programming",
-        "webdev",
-        "techtalks"
-      ]
-    },
-    {
-      "id": "ced3bebb71ef",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Your API Is the New Homepage: Designing for AI Consumption",
-      "url": "https://dev.to/mazhar_iqbal/your-api-is-the-new-homepage-designing-for-ai-consumption-2j8f",
-      "summary": "For as long as the internet has existed, businesses have designed their websites for one audience, the human visitor. Every headline, every image, and every button was built to catch a person's eye and guide them toward a purchase or a decision. That assumption quietly stopped b…",
-      "author": "Mazhar Iqbal",
-      "published": "Fri, 24 Jul 2026 04:19:39 +0000",
-      "tags": [
-        "ai",
-        "programming",
-        "javascript",
+        "laravel",
+        "php",
+        "productivity",
         "webdev"
       ]
     },
     {
-      "id": "734405eef4eb",
+      "id": "997040245bbb",
       "category": "tech",
       "source": "DEV Community",
-      "title": "A Model Catalog Is the Missing Product Contract in Multi-Model AI Apps",
-      "url": "https://dev.to/natalia_c8ace1e6703e8f29f/a-model-catalog-is-the-missing-product-contract-in-multi-model-ai-apps-2j4b",
-      "summary": "The first AI model in a product rarely creates an architecture problem. You build a form, call an API, and display a result. The second model adds a dropdown and a few conditions. The third adds another input mode. Before long, the product supports text-to-image, image-to-image,…",
-      "author": "Natalia",
-      "published": "Fri, 24 Jul 2026 04:14:46 +0000",
+      "title": "How to Verify WhatsApp Without Using Your Personal Phone Number",
+      "url": "https://dev.to/flovoice53tech/how-to-verify-whatsapp-without-using-your-personal-phone-number-44j7",
+      "summary": "WhatsApp requires a phone number to verify an account, but that doesn't have to be your personal number. Businesses running multiple WhatsApp Business accounts, people who want a second number for privacy, and anyone testing an app all have the same problem: WhatsApp ties every …",
+      "author": "sms-florin",
+      "published": "Sat, 25 Jul 2026 04:22:13 +0000",
       "tags": [
-        "ai",
-        "typescript",
-        "architecture",
-        "webdev"
+        "webdev",
+        "api",
+        "tutorial",
+        "privacy"
       ]
     },
     {
-      "id": "7abfa9cb1a53",
+      "id": "75500a82858a",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Bleed American",
-      "url": "https://en.wikipedia.org/wiki/Bleed_American",
-      "summary": "Bleed American is the fourth studio album by the American rock band Jimmy Eat World, released on July 24, 2001, by DreamWorks Records. The album was re-released as Jimmy Eat World following the September 11 attacks; that name remained until 2008, when it was re-released with its…",
+      "title": "Las Meninas",
+      "url": "https://en.wikipedia.org/wiki/Las_Meninas",
+      "summary": "Las Meninas is a 1656 oil painting in the Museo del Prado in Madrid, by Diego Velázquez, the leading artist in the court of King Philip IV of Spain and Portugal, and of the Spanish Golden Age. It has become one of the most widely analyzed works in Western painting for the way it…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "52a7ef755c17",
+      "id": "0008452186b7",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US imposes tariffs on dozens of trade partners, citing forced labour concerns",
-      "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
-      "summary": "The tariffs target 60 trading partners over claims they failed to properly stop forced labour.",
-      "published": "Fri, 24 Jul 2026 04:27:15 GMT",
+      "title": "More than 220,000 evacuated in France and Spain due to wildfires",
+      "url": "https://www.bbc.co.uk/news/articles/czjlenp0xk8o?at_medium=RSS&at_campaign=rss",
+      "summary": "French firefighters battle a blaze heading towards Bordeaux while officials in Madrid say they face the \"worst fire in the history of the region\".",
+      "published": "Sat, 25 Jul 2026 02:29:36 GMT",
       "tags": []
     },
     {
-      "id": "5a577cbb7702",
+      "id": "8518093b4140",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Oil prices hit $100 for the first time since May",
-      "url": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
-      "summary": "The price of Brent crude rose more than 6% on Thursday as the war in the Middle East continues to escalate.",
-      "published": "Thu, 23 Jul 2026 15:31:00 GMT",
+      "title": "Ten killed in Russian attack on drone exhibition near Kyiv",
+      "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss",
+      "summary": "The event, attended by prominent members of the Ukrainian defence industry, was hit by ballistic missiles in the middle of the day.",
+      "published": "Sat, 25 Jul 2026 00:06:53 GMT",
       "tags": []
     },
     {
-      "id": "6418e7c7a9df",
+      "id": "24be73606fd1",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Indonesian babies were trafficked to Singapore. What happens to them now?",
-      "url": "https://www.bbc.co.uk/news/articles/c7vgeredvlgo?at_medium=RSS&at_campaign=rss",
-      "summary": "At least 12 babies have been trafficked from Indonesia to Singapore, but what will happen to them remains unclear.",
-      "published": "Thu, 23 Jul 2026 23:19:58 GMT",
+      "title": "Zelensky tries to fix crisis over removal of defence minister and counts the cost",
+      "url": "https://www.bbc.co.uk/news/articles/c1d1gz3n99ro?at_medium=RSS&at_campaign=rss",
+      "summary": "Protests have continued over Zelensky's decision to dismiss Mykhailo Fedorov, and some commentators believe he has been damaged politically.",
+      "published": "Fri, 24 Jul 2026 23:01:06 GMT",
       "tags": []
     },
     {
-      "id": "dedc5a4790cf",
+      "id": "f76de72188e4",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Saudis must recognise Israel for nuclear deal, says Trump",
-      "url": "https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&at_campaign=rss",
-      "summary": "The US president says the landmark agreement to help Saudis develop nuclear energy is dependent on it joining the Abraham Accords.",
-      "published": "Thu, 23 Jul 2026 17:58:02 GMT",
+      "title": "Texts reveal 14-year-old allegedly murdered by singer D4vd had pregnancy and abortion",
+      "url": "https://www.bbc.co.uk/news/articles/cr592qdj1ldo?at_medium=RSS&at_campaign=rss",
+      "summary": "Prosecutors allege D4vd started abusing the girl when she was 13 and she had threatened to expose him.",
+      "published": "Sat, 25 Jul 2026 02:14:50 GMT",
       "tags": []
     },
     {
-      "id": "b75fba24a70e",
+      "id": "f56159eaffd4",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Microsoft responds to LG monitors installing McAfee ads on Windows",
-      "url": "https://arstechnica.com/gadgets/2026/07/microsoft-responds-to-lg-monitors-installing-mcafee-ads-on-windows/",
-      "summary": "App is installed through Windows Update when certain LG monitors connect to a PC.",
-      "author": "Scharon Harding",
-      "published": "Thu, 23 Jul 2026 20:47:33 +0000",
+      "title": "Wildfire forces evacuation of NASA's Deep Space Network complex in Spain",
+      "url": "https://arstechnica.com/space/2026/07/wildfire-forces-evacuation-of-nasas-deep-space-network-complex-in-spain/",
+      "summary": "\"Any potential damage will be assessed when it is safe to do so.\"",
+      "author": "Stephen Clark",
+      "published": "Fri, 24 Jul 2026 22:28:20 +0000",
       "tags": [
-        "Tech",
-        "ads",
-        "LG",
-        "McAfee"
+        "Space",
+        "Deep Space Network",
+        "jet propulsion laboratory",
+        "Madrid"
       ]
     },
     {
-      "id": "5cb2427be3e9",
+      "id": "3921932808f2",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "FDA reports new outbreak of explosive diarrhea with 72 cases identified",
-      "url": "https://arstechnica.com/health/2026/07/fda-reports-new-outbreak-of-explosive-diarrhea-with-72-cases-identified/",
-      "summary": "The FDA hasn't said where the cases are or how they're linked.",
-      "author": "Beth Mole",
-      "published": "Thu, 23 Jul 2026 19:22:36 +0000",
+      "title": "Paramount/WBD merger delayed for months as states' lawsuit moves toward trial",
+      "url": "https://arstechnica.com/tech-policy/2026/07/after-court-loss-paramount-agrees-to-delay-warner-bros-merger-until-trial/",
+      "summary": "“Halting this merger while our case proceeds is a critical victory,\" NY AG said.",
+      "author": "Jon Brodkin",
+      "published": "Fri, 24 Jul 2026 21:56:02 +0000",
       "tags": [
-        "Health",
-        "CDC",
-        "cyclospora",
-        "cyclosporiasis"
+        "Policy",
+        "Paramount Skydance",
+        "warner bros. discovery"
       ]
     },
     {
-      "id": "e093bf6eb02f",
+      "id": "c1670995edb3",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Forgot your Google password? Now you can log in with a selfie.",
-      "url": "https://arstechnica.com/gadgets/2026/07/google-now-lets-you-log-into-your-account-with-a-selfie/",
-      "summary": "Google's selfie videos can be used for account access, AI Avatars, and age verification.",
-      "author": "Ryan Whitwam",
-      "published": "Thu, 23 Jul 2026 19:14:25 +0000",
+      "title": "Canadian legislator reads out apparent LLM response in floor speech",
+      "url": "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech/",
+      "summary": "\"Here’s a more natural, flowing version of that section...\"",
+      "author": "Kyle Orland",
+      "published": "Fri, 24 Jul 2026 21:25:15 +0000",
       "tags": [
-        "Google",
-        "Tech",
-        "facial recognition",
-        "google"
+        "AI",
+        "Canada",
+        "embarrassing",
+        "legislator"
       ]
     },
     {
-      "id": "56c3ea5495f2",
+      "id": "73890018a9b8",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Most FDA advisers say peptides like BPC-157 and TB-500 should be made available in the U.S. Here’s what happens next.",
-      "url": "https://www.marketwatch.com/story/peptides-could-soon-become-widely-available-in-the-u-s-heres-what-happens-next-ead02287?mod=mw_rss_topstories",
-      "summary": "The FDA is deciding whether seven peptides can be legally compounded, potentially opening the door to broader use in Americans.",
-      "author": "Jaimy Lee",
-      "published": "Thu, 23 Jul 2026 23:43:00 GMT",
+      "title": "‘It’s nothing personal’: Should I tell my 96-year-old stepmother that I don’t want her inheritance?",
+      "url": "https://www.marketwatch.com/story/it-would-feel-like-a-burden-my-stepmother-96-owns-the-house-i-grew-up-in-is-it-wrong-to-tell-her-i-dont-want-to-inherit-it-9d5810c2?mod=mw_rss_topstories",
+      "summary": "“I would likely be the one responsible for dealing with the house.”",
+      "author": "Quentin Fottrell",
+      "published": "Fri, 24 Jul 2026 22:30:00 GMT",
       "tags": []
     },
     {
-      "id": "04e5abd6d4fa",
+      "id": "419ce4edbec0",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "The August stock-market slump is a myth — so why does Wall Street keep repeating it?",
-      "url": "https://www.marketwatch.com/story/the-august-stock-market-slump-is-a-myth-so-why-does-wall-street-keep-repeating-it-bc47db44?mod=mw_rss_topstories",
-      "summary": "More than 200 years of data show stocks typically gain in August, while market volatility sits well below average.",
-      "author": "Mark Hulbert",
-      "published": "Thu, 23 Jul 2026 22:12:00 GMT",
+      "title": "‘We are not romantically involved’: I’m marrying my platonic best friend of 20 years. Should I leave him my home?",
+      "url": "https://www.marketwatch.com/story/we-are-not-romantically-involved-im-marrying-my-platonic-best-friend-of-20-years-should-i-leave-him-my-home-3faa0a77?mod=mw_rss_topstories",
+      "summary": "“I own my home outright, have no children or other dependents.”",
+      "author": "Quentin Fottrell",
+      "published": "Fri, 24 Jul 2026 22:00:00 GMT",
       "tags": []
     },
     {
-      "id": "da86ce2ea3e4",
+      "id": "cd3f69ff1ff3",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "S&P 500 flashes sell signals — options traders are bracing for wild swings in Apple, Meta and Microsoft",
-      "url": "https://www.marketwatch.com/story/s-p-500-flashes-sell-signals-options-traders-are-bracing-for-wild-swings-in-apple-meta-and-microsoft-83ff7d65?mod=mw_rss_topstories",
-      "summary": "Nervous investors set the stage for massive post-earnings moves in Wall Street’s biggest stocks.",
-      "author": "Lawrence G. McMillan",
-      "published": "Thu, 23 Jul 2026 22:03:00 GMT",
+      "title": "Would you take $65,000 today, or flip a coin for a chance to win $1.3 million?",
+      "url": "https://www.marketwatch.com/story/would-you-take-65-000-today-or-flip-a-coin-for-a-chance-to-win-1-3-million-d134961a?mod=mw_rss_topstories",
+      "summary": "Your answer to this viral poll question probably says a lot about the state of your finances.",
+      "author": "Weston Blasi",
+      "published": "Fri, 24 Jul 2026 21:48:00 GMT",
       "tags": []
     }
   ],
