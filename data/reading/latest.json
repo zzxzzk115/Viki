@@ -1,302 +1,301 @@
 {
-  "date": "2026-07-25",
+  "date": "2026-07-26",
   "items": [
     {
-      "id": "99ca223d0ffd",
+      "id": "96f4de6849b7",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Reboleira (Lisbon Metro)",
-      "url": "https://simple.wikipedia.org/wiki/Reboleira_(Lisbon_Metro)",
-      "summary": "Reboleira station is the northern terminal station on the Blue Line of the Lisbon Metro.",
+      "title": "Aptos, California",
+      "url": "https://simple.wikipedia.org/wiki/Aptos%2C_California",
+      "summary": "Aptos is an unincorporated town in Santa Cruz County, California.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "dcec27924c4b",
+      "id": "5c3578055ecf",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Ron Goulart",
-      "url": "https://simple.wikipedia.org/wiki/Ron_Goulart",
-      "summary": "Ron Goulart was an American popular culture historian and science fiction author.",
+      "title": "Kenny Dope",
+      "url": "https://simple.wikipedia.org/wiki/Kenny_Dope",
+      "summary": "Kenny \"Dope\" Gonzalez, also sometimes known as K-Dope, is an American record producer and disc jockey. He is one half of the classic house music Masters at Work musical production team with Little Louie Vega; and also released the hit \"The Bomb! \" as The Bucketheads.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "e75df1016aa1",
+      "id": "8b9e40a968d5",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Claude Opus 5",
-      "url": "https://www.anthropic.com/news/claude-opus-5",
-      "summary": "https://www.anthropic.com/claude-opus-5-system-card",
-      "author": "alvis",
-      "published": "2026-07-24",
+      "title": "Show HN: I mapped every US golf course – 16k+ courses, free, no signup",
+      "url": "https://golfcoursebrowser.com/",
+      "summary": "I got tired of Googling basic course info, so I made a free directory of every US course Google filters for golf course results are terrible so I built a better way to browse courses using OSM as the backbone.... https://golfcoursebrowser.com/ It's a work in progress and mostly …",
+      "author": "rickmf",
+      "published": "2026-07-26",
       "tags": [
-        "▲ 1391"
+        "▲ 67"
       ]
     },
     {
-      "id": "70b0fd3555ed",
+      "id": "ca51381b09ad",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Postgres LISTEN/NOTIFY actually scales",
-      "url": "https://www.dbos.dev/blog/postgres-listen-notify-scalability",
+      "title": "An ESP32 based plane radar for my desk",
+      "url": "https://blog.ktz.me/esp32-plane-radar/",
       "summary": "",
-      "author": "KraftyOne",
-      "published": "2026-07-24",
+      "author": "alexktz",
+      "published": "2026-07-26",
       "tags": [
-        "▲ 241"
+        "▲ 43"
       ]
     },
     {
-      "id": "31931af2271a",
+      "id": "05af30794be9",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Taylor Farms Called White House to Try to Delay Cyclospora Recall",
-      "url": "https://www.wsj.com/health/taylor-farms-cyclospora-recall-delay-call-41fef0bc",
+      "title": "JetZero",
+      "url": "https://www.jetzero.aero",
       "summary": "",
-      "author": "JumpCrisscross",
+      "author": "lisper",
+      "published": "2026-07-26",
+      "tags": [
+        "▲ 101"
+      ]
+    },
+    {
+      "id": "1a28640050bb",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Humans Haven't Stopped Evolving",
+      "url": "https://www.harvardmagazine.com/research/harvard-human-evolution-genes-selective-pressure",
+      "summary": "",
+      "author": "ilamont",
+      "published": "2026-07-26",
+      "tags": [
+        "▲ 29"
+      ]
+    },
+    {
+      "id": "81e43f035001",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "The new rules of context engineering for Claude 5 generation models",
+      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "summary": "",
+      "author": "mellosouls",
       "published": "2026-07-25",
       "tags": [
-        "▲ 99"
+        "▲ 226"
       ]
     },
     {
-      "id": "5d991c125467",
+      "id": "9165171a9b7d",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Re: Bye Bye Gravatar",
-      "url": "https://unattributed.cc/re-bye-bye-gravatar",
+      "title": "Stolen Buttons",
+      "url": "https://anatolyzenkov.com/stolen-buttons",
       "summary": "",
-      "author": "surprisetalk",
-      "published": "2026-07-22",
+      "author": "Gecko4072",
+      "published": "2026-07-20",
       "tags": [
-        "▲ 14"
+        "▲ 644"
       ]
     },
     {
-      "id": "e616440e259b",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard",
-      "url": "https://artificialanalysis.ai/models",
-      "summary": "",
-      "author": "aarondong",
-      "published": "2026-07-24",
-      "tags": [
-        "▲ 195"
-      ]
-    },
-    {
-      "id": "02c4e818bddc",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Sperm Whales blow bubbles to achieve restful, vertical sleep",
-      "url": "https://news.st-andrews.ac.uk/archive/sperm-whales-blow-bubbles-to-achieve-restful-vertical-sleep/",
-      "summary": "",
-      "author": "hhs",
-      "published": "2026-07-24",
-      "tags": [
-        "▲ 62"
-      ]
-    },
-    {
-      "id": "e9644e530d8e",
+      "id": "b0374ed0d781",
       "category": "tech",
       "source": "DEV Community",
-      "title": "YouTube Data API alternative — no quota limits, no Google Cloud setup, from $0.01/1K",
-      "url": "https://dev.to/anupam_pathak_a2ed0924a4c/youtube-data-api-alternative-no-quota-limits-no-google-cloud-setup-from-0011k-23bj",
-      "summary": "If you've tried to build anything serious on top of YouTube's official Data API, you've probably been bitten by the quota system. Each search costs 100 units, you get 10,000 free/day, and requesting more requires Google's approval (which takes weeks and sometimes gets denied). W…",
-      "author": "Anupam Pathak",
-      "published": "Sat, 25 Jul 2026 04:28:24 +0000",
+      "title": "Win iPhone 15 Giveaway 2026 – Free Entry & Eligibility Guide",
+      "url": "https://dev.to/al_beruni_6f2dfaf29b51d96/win-iphone-15-giveaway-2026-free-entry-eligibility-guide-1j0a",
+      "summary": "Win iPhone 15 Review: My Honest Experience Entering This Premium Smartphone Giveaway – 1500-Word Detailed User Review As a freelance digital marketer and affiliate promoter based in Rajshahi, Bangladesh, I spend a lot of time testing email submit, sweepstakes, and giveaway offer…",
+      "author": "Al Beruni",
+      "published": "Sun, 26 Jul 2026 04:40:42 +0000",
       "tags": [
-        "api",
-        "youtubeapi",
+        "ai",
         "webdev",
-        "python"
+        "programming",
+        "productivity"
       ]
     },
     {
-      "id": "7c56fea6716e",
+      "id": "77481280582d",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How to Verify Telegram Without Using Your Personal Phone Number",
-      "url": "https://dev.to/flovoice53tech/how-to-verify-telegram-without-using-your-personal-phone-number-9cm",
-      "summary": "Telegram, like WhatsApp, requires a phone number to create an account, and shows that number to anyone who has it saved (unless you tighten your privacy settings after the fact). A lot of people — especially anyone managing multiple Telegram accounts for bots, communities, or te…",
-      "author": "sms-florin",
-      "published": "Sat, 25 Jul 2026 04:26:46 +0000",
+      "title": "Quick Tip: CSS Animations",
+      "url": "https://dev.to/jarynagent/quick-tip-css-animations-4j3h",
+      "summary": "Quick Tip CSS animations: /* Keyframes */ @keyframes fadeIn { from { opacity : 0 ; } to { opacity : 1 ; } } /* Animation */ .fade-in { animation : fadeIn 1s ease-in-out ; } /* Transition */ .button { background : blue ; transition : background 0.3s ease ; } .button :hover { back…",
+      "author": "niuniu",
+      "published": "Sun, 26 Jul 2026 04:37:03 +0000",
       "tags": [
+        "css",
         "webdev",
-        "api",
-        "tutorial",
-        "privacy"
+        "tips"
       ]
     },
     {
-      "id": "82e6a30a8bf4",
+      "id": "0a2404f58f9d",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Keeping Laravel Projects Findable When Local Work Starts to Sprawl",
-      "url": "https://dev.to/saqueib/keeping-laravel-projects-findable-when-local-work-starts-to-sprawl-55na",
-      "summary": "If you keep more than a handful of Laravel apps on your machine, the real problem is not php artisan serve . It is finding the right project fast enough to stay in flow . That sounds minor until you are juggling client work, experiments, internal tools, and old repos with nearly…",
-      "author": "Saqueib Ansari",
-      "published": "Sat, 25 Jul 2026 04:23:11 +0000",
+      "title": "Quick Tip: CSS Grid Layout Examples",
+      "url": "https://dev.to/jarynagent/quick-tip-css-grid-layout-examples-1k0k",
+      "summary": "Quick Tip CSS Grid layout examples: /* Basic grid */ .grid-container { display : grid ; grid-template-columns : 1 fr 1 fr 1 fr ; gap : 10px ; } /* Responsive grid */ .responsive-grid { display : grid ; grid-template-columns : repeat ( auto-fit , minmax ( 200px , 1 fr )); gap : 1…",
+      "author": "niuniu",
+      "published": "Sun, 26 Jul 2026 04:34:25 +0000",
       "tags": [
-        "laravel",
-        "php",
-        "productivity",
-        "webdev"
+        "css",
+        "webdev",
+        "tips"
       ]
     },
     {
-      "id": "997040245bbb",
+      "id": "5d8d1fadf7f2",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How to Verify WhatsApp Without Using Your Personal Phone Number",
-      "url": "https://dev.to/flovoice53tech/how-to-verify-whatsapp-without-using-your-personal-phone-number-44j7",
-      "summary": "WhatsApp requires a phone number to verify an account, but that doesn't have to be your personal number. Businesses running multiple WhatsApp Business accounts, people who want a second number for privacy, and anyone testing an app all have the same problem: WhatsApp ties every …",
-      "author": "sms-florin",
-      "published": "Sat, 25 Jul 2026 04:22:13 +0000",
+      "title": "Profile Details Batch Scraper for LinkedIn + EMAIL (No Cookies) — 11K Users Can't Be Wrong",
+      "url": "https://dev.to/nick_davies_323125afbb05c/profile-details-batch-scraper-for-linkedin-email-no-cookies-11k-users-cant-be-wrong-di7",
+      "summary": "Are you spending hours writing custom scrapers? There's probably an actor for that already. What is Profile Details Batch Scraper for LinkedIn + EMAIL (No Cookies)? (no cookies need) Extract In Bulk comprehensive LinkedIn profile data including work experience, education history…",
+      "author": "Nick Davies",
+      "published": "Sun, 26 Jul 2026 04:27:22 +0000",
       "tags": [
         "webdev",
+        "automation",
         "api",
-        "tutorial",
-        "privacy"
+        "tools"
       ]
     },
     {
-      "id": "75500a82858a",
+      "id": "554f428d9e52",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Las Meninas",
-      "url": "https://en.wikipedia.org/wiki/Las_Meninas",
-      "summary": "Las Meninas is a 1656 oil painting in the Museo del Prado in Madrid, by Diego Velázquez, the leading artist in the court of King Philip IV of Spain and Portugal, and of the Spanish Golden Age. It has become one of the most widely analyzed works in Western painting for the way it…",
+      "title": "Nile",
+      "url": "https://en.wikipedia.org/wiki/Nile",
+      "summary": "The Nile is a major north-flowing river in northeast Africa which empties into the Mediterranean Sea. At 7,088 kilometers (4,404 mi) long, it is the longest river in the world, although the volume of water it carries is much smaller than other major rivers such as the Amazon or …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "0008452186b7",
+      "id": "cb4ec34d33d3",
       "category": "news",
       "source": "BBC 世界",
-      "title": "More than 220,000 evacuated in France and Spain due to wildfires",
-      "url": "https://www.bbc.co.uk/news/articles/czjlenp0xk8o?at_medium=RSS&at_campaign=rss",
-      "summary": "French firefighters battle a blaze heading towards Bordeaux while officials in Madrid say they face the \"worst fire in the history of the region\".",
-      "published": "Sat, 25 Jul 2026 02:29:36 GMT",
+      "title": "More than 300,000 flee wildfires in France and Spain",
+      "url": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss",
+      "summary": "Spain's PM warns of \"complex hours\" ahead as authorities in France say they are far from bringing blazes burning near Bordeaux under control.",
+      "published": "Sun, 26 Jul 2026 00:54:06 GMT",
       "tags": []
     },
     {
-      "id": "8518093b4140",
+      "id": "8a47e59434cb",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Ten killed in Russian attack on drone exhibition near Kyiv",
-      "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss",
-      "summary": "The event, attended by prominent members of the Ukrainian defence industry, was hit by ballistic missiles in the middle of the day.",
-      "published": "Sat, 25 Jul 2026 00:06:53 GMT",
+      "title": "Trump takes swipes at press during White House Correspondents' Dinner",
+      "url": "https://www.bbc.co.uk/news/articles/cd7le4ylev2o?at_medium=RSS&at_campaign=rss",
+      "summary": "The event celebrated press freedom after the first dinner was cancelled by a shooting in April.",
+      "published": "Sat, 25 Jul 2026 13:51:07 GMT",
       "tags": []
     },
     {
-      "id": "24be73606fd1",
+      "id": "65ece58a00f2",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Zelensky tries to fix crisis over removal of defence minister and counts the cost",
-      "url": "https://www.bbc.co.uk/news/articles/c1d1gz3n99ro?at_medium=RSS&at_campaign=rss",
-      "summary": "Protests have continued over Zelensky's decision to dismiss Mykhailo Fedorov, and some commentators believe he has been damaged politically.",
-      "published": "Fri, 24 Jul 2026 23:01:06 GMT",
+      "title": "India's 'cockroach' protest called off after education minister quits",
+      "url": "https://www.bbc.co.uk/news/articles/cdx828gj5xko?at_medium=RSS&at_campaign=rss",
+      "summary": "The CJP protest has been the most visible expression of public anger against PM Narendra Modi's government in recent years.",
+      "published": "Sat, 25 Jul 2026 17:44:46 GMT",
       "tags": []
     },
     {
-      "id": "f76de72188e4",
+      "id": "4cd3f310472b",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Texts reveal 14-year-old allegedly murdered by singer D4vd had pregnancy and abortion",
-      "url": "https://www.bbc.co.uk/news/articles/cr592qdj1ldo?at_medium=RSS&at_campaign=rss",
-      "summary": "Prosecutors allege D4vd started abusing the girl when she was 13 and she had threatened to expose him.",
-      "published": "Sat, 25 Jul 2026 02:14:50 GMT",
+      "title": "Iran-backed Houthis claim missile attack on Saudi Arabia",
+      "url": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss",
+      "summary": "US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.",
+      "published": "Sat, 25 Jul 2026 06:34:40 GMT",
       "tags": []
     },
     {
-      "id": "f56159eaffd4",
+      "id": "cd791503bb4f",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Wildfire forces evacuation of NASA's Deep Space Network complex in Spain",
-      "url": "https://arstechnica.com/space/2026/07/wildfire-forces-evacuation-of-nasas-deep-space-network-complex-in-spain/",
-      "summary": "\"Any potential damage will be assessed when it is safe to do so.\"",
+      "title": "SDCC teaser gives us our first good look at Blade Runner 2099",
+      "url": "https://arstechnica.com/culture/2026/07/sdcc-teaser-gives-us-our-first-good-look-at-blade-runner-2099/",
+      "summary": "Also: Forging the One Ring in Rings of Power S3 teaser; new Lanterns trailer; Spaceballs: The New One panel.",
+      "author": "Jennifer Ouellette",
+      "published": "Sat, 25 Jul 2026 20:52:30 +0000",
+      "tags": [
+        "Culture",
+        "Blade Runner 2099",
+        "entertainment",
+        "prime video"
+      ]
+    },
+    {
+      "id": "188d7ad09a8a",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight",
+      "url": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/",
+      "summary": "SpaceX will likely attempt to catch Starship back at the launch pad on its next flight.",
       "author": "Stephen Clark",
-      "published": "Fri, 24 Jul 2026 22:28:20 +0000",
+      "published": "Sat, 25 Jul 2026 17:47:22 +0000",
       "tags": [
+        "Science",
         "Space",
-        "Deep Space Network",
-        "jet propulsion laboratory",
-        "Madrid"
+        "artemis",
+        "Commercial space"
       ]
     },
     {
-      "id": "3921932808f2",
+      "id": "6408b7f71711",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Paramount/WBD merger delayed for months as states' lawsuit moves toward trial",
-      "url": "https://arstechnica.com/tech-policy/2026/07/after-court-loss-paramount-agrees-to-delay-warner-bros-merger-until-trial/",
-      "summary": "“Halting this merger while our case proceeds is a critical victory,\" NY AG said.",
-      "author": "Jon Brodkin",
-      "published": "Fri, 24 Jul 2026 21:56:02 +0000",
+      "title": "With help from data, art museums are reframing the visitor experience",
+      "url": "https://arstechnica.com/culture/2026/07/with-help-from-data-art-museums-are-reframing-the-visitor-experience/",
+      "summary": "Museums are embracing data-driven curation and a shifting technology landscape.",
+      "author": "Mureji Fatunde-Iloeje",
+      "published": "Sat, 25 Jul 2026 11:00:32 +0000",
       "tags": [
-        "Policy",
-        "Paramount Skydance",
-        "warner bros. discovery"
+        "Culture",
+        "Features",
+        "Science",
+        "art"
       ]
     },
     {
-      "id": "c1670995edb3",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Canadian legislator reads out apparent LLM response in floor speech",
-      "url": "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech/",
-      "summary": "\"Here’s a more natural, flowing version of that section...\"",
-      "author": "Kyle Orland",
-      "published": "Fri, 24 Jul 2026 21:25:15 +0000",
-      "tags": [
-        "AI",
-        "Canada",
-        "embarrassing",
-        "legislator"
-      ]
-    },
-    {
-      "id": "73890018a9b8",
+      "id": "e391796fcda5",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘It’s nothing personal’: Should I tell my 96-year-old stepmother that I don’t want her inheritance?",
-      "url": "https://www.marketwatch.com/story/it-would-feel-like-a-burden-my-stepmother-96-owns-the-house-i-grew-up-in-is-it-wrong-to-tell-her-i-dont-want-to-inherit-it-9d5810c2?mod=mw_rss_topstories",
-      "summary": "“I would likely be the one responsible for dealing with the house.”",
+      "title": "‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
+      "url": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
+      "summary": "“Investors frequently receive only a small fraction of the shares they request — if they receive any at all.”",
       "author": "Quentin Fottrell",
-      "published": "Fri, 24 Jul 2026 22:30:00 GMT",
+      "published": "Sat, 25 Jul 2026 22:30:00 GMT",
       "tags": []
     },
     {
-      "id": "419ce4edbec0",
+      "id": "b9d6c7b90cdf",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘We are not romantically involved’: I’m marrying my platonic best friend of 20 years. Should I leave him my home?",
-      "url": "https://www.marketwatch.com/story/we-are-not-romantically-involved-im-marrying-my-platonic-best-friend-of-20-years-should-i-leave-him-my-home-3faa0a77?mod=mw_rss_topstories",
-      "summary": "“I own my home outright, have no children or other dependents.”",
+      "title": "I want to transfer $17,000 in credit-card debt. Why did Wells Fargo offer me only a $4,000 credit limit?",
+      "url": "https://www.marketwatch.com/story/i-wanted-to-transfer-17-000-in-credit-card-debt-why-did-wells-fargo-offer-me-only-a-4-000-credit-limit-7ad0a3f0?mod=mw_rss_topstories",
+      "summary": "“I asked why the limit was so low, but they couldn’t give me an explanation.”",
       "author": "Quentin Fottrell",
-      "published": "Fri, 24 Jul 2026 22:00:00 GMT",
+      "published": "Sat, 25 Jul 2026 21:00:00 GMT",
       "tags": []
     },
     {
-      "id": "cd3f69ff1ff3",
+      "id": "321cb5083cea",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Would you take $65,000 today, or flip a coin for a chance to win $1.3 million?",
-      "url": "https://www.marketwatch.com/story/would-you-take-65-000-today-or-flip-a-coin-for-a-chance-to-win-1-3-million-d134961a?mod=mw_rss_topstories",
-      "summary": "Your answer to this viral poll question probably says a lot about the state of your finances.",
-      "author": "Weston Blasi",
-      "published": "Fri, 24 Jul 2026 21:48:00 GMT",
+      "title": "I am a 63-year-old semiretired physician. If I saved $2 million for retirement, should my Social Security become optional?",
+      "url": "https://www.marketwatch.com/story/i-am-a-63-year-old-semiretired-physician-if-you-have-saved-2-million-for-retirement-should-social-security-be-optional-0de70d53?mod=mw_rss_topstories",
+      "summary": "“At that point, they arguably no longer need the government’s retirement safety net.”",
+      "author": "Quentin Fottrell",
+      "published": "Sat, 25 Jul 2026 20:15:00 GMT",
       "tags": []
     }
   ],
