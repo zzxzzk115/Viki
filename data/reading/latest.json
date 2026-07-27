@@ -1,221 +1,234 @@
 {
-  "date": "2026-07-26",
+  "date": "2026-07-27",
   "items": [
     {
-      "id": "96f4de6849b7",
+      "id": "198ff99b2c54",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Aptos, California",
-      "url": "https://simple.wikipedia.org/wiki/Aptos%2C_California",
-      "summary": "Aptos is an unincorporated town in Santa Cruz County, California.",
+      "title": "Setúbal District",
+      "url": "https://simple.wikipedia.org/wiki/Set%C3%BAbal_District",
+      "summary": "The District of Setúbal ) is district in south-west Portugal. The capital of the district is the city of Setúbal.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "5c3578055ecf",
+      "id": "a59363e0cc44",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Kenny Dope",
-      "url": "https://simple.wikipedia.org/wiki/Kenny_Dope",
-      "summary": "Kenny \"Dope\" Gonzalez, also sometimes known as K-Dope, is an American record producer and disc jockey. He is one half of the classic house music Masters at Work musical production team with Little Louie Vega; and also released the hit \"The Bomb! \" as The Bucketheads.",
+      "title": "Essex Junction, Vermont",
+      "url": "https://simple.wikipedia.org/wiki/Essex_Junction%2C_Vermont",
+      "summary": "Essex Junction is a city in Chittenden County, Vermont, United States. It was founded on November 15, 1892 and become a city on July 1, 2022. As of the 2020 United States census, 10,590 people lived here.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "8b9e40a968d5",
+      "id": "f3972832c2c9",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Show HN: I mapped every US golf course – 16k+ courses, free, no signup",
-      "url": "https://golfcoursebrowser.com/",
-      "summary": "I got tired of Googling basic course info, so I made a free directory of every US course Google filters for golf course results are terrible so I built a better way to browse courses using OSM as the backbone.... https://golfcoursebrowser.com/ It's a work in progress and mostly …",
-      "author": "rickmf",
-      "published": "2026-07-26",
+      "title": "PGSimCity - How PostgreSQL Works",
+      "url": "https://nikolays.github.io/PGSimCity/",
+      "summary": "",
+      "author": "jonbaer",
+      "published": "2026-07-27",
+      "tags": [
+        "▲ 286"
+      ]
+    },
+    {
+      "id": "f3388b3c1815",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Show HN: Physically accurate black hole you can put in your room",
+      "url": "https://blackhole.plav.in",
+      "summary": "We have a black hole at home — with actual relativistic physics, live in your browser. I'm Sasha (Alexander) Plavin, an astrophysicist at Harvard's Black Hole Initiative studying quasars and black hole environments. I work with raytracing/radiative transfer simulations professio…",
+      "author": "aplavin",
+      "published": "2026-07-23",
+      "tags": [
+        "▲ 147"
+      ]
+    },
+    {
+      "id": "3dfedebd7d9a",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Jacobian Conjecture for Baby",
+      "url": "https://muchmirul.github.io/jacobian-conjecture/",
+      "summary": "",
+      "author": "porphyra",
+      "published": "2026-07-22",
       "tags": [
         "▲ 67"
       ]
     },
     {
-      "id": "ca51381b09ad",
+      "id": "60f7eea84202",
       "category": "tech",
       "source": "Hacker News",
-      "title": "An ESP32 based plane radar for my desk",
-      "url": "https://blog.ktz.me/esp32-plane-radar/",
+      "title": "Decker, a platform that builds on the legacy of Hypercard and classic macOS",
+      "url": "https://beyondloom.com/decker/",
       "summary": "",
-      "author": "alexktz",
+      "author": "tosh",
       "published": "2026-07-26",
       "tags": [
-        "▲ 43"
+        "▲ 269"
       ]
     },
     {
-      "id": "05af30794be9",
+      "id": "2df68072a7c1",
       "category": "tech",
       "source": "Hacker News",
-      "title": "JetZero",
-      "url": "https://www.jetzero.aero",
+      "title": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary",
+      "url": "https://github.com/vercel-labs/scriptc",
       "summary": "",
-      "author": "lisper",
+      "author": "maxloh",
       "published": "2026-07-26",
       "tags": [
-        "▲ 101"
+        "▲ 70"
       ]
     },
     {
-      "id": "1a28640050bb",
+      "id": "41a2f99aa8b5",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Humans Haven't Stopped Evolving",
-      "url": "https://www.harvardmagazine.com/research/harvard-human-evolution-genes-selective-pressure",
+      "title": "French firefighters face 'pyrocumulonimbus' for first time",
+      "url": "https://www.france24.com/en/live-news/20260726-french-firefighters-face-pyrocumulonimbus-for-first-time",
       "summary": "",
-      "author": "ilamont",
+      "author": "saaaaaam",
       "published": "2026-07-26",
       "tags": [
-        "▲ 29"
+        "▲ 236"
       ]
     },
     {
-      "id": "81e43f035001",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "The new rules of context engineering for Claude 5 generation models",
-      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-      "summary": "",
-      "author": "mellosouls",
-      "published": "2026-07-25",
-      "tags": [
-        "▲ 226"
-      ]
-    },
-    {
-      "id": "9165171a9b7d",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Stolen Buttons",
-      "url": "https://anatolyzenkov.com/stolen-buttons",
-      "summary": "",
-      "author": "Gecko4072",
-      "published": "2026-07-20",
-      "tags": [
-        "▲ 644"
-      ]
-    },
-    {
-      "id": "b0374ed0d781",
+      "id": "bda5b60787fb",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Win iPhone 15 Giveaway 2026 – Free Entry & Eligibility Guide",
-      "url": "https://dev.to/al_beruni_6f2dfaf29b51d96/win-iphone-15-giveaway-2026-free-entry-eligibility-guide-1j0a",
-      "summary": "Win iPhone 15 Review: My Honest Experience Entering This Premium Smartphone Giveaway – 1500-Word Detailed User Review As a freelance digital marketer and affiliate promoter based in Rajshahi, Bangladesh, I spend a lot of time testing email submit, sweepstakes, and giveaway offer…",
-      "author": "Al Beruni",
-      "published": "Sun, 26 Jul 2026 04:40:42 +0000",
+      "title": "Back to School, Nine Months to the Deadline: A School Website Accessibility Checklist",
+      "url": "https://dev.to/agentkit/back-to-school-nine-months-to-the-deadline-a-school-website-accessibility-checklist-175k",
+      "summary": "If you run communications for a public school or district in the United States, the new school year that starts in a few weeks is not just the start of a school year. It is the last full academic year you have before a federal accessibility deadline lands. The Department of Just…",
+      "author": "AgentKit",
+      "published": "Mon, 27 Jul 2026 05:00:49 +0000",
+      "tags": [
+        "a11y",
+        "webdev"
+      ]
+    },
+    {
+      "id": "aa50721afb74",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "How to Check Your Website SEO Score for Free in 60 Seconds",
+      "url": "https://dev.to/shahkar/how-to-check-your-website-seo-score-for-free-in-60-seconds-2omb",
+      "summary": "What is an SEO Score? Your SEO score tells you how well-optimized your website is for Google search. A score of 80+ means Google can find and rank you easily. A score below 50 means you're likely invisible to potential customers. How to Check Your Score in 60 Seconds Go to app.s…",
+      "author": "Mohammad Shahkar",
+      "published": "Mon, 27 Jul 2026 05:00:00 +0000",
+      "tags": [
+        "seo",
+        "webdev",
+        "tutorial",
+        "marketing"
+      ]
+    },
+    {
+      "id": "44081afb3ffa",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "The hard part of building with AI isn't the code — it's catching the BS",
+      "url": "https://dev.to/geek_/the-hard-part-of-building-with-ai-isnt-the-code-its-catching-the-bs-58m6",
+      "summary": "A game called Pathogenic launched on July 16. It's a roguelike where you play as a parasite inside the human body. By launch day, I had a full wiki for it live: guides, databases, patch notes, the works. I'm not a developer. I'm a product manager. I don't write code. I used an A…",
+      "author": "GEEK",
+      "published": "Mon, 27 Jul 2026 05:00:00 +0000",
       "tags": [
         "ai",
+        "sideprojects",
         "webdev",
-        "programming",
-        "productivity"
+        "seo"
       ]
     },
     {
-      "id": "77481280582d",
+      "id": "9e79a02a5332",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Quick Tip: CSS Animations",
-      "url": "https://dev.to/jarynagent/quick-tip-css-animations-4j3h",
-      "summary": "Quick Tip CSS animations: /* Keyframes */ @keyframes fadeIn { from { opacity : 0 ; } to { opacity : 1 ; } } /* Animation */ .fade-in { animation : fadeIn 1s ease-in-out ; } /* Transition */ .button { background : blue ; transition : background 0.3s ease ; } .button :hover { back…",
-      "author": "niuniu",
-      "published": "Sun, 26 Jul 2026 04:37:03 +0000",
+      "title": "Maximize Your ROI with Google Ads PPC Services in India 2026",
+      "url": "https://dev.to/shivatechdigitalnoid/maximize-your-roi-with-google-ads-ppc-services-in-india-2026-4p0d",
+      "summary": "Originally published at shivatechdigital.com Read Full Article Click here to read the complete article About ShivaTechDigital: Leading web development and digital marketing agency in Noida, India. Visit our website | Contact Us",
+      "author": "Shivatechdigital",
+      "published": "Mon, 27 Jul 2026 04:58:28 +0000",
       "tags": [
-        "css",
         "webdev",
-        "tips"
+        "seo",
+        "marketing",
+        "tutorial"
       ]
     },
     {
-      "id": "0a2404f58f9d",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Quick Tip: CSS Grid Layout Examples",
-      "url": "https://dev.to/jarynagent/quick-tip-css-grid-layout-examples-1k0k",
-      "summary": "Quick Tip CSS Grid layout examples: /* Basic grid */ .grid-container { display : grid ; grid-template-columns : 1 fr 1 fr 1 fr ; gap : 10px ; } /* Responsive grid */ .responsive-grid { display : grid ; grid-template-columns : repeat ( auto-fit , minmax ( 200px , 1 fr )); gap : 1…",
-      "author": "niuniu",
-      "published": "Sun, 26 Jul 2026 04:34:25 +0000",
-      "tags": [
-        "css",
-        "webdev",
-        "tips"
-      ]
-    },
-    {
-      "id": "5d8d1fadf7f2",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Profile Details Batch Scraper for LinkedIn + EMAIL (No Cookies) — 11K Users Can't Be Wrong",
-      "url": "https://dev.to/nick_davies_323125afbb05c/profile-details-batch-scraper-for-linkedin-email-no-cookies-11k-users-cant-be-wrong-di7",
-      "summary": "Are you spending hours writing custom scrapers? There's probably an actor for that already. What is Profile Details Batch Scraper for LinkedIn + EMAIL (No Cookies)? (no cookies need) Extract In Bulk comprehensive LinkedIn profile data including work experience, education history…",
-      "author": "Nick Davies",
-      "published": "Sun, 26 Jul 2026 04:27:22 +0000",
-      "tags": [
-        "webdev",
-        "automation",
-        "api",
-        "tools"
-      ]
-    },
-    {
-      "id": "554f428d9e52",
+      "id": "980f8bfc5734",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Nile",
-      "url": "https://en.wikipedia.org/wiki/Nile",
-      "summary": "The Nile is a major north-flowing river in northeast Africa which empties into the Mediterranean Sea. At 7,088 kilometers (4,404 mi) long, it is the longest river in the world, although the volume of water it carries is much smaller than other major rivers such as the Amazon or …",
+      "title": "Carlisle & Finch",
+      "url": "https://en.wikipedia.org/wiki/Carlisle_%26_Finch",
+      "summary": "Carlisle & Finch is a manufacturer of nautical equipment founded in 1893 or 1894 in Cincinnati, Ohio, United States, where it still has its headquarters. For most of its history, the company has focused on searchlights, especially for marine applications. Variants of the basic s…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "cb4ec34d33d3",
+      "id": "2bec49ca650f",
       "category": "news",
       "source": "BBC 世界",
-      "title": "More than 300,000 flee wildfires in France and Spain",
-      "url": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Spain's PM warns of \"complex hours\" ahead as authorities in France say they are far from bringing blazes burning near Bordeaux under control.",
-      "published": "Sun, 26 Jul 2026 00:54:06 GMT",
+      "title": "Firefighters battle wildfire as tens of thousands evacuated near Bordeaux",
+      "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss",
+      "summary": "More than 330,000 people have now been evacuated from wildfires across France and Spain.",
+      "published": "Sun, 26 Jul 2026 18:40:08 GMT",
       "tags": []
     },
     {
-      "id": "8a47e59434cb",
+      "id": "c4e62024fac6",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump takes swipes at press during White House Correspondents' Dinner",
-      "url": "https://www.bbc.co.uk/news/articles/cd7le4ylev2o?at_medium=RSS&at_campaign=rss",
-      "summary": "The event celebrated press freedom after the first dinner was cancelled by a shooting in April.",
-      "published": "Sat, 25 Jul 2026 13:51:07 GMT",
+      "title": "Netanyahu accuses NYC Mayor Mamdani of 'fomenting hate' after arrest threat",
+      "url": "https://www.bbc.co.uk/news/articles/c5yegvd9ddeo?at_medium=RSS&at_campaign=rss",
+      "summary": "Mamdani walked back his threat last week, acknowledging he lacked the legal power to arrest Netanyahu on a warrant issued by the International Criminal Court.",
+      "published": "Mon, 27 Jul 2026 00:27:58 GMT",
       "tags": []
     },
     {
-      "id": "65ece58a00f2",
+      "id": "2098bb2dd701",
       "category": "news",
       "source": "BBC 世界",
-      "title": "India's 'cockroach' protest called off after education minister quits",
-      "url": "https://www.bbc.co.uk/news/articles/cdx828gj5xko?at_medium=RSS&at_campaign=rss",
-      "summary": "The CJP protest has been the most visible expression of public anger against PM Narendra Modi's government in recent years.",
-      "published": "Sat, 25 Jul 2026 17:44:46 GMT",
+      "title": "Berlin Pride attack suspect shot and killed during police operation",
+      "url": "https://www.bbc.co.uk/news/articles/c62eg899l99o?at_medium=RSS&at_campaign=rss",
+      "summary": "Police say Abdul Ballout was shot and killed after he rushed at officers with a knife in a western borough of Berlin.",
+      "published": "Sun, 26 Jul 2026 19:21:26 GMT",
       "tags": []
     },
     {
-      "id": "4cd3f310472b",
+      "id": "9289efc8a1b9",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Iran-backed Houthis claim missile attack on Saudi Arabia",
-      "url": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss",
-      "summary": "US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.",
-      "published": "Sat, 25 Jul 2026 06:34:40 GMT",
+      "title": "What we know so far about the Berlin Pride ramming attack",
+      "url": "https://www.bbc.co.uk/news/articles/cevmdxz4872o?at_medium=RSS&at_campaign=rss",
+      "summary": "German Chancellor Friedrich Merz condemns the attack as \"heinous\" after a suspect drove a car into a crowd near the Tiergarten park.",
+      "published": "Sun, 26 Jul 2026 20:34:23 GMT",
       "tags": []
+    },
+    {
+      "id": "4fbca79c509c",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "First teaser for Apple TV's Neuromancer debuts at SDCC",
+      "url": "https://arstechnica.com/culture/2026/07/first-teaser-for-apple-tvs-neuromancer-debuts-at-sdcc/",
+      "summary": "Plus Mike Flanagan's Carrie teaser, trailers for Dark Matter S2 and Matchbox the Movie , and Marvel news.",
+      "author": "Jennifer Ouellette",
+      "published": "Sun, 26 Jul 2026 19:48:43 +0000",
+      "tags": [
+        "Culture"
+      ]
     },
     {
       "id": "cd791503bb4f",
@@ -250,52 +263,36 @@
       ]
     },
     {
-      "id": "6408b7f71711",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "With help from data, art museums are reframing the visitor experience",
-      "url": "https://arstechnica.com/culture/2026/07/with-help-from-data-art-museums-are-reframing-the-visitor-experience/",
-      "summary": "Museums are embracing data-driven curation and a shifting technology landscape.",
-      "author": "Mureji Fatunde-Iloeje",
-      "published": "Sat, 25 Jul 2026 11:00:32 +0000",
-      "tags": [
-        "Culture",
-        "Features",
-        "Science",
-        "art"
-      ]
-    },
-    {
-      "id": "e391796fcda5",
+      "id": "fd3572fab632",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
-      "url": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
-      "summary": "“Investors frequently receive only a small fraction of the shares they request — if they receive any at all.”",
-      "author": "Quentin Fottrell",
-      "published": "Sat, 25 Jul 2026 22:30:00 GMT",
+      "title": "Oil prices sink, stock futures rally as U.S. and Iran pause attacks, Wall Street awaits busy week",
+      "url": "https://www.marketwatch.com/story/oil-prices-sink-stock-futures-rally-as-u-s-and-iran-pause-attacks-wall-street-awaits-busy-week-75030e00?mod=mw_rss_topstories",
+      "summary": "U.S. stock-index futures rallied and oil prices tumbled on Sunday as the U.S. and Iran took a pause from fighting, and as Wall Street gears up for the Fed’s meeting and key earnings reports from Big Tech companies.",
+      "author": "Mike Murphy",
+      "published": "Mon, 27 Jul 2026 03:02:00 GMT",
       "tags": []
     },
     {
-      "id": "b9d6c7b90cdf",
+      "id": "0680c656ef9b",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "I want to transfer $17,000 in credit-card debt. Why did Wells Fargo offer me only a $4,000 credit limit?",
-      "url": "https://www.marketwatch.com/story/i-wanted-to-transfer-17-000-in-credit-card-debt-why-did-wells-fargo-offer-me-only-a-4-000-credit-limit-7ad0a3f0?mod=mw_rss_topstories",
-      "summary": "“I asked why the limit was so low, but they couldn’t give me an explanation.”",
+      "title": "I will definitely claim Social Security early. Why do so few people talk about the elephant in the room?",
+      "url": "https://www.marketwatch.com/story/i-will-claim-social-security-early-why-do-so-few-people-talk-about-the-elephant-in-the-room-64820675?mod=mw_rss_topstories",
+      "summary": "“The strongest argument for claiming benefits earlier goes beyond the traditional break-even analyses.”",
       "author": "Quentin Fottrell",
-      "published": "Sat, 25 Jul 2026 21:00:00 GMT",
+      "published": "Sun, 26 Jul 2026 20:00:00 GMT",
       "tags": []
     },
     {
-      "id": "321cb5083cea",
+      "id": "73890018a9b8",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "I am a 63-year-old semiretired physician. If I saved $2 million for retirement, should my Social Security become optional?",
-      "url": "https://www.marketwatch.com/story/i-am-a-63-year-old-semiretired-physician-if-you-have-saved-2-million-for-retirement-should-social-security-be-optional-0de70d53?mod=mw_rss_topstories",
-      "summary": "“At that point, they arguably no longer need the government’s retirement safety net.”",
+      "title": "‘It’s nothing personal’: Should I tell my 96-year-old stepmother that I don’t want her inheritance?",
+      "url": "https://www.marketwatch.com/story/it-would-feel-like-a-burden-my-stepmother-96-owns-the-house-i-grew-up-in-is-it-wrong-to-tell-her-i-dont-want-to-inherit-it-9d5810c2?mod=mw_rss_topstories",
+      "summary": "“I would likely be the one responsible for dealing with the house.”",
       "author": "Quentin Fottrell",
-      "published": "Sat, 25 Jul 2026 20:15:00 GMT",
+      "published": "Sun, 26 Jul 2026 19:30:00 GMT",
       "tags": []
     }
   ],
