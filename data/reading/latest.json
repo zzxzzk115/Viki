@@ -1,298 +1,302 @@
 {
-  "date": "2026-07-27",
+  "date": "2026-07-28",
   "items": [
     {
-      "id": "198ff99b2c54",
+      "id": "07020ed456b7",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Setúbal District",
-      "url": "https://simple.wikipedia.org/wiki/Set%C3%BAbal_District",
-      "summary": "The District of Setúbal ) is district in south-west Portugal. The capital of the district is the city of Setúbal.",
+      "title": "Mayo-Kebbi Ouest Region",
+      "url": "https://simple.wikipedia.org/wiki/Mayo-Kebbi_Ouest_Region",
+      "summary": "Mayo-Kebbi Ouest is one of the 23 regions of Chad. Its capital is Pala.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "a59363e0cc44",
+      "id": "65aec8a32d15",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Essex Junction, Vermont",
-      "url": "https://simple.wikipedia.org/wiki/Essex_Junction%2C_Vermont",
-      "summary": "Essex Junction is a city in Chittenden County, Vermont, United States. It was founded on November 15, 1892 and become a city on July 1, 2022. As of the 2020 United States census, 10,590 people lived here.",
+      "title": "Numbered routes in South Africa",
+      "url": "https://simple.wikipedia.org/wiki/Numbered_routes_in_South_Africa",
+      "summary": "In South Africa some roads are designated as numbered routes to help with navigation. There is a nationwide numbering scheme consisting of national, provincial and regional routes, and within various urban areas there are schemes of metropolitan route numbering.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "f3972832c2c9",
+      "id": "80d8760fd0f4",
       "category": "tech",
       "source": "Hacker News",
-      "title": "PGSimCity - How PostgreSQL Works",
-      "url": "https://nikolays.github.io/PGSimCity/",
+      "title": "Our position on open-weights models",
+      "url": "https://www.anthropic.com/news/position-open-weights-models",
       "summary": "",
-      "author": "jonbaer",
+      "author": "surprisetalk",
       "published": "2026-07-27",
       "tags": [
-        "▲ 286"
+        "▲ 620"
       ]
     },
     {
-      "id": "f3388b3c1815",
+      "id": "447e4a25f507",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Show HN: Physically accurate black hole you can put in your room",
-      "url": "https://blackhole.plav.in",
-      "summary": "We have a black hole at home — with actual relativistic physics, live in your browser. I'm Sasha (Alexander) Plavin, an astrophysicist at Harvard's Black Hole Initiative studying quasars and black hole environments. I work with raytracing/radiative transfer simulations professio…",
-      "author": "aplavin",
-      "published": "2026-07-23",
-      "tags": [
-        "▲ 147"
-      ]
-    },
-    {
-      "id": "3dfedebd7d9a",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Jacobian Conjecture for Baby",
-      "url": "https://muchmirul.github.io/jacobian-conjecture/",
+      "title": "A $500 RL fine-tune of a 9B open model beat frontier models on catalog review",
+      "url": "https://fermisense.com/when-machines-take-the-wheel/",
       "summary": "",
-      "author": "porphyra",
-      "published": "2026-07-22",
+      "author": "ilreb",
+      "published": "2026-07-28",
       "tags": [
-        "▲ 67"
+        "▲ 62"
       ]
     },
     {
-      "id": "60f7eea84202",
+      "id": "83c7bd2e9481",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Decker, a platform that builds on the legacy of Hypercard and classic macOS",
-      "url": "https://beyondloom.com/decker/",
+      "title": "Using an open model feels surprisingly good",
+      "url": "https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/",
       "summary": "",
-      "author": "tosh",
-      "published": "2026-07-26",
+      "author": "msaltz",
+      "published": "2026-07-28",
       "tags": [
-        "▲ 269"
+        "▲ 98"
       ]
     },
     {
-      "id": "2df68072a7c1",
+      "id": "6e826bcb66ff",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary",
-      "url": "https://github.com/vercel-labs/scriptc",
+      "title": "Benchmarking Opus 5 on SlopCodeBench",
+      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md",
       "summary": "",
-      "author": "maxloh",
-      "published": "2026-07-26",
+      "author": "dhorthy",
+      "published": "2026-07-27",
       "tags": [
-        "▲ 70"
+        "▲ 187"
       ]
     },
     {
-      "id": "41a2f99aa8b5",
+      "id": "785290846d9b",
       "category": "tech",
       "source": "Hacker News",
-      "title": "French firefighters face 'pyrocumulonimbus' for first time",
-      "url": "https://www.france24.com/en/live-news/20260726-french-firefighters-face-pyrocumulonimbus-for-first-time",
+      "title": "Astronauts describe persistent 'observer' sensation after 6 month missions",
+      "url": "https://spacedaily.com/sd-v-astronauts-returning-from-six-month-missions-describe-a-persistent-observer-sensation-the-feeling-of-watching-their-own-lives-from-a-half-step-outside-the-frame-weeks-after-theyr/",
       "summary": "",
-      "author": "saaaaaam",
-      "published": "2026-07-26",
+      "author": "zdw",
+      "published": "2026-07-27",
       "tags": [
-        "▲ 236"
+        "▲ 129"
       ]
     },
     {
-      "id": "bda5b60787fb",
+      "id": "a1386da22017",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Residential Proxies Are a National Security Threat",
+      "url": "https://jacob.gold/posts/residential-proxies-are-a-national-security-threat/",
+      "summary": "",
+      "author": "joshbetz",
+      "published": "2026-07-28",
+      "tags": [
+        "▲ 31"
+      ]
+    },
+    {
+      "id": "4abd15eeb34c",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Back to School, Nine Months to the Deadline: A School Website Accessibility Checklist",
-      "url": "https://dev.to/agentkit/back-to-school-nine-months-to-the-deadline-a-school-website-accessibility-checklist-175k",
-      "summary": "If you run communications for a public school or district in the United States, the new school year that starts in a few weeks is not just the start of a school year. It is the last full academic year you have before a federal accessibility deadline lands. The Department of Just…",
-      "author": "AgentKit",
-      "published": "Mon, 27 Jul 2026 05:00:49 +0000",
-      "tags": [
-        "a11y",
-        "webdev"
-      ]
-    },
-    {
-      "id": "aa50721afb74",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "How to Check Your Website SEO Score for Free in 60 Seconds",
-      "url": "https://dev.to/shahkar/how-to-check-your-website-seo-score-for-free-in-60-seconds-2omb",
-      "summary": "What is an SEO Score? Your SEO score tells you how well-optimized your website is for Google search. A score of 80+ means Google can find and rank you easily. A score below 50 means you're likely invisible to potential customers. How to Check Your Score in 60 Seconds Go to app.s…",
-      "author": "Mohammad Shahkar",
-      "published": "Mon, 27 Jul 2026 05:00:00 +0000",
-      "tags": [
-        "seo",
-        "webdev",
-        "tutorial",
-        "marketing"
-      ]
-    },
-    {
-      "id": "44081afb3ffa",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "The hard part of building with AI isn't the code — it's catching the BS",
-      "url": "https://dev.to/geek_/the-hard-part-of-building-with-ai-isnt-the-code-its-catching-the-bs-58m6",
-      "summary": "A game called Pathogenic launched on July 16. It's a roguelike where you play as a parasite inside the human body. By launch day, I had a full wiki for it live: guides, databases, patch notes, the works. I'm not a developer. I'm a product manager. I don't write code. I used an A…",
-      "author": "GEEK",
-      "published": "Mon, 27 Jul 2026 05:00:00 +0000",
+      "title": "Is Your Organization Wasting Money Maintaining Duplicate Policies for Overlapping Regulations?",
+      "url": "https://dev.to/itechgrc_solutions/is-your-organization-wasting-money-maintaining-duplicate-policies-for-overlapping-regulations-2064",
+      "summary": "Here's a question worth asking honestly inside any compliance function: how many of your organization's policies say roughly the same thing, just written slightly differently to address different regulations? If you're like most mid-to-large enterprises, the answer is probably \"…",
+      "author": "itechgrc",
+      "published": "Tue, 28 Jul 2026 04:27:28 +0000",
       "tags": [
         "ai",
-        "sideprojects",
+        "programming",
         "webdev",
-        "seo"
+        "productivity"
       ]
     },
     {
-      "id": "9e79a02a5332",
+      "id": "81f250581819",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Maximize Your ROI with Google Ads PPC Services in India 2026",
-      "url": "https://dev.to/shivatechdigitalnoid/maximize-your-roi-with-google-ads-ppc-services-in-india-2026-4p0d",
-      "summary": "Originally published at shivatechdigital.com Read Full Article Click here to read the complete article About ShivaTechDigital: Leading web development and digital marketing agency in Noida, India. Visit our website | Contact Us",
-      "author": "Shivatechdigital",
-      "published": "Mon, 27 Jul 2026 04:58:28 +0000",
+      "title": "Free Landing Page - Landing Chatbot",
+      "url": "https://dev.to/razix_devilnemesisloki/free-landing-page-landing-chatbot-1g2n",
+      "summary": "Landing Page Enterprise AI chatbot platform. Professional, ROI-focused. Download + Deploy Save the HTML file, open in any browser, or deploy free on Netlify/Vercel. About Built by OmniIncome-v1 using AI. Support: 0x6731ee8E0Bf0ADbdC86b3a07B61ce338ECA6d55b (Base USDC) Part of Omn…",
+      "author": "RAZIX DEVIL NEMESIS (Loki)",
+      "published": "Tue, 28 Jul 2026 04:27:28 +0000",
       "tags": [
         "webdev",
-        "seo",
-        "marketing",
-        "tutorial"
+        "ai",
+        "design",
+        "claude"
       ]
     },
     {
-      "id": "980f8bfc5734",
+      "id": "c5142a69546e",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Building a Smart Inventory Management System Using Raspberry Pi and IoT",
+      "url": "https://dev.to/himanshudada123/building-a-smart-inventory-management-system-using-raspberry-pi-and-iot-4441",
+      "summary": "We’ve been building embedded systems for close to a decade now, and one of the most common requests we get is for smarter inventory tracking. Not just barcode scanners and spreadsheets — real-time, sensor-driven systems that tell you exactly what’s on the shelf, what’s moving, a…",
+      "author": "Himanshu Dada",
+      "published": "Tue, 28 Jul 2026 04:23:25 +0000",
+      "tags": [
+        "webdev",
+        "opensource",
+        "ai"
+      ]
+    },
+    {
+      "id": "cab712f8b468",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Digital Product Portfolio Management: Best Practices for Enterprise Teams",
+      "url": "https://dev.to/lara_walker_88/digital-product-portfolio-management-best-practices-for-enterprise-teams-1o3b",
+      "summary": "Digital products have transformed how businesses deliver value. Whether it's a SaaS platform, mobile application, customer portal, or enterprise software, digital products require continuous planning, development, measurement, and improvement. Unlike traditional products that fo…",
+      "author": "lara walker",
+      "published": "Tue, 28 Jul 2026 04:23:13 +0000",
+      "tags": [
+        "ai",
+        "webdev",
+        "programming",
+        "productivity"
+      ]
+    },
+    {
+      "id": "fd41afc54575",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Carlisle & Finch",
-      "url": "https://en.wikipedia.org/wiki/Carlisle_%26_Finch",
-      "summary": "Carlisle & Finch is a manufacturer of nautical equipment founded in 1893 or 1894 in Cincinnati, Ohio, United States, where it still has its headquarters. For most of its history, the company has focused on searchlights, especially for marine applications. Variants of the basic s…",
+      "title": "Silent Parade",
+      "url": "https://en.wikipedia.org/wiki/Silent_Parade",
+      "summary": "The Negro Silent Protest Parade, commonly known as the Silent Parade, was a political protest in New York City on July 28, 1917. The primary objective of the march was to draw national attention to the widespread racial violence and entrenched systemic discrimination endured by …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "2bec49ca650f",
+      "id": "6aca9a17effd",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Firefighters battle wildfire as tens of thousands evacuated near Bordeaux",
-      "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss",
-      "summary": "More than 330,000 people have now been evacuated from wildfires across France and Spain.",
-      "published": "Sun, 26 Jul 2026 18:40:08 GMT",
+      "title": "Wildfire now nine miles from French city of Bordeaux, mayor warns",
+      "url": "https://www.bbc.co.uk/news/articles/ckg34128nvpo?at_medium=RSS&at_campaign=rss",
+      "summary": "Thomas Cazenave says they are preparing if further evacuations are issued, as the mayor of a nearby town called the situation \"catastrophic\".",
+      "published": "Mon, 27 Jul 2026 20:34:55 GMT",
       "tags": []
     },
     {
-      "id": "c4e62024fac6",
+      "id": "b42e63b1aaf6",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Netanyahu accuses NYC Mayor Mamdani of 'fomenting hate' after arrest threat",
-      "url": "https://www.bbc.co.uk/news/articles/c5yegvd9ddeo?at_medium=RSS&at_campaign=rss",
-      "summary": "Mamdani walked back his threat last week, acknowledging he lacked the legal power to arrest Netanyahu on a warrant issued by the International Criminal Court.",
-      "published": "Mon, 27 Jul 2026 00:27:58 GMT",
+      "title": "Trump says Iran war talks taking place during lull in strikes",
+      "url": "https://www.bbc.co.uk/news/articles/c62xn4vzmnpo?at_medium=RSS&at_campaign=rss",
+      "summary": "The US president says \"there is a good chance that something could happen\", as Iran denies direct talks are taking place.",
+      "published": "Mon, 27 Jul 2026 21:10:56 GMT",
       "tags": []
     },
     {
-      "id": "2098bb2dd701",
+      "id": "6304d13f1fea",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Berlin Pride attack suspect shot and killed during police operation",
-      "url": "https://www.bbc.co.uk/news/articles/c62eg899l99o?at_medium=RSS&at_campaign=rss",
-      "summary": "Police say Abdul Ballout was shot and killed after he rushed at officers with a knife in a western borough of Berlin.",
-      "published": "Sun, 26 Jul 2026 19:21:26 GMT",
+      "title": "Johnson & Johnson offers up to $5.5bn to settle baby powder lawsuits",
+      "url": "https://www.bbc.co.uk/news/articles/clyqnz52rp6o?at_medium=RSS&at_campaign=rss",
+      "summary": "The proposed settlement aims to close a years-long legal battle over claims its talcs products cause cancer.",
+      "published": "Tue, 28 Jul 2026 01:53:58 GMT",
       "tags": []
     },
     {
-      "id": "9289efc8a1b9",
+      "id": "d3d25218d938",
       "category": "news",
       "source": "BBC 世界",
-      "title": "What we know so far about the Berlin Pride ramming attack",
-      "url": "https://www.bbc.co.uk/news/articles/cevmdxz4872o?at_medium=RSS&at_campaign=rss",
-      "summary": "German Chancellor Friedrich Merz condemns the attack as \"heinous\" after a suspect drove a car into a crowd near the Tiergarten park.",
-      "published": "Sun, 26 Jul 2026 20:34:23 GMT",
+      "title": "US singer D4vd to go on trial for murder in death of 14-year-old",
+      "url": "https://www.bbc.co.uk/news/articles/c70gkg62w0ro?at_medium=RSS&at_campaign=rss",
+      "summary": "The star is accused of killing Celeste Rivas Hernandez, whose remains were found in a Tesla registered to his address.",
+      "published": "Tue, 28 Jul 2026 01:39:50 GMT",
       "tags": []
     },
     {
-      "id": "4fbca79c509c",
+      "id": "7b818cd68cd5",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "First teaser for Apple TV's Neuromancer debuts at SDCC",
-      "url": "https://arstechnica.com/culture/2026/07/first-teaser-for-apple-tvs-neuromancer-debuts-at-sdcc/",
-      "summary": "Plus Mike Flanagan's Carrie teaser, trailers for Dark Matter S2 and Matchbox the Movie , and Marvel news.",
-      "author": "Jennifer Ouellette",
-      "published": "Sun, 26 Jul 2026 19:48:43 +0000",
+      "title": "Microsoft unveils AI security tools it says outperform competing platforms",
+      "url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
+      "summary": "Microsoft says tools cost less than competing ones and outperform them, too.",
+      "author": "Dan Goodin",
+      "published": "Mon, 27 Jul 2026 21:56:14 +0000",
       "tags": [
-        "Culture"
+        "AI",
+        "Biz & IT",
+        "Security",
+        "microsoft"
       ]
     },
     {
-      "id": "cd791503bb4f",
+      "id": "717a05554f06",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "SDCC teaser gives us our first good look at Blade Runner 2099",
-      "url": "https://arstechnica.com/culture/2026/07/sdcc-teaser-gives-us-our-first-good-look-at-blade-runner-2099/",
-      "summary": "Also: Forging the One Ring in Rings of Power S3 teaser; new Lanterns trailer; Spaceballs: The New One panel.",
-      "author": "Jennifer Ouellette",
-      "published": "Sat, 25 Jul 2026 20:52:30 +0000",
+      "title": "Trump admin exempts SpaceX's Starlink from FCC ban on foreign-made routers",
+      "url": "https://arstechnica.com/tech-policy/2026/07/starlink-gets-exemption-from-fcc-ban-on-routers-made-outside-the-us/",
+      "summary": "Starlink has a Texas factory but also makes routers in Vietnam.",
+      "author": "Jon Brodkin",
+      "published": "Mon, 27 Jul 2026 21:40:27 +0000",
       "tags": [
-        "Culture",
-        "Blade Runner 2099",
-        "entertainment",
-        "prime video"
+        "Policy",
+        "fcc router ban",
+        "spacex",
+        "starlink"
       ]
     },
     {
-      "id": "188d7ad09a8a",
+      "id": "ca9e55c9bd91",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight",
-      "url": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/",
-      "summary": "SpaceX will likely attempt to catch Starship back at the launch pad on its next flight.",
-      "author": "Stephen Clark",
-      "published": "Sat, 25 Jul 2026 17:47:22 +0000",
+      "title": "Epic diarrhea outbreak has 40% of Americans avoiding fruits and veggies",
+      "url": "https://arstechnica.com/health/2026/07/epic-diarrhea-outbreak-has-40-of-americans-avoiding-fruits-and-veggies/",
+      "summary": "Kennedy has focused on nutrition but has neglected food safety, critics say.",
+      "author": "Beth Mole",
+      "published": "Mon, 27 Jul 2026 20:42:13 +0000",
       "tags": [
-        "Science",
-        "Space",
-        "artemis",
-        "Commercial space"
+        "Health",
+        "CDC",
+        "cyclospora",
+        "cyclosporiasis"
       ]
     },
     {
-      "id": "fd3572fab632",
+      "id": "362bb58f899e",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Oil prices sink, stock futures rally as U.S. and Iran pause attacks, Wall Street awaits busy week",
-      "url": "https://www.marketwatch.com/story/oil-prices-sink-stock-futures-rally-as-u-s-and-iran-pause-attacks-wall-street-awaits-busy-week-75030e00?mod=mw_rss_topstories",
-      "summary": "U.S. stock-index futures rallied and oil prices tumbled on Sunday as the U.S. and Iran took a pause from fighting, and as Wall Street gears up for the Fed’s meeting and key earnings reports from Big Tech companies.",
-      "author": "Mike Murphy",
-      "published": "Mon, 27 Jul 2026 03:02:00 GMT",
+      "title": "Nvidia’s potential new deal with OpenAI would revive a spooky tech-bubble habit, analyst warns",
+      "url": "https://www.marketwatch.com/story/nvidias-potential-new-deal-with-openai-would-revive-a-spooky-tech-bubble-habit-analyst-warns-ae34ed64?mod=mw_rss_topstories",
+      "summary": "Investors are fretting over a report that Nvidia could backstop an OpenAI data-center lease, in what would be the largest such arrangement yet.",
+      "author": "Hannah Pedone",
+      "published": "Tue, 28 Jul 2026 01:19:00 GMT",
       "tags": []
     },
     {
-      "id": "0680c656ef9b",
+      "id": "e391796fcda5",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "I will definitely claim Social Security early. Why do so few people talk about the elephant in the room?",
-      "url": "https://www.marketwatch.com/story/i-will-claim-social-security-early-why-do-so-few-people-talk-about-the-elephant-in-the-room-64820675?mod=mw_rss_topstories",
-      "summary": "“The strongest argument for claiming benefits earlier goes beyond the traditional break-even analyses.”",
+      "title": "‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
+      "url": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
+      "summary": "“Investors frequently receive only a small fraction of the shares they request — if they receive any at all.”",
       "author": "Quentin Fottrell",
-      "published": "Sun, 26 Jul 2026 20:00:00 GMT",
+      "published": "Mon, 27 Jul 2026 22:30:00 GMT",
       "tags": []
     },
     {
-      "id": "73890018a9b8",
+      "id": "c3b5d0e00dc0",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘It’s nothing personal’: Should I tell my 96-year-old stepmother that I don’t want her inheritance?",
-      "url": "https://www.marketwatch.com/story/it-would-feel-like-a-burden-my-stepmother-96-owns-the-house-i-grew-up-in-is-it-wrong-to-tell-her-i-dont-want-to-inherit-it-9d5810c2?mod=mw_rss_topstories",
-      "summary": "“I would likely be the one responsible for dealing with the house.”",
+      "title": "‘It’s a high price to pay’: My adviser says I don’t need a withdrawal plan for my $2.3 million portfolio. Is he right?",
+      "url": "https://www.marketwatch.com/story/its-a-high-price-to-pay-my-adviser-says-i-dont-need-a-withdrawal-plan-for-my-2-3-million-portfolio-is-he-right-06cb1eb2?mod=mw_rss_topstories",
+      "summary": "“His proposal involves a proprietary equity hedge strategy to manage $700,000 of my assets.”",
       "author": "Quentin Fottrell",
-      "published": "Sun, 26 Jul 2026 19:30:00 GMT",
+      "published": "Mon, 27 Jul 2026 22:00:00 GMT",
       "tags": []
     }
   ],
