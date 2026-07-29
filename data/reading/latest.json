@@ -1,164 +1,149 @@
 {
-  "date": "2026-07-28",
+  "date": "2026-07-29",
   "items": [
     {
-      "id": "07020ed456b7",
+      "id": "c066b8b172c1",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Mayo-Kebbi Ouest Region",
-      "url": "https://simple.wikipedia.org/wiki/Mayo-Kebbi_Ouest_Region",
-      "summary": "Mayo-Kebbi Ouest is one of the 23 regions of Chad. Its capital is Pala.",
+      "title": "Museo de Arte Moderno y Contemporáneo de Santander y Cantabria",
+      "url": "https://simple.wikipedia.org/wiki/Museo_de_Arte_Moderno_y_Contempor%C3%A1neo_de_Santander_y_Cantabria",
+      "summary": "The Museo de Arte Moderno y Contemporáneo de Santander y Cantabria is an art museum in Santander, Spain.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "65aec8a32d15",
+      "id": "237cb42ec1a7",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Numbered routes in South Africa",
-      "url": "https://simple.wikipedia.org/wiki/Numbered_routes_in_South_Africa",
-      "summary": "In South Africa some roads are designated as numbered routes to help with navigation. There is a nationwide numbering scheme consisting of national, provincial and regional routes, and within various urban areas there are schemes of metropolitan route numbering.",
+      "title": "Daniel Clarence Quinn",
+      "url": "https://simple.wikipedia.org/wiki/Daniel_Clarence_Quinn",
+      "summary": "Daniel Clarence Quinn was an American writer of novels and sociology-political commentary. He was born in 1935 during the Great Depression.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "80d8760fd0f4",
+      "id": "65f8a2e3eddb",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Our position on open-weights models",
-      "url": "https://www.anthropic.com/news/position-open-weights-models",
+      "title": "Codex Security",
+      "url": "https://github.com/openai/codex-security",
       "summary": "",
-      "author": "surprisetalk",
-      "published": "2026-07-27",
+      "author": "bakigul",
+      "published": "2026-07-28",
       "tags": [
-        "▲ 620"
+        "▲ 416"
       ]
     },
     {
-      "id": "447e4a25f507",
+      "id": "7f7b3e74b8af",
       "category": "tech",
       "source": "Hacker News",
-      "title": "A $500 RL fine-tune of a 9B open model beat frontier models on catalog review",
-      "url": "https://fermisense.com/when-machines-take-the-wheel/",
+      "title": "LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences",
+      "url": "https://learnvector.ai/",
+      "summary": "",
+      "author": "ajhai",
+      "published": "2026-07-29",
+      "tags": [
+        "▲ 94"
+      ]
+    },
+    {
+      "id": "cae4c40a9d80",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-Design",
+      "url": "https://transformer-transformer.github.io/",
       "summary": "",
       "author": "ilreb",
+      "published": "2026-07-29",
+      "tags": [
+        "▲ 8"
+      ]
+    },
+    {
+      "id": "87177a57b968",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript",
+      "url": "https://github.com/twalichiewicz/HNewhere",
+      "summary": "HN is great for the links people share, but a big part of the value I get comes from reading the discussion around them. I realized I was always opening the article in one tab and the comments in another, constantly switching back and forth. I figured there was probably a simple…",
+      "author": "twalichiewicz",
       "published": "2026-07-28",
       "tags": [
-        "▲ 62"
+        "▲ 192"
       ]
     },
     {
-      "id": "83c7bd2e9481",
+      "id": "44953bc4f718",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Using an open model feels surprisingly good",
-      "url": "https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/",
+      "title": "Multiple Mouse Cursors in Wayland",
+      "url": "https://blinry.org/multi-seat-wayland/",
       "summary": "",
-      "author": "msaltz",
+      "author": "marvinborner",
+      "published": "2026-07-29",
+      "tags": [
+        "▲ 56"
+      ]
+    },
+    {
+      "id": "f37b7a52791a",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Half-Life ported to Mac OS 9",
+      "url": "https://mac-classic.com/news/half-life-ported-to-mac-os-9/",
+      "summary": "",
+      "author": "freediver",
       "published": "2026-07-28",
       "tags": [
-        "▲ 98"
+        "▲ 190"
       ]
     },
     {
-      "id": "6e826bcb66ff",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Benchmarking Opus 5 on SlopCodeBench",
-      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md",
-      "summary": "",
-      "author": "dhorthy",
-      "published": "2026-07-27",
-      "tags": [
-        "▲ 187"
-      ]
-    },
-    {
-      "id": "785290846d9b",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Astronauts describe persistent 'observer' sensation after 6 month missions",
-      "url": "https://spacedaily.com/sd-v-astronauts-returning-from-six-month-missions-describe-a-persistent-observer-sensation-the-feeling-of-watching-their-own-lives-from-a-half-step-outside-the-frame-weeks-after-theyr/",
-      "summary": "",
-      "author": "zdw",
-      "published": "2026-07-27",
-      "tags": [
-        "▲ 129"
-      ]
-    },
-    {
-      "id": "a1386da22017",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Residential Proxies Are a National Security Threat",
-      "url": "https://jacob.gold/posts/residential-proxies-are-a-national-security-threat/",
-      "summary": "",
-      "author": "joshbetz",
-      "published": "2026-07-28",
-      "tags": [
-        "▲ 31"
-      ]
-    },
-    {
-      "id": "4abd15eeb34c",
+      "id": "a08cbfee4a12",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Is Your Organization Wasting Money Maintaining Duplicate Policies for Overlapping Regulations?",
-      "url": "https://dev.to/itechgrc_solutions/is-your-organization-wasting-money-maintaining-duplicate-policies-for-overlapping-regulations-2064",
-      "summary": "Here's a question worth asking honestly inside any compliance function: how many of your organization's policies say roughly the same thing, just written slightly differently to address different regulations? If you're like most mid-to-large enterprises, the answer is probably \"…",
-      "author": "itechgrc",
-      "published": "Tue, 28 Jul 2026 04:27:28 +0000",
+      "title": "How New York FinTech Companies Build Better Sales Pipelines",
+      "url": "https://dev.to/konsyg_6e0b6ddb36b4585/how-new-york-fintech-companies-build-better-sales-pipelines-51fe",
+      "summary": "New York is one of the world's most competitive financial markets. Every day, FinTech companies compete for the attention of banks, payment providers, investment firms and insurance businesses. The opportunity is enormous, but so is the competition. That is why B2B lead generati…",
+      "author": "Konsyg",
+      "published": "Wed, 29 Jul 2026 04:28:07 +0000",
       "tags": [
         "ai",
         "programming",
         "webdev",
-        "productivity"
+        "javascript"
       ]
     },
     {
-      "id": "81f250581819",
+      "id": "d8d1d06ecb53",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Free Landing Page - Landing Chatbot",
-      "url": "https://dev.to/razix_devilnemesisloki/free-landing-page-landing-chatbot-1g2n",
-      "summary": "Landing Page Enterprise AI chatbot platform. Professional, ROI-focused. Download + Deploy Save the HTML file, open in any browser, or deploy free on Netlify/Vercel. About Built by OmniIncome-v1 using AI. Support: 0x6731ee8E0Bf0ADbdC86b3a07B61ce338ECA6d55b (Base USDC) Part of Omn…",
-      "author": "RAZIX DEVIL NEMESIS (Loki)",
-      "published": "Tue, 28 Jul 2026 04:27:28 +0000",
+      "title": "What Users Actually Feel When Your AI-Generated Code Is 'Fine': A UX Autopsy of 3 Shipped Features",
+      "url": "https://dev.to/lucas_martin_8cb158b9a81b/what-users-actually-feel-when-your-ai-generated-code-is-fine-a-ux-autopsy-of-3-shipped-features-2emc",
+      "summary": "AI-generated code is often technically correct and experientially broken — it solves the ticket, and the ticket rarely describes the feeling. Three real examples: a confirmation modal with no friction (14 accidental account deletions), a naked payment spinner (−4.1% completion),…",
+      "author": "Lucas Martin",
+      "published": "Wed, 29 Jul 2026 04:26:33 +0000",
       "tags": [
-        "webdev",
         "ai",
-        "design",
-        "claude"
-      ]
-    },
-    {
-      "id": "c5142a69546e",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Building a Smart Inventory Management System Using Raspberry Pi and IoT",
-      "url": "https://dev.to/himanshudada123/building-a-smart-inventory-management-system-using-raspberry-pi-and-iot-4441",
-      "summary": "We’ve been building embedded systems for close to a decade now, and one of the most common requests we get is for smarter inventory tracking. Not just barcode scanners and spreadsheets — real-time, sensor-driven systems that tell you exactly what’s on the shelf, what’s moving, a…",
-      "author": "Himanshu Dada",
-      "published": "Tue, 28 Jul 2026 04:23:25 +0000",
-      "tags": [
+        "ux",
         "webdev",
-        "opensource",
-        "ai"
+        "react"
       ]
     },
     {
-      "id": "cab712f8b468",
+      "id": "b2f234bdc8d0",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Digital Product Portfolio Management: Best Practices for Enterprise Teams",
-      "url": "https://dev.to/lara_walker_88/digital-product-portfolio-management-best-practices-for-enterprise-teams-1o3b",
-      "summary": "Digital products have transformed how businesses deliver value. Whether it's a SaaS platform, mobile application, customer portal, or enterprise software, digital products require continuous planning, development, measurement, and improvement. Unlike traditional products that fo…",
-      "author": "lara walker",
-      "published": "Tue, 28 Jul 2026 04:23:13 +0000",
+      "title": "Loop Graph Engineering with the Hermes Agent",
+      "url": "https://dev.to/dankrieger/loop-graph-engineering-with-the-hermes-agent-3laj",
+      "summary": "Demo: https://loopgraph.vercel.app/brain A campaign starts wasting money. A customer stops using the product. A deal slips backward. A contract approaches renewal. An invoice falls outside tolerance. A production incident opens. Most companies experience these moments as notific…",
+      "author": "Dan Krieger",
+      "published": "Wed, 29 Jul 2026 04:25:42 +0000",
       "tags": [
         "ai",
         "webdev",
@@ -167,136 +152,151 @@
       ]
     },
     {
-      "id": "fd41afc54575",
+      "id": "4bd93e9fcf0f",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Building the Digital Foundation of Arush Labs: Why Every Startup Needs More Than Just a Website",
+      "url": "https://dev.to/arushlabs/building-the-digital-foundation-of-arush-labs-why-every-startup-needs-more-than-just-a-website-7b",
+      "summary": "When people think about startups, they usually imagine writing code, launching products, or raising funds. But before any of that, a startup needs something equally important—a digital identity. Today at Arush Labs, we focused on building that foundation. We expanded our presenc…",
+      "author": "ArushLabs",
+      "published": "Wed, 29 Jul 2026 04:22:13 +0000",
+      "tags": [
+        "ai",
+        "webdev",
+        "programming",
+        "javascript"
+      ]
+    },
+    {
+      "id": "508351732e52",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Silent Parade",
-      "url": "https://en.wikipedia.org/wiki/Silent_Parade",
-      "summary": "The Negro Silent Protest Parade, commonly known as the Silent Parade, was a political protest in New York City on July 28, 1917. The primary objective of the march was to draw national attention to the widespread racial violence and entrenched systemic discrimination endured by …",
+      "title": "Tiger",
+      "url": "https://en.wikipedia.org/wiki/Tiger",
+      "summary": "The tiger is a large cat and a member of the genus Panthera native to Asia. It has a powerful, muscular body with a large head and paws, a long tail and orange fur with black, mostly vertical stripes. It is traditionally classified into nine recent subspecies, though some recogn…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "6aca9a17effd",
+      "id": "25fbf13af59b",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Wildfire now nine miles from French city of Bordeaux, mayor warns",
-      "url": "https://www.bbc.co.uk/news/articles/ckg34128nvpo?at_medium=RSS&at_campaign=rss",
-      "summary": "Thomas Cazenave says they are preparing if further evacuations are issued, as the mayor of a nearby town called the situation \"catastrophic\".",
-      "published": "Mon, 27 Jul 2026 20:34:55 GMT",
+      "title": "Watch: The moment quake hit Japan",
+      "url": "https://www.bbc.co.uk/news/videos/cvg7v55gxnqo?at_medium=RSS&at_campaign=rss",
+      "summary": "Video shows locations across the region where a strong earthquake struck Japan's Kyushu island on 28 July.",
+      "published": "Tue, 28 Jul 2026 15:32:37 GMT",
       "tags": []
     },
     {
-      "id": "b42e63b1aaf6",
+      "id": "61f1ebc9a8dd",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump says Iran war talks taking place during lull in strikes",
-      "url": "https://www.bbc.co.uk/news/articles/c62xn4vzmnpo?at_medium=RSS&at_campaign=rss",
-      "summary": "The US president says \"there is a good chance that something could happen\", as Iran denies direct talks are taking place.",
-      "published": "Mon, 27 Jul 2026 21:10:56 GMT",
+      "title": "Iran and US trade strikes, shattering brief lull in fighting",
+      "url": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
+      "summary": "US Central Command says it intercepted \"multiple\" ballistic missiles fired by Iran.",
+      "published": "Wed, 29 Jul 2026 04:30:08 GMT",
       "tags": []
     },
     {
-      "id": "6304d13f1fea",
+      "id": "768d9933a9d3",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Johnson & Johnson offers up to $5.5bn to settle baby powder lawsuits",
-      "url": "https://www.bbc.co.uk/news/articles/clyqnz52rp6o?at_medium=RSS&at_campaign=rss",
-      "summary": "The proposed settlement aims to close a years-long legal battle over claims its talcs products cause cancer.",
-      "published": "Tue, 28 Jul 2026 01:53:58 GMT",
+      "title": "How Mexican drug cartels have outsourced meth labs to Nigeria",
+      "url": "https://www.bbc.co.uk/news/articles/crmrnxp4nllo?at_medium=RSS&at_campaign=rss",
+      "summary": "West Africa is becoming increasingly attractive to those who want to make and export illicit drugs.",
+      "published": "Tue, 28 Jul 2026 23:25:53 GMT",
       "tags": []
     },
     {
-      "id": "d3d25218d938",
+      "id": "007288e020d6",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US singer D4vd to go on trial for murder in death of 14-year-old",
-      "url": "https://www.bbc.co.uk/news/articles/c70gkg62w0ro?at_medium=RSS&at_campaign=rss",
-      "summary": "The star is accused of killing Celeste Rivas Hernandez, whose remains were found in a Tesla registered to his address.",
-      "published": "Tue, 28 Jul 2026 01:39:50 GMT",
+      "title": "Trump administration bans new Chinese humanoid robots",
+      "url": "https://www.bbc.co.uk/news/articles/cp9e2ex3ekyo?at_medium=RSS&at_campaign=rss",
+      "summary": "The US and China are locked in a race to the lead the world in robotics and artificial intelligence.",
+      "published": "Wed, 29 Jul 2026 02:30:50 GMT",
       "tags": []
     },
     {
-      "id": "7b818cd68cd5",
+      "id": "f245bbe7855c",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Microsoft unveils AI security tools it says outperform competing platforms",
-      "url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
-      "summary": "Microsoft says tools cost less than competing ones and outperform them, too.",
-      "author": "Dan Goodin",
-      "published": "Mon, 27 Jul 2026 21:56:14 +0000",
+      "title": "Audi has a new flagship designed with the US in mind: The 2027 Q9",
+      "url": "https://arstechnica.com/cars/2026/07/audi-has-a-new-flagship-designed-with-the-us-in-mind-the-2027-q9/",
+      "summary": "The new full-size flagship SUV starts at $87,700 when it goes on sale in Q4.",
+      "author": "Jonathan M. Gitlin",
+      "published": "Wed, 29 Jul 2026 01:00:36 +0000",
       "tags": [
-        "AI",
-        "Biz & IT",
-        "Security",
-        "microsoft"
+        "Cars",
+        "Audi Q9",
+        "Audi SQ9"
       ]
     },
     {
-      "id": "717a05554f06",
+      "id": "e312eac4f1c1",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Trump admin exempts SpaceX's Starlink from FCC ban on foreign-made routers",
-      "url": "https://arstechnica.com/tech-policy/2026/07/starlink-gets-exemption-from-fcc-ban-on-routers-made-outside-the-us/",
-      "summary": "Starlink has a Texas factory but also makes routers in Vietnam.",
-      "author": "Jon Brodkin",
-      "published": "Mon, 27 Jul 2026 21:40:27 +0000",
+      "title": "Reaction wheel failures leave Swift rescue mission spinning in orbit",
+      "url": "https://arstechnica.com/space/2026/07/reaction-wheel-failures-leave-swift-rescue-mission-spinning-in-orbit/",
+      "summary": "\"Preliminary investigation shows that two of Link's three reaction wheels currently are not operable.\"",
+      "author": "Stephen Clark",
+      "published": "Tue, 28 Jul 2026 22:09:00 +0000",
       "tags": [
-        "Policy",
-        "fcc router ban",
-        "spacex",
-        "starlink"
+        "Science",
+        "Space",
+        "katalyst space",
+        "NASA"
       ]
     },
     {
-      "id": "ca9e55c9bd91",
+      "id": "eaac21007520",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Epic diarrhea outbreak has 40% of Americans avoiding fruits and veggies",
-      "url": "https://arstechnica.com/health/2026/07/epic-diarrhea-outbreak-has-40-of-americans-avoiding-fruits-and-veggies/",
-      "summary": "Kennedy has focused on nutrition but has neglected food safety, critics say.",
+      "title": "College lab class ends with 32 people on antibiotics for deadly germ exposure",
+      "url": "https://arstechnica.com/health/2026/07/college-lab-class-ends-with-32-people-on-antibiotics-for-deadly-germ-exposure/",
+      "summary": "Lab students were supposed to ID a mild germ. They all identified a deadly pathogen.",
       "author": "Beth Mole",
-      "published": "Mon, 27 Jul 2026 20:42:13 +0000",
+      "published": "Tue, 28 Jul 2026 21:49:52 +0000",
       "tags": [
         "Health",
-        "CDC",
-        "cyclospora",
-        "cyclosporiasis"
+        "lab",
+        "meningitis",
+        "microbiology"
       ]
     },
     {
-      "id": "362bb58f899e",
+      "id": "6edb444d823c",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Nvidia’s potential new deal with OpenAI would revive a spooky tech-bubble habit, analyst warns",
-      "url": "https://www.marketwatch.com/story/nvidias-potential-new-deal-with-openai-would-revive-a-spooky-tech-bubble-habit-analyst-warns-ae34ed64?mod=mw_rss_topstories",
-      "summary": "Investors are fretting over a report that Nvidia could backstop an OpenAI data-center lease, in what would be the largest such arrangement yet.",
-      "author": "Hannah Pedone",
-      "published": "Tue, 28 Jul 2026 01:19:00 GMT",
+      "title": "Saudi Arabia has a new, and pricier, workaround to export its oil",
+      "url": "https://www.marketwatch.com/story/saudi-arabia-has-a-new-and-pricier-workaround-to-export-its-oil-fb5085a5?mod=mw_rss_topstories",
+      "summary": "Loadings at a Mediterranean port have picked up as Saudi Arabia races to offer its oil to buyers through a lengthier — and more expensive — backdoor.",
+      "author": "Claudia Assis",
+      "published": "Wed, 29 Jul 2026 01:28:00 GMT",
       "tags": []
     },
     {
-      "id": "e391796fcda5",
+      "id": "a12fc9ac8075",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
-      "url": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
-      "summary": "“Investors frequently receive only a small fraction of the shares they request — if they receive any at all.”",
-      "author": "Quentin Fottrell",
-      "published": "Mon, 27 Jul 2026 22:30:00 GMT",
+      "title": "Seagate’s earnings are welcome news for the battered AI trade",
+      "url": "https://www.marketwatch.com/story/seagates-earnings-are-welcome-news-for-the-battered-ai-trade-92dfc30f?mod=mw_rss_topstories",
+      "summary": "The storage maker’s June-quarter results come in ahead of Wall Street’s expectations, and the stock rallies after hours",
+      "author": "Britney Nguyen",
+      "published": "Wed, 29 Jul 2026 00:21:00 GMT",
       "tags": []
     },
     {
-      "id": "c3b5d0e00dc0",
+      "id": "737b1d43b102",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘It’s a high price to pay’: My adviser says I don’t need a withdrawal plan for my $2.3 million portfolio. Is he right?",
-      "url": "https://www.marketwatch.com/story/its-a-high-price-to-pay-my-adviser-says-i-dont-need-a-withdrawal-plan-for-my-2-3-million-portfolio-is-he-right-06cb1eb2?mod=mw_rss_topstories",
-      "summary": "“His proposal involves a proprietary equity hedge strategy to manage $700,000 of my assets.”",
-      "author": "Quentin Fottrell",
-      "published": "Mon, 27 Jul 2026 22:00:00 GMT",
+      "title": "Ford matches GM in one crucial way, and the stock jumps",
+      "url": "https://www.marketwatch.com/story/ford-matches-gm-in-one-crucial-way-and-the-stock-jumps-bf2f708c?mod=mw_rss_topstories",
+      "summary": "Ford leans on pickup trucks and other traditionally powered vehicles to limit sales decline.",
+      "author": "Claudia Assis",
+      "published": "Wed, 29 Jul 2026 00:18:00 GMT",
       "tags": []
     }
   ],
