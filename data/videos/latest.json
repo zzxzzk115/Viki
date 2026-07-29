@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-28",
+  "date": "2026-07-29",
   "items": [
     {
       "id": "e642a8e7b588",
@@ -46,25 +46,25 @@
       "category": "引擎"
     },
     {
-      "id": "9018e970ca98",
+      "id": "0b91f31069ca",
       "platform": "bilibili",
-      "videoId": "BV1ScKR6QEQF",
-      "title": "古法做视频里加一点点科技",
-      "channel": "跟李沐学AI",
-      "url": "https://www.bilibili.com/video/BV1ScKR6QEQF",
-      "thumb": "https://i0.hdslb.com/bfs/archive/b9d2e88f8d41fe24cecddcf715756265ff68b9d2.jpg",
-      "published": "2026-06-29",
+      "videoId": "BV1q2jh6FEhX",
+      "title": "30 - Agentic AI 和我们的未来；课程总结 [2026 南京大学操作系统原理]",
+      "channel": "绿导师原谅你了",
+      "url": "https://www.bilibili.com/video/BV1q2jh6FEhX",
+      "thumb": "https://i1.hdslb.com/bfs/archive/b7e8dace001aa6b23bc6117e75ba72fc9b3b2e21.jpg",
+      "published": "2026-06-18",
       "category": "CS"
     },
     {
-      "id": "4001551d4ad2",
+      "id": "7ab9db96faa7",
       "platform": "bilibili",
-      "videoId": "BV1RfEw6LEfF",
-      "title": "能跟你对话的TTS【开源】",
-      "channel": "跟李沐学AI",
-      "url": "https://www.bilibili.com/video/BV1RfEw6LEfF",
-      "thumb": "https://i0.hdslb.com/bfs/archive/414b79823c78f30b3e60d27f14c0f44111f0234f.jpg",
-      "published": "2026-06-04",
+      "videoId": "BV1uaEB66EAH",
+      "title": "29 - 虚拟机和容器 [2026 南京大学操作系统原理]",
+      "channel": "绿导师原谅你了",
+      "url": "https://www.bilibili.com/video/BV1uaEB66EAH",
+      "thumb": "https://i2.hdslb.com/bfs/archive/ac577490a4b6c1a5371f75e9aaab9f3601aba2b4.jpg",
+      "published": "2026-06-11",
       "category": "CS"
     },
     {
@@ -88,6 +88,50 @@
       "thumb": "https://i2.hdslb.com/bfs/archive/c334eb2f4c799f7829362c33bbfdb50eebd68419.jpg",
       "published": "2026-07-03",
       "category": "金融"
+    },
+    {
+      "id": "4bf7cec58b49",
+      "platform": "youtube",
+      "videoId": "872JcpP3FEM",
+      "title": "The City.",
+      "channel": "Historia Civilis",
+      "url": "https://www.youtube.com/watch?v=872JcpP3FEM",
+      "thumb": "https://i1.ytimg.com/vi/872JcpP3FEM/hqdefault.jpg",
+      "published": "2026-04-18",
+      "category": "历史"
+    },
+    {
+      "id": "ad015d1c117d",
+      "platform": "youtube",
+      "videoId": "h6E4_Bcmscg",
+      "title": "Reform or Revolution? (1830 to 1832)",
+      "channel": "Historia Civilis",
+      "url": "https://www.youtube.com/watch?v=h6E4_Bcmscg",
+      "thumb": "https://i1.ytimg.com/vi/h6E4_Bcmscg/hqdefault.jpg",
+      "published": "2025-08-30",
+      "category": "历史"
+    },
+    {
+      "id": "7800bbd06e68",
+      "platform": "bilibili",
+      "videoId": "BV1w2N96uE1U",
+      "title": "毛泽东·四渡赤水：红军不怕远征难。",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1w2N96uE1U",
+      "thumb": "https://i1.hdslb.com/bfs/archive/f9c709d21a277bbd7358004f032633bb129cd727.jpg",
+      "published": "2026-07-14",
+      "category": "历史"
+    },
+    {
+      "id": "6b798817737b",
+      "platform": "bilibili",
+      "videoId": "BV1djNM6wE8h",
+      "title": "南宋·虞允文：一介文臣，如何救下南宋半壁江山？【两宋风骨】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1djNM6wE8h",
+      "thumb": "https://i2.hdslb.com/bfs/archive/bcf1854b8b927f4ce6561550c29cf29ef7608314.jpg",
+      "published": "2026-07-12",
+      "category": "历史"
     }
   ],
   "notes": [
@@ -98,14 +142,13 @@
     "引擎 · 437860379: 2 条",
     "CS · @Computerphile: 0 条",
     "CS · @javidx9: 0 条",
-    "CS · 1567748478: 2 条",
-    "Bilibili 202224425: code=-352 风控校验失败",
-    "CS · 202224425: 0 条",
+    "CS · 1567748478: 0 条",
+    "CS · 202224425: 2 条",
     "金融 · @ThePlainBagel: 0 条",
     "金融 · 520819684: 2 条",
     "历史 · @CrashCourse: 0 条",
-    "历史 · @HistoriaCivilis: 0 条",
-    "历史 · 11646119: 0 条",
+    "历史 · @HistoriaCivilis: 2 条",
+    "历史 · 11646119: 2 条",
     "历史 · 23947287: 0 条",
     "英语 · @bbclearningenglish: 0 条",
     "英语 · @EnglishwithLucy: 0 条"
