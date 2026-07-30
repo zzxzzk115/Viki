@@ -1,28 +1,6 @@
 {
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "items": [
-    {
-      "id": "e642a8e7b588",
-      "platform": "bilibili",
-      "videoId": "BV1Z7Ng6uEox",
-      "title": "GAMES  Webinar 408-模拟动画专题-母宇轩-如何定义与评估运动自然性？从分数匹配先验构建可复用奖励模型",
-      "channel": "GAMES-Webinar",
-      "url": "https://www.bilibili.com/video/BV1Z7Ng6uEox",
-      "thumb": "https://i1.hdslb.com/bfs/archive/1e7627317f7384ebe1561383473298c42211d750.jpg",
-      "published": "2026-07-12",
-      "category": "图形学"
-    },
-    {
-      "id": "390a745dca14",
-      "platform": "bilibili",
-      "videoId": "BV1z5Ng63E16",
-      "title": "GAMES  Webinar 408-模拟动画专题-罗正宜-从PHC到SONIC，从动画到人形机器人",
-      "channel": "GAMES-Webinar",
-      "url": "https://www.bilibili.com/video/BV1z5Ng63E16",
-      "thumb": "https://i1.hdslb.com/bfs/archive/8bb08f7b47e300024c76175af345c8649c44c447.jpg",
-      "published": "2026-07-12",
-      "category": "图形学"
-    },
     {
       "id": "74d5969623e3",
       "platform": "bilibili",
@@ -46,6 +24,28 @@
       "category": "引擎"
     },
     {
+      "id": "9018e970ca98",
+      "platform": "bilibili",
+      "videoId": "BV1ScKR6QEQF",
+      "title": "古法做视频里加一点点科技",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1ScKR6QEQF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/b9d2e88f8d41fe24cecddcf715756265ff68b9d2.jpg",
+      "published": "2026-06-29",
+      "category": "CS"
+    },
+    {
+      "id": "4001551d4ad2",
+      "platform": "bilibili",
+      "videoId": "BV1RfEw6LEfF",
+      "title": "能跟你对话的TTS【开源】",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1RfEw6LEfF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/414b79823c78f30b3e60d27f14c0f44111f0234f.jpg",
+      "published": "2026-06-04",
+      "category": "CS"
+    },
+    {
       "id": "0b91f31069ca",
       "platform": "bilibili",
       "videoId": "BV1q2jh6FEhX",
@@ -66,50 +66,6 @@
       "thumb": "https://i2.hdslb.com/bfs/archive/ac577490a4b6c1a5371f75e9aaab9f3601aba2b4.jpg",
       "published": "2026-06-11",
       "category": "CS"
-    },
-    {
-      "id": "c7557b135e3c",
-      "platform": "bilibili",
-      "videoId": "BV1N6gD65EMz",
-      "title": "特朗普收入曝光，一年狂揽$22亿，竟然是靠…",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV1N6gD65EMz",
-      "thumb": "https://i0.hdslb.com/bfs/archive/8c053190123553ebac7dbb36c1eb040983c3b369.jpg",
-      "published": "2026-07-23",
-      "category": "金融"
-    },
-    {
-      "id": "02f6f5e9c728",
-      "platform": "bilibili",
-      "videoId": "BV12kTp6tENs",
-      "title": "Anthropic估值暴涨背后，普通人有什么AI时代的红利？",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV12kTp6tENs",
-      "thumb": "https://i2.hdslb.com/bfs/archive/c334eb2f4c799f7829362c33bbfdb50eebd68419.jpg",
-      "published": "2026-07-03",
-      "category": "金融"
-    },
-    {
-      "id": "4bf7cec58b49",
-      "platform": "youtube",
-      "videoId": "872JcpP3FEM",
-      "title": "The City.",
-      "channel": "Historia Civilis",
-      "url": "https://www.youtube.com/watch?v=872JcpP3FEM",
-      "thumb": "https://i1.ytimg.com/vi/872JcpP3FEM/hqdefault.jpg",
-      "published": "2026-04-18",
-      "category": "历史"
-    },
-    {
-      "id": "ad015d1c117d",
-      "platform": "youtube",
-      "videoId": "h6E4_Bcmscg",
-      "title": "Reform or Revolution? (1830 to 1832)",
-      "channel": "Historia Civilis",
-      "url": "https://www.youtube.com/watch?v=h6E4_Bcmscg",
-      "thumb": "https://i1.ytimg.com/vi/h6E4_Bcmscg/hqdefault.jpg",
-      "published": "2025-08-30",
-      "category": "历史"
     },
     {
       "id": "7800bbd06e68",
@@ -137,17 +93,18 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 0 条",
     "图形学 · @Acerola_t: 0 条",
-    "图形学 · 512313464: 2 条",
+    "图形学 · 512313464: 0 条",
     "引擎 · @TheCherno: 0 条",
     "引擎 · 437860379: 2 条",
     "CS · @Computerphile: 0 条",
     "CS · @javidx9: 0 条",
-    "CS · 1567748478: 0 条",
+    "CS · 1567748478: 2 条",
     "CS · 202224425: 2 条",
     "金融 · @ThePlainBagel: 0 条",
-    "金融 · 520819684: 2 条",
+    "Bilibili 520819684: code=-352 风控校验失败",
+    "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 0 条",
-    "历史 · @HistoriaCivilis: 2 条",
+    "历史 · @HistoriaCivilis: 0 条",
     "历史 · 11646119: 2 条",
     "历史 · 23947287: 0 条",
     "英语 · @bbclearningenglish: 0 条",
