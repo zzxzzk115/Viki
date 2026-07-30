@@ -1,302 +1,299 @@
 {
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "items": [
     {
-      "id": "c066b8b172c1",
+      "id": "ce34a9c638f5",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Museo de Arte Moderno y Contemporáneo de Santander y Cantabria",
-      "url": "https://simple.wikipedia.org/wiki/Museo_de_Arte_Moderno_y_Contempor%C3%A1neo_de_Santander_y_Cantabria",
-      "summary": "The Museo de Arte Moderno y Contemporáneo de Santander y Cantabria is an art museum in Santander, Spain.",
+      "title": "Mazhar Krasniqi",
+      "url": "https://simple.wikipedia.org/wiki/Mazhar_Krasniqi",
+      "summary": "Mazhar Shukri Krasniqi was a Yugoslav-born New Zealand Muslim community leader. He was born in Pristina, Kingdom of Yugoslavia. He was the first president of the Federation of Islamic Associations of New Zealand (FIANZ) from 1979 to 1981. In December 2002, he was awarded the Que…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "237cb42ec1a7",
+      "id": "0b0abb7fe521",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Daniel Clarence Quinn",
-      "url": "https://simple.wikipedia.org/wiki/Daniel_Clarence_Quinn",
-      "summary": "Daniel Clarence Quinn was an American writer of novels and sociology-political commentary. He was born in 1935 during the Great Depression.",
+      "title": "Stig Rästa",
+      "url": "https://simple.wikipedia.org/wiki/Stig_R%C3%A4sta",
+      "summary": "Raul-Stig Rästa is an Estonian politician, singer and songwriter. Since 2025, Rästa has been a member of the 15th Riigikogu.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "65f8a2e3eddb",
+      "id": "7b339ca1357c",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Codex Security",
-      "url": "https://github.com/openai/codex-security",
+      "title": "AI's top startups are barely publishing their research",
+      "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
       "summary": "",
-      "author": "bakigul",
-      "published": "2026-07-28",
-      "tags": [
-        "▲ 416"
-      ]
-    },
-    {
-      "id": "7f7b3e74b8af",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences",
-      "url": "https://learnvector.ai/",
-      "summary": "",
-      "author": "ajhai",
+      "author": "YeGoblynQueenne",
       "published": "2026-07-29",
       "tags": [
-        "▲ 94"
+        "▲ 295"
       ]
     },
     {
-      "id": "cae4c40a9d80",
+      "id": "9c58f8b83a30",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-Design",
-      "url": "https://transformer-transformer.github.io/",
+      "title": "The coolest use for the Vision Pro",
+      "url": "https://christianselig.com/2026/07/vision-pro-house/",
       "summary": "",
-      "author": "ilreb",
+      "author": "robbiet480",
       "published": "2026-07-29",
       "tags": [
-        "▲ 8"
+        "▲ 478"
       ]
     },
     {
-      "id": "87177a57b968",
+      "id": "58513a213610",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript",
-      "url": "https://github.com/twalichiewicz/HNewhere",
-      "summary": "HN is great for the links people share, but a big part of the value I get comes from reading the discussion around them. I realized I was always opening the article in one tab and the comments in another, constantly switching back and forth. I figured there was probably a simple…",
-      "author": "twalichiewicz",
-      "published": "2026-07-28",
-      "tags": [
-        "▲ 192"
-      ]
-    },
-    {
-      "id": "44953bc4f718",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Multiple Mouse Cursors in Wayland",
-      "url": "https://blinry.org/multi-seat-wayland/",
+      "title": "NSF pilots 4-year PhDs with industry research placements",
+      "url": "https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four",
       "summary": "",
-      "author": "marvinborner",
+      "author": "osnium123",
+      "published": "2026-07-30",
+      "tags": [
+        "▲ 52"
+      ]
+    },
+    {
+      "id": "97854c7d008d",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+      "url": "https://github.com/drumih/turbo-fieldfare",
+      "summary": "Hi HN, I built a specialized inference engine for running 4-bit Gemma 4 26B-A4B-IT on any M-series Mac using about 2 GB of RAM. It is called TurboFieldfare and is written in Swift and Metal. I have always adored on-device AI. It feels like magic that you can run a powerful NN on…",
+      "author": "gitpusher42",
       "published": "2026-07-29",
       "tags": [
-        "▲ 56"
+        "▲ 700"
       ]
     },
     {
-      "id": "f37b7a52791a",
+      "id": "3e956dbc749f",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Half-Life ported to Mac OS 9",
-      "url": "https://mac-classic.com/news/half-life-ported-to-mac-os-9/",
+      "title": "Superlogical",
+      "url": "https://www.superlogical.com/",
+      "summary": "https://mitchellh.com/writing/superlogical",
+      "author": "yan",
+      "published": "2026-07-29",
+      "tags": [
+        "▲ 575"
+      ]
+    },
+    {
+      "id": "7e49a4140801",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "LLM Honeypot",
+      "url": "https://llm2human.pages.dev/",
       "summary": "",
-      "author": "freediver",
-      "published": "2026-07-28",
+      "author": "8thom",
+      "published": "2026-07-29",
       "tags": [
-        "▲ 190"
+        "▲ 116"
       ]
     },
     {
-      "id": "a08cbfee4a12",
+      "id": "9ca878715050",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How New York FinTech Companies Build Better Sales Pipelines",
-      "url": "https://dev.to/konsyg_6e0b6ddb36b4585/how-new-york-fintech-companies-build-better-sales-pipelines-51fe",
-      "summary": "New York is one of the world's most competitive financial markets. Every day, FinTech companies compete for the attention of banks, payment providers, investment firms and insurance businesses. The opportunity is enormous, but so is the competition. That is why B2B lead generati…",
-      "author": "Konsyg",
-      "published": "Wed, 29 Jul 2026 04:28:07 +0000",
+      "title": "Ruff v0.16.0 and Its Impact on…",
+      "url": "https://dev.to/norviktech/ruff-v0160-and-its-impact-on-4ff2",
+      "summary": "Originally published at norvik.tech Introduction Explore the new features of Ruff v0.16.0 and how they influence modern web development practices. A deep technical analysis for teams and developers. Ruff v0.16.0: What It Is and Why It Matters Ruff v0.16.0 is the latest stable re…",
+      "author": "Norvik Tech",
+      "published": "Thu, 30 Jul 2026 04:05:58 +0000",
       "tags": [
-        "ai",
-        "programming",
         "webdev",
-        "javascript"
+        "ruffv0160",
+        "staticanalysis"
       ]
     },
     {
-      "id": "d8d1d06ecb53",
+      "id": "4e7370efbcf8",
       "category": "tech",
       "source": "DEV Community",
-      "title": "What Users Actually Feel When Your AI-Generated Code Is 'Fine': A UX Autopsy of 3 Shipped Features",
-      "url": "https://dev.to/lucas_martin_8cb158b9a81b/what-users-actually-feel-when-your-ai-generated-code-is-fine-a-ux-autopsy-of-3-shipped-features-2emc",
-      "summary": "AI-generated code is often technically correct and experientially broken — it solves the ticket, and the ticket rarely describes the feeling. Three real examples: a confirmation modal with no friction (14 accidental account deletions), a naked payment spinner (−4.1% completion),…",
-      "author": "Lucas Martin",
-      "published": "Wed, 29 Jul 2026 04:26:33 +0000",
+      "title": "Thani bin Ghalita Cleaning Services",
+      "url": "https://dev.to/devalekshmi_digital_6c71f/thani-bin-ghalita-cleaning-services-4k4f",
+      "summary": "Why Dubai Residents and Businesses Are Turning to Thani Bin Ghalita Cleaning Services Dubai's fast pace leaves little room for scrubbing floors or chasing dust after a long work week, which is exactly the gap Thani Bin Ghalita Cleaning Services has stepped in to fill. Known loca…",
+      "author": "Devalekshmi Digital",
+      "published": "Thu, 30 Jul 2026 04:04:56 +0000",
       "tags": [
         "ai",
-        "ux",
-        "webdev",
-        "react"
+        "webdev"
       ]
     },
     {
-      "id": "b2f234bdc8d0",
+      "id": "e27a82c4f707",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Loop Graph Engineering with the Hermes Agent",
-      "url": "https://dev.to/dankrieger/loop-graph-engineering-with-the-hermes-agent-3laj",
-      "summary": "Demo: https://loopgraph.vercel.app/brain A campaign starts wasting money. A customer stops using the product. A deal slips backward. A contract approaches renewal. An invoice falls outside tolerance. A production incident opens. Most companies experience these moments as notific…",
-      "author": "Dan Krieger",
-      "published": "Wed, 29 Jul 2026 04:25:42 +0000",
+      "title": "Clarifying Datastar's Role in State Management: Addressing Confusion in SSW 2026 Presentation",
+      "url": "https://dev.to/kornilovconstru/clarifying-datastars-role-in-state-management-addressing-confusion-in-ssw-2026-presentation-1a51",
+      "summary": "Introduction In the realm of modern web development, the principle of \"Put State in the Right Place\" has emerged as a cornerstone for building scalable and maintainable applications. This concept, central to Delaney Gillilan's presentation at SSW 2026 , underscores the critical …",
+      "author": "Artyom Kornilov",
+      "published": "Thu, 30 Jul 2026 04:04:29 +0000",
       "tags": [
-        "ai",
+        "statemanagement",
+        "datastar",
         "webdev",
-        "programming",
-        "productivity"
+        "scalability"
       ]
     },
     {
-      "id": "4bd93e9fcf0f",
+      "id": "ba75f9840b39",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Building the Digital Foundation of Arush Labs: Why Every Startup Needs More Than Just a Website",
-      "url": "https://dev.to/arushlabs/building-the-digital-foundation-of-arush-labs-why-every-startup-needs-more-than-just-a-website-7b",
-      "summary": "When people think about startups, they usually imagine writing code, launching products, or raising funds. But before any of that, a startup needs something equally important—a digital identity. Today at Arush Labs, we focused on building that foundation. We expanded our presenc…",
-      "author": "ArushLabs",
-      "published": "Wed, 29 Jul 2026 04:22:13 +0000",
+      "title": "Supporting WebP Uploads: 6 Things I Learned While Building an Image Tool",
+      "url": "https://dev.to/human_reviews_ccdcbb54983/supporting-webp-uploads-6-things-i-learned-while-building-an-image-tool-5385",
+      "summary": "Supporting WebP Uploads in Web Applications: Lessons Learned WebP offers excellent compression, but supporting it in a web application involves more than accepting another file extension. Here are six lessons I learned while building FileBee. Supporting WebP Uploads: 6 Things I …",
+      "author": "Human Reviews",
+      "published": "Thu, 30 Jul 2026 04:03:55 +0000",
       "tags": [
-        "ai",
         "webdev",
-        "programming",
-        "javascript"
+        "javascript",
+        "unsplash",
+        "performance"
       ]
     },
     {
-      "id": "508351732e52",
+      "id": "e412ace7f733",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Tiger",
-      "url": "https://en.wikipedia.org/wiki/Tiger",
-      "summary": "The tiger is a large cat and a member of the genus Panthera native to Asia. It has a powerful, muscular body with a large head and paws, a long tail and orange fur with black, mostly vertical stripes. It is traditionally classified into nine recent subspecies, though some recogn…",
+      "title": "Sam & Max: Freelance Police",
+      "url": "https://en.wikipedia.org/wiki/Sam_%26_Max%3A_Freelance_Police",
+      "summary": "Sam & Max: Freelance Police was a graphic adventure video game developed by LucasArts from 2002 until its cancellation in 2004, and the final game in the company's adventure game era. Freelance Police was originally intended for release for Windows in early 2004 as a sequel to t…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "25fbf13af59b",
+      "id": "104673947ebb",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Watch: The moment quake hit Japan",
-      "url": "https://www.bbc.co.uk/news/videos/cvg7v55gxnqo?at_medium=RSS&at_campaign=rss",
-      "summary": "Video shows locations across the region where a strong earthquake struck Japan's Kyushu island on 28 July.",
-      "published": "Tue, 28 Jul 2026 15:32:37 GMT",
+      "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
+      "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss",
+      "summary": "The US military said the strikes were in response to Iran firing missiles at US forces in the Middle East on Tuesday.",
+      "published": "Thu, 30 Jul 2026 03:33:01 GMT",
       "tags": []
     },
     {
-      "id": "61f1ebc9a8dd",
+      "id": "3ea53c3cdf22",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Iran and US trade strikes, shattering brief lull in fighting",
-      "url": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
-      "summary": "US Central Command says it intercepted \"multiple\" ballistic missiles fired by Iran.",
-      "published": "Wed, 29 Jul 2026 04:30:08 GMT",
+      "title": "Saudi Arabia's dilemma as it tries to stay out of US-Iran war",
+      "url": "https://www.bbc.co.uk/news/articles/clyx83l8jv8o?at_medium=RSS&at_campaign=rss",
+      "summary": "The kingdom faces a choice of whether to keep hitting back as a deterrent or to try to de-escalate the situation.",
+      "published": "Wed, 29 Jul 2026 18:41:31 GMT",
       "tags": []
     },
     {
-      "id": "768d9933a9d3",
+      "id": "9aea9c4547ab",
       "category": "news",
       "source": "BBC 世界",
-      "title": "How Mexican drug cartels have outsourced meth labs to Nigeria",
-      "url": "https://www.bbc.co.uk/news/articles/crmrnxp4nllo?at_medium=RSS&at_campaign=rss",
-      "summary": "West Africa is becoming increasingly attractive to those who want to make and export illicit drugs.",
-      "published": "Tue, 28 Jul 2026 23:25:53 GMT",
+      "title": "Three Greek firefighters die as wildfires threaten parts of southern Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss",
+      "summary": "Gale-force winds on Crete have whipped up flames prompting the evacuation of several villages, as parts of the continent continue to tackle fires.",
+      "published": "Thu, 30 Jul 2026 01:53:25 GMT",
       "tags": []
     },
     {
-      "id": "007288e020d6",
+      "id": "607e2fd0baaa",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump administration bans new Chinese humanoid robots",
-      "url": "https://www.bbc.co.uk/news/articles/cp9e2ex3ekyo?at_medium=RSS&at_campaign=rss",
-      "summary": "The US and China are locked in a race to the lead the world in robotics and artificial intelligence.",
-      "published": "Wed, 29 Jul 2026 02:30:50 GMT",
+      "title": "'It's our home, it's our forest': BBC speaks to locals fighting France wildfire",
+      "url": "https://www.bbc.co.uk/news/articles/c62q5we799ro?at_medium=RSS&at_campaign=rss",
+      "summary": "Firefighters are battling flare-ups in 40C heat in the Gironde region, as some locals have refused to heed evacuations.",
+      "published": "Wed, 29 Jul 2026 16:49:41 GMT",
       "tags": []
     },
     {
-      "id": "f245bbe7855c",
+      "id": "1401ad6c55e0",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Audi has a new flagship designed with the US in mind: The 2027 Q9",
-      "url": "https://arstechnica.com/cars/2026/07/audi-has-a-new-flagship-designed-with-the-us-in-mind-the-2027-q9/",
-      "summary": "The new full-size flagship SUV starts at $87,700 when it goes on sale in Q4.",
-      "author": "Jonathan M. Gitlin",
-      "published": "Wed, 29 Jul 2026 01:00:36 +0000",
+      "title": "Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission",
+      "url": "https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years/",
+      "summary": "HAWK withstood years of testing that had yet to uncover a fatal weakness found through Mythos.",
+      "author": "Dan Goodin",
+      "published": "Wed, 29 Jul 2026 22:07:06 +0000",
       "tags": [
-        "Cars",
-        "Audi Q9",
-        "Audi SQ9"
+        "AI",
+        "Biz & IT",
+        "Security"
       ]
     },
     {
-      "id": "e312eac4f1c1",
+      "id": "0c3121bca95b",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Reaction wheel failures leave Swift rescue mission spinning in orbit",
-      "url": "https://arstechnica.com/space/2026/07/reaction-wheel-failures-leave-swift-rescue-mission-spinning-in-orbit/",
-      "summary": "\"Preliminary investigation shows that two of Link's three reaction wheels currently are not operable.\"",
-      "author": "Stephen Clark",
-      "published": "Tue, 28 Jul 2026 22:09:00 +0000",
+      "title": "Musk went to “war,” sought jail time for X ad boycotts—but case ends with a whimper",
+      "url": "https://arstechnica.com/tech-policy/2026/07/musk-went-to-war-sought-jail-time-for-x-ad-boycotts-but-case-ends-with-a-whimper/",
+      "summary": "Advertisers agreed to “reset” relationship with X.",
+      "author": "Ashley Belanger",
+      "published": "Wed, 29 Jul 2026 20:57:35 +0000",
       "tags": [
-        "Science",
-        "Space",
-        "katalyst space",
-        "NASA"
+        "Policy",
+        "ad boycott",
+        "Elon Musk",
+        "online advertising"
       ]
     },
     {
-      "id": "eaac21007520",
+      "id": "3584c79fbc77",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "College lab class ends with 32 people on antibiotics for deadly germ exposure",
-      "url": "https://arstechnica.com/health/2026/07/college-lab-class-ends-with-32-people-on-antibiotics-for-deadly-germ-exposure/",
-      "summary": "Lab students were supposed to ID a mild germ. They all identified a deadly pathogen.",
-      "author": "Beth Mole",
-      "published": "Tue, 28 Jul 2026 21:49:52 +0000",
+      "title": "Who wins and who loses after US bans foreign robots?",
+      "url": "https://arstechnica.com/ai/2026/07/who-wins-and-who-loses-after-us-bans-foreign-robots/",
+      "summary": "Government ban on foreign-made robots may hinder instead of help US robotics.",
+      "author": "Jeremy Hsu",
+      "published": "Wed, 29 Jul 2026 20:03:42 +0000",
       "tags": [
-        "Health",
-        "lab",
-        "meningitis",
-        "microbiology"
+        "AI",
+        "china",
+        "FCC",
+        "fcc brendan carr"
       ]
     },
     {
-      "id": "6edb444d823c",
+      "id": "2ad32246f7c8",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Saudi Arabia has a new, and pricier, workaround to export its oil",
-      "url": "https://www.marketwatch.com/story/saudi-arabia-has-a-new-and-pricier-workaround-to-export-its-oil-fb5085a5?mod=mw_rss_topstories",
-      "summary": "Loadings at a Mediterranean port have picked up as Saudi Arabia races to offer its oil to buyers through a lengthier — and more expensive — backdoor.",
+      "title": "Ford’s big-truck bet is paying off — and Wall Street is taking notice",
+      "url": "https://www.marketwatch.com/story/fords-big-truck-bet-is-paying-off-and-wall-street-is-taking-notice-6a1de0fb?mod=mw_rss_topstories",
+      "summary": "A turnaround story could be in the works at Ford, which gets less love than GM on Wall Street.",
       "author": "Claudia Assis",
-      "published": "Wed, 29 Jul 2026 01:28:00 GMT",
+      "published": "Thu, 30 Jul 2026 01:02:00 GMT",
       "tags": []
     },
     {
-      "id": "a12fc9ac8075",
+      "id": "14ef5af33e49",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Seagate’s earnings are welcome news for the battered AI trade",
-      "url": "https://www.marketwatch.com/story/seagates-earnings-are-welcome-news-for-the-battered-ai-trade-92dfc30f?mod=mw_rss_topstories",
-      "summary": "The storage maker’s June-quarter results come in ahead of Wall Street’s expectations, and the stock rallies after hours",
+      "title": "Why SoFi’s stock drops, even after its earnings beat expectations",
+      "url": "https://www.marketwatch.com/story/why-sofis-stock-is-dropping-even-after-its-earnings-beat-expectations-ecc442eb?mod=mw_rss_topstories",
+      "summary": "Investors were disappointed by the neobank’s restrained guidance.",
+      "author": "William Gavin",
+      "published": "Thu, 30 Jul 2026 01:01:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "7afe6d3436a5",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "Qualcomm’s stock falls as memory woes weigh on earnings",
+      "url": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-memory-woes-weigh-on-earnings-fc2b6317?mod=mw_rss_topstories",
+      "summary": "The chip company came up short on its bottom line.",
       "author": "Britney Nguyen",
-      "published": "Wed, 29 Jul 2026 00:21:00 GMT",
-      "tags": []
-    },
-    {
-      "id": "737b1d43b102",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "Ford matches GM in one crucial way, and the stock jumps",
-      "url": "https://www.marketwatch.com/story/ford-matches-gm-in-one-crucial-way-and-the-stock-jumps-bf2f708c?mod=mw_rss_topstories",
-      "summary": "Ford leans on pickup trucks and other traditionally powered vehicles to limit sales decline.",
-      "author": "Claudia Assis",
-      "published": "Wed, 29 Jul 2026 00:18:00 GMT",
+      "published": "Thu, 30 Jul 2026 00:20:00 GMT",
       "tags": []
     }
   ],
