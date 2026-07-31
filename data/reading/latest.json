@@ -1,220 +1,255 @@
 {
-  "date": "2026-07-30",
+  "date": "2026-07-31",
   "items": [
     {
-      "id": "ce34a9c638f5",
+      "id": "935ef9e31819",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Mazhar Krasniqi",
-      "url": "https://simple.wikipedia.org/wiki/Mazhar_Krasniqi",
-      "summary": "Mazhar Shukri Krasniqi was a Yugoslav-born New Zealand Muslim community leader. He was born in Pristina, Kingdom of Yugoslavia. He was the first president of the Federation of Islamic Associations of New Zealand (FIANZ) from 1979 to 1981. In December 2002, he was awarded the Que…",
+      "title": "Savoy, Massachusetts",
+      "url": "https://simple.wikipedia.org/wiki/Savoy%2C_Massachusetts",
+      "summary": "Savoy is a town in Berkshire County, Massachusetts, United States.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "0b0abb7fe521",
+      "id": "18b129defd38",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Stig Rästa",
-      "url": "https://simple.wikipedia.org/wiki/Stig_R%C3%A4sta",
-      "summary": "Raul-Stig Rästa is an Estonian politician, singer and songwriter. Since 2025, Rästa has been a member of the 15th Riigikogu.",
+      "title": "Mafeteng District",
+      "url": "https://simple.wikipedia.org/wiki/Mafeteng_District",
+      "summary": "Mafeteng is a district of Lesotho. The capital is Mafeteng.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "7b339ca1357c",
+      "id": "cfcccf116d3f",
       "category": "tech",
       "source": "Hacker News",
-      "title": "AI's top startups are barely publishing their research",
-      "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
+      "title": "The AI Aesthetic",
+      "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
       "summary": "",
-      "author": "YeGoblynQueenne",
-      "published": "2026-07-29",
-      "tags": [
-        "▲ 295"
-      ]
-    },
-    {
-      "id": "9c58f8b83a30",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "The coolest use for the Vision Pro",
-      "url": "https://christianselig.com/2026/07/vision-pro-house/",
-      "summary": "",
-      "author": "robbiet480",
-      "published": "2026-07-29",
-      "tags": [
-        "▲ 478"
-      ]
-    },
-    {
-      "id": "58513a213610",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "NSF pilots 4-year PhDs with industry research placements",
-      "url": "https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four",
-      "summary": "",
-      "author": "osnium123",
+      "author": "montroser",
       "published": "2026-07-30",
       "tags": [
-        "▲ 52"
+        "▲ 214"
       ]
     },
     {
-      "id": "97854c7d008d",
+      "id": "9aa5a96c9b40",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
-      "url": "https://github.com/drumih/turbo-fieldfare",
-      "summary": "Hi HN, I built a specialized inference engine for running 4-bit Gemma 4 26B-A4B-IT on any M-series Mac using about 2 GB of RAM. It is called TurboFieldfare and is written in Swift and Metal. I have always adored on-device AI. It feels like magic that you can run a powerful NN on…",
-      "author": "gitpusher42",
-      "published": "2026-07-29",
-      "tags": [
-        "▲ 700"
-      ]
-    },
-    {
-      "id": "3e956dbc749f",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Superlogical",
-      "url": "https://www.superlogical.com/",
-      "summary": "https://mitchellh.com/writing/superlogical",
-      "author": "yan",
-      "published": "2026-07-29",
-      "tags": [
-        "▲ 575"
-      ]
-    },
-    {
-      "id": "7e49a4140801",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "LLM Honeypot",
-      "url": "https://llm2human.pages.dev/",
+      "title": "The AI trade now runs on borrowed money, and the lenders are repricing it",
+      "url": "https://greyswansignals.com/?theme=dark",
       "summary": "",
-      "author": "8thom",
-      "published": "2026-07-29",
+      "author": "haipothetical",
+      "published": "2026-07-31",
       "tags": [
-        "▲ 116"
+        "▲ 33"
       ]
     },
     {
-      "id": "9ca878715050",
+      "id": "1ef900d67892",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Read this before you buy that TV streaming stick",
+      "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "summary": "",
+      "author": "speckx",
+      "published": "2026-07-30",
+      "tags": [
+        "▲ 632"
+      ]
+    },
+    {
+      "id": "beca97c90873",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "The Session You Cannot take with you",
+      "url": "https://earendil.com/posts/session-portability/",
+      "summary": "",
+      "author": "apitman",
+      "published": "2026-07-31",
+      "tags": [
+        "▲ 17"
+      ]
+    },
+    {
+      "id": "4ad44c609c51",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "I flagged two research papers for fake authors and both were accepted as orals",
+      "url": "https://geospatialml.com/posts/reviewing-ai-slop/",
+      "summary": "",
+      "author": "volumes94",
+      "published": "2026-07-30",
+      "tags": [
+        "▲ 133"
+      ]
+    },
+    {
+      "id": "eb799eb19ee0",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Stacked PRs are now live on GitHub",
+      "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
+      "summary": "",
+      "author": "tomzorz",
+      "published": "2026-07-30",
+      "tags": [
+        "▲ 533"
+      ]
+    },
+    {
+      "id": "75b97b9490a3",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Ruff v0.16.0 and Its Impact on…",
-      "url": "https://dev.to/norviktech/ruff-v0160-and-its-impact-on-4ff2",
-      "summary": "Originally published at norvik.tech Introduction Explore the new features of Ruff v0.16.0 and how they influence modern web development practices. A deep technical analysis for teams and developers. Ruff v0.16.0: What It Is and Why It Matters Ruff v0.16.0 is the latest stable re…",
-      "author": "Norvik Tech",
-      "published": "Thu, 30 Jul 2026 04:05:58 +0000",
+      "title": "Weekly Dev Log 2026-W16",
+      "url": "https://dev.to/umitomo-lab/weekly-dev-log-2026-w16-c61",
+      "summary": "🗓️ This Week This week, I was able to make a little more progress on my personal iOS development project , continuing from last week❤️‍🔥. By last week, I had finished implementing the main screen that is opened from the top menu. Based on that screen, I discussed the game logi…",
+      "author": "Umitomo",
+      "published": "Fri, 31 Jul 2026 04:46:31 +0000",
+      "tags": [
+        "beginners",
+        "devjournal",
+        "webdev",
+        "swift"
+      ]
+    },
+    {
+      "id": "b32210f8ae3b",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Why I Stopped Fighting Burp and Built My Own Listener",
+      "url": "https://dev.to/toklas495/why-i-stopped-fighting-burp-and-built-my-own-listener-1ncf",
+      "summary": "I was doing a pentest on a UAT web app for a financial company — student loan servicing. Internal only, IP filtered, VPN access. I had two accounts to test with: sales, and super admin. Day one, Burp didn't work. Not slow. Not buggy. Just didn't work. Three Days of Nothing I tho…",
+      "author": "Nimesh Thakur",
+      "published": "Fri, 31 Jul 2026 04:43:58 +0000",
+      "tags": [
+        "cybersecurity",
+        "security",
+        "webdev",
+        "go"
+      ]
+    },
+    {
+      "id": "50ce9e1b050a",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Choosing the Right Tech Stack for Your MVP: A Founder's Guide",
+      "url": "https://dev.to/multisyn_tech_e2ff85bf9e7/choosing-the-right-tech-stack-for-your-mvp-a-founders-guide-1o58",
+      "summary": "Every founder eventually asks their dev team the same question: what stack should we use for the MVP? The answer matters less than most founders think, but the reasoning behind it matters a lot. The right MVP stack is the one your team can ship fast and maintain without pain, no…",
+      "author": "Multisyn Tech",
+      "published": "Fri, 31 Jul 2026 04:39:18 +0000",
       "tags": [
         "webdev",
-        "ruffv0160",
-        "staticanalysis"
+        "tutorial",
+        "startup",
+        "techtalks"
       ]
     },
     {
-      "id": "4e7370efbcf8",
+      "id": "b7fa366b9db3",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Thani bin Ghalita Cleaning Services",
-      "url": "https://dev.to/devalekshmi_digital_6c71f/thani-bin-ghalita-cleaning-services-4k4f",
-      "summary": "Why Dubai Residents and Businesses Are Turning to Thani Bin Ghalita Cleaning Services Dubai's fast pace leaves little room for scrubbing floors or chasing dust after a long work week, which is exactly the gap Thani Bin Ghalita Cleaning Services has stepped in to fill. Known loca…",
-      "author": "Devalekshmi Digital",
-      "published": "Thu, 30 Jul 2026 04:04:56 +0000",
-      "tags": [
-        "ai",
-        "webdev"
-      ]
-    },
-    {
-      "id": "e27a82c4f707",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Clarifying Datastar's Role in State Management: Addressing Confusion in SSW 2026 Presentation",
-      "url": "https://dev.to/kornilovconstru/clarifying-datastars-role-in-state-management-addressing-confusion-in-ssw-2026-presentation-1a51",
-      "summary": "Introduction In the realm of modern web development, the principle of \"Put State in the Right Place\" has emerged as a cornerstone for building scalable and maintainable applications. This concept, central to Delaney Gillilan's presentation at SSW 2026 , underscores the critical …",
-      "author": "Artyom Kornilov",
-      "published": "Thu, 30 Jul 2026 04:04:29 +0000",
-      "tags": [
-        "statemanagement",
-        "datastar",
-        "webdev",
-        "scalability"
-      ]
-    },
-    {
-      "id": "ba75f9840b39",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Supporting WebP Uploads: 6 Things I Learned While Building an Image Tool",
-      "url": "https://dev.to/human_reviews_ccdcbb54983/supporting-webp-uploads-6-things-i-learned-while-building-an-image-tool-5385",
-      "summary": "Supporting WebP Uploads in Web Applications: Lessons Learned WebP offers excellent compression, but supporting it in a web application involves more than accepting another file extension. Here are six lessons I learned while building FileBee. Supporting WebP Uploads: 6 Things I …",
-      "author": "Human Reviews",
-      "published": "Thu, 30 Jul 2026 04:03:55 +0000",
+      "title": "Ai Chatbots Ecommerce Guide 2026",
+      "url": "https://dev.to/shivatechdigitalnoid/ai-chatbots-ecommerce-guide-2026-43c3",
+      "summary": "Originally published at shivatechdigital.com Read Full Article Click here to read the complete article About ShivaTechDigital: Leading web development and digital marketing agency in Noida, India. Visit our website | Contact Us",
+      "author": "Shivatechdigital",
+      "published": "Fri, 31 Jul 2026 04:38:19 +0000",
       "tags": [
         "webdev",
-        "javascript",
-        "unsplash",
-        "performance"
+        "seo",
+        "marketing",
+        "tutorial"
       ]
     },
     {
-      "id": "e412ace7f733",
+      "id": "d70e3f741219",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Sam & Max: Freelance Police",
-      "url": "https://en.wikipedia.org/wiki/Sam_%26_Max%3A_Freelance_Police",
-      "summary": "Sam & Max: Freelance Police was a graphic adventure video game developed by LucasArts from 2002 until its cancellation in 2004, and the final game in the company's adventure game era. Freelance Police was originally intended for release for Windows in early 2004 as a sequel to t…",
+      "title": "William Hardham",
+      "url": "https://en.wikipedia.org/wiki/William_Hardham",
+      "summary": "William James Hardham was a New Zealand soldier who was a recipient of the Victoria Cross, the highest award for gallantry \"in the face of the enemy\" that could be awarded at the time to military personnel of the British Empire.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "104673947ebb",
+      "id": "2c84d1a306e8",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
-      "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss",
-      "summary": "The US military said the strikes were in response to Iran firing missiles at US forces in the Middle East on Tuesday.",
-      "published": "Thu, 30 Jul 2026 03:33:01 GMT",
+      "title": "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
+      "url": "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss",
+      "summary": "A senior Hamas official has told the BBC they have agreed to the Board of Peace's plan. Israel has not commented.",
+      "published": "Fri, 31 Jul 2026 03:24:14 GMT",
       "tags": []
     },
     {
-      "id": "3ea53c3cdf22",
+      "id": "585fd2a6a234",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Saudi Arabia's dilemma as it tries to stay out of US-Iran war",
-      "url": "https://www.bbc.co.uk/news/articles/clyx83l8jv8o?at_medium=RSS&at_campaign=rss",
-      "summary": "The kingdom faces a choice of whether to keep hitting back as a deterrent or to try to de-escalate the situation.",
-      "published": "Wed, 29 Jul 2026 18:41:31 GMT",
+      "title": "Rushdi Abualouf: If Hamas disarmament plan holds, it could mark first credible step to ending Gaza war",
+      "url": "https://www.bbc.co.uk/news/articles/c9d8gd87d83o?at_medium=RSS&at_campaign=rss",
+      "summary": "The plan - if successful - potentially removes the most significant obstacle to advancing the Trump-backed peace initiative in Gaza.",
+      "published": "Fri, 31 Jul 2026 04:25:49 GMT",
       "tags": []
     },
     {
-      "id": "9aea9c4547ab",
+      "id": "45cd353ca380",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Three Greek firefighters die as wildfires threaten parts of southern Europe",
-      "url": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss",
-      "summary": "Gale-force winds on Crete have whipped up flames prompting the evacuation of several villages, as parts of the continent continue to tackle fires.",
-      "published": "Thu, 30 Jul 2026 01:53:25 GMT",
+      "title": "Nirmal Purja among 10 climbers feared missing after avalanche",
+      "url": "https://www.bbc.co.uk/news/articles/cddjz1r01l8o?at_medium=RSS&at_campaign=rss",
+      "summary": "An American, a Chinese national, an Omani and five Nepalis are said to be part of the group feared missing in Pakistan.",
+      "published": "Fri, 31 Jul 2026 00:52:54 GMT",
       "tags": []
     },
     {
-      "id": "607e2fd0baaa",
+      "id": "4ad405e8bf33",
       "category": "news",
       "source": "BBC 世界",
-      "title": "'It's our home, it's our forest': BBC speaks to locals fighting France wildfire",
-      "url": "https://www.bbc.co.uk/news/articles/c62q5we799ro?at_medium=RSS&at_campaign=rss",
-      "summary": "Firefighters are battling flare-ups in 40C heat in the Gironde region, as some locals have refused to heed evacuations.",
-      "published": "Wed, 29 Jul 2026 16:49:41 GMT",
+      "title": "Spain sending troops as thousands enter enclave of Ceuta from Morocco",
+      "url": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss",
+      "summary": "At least 15 people drown as migrants try to swim to Spanish territory amid scenes of chaos at the border.",
+      "published": "Fri, 31 Jul 2026 02:41:09 GMT",
       "tags": []
+    },
+    {
+      "id": "ae755848e3c7",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Quantum computers outperform classical ones, with results you can trust",
+      "url": "https://arstechnica.com/science/2026/07/if-a-quantum-computer-outperforms-normal-ones-can-you-tell-if-its-right/",
+      "summary": "Three approaches to the issue of quantum results that can't be verified classically.",
+      "author": "John Timmer",
+      "published": "Thu, 30 Jul 2026 15:59:37 +0000",
+      "tags": [
+        "Science",
+        "algorithms",
+        "Computer science",
+        "error mitigation"
+      ]
+    },
+    {
+      "id": "7d8cfef12add",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "New MCP specification addresses the main barrier to enterprise adoption",
+      "url": "https://arstechnica.com/ai/2026/07/with-a-stateless-makeover-new-mcp-spec-targets-enterprise-scale/",
+      "summary": "Plus, a new policy for the AI protocol ensures features aren't removed suddenly.",
+      "author": "Samuel Axon",
+      "published": "Thu, 30 Jul 2026 14:53:07 +0000",
+      "tags": [
+        "AI",
+        "AAIF",
+        "Agentic AI Foundation",
+        "agents"
+      ]
     },
     {
       "id": "1401ad6c55e0",
@@ -232,68 +267,36 @@
       ]
     },
     {
-      "id": "0c3121bca95b",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Musk went to “war,” sought jail time for X ad boycotts—but case ends with a whimper",
-      "url": "https://arstechnica.com/tech-policy/2026/07/musk-went-to-war-sought-jail-time-for-x-ad-boycotts-but-case-ends-with-a-whimper/",
-      "summary": "Advertisers agreed to “reset” relationship with X.",
-      "author": "Ashley Belanger",
-      "published": "Wed, 29 Jul 2026 20:57:35 +0000",
-      "tags": [
-        "Policy",
-        "ad boycott",
-        "Elon Musk",
-        "online advertising"
-      ]
-    },
-    {
-      "id": "3584c79fbc77",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Who wins and who loses after US bans foreign robots?",
-      "url": "https://arstechnica.com/ai/2026/07/who-wins-and-who-loses-after-us-bans-foreign-robots/",
-      "summary": "Government ban on foreign-made robots may hinder instead of help US robotics.",
-      "author": "Jeremy Hsu",
-      "published": "Wed, 29 Jul 2026 20:03:42 +0000",
-      "tags": [
-        "AI",
-        "china",
-        "FCC",
-        "fcc brendan carr"
-      ]
-    },
-    {
-      "id": "2ad32246f7c8",
+      "id": "6be02d2133ab",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Ford’s big-truck bet is paying off — and Wall Street is taking notice",
-      "url": "https://www.marketwatch.com/story/fords-big-truck-bet-is-paying-off-and-wall-street-is-taking-notice-6a1de0fb?mod=mw_rss_topstories",
-      "summary": "A turnaround story could be in the works at Ford, which gets less love than GM on Wall Street.",
-      "author": "Claudia Assis",
-      "published": "Thu, 30 Jul 2026 01:02:00 GMT",
+      "title": "Corporate insiders are sending warning signals about the stock market",
+      "url": "https://www.marketwatch.com/story/the-warning-signal-insiders-are-sending-f0538ddf?mod=mw_rss_topstories",
+      "summary": "Corporate insiders haven’t been this bearish in more than 20 years.",
+      "author": "Mark Hulbert",
+      "published": "Fri, 31 Jul 2026 00:31:00 GMT",
       "tags": []
     },
     {
-      "id": "14ef5af33e49",
+      "id": "b8dcf4999fb8",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Why SoFi’s stock drops, even after its earnings beat expectations",
-      "url": "https://www.marketwatch.com/story/why-sofis-stock-is-dropping-even-after-its-earnings-beat-expectations-ecc442eb?mod=mw_rss_topstories",
-      "summary": "Investors were disappointed by the neobank’s restrained guidance.",
-      "author": "William Gavin",
-      "published": "Thu, 30 Jul 2026 01:01:00 GMT",
+      "title": "‘Don’t get suckered like I did’: I paid $185 to the wrong passport website. Can I get my money back?",
+      "url": "https://www.marketwatch.com/story/dont-get-suckered-like-i-did-i-paid-185-to-the-wrong-passport-website-can-i-get-my-money-back-3a781412?mod=mw_rss_topstories",
+      "summary": "“I will file a complaint with the Better Business Bureau.”",
+      "author": "Quentin Fottrell",
+      "published": "Fri, 31 Jul 2026 00:24:00 GMT",
       "tags": []
     },
     {
-      "id": "7afe6d3436a5",
+      "id": "65e964f7e00e",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Qualcomm’s stock falls as memory woes weigh on earnings",
-      "url": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-memory-woes-weigh-on-earnings-fc2b6317?mod=mw_rss_topstories",
-      "summary": "The chip company came up short on its bottom line.",
-      "author": "Britney Nguyen",
-      "published": "Thu, 30 Jul 2026 00:20:00 GMT",
+      "title": "My friend and her husband own real estate. How can her children from a previous marriage get their fair share?",
+      "url": "https://www.marketwatch.com/story/my-friend-and-her-husband-own-extensive-real-estate-how-can-her-children-from-a-previous-marriage-get-their-fair-share-3eb17c20?mod=mw_rss_topstories",
+      "summary": "“Her husband is open to a trust, but he wants to be the administrator.”",
+      "author": "Quentin Fottrell",
+      "published": "Fri, 31 Jul 2026 00:16:00 GMT",
       "tags": []
     }
   ],
