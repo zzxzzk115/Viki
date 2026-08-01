@@ -1,302 +1,298 @@
 {
-  "date": "2026-07-31",
+  "date": "2026-08-01",
   "items": [
     {
-      "id": "935ef9e31819",
+      "id": "2e07dbc40628",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Savoy, Massachusetts",
-      "url": "https://simple.wikipedia.org/wiki/Savoy%2C_Massachusetts",
-      "summary": "Savoy is a town in Berkshire County, Massachusetts, United States.",
+      "title": "Tornadoes of 2011",
+      "url": "https://simple.wikipedia.org/wiki/Tornadoes_of_2011",
+      "summary": "This page describes the tornadoes that were recorded in 2011. Tornadoes that cause the most damage form most often in the United States, Bangladesh and eastern India. However, they can occur almost anywhere under the right conditions. Tornadoes also appear regularly in southern …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "18b129defd38",
+      "id": "54440ec6abf9",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Mafeteng District",
-      "url": "https://simple.wikipedia.org/wiki/Mafeteng_District",
-      "summary": "Mafeteng is a district of Lesotho. The capital is Mafeteng.",
+      "title": "Freeman Williams",
+      "url": "https://simple.wikipedia.org/wiki/Freeman_Williams",
+      "summary": "Freeman Williams was an American professional basketball player in the National Basketball Association (NBA). He was born in Los Angeles, California. His career lasted from 1978 until 1993. He played for the San Diego Clippers, Atlanta Hawks, Utah Jazz, Tampa Bay Thrillers, Wash…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "cfcccf116d3f",
+      "id": "c0ca64fbc6d4",
       "category": "tech",
       "source": "Hacker News",
-      "title": "The AI Aesthetic",
-      "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
+      "title": "Elevators",
+      "url": "https://john.fun/elevators",
       "summary": "",
-      "author": "montroser",
-      "published": "2026-07-30",
-      "tags": [
-        "▲ 214"
-      ]
-    },
-    {
-      "id": "9aa5a96c9b40",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "The AI trade now runs on borrowed money, and the lenders are repricing it",
-      "url": "https://greyswansignals.com/?theme=dark",
-      "summary": "",
-      "author": "haipothetical",
+      "author": "Jrh0203",
       "published": "2026-07-31",
       "tags": [
-        "▲ 33"
+        "▲ 1042"
       ]
     },
     {
-      "id": "1ef900d67892",
+      "id": "24b8b6659aa1",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Read this before you buy that TV streaming stick",
-      "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "title": "Flint: A Visualization Language for the AI Era",
+      "url": "https://microsoft.github.io/flint-chart/",
       "summary": "",
-      "author": "speckx",
-      "published": "2026-07-30",
+      "author": "vinhnx",
+      "published": "2026-08-01",
       "tags": [
-        "▲ 632"
+        "▲ 37"
       ]
     },
     {
-      "id": "beca97c90873",
+      "id": "938e3e7d1f52",
       "category": "tech",
       "source": "Hacker News",
-      "title": "The Session You Cannot take with you",
-      "url": "https://earendil.com/posts/session-portability/",
+      "title": "The development pipeline is a production system",
+      "url": "https://sundry.jerryorr.com/2026/07/31/development-pipeline-is-a-production-system",
       "summary": "",
-      "author": "apitman",
+      "author": "firefoxd",
+      "published": "2026-08-01",
+      "tags": [
+        "▲ 35"
+      ]
+    },
+    {
+      "id": "36742ce60e8d",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "How to Exist",
+      "url": "https://www.raptitude.com/2026/07/how-to-exist/",
+      "summary": "",
+      "author": "walterbell",
+      "published": "2026-08-01",
+      "tags": [
+        "▲ 86"
+      ]
+    },
+    {
+      "id": "705694bbd6ee",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "qm – Multiplayer agent harness for work",
+      "url": "https://github.com/yc-software/qm",
+      "summary": "",
+      "author": "tosh",
       "published": "2026-07-31",
       "tags": [
-        "▲ 17"
+        "▲ 516"
       ]
     },
     {
-      "id": "4ad44c609c51",
+      "id": "f6bb21a31007",
       "category": "tech",
       "source": "Hacker News",
-      "title": "I flagged two research papers for fake authors and both were accepted as orals",
-      "url": "https://geospatialml.com/posts/reviewing-ai-slop/",
+      "title": "Software for One",
+      "url": "https://www.ajwaxman.com/writing/software-for-one",
       "summary": "",
-      "author": "volumes94",
-      "published": "2026-07-30",
+      "author": "awaxman11",
+      "published": "2026-07-29",
       "tags": [
-        "▲ 133"
+        "▲ 56"
       ]
     },
     {
-      "id": "eb799eb19ee0",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Stacked PRs are now live on GitHub",
-      "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
-      "summary": "",
-      "author": "tomzorz",
-      "published": "2026-07-30",
-      "tags": [
-        "▲ 533"
-      ]
-    },
-    {
-      "id": "75b97b9490a3",
+      "id": "4f6a1732e4fc",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Weekly Dev Log 2026-W16",
-      "url": "https://dev.to/umitomo-lab/weekly-dev-log-2026-w16-c61",
-      "summary": "🗓️ This Week This week, I was able to make a little more progress on my personal iOS development project , continuing from last week❤️‍🔥. By last week, I had finished implementing the main screen that is opened from the top menu. Based on that screen, I discussed the game logi…",
-      "author": "Umitomo",
-      "published": "Fri, 31 Jul 2026 04:46:31 +0000",
+      "title": "It's Officially a Buyer's Market, Here's What That Means for Your Listings",
+      "url": "https://dev.to/estateai78600/its-officially-a-buyers-market-heres-what-that-means-for-your-listings-58b8",
+      "summary": "buyer's market 2026, more sellers than buyers, Redfin housing report, real estate listing tips 2026 Sellers now outnumber buyers by the widest margin on record — and it's changing how listings need to compete. The Numbers Nearly 500,000 more sellers than buyers in the U.S. marke…",
+      "author": "Estate AI",
+      "published": "Sat, 01 Aug 2026 04:37:51 +0000",
       "tags": [
-        "beginners",
-        "devjournal",
+        "ai",
         "webdev",
-        "swift"
+        "reviews",
+        "architecture"
       ]
     },
     {
-      "id": "b32210f8ae3b",
+      "id": "788c97e4f995",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Why I Stopped Fighting Burp and Built My Own Listener",
-      "url": "https://dev.to/toklas495/why-i-stopped-fighting-burp-and-built-my-own-listener-1ncf",
-      "summary": "I was doing a pentest on a UAT web app for a financial company — student loan servicing. Internal only, IP filtered, VPN access. I had two accounts to test with: sales, and super admin. Day one, Burp didn't work. Not slow. Not buggy. Just didn't work. Three Days of Nothing I tho…",
-      "author": "Nimesh Thakur",
-      "published": "Fri, 31 Jul 2026 04:43:58 +0000",
+      "title": "How Generative AI Is Transforming CRM Automation in 2026",
+      "url": "https://dev.to/synfinity-dynamics-pvt-ltd/how-generative-ai-is-transforming-crm-automation-in-2026-13jp",
+      "summary": "In 2026, CRM software is no longer just a database with workflow rules bolted on top. Generative AI has become a core layer inside CRM platforms drafting emails, summarizing calls, enriching leads, and increasingly acting as an autonomous agent that completes multi-step tasks wi…",
+      "author": "Synfinity Dynamics Pvt Ltd",
+      "published": "Sat, 01 Aug 2026 04:37:39 +0000",
       "tags": [
-        "cybersecurity",
-        "security",
-        "webdev",
-        "go"
+        "ai",
+        "automation",
+        "futurechallenge",
+        "webdev"
       ]
     },
     {
-      "id": "50ce9e1b050a",
+      "id": "da057a056268",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Choosing the Right Tech Stack for Your MVP: A Founder's Guide",
-      "url": "https://dev.to/multisyn_tech_e2ff85bf9e7/choosing-the-right-tech-stack-for-your-mvp-a-founders-guide-1o58",
-      "summary": "Every founder eventually asks their dev team the same question: what stack should we use for the MVP? The answer matters less than most founders think, but the reasoning behind it matters a lot. The right MVP stack is the one your team can ship fast and maintain without pain, no…",
-      "author": "Multisyn Tech",
-      "published": "Fri, 31 Jul 2026 04:39:18 +0000",
+      "title": "Your Analytics Can Only See As Far As Your Login Does",
+      "url": "https://dev.to/henry_dan_81513dd35a2f540/your-analytics-can-only-see-as-far-as-your-login-does-332i",
+      "summary": "I run a directory site. People arrive, look at listings, and some of them click through to an external booking page. Those outbound clicks are the only thing on the site that correlates with money, so they are logged: what was clicked, from which page, on what device, and — if t…",
+      "author": "Ted",
+      "published": "Sat, 01 Aug 2026 04:34:28 +0000",
       "tags": [
+        "analytics",
+        "architecture",
         "webdev",
-        "tutorial",
-        "startup",
-        "techtalks"
+        "programming"
       ]
     },
     {
-      "id": "b7fa366b9db3",
+      "id": "81015cc1b57b",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Ai Chatbots Ecommerce Guide 2026",
-      "url": "https://dev.to/shivatechdigitalnoid/ai-chatbots-ecommerce-guide-2026-43c3",
-      "summary": "Originally published at shivatechdigital.com Read Full Article Click here to read the complete article About ShivaTechDigital: Leading web development and digital marketing agency in Noida, India. Visit our website | Contact Us",
-      "author": "Shivatechdigital",
-      "published": "Fri, 31 Jul 2026 04:38:19 +0000",
+      "title": "Designing a Transparent Profit Calculator for Build A Ring Farm",
+      "url": "https://dev.to/buildaringfarm/designing-a-transparent-profit-calculator-for-build-a-ring-farm-g01",
+      "summary": "Players often ask a simple question before buying an upgrade: “Will this combination actually earn more per harvest?” Turning that question into a useful fan-made calculator is mostly a data-modeling and interface problem. Start with an explainable model For a lightweight estima…",
+      "author": "Build A Ring Farm Guide",
+      "published": "Sat, 01 Aug 2026 04:34:05 +0000",
       "tags": [
         "webdev",
-        "seo",
-        "marketing",
-        "tutorial"
+        "gamedev"
       ]
     },
     {
-      "id": "d70e3f741219",
+      "id": "c1de9eb8abb7",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "William Hardham",
-      "url": "https://en.wikipedia.org/wiki/William_Hardham",
-      "summary": "William James Hardham was a New Zealand soldier who was a recipient of the Victoria Cross, the highest award for gallantry \"in the face of the enemy\" that could be awarded at the time to military personnel of the British Empire.",
+      "title": "Aquilegia",
+      "url": "https://en.wikipedia.org/wiki/Aquilegia",
+      "summary": "Aquilegia, commonly known as columbines, is a genus of perennial flowering plants in subfamily Thalictroideae of the family Ranunculaceae (buttercups). The genus includes between 70 and 400 taxa with natural ranges across the Northern Hemisphere. Natural and introduced populatio…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "2c84d1a306e8",
+      "id": "b77056b3f0a1",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
-      "url": "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss",
-      "summary": "A senior Hamas official has told the BBC they have agreed to the Board of Peace's plan. Israel has not commented.",
-      "published": "Fri, 31 Jul 2026 03:24:14 GMT",
+      "title": "Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco",
+      "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Spain said most had returned to Morocco by Friday evening, as Italy suspended its Schengen agreement on free movement with Madrid.",
+      "published": "Fri, 31 Jul 2026 17:03:47 GMT",
       "tags": []
     },
     {
-      "id": "585fd2a6a234",
+      "id": "ec62d291055f",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Rushdi Abualouf: If Hamas disarmament plan holds, it could mark first credible step to ending Gaza war",
-      "url": "https://www.bbc.co.uk/news/articles/c9d8gd87d83o?at_medium=RSS&at_campaign=rss",
-      "summary": "The plan - if successful - potentially removes the most significant obstacle to advancing the Trump-backed peace initiative in Gaza.",
-      "published": "Fri, 31 Jul 2026 04:25:49 GMT",
+      "title": "Bowen: Plan for Hamas to disarm faces big obstacles, yet it offers rare hope for Gaza",
+      "url": "https://www.bbc.co.uk/news/articles/c2dkje4p4klo?at_medium=RSS&at_campaign=rss",
+      "summary": "The realities of politics, war, zero trust, the deaths of thousands and the destruction of Gaza will make any agreement very complicated.",
+      "published": "Fri, 31 Jul 2026 15:18:31 GMT",
       "tags": []
     },
     {
       "id": "45cd353ca380",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Nirmal Purja among 10 climbers feared missing after avalanche",
+      "title": "Body of US climber the latest recovered after Pakistan avalanche",
       "url": "https://www.bbc.co.uk/news/articles/cddjz1r01l8o?at_medium=RSS&at_campaign=rss",
-      "summary": "An American, a Chinese national, an Omani and five Nepalis are said to be part of the group feared missing in Pakistan.",
-      "published": "Fri, 31 Jul 2026 00:52:54 GMT",
+      "summary": "The bodies of two other climbers have already been recovered from the mountain, while others are still missing.",
+      "published": "Fri, 31 Jul 2026 20:22:46 GMT",
       "tags": []
     },
     {
-      "id": "4ad405e8bf33",
+      "id": "daed8babd9a7",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Spain sending troops as thousands enter enclave of Ceuta from Morocco",
-      "url": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss",
-      "summary": "At least 15 people drown as migrants try to swim to Spanish territory amid scenes of chaos at the border.",
-      "published": "Fri, 31 Jul 2026 02:41:09 GMT",
+      "title": "Peru's ex-president leaves jail after 15-year jail term for corruption overturned",
+      "url": "https://www.bbc.co.uk/news/articles/cx2j9nj88rro?at_medium=RSS&at_campaign=rss",
+      "summary": "Ollanta Humala had been convicted of money laundering offences alongside his wife in 2025.",
+      "published": "Sat, 01 Aug 2026 02:21:29 GMT",
       "tags": []
     },
     {
-      "id": "ae755848e3c7",
+      "id": "7c5842c64245",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Quantum computers outperform classical ones, with results you can trust",
-      "url": "https://arstechnica.com/science/2026/07/if-a-quantum-computer-outperforms-normal-ones-can-you-tell-if-its-right/",
-      "summary": "Three approaches to the issue of quantum results that can't be verified classically.",
+      "title": "Not just Neanderthals: Ghost lineage in Africa left its mark on our DNA",
+      "url": "https://arstechnica.com/science/2026/07/not-just-neanderthals-ghost-lineage-in-africa-left-its-mark-on-our-dna/",
+      "summary": "Some group with no modern descendants contributed a lot to our genomes.",
       "author": "John Timmer",
-      "published": "Thu, 30 Jul 2026 15:59:37 +0000",
+      "published": "Fri, 31 Jul 2026 22:17:05 +0000",
       "tags": [
         "Science",
-        "algorithms",
-        "Computer science",
-        "error mitigation"
+        "Denisovans",
+        "evolution",
+        "Genetics"
       ]
     },
     {
-      "id": "7d8cfef12add",
+      "id": "c30717c14de3",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "New MCP specification addresses the main barrier to enterprise adoption",
-      "url": "https://arstechnica.com/ai/2026/07/with-a-stateless-makeover-new-mcp-spec-targets-enterprise-scale/",
-      "summary": "Plus, a new policy for the AI protocol ensures features aren't removed suddenly.",
-      "author": "Samuel Axon",
-      "published": "Thu, 30 Jul 2026 14:53:07 +0000",
+      "title": "Doctors took a look at man's painful shoulder—they found the joint was missing",
+      "url": "https://arstechnica.com/health/2026/07/doctors-took-a-look-at-mans-painful-shoulder-they-found-the-joint-was-missing/",
+      "summary": "The term \"Milwaukee Shoulder Syndrome\" was coined in 1981, based on cases in four women.",
+      "author": "Beth Mole",
+      "published": "Fri, 31 Jul 2026 21:51:52 +0000",
       "tags": [
-        "AI",
-        "AAIF",
-        "Agentic AI Foundation",
-        "agents"
+        "Health"
       ]
     },
     {
-      "id": "1401ad6c55e0",
+      "id": "4e0eceb3e08c",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission",
-      "url": "https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years/",
-      "summary": "HAWK withstood years of testing that had yet to uncover a fatal weakness found through Mythos.",
-      "author": "Dan Goodin",
-      "published": "Wed, 29 Jul 2026 22:07:06 +0000",
+      "title": "Google plans to exempt sanctioned nations from Android developer verification",
+      "url": "https://arstechnica.com/gadgets/2026/07/google-plans-to-exempt-sanctioned-nations-from-android-developer-verification/",
+      "summary": "Someone in Cuba or Iran can keep installing APKs with no new restrictions, but devs will suffer.",
+      "author": "Ryan Whitwam",
+      "published": "Fri, 31 Jul 2026 21:35:56 +0000",
       "tags": [
-        "AI",
-        "Biz & IT",
-        "Security"
+        "Google",
+        "Tech",
+        "android",
+        "developer verification"
       ]
     },
     {
-      "id": "6be02d2133ab",
+      "id": "5a0ddefb92b8",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Corporate insiders are sending warning signals about the stock market",
-      "url": "https://www.marketwatch.com/story/the-warning-signal-insiders-are-sending-f0538ddf?mod=mw_rss_topstories",
-      "summary": "Corporate insiders haven’t been this bearish in more than 20 years.",
-      "author": "Mark Hulbert",
-      "published": "Fri, 31 Jul 2026 00:31:00 GMT",
+      "title": "My ex-husband’s sister died — so why is Fidelity asking me for her death certificate?",
+      "url": "https://www.marketwatch.com/story/its-like-buying-a-lottery-ticket-fidelity-asked-for-my-former-sister-in-laws-death-certificate-does-this-mean-im-due-a-windfall-2ebdcd69?mod=mw_rss_topstories",
+      "summary": "“Part of me jokes that paying for a death certificate would be like buying a lottery ticket.”",
+      "author": "Quentin Fottrell",
+      "published": "Sat, 01 Aug 2026 00:45:00 GMT",
       "tags": []
     },
     {
-      "id": "b8dcf4999fb8",
+      "id": "94c49e682e1d",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘Don’t get suckered like I did’: I paid $185 to the wrong passport website. Can I get my money back?",
-      "url": "https://www.marketwatch.com/story/dont-get-suckered-like-i-did-i-paid-185-to-the-wrong-passport-website-can-i-get-my-money-back-3a781412?mod=mw_rss_topstories",
-      "summary": "“I will file a complaint with the Better Business Bureau.”",
+      "title": "If Social Security’s funding crisis is the elephant in the room, this is the mouse everyone has overlooked. You have been warned.",
+      "url": "https://www.marketwatch.com/story/if-social-securitys-funding-crisis-is-the-elephant-in-the-room-this-is-the-mouse-everyone-has-overlooked-you-have-been-warned-b95c450d?mod=mw_rss_topstories",
+      "summary": "“Delaying Social Security until 70 results in an increased monthly payment — and that comes with proportionally higher cost-of-living adjustments.”",
       "author": "Quentin Fottrell",
-      "published": "Fri, 31 Jul 2026 00:24:00 GMT",
+      "published": "Sat, 01 Aug 2026 00:25:00 GMT",
       "tags": []
     },
     {
-      "id": "65e964f7e00e",
+      "id": "c6cf2e13fd3a",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "My friend and her husband own real estate. How can her children from a previous marriage get their fair share?",
-      "url": "https://www.marketwatch.com/story/my-friend-and-her-husband-own-extensive-real-estate-how-can-her-children-from-a-previous-marriage-get-their-fair-share-3eb17c20?mod=mw_rss_topstories",
-      "summary": "“Her husband is open to a trust, but he wants to be the administrator.”",
-      "author": "Quentin Fottrell",
-      "published": "Fri, 31 Jul 2026 00:16:00 GMT",
+      "title": "July ends on a hopeful note for stocks after momentum trade sees biggest wipeout since 2000",
+      "url": "https://www.marketwatch.com/story/july-ends-on-a-hopeful-note-for-stocks-after-momentum-trade-sees-biggest-wipeout-since-2000-4b90b6b2?mod=mw_rss_topstories",
+      "summary": "Investors are seeing more signs that the bottom is near, if not already in.",
+      "author": "Joseph Adinolfi,Frances Yue",
+      "published": "Fri, 31 Jul 2026 22:21:00 GMT",
       "tags": []
     }
   ],
