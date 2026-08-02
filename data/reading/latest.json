@@ -1,276 +1,281 @@
 {
-  "date": "2026-08-01",
+  "date": "2026-08-02",
   "items": [
     {
-      "id": "2e07dbc40628",
+      "id": "68b4f37437ff",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Tornadoes of 2011",
-      "url": "https://simple.wikipedia.org/wiki/Tornadoes_of_2011",
-      "summary": "This page describes the tornadoes that were recorded in 2011. Tornadoes that cause the most damage form most often in the United States, Bangladesh and eastern India. However, they can occur almost anywhere under the right conditions. Tornadoes also appear regularly in southern …",
+      "title": "Piaggio Quargo",
+      "url": "https://simple.wikipedia.org/wiki/Piaggio_Quargo",
+      "summary": "The Piaggio Quargo is a light commercial vehicle produced by the Italian company Piaggio from 2004 to 2016. It measured 3,495 mm in length and replaced the Ape Poker.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "54440ec6abf9",
+      "id": "034a8a637f54",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Freeman Williams",
-      "url": "https://simple.wikipedia.org/wiki/Freeman_Williams",
-      "summary": "Freeman Williams was an American professional basketball player in the National Basketball Association (NBA). He was born in Los Angeles, California. His career lasted from 1978 until 1993. He played for the San Diego Clippers, Atlanta Hawks, Utah Jazz, Tampa Bay Thrillers, Wash…",
+      "title": "Mike Melvill",
+      "url": "https://simple.wikipedia.org/wiki/Mike_Melvill",
+      "summary": "Michael Winston Melvill was a South African-born American world-record-breaking pilot. He was one of the test pilots for SpaceShipOne, the experimental spaceplane created by Scaled Composites. Melvill flew SpaceShipOne on its first flight past the edge of space, flight 15P on Ju…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "c0ca64fbc6d4",
+      "id": "066093c5f082",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Elevators",
-      "url": "https://john.fun/elevators",
+      "title": "Go 1.27 Interactive Tour",
+      "url": "https://victoriametrics.com/blog/go-1-27/index.html",
       "summary": "",
-      "author": "Jrh0203",
-      "published": "2026-07-31",
+      "author": "Hixon10",
+      "published": "2026-08-02",
       "tags": [
-        "▲ 1042"
+        "▲ 92"
       ]
     },
     {
-      "id": "24b8b6659aa1",
+      "id": "a9987b657327",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Flint: A Visualization Language for the AI Era",
-      "url": "https://microsoft.github.io/flint-chart/",
+      "title": "OpenAI's claimed disproof of Connes' Rigidity Conjecture is invalid [pdf]",
+      "url": "https://philarchive.org/archive/NIEWTCv17",
       "summary": "",
-      "author": "vinhnx",
+      "author": "muglug",
+      "published": "2026-08-02",
+      "tags": [
+        "▲ 20"
+      ]
+    },
+    {
+      "id": "1b3c3f79a62c",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "MkLinux and the pimped-out Apple Workgroup Server 9150",
+      "url": "http://oldvcr.blogspot.com/2026/08/mklinux-and-pimped-out-apple-workgroup.html",
+      "summary": "",
+      "author": "goldenskye",
+      "published": "2026-08-02",
+      "tags": [
+        "▲ 22"
+      ]
+    },
+    {
+      "id": "b7838775a0e4",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Plug-in solar is coming. Plug-in batteries should follow",
+      "url": "https://www.regen.co.uk/insights/plug-in-solar-is-coming-plug-in-batteries-should-follow",
+      "summary": "",
+      "author": "thelastgallon",
+      "published": "2026-08-02",
+      "tags": [
+        "▲ 67"
+      ]
+    },
+    {
+      "id": "9abc53d7091c",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Seedance 2.5",
+      "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+      "summary": "",
+      "author": "njaremko",
       "published": "2026-08-01",
       "tags": [
-        "▲ 37"
+        "▲ 230"
       ]
     },
     {
-      "id": "938e3e7d1f52",
+      "id": "b117854c872a",
       "category": "tech",
       "source": "Hacker News",
-      "title": "The development pipeline is a production system",
-      "url": "https://sundry.jerryorr.com/2026/07/31/development-pipeline-is-a-production-system",
+      "title": "Diátaxis",
+      "url": "https://diataxis.fr/",
       "summary": "",
-      "author": "firefoxd",
+      "author": "ryanseys",
       "published": "2026-08-01",
       "tags": [
-        "▲ 35"
+        "▲ 249"
       ]
     },
     {
-      "id": "36742ce60e8d",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "How to Exist",
-      "url": "https://www.raptitude.com/2026/07/how-to-exist/",
-      "summary": "",
-      "author": "walterbell",
-      "published": "2026-08-01",
-      "tags": [
-        "▲ 86"
-      ]
-    },
-    {
-      "id": "705694bbd6ee",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "qm – Multiplayer agent harness for work",
-      "url": "https://github.com/yc-software/qm",
-      "summary": "",
-      "author": "tosh",
-      "published": "2026-07-31",
-      "tags": [
-        "▲ 516"
-      ]
-    },
-    {
-      "id": "f6bb21a31007",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Software for One",
-      "url": "https://www.ajwaxman.com/writing/software-for-one",
-      "summary": "",
-      "author": "awaxman11",
-      "published": "2026-07-29",
-      "tags": [
-        "▲ 56"
-      ]
-    },
-    {
-      "id": "4f6a1732e4fc",
+      "id": "c30999048861",
       "category": "tech",
       "source": "DEV Community",
-      "title": "It's Officially a Buyer's Market, Here's What That Means for Your Listings",
-      "url": "https://dev.to/estateai78600/its-officially-a-buyers-market-heres-what-that-means-for-your-listings-58b8",
-      "summary": "buyer's market 2026, more sellers than buyers, Redfin housing report, real estate listing tips 2026 Sellers now outnumber buyers by the widest margin on record — and it's changing how listings need to compete. The Numbers Nearly 500,000 more sellers than buyers in the U.S. marke…",
-      "author": "Estate AI",
-      "published": "Sat, 01 Aug 2026 04:37:51 +0000",
+      "title": "Free Landing Page - Landing Chatbot",
+      "url": "https://dev.to/razix_devilnemesisloki/free-landing-page-landing-chatbot-5gkl",
+      "summary": "Landing Page Enterprise AI chatbot platform. Professional, ROI-focused. Download + Deploy Save the HTML file, open in any browser, or deploy free on Netlify/Vercel. About Built by OmniIncome-v1 using AI. Support: 0x6731ee8E0Bf0ADbdC86b3a07B61ce338ECA6d55b (Base USDC) Part of Omn…",
+      "author": "RAZIX DEVIL NEMESIS (Loki)",
+      "published": "Sun, 02 Aug 2026 04:40:30 +0000",
       "tags": [
-        "ai",
         "webdev",
-        "reviews",
-        "architecture"
+        "ai",
+        "design",
+        "claude"
       ]
     },
     {
-      "id": "788c97e4f995",
+      "id": "0f7b2b89c33c",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How Generative AI Is Transforming CRM Automation in 2026",
-      "url": "https://dev.to/synfinity-dynamics-pvt-ltd/how-generative-ai-is-transforming-crm-automation-in-2026-13jp",
-      "summary": "In 2026, CRM software is no longer just a database with workflow rules bolted on top. Generative AI has become a core layer inside CRM platforms drafting emails, summarizing calls, enriching leads, and increasingly acting as an autonomous agent that completes multi-step tasks wi…",
-      "author": "Synfinity Dynamics Pvt Ltd",
-      "published": "Sat, 01 Aug 2026 04:37:39 +0000",
+      "title": "💰 MyZubster Payment Flow: A Step-by-Step Guide to Monero Integration\"",
+      "url": "https://dev.to/danielioni/myzubster-payment-flow-a-step-by-step-guide-to-monero-integration-1bjl",
+      "summary": "💰 MyZubster Payment Flow: A Step-by-Step Guide to Monero Integration After days of work, the MyZubster gateway is finally live with a complete Monero payment system! 🚀 Today I'm showing you exactly how the payment flow works, with curl examples you can test right now. 🏗️ The …",
+      "author": "Daniel Ioni",
+      "published": "Sun, 02 Aug 2026 04:25:08 +0000",
       "tags": [
-        "ai",
+        "monero",
+        "myzubster",
+        "webdev",
+        "cryptocurrency"
+      ]
+    },
+    {
+      "id": "3e192ef556dc",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Booking Reviews Scraper — 3K Users Can't Be Wrong",
+      "url": "https://dev.to/nick_davies_323125afbb05c/booking-reviews-scraper-3k-users-cant-be-wrong-2d3n",
+      "summary": "Are you spending hours writing custom scrapers? There's probably an actor for that already. What is Booking Reviews Scraper? Scraper to get reviews from hotels, apartments and other accommodations listed on the Booking.com portal. Extract data using hotel URLs for review text, r…",
+      "author": "Nick Davies",
+      "published": "Sun, 02 Aug 2026 04:25:02 +0000",
+      "tags": [
+        "webdev",
         "automation",
-        "futurechallenge",
+        "api",
+        "tools"
+      ]
+    },
+    {
+      "id": "7446a2fa64b3",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Top 10 SOCIAL MEDIA APIs & Scrapers in 2026 — Ranked by Active Users",
+      "url": "https://dev.to/nick_davies_323125afbb05c/top-10-social-media-apis-scrapers-in-2026-ranked-by-active-users-4dlb",
+      "summary": "Looking for the best social media tools? I put together a list of the top 10 most popular ones on Apify, ranked by active users. 1. TikTok Scraper 230K users | 4.8/5 rating | Pay per event Extract data from TikTok videos, hashtags, and users. Use URLs or search queries to scrape…",
+      "author": "Nick Davies",
+      "published": "Sun, 02 Aug 2026 04:19:51 +0000",
+      "tags": [
+        "socialmedia",
+        "api",
+        "automation",
         "webdev"
       ]
     },
     {
-      "id": "da057a056268",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Your Analytics Can Only See As Far As Your Login Does",
-      "url": "https://dev.to/henry_dan_81513dd35a2f540/your-analytics-can-only-see-as-far-as-your-login-does-332i",
-      "summary": "I run a directory site. People arrive, look at listings, and some of them click through to an external booking page. Those outbound clicks are the only thing on the site that correlates with money, so they are logged: what was clicked, from which page, on what device, and — if t…",
-      "author": "Ted",
-      "published": "Sat, 01 Aug 2026 04:34:28 +0000",
-      "tags": [
-        "analytics",
-        "architecture",
-        "webdev",
-        "programming"
-      ]
-    },
-    {
-      "id": "81015cc1b57b",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Designing a Transparent Profit Calculator for Build A Ring Farm",
-      "url": "https://dev.to/buildaringfarm/designing-a-transparent-profit-calculator-for-build-a-ring-farm-g01",
-      "summary": "Players often ask a simple question before buying an upgrade: “Will this combination actually earn more per harvest?” Turning that question into a useful fan-made calculator is mostly a data-modeling and interface problem. Start with an explainable model For a lightweight estima…",
-      "author": "Build A Ring Farm Guide",
-      "published": "Sat, 01 Aug 2026 04:34:05 +0000",
-      "tags": [
-        "webdev",
-        "gamedev"
-      ]
-    },
-    {
-      "id": "c1de9eb8abb7",
+      "id": "a0e3397b0f4d",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Aquilegia",
-      "url": "https://en.wikipedia.org/wiki/Aquilegia",
-      "summary": "Aquilegia, commonly known as columbines, is a genus of perennial flowering plants in subfamily Thalictroideae of the family Ranunculaceae (buttercups). The genus includes between 70 and 400 taxa with natural ranges across the Northern Hemisphere. Natural and introduced populatio…",
+      "title": "Old Frisian",
+      "url": "https://en.wikipedia.org/wiki/Old_Frisian",
+      "summary": "Old Frisian was a West Germanic language spoken between the late 13th century and the end of the 16th century. It was spoken by Frisians who comprised a loose confederacy along the North Sea coast from around modern-day Bruges in Belgium to the Weser River in modern-day northwes…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "b77056b3f0a1",
+      "id": "f189c87d7484",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco",
-      "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Spain said most had returned to Morocco by Friday evening, as Italy suspended its Schengen agreement on free movement with Madrid.",
-      "published": "Fri, 31 Jul 2026 17:03:47 GMT",
+      "title": "Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal",
+      "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss",
+      "summary": "The US president's message came amid media reports that he was planning new, intense strikes on Iran over the weekend.",
+      "published": "Sun, 02 Aug 2026 03:05:16 GMT",
       "tags": []
     },
     {
-      "id": "ec62d291055f",
+      "id": "be8ccf657c9d",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Bowen: Plan for Hamas to disarm faces big obstacles, yet it offers rare hope for Gaza",
-      "url": "https://www.bbc.co.uk/news/articles/c2dkje4p4klo?at_medium=RSS&at_campaign=rss",
-      "summary": "The realities of politics, war, zero trust, the deaths of thousands and the destruction of Gaza will make any agreement very complicated.",
-      "published": "Fri, 31 Jul 2026 15:18:31 GMT",
+      "title": "How Spain's migrant crisis created a political storm - whipped up by social media",
+      "url": "https://www.bbc.co.uk/news/articles/c62vl925dqdo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Ceuta crossings have shaken Europe politically, exposing divisions over the sensitive issue of migration, the BBC's Sarah Rainsford writes.",
+      "published": "Sun, 02 Aug 2026 00:55:16 GMT",
       "tags": []
     },
     {
-      "id": "45cd353ca380",
+      "id": "8dcf962fed28",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Body of US climber the latest recovered after Pakistan avalanche",
-      "url": "https://www.bbc.co.uk/news/articles/cddjz1r01l8o?at_medium=RSS&at_campaign=rss",
-      "summary": "The bodies of two other climbers have already been recovered from the mountain, while others are still missing.",
-      "published": "Fri, 31 Jul 2026 20:22:46 GMT",
+      "title": "EU calls emergency meeting to discuss Ceuta migrant crossings",
+      "url": "https://www.bbc.co.uk/news/articles/cz7d17r455go?at_medium=RSS&at_campaign=rss",
+      "summary": "There have been tense exchanges between Spain and other EU states over the influx of migrants into the enclave of Ceuta.",
+      "published": "Sat, 01 Aug 2026 20:09:27 GMT",
       "tags": []
     },
     {
-      "id": "daed8babd9a7",
+      "id": "9d8fd6f39a4e",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Peru's ex-president leaves jail after 15-year jail term for corruption overturned",
-      "url": "https://www.bbc.co.uk/news/articles/cx2j9nj88rro?at_medium=RSS&at_campaign=rss",
-      "summary": "Ollanta Humala had been convicted of money laundering offences alongside his wife in 2025.",
-      "published": "Sat, 01 Aug 2026 02:21:29 GMT",
+      "title": "Young guns for hire - the teenage hitmen recruited to kill across Europe",
+      "url": "https://www.bbc.co.uk/news/articles/czrjyevmv61o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Foxtrot Network is thought to be responsible for about 35 murders in Europe, and uses violence-as-a-service tactics.",
+      "published": "Sat, 01 Aug 2026 23:03:35 GMT",
       "tags": []
     },
     {
-      "id": "7c5842c64245",
+      "id": "3e26c8def12c",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Not just Neanderthals: Ghost lineage in Africa left its mark on our DNA",
-      "url": "https://arstechnica.com/science/2026/07/not-just-neanderthals-ghost-lineage-in-africa-left-its-mark-on-our-dna/",
-      "summary": "Some group with no modern descendants contributed a lot to our genomes.",
-      "author": "John Timmer",
-      "published": "Fri, 31 Jul 2026 22:17:05 +0000",
+      "title": "Here's how engineers plan to save the satellite sent to save NASA's Swift mission",
+      "url": "https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/",
+      "summary": "\"We believe that a capture of Swift, an attempted capture of Swift, is very much in the cards.\"",
+      "author": "Stephen Clark",
+      "published": "Sat, 01 Aug 2026 18:20:11 +0000",
       "tags": [
         "Science",
-        "Denisovans",
-        "evolution",
-        "Genetics"
+        "Space",
+        "Commercial space",
+        "katalyst space"
       ]
     },
     {
-      "id": "c30717c14de3",
+      "id": "9b00352cfacc",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Doctors took a look at man's painful shoulder—they found the joint was missing",
-      "url": "https://arstechnica.com/health/2026/07/doctors-took-a-look-at-mans-painful-shoulder-they-found-the-joint-was-missing/",
-      "summary": "The term \"Milwaukee Shoulder Syndrome\" was coined in 1981, based on cases in four women.",
-      "author": "Beth Mole",
-      "published": "Fri, 31 Jul 2026 21:51:52 +0000",
+      "title": "Review: Yes, we're still arguing about Nolan's The Odyssey",
+      "url": "https://arstechnica.com/culture/2026/08/review-yes-were-still-arguing-about-nolans-the-odyssey/",
+      "summary": "Christopher Nolan's impressionistic remix of Homer's epic poem finds the man behind the myth.",
+      "author": "Jennifer Ouellette",
+      "published": "Sat, 01 Aug 2026 15:19:04 +0000",
       "tags": [
-        "Health"
+        "Culture",
+        "Christopher Nolan",
+        "film reviews",
+        "reviews"
       ]
     },
     {
-      "id": "4e0eceb3e08c",
+      "id": "9a9a3a92c754",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Google plans to exempt sanctioned nations from Android developer verification",
-      "url": "https://arstechnica.com/gadgets/2026/07/google-plans-to-exempt-sanctioned-nations-from-android-developer-verification/",
-      "summary": "Someone in Cuba or Iran can keep installing APKs with no new restrictions, but devs will suffer.",
-      "author": "Ryan Whitwam",
-      "published": "Fri, 31 Jul 2026 21:35:56 +0000",
+      "title": "As Reddit stock falls, CEO questions value of Google's AI Overviews",
+      "url": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/",
+      "summary": "Reddit may still be considering ending its licensing deal with Google.",
+      "author": "Samuel Axon",
+      "published": "Sat, 01 Aug 2026 12:30:36 +0000",
       "tags": [
-        "Google",
-        "Tech",
-        "android",
-        "developer verification"
+        "AI",
+        "ai overviews",
+        "earnings",
+        "google"
       ]
     },
     {
-      "id": "5a0ddefb92b8",
+      "id": "4978a54e64ff",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "My ex-husband’s sister died — so why is Fidelity asking me for her death certificate?",
-      "url": "https://www.marketwatch.com/story/its-like-buying-a-lottery-ticket-fidelity-asked-for-my-former-sister-in-laws-death-certificate-does-this-mean-im-due-a-windfall-2ebdcd69?mod=mw_rss_topstories",
-      "summary": "“Part of me jokes that paying for a death certificate would be like buying a lottery ticket.”",
+      "title": "My girlfriend is 62. Can she claim her late husband’s full Social Security benefit — or does she have to wait?",
+      "url": "https://www.marketwatch.com/story/my-girlfriend-is-62-can-she-claim-her-late-husbands-full-social-security-benefit-or-does-she-have-to-wait-315c0fa1?mod=mw_rss_topstories",
+      "summary": "“Her husband passed away 10 years ago. They had been married for more than 20 years.”",
       "author": "Quentin Fottrell",
-      "published": "Sat, 01 Aug 2026 00:45:00 GMT",
+      "published": "Sat, 01 Aug 2026 22:00:00 GMT",
       "tags": []
     },
     {
@@ -281,18 +286,18 @@
       "url": "https://www.marketwatch.com/story/if-social-securitys-funding-crisis-is-the-elephant-in-the-room-this-is-the-mouse-everyone-has-overlooked-you-have-been-warned-b95c450d?mod=mw_rss_topstories",
       "summary": "“Delaying Social Security until 70 results in an increased monthly payment — and that comes with proportionally higher cost-of-living adjustments.”",
       "author": "Quentin Fottrell",
-      "published": "Sat, 01 Aug 2026 00:25:00 GMT",
+      "published": "Sat, 01 Aug 2026 21:15:00 GMT",
       "tags": []
     },
     {
-      "id": "c6cf2e13fd3a",
+      "id": "bb705eed455d",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "July ends on a hopeful note for stocks after momentum trade sees biggest wipeout since 2000",
-      "url": "https://www.marketwatch.com/story/july-ends-on-a-hopeful-note-for-stocks-after-momentum-trade-sees-biggest-wipeout-since-2000-4b90b6b2?mod=mw_rss_topstories",
-      "summary": "Investors are seeing more signs that the bottom is near, if not already in.",
-      "author": "Joseph Adinolfi,Frances Yue",
-      "published": "Fri, 31 Jul 2026 22:21:00 GMT",
+      "title": "‘We have always been civil’: My sister refuses to replace me as executor. Can I step down before she dies?",
+      "url": "https://www.marketwatch.com/story/we-have-always-been-civil-my-sister-refuses-to-replace-me-as-executor-can-i-step-down-before-she-dies-84a835a9?mod=mw_rss_topstories",
+      "summary": "“I haven’t seen my sister since our mother’s funeral more than 20 years ago.”",
+      "author": "Quentin Fottrell",
+      "published": "Sat, 01 Aug 2026 21:00:00 GMT",
       "tags": []
     }
   ],
