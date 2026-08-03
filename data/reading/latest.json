@@ -1,222 +1,222 @@
 {
-  "date": "2026-08-02",
+  "date": "2026-08-03",
   "items": [
     {
-      "id": "68b4f37437ff",
+      "id": "e363cfa2ab1d",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Piaggio Quargo",
-      "url": "https://simple.wikipedia.org/wiki/Piaggio_Quargo",
-      "summary": "The Piaggio Quargo is a light commercial vehicle produced by the Italian company Piaggio from 2004 to 2016. It measured 3,495 mm in length and replaced the Ape Poker.",
+      "title": "Allobates zaparo",
+      "url": "https://simple.wikipedia.org/wiki/Allobates_zaparo",
+      "summary": "The sanguine poison frog, sanguine poison-arrow frog, or Zaparo's poison frog is a frog. It lives in Ecuador and Peru.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "034a8a637f54",
+      "id": "5f0af79e9545",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Mike Melvill",
-      "url": "https://simple.wikipedia.org/wiki/Mike_Melvill",
-      "summary": "Michael Winston Melvill was a South African-born American world-record-breaking pilot. He was one of the test pilots for SpaceShipOne, the experimental spaceplane created by Scaled Composites. Melvill flew SpaceShipOne on its first flight past the edge of space, flight 15P on Ju…",
+      "title": "Triberg im Schwarzwald",
+      "url": "https://simple.wikipedia.org/wiki/Triberg_im_Schwarzwald",
+      "summary": "Triberg im Schwarzwald is a town in Schwarzwald-Baar in Baden-Württemberg in Germany.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "066093c5f082",
+      "id": "f1afe25775a0",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Go 1.27 Interactive Tour",
-      "url": "https://victoriametrics.com/blog/go-1-27/index.html",
+      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+      "url": "https://qwen.ai/blog?id=qwen3.8",
       "summary": "",
-      "author": "Hixon10",
+      "author": "ai2027",
+      "published": "2026-08-03",
+      "tags": [
+        "▲ 224"
+      ]
+    },
+    {
+      "id": "37212835e9a4",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Show HN: Isopolis – Isometric pixel map of SF",
+      "url": "https://sf.isopolis.city/",
+      "summary": "",
+      "author": "nuwandavek",
+      "published": "2026-08-03",
+      "tags": [
+        "▲ 114"
+      ]
+    },
+    {
+      "id": "6195dffb3d7c",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "CP/M-386 – CP/M for 386 protected mode, derived from CP/M‑68K",
+      "url": "https://github.com/johnsonjh/cpm386",
+      "summary": "",
+      "author": "TMWNN",
+      "published": "2026-08-03",
+      "tags": [
+        "▲ 46"
+      ]
+    },
+    {
+      "id": "823eb2b8e652",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Karpathy’s Pelican",
+      "url": "https://twitter.com/karpathy/status/2083749667410727319",
+      "summary": "https://xcancel.com/karpathy/status/2083749667410727319",
+      "author": "delichon",
       "published": "2026-08-02",
       "tags": [
-        "▲ 92"
+        "▲ 500"
       ]
     },
     {
-      "id": "a9987b657327",
+      "id": "04dd9313e246",
       "category": "tech",
       "source": "Hacker News",
-      "title": "OpenAI's claimed disproof of Connes' Rigidity Conjecture is invalid [pdf]",
-      "url": "https://philarchive.org/archive/NIEWTCv17",
+      "title": "Show HN: ssh ssh.place",
+      "url": "https://ssh.place",
       "summary": "",
-      "author": "muglug",
-      "published": "2026-08-02",
+      "author": "jeninh",
+      "published": "2026-08-03",
       "tags": [
-        "▲ 20"
+        "▲ 71"
       ]
     },
     {
-      "id": "1b3c3f79a62c",
+      "id": "245bd9037021",
       "category": "tech",
       "source": "Hacker News",
-      "title": "MkLinux and the pimped-out Apple Workgroup Server 9150",
-      "url": "http://oldvcr.blogspot.com/2026/08/mklinux-and-pimped-out-apple-workgroup.html",
+      "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
+      "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
       "summary": "",
-      "author": "goldenskye",
-      "published": "2026-08-02",
+      "author": "JSR_FDED",
+      "published": "2026-08-03",
       "tags": [
-        "▲ 22"
+        "▲ 23"
       ]
     },
     {
-      "id": "b7838775a0e4",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Plug-in solar is coming. Plug-in batteries should follow",
-      "url": "https://www.regen.co.uk/insights/plug-in-solar-is-coming-plug-in-batteries-should-follow",
-      "summary": "",
-      "author": "thelastgallon",
-      "published": "2026-08-02",
-      "tags": [
-        "▲ 67"
-      ]
-    },
-    {
-      "id": "9abc53d7091c",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Seedance 2.5",
-      "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-      "summary": "",
-      "author": "njaremko",
-      "published": "2026-08-01",
-      "tags": [
-        "▲ 230"
-      ]
-    },
-    {
-      "id": "b117854c872a",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Diátaxis",
-      "url": "https://diataxis.fr/",
-      "summary": "",
-      "author": "ryanseys",
-      "published": "2026-08-01",
-      "tags": [
-        "▲ 249"
-      ]
-    },
-    {
-      "id": "c30999048861",
+      "id": "2bf7660e0f76",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Free Landing Page - Landing Chatbot",
-      "url": "https://dev.to/razix_devilnemesisloki/free-landing-page-landing-chatbot-5gkl",
-      "summary": "Landing Page Enterprise AI chatbot platform. Professional, ROI-focused. Download + Deploy Save the HTML file, open in any browser, or deploy free on Netlify/Vercel. About Built by OmniIncome-v1 using AI. Support: 0x6731ee8E0Bf0ADbdC86b3a07B61ce338ECA6d55b (Base USDC) Part of Omn…",
-      "author": "RAZIX DEVIL NEMESIS (Loki)",
-      "published": "Sun, 02 Aug 2026 04:40:30 +0000",
+      "title": "Building Telegram Notification & Webhook Alert Bot: Technical Architecture & Guide",
+      "url": "https://dev.to/truongngoctai86/building-telegram-notification-webhook-alert-bot-technical-architecture-guide-fo2",
+      "summary": "Building Telegram Notification & Webhook Alert Bot: Technical Architecture & Guide Introduction Building robust software requires clean architecture and battle-tested patterns. In this article, we break down the design of Telegram Notification & Webhook Alert Bot . Architecture …",
+      "author": "Trương Ngọc Tài",
+      "published": "Mon, 03 Aug 2026 04:47:01 +0000",
       "tags": [
-        "webdev",
-        "ai",
-        "design",
-        "claude"
-      ]
-    },
-    {
-      "id": "0f7b2b89c33c",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "💰 MyZubster Payment Flow: A Step-by-Step Guide to Monero Integration\"",
-      "url": "https://dev.to/danielioni/myzubster-payment-flow-a-step-by-step-guide-to-monero-integration-1bjl",
-      "summary": "💰 MyZubster Payment Flow: A Step-by-Step Guide to Monero Integration After days of work, the MyZubster gateway is finally live with a complete Monero payment system! 🚀 Today I'm showing you exactly how the payment flow works, with curl examples you can test right now. 🏗️ The …",
-      "author": "Daniel Ioni",
-      "published": "Sun, 02 Aug 2026 04:25:08 +0000",
-      "tags": [
-        "monero",
-        "myzubster",
-        "webdev",
-        "cryptocurrency"
-      ]
-    },
-    {
-      "id": "3e192ef556dc",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Booking Reviews Scraper — 3K Users Can't Be Wrong",
-      "url": "https://dev.to/nick_davies_323125afbb05c/booking-reviews-scraper-3k-users-cant-be-wrong-2d3n",
-      "summary": "Are you spending hours writing custom scrapers? There's probably an actor for that already. What is Booking Reviews Scraper? Scraper to get reviews from hotels, apartments and other accommodations listed on the Booking.com portal. Extract data using hotel URLs for review text, r…",
-      "author": "Nick Davies",
-      "published": "Sun, 02 Aug 2026 04:25:02 +0000",
-      "tags": [
-        "webdev",
-        "automation",
-        "api",
-        "tools"
-      ]
-    },
-    {
-      "id": "7446a2fa64b3",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Top 10 SOCIAL MEDIA APIs & Scrapers in 2026 — Ranked by Active Users",
-      "url": "https://dev.to/nick_davies_323125afbb05c/top-10-social-media-apis-scrapers-in-2026-ranked-by-active-users-4dlb",
-      "summary": "Looking for the best social media tools? I put together a list of the top 10 most popular ones on Apify, ranked by active users. 1. TikTok Scraper 230K users | 4.8/5 rating | Pay per event Extract data from TikTok videos, hashtags, and users. Use URLs or search queries to scrape…",
-      "author": "Nick Davies",
-      "published": "Sun, 02 Aug 2026 04:19:51 +0000",
-      "tags": [
-        "socialmedia",
-        "api",
-        "automation",
+        "python",
+        "javascript",
+        "saas",
         "webdev"
       ]
     },
     {
-      "id": "a0e3397b0f4d",
+      "id": "f8bb23f46155",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Building Test: Technical Architecture & Guide",
+      "url": "https://dev.to/truongngoctai86/building-test-technical-architecture-guide-18h2",
+      "summary": "Building Test: Technical Architecture & Guide Introduction Building robust software requires clean architecture and battle-tested patterns. In this article, we break down the design of Test . Architecture Overview The system is structured into modular components: Core Processing…",
+      "author": "Trương Ngọc Tài",
+      "published": "Mon, 03 Aug 2026 04:46:59 +0000",
+      "tags": [
+        "python",
+        "javascript",
+        "saas",
+        "webdev"
+      ]
+    },
+    {
+      "id": "2846f6f12462",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Best Dynatrace Alternatives in 2026 (For Teams That Do Not Need Enterprise APM)",
+      "url": "https://dev.to/vigilmon/best-dynatrace-alternatives-in-2026-for-teams-that-do-not-need-enterprise-apm-522b",
+      "summary": "Best Dynatrace Alternatives in 2026 (For Teams That Do Not Need Enterprise APM) Dynatrace is a powerful observability platform with AI-driven root cause analysis, automatic dependency mapping, and enterprise-grade distributed tracing. But if you are evaluating Dynatrace alternat…",
+      "author": "Vigilmon",
+      "published": "Mon, 03 Aug 2026 04:46:59 +0000",
+      "tags": [
+        "monitoring",
+        "devops",
+        "webdev",
+        "productivity"
+      ]
+    },
+    {
+      "id": "72940ca1b891",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "What is Uptime Monitoring? A Practical Guide for Developers",
+      "url": "https://dev.to/vigilmon/what-is-uptime-monitoring-a-practical-guide-for-developers-3oom",
+      "summary": "Uptime monitoring means automatically checking whether your website, API, or service is accessible — and alerting you when it's not. But the full picture is more nuanced than that. Here's what you actually need to know as a developer or DevOps engineer. The Simple Definition Upt…",
+      "author": "Vigilmon",
+      "published": "Mon, 03 Aug 2026 04:46:07 +0000",
+      "tags": [
+        "monitoring",
+        "webdev",
+        "devops",
+        "beginners"
+      ]
+    },
+    {
+      "id": "6f4a6304ee26",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Old Frisian",
-      "url": "https://en.wikipedia.org/wiki/Old_Frisian",
-      "summary": "Old Frisian was a West Germanic language spoken between the late 13th century and the end of the 16th century. It was spoken by Frisians who comprised a loose confederacy along the North Sea coast from around modern-day Bruges in Belgium to the Weser River in modern-day northwes…",
+      "title": "Russian battleship Petropavlovsk (1894)",
+      "url": "https://en.wikipedia.org/wiki/Russian_battleship_Petropavlovsk_(1894)",
+      "summary": "Petropavlovsk was the lead ship of her class of three pre-dreadnought battleships built for the Imperial Russian Navy during the last decade of the 19th century. The ship was sent to the Far East almost immediately after entering service in 1899, where she participated in the su…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "f189c87d7484",
+      "id": "57b1ff7bea67",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal",
-      "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss",
-      "summary": "The US president's message came amid media reports that he was planning new, intense strikes on Iran over the weekend.",
-      "published": "Sun, 02 Aug 2026 03:05:16 GMT",
+      "title": "Trump suggests new talks with Iran to begin on Monday",
+      "url": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss",
+      "summary": "Tehran has not responded to the suggestion that new talks are imminent. Trump has previously said a negotiated end to the war is close, only for strikes to resume.",
+      "published": "Mon, 03 Aug 2026 00:11:18 GMT",
       "tags": []
     },
     {
-      "id": "be8ccf657c9d",
+      "id": "2e80605faa5a",
       "category": "news",
       "source": "BBC 世界",
-      "title": "How Spain's migrant crisis created a political storm - whipped up by social media",
-      "url": "https://www.bbc.co.uk/news/articles/c62vl925dqdo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Ceuta crossings have shaken Europe politically, exposing divisions over the sensitive issue of migration, the BBC's Sarah Rainsford writes.",
-      "published": "Sun, 02 Aug 2026 00:55:16 GMT",
+      "title": "'My only son was shot standing up for justice' - inside city gripped by deadly protests in Pakistan-administered Kashmir",
+      "url": "https://www.bbc.co.uk/news/articles/c5yvqk69enko?at_medium=RSS&at_campaign=rss",
+      "summary": "The BBC gains unique access to Rawalakot, scene of violent clashes between security forces and protesters in Pakistan-administered Kashmir.",
+      "published": "Mon, 03 Aug 2026 03:32:21 GMT",
       "tags": []
     },
     {
-      "id": "8dcf962fed28",
+      "id": "0fa80837ef64",
       "category": "news",
       "source": "BBC 世界",
-      "title": "EU calls emergency meeting to discuss Ceuta migrant crossings",
-      "url": "https://www.bbc.co.uk/news/articles/cz7d17r455go?at_medium=RSS&at_campaign=rss",
-      "summary": "There have been tense exchanges between Spain and other EU states over the influx of migrants into the enclave of Ceuta.",
-      "published": "Sat, 01 Aug 2026 20:09:27 GMT",
+      "title": "Two crew killed after firefighting helicopters collide in Greece, as British pilot survives",
+      "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss",
+      "summary": "One Danish and one Greek national died in the incident, while a British pilot and another Greek crew member survived.",
+      "published": "Mon, 03 Aug 2026 01:03:31 GMT",
       "tags": []
     },
     {
-      "id": "9d8fd6f39a4e",
+      "id": "05d148b7a87c",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Young guns for hire - the teenage hitmen recruited to kill across Europe",
-      "url": "https://www.bbc.co.uk/news/articles/czrjyevmv61o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Foxtrot Network is thought to be responsible for about 35 murders in Europe, and uses violence-as-a-service tactics.",
-      "published": "Sat, 01 Aug 2026 23:03:35 GMT",
+      "title": "Massive Attack respond after Singapore ban over Palestine display",
+      "url": "https://www.bbc.co.uk/news/articles/cr59qe86yj4o?at_medium=RSS&at_campaign=rss",
+      "summary": "The UK band says they are \"surprised and disappointed\" by their treatment over shouting \"free Palestine\" at a concert there.",
+      "published": "Mon, 03 Aug 2026 01:31:05 GMT",
       "tags": []
     },
     {
@@ -268,6 +268,17 @@
       ]
     },
     {
+      "id": "09dc01c3f67a",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "We’re in our 60s with $1.5 million. Would a trust be more effective than a will to prevent conflict among our heirs?",
+      "url": "https://www.marketwatch.com/story/we-already-have-wills-were-in-our-60s-with-1-5-million-how-do-we-prevent-family-drama-among-our-heirs-bf7b0eb1?mod=mw_rss_topstories",
+      "summary": "“I realize that probate can be lengthy, public and expensive.”",
+      "author": "Quentin Fottrell",
+      "published": "Sun, 02 Aug 2026 17:00:00 GMT",
+      "tags": []
+    },
+    {
       "id": "4978a54e64ff",
       "category": "finance",
       "source": "MarketWatch",
@@ -275,29 +286,18 @@
       "url": "https://www.marketwatch.com/story/my-girlfriend-is-62-can-she-claim-her-late-husbands-full-social-security-benefit-or-does-she-have-to-wait-315c0fa1?mod=mw_rss_topstories",
       "summary": "“Her husband passed away 10 years ago. They had been married for more than 20 years.”",
       "author": "Quentin Fottrell",
-      "published": "Sat, 01 Aug 2026 22:00:00 GMT",
+      "published": "Sun, 02 Aug 2026 16:00:00 GMT",
       "tags": []
     },
     {
-      "id": "94c49e682e1d",
+      "id": "92216ec13aee",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "If Social Security’s funding crisis is the elephant in the room, this is the mouse everyone has overlooked. You have been warned.",
-      "url": "https://www.marketwatch.com/story/if-social-securitys-funding-crisis-is-the-elephant-in-the-room-this-is-the-mouse-everyone-has-overlooked-you-have-been-warned-b95c450d?mod=mw_rss_topstories",
-      "summary": "“Delaying Social Security until 70 results in an increased monthly payment — and that comes with proportionally higher cost-of-living adjustments.”",
-      "author": "Quentin Fottrell",
-      "published": "Sat, 01 Aug 2026 21:15:00 GMT",
-      "tags": []
-    },
-    {
-      "id": "bb705eed455d",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "‘We have always been civil’: My sister refuses to replace me as executor. Can I step down before she dies?",
-      "url": "https://www.marketwatch.com/story/we-have-always-been-civil-my-sister-refuses-to-replace-me-as-executor-can-i-step-down-before-she-dies-84a835a9?mod=mw_rss_topstories",
-      "summary": "“I haven’t seen my sister since our mother’s funeral more than 20 years ago.”",
-      "author": "Quentin Fottrell",
-      "published": "Sat, 01 Aug 2026 21:00:00 GMT",
+      "title": "Here’s what’s worth streaming in August 2026 on Netflix, Hulu, HBO Max and more",
+      "url": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-august-2026-on-netflix-hulu-hbo-max-and-more-21b78a08?mod=mw_rss_topstories",
+      "summary": "Turn off your brain and enjoy new seasons of Apple’s ‘Ted Lasso,’ Amazon’s ‘Reacher,’ Netflix’s ‘Outer Banks’ and much more",
+      "author": "Mike Murphy",
+      "published": "Sun, 02 Aug 2026 15:19:00 GMT",
       "tags": []
     }
   ],
