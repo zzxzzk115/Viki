@@ -1,303 +1,302 @@
 {
-  "date": "2026-08-03",
+  "date": "2026-08-04",
   "items": [
     {
-      "id": "e363cfa2ab1d",
+      "id": "01a084131be0",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Allobates zaparo",
-      "url": "https://simple.wikipedia.org/wiki/Allobates_zaparo",
-      "summary": "The sanguine poison frog, sanguine poison-arrow frog, or Zaparo's poison frog is a frog. It lives in Ecuador and Peru.",
+      "title": "Pistol Star",
+      "url": "https://simple.wikipedia.org/wiki/Pistol_Star",
+      "summary": "The Pistol Star is a blue hypergiant. It is one of the most luminous stars in the Milky Way galaxy.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "5f0af79e9545",
+      "id": "b6e4470aa972",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Triberg im Schwarzwald",
-      "url": "https://simple.wikipedia.org/wiki/Triberg_im_Schwarzwald",
-      "summary": "Triberg im Schwarzwald is a town in Schwarzwald-Baar in Baden-Württemberg in Germany.",
+      "title": "Windows Phone 8.1",
+      "url": "https://simple.wikipedia.org/wiki/Windows_Phone_8.1",
+      "summary": "Windows Phone 8.1 is the third generation of Windows Phone was released in winter 2013, Microsoft reach developed for Windows Phone 8.1 in the most for Windows 8.1, was released for public on July 15, 2014, after the end of support was until July 11, 2017. Microsoft until no sup…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "f1afe25775a0",
+      "id": "3e9781fff505",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
-      "url": "https://qwen.ai/blog?id=qwen3.8",
+      "title": "LLMs reward expertise",
+      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
       "summary": "",
-      "author": "ai2027",
+      "author": "MaxMussio",
       "published": "2026-08-03",
       "tags": [
-        "▲ 224"
+        "▲ 617"
       ]
     },
     {
-      "id": "37212835e9a4",
+      "id": "693f258b86f6",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Show HN: Isopolis – Isometric pixel map of SF",
-      "url": "https://sf.isopolis.city/",
+      "title": "Amazonian civilization had estimated 3M people in 3% of forest area",
+      "url": "https://www.science.org/content/article/odd-shapes-hidden-dense-amazon-rainforest-reveal-sprawling-ancient-civilization",
       "summary": "",
-      "author": "nuwandavek",
+      "author": "marojejian",
+      "published": "2026-07-29",
+      "tags": [
+        "▲ 85"
+      ]
+    },
+    {
+      "id": "8e9b4ad079fc",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+      "url": "https://github.com/leonickson1/Swiftlet",
+      "summary": "",
+      "author": "leonickson",
       "published": "2026-08-03",
       "tags": [
-        "▲ 114"
+        "▲ 40"
       ]
     },
     {
-      "id": "6195dffb3d7c",
+      "id": "ff4ecb27326b",
       "category": "tech",
       "source": "Hacker News",
-      "title": "CP/M-386 – CP/M for 386 protected mode, derived from CP/M‑68K",
-      "url": "https://github.com/johnsonjh/cpm386",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
       "summary": "",
-      "author": "TMWNN",
+      "author": "milkshakes",
       "published": "2026-08-03",
       "tags": [
-        "▲ 46"
+        "▲ 484"
       ]
     },
     {
-      "id": "823eb2b8e652",
+      "id": "109216a3d979",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Karpathy’s Pelican",
-      "url": "https://twitter.com/karpathy/status/2083749667410727319",
-      "summary": "https://xcancel.com/karpathy/status/2083749667410727319",
-      "author": "delichon",
-      "published": "2026-08-02",
-      "tags": [
-        "▲ 500"
-      ]
-    },
-    {
-      "id": "04dd9313e246",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Show HN: ssh ssh.place",
-      "url": "https://ssh.place",
+      "title": "Devtools must be open source",
+      "url": "https://blog.exe.dev/devtools-must-be-open-source",
       "summary": "",
-      "author": "jeninh",
+      "author": "bryanmikaelian",
       "published": "2026-08-03",
       "tags": [
-        "▲ 71"
+        "▲ 540"
       ]
     },
     {
-      "id": "245bd9037021",
+      "id": "c00f85b12506",
       "category": "tech",
       "source": "Hacker News",
-      "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
-      "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
+      "title": "That time when I failed the Microsoft interview",
+      "url": "https://ochagavia.nl/blog/that-time-when-i-failed-the-microsoft-interview/",
       "summary": "",
-      "author": "JSR_FDED",
-      "published": "2026-08-03",
+      "author": "wofo",
+      "published": "2026-07-29",
       "tags": [
-        "▲ 23"
+        "▲ 28"
       ]
     },
     {
-      "id": "2bf7660e0f76",
+      "id": "96ac7e8d1676",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Building Telegram Notification & Webhook Alert Bot: Technical Architecture & Guide",
-      "url": "https://dev.to/truongngoctai86/building-telegram-notification-webhook-alert-bot-technical-architecture-guide-fo2",
-      "summary": "Building Telegram Notification & Webhook Alert Bot: Technical Architecture & Guide Introduction Building robust software requires clean architecture and battle-tested patterns. In this article, we break down the design of Telegram Notification & Webhook Alert Bot . Architecture …",
-      "author": "Trương Ngọc Tài",
-      "published": "Mon, 03 Aug 2026 04:47:01 +0000",
+      "title": "Building a Multi-Agent Operating System for AI Software Development",
+      "url": "https://dev.to/chithudas/building-a-multi-agent-operating-system-for-ai-software-development-2mon",
+      "summary": "Introducing AgentOS Kit After months of designing AI development workflows, I've open-sourced AgentOS Kit. AgentOS Kit is a Multi-Agent Operating System that coordinates specialized AI agents to work together on software projects. Instead of one AI doing everything, AgentOS Kit …",
+      "author": "chithudas",
+      "published": "Tue, 04 Aug 2026 04:21:18 +0000",
       "tags": [
-        "python",
-        "javascript",
-        "saas",
-        "webdev"
-      ]
-    },
-    {
-      "id": "f8bb23f46155",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Building Test: Technical Architecture & Guide",
-      "url": "https://dev.to/truongngoctai86/building-test-technical-architecture-guide-18h2",
-      "summary": "Building Test: Technical Architecture & Guide Introduction Building robust software requires clean architecture and battle-tested patterns. In this article, we break down the design of Test . Architecture Overview The system is structured into modular components: Core Processing…",
-      "author": "Trương Ngọc Tài",
-      "published": "Mon, 03 Aug 2026 04:46:59 +0000",
-      "tags": [
-        "python",
-        "javascript",
-        "saas",
-        "webdev"
-      ]
-    },
-    {
-      "id": "2846f6f12462",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Best Dynatrace Alternatives in 2026 (For Teams That Do Not Need Enterprise APM)",
-      "url": "https://dev.to/vigilmon/best-dynatrace-alternatives-in-2026-for-teams-that-do-not-need-enterprise-apm-522b",
-      "summary": "Best Dynatrace Alternatives in 2026 (For Teams That Do Not Need Enterprise APM) Dynatrace is a powerful observability platform with AI-driven root cause analysis, automatic dependency mapping, and enterprise-grade distributed tracing. But if you are evaluating Dynatrace alternat…",
-      "author": "Vigilmon",
-      "published": "Mon, 03 Aug 2026 04:46:59 +0000",
-      "tags": [
-        "monitoring",
-        "devops",
+        "ai",
         "webdev",
+        "programming",
+        "javascript"
+      ]
+    },
+    {
+      "id": "dcce4e6ca1a0",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Stop pasting production JSON into random formatter sites",
+      "url": "https://dev.to/nickalltoolsverse/stop-pasting-production-json-into-random-formatter-sites-1dm7",
+      "summary": "A webhook fails, an API returns one enormous line, and you need to inspect it quickly. The usual reaction is to search for a JSON formatter and paste the entire payload into the first result. That is convenient, but production JSON often contains much more than the field you are…",
+      "author": "Nick-Builds-tools",
+      "published": "Tue, 04 Aug 2026 04:15:51 +0000",
+      "tags": [
+        "webdev",
+        "javascript",
+        "security",
         "productivity"
       ]
     },
     {
-      "id": "72940ca1b891",
+      "id": "3eb70643c3da",
       "category": "tech",
       "source": "DEV Community",
-      "title": "What is Uptime Monitoring? A Practical Guide for Developers",
-      "url": "https://dev.to/vigilmon/what-is-uptime-monitoring-a-practical-guide-for-developers-3oom",
-      "summary": "Uptime monitoring means automatically checking whether your website, API, or service is accessible — and alerting you when it's not. But the full picture is more nuanced than that. Here's what you actually need to know as a developer or DevOps engineer. The Simple Definition Upt…",
-      "author": "Vigilmon",
-      "published": "Mon, 03 Aug 2026 04:46:07 +0000",
+      "title": "Free Landing Page - Landing Chatbot",
+      "url": "https://dev.to/razix_devilnemesisloki/free-landing-page-landing-chatbot-k42",
+      "summary": "Landing Page Enterprise AI chatbot platform. Professional, ROI-focused. Download + Deploy Save the HTML file, open in any browser, or deploy free on Netlify/Vercel. About Built by OmniIncome-v1 using AI. Support: 0x6731ee8E0Bf0ADbdC86b3a07B61ce338ECA6d55b (Base USDC) Part of Omn…",
+      "author": "RAZIX DEVIL NEMESIS (Loki)",
+      "published": "Tue, 04 Aug 2026 04:10:09 +0000",
       "tags": [
-        "monitoring",
         "webdev",
-        "devops",
-        "beginners"
+        "ai",
+        "design",
+        "claude"
       ]
     },
     {
-      "id": "6f4a6304ee26",
+      "id": "93d888cd43e5",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Base64 in five minutes: what it does and why it is not encryption",
+      "url": "https://dev.to/nickalltoolsverse/base64-in-five-minutes-what-it-does-and-why-it-is-not-encryption-28k3",
+      "summary": "You have probably seen strings like SGVsbG8= in an API response, a data URL, or an email attachment. They look secret. They are not. Base64 is an encoding , not an encryption method. Its job is to represent binary data using ordinary text characters so that the data can travel s…",
+      "author": "Nick-Builds-tools",
+      "published": "Tue, 04 Aug 2026 04:09:36 +0000",
+      "tags": [
+        "programming",
+        "webdev",
+        "security"
+      ]
+    },
+    {
+      "id": "b8c5b7e42d06",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Russian battleship Petropavlovsk (1894)",
-      "url": "https://en.wikipedia.org/wiki/Russian_battleship_Petropavlovsk_(1894)",
-      "summary": "Petropavlovsk was the lead ship of her class of three pre-dreadnought battleships built for the Imperial Russian Navy during the last decade of the 19th century. The ship was sent to the Far East almost immediately after entering service in 1899, where she participated in the su…",
+      "title": "Black Prince's chevauchée of 1356",
+      "url": "https://en.wikipedia.org/wiki/Black_Prince's_chevauch%C3%A9e_of_1356",
+      "summary": "The Black Prince's chevauchée of 1356 was a large-scale mounted raid by an Anglo-Gascon force under the command of Edward, the Black Prince, between 4 August and 2 October 1356 as a part of the Hundred Years' War. The war had broken out in 1337, but a truce and the ravages of th…",
       "published": "",
       "tags": [
         "今日精选"
       ]
+    },
+    {
+      "id": "d900971bbdb3",
+      "category": "news",
+      "source": "BBC 世界",
+      "title": "EU calls for stronger borders after Ceuta migrant crossings",
+      "url": "https://www.bbc.co.uk/news/articles/cyvl84zmgyro?at_medium=RSS&at_campaign=rss",
+      "summary": "Ursula von der Leyen has called for action ahead of an urgent EU interior ministers meeting to discuss the issue.",
+      "published": "Mon, 03 Aug 2026 21:43:10 GMT",
+      "tags": []
+    },
+    {
+      "id": "e548e5a1aca1",
+      "category": "news",
+      "source": "BBC 世界",
+      "title": "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
+      "url": "https://www.bbc.co.uk/news/articles/cr7kmnyrdn7o?at_medium=RSS&at_campaign=rss",
+      "summary": "Three children were killed when the drone crashed at a popular resort on the Black Sea.",
+      "published": "Tue, 04 Aug 2026 03:37:14 GMT",
+      "tags": []
     },
     {
       "id": "57b1ff7bea67",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump suggests new talks with Iran to begin on Monday",
+      "title": "Iran says it is in talks with Oman but not the US after Trump says negotiations to resume",
       "url": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss",
-      "summary": "Tehran has not responded to the suggestion that new talks are imminent. Trump has previously said a negotiated end to the war is close, only for strikes to resume.",
-      "published": "Mon, 03 Aug 2026 00:11:18 GMT",
+      "summary": "Iran's remarks that there were no talks with the US prompts Donald Trump to issue a strong condemnation of its leadership.",
+      "published": "Mon, 03 Aug 2026 19:42:55 GMT",
       "tags": []
     },
     {
-      "id": "2e80605faa5a",
+      "id": "0238657df9ca",
       "category": "news",
       "source": "BBC 世界",
-      "title": "'My only son was shot standing up for justice' - inside city gripped by deadly protests in Pakistan-administered Kashmir",
-      "url": "https://www.bbc.co.uk/news/articles/c5yvqk69enko?at_medium=RSS&at_campaign=rss",
-      "summary": "The BBC gains unique access to Rawalakot, scene of violent clashes between security forces and protesters in Pakistan-administered Kashmir.",
-      "published": "Mon, 03 Aug 2026 03:32:21 GMT",
+      "title": "Ariana Grande has had enough of body comments, but 'scrutiny' will linger",
+      "url": "https://www.bbc.co.uk/news/articles/c3ek7g857q4o?at_medium=RSS&at_campaign=rss",
+      "summary": "The star has taken a \"step back\" from the spotlight after appearances led to \"endless, ongoing public scrutiny\".",
+      "published": "Mon, 03 Aug 2026 23:25:14 GMT",
       "tags": []
     },
     {
-      "id": "0fa80837ef64",
-      "category": "news",
-      "source": "BBC 世界",
-      "title": "Two crew killed after firefighting helicopters collide in Greece, as British pilot survives",
-      "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss",
-      "summary": "One Danish and one Greek national died in the incident, while a British pilot and another Greek crew member survived.",
-      "published": "Mon, 03 Aug 2026 01:03:31 GMT",
-      "tags": []
-    },
-    {
-      "id": "05d148b7a87c",
-      "category": "news",
-      "source": "BBC 世界",
-      "title": "Massive Attack respond after Singapore ban over Palestine display",
-      "url": "https://www.bbc.co.uk/news/articles/cr59qe86yj4o?at_medium=RSS&at_campaign=rss",
-      "summary": "The UK band says they are \"surprised and disappointed\" by their treatment over shouting \"free Palestine\" at a concert there.",
-      "published": "Mon, 03 Aug 2026 01:31:05 GMT",
-      "tags": []
-    },
-    {
-      "id": "3e26c8def12c",
+      "id": "2e8aa46c7aa1",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Here's how engineers plan to save the satellite sent to save NASA's Swift mission",
-      "url": "https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/",
-      "summary": "\"We believe that a capture of Swift, an attempted capture of Swift, is very much in the cards.\"",
-      "author": "Stephen Clark",
-      "published": "Sat, 01 Aug 2026 18:20:11 +0000",
-      "tags": [
-        "Science",
-        "Space",
-        "Commercial space",
-        "katalyst space"
-      ]
-    },
-    {
-      "id": "9b00352cfacc",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Review: Yes, we're still arguing about Nolan's The Odyssey",
-      "url": "https://arstechnica.com/culture/2026/08/review-yes-were-still-arguing-about-nolans-the-odyssey/",
-      "summary": "Christopher Nolan's impressionistic remix of Homer's epic poem finds the man behind the myth.",
-      "author": "Jennifer Ouellette",
-      "published": "Sat, 01 Aug 2026 15:19:04 +0000",
-      "tags": [
-        "Culture",
-        "Christopher Nolan",
-        "film reviews",
-        "reviews"
-      ]
-    },
-    {
-      "id": "9a9a3a92c754",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "As Reddit stock falls, CEO questions value of Google's AI Overviews",
-      "url": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/",
-      "summary": "Reddit may still be considering ending its licensing deal with Google.",
-      "author": "Samuel Axon",
-      "published": "Sat, 01 Aug 2026 12:30:36 +0000",
+      "title": "US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own",
+      "url": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
+      "summary": "$100 million deal gives 50,000 Ukrainian drones US-developed AI capabilities.",
+      "author": "Jeremy Hsu",
+      "published": "Mon, 03 Aug 2026 22:11:39 +0000",
       "tags": [
         "AI",
-        "ai overviews",
-        "earnings",
-        "google"
+        "AI drones",
+        "Auterion",
+        "drone swarms"
       ]
     },
     {
-      "id": "09dc01c3f67a",
+      "id": "8a9c56134c9a",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Research roundup: 6 cool science stories we almost missed",
+      "url": "https://arstechnica.com/science/2026/08/research-roundup-6-cool-science-stories-we-almost-missed-5/",
+      "summary": "Also: Cyborg diving suits for cockroaches, why sleepy sperm whales blow bubbles, Betelgeuse's companion star.",
+      "author": "Jennifer Ouellette",
+      "published": "Mon, 03 Aug 2026 20:13:37 +0000",
+      "tags": [
+        "Science",
+        "ancient DCA",
+        "animal behavior",
+        "Archaeology"
+      ]
+    },
+    {
+      "id": "da9ff99a8bf8",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Lego deploys Hubble Space Telescope as detailed desktop model",
+      "url": "https://arstechnica.com/space/2026/08/lego-deploys-hubble-space-telescope-as-detailed-desktop-model/",
+      "summary": "The orbiting observatory in minifigure scale.",
+      "author": "Robert Pearlman",
+      "published": "Mon, 03 Aug 2026 19:21:16 +0000",
+      "tags": [
+        "Space",
+        "35 years",
+        "ESA",
+        "Hubble Space Telescope"
+      ]
+    },
+    {
+      "id": "bb705eed455d",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "We’re in our 60s with $1.5 million. Would a trust be more effective than a will to prevent conflict among our heirs?",
-      "url": "https://www.marketwatch.com/story/we-already-have-wills-were-in-our-60s-with-1-5-million-how-do-we-prevent-family-drama-among-our-heirs-bf7b0eb1?mod=mw_rss_topstories",
-      "summary": "“I realize that probate can be lengthy, public and expensive.”",
+      "title": "‘We have always been civil’: My sister refuses to replace me as executor. Can I step down before she dies?",
+      "url": "https://www.marketwatch.com/story/we-have-always-been-civil-my-sister-refuses-to-replace-me-as-executor-can-i-step-down-before-she-dies-84a835a9?mod=mw_rss_topstories",
+      "summary": "“I haven’t seen my sister since our mother’s funeral more than 20 years ago.”",
       "author": "Quentin Fottrell",
-      "published": "Sun, 02 Aug 2026 17:00:00 GMT",
+      "published": "Tue, 04 Aug 2026 00:00:00 GMT",
       "tags": []
     },
     {
-      "id": "4978a54e64ff",
+      "id": "a12e99660cd5",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "My girlfriend is 62. Can she claim her late husband’s full Social Security benefit — or does she have to wait?",
-      "url": "https://www.marketwatch.com/story/my-girlfriend-is-62-can-she-claim-her-late-husbands-full-social-security-benefit-or-does-she-have-to-wait-315c0fa1?mod=mw_rss_topstories",
-      "summary": "“Her husband passed away 10 years ago. They had been married for more than 20 years.”",
+      "title": "‘My head hit the driver’s window’: A teenager T-boned our car. Will Medicare pay my hospital bills?",
+      "url": "https://www.marketwatch.com/story/my-head-hit-the-drivers-window-a-teenager-t-boned-our-car-will-medicare-pay-my-hospital-bills-0552d90d?mod=mw_rss_topstories",
+      "summary": "“My car was nearly 20 years old, and I only carried liability and uninsured motorist coverage, not collision coverage.”",
       "author": "Quentin Fottrell",
-      "published": "Sun, 02 Aug 2026 16:00:00 GMT",
+      "published": "Mon, 03 Aug 2026 23:15:00 GMT",
       "tags": []
     },
     {
-      "id": "92216ec13aee",
+      "id": "006593145a15",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Here’s what’s worth streaming in August 2026 on Netflix, Hulu, HBO Max and more",
-      "url": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-august-2026-on-netflix-hulu-hbo-max-and-more-21b78a08?mod=mw_rss_topstories",
-      "summary": "Turn off your brain and enjoy new seasons of Apple’s ‘Ted Lasso,’ Amazon’s ‘Reacher,’ Netflix’s ‘Outer Banks’ and much more",
-      "author": "Mike Murphy",
-      "published": "Sun, 02 Aug 2026 15:19:00 GMT",
+      "title": "‘I’m easing into retirement’: I’m getting an $80,000 pension payout. Where can I invest it safely?",
+      "url": "https://www.marketwatch.com/story/im-easing-into-retirement-im-getting-an-80-000-pension-payout-where-can-i-invest-it-safely-6653d810?mod=mw_rss_topstories",
+      "summary": "“I expect to have several years before I take distributions from my 401(k) account.”",
+      "author": "Quentin Fottrell",
+      "published": "Mon, 03 Aug 2026 22:45:00 GMT",
       "tags": []
     }
   ],
