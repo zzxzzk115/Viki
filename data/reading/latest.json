@@ -1,302 +1,301 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "items": [
     {
-      "id": "01a084131be0",
+      "id": "a2916428a061",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Pistol Star",
-      "url": "https://simple.wikipedia.org/wiki/Pistol_Star",
-      "summary": "The Pistol Star is a blue hypergiant. It is one of the most luminous stars in the Milky Way galaxy.",
+      "title": "Electoral district of Inala",
+      "url": "https://simple.wikipedia.org/wiki/Electoral_district_of_Inala",
+      "summary": "Inala is an electoral district of Queensland. It was created in 1992.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "b6e4470aa972",
+      "id": "fa08e4edc382",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Windows Phone 8.1",
-      "url": "https://simple.wikipedia.org/wiki/Windows_Phone_8.1",
-      "summary": "Windows Phone 8.1 is the third generation of Windows Phone was released in winter 2013, Microsoft reach developed for Windows Phone 8.1 in the most for Windows 8.1, was released for public on July 15, 2014, after the end of support was until July 11, 2017. Microsoft until no sup…",
+      "title": "French Guiana's 2nd constituency",
+      "url": "https://simple.wikipedia.org/wiki/French_Guiana's_2nd_constituency",
+      "summary": "French Guiana's 2nd constituency is a constituency of France. It is in French Guiana.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "3e9781fff505",
+      "id": "48188c3efa70",
       "category": "tech",
       "source": "Hacker News",
-      "title": "LLMs reward expertise",
-      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
+      "title": "libexpat now funded by the City of Munich for up to 6 months",
+      "url": "https://blog.hartwork.org/posts/libexpat-city-of-munich-open-source-sabbatical/",
       "summary": "",
-      "author": "MaxMussio",
-      "published": "2026-08-03",
+      "author": "spyc",
+      "published": "2026-08-04",
       "tags": [
-        "▲ 617"
+        "▲ 208"
       ]
     },
     {
-      "id": "693f258b86f6",
+      "id": "582bac1c9368",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Amazonian civilization had estimated 3M people in 3% of forest area",
-      "url": "https://www.science.org/content/article/odd-shapes-hidden-dense-amazon-rainforest-reveal-sprawling-ancient-civilization",
+      "title": "After Losses, Retail Investors Flock to 3x Leverage as 2x Product Are Restricted",
+      "url": "https://www.asiae.co.kr/en/article/2026080416131786841",
       "summary": "",
-      "author": "marojejian",
-      "published": "2026-07-29",
+      "author": "mapping365",
+      "published": "2026-08-05",
       "tags": [
-        "▲ 85"
+        "▲ 46"
       ]
     },
     {
-      "id": "8e9b4ad079fc",
+      "id": "b9a4c8c6dc1c",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
-      "url": "https://github.com/leonickson1/Swiftlet",
+      "title": "Pi's Minimalism Is Its Advantage",
+      "url": "https://earendil.com/posts/pi-autoresearch-and-databricks/",
       "summary": "",
-      "author": "leonickson",
-      "published": "2026-08-03",
+      "author": "luispa",
+      "published": "2026-08-04",
       "tags": [
-        "▲ 40"
+        "▲ 189"
       ]
     },
     {
-      "id": "ff4ecb27326b",
+      "id": "1a7a590593f0",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Ten advances in mathematics and theoretical computer science",
-      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "title": "Eight Myths on Software Engineering and GenAI",
+      "url": "https://queue.acm.org/detail.cfm?id=3807963",
       "summary": "",
-      "author": "milkshakes",
-      "published": "2026-08-03",
+      "author": "tchalla",
+      "published": "2026-08-04",
       "tags": [
-        "▲ 484"
+        "▲ 127"
       ]
     },
     {
-      "id": "109216a3d979",
+      "id": "1a17d34b3d7f",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Devtools must be open source",
-      "url": "https://blog.exe.dev/devtools-must-be-open-source",
+      "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
+      "url": "https://mistral.ai/news/shieldstral/",
       "summary": "",
-      "author": "bryanmikaelian",
-      "published": "2026-08-03",
+      "author": "riadsila",
+      "published": "2026-08-04",
       "tags": [
-        "▲ 540"
+        "▲ 343"
       ]
     },
     {
-      "id": "c00f85b12506",
+      "id": "57631661fc26",
       "category": "tech",
       "source": "Hacker News",
-      "title": "That time when I failed the Microsoft interview",
-      "url": "https://ochagavia.nl/blog/that-time-when-i-failed-the-microsoft-interview/",
+      "title": "IP and DNS Leaks in WebKit Affecting Proxy Browsers and iCloud Private Relay",
+      "url": "https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/",
       "summary": "",
-      "author": "wofo",
-      "published": "2026-07-29",
+      "author": "lapcat",
+      "published": "2026-08-04",
       "tags": [
-        "▲ 28"
+        "▲ 65"
       ]
     },
     {
-      "id": "96ac7e8d1676",
+      "id": "e26b2c128dba",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Building a Multi-Agent Operating System for AI Software Development",
-      "url": "https://dev.to/chithudas/building-a-multi-agent-operating-system-for-ai-software-development-2mon",
-      "summary": "Introducing AgentOS Kit After months of designing AI development workflows, I've open-sourced AgentOS Kit. AgentOS Kit is a Multi-Agent Operating System that coordinates specialized AI agents to work together on software projects. Instead of one AI doing everything, AgentOS Kit …",
-      "author": "chithudas",
-      "published": "Tue, 04 Aug 2026 04:21:18 +0000",
+      "title": "I’m Building Aurora Systems: An Autonomous AI Ecosystem for Agents, Automation and Digital Creation",
+      "url": "https://dev.to/aurorasys/im-building-aurora-systems-an-autonomous-ai-ecosystem-for-agents-automation-and-digital-creation-na1",
+      "summary": "Most AI tools today solve one specific problem. One tool writes text. Another generates images. Another builds websites. Another automates tasks. Another helps developers code. Another manages workflows. But the more I used these tools, the more I started to feel that something …",
+      "author": "Aurora sys",
+      "published": "Wed, 05 Aug 2026 04:28:53 +0000",
       "tags": [
         "ai",
         "webdev",
         "programming",
-        "javascript"
-      ]
-    },
-    {
-      "id": "dcce4e6ca1a0",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Stop pasting production JSON into random formatter sites",
-      "url": "https://dev.to/nickalltoolsverse/stop-pasting-production-json-into-random-formatter-sites-1dm7",
-      "summary": "A webhook fails, an API returns one enormous line, and you need to inspect it quickly. The usual reaction is to search for a JSON formatter and paste the entire payload into the first result. That is convenient, but production JSON often contains much more than the field you are…",
-      "author": "Nick-Builds-tools",
-      "published": "Tue, 04 Aug 2026 04:15:51 +0000",
-      "tags": [
-        "webdev",
-        "javascript",
-        "security",
         "productivity"
       ]
     },
     {
-      "id": "3eb70643c3da",
+      "id": "bc8e2cd32b51",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Free Landing Page - Landing Chatbot",
-      "url": "https://dev.to/razix_devilnemesisloki/free-landing-page-landing-chatbot-k42",
-      "summary": "Landing Page Enterprise AI chatbot platform. Professional, ROI-focused. Download + Deploy Save the HTML file, open in any browser, or deploy free on Netlify/Vercel. About Built by OmniIncome-v1 using AI. Support: 0x6731ee8E0Bf0ADbdC86b3a07B61ce338ECA6d55b (Base USDC) Part of Omn…",
-      "author": "RAZIX DEVIL NEMESIS (Loki)",
-      "published": "Tue, 04 Aug 2026 04:10:09 +0000",
+      "title": "Practical Digital Marketing Courses in Noida Extension: A Complete Guide",
+      "url": "https://dev.to/vision_click360_f38b44b0/practical-digital-marketing-courses-in-noida-extension-a-complete-guide-436b",
+      "summary": "The rapid digital transformation across Delhi NCR has changed how consumers discover brands and how businesses acquire customers. Enterprises and small businesses operating in Gaur City, Greater Noida West, Noida, and Ghaziabad are systematically expanding their online marketing…",
+      "author": "Vision Click 360",
+      "published": "Wed, 05 Aug 2026 04:27:57 +0000",
       "tags": [
-        "webdev",
         "ai",
-        "design",
-        "claude"
+        "webdev",
+        "programming",
+        "productivity"
       ]
     },
     {
-      "id": "93d888cd43e5",
+      "id": "77661e3ae224",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Base64 in five minutes: what it does and why it is not encryption",
-      "url": "https://dev.to/nickalltoolsverse/base64-in-five-minutes-what-it-does-and-why-it-is-not-encryption-28k3",
-      "summary": "You have probably seen strings like SGVsbG8= in an API response, a data URL, or an email attachment. They look secret. They are not. Base64 is an encoding , not an encryption method. Its job is to represent binary data using ordinary text characters so that the data can travel s…",
-      "author": "Nick-Builds-tools",
-      "published": "Tue, 04 Aug 2026 04:09:36 +0000",
+      "title": "How an AI Agent Actually Learns Your Website",
+      "url": "https://dev.to/ranaharoon3222/how-an-ai-agent-actually-learns-your-website-1076",
+      "summary": "You've probably seen the pitch a hundred times by now: \"Train an AI on your website in 30 seconds!\" You paste a URL, a progress bar fills up, and suddenly there's a chat bubble that answers questions about your return policy. It feels like magic. And when something feels like ma…",
+      "author": "Haroon Ahmad",
+      "published": "Wed, 05 Aug 2026 04:17:41 +0000",
       "tags": [
-        "programming",
+        "ai",
         "webdev",
-        "security"
+        "beginners",
+        "chatgpt"
       ]
     },
     {
-      "id": "b8c5b7e42d06",
+      "id": "7c2c672e5ae9",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "A 10-minute conversion audit for a frontend portfolio",
+      "url": "https://dev.to/thiaodwcommits/a-10-minute-conversion-audit-for-a-frontend-portfolio-4eo5",
+      "summary": "A frontend portfolio can look polished and still make a visitor work too hard to answer one question: What can this person help me ship? Before changing colors, adding another animation, or replacing the framework, run this short audit. It is intentionally based on what a visito…",
+      "author": "Conversion Patch",
+      "published": "Wed, 05 Aug 2026 04:16:25 +0000",
+      "tags": [
+        "webdev",
+        "ux",
+        "marketing"
+      ]
+    },
+    {
+      "id": "20ad35a8e6de",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Black Prince's chevauchée of 1356",
-      "url": "https://en.wikipedia.org/wiki/Black_Prince's_chevauch%C3%A9e_of_1356",
-      "summary": "The Black Prince's chevauchée of 1356 was a large-scale mounted raid by an Anglo-Gascon force under the command of Edward, the Black Prince, between 4 August and 2 October 1356 as a part of the Hundred Years' War. The war had broken out in 1337, but a truce and the ravages of th…",
+      "title": "Yeah Yeah Yeahs (EP)",
+      "url": "https://en.wikipedia.org/wiki/Yeah_Yeah_Yeahs_(EP)",
+      "summary": "Yeah Yeah Yeahs is the debut extended play (EP) by the American indie rock band Yeah Yeah Yeahs. It was self-released on July 9, 2001, and reissued in 2002 by Wichita in the United Kingdom and Touch and Go in the United States. It was recorded as a demo over two days in early 20…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "d900971bbdb3",
+      "id": "0dff666c37c8",
       "category": "news",
       "source": "BBC 世界",
-      "title": "EU calls for stronger borders after Ceuta migrant crossings",
-      "url": "https://www.bbc.co.uk/news/articles/cyvl84zmgyro?at_medium=RSS&at_campaign=rss",
-      "summary": "Ursula von der Leyen has called for action ahead of an urgent EU interior ministers meeting to discuss the issue.",
-      "published": "Mon, 03 Aug 2026 21:43:10 GMT",
+      "title": "Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack",
+      "url": "https://www.bbc.co.uk/news/articles/cn4n03xg981o?at_medium=RSS&at_campaign=rss",
+      "summary": "Ukraine said the video - showing a terrified civilian being hounded by a remotely controlled drone - amounted to a war crime.",
+      "published": "Tue, 04 Aug 2026 17:26:06 GMT",
       "tags": []
     },
     {
-      "id": "e548e5a1aca1",
+      "id": "479cf0129fda",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
-      "url": "https://www.bbc.co.uk/news/articles/cr7kmnyrdn7o?at_medium=RSS&at_campaign=rss",
-      "summary": "Three children were killed when the drone crashed at a popular resort on the Black Sea.",
-      "published": "Tue, 04 Aug 2026 03:37:14 GMT",
+      "title": "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall",
+      "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss",
+      "summary": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume.",
+      "published": "Wed, 05 Aug 2026 03:44:30 GMT",
       "tags": []
     },
     {
-      "id": "57b1ff7bea67",
+      "id": "d7cb0db074a7",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Iran says it is in talks with Oman but not the US after Trump says negotiations to resume",
-      "url": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss",
-      "summary": "Iran's remarks that there were no talks with the US prompts Donald Trump to issue a strong condemnation of its leadership.",
-      "published": "Mon, 03 Aug 2026 19:42:55 GMT",
+      "title": "Russian ballistic missile strike on Kyiv kills two and injures others, officials say",
+      "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
+      "summary": "The head of Kyiv's military administration says Russia is \"once again massively attacking\" and has hit residential buildings.",
+      "published": "Wed, 05 Aug 2026 03:37:50 GMT",
       "tags": []
     },
     {
-      "id": "0238657df9ca",
+      "id": "d81d557ebe9f",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Ariana Grande has had enough of body comments, but 'scrutiny' will linger",
-      "url": "https://www.bbc.co.uk/news/articles/c3ek7g857q4o?at_medium=RSS&at_campaign=rss",
-      "summary": "The star has taken a \"step back\" from the spotlight after appearances led to \"endless, ongoing public scrutiny\".",
-      "published": "Mon, 03 Aug 2026 23:25:14 GMT",
+      "title": "EU commends Spain's 'swift response' to Ceuta migrant crisis",
+      "url": "https://www.bbc.co.uk/news/articles/c80n3j55g0do?at_medium=RSS&at_campaign=rss",
+      "summary": "About 70,000 of the 72,000 people who came to Ceuta illegally last week have been returned to Morocco, Spain says.",
+      "published": "Tue, 04 Aug 2026 21:45:20 GMT",
       "tags": []
     },
     {
-      "id": "2e8aa46c7aa1",
+      "id": "b45e8d4dc9e1",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own",
-      "url": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
-      "summary": "$100 million deal gives 50,000 Ukrainian drones US-developed AI capabilities.",
+      "title": "Senators demand crackdown on wildfire \"prediction markets\"",
+      "url": "https://arstechnica.com/tech-policy/2026/08/senators-demand-crackdown-on-wildfire-prediction-markets/",
+      "summary": "Fire experts warn such markets could incentivize arson.",
+      "author": "Cyrus Farivar",
+      "published": "Tue, 04 Aug 2026 21:52:31 +0000",
+      "tags": [
+        "Policy",
+        "polymarket",
+        "prediction markets",
+        "wildfires"
+      ]
+    },
+    {
+      "id": "277b959805d4",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Trump killed the Digital Equity Act, but US was forced to bring part of it back",
+      "url": "https://arstechnica.com/tech-policy/2026/08/trump-forced-to-reinstate-broadband-grants-but-court-lets-us-scrap-race-criteria/",
+      "summary": "$1.25 billion program restored, but judge ruled race provision unconstitutional.",
+      "author": "Jon Brodkin",
+      "published": "Tue, 04 Aug 2026 21:27:05 +0000",
+      "tags": [
+        "Policy",
+        "broadband",
+        "digital equity act"
+      ]
+    },
+    {
+      "id": "82d406643c69",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Texas halts data center connections to power grid amid overwhelming demand",
+      "url": "https://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/",
+      "summary": "Governor who touted Texas as AI “epicenter” pauses data center grid connections.",
       "author": "Jeremy Hsu",
-      "published": "Mon, 03 Aug 2026 22:11:39 +0000",
+      "published": "Tue, 04 Aug 2026 20:34:28 +0000",
       "tags": [
         "AI",
-        "AI drones",
-        "Auterion",
-        "drone swarms"
+        "ai data centers",
+        "AI infrastructure",
+        "data centers"
       ]
     },
     {
-      "id": "8a9c56134c9a",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Research roundup: 6 cool science stories we almost missed",
-      "url": "https://arstechnica.com/science/2026/08/research-roundup-6-cool-science-stories-we-almost-missed-5/",
-      "summary": "Also: Cyborg diving suits for cockroaches, why sleepy sperm whales blow bubbles, Betelgeuse's companion star.",
-      "author": "Jennifer Ouellette",
-      "published": "Mon, 03 Aug 2026 20:13:37 +0000",
-      "tags": [
-        "Science",
-        "ancient DCA",
-        "animal behavior",
-        "Archaeology"
-      ]
-    },
-    {
-      "id": "da9ff99a8bf8",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Lego deploys Hubble Space Telescope as detailed desktop model",
-      "url": "https://arstechnica.com/space/2026/08/lego-deploys-hubble-space-telescope-as-detailed-desktop-model/",
-      "summary": "The orbiting observatory in minifigure scale.",
-      "author": "Robert Pearlman",
-      "published": "Mon, 03 Aug 2026 19:21:16 +0000",
-      "tags": [
-        "Space",
-        "35 years",
-        "ESA",
-        "Hubble Space Telescope"
-      ]
-    },
-    {
-      "id": "bb705eed455d",
+      "id": "a878e83155e7",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘We have always been civil’: My sister refuses to replace me as executor. Can I step down before she dies?",
-      "url": "https://www.marketwatch.com/story/we-have-always-been-civil-my-sister-refuses-to-replace-me-as-executor-can-i-step-down-before-she-dies-84a835a9?mod=mw_rss_topstories",
-      "summary": "“I haven’t seen my sister since our mother’s funeral more than 20 years ago.”",
-      "author": "Quentin Fottrell",
-      "published": "Tue, 04 Aug 2026 00:00:00 GMT",
+      "title": "Stocks return to record highs. Investors who sat tight during the recent momentum crash are being rewarded.",
+      "url": "https://www.marketwatch.com/story/stocks-return-to-record-highs-investors-who-sat-tight-during-the-recent-momentum-crash-are-being-rewarded-8c960105?mod=mw_rss_topstories",
+      "summary": "The S&P 500 booked its 25th record close of 2026, after a 42-day break.",
+      "author": "Joseph Adinolfi",
+      "published": "Tue, 04 Aug 2026 22:40:00 GMT",
       "tags": []
     },
     {
-      "id": "a12e99660cd5",
+      "id": "1b8aa9d92ae9",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘My head hit the driver’s window’: A teenager T-boned our car. Will Medicare pay my hospital bills?",
-      "url": "https://www.marketwatch.com/story/my-head-hit-the-drivers-window-a-teenager-t-boned-our-car-will-medicare-pay-my-hospital-bills-0552d90d?mod=mw_rss_topstories",
-      "summary": "“My car was nearly 20 years old, and I only carried liability and uninsured motorist coverage, not collision coverage.”",
-      "author": "Quentin Fottrell",
-      "published": "Mon, 03 Aug 2026 23:15:00 GMT",
+      "title": "Upstart’s AI upgrades pay off, as a pickup in loan growth helps send the stock higher",
+      "url": "https://www.marketwatch.com/story/upstarts-ai-upgrades-pay-off-as-a-pickup-in-loan-growth-helps-send-the-stock-higher-32e7ec9d?mod=mw_rss_topstories",
+      "summary": "The AI lending company says it’s enhanced its model to better assess the risk of borrowers.",
+      "author": "Hannah Pedone",
+      "published": "Tue, 04 Aug 2026 22:22:00 GMT",
       "tags": []
     },
     {
-      "id": "006593145a15",
+      "id": "cf8505998089",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘I’m easing into retirement’: I’m getting an $80,000 pension payout. Where can I invest it safely?",
-      "url": "https://www.marketwatch.com/story/im-easing-into-retirement-im-getting-an-80-000-pension-payout-where-can-i-invest-it-safely-6653d810?mod=mw_rss_topstories",
-      "summary": "“I expect to have several years before I take distributions from my 401(k) account.”",
-      "author": "Quentin Fottrell",
-      "published": "Mon, 03 Aug 2026 22:45:00 GMT",
+      "title": "Chipotle pulls jalapenos from some locations after salmonella investigation. Here’s what to know.",
+      "url": "https://www.marketwatch.com/story/chipotle-pulls-jalapenos-from-some-locations-after-salmonella-investigation-heres-what-to-know-20d8c66f?mod=mw_rss_topstories",
+      "summary": "While Chipotle’s stock slid on Tuesday, it said health investigators had “no ongoing concerns” with the chain after it removed the jalapenos.",
+      "author": "Bill Peters",
+      "published": "Tue, 04 Aug 2026 21:54:00 GMT",
       "tags": []
     }
   ],
