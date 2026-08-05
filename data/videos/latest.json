@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "items": [
     {
       "id": "25f4bfacff4e",
@@ -24,48 +24,37 @@
       "category": "图形学"
     },
     {
-      "id": "9fa31e74074c",
-      "platform": "youtube",
-      "videoId": "YRwtopFzRZ0",
-      "title": "The Matrix Awakens - Unreal Engine 5 \"Experience\" // Game Engine Dev Reacts",
-      "channel": "More Cherno",
-      "url": "https://www.youtube.com/watch?v=YRwtopFzRZ0",
-      "thumb": "https://i2.ytimg.com/vi/YRwtopFzRZ0/hqdefault.jpg",
-      "published": "2022-07-08",
-      "category": "引擎"
-    },
-    {
-      "id": "984c56e48d53",
-      "platform": "youtube",
-      "videoId": "sY_U3-ih4Bs",
-      "title": "BLACK and WHITE Game!  // Game Engine Dev Reacts to Trek to Yomi",
-      "channel": "More Cherno",
-      "url": "https://www.youtube.com/watch?v=sY_U3-ih4Bs",
-      "thumb": "https://i4.ytimg.com/vi/sY_U3-ih4Bs/hqdefault.jpg",
-      "published": "2022-05-05",
-      "category": "引擎"
-    },
-    {
-      "id": "9018e970ca98",
+      "id": "0b91f31069ca",
       "platform": "bilibili",
-      "videoId": "BV1ScKR6QEQF",
-      "title": "古法做视频里加一点点科技",
-      "channel": "跟李沐学AI",
-      "url": "https://www.bilibili.com/video/BV1ScKR6QEQF",
-      "thumb": "https://i0.hdslb.com/bfs/archive/b9d2e88f8d41fe24cecddcf715756265ff68b9d2.jpg",
-      "published": "2026-06-29",
+      "videoId": "BV1q2jh6FEhX",
+      "title": "30 - Agentic AI 和我们的未来；课程总结 [2026 南京大学操作系统原理]",
+      "channel": "绿导师原谅你了",
+      "url": "https://www.bilibili.com/video/BV1q2jh6FEhX",
+      "thumb": "https://i1.hdslb.com/bfs/archive/b7e8dace001aa6b23bc6117e75ba72fc9b3b2e21.jpg",
+      "published": "2026-06-18",
       "category": "CS"
     },
     {
-      "id": "4001551d4ad2",
+      "id": "7ab9db96faa7",
       "platform": "bilibili",
-      "videoId": "BV1RfEw6LEfF",
-      "title": "能跟你对话的TTS【开源】",
-      "channel": "跟李沐学AI",
-      "url": "https://www.bilibili.com/video/BV1RfEw6LEfF",
-      "thumb": "https://i0.hdslb.com/bfs/archive/414b79823c78f30b3e60d27f14c0f44111f0234f.jpg",
-      "published": "2026-06-04",
+      "videoId": "BV1uaEB66EAH",
+      "title": "29 - 虚拟机和容器 [2026 南京大学操作系统原理]",
+      "channel": "绿导师原谅你了",
+      "url": "https://www.bilibili.com/video/BV1uaEB66EAH",
+      "thumb": "https://i2.hdslb.com/bfs/archive/ac577490a4b6c1a5371f75e9aaab9f3601aba2b4.jpg",
+      "published": "2026-06-11",
       "category": "CS"
+    },
+    {
+      "id": "a6c68e4ce158",
+      "platform": "bilibili",
+      "videoId": "BV1gKuF6rEqy",
+      "title": "对话漫威总裁 | 漫威宇宙的崛起和转身，下一个爆点在哪里？",
+      "channel": "小Lin说",
+      "url": "https://www.bilibili.com/video/BV1gKuF6rEqy",
+      "thumb": "https://i2.hdslb.com/bfs/archive/c4c2fc66d8d11a267adf412600fd7b2710135bc9.jpg",
+      "published": "2026-08-04",
+      "category": "金融"
     },
     {
       "id": "c7557b135e3c",
@@ -77,57 +66,26 @@
       "thumb": "https://i0.hdslb.com/bfs/archive/8c053190123553ebac7dbb36c1eb040983c3b369.jpg",
       "published": "2026-07-23",
       "category": "金融"
-    },
-    {
-      "id": "02f6f5e9c728",
-      "platform": "bilibili",
-      "videoId": "BV12kTp6tENs",
-      "title": "Anthropic估值暴涨背后，普通人有什么AI时代的红利？",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV12kTp6tENs",
-      "thumb": "https://i2.hdslb.com/bfs/archive/c334eb2f4c799f7829362c33bbfdb50eebd68419.jpg",
-      "published": "2026-07-03",
-      "category": "金融"
-    },
-    {
-      "id": "1ed3b054afcf",
-      "platform": "bilibili",
-      "videoId": "BV1d6gh6kEQP",
-      "title": "文化革命  伊朗·1980",
-      "channel": "小约翰可汗",
-      "url": "https://www.bilibili.com/video/BV1d6gh6kEQP",
-      "thumb": "https://i1.hdslb.com/bfs/archive/961218b87486be9394da959087157489270c8bb5.jpg",
-      "published": "2026-07-25",
-      "category": "历史"
-    },
-    {
-      "id": "01a87a5e8552",
-      "platform": "bilibili",
-      "videoId": "BV1gGgk6hEU8",
-      "title": "德国最难建的车站在哪？【神奇组织52】",
-      "channel": "小约翰可汗",
-      "url": "https://www.bilibili.com/video/BV1gGgk6hEU8",
-      "thumb": "https://i2.hdslb.com/bfs/archive/d13e99d382275b5b7497eaa4b563bf0f5f71ff5d.jpg",
-      "published": "2026-07-23",
-      "category": "历史"
     }
   ],
   "notes": [
     "图形学 · @TwoMinutePapers: 0 条",
     "图形学 · @Acerola_t: 0 条",
     "图形学 · 512313464: 2 条",
-    "引擎 · @TheCherno: 2 条",
+    "引擎 · @TheCherno: 0 条",
+    "Bilibili 437860379: code=-352 风控校验失败",
     "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 0 条",
     "CS · @javidx9: 0 条",
-    "CS · 1567748478: 2 条",
-    "CS · 202224425: 0 条",
+    "CS · 1567748478: 0 条",
+    "CS · 202224425: 2 条",
     "金融 · @ThePlainBagel: 0 条",
     "金融 · 520819684: 2 条",
     "历史 · @CrashCourse: 0 条",
     "历史 · @HistoriaCivilis: 0 条",
     "历史 · 11646119: 0 条",
-    "历史 · 23947287: 2 条",
+    "Bilibili 23947287: code=-352 风控校验失败",
+    "历史 · 23947287: 0 条",
     "英语 · @bbclearningenglish: 0 条",
     "英语 · @EnglishwithLucy: 0 条"
   ]
