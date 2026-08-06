@@ -1,301 +1,300 @@
 {
-  "date": "2026-08-05",
+  "date": "2026-08-06",
   "items": [
     {
-      "id": "a2916428a061",
+      "id": "7059ef79de39",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Electoral district of Inala",
-      "url": "https://simple.wikipedia.org/wiki/Electoral_district_of_Inala",
-      "summary": "Inala is an electoral district of Queensland. It was created in 1992.",
+      "title": "Tanjung Pinang",
+      "url": "https://simple.wikipedia.org/wiki/Tanjung_Pinang",
+      "summary": "Tanjung Pinang is the capital city of the Indonesian province of the Riau Islands. It covers a land area of 144.56 km2. With an estimated population of 209,280 as of 2018, it is the second largest city of the province, after Batam. Tanjung Pinang is a historic city of the Malay …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "fa08e4edc382",
+      "id": "1319c7ee7045",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "French Guiana's 2nd constituency",
-      "url": "https://simple.wikipedia.org/wiki/French_Guiana's_2nd_constituency",
-      "summary": "French Guiana's 2nd constituency is a constituency of France. It is in French Guiana.",
+      "title": "Siouxsie Sioux",
+      "url": "https://simple.wikipedia.org/wiki/Siouxsie_Sioux",
+      "summary": "Siouxsie Sioux, is an English singer-songwriter. She is best known as the lead singer of rock band Siouxsie and the Banshees (1976–1996). They released 11 studio albums in their career and 30 singles including two UK top ten singles, \"Hong Kong Garden\" and \"Dear Prudence\", and t…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "48188c3efa70",
+      "id": "e0561409b204",
       "category": "tech",
       "source": "Hacker News",
-      "title": "libexpat now funded by the City of Munich for up to 6 months",
-      "url": "https://blog.hartwork.org/posts/libexpat-city-of-munich-open-source-sabbatical/",
+      "title": "Governments are making a dangerous bet on the AI boom",
+      "url": "https://www.economist.com/leaders/2026/08/05/governments-are-making-a-dangerous-bet-on-the-ai-boom",
       "summary": "",
-      "author": "spyc",
-      "published": "2026-08-04",
+      "author": "andsoitis",
+      "published": "2026-08-06",
       "tags": [
-        "▲ 208"
+        "▲ 40"
       ]
     },
     {
-      "id": "582bac1c9368",
+      "id": "40212545e93f",
       "category": "tech",
       "source": "Hacker News",
-      "title": "After Losses, Retail Investors Flock to 3x Leverage as 2x Product Are Restricted",
-      "url": "https://www.asiae.co.kr/en/article/2026080416131786841",
+      "title": "Nashville uses eminent domain to block data center near zoo",
+      "url": "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project",
       "summary": "",
       "author": "mapping365",
+      "published": "2026-08-06",
+      "tags": [
+        "▲ 120"
+      ]
+    },
+    {
+      "id": "77585261d12a",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Discovery Loop",
+      "url": "https://www.discoveryloop.com/",
+      "summary": "",
+      "author": "xtreak29",
       "published": "2026-08-05",
       "tags": [
-        "▲ 46"
+        "▲ 654"
       ]
     },
     {
-      "id": "b9a4c8c6dc1c",
+      "id": "872a55e4ad43",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Pi's Minimalism Is Its Advantage",
-      "url": "https://earendil.com/posts/pi-autoresearch-and-databricks/",
+      "title": "Zed DeltaDB",
+      "url": "https://zed.dev/deltadb",
       "summary": "",
-      "author": "luispa",
-      "published": "2026-08-04",
+      "author": "ahamez",
+      "published": "2026-08-05",
       "tags": [
-        "▲ 189"
+        "▲ 342"
       ]
     },
     {
-      "id": "1a7a590593f0",
+      "id": "cc8d4f35907c",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Eight Myths on Software Engineering and GenAI",
-      "url": "https://queue.acm.org/detail.cfm?id=3807963",
-      "summary": "",
-      "author": "tchalla",
-      "published": "2026-08-04",
+      "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "summary": "https://www.axios.com/2026/08/05/google-deepmind-demis-hassa... https://www.reuters.com/business/google-shakes-up-ai-leaders... https://www.discoveryloop.com/ , https://news.ycombinator.com/item?id=49184960 https://twitter.com/JeffDean/status/2085034604172603724 , https://xcance…",
+      "author": "colesantiago",
+      "published": "2026-08-05",
       "tags": [
-        "▲ 127"
+        "▲ 548"
       ]
     },
     {
-      "id": "1a17d34b3d7f",
+      "id": "bb1427aeae2f",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
-      "url": "https://mistral.ai/news/shieldstral/",
+      "title": "The title cards in Blade Runner are amazing",
+      "url": "https://randsinrepose.com/archives/blade-runner-title-cards/",
       "summary": "",
-      "author": "riadsila",
-      "published": "2026-08-04",
+      "author": "ExMachina73",
+      "published": "2026-08-05",
       "tags": [
-        "▲ 343"
+        "▲ 191"
       ]
     },
     {
-      "id": "57631661fc26",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "IP and DNS Leaks in WebKit Affecting Proxy Browsers and iCloud Private Relay",
-      "url": "https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/",
-      "summary": "",
-      "author": "lapcat",
-      "published": "2026-08-04",
-      "tags": [
-        "▲ 65"
-      ]
-    },
-    {
-      "id": "e26b2c128dba",
+      "id": "e7ab8462e182",
       "category": "tech",
       "source": "DEV Community",
-      "title": "I’m Building Aurora Systems: An Autonomous AI Ecosystem for Agents, Automation and Digital Creation",
-      "url": "https://dev.to/aurorasys/im-building-aurora-systems-an-autonomous-ai-ecosystem-for-agents-automation-and-digital-creation-na1",
-      "summary": "Most AI tools today solve one specific problem. One tool writes text. Another generates images. Another builds websites. Another automates tasks. Another helps developers code. Another manages workflows. But the more I used these tools, the more I started to feel that something …",
-      "author": "Aurora sys",
-      "published": "Wed, 05 Aug 2026 04:28:53 +0000",
+      "title": "From 8.2s to 2.1s: How Image Compression Changed a Store's Conversion Rate",
+      "url": "https://dev.to/jamiepark-design/from-82s-to-21s-how-image-compression-changed-a-stores-conversion-rate-4clo",
+      "summary": "I audited a Shopify store last month. The homepage was 22MB. Product images averaged 4MB each. Page load: 8.2 seconds. The conversion rate was 1.1%. What I Found The product photos were straight out of a DSLR — 6000x4000 pixels displayed in 300x200 containers. The browser was do…",
+      "author": "swift king",
+      "published": "Thu, 06 Aug 2026 04:31:19 +0000",
       "tags": [
-        "ai",
         "webdev",
-        "programming",
-        "productivity"
+        "performance",
+        "images"
       ]
     },
     {
-      "id": "bc8e2cd32b51",
+      "id": "af073c12f753",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Practical Digital Marketing Courses in Noida Extension: A Complete Guide",
-      "url": "https://dev.to/vision_click360_f38b44b0/practical-digital-marketing-courses-in-noida-extension-a-complete-guide-436b",
-      "summary": "The rapid digital transformation across Delhi NCR has changed how consumers discover brands and how businesses acquire customers. Enterprises and small businesses operating in Gaur City, Greater Noida West, Noida, and Ghaziabad are systematically expanding their online marketing…",
-      "author": "Vision Click 360",
-      "published": "Wed, 05 Aug 2026 04:27:57 +0000",
+      "title": "Trailing Comma Took Down Production at 11 PM — A JSON Debugging Story",
+      "url": "https://dev.to/jamiepark-design/trailing-comma-took-down-production-at-11-pm-a-json-debugging-story-3211",
+      "summary": "The deploy failed at 11 PM with a cryptic error: \"Unexpected token } in JSON at position 5824.\" Two developers stared at the minified config file for ten minutes. Line 247. A trailing comma in a 200KB JSON object. Why Minified JSON Is a Trap Minified JSON saves bandwidth but cos…",
+      "author": "swift king",
+      "published": "Thu, 06 Aug 2026 04:30:41 +0000",
       "tags": [
-        "ai",
+        "json",
         "webdev",
-        "programming",
-        "productivity"
+        "debugging"
       ]
     },
     {
-      "id": "77661e3ae224",
+      "id": "0ac09538938a",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How an AI Agent Actually Learns Your Website",
-      "url": "https://dev.to/ranaharoon3222/how-an-ai-agent-actually-learns-your-website-1076",
-      "summary": "You've probably seen the pitch a hundred times by now: \"Train an AI on your website in 30 seconds!\" You paste a URL, a progress bar fills up, and suddenly there's a chat bubble that answers questions about your return policy. It feels like magic. And when something feels like ma…",
-      "author": "Haroon Ahmad",
-      "published": "Wed, 05 Aug 2026 04:17:41 +0000",
+      "title": "The Missing 180px Icon That Cost a Brand 6 Months of iPhone Impressions",
+      "url": "https://dev.to/jamiepark-design/the-missing-180px-icon-that-cost-a-brand-6-months-of-iphone-impressions-201p",
+      "summary": "I audited a client site that had been live for six months. On a hunch, I added their site to my iPhone home screen. A gray letter placeholder. Six months of visitors bookmarking the site and seeing a generic icon. The Three Files Every Site Needs Most developers stop at favicon.…",
+      "author": "swift king",
+      "published": "Thu, 06 Aug 2026 04:30:03 +0000",
       "tags": [
-        "ai",
         "webdev",
-        "beginners",
-        "chatgpt"
+        "favicon",
+        "tutorial"
       ]
     },
     {
-      "id": "7c2c672e5ae9",
+      "id": "d1d060af8775",
       "category": "tech",
       "source": "DEV Community",
-      "title": "A 10-minute conversion audit for a frontend portfolio",
-      "url": "https://dev.to/thiaodwcommits/a-10-minute-conversion-audit-for-a-frontend-portfolio-4eo5",
-      "summary": "A frontend portfolio can look polished and still make a visitor work too hard to answer one question: What can this person help me ship? Before changing colors, adding another animation, or replacing the framework, run this short audit. It is intentionally based on what a visito…",
-      "author": "Conversion Patch",
-      "published": "Wed, 05 Aug 2026 04:16:25 +0000",
+      "title": "Next.js vs WordPress: Which Should You Build On?",
+      "url": "https://dev.to/emperorakashi20/nextjs-vs-wordpress-which-should-you-build-on-5d72",
+      "summary": "Your developer says WordPress is \"legacy\" and you should use Next.js. Your marketing person says WordPress is fine. They're both half right. Here's the full picture. We build on both platforms — roughly 60% of our projects are WordPress, 40% are Next.js (or React-based). We don'…",
+      "author": "Rishabh Sethia",
+      "published": "Thu, 06 Aug 2026 04:30:01 +0000",
       "tags": [
+        "nextjs",
+        "wordpress",
         "webdev",
-        "ux",
-        "marketing"
+        "comparison"
       ]
     },
     {
-      "id": "20ad35a8e6de",
+      "id": "b3cf649649d3",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Yeah Yeah Yeahs (EP)",
-      "url": "https://en.wikipedia.org/wiki/Yeah_Yeah_Yeahs_(EP)",
-      "summary": "Yeah Yeah Yeahs is the debut extended play (EP) by the American indie rock band Yeah Yeah Yeahs. It was self-released on July 9, 2001, and reissued in 2002 by Wichita in the United Kingdom and Touch and Go in the United States. It was recorded as a demo over two days in early 20…",
+      "title": "Big Duck",
+      "url": "https://en.wikipedia.org/wiki/Big_Duck",
+      "summary": "The Big Duck is a 20-foot-tall (6.1 m) ferrocement building in the shape of a duck: a canonical example of novelty architecture. Built in 1931 in Riverhead, New York, United States, it was moved several times to various locations on eastern Long Island, ending up in Flanders in …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "0dff666c37c8",
+      "id": "906ccad4e683",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack",
-      "url": "https://www.bbc.co.uk/news/articles/cn4n03xg981o?at_medium=RSS&at_campaign=rss",
-      "summary": "Ukraine said the video - showing a terrified civilian being hounded by a remotely controlled drone - amounted to a war crime.",
-      "published": "Tue, 04 Aug 2026 17:26:06 GMT",
+      "title": "Iran says deal with Oman on Strait of Hormuz is in final stages",
+      "url": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss",
+      "summary": "Neither the US or Oman have commented on the proposed agreement on the vital waterway.",
+      "published": "Thu, 06 Aug 2026 01:19:59 GMT",
       "tags": []
     },
     {
-      "id": "479cf0129fda",
+      "id": "70e1938410a7",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall",
-      "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss",
-      "summary": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume.",
-      "published": "Wed, 05 Aug 2026 03:44:30 GMT",
+      "title": "Infantino sorry for errors but stays Fifa president",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clyq3el5gkqo?at_medium=RSS&at_campaign=rss",
+      "summary": "Gianni Infantino will remain as Fifa president after receiving the backing of senior executives, but \"sincerely apologises\" for errors made in his controversial private investment plans.",
+      "published": "Wed, 05 Aug 2026 21:37:08 GMT",
       "tags": []
     },
     {
-      "id": "d7cb0db074a7",
+      "id": "987439c2ef99",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Russian ballistic missile strike on Kyiv kills two and injures others, officials say",
-      "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
-      "summary": "The head of Kyiv's military administration says Russia is \"once again massively attacking\" and has hit residential buildings.",
-      "published": "Wed, 05 Aug 2026 03:37:50 GMT",
+      "title": "After deadly Kyiv strike, Ukraine warns interceptor shortage is costing lives",
+      "url": "https://www.bbc.co.uk/news/articles/cyvlgq2gp2eo?at_medium=RSS&at_campaign=rss",
+      "summary": "Without Patriot interceptors, Ukraine's skies are wide open and people are fully exposed to Russia's missile barrages.",
+      "published": "Wed, 05 Aug 2026 18:19:51 GMT",
       "tags": []
     },
     {
-      "id": "d81d557ebe9f",
+      "id": "1e6516f5dd61",
       "category": "news",
       "source": "BBC 世界",
-      "title": "EU commends Spain's 'swift response' to Ceuta migrant crisis",
-      "url": "https://www.bbc.co.uk/news/articles/c80n3j55g0do?at_medium=RSS&at_campaign=rss",
-      "summary": "About 70,000 of the 72,000 people who came to Ceuta illegally last week have been returned to Morocco, Spain says.",
-      "published": "Tue, 04 Aug 2026 21:45:20 GMT",
+      "title": "Banned from football at home, Afghan women's team reunite 8,000 miles away",
+      "url": "https://www.bbc.co.uk/news/articles/c8dnrpmgv4yo?at_medium=RSS&at_campaign=rss",
+      "summary": "Women in the team, which is recognised by Fifa, say football has given them freedom and independence.",
+      "published": "Wed, 05 Aug 2026 23:28:06 GMT",
       "tags": []
     },
     {
-      "id": "b45e8d4dc9e1",
+      "id": "a09b8a0550b0",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Senators demand crackdown on wildfire \"prediction markets\"",
-      "url": "https://arstechnica.com/tech-policy/2026/08/senators-demand-crackdown-on-wildfire-prediction-markets/",
-      "summary": "Fire experts warn such markets could incentivize arson.",
-      "author": "Cyrus Farivar",
-      "published": "Tue, 04 Aug 2026 21:52:31 +0000",
+      "title": "Thousands of servers can be backdoored by exploiting buggy motherboard controllers",
+      "url": "https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/",
+      "summary": "Baseboard management controllers from the world's biggest manufacturers are a security mess.",
+      "author": "Dan Goodin",
+      "published": "Wed, 05 Aug 2026 22:35:20 +0000",
       "tags": [
-        "Policy",
-        "polymarket",
-        "prediction markets",
-        "wildfires"
+        "Biz & IT",
+        "Security",
+        "baseboard management controller",
+        "bmcs"
       ]
     },
     {
-      "id": "277b959805d4",
+      "id": "5685c603100a",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Trump killed the Digital Equity Act, but US was forced to bring part of it back",
-      "url": "https://arstechnica.com/tech-policy/2026/08/trump-forced-to-reinstate-broadband-grants-but-court-lets-us-scrap-race-criteria/",
-      "summary": "$1.25 billion program restored, but judge ruled race provision unconstitutional.",
-      "author": "Jon Brodkin",
-      "published": "Tue, 04 Aug 2026 21:27:05 +0000",
+      "title": "Schwartz confirmed as CDC director after bungling confirmation hearing",
+      "url": "https://arstechnica.com/health/2026/08/schwartz-confirmed-as-cdc-director-after-bungling-confirmation-hearing/",
+      "summary": "Schwartz is well-qualified for the role, but crashed and burned in Senate hearing.",
+      "author": "Beth Mole",
+      "published": "Wed, 05 Aug 2026 21:03:18 +0000",
       "tags": [
-        "Policy",
-        "broadband",
-        "digital equity act"
+        "Health",
+        "anti-vaccine",
+        "Cassidy",
+        "CDC"
       ]
     },
     {
-      "id": "82d406643c69",
+      "id": "1baa27119cab",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Texas halts data center connections to power grid amid overwhelming demand",
-      "url": "https://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/",
-      "summary": "Governor who touted Texas as AI “epicenter” pauses data center grid connections.",
+      "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+      "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
+      "summary": "Anthropic and OpenAI models’ unprompted actions forced halt to UK cyber tests.",
       "author": "Jeremy Hsu",
-      "published": "Tue, 04 Aug 2026 20:34:28 +0000",
+      "published": "Wed, 05 Aug 2026 20:47:11 +0000",
       "tags": [
         "AI",
-        "ai data centers",
-        "AI infrastructure",
-        "data centers"
+        "Security",
+        "AI agents",
+        "Anthropic"
       ]
     },
     {
-      "id": "a878e83155e7",
+      "id": "36aa8977cf76",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Stocks return to record highs. Investors who sat tight during the recent momentum crash are being rewarded.",
-      "url": "https://www.marketwatch.com/story/stocks-return-to-record-highs-investors-who-sat-tight-during-the-recent-momentum-crash-are-being-rewarded-8c960105?mod=mw_rss_topstories",
-      "summary": "The S&P 500 booked its 25th record close of 2026, after a 42-day break.",
-      "author": "Joseph Adinolfi",
-      "published": "Tue, 04 Aug 2026 22:40:00 GMT",
+      "title": "I got two email invitations from friends. Is this a phishing scam — or am I suddenly popular?",
+      "url": "https://www.marketwatch.com/story/i-got-two-email-invitations-from-friends-is-this-a-phishing-scam-or-am-i-suddenly-popular-d9680aa8?mod=mw_rss_topstories",
+      "summary": "“I was surprised — and flattered — to find myself on the guest list.”",
+      "author": "Quentin Fottrell",
+      "published": "Thu, 06 Aug 2026 01:33:00 GMT",
       "tags": []
     },
     {
-      "id": "1b8aa9d92ae9",
+      "id": "cf7af811ef80",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Upstart’s AI upgrades pay off, as a pickup in loan growth helps send the stock higher",
-      "url": "https://www.marketwatch.com/story/upstarts-ai-upgrades-pay-off-as-a-pickup-in-loan-growth-helps-send-the-stock-higher-32e7ec9d?mod=mw_rss_topstories",
-      "summary": "The AI lending company says it’s enhanced its model to better assess the risk of borrowers.",
-      "author": "Hannah Pedone",
-      "published": "Tue, 04 Aug 2026 22:22:00 GMT",
+      "title": "‘I don’t wish to be cold-hearted’: My elderly relative can no longer care for himself. Am I wrong to leave his care to the state?",
+      "url": "https://www.marketwatch.com/story/i-dont-wish-to-be-cold-hearted-my-elderly-relative-can-no-longer-care-for-himself-am-i-wrong-to-leave-his-care-to-the-state-8d546b32?mod=mw_rss_topstories",
+      "summary": "“He has never been particularly generous or nurturing.”",
+      "author": "Quentin Fottrell",
+      "published": "Thu, 06 Aug 2026 01:31:00 GMT",
       "tags": []
     },
     {
-      "id": "cf8505998089",
+      "id": "97d051211160",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Chipotle pulls jalapenos from some locations after salmonella investigation. Here’s what to know.",
-      "url": "https://www.marketwatch.com/story/chipotle-pulls-jalapenos-from-some-locations-after-salmonella-investigation-heres-what-to-know-20d8c66f?mod=mw_rss_topstories",
-      "summary": "While Chipotle’s stock slid on Tuesday, it said health investigators had “no ongoing concerns” with the chain after it removed the jalapenos.",
-      "author": "Bill Peters",
-      "published": "Tue, 04 Aug 2026 21:54:00 GMT",
+      "title": "Sandisk’s stock falls as the company’s forecast doesn’t live up to high expectations",
+      "url": "https://www.marketwatch.com/story/sandisks-stock-falls-as-the-companys-forecast-doesnt-live-up-to-high-expectations-8fd13d9b?mod=mw_rss_topstories",
+      "summary": "The midpoint of the company’s revenue forecast was below what analysts had been modeling.",
+      "author": "Britney Nguyen",
+      "published": "Wed, 05 Aug 2026 22:25:00 GMT",
       "tags": []
     }
   ],
