@@ -1,300 +1,302 @@
 {
-  "date": "2026-08-06",
+  "date": "2026-08-07",
   "items": [
     {
-      "id": "7059ef79de39",
+      "id": "30c2c668c183",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Tanjung Pinang",
-      "url": "https://simple.wikipedia.org/wiki/Tanjung_Pinang",
-      "summary": "Tanjung Pinang is the capital city of the Indonesian province of the Riau Islands. It covers a land area of 144.56 km2. With an estimated population of 209,280 as of 2018, it is the second largest city of the province, after Batam. Tanjung Pinang is a historic city of the Malay …",
+      "title": "The Vivienne",
+      "url": "https://simple.wikipedia.org/wiki/The_Vivienne",
+      "summary": "James Lee Williams, known as The Vivienne, was a British drag performer, singer and actor. He was known for being the UK Drag Ambassador in 2015 for American reality television series RuPaul's Drag Race. Hed won the first series of RuPaul's Drag Race UK in 2019. He became the fi…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "1319c7ee7045",
+      "id": "833ee3a5a46b",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Siouxsie Sioux",
-      "url": "https://simple.wikipedia.org/wiki/Siouxsie_Sioux",
-      "summary": "Siouxsie Sioux, is an English singer-songwriter. She is best known as the lead singer of rock band Siouxsie and the Banshees (1976–1996). They released 11 studio albums in their career and 30 singles including two UK top ten singles, \"Hong Kong Garden\" and \"Dear Prudence\", and t…",
+      "title": "San Luis, Arizona",
+      "url": "https://simple.wikipedia.org/wiki/San_Luis%2C_Arizona",
+      "summary": "San Luis is a city in Yuma County, Arizona, United States. At the 2020 census, 35,257 people lived here. It is part of the Yuma Metropolitan Statistical Area.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "e0561409b204",
+      "id": "9a54045d7454",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Governments are making a dangerous bet on the AI boom",
-      "url": "https://www.economist.com/leaders/2026/08/05/governments-are-making-a-dangerous-bet-on-the-ai-boom",
-      "summary": "",
-      "author": "andsoitis",
+      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "summary": "https://ir.amd.com/news-events/press-releases/detail/1296/am... https://chatjimmy.ai/",
+      "author": "itvision",
       "published": "2026-08-06",
       "tags": [
-        "▲ 40"
+        "▲ 459"
       ]
     },
     {
-      "id": "40212545e93f",
+      "id": "6327aa271977",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Nashville uses eminent domain to block data center near zoo",
-      "url": "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project",
+      "title": "Hackers Stalked Me by Hijacking a Smartwatch for Kids",
+      "url": "https://www.wired.com/story/hackers-stalked-me-by-hijacking-a-smartwatch-for-kids/",
       "summary": "",
-      "author": "mapping365",
+      "author": "worik",
       "published": "2026-08-06",
       "tags": [
-        "▲ 120"
+        "▲ 27"
       ]
     },
     {
-      "id": "77585261d12a",
+      "id": "a183ad8d7b7f",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Discovery Loop",
-      "url": "https://www.discoveryloop.com/",
+      "title": "Mario Meets Pareto",
+      "url": "https://www.mayerowitz.io/blog/mario-meets-pareto",
       "summary": "",
-      "author": "xtreak29",
-      "published": "2026-08-05",
+      "author": "theanonymousone",
+      "published": "2026-08-06",
       "tags": [
-        "▲ 654"
+        "▲ 928"
       ]
     },
     {
-      "id": "872a55e4ad43",
+      "id": "0fe4652d4187",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Zed DeltaDB",
-      "url": "https://zed.dev/deltadb",
+      "title": "Scientists discover Kelvin-Helmholtz Instability on the surface of the Sun",
+      "url": "https://nso.edu/press-release/nsf-inouye-solar-telescope-enables-major-discovery-of-a-hidden-solar-process/",
+      "summary": "https://www.bbc.com/news/articles/c36d4376nd2o , https://archive.is/YDn6S",
+      "author": "neversaydie",
+      "published": "2026-08-05",
+      "tags": [
+        "▲ 172"
+      ]
+    },
+    {
+      "id": "a31ea0bcf151",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "I stopped trusting USB-C cable labels and started testing them",
+      "url": "https://www.makeuseof.com/i-stopped-trusting-usb-c-cable-labels-started-testing-with-meter-instead/",
       "summary": "",
-      "author": "ahamez",
-      "published": "2026-08-05",
+      "author": "baranul",
+      "published": "2026-08-03",
       "tags": [
-        "▲ 342"
+        "▲ 116"
       ]
     },
     {
-      "id": "cc8d4f35907c",
+      "id": "f371d511885f",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
-      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-      "summary": "https://www.axios.com/2026/08/05/google-deepmind-demis-hassa... https://www.reuters.com/business/google-shakes-up-ai-leaders... https://www.discoveryloop.com/ , https://news.ycombinator.com/item?id=49184960 https://twitter.com/JeffDean/status/2085034604172603724 , https://xcance…",
-      "author": "colesantiago",
-      "published": "2026-08-05",
-      "tags": [
-        "▲ 548"
-      ]
-    },
-    {
-      "id": "bb1427aeae2f",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "The title cards in Blade Runner are amazing",
-      "url": "https://randsinrepose.com/archives/blade-runner-title-cards/",
+      "title": "Taste Is All That's Left",
+      "url": "https://notashelf.dev/posts/taste-is-all-thats-left",
       "summary": "",
-      "author": "ExMachina73",
-      "published": "2026-08-05",
+      "author": "tsak",
+      "published": "2026-08-06",
       "tags": [
-        "▲ 191"
+        "▲ 254"
       ]
     },
     {
-      "id": "e7ab8462e182",
+      "id": "ee988d1efb04",
       "category": "tech",
       "source": "DEV Community",
-      "title": "From 8.2s to 2.1s: How Image Compression Changed a Store's Conversion Rate",
-      "url": "https://dev.to/jamiepark-design/from-82s-to-21s-how-image-compression-changed-a-stores-conversion-rate-4clo",
-      "summary": "I audited a Shopify store last month. The homepage was 22MB. Product images averaged 4MB each. Page load: 8.2 seconds. The conversion rate was 1.1%. What I Found The product photos were straight out of a DSLR — 6000x4000 pixels displayed in 300x200 containers. The browser was do…",
-      "author": "swift king",
-      "published": "Thu, 06 Aug 2026 04:31:19 +0000",
+      "title": "Maximizing Value: Hotel Deals for TechCrunch Disru…",
+      "url": "https://dev.to/norviktech/maximizing-value-hotel-deals-for-techcrunch-disru-19ee",
+      "summary": "Originally published at norvik.tech Introduction Discover how strategic partnerships enhance hotel offerings for TechCrunch Disrupt attendees. A deep dive into technical processes and business implicatio… Understanding the Hotel Deal Framework for Disrupt 2026 The recent partner…",
+      "author": "Norvik Tech",
+      "published": "Fri, 07 Aug 2026 04:06:10 +0000",
       "tags": [
         "webdev",
-        "performance",
-        "images"
+        "hoteldeals",
+        "techcrunchdisrupt202",
+        "eventaccommodation"
       ]
     },
     {
-      "id": "af073c12f753",
+      "id": "246676d4e07d",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Trailing Comma Took Down Production at 11 PM — A JSON Debugging Story",
-      "url": "https://dev.to/jamiepark-design/trailing-comma-took-down-production-at-11-pm-a-json-debugging-story-3211",
-      "summary": "The deploy failed at 11 PM with a cryptic error: \"Unexpected token } in JSON at position 5824.\" Two developers stared at the minified config file for ten minutes. Line 247. A trailing comma in a 200KB JSON object. Why Minified JSON Is a Trap Minified JSON saves bandwidth but cos…",
-      "author": "swift king",
-      "published": "Thu, 06 Aug 2026 04:30:41 +0000",
+      "title": "I Built a Free Certificate Generator for Teachers (Because Canva Won't Stop Chasing Subscriptions)",
+      "url": "https://dev.to/jack_green_7b74cb2cdf9e23/i-built-a-free-certificate-generator-for-teachers-because-canva-wont-stop-chasing-subscriptions-1l42",
+      "summary": "I Built a Free Certificate Generator for Teachers (Because Canva Won't Stop Chasing Subscriptions) Stop uploading sensitive student data to the cloud just to generate a simple certificate. I was tired of Canva Pro's subscription model — $15/month for what is essentially a templa…",
+      "author": "Jack Green",
+      "published": "Fri, 07 Aug 2026 03:59:37 +0000",
       "tags": [
-        "json",
         "webdev",
-        "debugging"
+        "javascript",
+        "opensource",
+        "productivity"
       ]
     },
     {
-      "id": "0ac09538938a",
+      "id": "04441a65b96a",
       "category": "tech",
       "source": "DEV Community",
-      "title": "The Missing 180px Icon That Cost a Brand 6 Months of iPhone Impressions",
-      "url": "https://dev.to/jamiepark-design/the-missing-180px-icon-that-cost-a-brand-6-months-of-iphone-impressions-201p",
-      "summary": "I audited a client site that had been live for six months. On a hunch, I added their site to my iPhone home screen. A gray letter placeholder. Six months of visitors bookmarking the site and seeing a generic icon. The Three Files Every Site Needs Most developers stop at favicon.…",
-      "author": "swift king",
-      "published": "Thu, 06 Aug 2026 04:30:03 +0000",
+      "title": "React useEvent Hook: Stable Callbacks Without Stale Closures (2026)",
+      "url": "https://dev.to/childrentime/react-useevent-hook-stable-callbacks-without-stale-closures-2026-131b",
+      "summary": "Every React developer eventually meets the same fork in the road. You write an event handler that reads state, pass it to a child or an effect, and now you must choose: leave it as a plain inline function and watch every render create a new reference — breaking React.memo , re-r…",
+      "author": "reactuse.com",
+      "published": "Fri, 07 Aug 2026 03:59:18 +0000",
       "tags": [
+        "react",
+        "javascript",
         "webdev",
-        "favicon",
         "tutorial"
       ]
     },
     {
-      "id": "d1d060af8775",
+      "id": "5d07dbd8846d",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Next.js vs WordPress: Which Should You Build On?",
-      "url": "https://dev.to/emperorakashi20/nextjs-vs-wordpress-which-should-you-build-on-5d72",
-      "summary": "Your developer says WordPress is \"legacy\" and you should use Next.js. Your marketing person says WordPress is fine. They're both half right. Here's the full picture. We build on both platforms — roughly 60% of our projects are WordPress, 40% are Next.js (or React-based). We don'…",
-      "author": "Rishabh Sethia",
-      "published": "Thu, 06 Aug 2026 04:30:01 +0000",
+      "title": "I Built a Free Car Wash Loyalty Stamp Card Generator (Because Stamp Me Charges $10/Month)",
+      "url": "https://dev.to/jack_green_7b74cb2cdf9e23/i-built-a-free-car-wash-loyalty-stamp-card-generator-because-stamp-me-charges-10month-4o3",
+      "summary": "I Built a Free Car Wash Loyalty Stamp Card Generator (Because Stamp Me Charges $10/Month) I was helping a friend who runs a small car wash. She needed loyalty stamp cards for her customers — the classic \"get 10 washes, get 1 free\" punch card. She found Stamp Me, signed up, and h…",
+      "author": "Jack Green",
+      "published": "Fri, 07 Aug 2026 03:59:15 +0000",
       "tags": [
-        "nextjs",
-        "wordpress",
         "webdev",
-        "comparison"
+        "javascript",
+        "opensource",
+        "productivity"
       ]
     },
     {
-      "id": "b3cf649649d3",
+      "id": "01272b0d6356",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Big Duck",
-      "url": "https://en.wikipedia.org/wiki/Big_Duck",
-      "summary": "The Big Duck is a 20-foot-tall (6.1 m) ferrocement building in the shape of a duck: a canonical example of novelty architecture. Built in 1931 in Riverhead, New York, United States, it was moved several times to various locations on eastern Long Island, ending up in Flanders in …",
+      "title": "Henry Macandrew",
+      "url": "https://en.wikipedia.org/wiki/Henry_Macandrew",
+      "summary": "Major-General Sir Henry John Milnes Macandrew, was a British Indian Army officer who fought in the Boer War and First World War, rising to command cavalry divisions on the Western Front and in the Sinai and Palestine campaign.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "906ccad4e683",
+      "id": "05ae93802b36",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Iran says deal with Oman on Strait of Hormuz is in final stages",
-      "url": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss",
-      "summary": "Neither the US or Oman have commented on the proposed agreement on the vital waterway.",
-      "published": "Thu, 06 Aug 2026 01:19:59 GMT",
+      "title": "Meta fined $567m in largest child safety ruling against social media giant",
+      "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
+      "summary": "A New Mexico judge ordered the Instagram, Facebook and Whatsapp parent company to pay another $567m for the way it has harmed children.",
+      "published": "Fri, 07 Aug 2026 00:54:03 GMT",
       "tags": []
     },
     {
-      "id": "70e1938410a7",
+      "id": "9c6bfd53d703",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Infantino sorry for errors but stays Fifa president",
-      "url": "https://www.bbc.co.uk/sport/football/articles/clyq3el5gkqo?at_medium=RSS&at_campaign=rss",
-      "summary": "Gianni Infantino will remain as Fifa president after receiving the backing of senior executives, but \"sincerely apologises\" for errors made in his controversial private investment plans.",
-      "published": "Wed, 05 Aug 2026 21:37:08 GMT",
+      "title": "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'",
+      "url": "https://www.bbc.co.uk/news/articles/cy8mjd19xm7o?at_medium=RSS&at_campaign=rss",
+      "summary": "While precise data is classified, publicly available information suggests the US has used up many difficult-to-manufacture weapons.",
+      "published": "Thu, 06 Aug 2026 18:53:51 GMT",
       "tags": []
     },
     {
-      "id": "987439c2ef99",
+      "id": "14fdca7037f5",
       "category": "news",
       "source": "BBC 世界",
-      "title": "After deadly Kyiv strike, Ukraine warns interceptor shortage is costing lives",
-      "url": "https://www.bbc.co.uk/news/articles/cyvlgq2gp2eo?at_medium=RSS&at_campaign=rss",
-      "summary": "Without Patriot interceptors, Ukraine's skies are wide open and people are fully exposed to Russia's missile barrages.",
-      "published": "Wed, 05 Aug 2026 18:19:51 GMT",
+      "title": "Uefa says boycott may still go ahead as FA withdraws Infantino support",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c2k74yevgzwo?at_medium=RSS&at_campaign=rss",
+      "summary": "Fifa's backing of president Gianni Infantino at a meeting on Wednesday \"changes nothing\", says European governing body Uefa.",
+      "published": "Fri, 07 Aug 2026 01:57:02 GMT",
       "tags": []
     },
     {
-      "id": "1e6516f5dd61",
+      "id": "6b4039a5e3d2",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Banned from football at home, Afghan women's team reunite 8,000 miles away",
-      "url": "https://www.bbc.co.uk/news/articles/c8dnrpmgv4yo?at_medium=RSS&at_campaign=rss",
-      "summary": "Women in the team, which is recognised by Fifa, say football has given them freedom and independence.",
-      "published": "Wed, 05 Aug 2026 23:28:06 GMT",
+      "title": "Australian aviation crew carries out daring midwinter Antarctica rescue",
+      "url": "https://www.bbc.co.uk/news/articles/c89nqlz5p4qo?at_medium=RSS&at_campaign=rss",
+      "summary": "Team evacuated a patient from McMurdo Station after landing plane in total darkness and temperature of -43°C.",
+      "published": "Fri, 07 Aug 2026 04:02:18 GMT",
       "tags": []
     },
     {
-      "id": "a09b8a0550b0",
+      "id": "58b2069f1798",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Thousands of servers can be backdoored by exploiting buggy motherboard controllers",
-      "url": "https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/",
-      "summary": "Baseboard management controllers from the world's biggest manufacturers are a security mess.",
-      "author": "Dan Goodin",
-      "published": "Wed, 05 Aug 2026 22:35:20 +0000",
-      "tags": [
-        "Biz & IT",
-        "Security",
-        "baseboard management controller",
-        "bmcs"
-      ]
-    },
-    {
-      "id": "5685c603100a",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Schwartz confirmed as CDC director after bungling confirmation hearing",
-      "url": "https://arstechnica.com/health/2026/08/schwartz-confirmed-as-cdc-director-after-bungling-confirmation-hearing/",
-      "summary": "Schwartz is well-qualified for the role, but crashed and burned in Senate hearing.",
+      "title": "Organ donation group accused of trying to take living man's organs faces shutdown",
+      "url": "https://arstechnica.com/health/2026/08/us-to-shutter-organ-donation-group-accused-of-trying-to-take-living-mans-organs/",
+      "summary": "The organization, Network for Hope, \"strongly disagrees\" with Trump admin's decision.",
       "author": "Beth Mole",
-      "published": "Wed, 05 Aug 2026 21:03:18 +0000",
+      "published": "Thu, 06 Aug 2026 22:20:50 +0000",
       "tags": [
         "Health",
-        "anti-vaccine",
-        "Cassidy",
-        "CDC"
+        "human organ transplant",
+        "organ transplant"
       ]
     },
     {
-      "id": "1baa27119cab",
+      "id": "5f8206bad53c",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
-      "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
-      "summary": "Anthropic and OpenAI models’ unprompted actions forced halt to UK cyber tests.",
+      "title": "Explosive drone found hovering near Ukrainian cargo aircraft at German airport",
+      "url": "https://arstechnica.com/gadgets/2026/08/germany-disarms-explosive-drone-found-at-airport-hunts-possible-second-drone/",
+      "summary": "Russian attack? Explosive drone targeted parked aircraft at Leipzig airport.",
       "author": "Jeremy Hsu",
-      "published": "Wed, 05 Aug 2026 20:47:11 +0000",
+      "published": "Thu, 06 Aug 2026 22:01:55 +0000",
       "tags": [
-        "AI",
-        "Security",
-        "AI agents",
-        "Anthropic"
+        "Tech",
+        "Airport",
+        "anti-drone",
+        "counterterrorism"
       ]
     },
     {
-      "id": "36aa8977cf76",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "I got two email invitations from friends. Is this a phishing scam — or am I suddenly popular?",
-      "url": "https://www.marketwatch.com/story/i-got-two-email-invitations-from-friends-is-this-a-phishing-scam-or-am-i-suddenly-popular-d9680aa8?mod=mw_rss_topstories",
-      "summary": "“I was surprised — and flattered — to find myself on the guest list.”",
-      "author": "Quentin Fottrell",
-      "published": "Thu, 06 Aug 2026 01:33:00 GMT",
-      "tags": []
+      "id": "e28fbc01510c",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "X wants to keep suing advertisers, asks 5th Circuit to overrule district judge",
+      "url": "https://arstechnica.com/tech-policy/2026/08/elon-musks-x-isnt-done-suing-advertisers-asks-court-to-revive-boycott-case/",
+      "summary": "Musk continues appeal despite court loss and settlement with advertiser group.",
+      "author": "Jon Brodkin",
+      "published": "Thu, 06 Aug 2026 20:29:51 +0000",
+      "tags": [
+        "Policy",
+        "ad boycott",
+        "Elon Musk",
+        "X"
+      ]
     },
     {
-      "id": "cf7af811ef80",
+      "id": "cd86197e4924",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘I don’t wish to be cold-hearted’: My elderly relative can no longer care for himself. Am I wrong to leave his care to the state?",
-      "url": "https://www.marketwatch.com/story/i-dont-wish-to-be-cold-hearted-my-elderly-relative-can-no-longer-care-for-himself-am-i-wrong-to-leave-his-care-to-the-state-8d546b32?mod=mw_rss_topstories",
-      "summary": "“He has never been particularly generous or nurturing.”",
-      "author": "Quentin Fottrell",
-      "published": "Thu, 06 Aug 2026 01:31:00 GMT",
-      "tags": []
-    },
-    {
-      "id": "97d051211160",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "Sandisk’s stock falls as the company’s forecast doesn’t live up to high expectations",
-      "url": "https://www.marketwatch.com/story/sandisks-stock-falls-as-the-companys-forecast-doesnt-live-up-to-high-expectations-8fd13d9b?mod=mw_rss_topstories",
-      "summary": "The midpoint of the company’s revenue forecast was below what analysts had been modeling.",
+      "title": "Micron’s stock falls but is spared the worst of the memory-chip selloff",
+      "url": "https://www.marketwatch.com/story/microns-stock-claws-back-to-buck-the-memory-chip-selloff-58af0155?mod=mw_rss_topstories",
+      "summary": "Shares of Sandisk and Western Digital fell hard after investors were left unimpressed by those companies’ earnings reports.",
       "author": "Britney Nguyen",
-      "published": "Wed, 05 Aug 2026 22:25:00 GMT",
+      "published": "Fri, 07 Aug 2026 02:35:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "1d491f5f78bb",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "‘He’s never been good with money’: If I set up an annuity for my brother, 65, would it jeopardize his Supplemental Security Income?",
+      "url": "https://www.marketwatch.com/story/hes-never-been-good-with-money-if-i-set-up-an-annuity-for-my-brother-65-would-it-jeopardize-his-supplemental-security-income-d2e9f5a0?mod=mw_rss_topstories",
+      "summary": "“I was shocked to learn that his monthly Social Security benefit will be only $700.”",
+      "author": "Quentin Fottrell",
+      "published": "Fri, 07 Aug 2026 02:15:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "a7b6689a7c35",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "‘Her bank accounts were stripped bare by Medicaid’: My late friend had $20,000 in credit-card debt. Will her life insurance pay for it?",
+      "url": "https://www.marketwatch.com/story/her-bank-accounts-were-stripped-bare-by-medicaid-my-late-friend-had-20-000-in-credit-card-debt-will-her-life-insurance-pay-for-it-17ee9792?mod=mw_rss_topstories",
+      "summary": "“She left behind a 30-year-old son and 32-year-old daughter.”",
+      "author": "Quentin Fottrell",
+      "published": "Fri, 07 Aug 2026 02:00:00 GMT",
       "tags": []
     }
   ],
