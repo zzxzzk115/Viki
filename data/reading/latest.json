@@ -1,223 +1,255 @@
 {
-  "date": "2026-08-08",
+  "date": "2026-08-09",
   "items": [
     {
-      "id": "e97abb5c6208",
+      "id": "8fc6efe4907d",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Nepal men's cricket team",
-      "url": "https://simple.wikipedia.org/wiki/Nepal_men's_cricket_team",
-      "summary": "The Nepal men's cricket team has been active since 1996. Also known as The Rhinos, it is governed by the Cricket Association of Nepal (CAN), which has been an Associate Member of the International Cricket Council (ICC) since 1996. Previously, CAN were an Affiliate Member from 19…",
+      "title": "Rappahannock River",
+      "url": "https://simple.wikipedia.org/wiki/Rappahannock_River",
+      "summary": "The Rappahannock River is a river in eastern Virginia, in the United States. It is about 195 miles (314 km) in length. It crosses the entire northern part of the state, from the Blue Ridge Mountains in the west, across the Piedmont, to the Chesapeake Bay, south of the Potomac Ri…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "9aa6d527c553",
+      "id": "a8d3cda01275",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "New Concord, Ohio",
-      "url": "https://simple.wikipedia.org/wiki/New_Concord%2C_Ohio",
-      "summary": "New Concord is a village in Muskingum County, Ohio, United States. The population was 2,361 as of the 2020 census. It is part of the Zanesville micropolitan area.",
+      "title": "Beach City, Ohio",
+      "url": "https://simple.wikipedia.org/wiki/Beach_City%2C_Ohio",
+      "summary": "Beach City is a village in Stark County, Ohio, United States. The population was 940 at the 2020 census.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "82ff09b8f03c",
+      "id": "4084d487325f",
       "category": "tech",
       "source": "Hacker News",
-      "title": "The Nixpkgs core team has disbanded",
-      "url": "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
+      "title": "My server is a phone now",
+      "url": "https://seg6.space/posts/phone-server/",
       "summary": "",
-      "author": "Meleagris",
+      "author": "seg6",
       "published": "2026-08-08",
       "tags": [
-        "▲ 121"
+        "▲ 135"
       ]
     },
     {
-      "id": "3ac31eadf05b",
+      "id": "69ec2f4842ef",
       "category": "tech",
       "source": "Hacker News",
-      "title": "NASA to keep its 48-year-old Voyager 2 probe running for yet another year",
-      "url": "https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year",
+      "title": "Os8088: A powerful Mac-like OS for the IBM XT, 286, 386",
+      "url": "https://os8088.com/",
       "summary": "",
-      "author": "wglb",
+      "author": "jggonz",
       "published": "2026-08-08",
       "tags": [
-        "▲ 38"
+        "▲ 70"
       ]
     },
     {
-      "id": "92f81e64c3c7",
+      "id": "ab8d6fb76bb0",
       "category": "tech",
       "source": "Hacker News",
-      "title": "DeepSeek V4 Flash 0731",
-      "url": "https://arcprize.org/results/deepseek-v4-flash-0731",
+      "title": "Improving Heuristics for A* Pathfinding",
+      "url": "https://www.redblobgames.com/pathfinding/heuristics/differential.html",
       "summary": "",
-      "author": "tosh",
-      "published": "2026-08-07",
+      "author": "bobbiechen",
+      "published": "2026-07-28",
       "tags": [
-        "▲ 490"
+        "▲ 100"
       ]
     },
     {
-      "id": "294109fce8a0",
+      "id": "6870f66dfa83",
       "category": "tech",
       "source": "Hacker News",
-      "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
-      "url": "https://genesisopenmodels.anl.gov/",
+      "title": "The phone book that led us to Assad's spy chief in hiding",
+      "url": "https://www.bbc.com/news/articles/c4gyrzn8p94o",
       "summary": "",
-      "author": "moelf",
-      "published": "2026-08-07",
+      "author": "cwwc",
+      "published": "2026-08-09",
       "tags": [
-        "▲ 119"
+        "▲ 18"
       ]
     },
     {
-      "id": "8023bbd2b745",
+      "id": "93b9b492871c",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Assembly Hall of Shame",
-      "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
+      "title": "Fastmail offers EU data region",
+      "url": "https://www.fastmail.com/blog/fastmail-offers-eu-data-region/",
       "summary": "",
-      "author": "piotrgrabowski",
-      "published": "2026-08-07",
+      "author": "groomlake",
+      "published": "2026-08-08",
       "tags": [
-        "▲ 270"
+        "▲ 333"
       ]
     },
     {
-      "id": "5dec09279d1b",
+      "id": "7ef61f2efe25",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Ancient Library – 1,060 Greek/Latin texts, click any word to parse it",
-      "url": "https://ancientlibrary.net/",
+      "title": "Shopify replaced Redis with MySQL for inventory reservations–and it scaled",
+      "url": "https://shopify.engineering/scaling-inventory-reservations",
       "summary": "",
-      "author": "aagha",
-      "published": "2026-08-07",
+      "author": "adletbalzhanov",
+      "published": "2026-08-08",
       "tags": [
-        "▲ 162"
+        "▲ 67"
       ]
     },
     {
-      "id": "8c464ba956cc",
+      "id": "831a7fb4d26d",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Instagram Scraping Tools Compared — Which One Should You Use in 2026?",
-      "url": "https://dev.to/nick_davies_323125afbb05c/instagram-scraping-tools-compared-which-one-should-you-use-in-2026-3llg",
-      "summary": "If you need to scrape Instagram data, there are multiple tools available. But which one should you pick? I compared the top 8 options. Tool Developer Rating Users Pricing Instagram Scraper Apify 4.8 356K Pay per event Instagram Profile Scraper Apify 4.7 190K Pay per event Instag…",
-      "author": "Nick Davies",
-      "published": "Sat, 08 Aug 2026 02:51:23 +0000",
+      "title": "Build a Local ChatGPT UI with Zero API Costs",
+      "url": "https://dev.to/amrendra_n_mishra/build-a-local-chatgpt-ui-with-zero-api-costs-5ff6",
+      "summary": "Why Automate Content Creation Creating content manually for 9 channels would take 8+ hours daily. I have a full-time job as VP at JPMorgan. The math doesnt work. The Pipeline Trending Topic CSV ↓ AI Script (Ollama/Gemini) ↓ Google Cloud TTS (Voice) ↓ Pexels Images + MoviePy Vide…",
+      "author": "Amrendra N Mishra",
+      "published": "Sun, 09 Aug 2026 02:59:39 +0000",
+      "tags": [
+        "ai",
+        "webdev",
+        "javascript",
+        "tutorial"
+      ]
+    },
+    {
+      "id": "74755d178d87",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "How to Split a PDF Every N Pages in the Browser with Vue 3 and pdf-lib",
+      "url": "https://dev.to/sunshey/how-to-split-a-pdf-every-n-pages-in-the-browser-with-vue-3-and-pdf-lib-38f3",
+      "summary": "Splitting a PDF at regular intervals is one of the simplest yet most useful operations. Whether you're extracting individual pages from a presentation, dividing a compiled report into sections, or preparing files for batch processing, splitting every N pages is a recurring need.…",
+      "author": "sunshey",
+      "published": "Sun, 09 Aug 2026 02:58:57 +0000",
       "tags": [
         "webdev",
-        "api",
+        "pdf",
+        "javascript",
+        "vue"
+      ]
+    },
+    {
+      "id": "a02f1543ba3f",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Top 10 JOBS APIs & Scrapers in 2026 — Ranked by Active Users",
+      "url": "https://dev.to/nick_davies_323125afbb05c/top-10-jobs-apis-scrapers-in-2026-ranked-by-active-users-29cd",
+      "summary": "Looking for the best jobs tools? I put together a list of the top 10 most popular ones on Apify, ranked by active users. 1. Indeed Scraper 29K users | 3.8/5 rating | Pay per event Scrape jobs posted on Indeed. Get detailed information from this job portal about saved and sponsor…",
+      "author": "Nick Davies",
+      "published": "Sun, 09 Aug 2026 02:58:38 +0000",
+      "tags": [
+        "career",
+        "webdev",
         "automation",
         "tools"
       ]
     },
     {
-      "id": "a9216267b886",
+      "id": "9fe6edda2b59",
       "category": "tech",
       "source": "DEV Community",
-      "title": "A QR Code Does Not Expire. The Service Behind It Might.",
-      "url": "https://dev.to/rafaelsaive/a-qr-code-does-not-expire-the-service-behind-it-might-4303",
-      "summary": "A printed QR code has no battery, subscription, or hidden expiration date. If the pattern is still readable, a phone can scan it. But the scan has to lead somewhere. That destination may depend on a hosted page, a redirect, a domain, an account, and an organization that has to k…",
-      "author": "Rafaël Saive",
-      "published": "Sat, 08 Aug 2026 02:49:59 +0000",
+      "title": "Why Most Software Marketplace Listings Are Useless to Developers",
+      "url": "https://dev.to/esde_site/why-most-software-marketplace-listings-are-useless-to-developers-eb9",
+      "summary": "Buying a software project is very different from buying a design template. Yet many software marketplaces present source-code products almost exactly the same way they present themes, UI kits, or graphics. You get a few screenshots. A feature list. A demo button. A price. And so…",
+      "author": "esde_site",
+      "published": "Sun, 09 Aug 2026 02:53:28 +0000",
       "tags": [
-        "showdev",
-        "opensource",
+        "programming",
         "webdev",
-        "data"
+        "saas",
+        "opensource"
       ]
     },
     {
-      "id": "8e0419f67160",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Build a Web Scraper and Sell the Data: A Step-by-Step Guide",
-      "url": "https://dev.to/caper_dev/build-a-web-scraper-and-sell-the-data-a-step-by-step-guide-18o9",
-      "summary": "Build a Web Scraper and Sell the Data: A Step-by-Step Guide Web scraping is the process of automatically extracting data from websites, and it's a valuable skill for any developer. In this article, we'll walk through the steps to build a web scraper and explore ways to monetize …",
-      "author": "Caper B",
-      "published": "Sat, 08 Aug 2026 02:21:22 +0000",
-      "tags": [
-        "python",
-        "webdev",
-        "data",
-        "programming"
-      ]
-    },
-    {
-      "id": "532f4595c707",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "I Explained My Code While Writing It on Camera. Here’s What Surprised Me",
-      "url": "https://dev.to/cathylai/i-explained-my-code-while-writing-it-on-camera-heres-what-surprised-me-3bp",
-      "summary": "Recently, I decided to start recording my screen while I code. Instead of just sharing the finished destination, I wanted to document the actual journey — exposing my raw thought process, articulating my goals, and wrestling with design trade-offs in real time . It’s a bit terri…",
-      "author": "Cathy Lai",
-      "published": "Sat, 08 Aug 2026 02:13:53 +0000",
-      "tags": [
-        "buildinpublic",
-        "webdev",
-        "devjournal",
-        "react"
-      ]
-    },
-    {
-      "id": "a12223ba8d9e",
+      "id": "6aead3010383",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Cerro Panizos",
-      "url": "https://en.wikipedia.org/wiki/Cerro_Panizos",
-      "summary": "Cerro Panizos is a late Miocene-age shield-shaped volcano spanning the Potosi Department of Bolivia and the Jujuy Province of Argentina. It features two calderas and a group of lava domes. It is part of the Altiplano-Puna volcanic complex (APVC), a group of calderas and associat…",
+      "title": "Wild Australia Show",
+      "url": "https://en.wikipedia.org/wiki/Wild_Australia_Show",
+      "summary": "The Wild Australia Show was a troupe of Indigenous Australian performers that toured Australia during 1892 and 1893. The group was formed by the white businessman Archibald Meston and his business partner Brabazon Harry Purcell with the intention of performing in Australia, New …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "7dc1d2ca7c75",
+      "id": "639e1a78a571",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
-      "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss",
-      "summary": "Italy introduced border controls following an influx of about 78,000 migrants from Morocco into the neighbouring Spanish exclave of Ceuta.",
-      "published": "Fri, 07 Aug 2026 22:13:55 GMT",
+      "title": "Hormuz talks positive, Oman says, as Iran warns deal would not open strait",
+      "url": "https://www.bbc.co.uk/news/articles/c934j5y2lq9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Both sides suggest progress in talks to agree a new shipping route through the strait, but a breakthrough remains unclear.",
+      "published": "Sat, 08 Aug 2026 19:18:57 GMT",
       "tags": []
     },
     {
-      "id": "b58e53d751b2",
+      "id": "6ff63d9b355f",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Thai PM vows to introduce stricter gun laws after eight killed in shooting",
-      "url": "https://www.bbc.co.uk/news/articles/cdewx6rew04o?at_medium=RSS&at_campaign=rss",
-      "summary": "Eight people were killed when a 14-year-old opened fire at his home and school before shooting himself dead.",
-      "published": "Fri, 07 Aug 2026 21:19:27 GMT",
+      "title": "Trump's ex-lawyer Todd Blanche narrowly confirmed as US attorney general",
+      "url": "https://www.bbc.co.uk/news/articles/cewr898jy8go?at_medium=RSS&at_campaign=rss",
+      "summary": "The vote cements Trump's former criminal defence lawyer as the nation's top law enforcement official despite a rare pushback from some Republicans.",
+      "published": "Sat, 08 Aug 2026 15:56:39 GMT",
       "tags": []
     },
     {
-      "id": "60aca822c833",
+      "id": "a8ce2d0681b0",
       "category": "news",
       "source": "BBC 世界",
-      "title": "I was standing in front of my teacher when she was shot, Thai pupil says",
-      "url": "https://www.bbc.co.uk/news/articles/c07rxz03034o?at_medium=RSS&at_campaign=rss",
-      "summary": "The student says she feared never seeing her mother again after the attack killed five teachers.",
-      "published": "Fri, 07 Aug 2026 14:20:27 GMT",
+      "title": "US offers $1bn to Colombia on new right-wing president's first day of office",
+      "url": "https://www.bbc.co.uk/news/articles/cy9wy3y0e5wo?at_medium=RSS&at_campaign=rss",
+      "summary": "Abelardo de la Espriella used his maiden speech to promise an \"all-out war\" on what he calls \"narco-terrorism\".",
+      "published": "Sat, 08 Aug 2026 17:58:42 GMT",
       "tags": []
     },
     {
-      "id": "d16d38017cfe",
+      "id": "06b82d7ff94c",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Saudi Arabia, Turkey and Pakistan sign defence pact",
-      "url": "https://www.bbc.co.uk/news/articles/c30418m4mj4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Pakistan says an attack on any of the three will amount to an attack against all, amid conflict in the Middle East.",
-      "published": "Fri, 07 Aug 2026 17:42:54 GMT",
+      "title": "Messi's father Jorge dies aged 68 after illness",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c70gn3w5ek5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Lionel Messi's father and agent Jorge dies at the age of 68 following a long illness.",
+      "published": "Sat, 08 Aug 2026 15:51:11 GMT",
       "tags": []
+    },
+    {
+      "id": "da9c1e9c3282",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "The first self-driving vehicle on Mars has proven to be a smashing success",
+      "url": "https://arstechnica.com/space/2026/08/the-first-self-driving-vehicle-on-mars-has-proven-to-be-a-smashing-success/",
+      "summary": "About 90 percent of the distance driven by Perseverance has been autonomous.",
+      "author": "Eric Berger",
+      "published": "Sat, 08 Aug 2026 11:30:48 +0000",
+      "tags": [
+        "Space",
+        "Mars 2020",
+        "Mars Perseverance",
+        "self-driving"
+      ]
+    },
+    {
+      "id": "3ce57b9e709c",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "DeepMind’s hurricane breakthrough has surprised weather scientists",
+      "url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
+      "summary": "Open source WeatherNext model can make accurate predictions with lower-resolution weather data.",
+      "author": "Victoria Turk, wired.com",
+      "published": "Sat, 08 Aug 2026 11:05:50 +0000",
+      "tags": [
+        "AI",
+        "Science",
+        "atlantic hurricane season",
+        "deepmind"
+      ]
     },
     {
       "id": "5cd4a4ede33f",
@@ -236,63 +268,36 @@
       ]
     },
     {
-      "id": "ff92579b98c3",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Flesh-eating screwworms feast on humans in Mexico; human cases top 500",
-      "url": "https://arstechnica.com/health/2026/08/flesh-eating-screwworms-feast-on-humans-in-mexico-human-cases-top-500/",
-      "summary": "Six deaths reported among screwworm cases, one directly attributed to the flies.",
-      "author": "Beth Mole",
-      "published": "Fri, 07 Aug 2026 21:09:00 +0000",
-      "tags": [
-        "Health"
-      ]
-    },
-    {
-      "id": "1906ab27f47f",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Judge rules Meta caused \"public nuisance\" and must fund mental health treatment",
-      "url": "https://arstechnica.com/tech-policy/2026/08/meta-ordered-to-pay-567m-to-treat-youth-mental-health-problems-it-helped-create/",
-      "summary": "New Mexico judge orders $567M fund to help address youth mental health crisis.",
-      "author": "Jon Brodkin",
-      "published": "Fri, 07 Aug 2026 19:49:27 +0000",
-      "tags": [
-        "Policy",
-        "meta"
-      ]
-    },
-    {
-      "id": "e0342b278ca5",
+      "id": "b53e332c2b06",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Trump is trying to fire Lisa Cook again. He still wants to stack the Fed with his allies.",
-      "url": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories",
-      "summary": "Two months after he was blocked by the Supreme Court, President Donald Trump has resumed his effort to oust Federal Reserve governor Lisa Cook as part of an effort to stack the central bank’s board with more allies.",
-      "author": "Jeffry Bartash",
-      "published": "Fri, 07 Aug 2026 22:05:00 GMT",
+      "title": "‘This has been an emotionally difficult time’: My brother has cancer and my father is 94. How do I shoulder this responsibility?",
+      "url": "https://www.marketwatch.com/story/this-has-been-an-emotionally-difficult-time-my-brother-has-cancer-and-my-father-is-94-how-do-i-shoulder-this-responsibility-9da09dc4?mod=mw_rss_topstories",
+      "summary": "“My father placed his $600,000 Wisconsin home into a revocable trust, naming my brother as beneficiary.”",
+      "author": "Quentin Fottrell",
+      "published": "Sat, 08 Aug 2026 20:00:00 GMT",
       "tags": []
     },
     {
-      "id": "f70840f37640",
+      "id": "eccb24e41a37",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "The smart way to invest in gold right now as the dollar slips",
-      "url": "https://www.marketwatch.com/story/the-smart-way-to-invest-in-gold-right-now-as-the-dollar-slips-22fdf3b2?mod=mw_rss_topstories",
-      "summary": "Also in Weekend Reads: Kevin O’Leary’s investing strategy, a 9% dividend paired with lower stock-market risk and advice from the Moneyist.",
-      "author": "Philip van Doorn",
-      "published": "Fri, 07 Aug 2026 21:58:00 GMT",
+      "title": "‘I’m in my peak earning years’: I’m working beyond 70. Will that help increase my Social Security?",
+      "url": "https://www.marketwatch.com/story/im-in-my-peak-earning-years-im-working-beyond-70-will-that-help-increase-my-social-security-b0fd84da?mod=mw_rss_topstories",
+      "summary": "“I plan to retire at the end of my 70th year and transition to Medicare.”",
+      "author": "Quentin Fottrell",
+      "published": "Sat, 08 Aug 2026 19:00:00 GMT",
       "tags": []
     },
     {
-      "id": "b8742f50b0cb",
+      "id": "894fff8ca87d",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Palantir’s stock stages best week since 2024 — showing it’s no longer an ‘AI loser’",
-      "url": "https://www.marketwatch.com/story/palantirs-stock-stages-best-week-since-2024-showing-its-no-longer-an-ai-loser-2fc6c32b?mod=mw_rss_topstories",
-      "summary": "Booming demand for Palantir’s AI solutions is restoring confidence in the company.",
-      "author": "Christine Ji",
-      "published": "Fri, 07 Aug 2026 20:54:00 GMT",
+      "title": "How can we minimize taxes in retirement with a $2.3 million nest egg — while buying homes in Florida and New England?",
+      "url": "https://www.marketwatch.com/story/how-can-we-minimize-taxes-in-retirement-with-a-2-3-million-nest-egg-while-buying-homes-in-florida-and-new-england-9e2449aa?mod=mw_rss_topstories",
+      "summary": "Timing is everything when balancing retirement distributions and moving across state lines.",
+      "author": "Alessandra Malito",
+      "published": "Sat, 08 Aug 2026 19:00:00 GMT",
       "tags": []
     }
   ],

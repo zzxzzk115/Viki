@@ -1,13 +1,13 @@
 {
-  "date": "2026-08-08",
-  "word": "concur",
-  "ipa": "kənˈkɜː",
-  "ipaUs": "kənˈkɝː",
+  "date": "2026-08-09",
+  "word": "condescend",
+  "ipa": "ˌkɒn.dɪˈsend",
+  "ipaUs": "ˌkɑːn.dəˈsend",
   "pos": "verb",
-  "definition": "to agree or have the same opinion",
-  "definitionZh": "同意",
-  "example": "The new report concurs with",
-  "exampleZh": "新报告与先前的调查结果一致。",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/ukc/ukcon/ukconci025.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/c/con/concu/concur.mp3"
+  "definition": "If you condescend to do something, you agree to do something that you do not consider to be good enough for your social position:",
+  "definitionZh": "我不知道迈克尔是否会屈尊造访我们？",
+  "example": "I wonder if Michael will condescend to visit us?",
+  "exampleZh": "我不知道迈克尔是否会屈尊造访我们？",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/ukc/ukcon/ukconde009.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/c/con/conde/condescend.mp3"
 }
