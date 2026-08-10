@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-09",
+  "date": "2026-08-10",
   "items": [
     {
       "id": "a6ebe1d55cb8",
@@ -43,6 +43,28 @@
       "url": "https://www.youtube.com/watch?v=x-DIGi8Sc9E",
       "thumb": "https://i1.ytimg.com/vi/x-DIGi8Sc9E/hqdefault.jpg",
       "published": "2026-01-30",
+      "category": "图形学"
+    },
+    {
+      "id": "b4b92108ab56",
+      "platform": "bilibili",
+      "videoId": "BV1nZut66EZ9",
+      "title": "《交互式三维设计与建模》- 香港科技大学（广州）王泽宇",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV1nZut66EZ9",
+      "thumb": "https://i0.hdslb.com/bfs/archive/2a2bca41fd783b279eb8097ad3ce420109c253f3.jpg",
+      "published": "2026-08-07",
+      "category": "图形学"
+    },
+    {
+      "id": "1e6d406f740b",
+      "platform": "bilibili",
+      "videoId": "BV1ifuW6pEfr",
+      "title": "CCF CAD&CG专委会《启明星论坛》2025年第三期：李仁钟 - 如何完成一篇可视分析论文",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV1ifuW6pEfr",
+      "thumb": "https://i1.hdslb.com/bfs/archive/caa114632bebc8525649ac30dfa4403da7f5e0b9.jpg",
+      "published": "2026-08-06",
       "category": "图形学"
     },
     {
@@ -109,28 +131,6 @@
       "url": "https://www.youtube.com/watch?v=3dsilDca9DA",
       "thumb": "https://i4.ytimg.com/vi/3dsilDca9DA/hqdefault.jpg",
       "published": "2025-02-06",
-      "category": "CS"
-    },
-    {
-      "id": "9018e970ca98",
-      "platform": "bilibili",
-      "videoId": "BV1ScKR6QEQF",
-      "title": "古法做视频里加一点点科技",
-      "channel": "跟李沐学AI",
-      "url": "https://www.bilibili.com/video/BV1ScKR6QEQF",
-      "thumb": "https://i0.hdslb.com/bfs/archive/b9d2e88f8d41fe24cecddcf715756265ff68b9d2.jpg",
-      "published": "2026-06-29",
-      "category": "CS"
-    },
-    {
-      "id": "4001551d4ad2",
-      "platform": "bilibili",
-      "videoId": "BV1RfEw6LEfF",
-      "title": "能跟你对话的TTS【开源】",
-      "channel": "跟李沐学AI",
-      "url": "https://www.bilibili.com/video/BV1RfEw6LEfF",
-      "thumb": "https://i0.hdslb.com/bfs/archive/414b79823c78f30b3e60d27f14c0f44111f0234f.jpg",
-      "published": "2026-06-04",
       "category": "CS"
     },
     {
@@ -269,20 +269,19 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "图形学 · 512313464: 0 条",
+    "图形学 · 512313464: 2 条",
     "引擎 · @TheCherno: 2 条",
-    "Bilibili 437860379: code=-352 风控校验失败",
     "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
-    "CS · 1567748478: 2 条",
+    "CS · 1567748478: 0 条",
     "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 2 条",
-    "Bilibili 520819684: code=-352 风控校验失败",
     "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
     "历史 · 11646119: 2 条",
+    "Bilibili 23947287: code=-352 风控校验失败",
     "历史 · 23947287: 0 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
