@@ -1,303 +1,299 @@
 {
-  "date": "2026-08-10",
+  "date": "2026-08-11",
   "items": [
     {
-      "id": "e999aa535ea1",
+      "id": "0df4844b28f2",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Blake Wheeler",
-      "url": "https://simple.wikipedia.org/wiki/Blake_Wheeler",
-      "summary": "Blake James Wheeler is an American professional ice hockey right winger. He is currently an unrestricted free agent. He has also played for the Boston Bruins, Atlanta Thrashers, Winnipeg Jets, and New York Rangers in the National Hockey League (NHL). He also played for EHC Münch…",
+      "title": "Pyroxene",
+      "url": "https://simple.wikipedia.org/wiki/Pyroxene",
+      "summary": "The pyroxenes are a group of important rock-forming inosilicate minerals found in many igneous and metamorphic rocks. They share a common structure consisting of single chains of silica crystals with the general formula XY(Si,Al)2O6 where X and Y represents metal ions. Although …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "7140b71f6bb3",
+      "id": "b7b10c207ebf",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Lägerdorf",
-      "url": "https://simple.wikipedia.org/wiki/L%C3%A4gerdorf",
-      "summary": "Lägerdorf is a municipality of the district of Steinburg, in Schleswig-Holstein, Germany.",
+      "title": "Monocentridae",
+      "url": "https://simple.wikipedia.org/wiki/Monocentridae",
+      "summary": "Pinecone fishes are small and unusual fish of the family Monocentridae. The family contains just four species. They live in tropical and subtropical waters of the Indo-Pacific. Pinecone fishes are popular in aquariums, but are expensive and a challenge for the hobbyist.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "e7ebeed4c782",
+      "id": "a50b7e9d346a",
       "category": "tech",
       "source": "Hacker News",
-      "title": "What Happened to HackerOne?",
-      "url": "https://blog.teknogeek.io/posts/what-happened-to-hackerone/",
+      "title": "The UK's War on Anonymity Has Come to America",
+      "url": "https://www.effort.news/uk-lobby",
       "summary": "",
-      "author": "hipparchus",
+      "author": "slowin",
       "published": "2026-08-10",
       "tags": [
-        "▲ 43"
+        "▲ 305"
       ]
     },
     {
-      "id": "a7c4d93e02ba",
+      "id": "8797c3b659bb",
       "category": "tech",
       "source": "Hacker News",
-      "title": "How I use LLMs to learn complex topics",
-      "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+      "title": "Antirez/h3.c: MiniMax H3 inference engine for Mac computers",
+      "url": "https://github.com/antirez/h3.c",
       "summary": "",
-      "author": "laurentiurad",
-      "published": "2026-08-09",
+      "author": "swyx",
+      "published": "2026-08-11",
       "tags": [
-        "▲ 473"
+        "▲ 52"
       ]
     },
     {
-      "id": "302ad6f0dba4",
+      "id": "0bc06db0f4ed",
       "category": "tech",
       "source": "Hacker News",
-      "title": "How We Pushed CDC into Postgres",
-      "url": "https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/",
+      "title": "Chicken Scheme 6.0",
+      "url": "https://code.call-cc.org/releases/6.0.0/NEWS",
       "summary": "",
-      "author": "craigkerstiens",
+      "author": "eatonphil",
+      "published": "2026-08-11",
+      "tags": [
+        "▲ 77"
+      ]
+    },
+    {
+      "id": "7d6440dd3953",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Show HN: Scroll through all 43252003274489856000 Rubik's Cube states",
+      "url": "https://everycube.alen.is/",
+      "summary": "",
+      "author": "Alen123",
       "published": "2026-08-10",
       "tags": [
-        "▲ 37"
+        "▲ 93"
       ]
     },
     {
-      "id": "e75ec7ce3275",
+      "id": "02bf413a0c0d",
       "category": "tech",
       "source": "Hacker News",
-      "title": "New Zealand lost its music media, and what we're building to replace it",
-      "url": "https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media",
+      "title": "The “mechanical miracle” that ruined Mark Twain’s life",
+      "url": "https://resobscura.substack.com/p/the-mechanical-miracle-that-ruined",
       "summary": "",
-      "author": "berghoffer",
-      "published": "2026-08-09",
-      "tags": [
-        "▲ 85"
-      ]
-    },
-    {
-      "id": "4b626b6a2a89",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Taxi drivers rarely die of Alzheimer's",
-      "url": "https://theconversation.com/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-286650",
-      "summary": "",
-      "author": "jader201",
-      "published": "2026-08-09",
-      "tags": [
-        "▲ 203"
-      ]
-    },
-    {
-      "id": "bb8178f98358",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Picophysics: Single file physics for games on platforms like N64, PSX, DC",
-      "url": "https://gitlab.com/Kazade/picophysics",
-      "summary": "",
-      "author": "klaussilveira",
+      "author": "benbreen",
       "published": "2026-08-05",
       "tags": [
-        "▲ 25"
+        "▲ 71"
       ]
     },
     {
-      "id": "3fd4a503cdde",
+      "id": "be5a50d3bd7e",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Recycle – Floppydisks",
+      "url": "https://www.floppydisk.com/recycle",
+      "summary": "",
+      "author": "calvinmorrison",
+      "published": "2026-08-11",
+      "tags": [
+        "▲ 11"
+      ]
+    },
+    {
+      "id": "92b4680b3e2a",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Building a Multi-Platform Content Publishing System with Next.js 15",
-      "url": "https://dev.to/publiflow/building-a-multi-platform-content-publishing-system-with-nextjs-15-4d7k",
-      "summary": "Building a Multi-Platform Content Publishing System with Next.js 15 If you've ever tried to publish the same article across Dev.to, Medium, and Hashnode, you know it's not as simple as copy-pasting. Each platform has its own API, its own Markdown flavor, its own image handling, …",
-      "author": "PubliFlow",
-      "published": "Mon, 10 Aug 2026 03:20:38 +0000",
+      "title": "Buy 100% Verified GitHub Accounts | Ready to Use Securely",
+      "url": "https://dev.to/localpvashop17/buy-100-verified-github-accounts-ready-to-use-securely-423c",
+      "summary": "Buy 100% Verified GitHub Accounts – Secure, Aged & Ready to Use Introduction GitHub has become the backbone of modern software development. Whether you're a solo developer, a startup founder, or part of a large engineering team, having a verified and trustworthy GitHub account i…",
+      "author": "Buy Verified Binance Account",
+      "published": "Tue, 11 Aug 2026 03:07:58 +0000",
       "tags": [
-        "nextjs",
-        "saas",
-        "webdev",
-        "typescript"
+        "webdev"
       ]
     },
     {
-      "id": "c64b1d8ee26b",
+      "id": "3087a6af8c7d",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Bot Protection 101: Block Scrapers and Bad Bots Without Affecting Google",
-      "url": "https://dev.to/lialiago/bot-protection-101-block-scrapers-and-bad-bots-without-affecting-google-2bm9",
-      "summary": "Good Bots vs Bad Bots Not all bots are created equal. Bots You Want Bots You Dont Want Googlebot — indexes your site for search Scrapers — steal your content Bingbot — same as Google, different engine Credential stuffers — try leaked passwords Ahrefs / Semrush — SEO analysis (de…",
-      "author": "Lia",
-      "published": "Mon, 10 Aug 2026 03:19:58 +0000",
+      "title": "Building a Sports Data Pipeline: Lessons from Mourinho says he agreed to replace Ferguson at Man Utd",
+      "url": "https://dev.to/muhammad_binnazeer_6a810/building-a-sports-data-pipeline-lessons-from-mourinho-says-he-agreed-to-replace-ferguson-at-man-utd-4fnj",
+      "summary": "Building a Sports Data Pipeline: Lessons from Mourinho says he agreed to replace Ferguson at Man Utd TL;DR : Verified — this is a real story (Netflix documentary revelation, corroborated by ESPN, Goal, Yahoo, and Ferguson himself). Writing the article now. `html José Mourinho ha…",
+      "author": "Muhammad Bin Nazeer",
+      "published": "Tue, 11 Aug 2026 03:07:11 +0000",
       "tags": [
-        "security",
-        "devops",
         "webdev",
-        "tutorial"
+        "javascript",
+        "api",
+        "sports"
       ]
     },
     {
-      "id": "6be5cdee8758",
+      "id": "41ef7455c867",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Geo-Blocking: Block Malicious Traffic from Specific Countries (2-Minute Setup)",
-      "url": "https://dev.to/lialiago/geo-blocking-block-malicious-traffic-from-specific-countries-2-minute-setup-h3i",
-      "summary": "Why Geo-Block? Not every country needs to reach your server. If you run a local business in Brazil, you don't need traffic from North Korea. If you serve customers in the EU, you probably don't need visitors from 150 other countries hitting your login page. Geo-blocking at the W…",
-      "author": "Lia",
-      "published": "Mon, 10 Aug 2026 03:19:03 +0000",
+      "title": "Why Sciver-Brunt cameo helps Rockets into Hundred final Matters for Sports Data Engineers",
+      "url": "https://dev.to/muhammad_binnazeer_6a810/why-sciver-brunt-cameo-helps-rockets-into-hundred-final-matters-for-sports-data-engineers-4gi3",
+      "summary": "Why Sciver-Brunt cameo helps Rockets into Hundred final Matters for Sports Data Engineers TL;DR : Facts verified — the match is real (Trent Bridge, 10 August 2026, Womens Hundred). Heres the article: Nat Sciver-Brunt needed just 19 balls to bend the game Trent Rockets way. Conti…",
+      "author": "Muhammad Bin Nazeer",
+      "published": "Tue, 11 Aug 2026 03:06:31 +0000",
       "tags": [
-        "security",
-        "devops",
-        "webdev",
-        "tutorial"
+        "api",
+        "opensource",
+        "sportsanalytics",
+        "webdev"
       ]
     },
     {
-      "id": "93aa7ae92145",
+      "id": "ac2ea4608de6",
       "category": "tech",
       "source": "DEV Community",
-      "title": "What 30 Days of WAF Logs Taught Me About Internet Attackers",
-      "url": "https://dev.to/lialiago/what-30-days-of-waf-logs-taught-me-about-internet-attackers-10c0",
-      "summary": "The Setup Deployed SafeLine Community Edition on a $10/month VPS in front of 3 small websites: a WordPress blog, a Node.js SaaS app, and a static portfolio. Let it run for 30 days, blocking nothing — pure observation mode. Here's what showed up. Day 1-3: The Welcome Party Within…",
-      "author": "Lia",
-      "published": "Mon, 10 Aug 2026 03:18:56 +0000",
+      "title": "Analyzing the Environmental Impact of Amazon's New…",
+      "url": "https://dev.to/norviktech/analyzing-the-environmental-impact-of-amazons-new-bnd",
+      "summary": "Originally published at norvik.tech Introduction A deep dive into the implications of Amazon's data center permit to release 33 million tons of CO2 and its impact on technology. Understanding the Permit: What Does It Mean? Amazon recently received a permit for its data center in…",
+      "author": "Norvik Tech",
+      "published": "Tue, 11 Aug 2026 03:06:11 +0000",
       "tags": [
-        "security",
-        "devops",
         "webdev",
-        "cybersecurity"
+        "amazondatacenter",
+        "co2emissions",
+        "environmentalimpact"
       ]
     },
     {
-      "id": "d7198c6c4831",
+      "id": "8ee63e42a231",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Toys for Bob",
-      "url": "https://en.wikipedia.org/wiki/Toys_for_Bob",
-      "summary": "Toys for Bob, Inc. is an American video game developer based in Novato, California. It was founded in 1989 by Paul Reiche III and Fred Ford. The studio is known for creating Star Control and the Skylanders franchise, as well as for working on the Crash Bandicoot and Spyro franch…",
+      "title": "Grey-cowled wood rail",
+      "url": "https://en.wikipedia.org/wiki/Grey-cowled_wood_rail",
+      "summary": "The grey-cowled wood rail or grey-necked wood rail is a species of bird in the family Rallidae, the rails. It lives primarily in the forests, mangroves, and swamps of Central and South America. Of the two subspecies, A. c. avicenniae is found in southeastern Brazil, while the no…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "8e8f81d9a107",
+      "id": "4152215b50c3",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Suspected crime boss Daniel Kinahan appears in court after extradition",
-      "url": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Irish Prison Service bought a bulletproof and bombproof van to transport the 49-year-old to court after his extradition from Dubai.",
-      "published": "Sun, 09 Aug 2026 20:58:18 GMT",
+      "title": "At least 132 killed in Colombia's largest earthquake in years",
+      "url": "https://www.bbc.co.uk/news/articles/c20e360lx0vo?at_medium=RSS&at_campaign=rss",
+      "summary": "The magnitude 7.4 quake had its epicentre in Chocó province, near the Pacific Coast, but could be felt in cities hundreds of kilometres away.",
+      "published": "Tue, 11 Aug 2026 01:59:40 GMT",
       "tags": []
     },
     {
-      "id": "6e0f12b732f6",
+      "id": "47a810991ee5",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
-      "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss",
-      "summary": "Israel's PM says its military will not pull out from Gaza until Hamas is \"genuinely\" disarmed.",
-      "published": "Sun, 09 Aug 2026 21:25:04 GMT",
+      "title": "Canada flight cancelled after child refuses to wear seat belt",
+      "url": "https://www.bbc.co.uk/news/articles/cj6307x3wdgo?at_medium=RSS&at_campaign=rss",
+      "summary": "The incident has sparked a debate over child safety and discipline on commercial planes.",
+      "published": "Mon, 10 Aug 2026 21:06:27 GMT",
       "tags": []
     },
     {
-      "id": "dd0516463971",
+      "id": "91024385e6ab",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Evidence that South African special forces murdered top detective shared with BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cly8djwgem0o?at_medium=RSS&at_campaign=rss",
-      "summary": "Frans Mathipa was shot while driving - we got access to the prosecution case against eight accused men.",
-      "published": "Sun, 09 Aug 2026 23:05:29 GMT",
+      "title": "At least 13 killed in Ukrainian drone strike deep into Russia",
+      "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
+      "summary": "Russian officials say another 75 people were injured by the attack - one of the deadliest Ukrainian drone attacks since Moscow's full-scale invasion.",
+      "published": "Mon, 10 Aug 2026 14:34:25 GMT",
       "tags": []
     },
     {
-      "id": "88d93f7c4f32",
+      "id": "457c7b8c1b81",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Drones spotted over German base days after Leipzig bomb incident",
-      "url": "https://www.bbc.co.uk/news/articles/cwyeg1ljp2eo?at_medium=RSS&at_campaign=rss",
-      "summary": "Police are investigating a drone sighting over a miltary base reportedly used for housing Patriot missile system parts.",
-      "published": "Sun, 09 Aug 2026 16:18:10 GMT",
+      "title": "Netanyahu's rejection of Trump's 15-point Gaza plan unlikely to be final word",
+      "url": "https://www.bbc.co.uk/news/articles/ce3q5282ep3o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Trump administration is said to be unbothered by the Israeli prime minister's rejection of the deal, viewing it as campaign rhetoric ahead of a general election.",
+      "published": "Mon, 10 Aug 2026 14:43:08 GMT",
       "tags": []
     },
     {
-      "id": "a09b887db391",
+      "id": "5dd6b19cff3c",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Mount Toba eruption doesn't seem like it could nearly kill our species",
-      "url": "https://arstechnica.com/science/2026/08/mount-toba-eruption-doesnt-seem-like-it-could-nearly-kill-our-species/",
-      "summary": "The massive Toba eruption seems to have had little climate impact.",
-      "author": "Jacek Krywko",
-      "published": "Sun, 09 Aug 2026 11:00:14 +0000",
+      "title": "Ars Live: Ross Scott discusses the Stop Killing Games movement",
+      "url": "https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/",
+      "summary": "Our discussion takes place live on August 11 at 3 pm ET.",
+      "author": "Kyle Orland",
+      "published": "Mon, 10 Aug 2026 22:23:43 +0000",
       "tags": [
-        "Science",
-        "climate change",
-        "eruption",
-        "geology"
+        "Gaming",
+        "ars live",
+        "preservation"
       ]
     },
     {
-      "id": "da9c1e9c3282",
+      "id": "2d01a61a8baa",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "The first self-driving vehicle on Mars has proven to be a smashing success",
-      "url": "https://arstechnica.com/space/2026/08/the-first-self-driving-vehicle-on-mars-has-proven-to-be-a-smashing-success/",
-      "summary": "About 90 percent of the distance driven by Perseverance has been autonomous.",
-      "author": "Eric Berger",
-      "published": "Sat, 08 Aug 2026 11:30:48 +0000",
-      "tags": [
-        "Space",
-        "Mars 2020",
-        "Mars Perseverance",
-        "self-driving"
-      ]
-    },
-    {
-      "id": "3ce57b9e709c",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "DeepMind’s hurricane breakthrough has surprised weather scientists",
-      "url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
-      "summary": "Open source WeatherNext model can make accurate predictions with lower-resolution weather data.",
-      "author": "Victoria Turk, wired.com",
-      "published": "Sat, 08 Aug 2026 11:05:50 +0000",
+      "title": "With new open models, Meta pitches another reboot of its struggling AI strategy",
+      "url": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/",
+      "summary": "Meta has been trailing competitors. Zuckerberg thinks he's found a way forward.",
+      "author": "Samuel Axon",
+      "published": "Mon, 10 Aug 2026 22:13:03 +0000",
       "tags": [
         "AI",
-        "Science",
-        "atlantic hurricane season",
-        "deepmind"
+        "large language models",
+        "LLMs",
+        "Mark Zuckerberg"
       ]
     },
     {
-      "id": "b7ff61201c7b",
+      "id": "7d0a17b01861",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Trump signs bonkers order that cuts vaccines, promotes ones that don't exist",
+      "url": "https://arstechnica.com/health/2026/08/trump-signs-bonkers-order-that-cuts-vaccines-promotes-ones-that-dont-exist/",
+      "summary": "Trump falsely claimed the MMR vaccine is \"quite lethal\" and linked shots to autism.",
+      "author": "Beth Mole",
+      "published": "Mon, 10 Aug 2026 21:42:56 +0000",
+      "tags": [
+        "Health",
+        "anti-vaccine",
+        "measles",
+        "MMR"
+      ]
+    },
+    {
+      "id": "c84c02470ddf",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "U.S. stock futures flat as investors await inflation data, grapple with more Iran uncertainty",
-      "url": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-investors-await-inflation-data-grapple-with-more-iran-uncertainty-133212d2?mod=mw_rss_topstories",
-      "summary": "U.S. stock-index futures were little changed on Sunday, after new demands from Iran raised fresh doubts about the Strait of Hormuz reopening anytime soon and as investors await key inflation data later this week.",
+      "title": "Nvidia teams with Wall Street firms to help finance $500 billion for AI infrastructure",
+      "url": "https://www.marketwatch.com/story/nvidia-teams-with-wall-street-firms-to-help-finance-500-billion-for-ai-infrastructure-2c4805a5?mod=mw_rss_topstories",
+      "summary": "Nvidia late Monday announced a partnership with seven Wall Street financial institutions designed to raise more than $500 billion of third-party capital to fund the buildout of AI infrastructure.",
       "author": "Mike Murphy",
-      "published": "Mon, 10 Aug 2026 03:02:00 GMT",
+      "published": "Tue, 11 Aug 2026 02:28:00 GMT",
       "tags": []
     },
     {
-      "id": "006593145a15",
+      "id": "a7b6689a7c35",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘I’m easing into retirement’: I’m getting an $80,000 pension payout. Where can I invest it safely?",
-      "url": "https://www.marketwatch.com/story/im-easing-into-retirement-im-getting-an-80-000-pension-payout-where-can-i-invest-it-safely-6653d810?mod=mw_rss_topstories",
-      "summary": "“I expect to have several years before I take distributions from my 401(k) account.”",
+      "title": "‘Her bank accounts were stripped bare by Medicaid’: My late friend had $20,000 in credit-card debt. Will her life insurance pay for it?",
+      "url": "https://www.marketwatch.com/story/her-bank-accounts-were-stripped-bare-by-medicaid-my-late-friend-had-20-000-in-credit-card-debt-will-her-life-insurance-pay-for-it-17ee9792?mod=mw_rss_topstories",
+      "summary": "“She left behind a 30-year-old son and 32-year-old daughter.”",
       "author": "Quentin Fottrell",
-      "published": "Mon, 10 Aug 2026 00:00:00 GMT",
+      "published": "Tue, 11 Aug 2026 02:15:00 GMT",
       "tags": []
     },
     {
-      "id": "a351d4a25a43",
+      "id": "a708911d546c",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "If I marry my girlfriend, 67, will she lose her Supplemental Security Income and divorced spouse benefits?",
-      "url": "https://www.marketwatch.com/story/if-i-marry-my-girlfriend-67-will-she-lose-her-supplemental-security-income-and-divorced-spouse-benefits-9340bab9?mod=mw_rss_topstories",
-      "summary": "“She has been living with me for four years.”",
-      "author": "Quentin Fottrell",
-      "published": "Sun, 09 Aug 2026 23:30:00 GMT",
+      "title": "Rocket Lab reveals some big plans, but its stock is dropping on mixed earnings",
+      "url": "https://www.marketwatch.com/story/rocket-lab-reveals-some-big-plans-but-its-stock-is-dropping-on-mixed-earnings-4012ba2b?mod=mw_rss_topstories",
+      "summary": "The company is looking to expand its reach in Europe and building up its backlog.",
+      "author": "William Gavin",
+      "published": "Tue, 11 Aug 2026 01:03:00 GMT",
       "tags": []
     }
   ],
