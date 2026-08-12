@@ -1,299 +1,301 @@
 {
-  "date": "2026-08-11",
+  "date": "2026-08-12",
   "items": [
     {
-      "id": "0df4844b28f2",
+      "id": "1a563a40ead0",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Pyroxene",
-      "url": "https://simple.wikipedia.org/wiki/Pyroxene",
-      "summary": "The pyroxenes are a group of important rock-forming inosilicate minerals found in many igneous and metamorphic rocks. They share a common structure consisting of single chains of silica crystals with the general formula XY(Si,Al)2O6 where X and Y represents metal ions. Although …",
+      "title": "James E. Gunn",
+      "url": "https://simple.wikipedia.org/wiki/James_E._Gunn",
+      "summary": "James Edwin Gunn was an American science fiction writer, editor, scholar, and anthologist. His work as an editor of anthologies includes the six-volume Road to Science Fiction series.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "b7b10c207ebf",
+      "id": "7c17745af952",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Monocentridae",
-      "url": "https://simple.wikipedia.org/wiki/Monocentridae",
-      "summary": "Pinecone fishes are small and unusual fish of the family Monocentridae. The family contains just four species. They live in tropical and subtropical waters of the Indo-Pacific. Pinecone fishes are popular in aquariums, but are expensive and a challenge for the hobbyist.",
+      "title": "Meinisberg",
+      "url": "https://simple.wikipedia.org/wiki/Meinisberg",
+      "summary": "Meinisberg is a municipality of the administrative district Biel/Bienne in the canton of Bern in Switzerland.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "a50b7e9d346a",
+      "id": "393c13f6da5e",
       "category": "tech",
       "source": "Hacker News",
-      "title": "The UK's War on Anonymity Has Come to America",
-      "url": "https://www.effort.news/uk-lobby",
+      "title": "Compression is prediction",
+      "url": "https://ngrok.com/blog/compression-is-prediction",
       "summary": "",
-      "author": "slowin",
-      "published": "2026-08-10",
-      "tags": [
-        "▲ 305"
-      ]
-    },
-    {
-      "id": "8797c3b659bb",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Antirez/h3.c: MiniMax H3 inference engine for Mac computers",
-      "url": "https://github.com/antirez/h3.c",
-      "summary": "",
-      "author": "swyx",
+      "author": "nikolay",
       "published": "2026-08-11",
       "tags": [
-        "▲ 52"
+        "▲ 314"
       ]
     },
     {
-      "id": "0bc06db0f4ed",
+      "id": "e9cb2f748d97",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Chicken Scheme 6.0",
-      "url": "https://code.call-cc.org/releases/6.0.0/NEWS",
+      "title": "WorldClaw Agentic 3D open-world generation at scale",
+      "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
       "summary": "",
-      "author": "eatonphil",
+      "author": "EwanG",
       "published": "2026-08-11",
       "tags": [
-        "▲ 77"
+        "▲ 153"
       ]
     },
     {
-      "id": "7d6440dd3953",
+      "id": "d8e27ee66251",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Show HN: Scroll through all 43252003274489856000 Rubik's Cube states",
-      "url": "https://everycube.alen.is/",
+      "title": "Nvidia Nemotron 3.5 Lightning and NeMo Switchyard",
+      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
       "summary": "",
-      "author": "Alen123",
-      "published": "2026-08-10",
-      "tags": [
-        "▲ 93"
-      ]
-    },
-    {
-      "id": "02bf413a0c0d",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "The “mechanical miracle” that ruined Mark Twain’s life",
-      "url": "https://resobscura.substack.com/p/the-mechanical-miracle-that-ruined",
-      "summary": "",
-      "author": "benbreen",
-      "published": "2026-08-05",
-      "tags": [
-        "▲ 71"
-      ]
-    },
-    {
-      "id": "be5a50d3bd7e",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Recycle – Floppydisks",
-      "url": "https://www.floppydisk.com/recycle",
-      "summary": "",
-      "author": "calvinmorrison",
+      "author": "droidjj",
       "published": "2026-08-11",
       "tags": [
-        "▲ 11"
+        "▲ 192"
       ]
     },
     {
-      "id": "92b4680b3e2a",
+      "id": "5a70573ea4d6",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Mojo 1.0",
+      "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+      "summary": "",
+      "author": "dayanruben",
+      "published": "2026-08-11",
+      "tags": [
+        "▲ 316"
+      ]
+    },
+    {
+      "id": "404153eefdf7",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "The hardest working font in Manhattan (2025)",
+      "url": "https://aresluna.org/the-hardest-working-font-in-manhattan/",
+      "summary": "",
+      "author": "dcminter",
+      "published": "2026-08-06",
+      "tags": [
+        "▲ 34"
+      ]
+    },
+    {
+      "id": "f5675dc95391",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "The lifesaving secret hidden inside a horseshoe crab's blue blood",
+      "url": "https://whdh.com/news/the-lifesaving-secret-hidden-inside-a-horseshoe-crabs-blue-blood-and-the-race-to-protect-the-species/",
+      "summary": "",
+      "author": "andsoitis",
+      "published": "2026-08-12",
+      "tags": [
+        "▲ 17"
+      ]
+    },
+    {
+      "id": "be9c70a942e4",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Buy 100% Verified GitHub Accounts | Ready to Use Securely",
-      "url": "https://dev.to/localpvashop17/buy-100-verified-github-accounts-ready-to-use-securely-423c",
-      "summary": "Buy 100% Verified GitHub Accounts – Secure, Aged & Ready to Use Introduction GitHub has become the backbone of modern software development. Whether you're a solo developer, a startup founder, or part of a large engineering team, having a verified and trustworthy GitHub account i…",
-      "author": "Buy Verified Binance Account",
-      "published": "Tue, 11 Aug 2026 03:07:58 +0000",
-      "tags": [
-        "webdev"
-      ]
-    },
-    {
-      "id": "3087a6af8c7d",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Building a Sports Data Pipeline: Lessons from Mourinho says he agreed to replace Ferguson at Man Utd",
-      "url": "https://dev.to/muhammad_binnazeer_6a810/building-a-sports-data-pipeline-lessons-from-mourinho-says-he-agreed-to-replace-ferguson-at-man-utd-4fnj",
-      "summary": "Building a Sports Data Pipeline: Lessons from Mourinho says he agreed to replace Ferguson at Man Utd TL;DR : Verified — this is a real story (Netflix documentary revelation, corroborated by ESPN, Goal, Yahoo, and Ferguson himself). Writing the article now. `html José Mourinho ha…",
-      "author": "Muhammad Bin Nazeer",
-      "published": "Tue, 11 Aug 2026 03:07:11 +0000",
+      "title": "Google maps Scraping Tools Compared — Which One Should You Use in 2026?",
+      "url": "https://dev.to/nick_davies_323125afbb05c/google-maps-scraping-tools-compared-which-one-should-you-use-in-2026-4mg3",
+      "summary": "If you need to scrape Google maps data, there are multiple tools available. But which one should you pick? I compared the top 4 options. Tool Developer Rating Users Pricing Google Maps Scraper Compass 4.7 555K Pay per event Google Maps Extractor Compass 4.9 95K Pay per event 📩\ud83d…",
+      "author": "Nick Davies",
+      "published": "Wed, 12 Aug 2026 03:25:02 +0000",
       "tags": [
         "webdev",
+        "api",
+        "automation",
+        "tools"
+      ]
+    },
+    {
+      "id": "5b64a63a788b",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "The Complete Guide to Web Scraping in 2026 — No Code Required",
+      "url": "https://dev.to/nick_davies_323125afbb05c/the-complete-guide-to-web-scraping-in-2026-no-code-required-24ef",
+      "summary": "Web scraping used to require Python, proxies, and hours of debugging. Not anymore. The Problem Most developers still write custom scripts for data collection. This means: Hours of development time Maintaining proxy infrastructure Dealing with CAPTCHAs and rate limits Scripts bre…",
+      "author": "Nick Davies",
+      "published": "Wed, 12 Aug 2026 03:19:51 +0000",
+      "tags": [
+        "webdev",
+        "automation",
+        "beginners",
+        "tools"
+      ]
+    },
+    {
+      "id": "ada02ce20eb7",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "HEIC vs JPG: Why Modern Phones Changed the Way We Store Photos",
+      "url": "https://dev.to/lunarose/heic-vs-jpg-why-modern-phones-changed-the-way-we-store-photos-2m25",
+      "summary": "A Photo Problem That Wasn't Really About Photos Last year, a traveler came home with thousands of photos from a family vacation. The pictures looked perfect on her phone. But when she tried to share them with friends using an older computer, some files would not open. The proble…",
+      "author": "Luna Rose",
+      "published": "Wed, 12 Aug 2026 03:14:53 +0000",
+      "tags": [
+        "privacy",
+        "productivity",
         "javascript",
-        "api",
-        "sports"
-      ]
-    },
-    {
-      "id": "41ef7455c867",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Why Sciver-Brunt cameo helps Rockets into Hundred final Matters for Sports Data Engineers",
-      "url": "https://dev.to/muhammad_binnazeer_6a810/why-sciver-brunt-cameo-helps-rockets-into-hundred-final-matters-for-sports-data-engineers-4gi3",
-      "summary": "Why Sciver-Brunt cameo helps Rockets into Hundred final Matters for Sports Data Engineers TL;DR : Facts verified — the match is real (Trent Bridge, 10 August 2026, Womens Hundred). Heres the article: Nat Sciver-Brunt needed just 19 balls to bend the game Trent Rockets way. Conti…",
-      "author": "Muhammad Bin Nazeer",
-      "published": "Tue, 11 Aug 2026 03:06:31 +0000",
-      "tags": [
-        "api",
-        "opensource",
-        "sportsanalytics",
         "webdev"
       ]
     },
     {
-      "id": "ac2ea4608de6",
+      "id": "bc2d483e9891",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Analyzing the Environmental Impact of Amazon's New…",
-      "url": "https://dev.to/norviktech/analyzing-the-environmental-impact-of-amazons-new-bnd",
-      "summary": "Originally published at norvik.tech Introduction A deep dive into the implications of Amazon's data center permit to release 33 million tons of CO2 and its impact on technology. Understanding the Permit: What Does It Mean? Amazon recently received a permit for its data center in…",
-      "author": "Norvik Tech",
-      "published": "Tue, 11 Aug 2026 03:06:11 +0000",
+      "title": "How I Built an AI Security Auditor That Streams AST Fixes (151 Users in 3 Days)",
+      "url": "https://dev.to/kientndev/how-i-built-an-ai-security-auditor-that-streams-ast-fixes-151-users-in-3-days-29l0",
+      "summary": "Most Static Application Security Testing (SAST) tools give you a massive wall of text. They flag OWASP vulnerabilities, but leave you searching line-by-line to manually apply fixes. To solve this, I spent the last few weeks building BugZ —an autonomous security auditor designed …",
+      "author": "Kien Tran",
+      "published": "Wed, 12 Aug 2026 03:11:33 +0000",
       "tags": [
+        "showdev",
         "webdev",
-        "amazondatacenter",
-        "co2emissions",
-        "environmentalimpact"
+        "nextjs",
+        "ai"
       ]
     },
     {
-      "id": "8ee63e42a231",
+      "id": "819c8abd0bbe",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Grey-cowled wood rail",
-      "url": "https://en.wikipedia.org/wiki/Grey-cowled_wood_rail",
-      "summary": "The grey-cowled wood rail or grey-necked wood rail is a species of bird in the family Rallidae, the rails. It lives primarily in the forests, mangroves, and swamps of Central and South America. Of the two subspecies, A. c. avicenniae is found in southeastern Brazil, while the no…",
+      "title": "Yongle Emperor",
+      "url": "https://en.wikipedia.org/wiki/Yongle_Emperor",
+      "summary": "The Yongle Emperor, personal name Zhu Di, was the third emperor of the Ming dynasty of China, reigning from 1402 to 1424. He was the fourth son of the Hongwu Emperor, the founder of the dynasty.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "4152215b50c3",
+      "id": "b00909dfa994",
       "category": "news",
       "source": "BBC 世界",
-      "title": "At least 132 killed in Colombia's largest earthquake in years",
-      "url": "https://www.bbc.co.uk/news/articles/c20e360lx0vo?at_medium=RSS&at_campaign=rss",
-      "summary": "The magnitude 7.4 quake had its epicentre in Chocó province, near the Pacific Coast, but could be felt in cities hundreds of kilometres away.",
-      "published": "Tue, 11 Aug 2026 01:59:40 GMT",
+      "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
+      "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Colombia experienced a number of aftershocks on Tuesday, as efforts continued to free survivors trapped in rubble and buildings.",
+      "published": "Tue, 11 Aug 2026 19:09:52 GMT",
       "tags": []
     },
     {
-      "id": "47a810991ee5",
+      "id": "1b0628c47360",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Canada flight cancelled after child refuses to wear seat belt",
-      "url": "https://www.bbc.co.uk/news/articles/cj6307x3wdgo?at_medium=RSS&at_campaign=rss",
-      "summary": "The incident has sparked a debate over child safety and discipline on commercial planes.",
-      "published": "Mon, 10 Aug 2026 21:06:27 GMT",
+      "title": "Trump's dramatic plane swap hints at personal stakes of Iran war",
+      "url": "https://www.bbc.co.uk/news/articles/cly8jexn1z9o?at_medium=RSS&at_campaign=rss",
+      "summary": "It marks another striking episode in the turbulent history of his relationship with Iran, writes the BBC's Anthony Zurcher.",
+      "published": "Wed, 12 Aug 2026 00:14:42 GMT",
       "tags": []
     },
     {
-      "id": "91024385e6ab",
+      "id": "918822e7081f",
       "category": "news",
       "source": "BBC 世界",
-      "title": "At least 13 killed in Ukrainian drone strike deep into Russia",
-      "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
-      "summary": "Russian officials say another 75 people were injured by the attack - one of the deadliest Ukrainian drone attacks since Moscow's full-scale invasion.",
-      "published": "Mon, 10 Aug 2026 14:34:25 GMT",
+      "title": "Trump says he switched planes after Nato summit because of possible threat",
+      "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss",
+      "summary": "But the president says the jet he boarded instead was at \"greater risk\" than the decoy Air Force One.",
+      "published": "Wed, 12 Aug 2026 02:45:01 GMT",
       "tags": []
     },
     {
-      "id": "457c7b8c1b81",
+      "id": "00d5a734153d",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Netanyahu's rejection of Trump's 15-point Gaza plan unlikely to be final word",
-      "url": "https://www.bbc.co.uk/news/articles/ce3q5282ep3o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Trump administration is said to be unbothered by the Israeli prime minister's rejection of the deal, viewing it as campaign rhetoric ahead of a general election.",
-      "published": "Mon, 10 Aug 2026 14:43:08 GMT",
+      "title": "US says helicopter fired missiles to disable ship breaking Iran blockade",
+      "url": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss",
+      "summary": "US Central Command says its helicopter hit the engine room of a Panama-flagged cargo vessel in the Gulf of Oman.",
+      "published": "Tue, 11 Aug 2026 21:14:56 GMT",
       "tags": []
     },
     {
-      "id": "5dd6b19cff3c",
+      "id": "6b5f8e2ce3a9",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Ars Live: Ross Scott discusses the Stop Killing Games movement",
-      "url": "https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/",
-      "summary": "Our discussion takes place live on August 11 at 3 pm ET.",
-      "author": "Kyle Orland",
-      "published": "Mon, 10 Aug 2026 22:23:43 +0000",
+      "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
+      "url": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
+      "summary": "FBI Atlanta confirms it's looking into the incident, no arrests made.",
+      "author": "Cyrus Farivar",
+      "published": "Wed, 12 Aug 2026 00:08:40 +0000",
       "tags": [
-        "Gaming",
-        "ars live",
-        "preservation"
+        "Biz & IT",
+        "Security"
       ]
     },
     {
-      "id": "2d01a61a8baa",
+      "id": "dbac7040609b",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "With new open models, Meta pitches another reboot of its struggling AI strategy",
-      "url": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/",
-      "summary": "Meta has been trailing competitors. Zuckerberg thinks he's found a way forward.",
-      "author": "Samuel Axon",
-      "published": "Mon, 10 Aug 2026 22:13:03 +0000",
-      "tags": [
-        "AI",
-        "large language models",
-        "LLMs",
-        "Mark Zuckerberg"
-      ]
-    },
-    {
-      "id": "7d0a17b01861",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Trump signs bonkers order that cuts vaccines, promotes ones that don't exist",
-      "url": "https://arstechnica.com/health/2026/08/trump-signs-bonkers-order-that-cuts-vaccines-promotes-ones-that-dont-exist/",
-      "summary": "Trump falsely claimed the MMR vaccine is \"quite lethal\" and linked shots to autism.",
+      "title": "Trump wants Big Pharma to split MMR vaccine; Big Pharma thinks it's idiotic",
+      "url": "https://arstechnica.com/health/2026/08/trump-wants-big-pharma-to-split-mmr-vaccine-big-pharma-thinks-its-idiotic/",
+      "summary": "It took just hours for the leading pharma group to reject the recommendations.",
       "author": "Beth Mole",
-      "published": "Mon, 10 Aug 2026 21:42:56 +0000",
+      "published": "Tue, 11 Aug 2026 22:31:45 +0000",
       "tags": [
         "Health",
         "anti-vaccine",
-        "measles",
-        "MMR"
+        "gsk",
+        "measles"
       ]
     },
     {
-      "id": "c84c02470ddf",
+      "id": "fcb250e78586",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Russian drones found near vital European offshore gas site, get blown up",
+      "url": "https://arstechnica.com/gadgets/2026/08/romania-destroys-russian-drones-drifting-near-vital-european-offshore-gas-site/",
+      "summary": "This follows many drone incursions into Romania and a failed attack in Germany.",
+      "author": "Jeremy Hsu",
+      "published": "Tue, 11 Aug 2026 21:20:11 +0000",
+      "tags": [
+        "Tech",
+        "drones",
+        "european union",
+        "military drones"
+      ]
+    },
+    {
+      "id": "6d1aad7c9d77",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Nvidia teams with Wall Street firms to help finance $500 billion for AI infrastructure",
-      "url": "https://www.marketwatch.com/story/nvidia-teams-with-wall-street-firms-to-help-finance-500-billion-for-ai-infrastructure-2c4805a5?mod=mw_rss_topstories",
-      "summary": "Nvidia late Monday announced a partnership with seven Wall Street financial institutions designed to raise more than $500 billion of third-party capital to fund the buildout of AI infrastructure.",
-      "author": "Mike Murphy",
-      "published": "Tue, 11 Aug 2026 02:28:00 GMT",
+      "title": "CoreWeave’s stock soars as earnings show major AI momentum",
+      "url": "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede?mod=mw_rss_topstories",
+      "summary": "The AI cloud provider topped revenue and earnings expectations, with its CEO cheering “an important inflection point.”",
+      "author": "Christine Ji",
+      "published": "Wed, 12 Aug 2026 00:17:00 GMT",
       "tags": []
     },
     {
-      "id": "a7b6689a7c35",
+      "id": "8e4211104775",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘Her bank accounts were stripped bare by Medicaid’: My late friend had $20,000 in credit-card debt. Will her life insurance pay for it?",
-      "url": "https://www.marketwatch.com/story/her-bank-accounts-were-stripped-bare-by-medicaid-my-late-friend-had-20-000-in-credit-card-debt-will-her-life-insurance-pay-for-it-17ee9792?mod=mw_rss_topstories",
-      "summary": "“She left behind a 30-year-old son and 32-year-old daughter.”",
-      "author": "Quentin Fottrell",
-      "published": "Tue, 11 Aug 2026 02:15:00 GMT",
+      "title": "Super Micro’s earnings report brings more good news, and the stock is climbing",
+      "url": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89?mod=mw_rss_topstories",
+      "summary": "The company impressed Wall Street several weeks ago by teasing an improved profitability trajectory. Super Micro’s latest forecast has exceeded expectations as well.",
+      "author": "Britney Nguyen",
+      "published": "Wed, 12 Aug 2026 00:16:00 GMT",
       "tags": []
     },
     {
-      "id": "a708911d546c",
+      "id": "d62d27ae4b44",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Rocket Lab reveals some big plans, but its stock is dropping on mixed earnings",
-      "url": "https://www.marketwatch.com/story/rocket-lab-reveals-some-big-plans-but-its-stock-is-dropping-on-mixed-earnings-4012ba2b?mod=mw_rss_topstories",
-      "summary": "The company is looking to expand its reach in Europe and building up its backlog.",
-      "author": "William Gavin",
-      "published": "Tue, 11 Aug 2026 01:03:00 GMT",
+      "title": "Lumentum sees sales more than double as AI demand swells",
+      "url": "https://www.marketwatch.com/story/lumentum-sees-sales-more-than-double-as-ai-demand-swells-6ebe6ef1?mod=mw_rss_topstories",
+      "summary": "Though Lumentum posted blowout earnings and an upbeat forecast, its stock was largely flat after hours.",
+      "author": "Hannah Pedone",
+      "published": "Wed, 12 Aug 2026 00:15:00 GMT",
       "tags": []
     }
   ],
