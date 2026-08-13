@@ -1,117 +1,133 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "items": [
     {
-      "id": "1a563a40ead0",
+      "id": "49de0ce34c4a",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "James E. Gunn",
-      "url": "https://simple.wikipedia.org/wiki/James_E._Gunn",
-      "summary": "James Edwin Gunn was an American science fiction writer, editor, scholar, and anthologist. His work as an editor of anthologies includes the six-volume Road to Science Fiction series.",
+      "title": "Marc Michetz",
+      "url": "https://simple.wikipedia.org/wiki/Marc_Michetz",
+      "summary": "Marc Michetz pseudonym of Marc Degroide was a Belgian comics artist.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "7c17745af952",
+      "id": "05c3e628f57f",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Meinisberg",
-      "url": "https://simple.wikipedia.org/wiki/Meinisberg",
-      "summary": "Meinisberg is a municipality of the administrative district Biel/Bienne in the canton of Bern in Switzerland.",
+      "title": "Azad Hind",
+      "url": "https://simple.wikipedia.org/wiki/Azad_Hind",
+      "summary": "Azad Hind was the name of an Indian government, which was established in Singapore, in 1943. Its English name is usually Provisional Government of Free India. It was very dependent on its ally, the Empire of Japan. They fought the Burma campaign together. After the Second World …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "393c13f6da5e",
+      "id": "fbdfaa10f2aa",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Compression is prediction",
-      "url": "https://ngrok.com/blog/compression-is-prediction",
+      "title": "DeepSeek V4 Pro 0813",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
       "summary": "",
-      "author": "nikolay",
-      "published": "2026-08-11",
-      "tags": [
-        "▲ 314"
-      ]
-    },
-    {
-      "id": "e9cb2f748d97",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "WorldClaw Agentic 3D open-world generation at scale",
-      "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
-      "summary": "",
-      "author": "EwanG",
-      "published": "2026-08-11",
-      "tags": [
-        "▲ 153"
-      ]
-    },
-    {
-      "id": "d8e27ee66251",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Nvidia Nemotron 3.5 Lightning and NeMo Switchyard",
-      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
-      "summary": "",
-      "author": "droidjj",
-      "published": "2026-08-11",
-      "tags": [
-        "▲ 192"
-      ]
-    },
-    {
-      "id": "5a70573ea4d6",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Mojo 1.0",
-      "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
-      "summary": "",
-      "author": "dayanruben",
-      "published": "2026-08-11",
-      "tags": [
-        "▲ 316"
-      ]
-    },
-    {
-      "id": "404153eefdf7",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "The hardest working font in Manhattan (2025)",
-      "url": "https://aresluna.org/the-hardest-working-font-in-manhattan/",
-      "summary": "",
-      "author": "dcminter",
-      "published": "2026-08-06",
-      "tags": [
-        "▲ 34"
-      ]
-    },
-    {
-      "id": "f5675dc95391",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "The lifesaving secret hidden inside a horseshoe crab's blue blood",
-      "url": "https://whdh.com/news/the-lifesaving-secret-hidden-inside-a-horseshoe-crabs-blue-blood-and-the-race-to-protect-the-species/",
-      "summary": "",
-      "author": "andsoitis",
+      "author": "explosion-s",
       "published": "2026-08-12",
       "tags": [
-        "▲ 17"
+        "▲ 791"
       ]
     },
     {
-      "id": "be9c70a942e4",
+      "id": "d2535f023812",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Delta",
+      "url": "https://zed.dev/blog/introducing-delta",
+      "summary": "",
+      "author": "khy",
+      "published": "2026-08-12",
+      "tags": [
+        "▲ 437"
+      ]
+    },
+    {
+      "id": "550006791bdd",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
+      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "summary": "",
+      "author": "ropbear",
+      "published": "2026-08-12",
+      "tags": [
+        "▲ 856"
+      ]
+    },
+    {
+      "id": "f9e1ef66ab3d",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Qwen3.8-2.4T",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "summary": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B-FP8",
+      "author": "Philpax",
+      "published": "2026-08-12",
+      "tags": [
+        "▲ 523"
+      ]
+    },
+    {
+      "id": "9abd3fd24c08",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Principia Mathematica is modern and insightful",
+      "url": "https://okmij.org/ftp/Computation/Impressions/PrincipiaMathematica.html",
+      "summary": "",
+      "author": "matt_d",
+      "published": "2026-08-12",
+      "tags": [
+        "▲ 70"
+      ]
+    },
+    {
+      "id": "c57f4224ab88",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Happy 45th Birthday to the IBM PC and Model F/XT",
+      "url": "https://sharktastica.co.uk/articles/pc-fxt-45",
+      "summary": "",
+      "author": "tart-lemonade",
+      "published": "2026-08-12",
+      "tags": [
+        "▲ 39"
+      ]
+    },
+    {
+      "id": "f84cc0053753",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Google maps Scraping Tools Compared — Which One Should You Use in 2026?",
-      "url": "https://dev.to/nick_davies_323125afbb05c/google-maps-scraping-tools-compared-which-one-should-you-use-in-2026-4mg3",
-      "summary": "If you need to scrape Google maps data, there are multiple tools available. But which one should you pick? I compared the top 4 options. Tool Developer Rating Users Pricing Google Maps Scraper Compass 4.7 555K Pay per event Google Maps Extractor Compass 4.9 95K Pay per event 📩\ud83d…",
+      "title": "The Silent Killer of ASP.NET Core Performance: The N+1 Query Problem",
+      "url": "https://dev.to/azhadsuhaimi/the-silent-killer-of-aspnet-core-performance-the-n1-query-problem-1akc",
+      "summary": "It’s a classic story: You build an API endpoint in ASP.NET Core using Entity Framework Core. You test it locally with 10 dummy records in your database, and it responds in a lightning-fast 15 milliseconds . You push it to production. A few weeks later, as the user base and data …",
+      "author": "azhadsuhaimi",
+      "published": "Thu, 13 Aug 2026 03:26:10 +0000",
+      "tags": [
+        "dotnet",
+        "csharp",
+        "webdev",
+        "database"
+      ]
+    },
+    {
+      "id": "1c3cf6dafff3",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Instagram Scraping Tools Compared — Which One Should You Use in 2026?",
+      "url": "https://dev.to/nick_davies_323125afbb05c/instagram-scraping-tools-compared-which-one-should-you-use-in-2026-4d7a",
+      "summary": "If you need to scrape Instagram data, there are multiple tools available. But which one should you pick? I compared the top 8 options. Tool Developer Rating Users Pricing Instagram Scraper Apify 4.8 361K Pay per event Instagram Profile Scraper Apify 4.7 194K Pay per event Instag…",
       "author": "Nick Davies",
-      "published": "Wed, 12 Aug 2026 03:25:02 +0000",
+      "published": "Thu, 13 Aug 2026 03:23:12 +0000",
       "tags": [
         "webdev",
         "api",
@@ -120,182 +136,165 @@
       ]
     },
     {
-      "id": "5b64a63a788b",
+      "id": "44a8cd9e3efa",
       "category": "tech",
       "source": "DEV Community",
-      "title": "The Complete Guide to Web Scraping in 2026 — No Code Required",
-      "url": "https://dev.to/nick_davies_323125afbb05c/the-complete-guide-to-web-scraping-in-2026-no-code-required-24ef",
-      "summary": "Web scraping used to require Python, proxies, and hours of debugging. Not anymore. The Problem Most developers still write custom scripts for data collection. This means: Hours of development time Maintaining proxy infrastructure Dealing with CAPTCHAs and rate limits Scripts bre…",
-      "author": "Nick Davies",
-      "published": "Wed, 12 Aug 2026 03:19:51 +0000",
+      "title": "Font Preview Is a Classification Problem, Not a Beauty Contest",
+      "url": "https://dev.to/_07e5b9494afc828f63de94/font-preview-is-a-classification-problem-not-a-beauty-contest-4ecn",
+      "summary": "An Arabic type preview becomes more useful when it helps a designer classify intent. “Which one looks best?” is too vague. The better question is whether the phrase needs readability, geometry, ceremony, ornament, handwriting energy, or poetic flow. Six familiar script direction…",
+      "author": "袁潇",
+      "published": "Thu, 13 Aug 2026 03:22:54 +0000",
       "tags": [
         "webdev",
-        "automation",
-        "beginners",
-        "tools"
+        "design"
       ]
     },
     {
-      "id": "ada02ce20eb7",
+      "id": "8e7916a053c9",
       "category": "tech",
       "source": "DEV Community",
-      "title": "HEIC vs JPG: Why Modern Phones Changed the Way We Store Photos",
-      "url": "https://dev.to/lunarose/heic-vs-jpg-why-modern-phones-changed-the-way-we-store-photos-2m25",
-      "summary": "A Photo Problem That Wasn't Really About Photos Last year, a traveler came home with thousands of photos from a family vacation. The pictures looked perfect on her phone. But when she tried to share them with friends using an older computer, some files would not open. The proble…",
-      "author": "Luna Rose",
-      "published": "Wed, 12 Aug 2026 03:14:53 +0000",
+      "title": "Designing Puzzle Hints Around Blockers, Not Tap Sequences",
+      "url": "https://dev.to/_07e5b9494afc828f63de94/designing-puzzle-hints-around-blockers-not-tap-sequences-fja",
+      "summary": "A weak puzzle walkthrough records every input. A stronger one explains why the board refuses to move. That distinction matters in traffic-sorting puzzles, where a correct tap can still be useless if a garage exit, crossing lane, or temporary holding space remains blocked. I used…",
+      "author": "袁潇",
+      "published": "Thu, 13 Aug 2026 03:21:26 +0000",
       "tags": [
-        "privacy",
-        "productivity",
-        "javascript",
+        "gamedev",
+        "tutorial",
         "webdev"
       ]
     },
     {
-      "id": "bc2d483e9891",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "How I Built an AI Security Auditor That Streams AST Fixes (151 Users in 3 Days)",
-      "url": "https://dev.to/kientndev/how-i-built-an-ai-security-auditor-that-streams-ast-fixes-151-users-in-3-days-29l0",
-      "summary": "Most Static Application Security Testing (SAST) tools give you a massive wall of text. They flag OWASP vulnerabilities, but leave you searching line-by-line to manually apply fixes. To solve this, I spent the last few weeks building BugZ —an autonomous security auditor designed …",
-      "author": "Kien Tran",
-      "published": "Wed, 12 Aug 2026 03:11:33 +0000",
-      "tags": [
-        "showdev",
-        "webdev",
-        "nextjs",
-        "ai"
-      ]
-    },
-    {
-      "id": "819c8abd0bbe",
+      "id": "32ddbec0928c",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Yongle Emperor",
-      "url": "https://en.wikipedia.org/wiki/Yongle_Emperor",
-      "summary": "The Yongle Emperor, personal name Zhu Di, was the third emperor of the Ming dynasty of China, reigning from 1402 to 1424. He was the fourth son of the Hongwu Emperor, the founder of the dynasty.",
+      "title": "Ellis Wackett",
+      "url": "https://en.wikipedia.org/wiki/Ellis_Wackett",
+      "summary": "Air Vice-Marshal Ellis Charles Wackett, CB, CBE was a senior commander in the Royal Australian Air Force (RAAF). Its chief engineer from 1935 to 1959, he served on the RAAF's controlling body, the Air Board, for a record seventeen years, and has been credited with infusing opera…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "b00909dfa994",
+      "id": "e8201d357c5f",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
-      "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Colombia experienced a number of aftershocks on Tuesday, as efforts continued to free survivors trapped in rubble and buildings.",
-      "published": "Tue, 11 Aug 2026 19:09:52 GMT",
+      "title": "Major Russian grain export terminals hit in Ukraine Black Sea port attack",
+      "url": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss",
+      "summary": "Grain exports from both Russia and Ukraine are falling as both countries attack each other's shipping facilities and ports.",
+      "published": "Thu, 13 Aug 2026 03:28:56 GMT",
       "tags": []
     },
     {
-      "id": "1b0628c47360",
+      "id": "b86fbc4ab58f",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump's dramatic plane swap hints at personal stakes of Iran war",
-      "url": "https://www.bbc.co.uk/news/articles/cly8jexn1z9o?at_medium=RSS&at_campaign=rss",
-      "summary": "It marks another striking episode in the turbulent history of his relationship with Iran, writes the BBC's Anthony Zurcher.",
-      "published": "Wed, 12 Aug 2026 00:14:42 GMT",
+      "title": "Israeli settlers besieging Palestinian families in West Bank village",
+      "url": "https://www.bbc.co.uk/news/articles/cn0npjkqrleo?at_medium=RSS&at_campaign=rss",
+      "summary": "Israeli security forces have reportedly withdrawn and about a dozen settlers are said to remain at the site where two families have been besieged since Sunday.",
+      "published": "Wed, 12 Aug 2026 16:14:08 GMT",
       "tags": []
     },
     {
-      "id": "918822e7081f",
+      "id": "4abd3982ef9b",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump says he switched planes after Nato summit because of possible threat",
-      "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss",
-      "summary": "But the president says the jet he boarded instead was at \"greater risk\" than the decoy Air Force One.",
-      "published": "Wed, 12 Aug 2026 02:45:01 GMT",
+      "title": "Ebola outbreak on track to be deadliest ever, WHO chief says",
+      "url": "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss",
+      "summary": "The outbreak, declared on 15 May, has caused more than 2,000 deaths, with thousands more reported cases.",
+      "published": "Thu, 13 Aug 2026 01:31:21 GMT",
       "tags": []
     },
     {
-      "id": "00d5a734153d",
+      "id": "b99be3d89542",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US says helicopter fired missiles to disable ship breaking Iran blockade",
-      "url": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss",
-      "summary": "US Central Command says its helicopter hit the engine room of a Panama-flagged cargo vessel in the Gulf of Oman.",
-      "published": "Tue, 11 Aug 2026 21:14:56 GMT",
+      "title": "Three men will be executed on the same day as death penalties rise in US",
+      "url": "https://www.bbc.co.uk/news/articles/cn5n399n6zvo?at_medium=RSS&at_campaign=rss",
+      "summary": "Despite growing opposition to the death penalty, one state is behind the rising numbers.",
+      "published": "Wed, 12 Aug 2026 20:52:20 GMT",
       "tags": []
     },
     {
-      "id": "6b5f8e2ce3a9",
+      "id": "2b21256f8da3",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
-      "url": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
-      "summary": "FBI Atlanta confirms it's looking into the incident, no arrests made.",
-      "author": "Cyrus Farivar",
-      "published": "Wed, 12 Aug 2026 00:08:40 +0000",
-      "tags": [
-        "Biz & IT",
-        "Security"
-      ]
-    },
-    {
-      "id": "dbac7040609b",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Trump wants Big Pharma to split MMR vaccine; Big Pharma thinks it's idiotic",
-      "url": "https://arstechnica.com/health/2026/08/trump-wants-big-pharma-to-split-mmr-vaccine-big-pharma-thinks-its-idiotic/",
-      "summary": "It took just hours for the leading pharma group to reject the recommendations.",
+      "title": "Toddler's tragic death from brain-destroying amoeba offers lessons for doctors",
+      "url": "https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/",
+      "summary": "Boy's unusual symptoms could help identify the next case sooner.",
       "author": "Beth Mole",
-      "published": "Tue, 11 Aug 2026 22:31:45 +0000",
+      "published": "Wed, 12 Aug 2026 22:31:19 +0000",
       "tags": [
         "Health",
-        "anti-vaccine",
-        "gsk",
-        "measles"
+        "ameoba",
+        "brain",
+        "case report"
       ]
     },
     {
-      "id": "fcb250e78586",
+      "id": "b7995d0a4e6f",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Russian drones found near vital European offshore gas site, get blown up",
-      "url": "https://arstechnica.com/gadgets/2026/08/romania-destroys-russian-drones-drifting-near-vital-european-offshore-gas-site/",
-      "summary": "This follows many drone incursions into Romania and a failed attack in Germany.",
-      "author": "Jeremy Hsu",
-      "published": "Tue, 11 Aug 2026 21:20:11 +0000",
+      "title": "The web’s newest weapon against AI scrapers is a font",
+      "url": "https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/",
+      "summary": "“ShieldFont” aims to poison AI training data without making pages unreadable for people.",
+      "author": "Kyle Orland",
+      "published": "Wed, 12 Aug 2026 22:02:25 +0000",
       "tags": [
-        "Tech",
-        "drones",
-        "european union",
-        "military drones"
+        "AI",
+        "AI scrapers",
+        "Font",
+        "LLMs"
       ]
     },
     {
-      "id": "6d1aad7c9d77",
+      "id": "80c120873d58",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Terabytes of credentials leaked in massive supply-chain attack",
+      "url": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
+      "summary": "The data was scraped and exfiltrated from 2,500 users of a compromised AI package.",
+      "author": "Dan Goodin",
+      "published": "Wed, 12 Aug 2026 21:43:21 +0000",
+      "tags": [
+        "AI",
+        "Biz & IT",
+        "Security",
+        "litellm"
+      ]
+    },
+    {
+      "id": "8cecdcacb1b4",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "CoreWeave’s stock soars as earnings show major AI momentum",
-      "url": "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede?mod=mw_rss_topstories",
-      "summary": "The AI cloud provider topped revenue and earnings expectations, with its CEO cheering “an important inflection point.”",
+      "title": "Cisco sees record results from an AI ‘supercycle,’ but its stock pulls back",
+      "url": "https://www.marketwatch.com/story/cisco-sees-record-results-from-an-ai-supercycle-but-its-stock-pulls-back-2635b81a?mod=mw_rss_topstories",
+      "summary": "An 18% revenue surge and blowout 2027 forecast weren’t enough to sustain Cisco’s stock momentum.",
       "author": "Christine Ji",
-      "published": "Wed, 12 Aug 2026 00:17:00 GMT",
+      "published": "Thu, 13 Aug 2026 01:16:00 GMT",
       "tags": []
     },
     {
-      "id": "8e4211104775",
+      "id": "68ae63f6c0de",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Super Micro’s earnings report brings more good news, and the stock is climbing",
-      "url": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89?mod=mw_rss_topstories",
-      "summary": "The company impressed Wall Street several weeks ago by teasing an improved profitability trajectory. Super Micro’s latest forecast has exceeded expectations as well.",
-      "author": "Britney Nguyen",
-      "published": "Wed, 12 Aug 2026 00:16:00 GMT",
+      "title": "My wife can claim $900 at 62. Should she take it now — or wait for her spousal benefit?",
+      "url": "https://www.marketwatch.com/story/i-want-her-to-choose-the-best-strategy-my-wifes-social-security-is-just-900-should-she-claim-spousal-benefit-at-62-e3ef621d?mod=mw_rss_topstories",
+      "summary": "“She was a teacher at a school district, so didn’t put much into Social Security.”",
+      "author": "Quentin Fottrell",
+      "published": "Thu, 13 Aug 2026 01:00:00 GMT",
       "tags": []
     },
     {
-      "id": "d62d27ae4b44",
+      "id": "27e6e75e1cb3",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Lumentum sees sales more than double as AI demand swells",
-      "url": "https://www.marketwatch.com/story/lumentum-sees-sales-more-than-double-as-ai-demand-swells-6ebe6ef1?mod=mw_rss_topstories",
-      "summary": "Though Lumentum posted blowout earnings and an upbeat forecast, its stock was largely flat after hours.",
-      "author": "Hannah Pedone",
-      "published": "Wed, 12 Aug 2026 00:15:00 GMT",
+      "title": "I found a $100 bill in the communal washer at my Airbnb. What should I do?",
+      "url": "https://www.marketwatch.com/story/im-dreaming-of-cocktails-at-chateau-marmont-i-found-100-in-my-airbnbs-communal-washer-what-should-i-do-9694ecca?mod=mw_rss_topstories",
+      "summary": "“The landlord has not been here in months, so I assume it was a previous tenant.”",
+      "author": "Quentin Fottrell",
+      "published": "Thu, 13 Aug 2026 00:45:00 GMT",
       "tags": []
     }
   ],
