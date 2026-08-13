@@ -1,28 +1,6 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "items": [
-    {
-      "id": "41a44f1be560",
-      "platform": "youtube",
-      "videoId": "mGuYUEuVDYc",
-      "title": "I Tried Recreating Every TETRIS Ever",
-      "channel": "Acerola",
-      "url": "https://www.youtube.com/watch?v=mGuYUEuVDYc",
-      "thumb": "https://i2.ytimg.com/vi/mGuYUEuVDYc/hqdefault.jpg",
-      "published": "2026-07-12",
-      "category": "图形学"
-    },
-    {
-      "id": "b9ac62c4aa65",
-      "platform": "youtube",
-      "videoId": "x-DIGi8Sc9E",
-      "title": "\"Indie\" doesn't mean what you think it means",
-      "channel": "Acerola",
-      "url": "https://www.youtube.com/watch?v=x-DIGi8Sc9E",
-      "thumb": "https://i1.ytimg.com/vi/x-DIGi8Sc9E/hqdefault.jpg",
-      "published": "2026-01-30",
-      "category": "图形学"
-    },
     {
       "id": "b4b92108ab56",
       "platform": "bilibili",
@@ -46,72 +24,6 @@
       "category": "图形学"
     },
     {
-      "id": "74d5969623e3",
-      "platform": "bilibili",
-      "videoId": "BV1BTnxzKEVv",
-      "title": "2025.9月编程语言排行榜 C++、C、JAVA亚军之争异常激烈 Perl的火爆与人工智能无关",
-      "channel": "原子之音",
-      "url": "https://www.bilibili.com/video/BV1BTnxzKEVv",
-      "thumb": "https://i0.hdslb.com/bfs/archive/57a35f617d5a79a0ce357179e98382a0c2786185.jpg",
-      "published": "2025-09-26",
-      "category": "引擎"
-    },
-    {
-      "id": "20c78ca36141",
-      "platform": "bilibili",
-      "videoId": "BV1TXWVzZEx4",
-      "title": "虚幻中的C++: 输入系统(Input与Enhanced Input)",
-      "channel": "原子之音",
-      "url": "https://www.bilibili.com/video/BV1TXWVzZEx4",
-      "thumb": "https://i0.hdslb.com/bfs/archive/56b88c2f99c47fd48d8dd518d296fa8697902d72.jpg",
-      "published": "2025-09-20",
-      "category": "引擎"
-    },
-    {
-      "id": "9018e970ca98",
-      "platform": "bilibili",
-      "videoId": "BV1ScKR6QEQF",
-      "title": "古法做视频里加一点点科技",
-      "channel": "跟李沐学AI",
-      "url": "https://www.bilibili.com/video/BV1ScKR6QEQF",
-      "thumb": "https://i0.hdslb.com/bfs/archive/b9d2e88f8d41fe24cecddcf715756265ff68b9d2.jpg",
-      "published": "2026-06-29",
-      "category": "CS"
-    },
-    {
-      "id": "4001551d4ad2",
-      "platform": "bilibili",
-      "videoId": "BV1RfEw6LEfF",
-      "title": "能跟你对话的TTS【开源】",
-      "channel": "跟李沐学AI",
-      "url": "https://www.bilibili.com/video/BV1RfEw6LEfF",
-      "thumb": "https://i0.hdslb.com/bfs/archive/414b79823c78f30b3e60d27f14c0f44111f0234f.jpg",
-      "published": "2026-06-04",
-      "category": "CS"
-    },
-    {
-      "id": "0b91f31069ca",
-      "platform": "bilibili",
-      "videoId": "BV1q2jh6FEhX",
-      "title": "30 - Agentic AI 和我们的未来；课程总结 [2026 南京大学操作系统原理]",
-      "channel": "绿导师原谅你了",
-      "url": "https://www.bilibili.com/video/BV1q2jh6FEhX",
-      "thumb": "https://i1.hdslb.com/bfs/archive/b7e8dace001aa6b23bc6117e75ba72fc9b3b2e21.jpg",
-      "published": "2026-06-18",
-      "category": "CS"
-    },
-    {
-      "id": "7ab9db96faa7",
-      "platform": "bilibili",
-      "videoId": "BV1uaEB66EAH",
-      "title": "29 - 虚拟机和容器 [2026 南京大学操作系统原理]",
-      "channel": "绿导师原谅你了",
-      "url": "https://www.bilibili.com/video/BV1uaEB66EAH",
-      "thumb": "https://i2.hdslb.com/bfs/archive/ac577490a4b6c1a5371f75e9aaab9f3601aba2b4.jpg",
-      "published": "2026-06-11",
-      "category": "CS"
-    },
-    {
       "id": "3a23fd5a2def",
       "platform": "bilibili",
       "videoId": "BV1XPuo6uES8",
@@ -132,24 +44,70 @@
       "thumb": "https://i2.hdslb.com/bfs/archive/c4c2fc66d8d11a267adf412600fd7b2710135bc9.jpg",
       "published": "2026-08-04",
       "category": "金融"
+    },
+    {
+      "id": "038c99934189",
+      "platform": "bilibili",
+      "videoId": "BV193GP6eE4F",
+      "title": "傅清·那木扎勒之乱：成仁取义的落幕时刻。【乾隆往事】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV193GP6eE4F",
+      "thumb": "https://i0.hdslb.com/bfs/archive/a7a4b433dca417a40714397b8f566c7fdf23c5f9.jpg",
+      "published": "2026-07-31",
+      "category": "历史"
+    },
+    {
+      "id": "7800bbd06e68",
+      "platform": "bilibili",
+      "videoId": "BV1w2N96uE1U",
+      "title": "毛泽东·四渡赤水：红军不怕远征难。",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1w2N96uE1U",
+      "thumb": "https://i1.hdslb.com/bfs/archive/f9c709d21a277bbd7358004f032633bb129cd727.jpg",
+      "published": "2026-07-14",
+      "category": "历史"
+    },
+    {
+      "id": "4839cbb8b132",
+      "platform": "bilibili",
+      "videoId": "BV1FBMC61Eif",
+      "title": "虚空一击  伊朗·1980",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV1FBMC61Eif",
+      "thumb": "https://i0.hdslb.com/bfs/archive/b59974cf13241c8453a049bbd2c63124f0a96c50.jpg",
+      "published": "2026-08-07",
+      "category": "历史"
+    },
+    {
+      "id": "1ed3b054afcf",
+      "platform": "bilibili",
+      "videoId": "BV1d6gh6kEQP",
+      "title": "文化革命  伊朗·1980",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV1d6gh6kEQP",
+      "thumb": "https://i1.hdslb.com/bfs/archive/961218b87486be9394da959087157489270c8bb5.jpg",
+      "published": "2026-07-25",
+      "category": "历史"
     }
   ],
   "notes": [
     "图形学 · @TwoMinutePapers: 0 条",
-    "图形学 · @Acerola_t: 2 条",
+    "图形学 · @Acerola_t: 0 条",
     "图形学 · 512313464: 2 条",
     "引擎 · @TheCherno: 0 条",
-    "引擎 · 437860379: 2 条",
+    "Bilibili 437860379: code=-352 风控校验失败",
+    "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 0 条",
     "CS · @javidx9: 0 条",
-    "CS · 1567748478: 2 条",
-    "CS · 202224425: 2 条",
+    "Bilibili 1567748478: code=-352 风控校验失败",
+    "CS · 1567748478: 0 条",
+    "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 0 条",
     "金融 · 520819684: 2 条",
     "历史 · @CrashCourse: 0 条",
     "历史 · @HistoriaCivilis: 0 条",
-    "历史 · 11646119: 0 条",
-    "历史 · 23947287: 0 条",
+    "历史 · 11646119: 2 条",
+    "历史 · 23947287: 2 条",
     "英语 · @bbclearningenglish: 0 条",
     "英语 · @EnglishwithLucy: 0 条"
   ]
