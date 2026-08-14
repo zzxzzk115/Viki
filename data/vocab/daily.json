@@ -1,13 +1,13 @@
 {
-  "date": "2026-08-13",
-  "word": "elucidate",
-  "ipa": "iˈluː.sɪ.deɪt",
-  "ipaUs": "iˈluː.sə.deɪt",
+  "date": "2026-08-14",
+  "word": "embellish",
+  "ipa": "ɪmˈbel.ɪʃ",
+  "ipaUs": "ɪmˈbel.ɪʃ",
   "pos": "verb",
-  "definition": "to explain something or make something clear",
-  "definitionZh": "阐明",
-  "example": "I don't understand. You'll have to elucidate.",
-  "exampleZh": "我不懂，你得解释一下。",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uke/ukelu/ukeluci001.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/eus/eus71/eus71494.mp3"
+  "definition": "to make something more beautiful by adding something to it",
+  "definitionZh": "装饰",
+  "example": "The ceiling was embellished with",
+  "exampleZh": "天花板上装饰着花和叶。",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uke/ukemb/ukembar007.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/eus/eus71/eus71502.mp3"
 }

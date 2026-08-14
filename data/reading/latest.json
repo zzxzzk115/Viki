@@ -1,300 +1,303 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "items": [
     {
-      "id": "49de0ce34c4a",
+      "id": "cea1cf81bd5f",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Marc Michetz",
-      "url": "https://simple.wikipedia.org/wiki/Marc_Michetz",
-      "summary": "Marc Michetz pseudonym of Marc Degroide was a Belgian comics artist.",
+      "title": "Quinine",
+      "url": "https://simple.wikipedia.org/wiki/Quinine",
+      "summary": "Quinine English pronunciation: /ˈkwaɪnaɪn, kwɪˈniːn, ˈkwiːniːn/ is an alkaloid which can reduce fever, work against malaria, pain and swelling. The bark of the Cinchona family of trees contains quinine. Quinine can be made artificially, but this is more expensive than extracting…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "05c3e628f57f",
+      "id": "80da31349999",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Azad Hind",
-      "url": "https://simple.wikipedia.org/wiki/Azad_Hind",
-      "summary": "Azad Hind was the name of an Indian government, which was established in Singapore, in 1943. Its English name is usually Provisional Government of Free India. It was very dependent on its ally, the Empire of Japan. They fought the Burma campaign together. After the Second World …",
+      "title": "Eden Sher",
+      "url": "https://simple.wikipedia.org/wiki/Eden_Sher",
+      "summary": "Eden Sher is an actress who is on the television show, The Middle. She began acting at the age of eight. She was born on December 26, 1991 in Los Angeles, California.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "fbdfaa10f2aa",
+      "id": "ccebb06f6c32",
       "category": "tech",
       "source": "Hacker News",
-      "title": "DeepSeek V4 Pro 0813",
-      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "title": "Gemini 3.7 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "summary": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flas...",
+      "author": "thisisauserid",
+      "published": "2026-08-13",
+      "tags": [
+        "▲ 658"
+      ]
+    },
+    {
+      "id": "944540e32356",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "SparrowMap – Cameras that watch government vehicles",
+      "url": "https://sparrowmap.com/",
       "summary": "",
-      "author": "explosion-s",
-      "published": "2026-08-12",
+      "author": "paulnpace",
+      "published": "2026-08-14",
       "tags": [
-        "▲ 791"
+        "▲ 96"
       ]
     },
     {
-      "id": "d2535f023812",
+      "id": "50f9ffd70672",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Delta",
-      "url": "https://zed.dev/blog/introducing-delta",
+      "title": "Accelerating GPT-5.6 Sol Ultrafast",
+      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
       "summary": "",
-      "author": "khy",
-      "published": "2026-08-12",
+      "author": "pr337h4m",
+      "published": "2026-08-13",
       "tags": [
-        "▲ 437"
+        "▲ 463"
       ]
     },
     {
-      "id": "550006791bdd",
+      "id": "1475fd126ea6",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
-      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "title": "Bluesky Protocol Services",
+      "url": "https://atproto.com/blog/introducing-bluesky-protocol-services",
       "summary": "",
-      "author": "ropbear",
-      "published": "2026-08-12",
+      "author": "danabramov",
+      "published": "2026-08-14",
       "tags": [
-        "▲ 856"
+        "▲ 89"
       ]
     },
     {
-      "id": "f9e1ef66ab3d",
+      "id": "979535eb0116",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Qwen3.8-2.4T",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
-      "summary": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B-FP8",
-      "author": "Philpax",
-      "published": "2026-08-12",
+      "title": "DeepSeek Harness developer preview",
+      "url": "https://deepseek.com/harness/en/",
+      "summary": "https://github.com/deepseek-ai/deepseek-harness https://deepseek-harness.github.io/deepseek-harness/en/guide...",
+      "author": "bjin",
+      "published": "2026-08-13",
       "tags": [
-        "▲ 523"
+        "▲ 581"
       ]
     },
     {
-      "id": "9abd3fd24c08",
+      "id": "71e7045c3e08",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Principia Mathematica is modern and insightful",
-      "url": "https://okmij.org/ftp/Computation/Impressions/PrincipiaMathematica.html",
+      "title": "Hello, me. It's been a while",
+      "url": "https://themech.net/2026/08/hello-me-its-been-a-while/",
       "summary": "",
-      "author": "matt_d",
-      "published": "2026-08-12",
+      "author": "somesoftdev",
+      "published": "2026-08-13",
       "tags": [
-        "▲ 70"
+        "▲ 50"
       ]
     },
     {
-      "id": "c57f4224ab88",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Happy 45th Birthday to the IBM PC and Model F/XT",
-      "url": "https://sharktastica.co.uk/articles/pc-fxt-45",
-      "summary": "",
-      "author": "tart-lemonade",
-      "published": "2026-08-12",
-      "tags": [
-        "▲ 39"
-      ]
-    },
-    {
-      "id": "f84cc0053753",
+      "id": "75d485b57c10",
       "category": "tech",
       "source": "DEV Community",
-      "title": "The Silent Killer of ASP.NET Core Performance: The N+1 Query Problem",
-      "url": "https://dev.to/azhadsuhaimi/the-silent-killer-of-aspnet-core-performance-the-n1-query-problem-1akc",
-      "summary": "It’s a classic story: You build an API endpoint in ASP.NET Core using Entity Framework Core. You test it locally with 10 dummy records in your database, and it responds in a lightning-fast 15 milliseconds . You push it to production. A few weeks later, as the user base and data …",
-      "author": "azhadsuhaimi",
-      "published": "Thu, 13 Aug 2026 03:26:10 +0000",
-      "tags": [
-        "dotnet",
-        "csharp",
-        "webdev",
-        "database"
-      ]
-    },
-    {
-      "id": "1c3cf6dafff3",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Instagram Scraping Tools Compared — Which One Should You Use in 2026?",
-      "url": "https://dev.to/nick_davies_323125afbb05c/instagram-scraping-tools-compared-which-one-should-you-use-in-2026-4d7a",
-      "summary": "If you need to scrape Instagram data, there are multiple tools available. But which one should you pick? I compared the top 8 options. Tool Developer Rating Users Pricing Instagram Scraper Apify 4.8 361K Pay per event Instagram Profile Scraper Apify 4.7 194K Pay per event Instag…",
+      "title": "How to Scrape Google Search Results Without Getting Blocked",
+      "url": "https://dev.to/nick_davies_323125afbb05c/how-to-scrape-google-search-results-without-getting-blocked-a8l",
+      "summary": "Need SERP data at scale? Forget proxies and headless browsers. The Problem Most developers either build custom solutions (slow, fragile) or pay for expensive enterprise APIs (overkill for most projects). There's a middle ground. The Solution Serpstack Scrape SERP data at scale. …",
       "author": "Nick Davies",
-      "published": "Thu, 13 Aug 2026 03:23:12 +0000",
+      "published": "Fri, 14 Aug 2026 03:26:08 +0000",
       "tags": [
-        "webdev",
+        "seo",
         "api",
-        "automation",
+        "webdev",
         "tools"
       ]
     },
     {
-      "id": "44a8cd9e3efa",
+      "id": "1b74993e7106",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Font Preview Is a Classification Problem, Not a Beauty Contest",
-      "url": "https://dev.to/_07e5b9494afc828f63de94/font-preview-is-a-classification-problem-not-a-beauty-contest-4ecn",
-      "summary": "An Arabic type preview becomes more useful when it helps a designer classify intent. “Which one looks best?” is too vague. The better question is whether the phrase needs readability, geometry, ceremony, ornament, handwriting energy, or poetic flow. Six familiar script direction…",
-      "author": "袁潇",
-      "published": "Thu, 13 Aug 2026 03:22:54 +0000",
+      "title": "Notes from getting QuickBooks to accept a generated .qbo file",
+      "url": "https://dev.to/ink_gu/notes-from-getting-quickbooks-to-accept-a-generated-qbo-file-3k5i",
+      "summary": "I'm building a small tool that converts bank CSV files into .qbo files for QuickBooks ( qbofile.com ). When a generated file is wrong, QuickBooks rejects it with vague errors and the OFX spec doesn't tell you what QuickBooks actually checks. So I ran some experiments. Notes belo…",
+      "author": "Gu",
+      "published": "Fri, 14 Aug 2026 03:24:14 +0000",
       "tags": [
+        "quickbooks",
+        "fintech",
         "webdev",
-        "design"
+        "showdev"
       ]
     },
     {
-      "id": "8e7916a053c9",
+      "id": "dc6eda42112b",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Designing Puzzle Hints Around Blockers, Not Tap Sequences",
-      "url": "https://dev.to/_07e5b9494afc828f63de94/designing-puzzle-hints-around-blockers-not-tap-sequences-fja",
-      "summary": "A weak puzzle walkthrough records every input. A stronger one explains why the board refuses to move. That distinction matters in traffic-sorting puzzles, where a correct tap can still be useless if a garage exit, crossing lane, or temporary holding space remains blocked. I used…",
-      "author": "袁潇",
-      "published": "Thu, 13 Aug 2026 03:21:26 +0000",
+      "title": "Best DevTools APIs for Developers in 2026",
+      "url": "https://dev.to/nick_davies_323125afbb05c/best-devtools-apis-for-developers-in-2026-19l8",
+      "summary": "Need devtools data for your app? Here are the best APIs available on APILayer for devtools. 1. Screenshotlayer Capture website screenshots via API Automated website screenshot capture API. Render any URL as PNG or JPEG. Supports custom viewports, full-page capture, and thumbnail…",
+      "author": "Nick Davies",
+      "published": "Fri, 14 Aug 2026 03:20:57 +0000",
       "tags": [
-        "gamedev",
-        "tutorial",
-        "webdev"
+        "api",
+        "webdev",
+        "tools",
+        "programming"
       ]
     },
     {
-      "id": "32ddbec0928c",
+      "id": "2c58848738d6",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Hello DEV! How I'm Blending Technical SEO with Vibe Coding to Build Tools",
+      "url": "https://dev.to/hoangvibecode/hello-dev-how-im-blending-technical-seo-with-vibe-coding-to-build-tools-4ake",
+      "summary": "Hey DEV Community! 👋 I'm Hoang , a Technical SEO Specialist and Web Builder. I'm fascinated by the intersection of search engines, web technology, and AI. While I don't come from a formal Software Engineering background, I’ve been heavily leveraging AI-assisted development (Vib…",
+      "author": "Vo Viet Hoang",
+      "published": "Fri, 14 Aug 2026 03:18:20 +0000",
+      "tags": [
+        "welcome",
+        "webdev",
+        "ai",
+        "vibecoding"
+      ]
+    },
+    {
+      "id": "2bb3a7686dc5",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Ellis Wackett",
-      "url": "https://en.wikipedia.org/wiki/Ellis_Wackett",
-      "summary": "Air Vice-Marshal Ellis Charles Wackett, CB, CBE was a senior commander in the Royal Australian Air Force (RAAF). Its chief engineer from 1935 to 1959, he served on the RAAF's controlling body, the Air Board, for a record seventeen years, and has been credited with infusing opera…",
+      "title": "European rabbit",
+      "url": "https://en.wikipedia.org/wiki/European_rabbit",
+      "summary": "The European rabbit or coney is a species of rabbit native to the Iberian Peninsula and southwestern France. It has been introduced to hundreds of locations around the world. Wild and domesticated European rabbits around the world can vary widely in size, shape, and colour. The …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "e8201d357c5f",
+      "id": "09443cca3ddd",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Major Russian grain export terminals hit in Ukraine Black Sea port attack",
-      "url": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss",
-      "summary": "Grain exports from both Russia and Ukraine are falling as both countries attack each other's shipping facilities and ports.",
-      "published": "Thu, 13 Aug 2026 03:28:56 GMT",
+      "title": "Palestinians told to leave homes in village where Israeli settlers besieged houses",
+      "url": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss",
+      "summary": "The mayor of Qusra says Israeli troops have been telling families to leave their houses, using some as barracks.",
+      "published": "Thu, 13 Aug 2026 20:12:17 GMT",
       "tags": []
     },
     {
-      "id": "b86fbc4ab58f",
+      "id": "eeffef378099",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Israeli settlers besieging Palestinian families in West Bank village",
-      "url": "https://www.bbc.co.uk/news/articles/cn0npjkqrleo?at_medium=RSS&at_campaign=rss",
-      "summary": "Israeli security forces have reportedly withdrawn and about a dozen settlers are said to remain at the site where two families have been besieged since Sunday.",
-      "published": "Wed, 12 Aug 2026 16:14:08 GMT",
+      "title": "US says dozens of countries helped China dodge Trump's tariffs",
+      "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss",
+      "summary": "A new US report said China had moved goods through nations with lower tariffs to dodge higher levies.",
+      "published": "Fri, 14 Aug 2026 03:09:48 GMT",
       "tags": []
     },
     {
-      "id": "4abd3982ef9b",
+      "id": "91fd82f2cc46",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Ebola outbreak on track to be deadliest ever, WHO chief says",
-      "url": "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss",
-      "summary": "The outbreak, declared on 15 May, has caused more than 2,000 deaths, with thousands more reported cases.",
-      "published": "Thu, 13 Aug 2026 01:31:21 GMT",
+      "title": "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
+      "url": "https://www.bbc.co.uk/news/articles/cqlxpq5q799o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Cernavodă plant, which produces 20% of Romania's electricity, is not expected to be restarted within the next 10 days.",
+      "published": "Thu, 13 Aug 2026 19:46:27 GMT",
       "tags": []
     },
     {
-      "id": "b99be3d89542",
+      "id": "a2ea0f8a0db0",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Three men will be executed on the same day as death penalties rise in US",
-      "url": "https://www.bbc.co.uk/news/articles/cn5n399n6zvo?at_medium=RSS&at_campaign=rss",
-      "summary": "Despite growing opposition to the death penalty, one state is behind the rising numbers.",
-      "published": "Wed, 12 Aug 2026 20:52:20 GMT",
+      "title": "Engine parts smashed Ryanair window that man's head was sucked out of, report says",
+      "url": "https://www.bbc.co.uk/news/articles/cr59j4z3vl8o?at_medium=RSS&at_campaign=rss",
+      "summary": "A preliminary report by US investigators says an engine fan blade broke on last month's flight from Greece to Germany.",
+      "published": "Thu, 13 Aug 2026 21:43:47 GMT",
       "tags": []
     },
     {
-      "id": "2b21256f8da3",
+      "id": "5273c3175afc",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Toddler's tragic death from brain-destroying amoeba offers lessons for doctors",
-      "url": "https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/",
-      "summary": "Boy's unusual symptoms could help identify the next case sooner.",
+      "title": "US wait times for cancer surgeries are getting longer and longer",
+      "url": "https://arstechnica.com/health/2026/08/us-wait-times-for-cancer-surgeries-are-getting-longer-and-longer/",
+      "summary": "Study finds wait times for cancer surgeries hit 10-year high.",
       "author": "Beth Mole",
-      "published": "Wed, 12 Aug 2026 22:31:19 +0000",
+      "published": "Thu, 13 Aug 2026 22:17:29 +0000",
       "tags": [
         "Health",
-        "ameoba",
-        "brain",
-        "case report"
+        "cancer",
+        "care",
+        "delay"
       ]
     },
     {
-      "id": "b7995d0a4e6f",
+      "id": "285cb3fe6043",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "The web’s newest weapon against AI scrapers is a font",
-      "url": "https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/",
-      "summary": "“ShieldFont” aims to poison AI training data without making pages unreadable for people.",
-      "author": "Kyle Orland",
-      "published": "Wed, 12 Aug 2026 22:02:25 +0000",
-      "tags": [
-        "AI",
-        "AI scrapers",
-        "Font",
-        "LLMs"
-      ]
-    },
-    {
-      "id": "80c120873d58",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Terabytes of credentials leaked in massive supply-chain attack",
-      "url": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
-      "summary": "The data was scraped and exfiltrated from 2,500 users of a compromised AI package.",
+      "title": "Private security firms will soon be allowed to hack overseas cybercriminals",
+      "url": "https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/",
+      "summary": "Trump memo is first time gov't has authorized private sector to perform cyberattacks.",
       "author": "Dan Goodin",
-      "published": "Wed, 12 Aug 2026 21:43:21 +0000",
+      "published": "Thu, 13 Aug 2026 19:38:58 +0000",
       "tags": [
-        "AI",
         "Biz & IT",
+        "Policy",
         "Security",
-        "litellm"
+        "cyber"
       ]
     },
     {
-      "id": "8cecdcacb1b4",
+      "id": "b1fa5249146c",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Virgin Galactic wants your help naming its new Delta class spaceship",
+      "url": "https://arstechnica.com/space/2026/08/virgin-galactic-wants-your-help-naming-its-new-delta-class-spaceship/",
+      "summary": "Will it be the VSS... Horizon , Explorer , Ascend or Apeiron ?",
+      "author": "Robert Pearlman",
+      "published": "Thu, 13 Aug 2026 19:12:15 +0000",
+      "tags": [
+        "Space",
+        "Apeiron",
+        "ascend",
+        "Commercial spaceflight"
+      ]
+    },
+    {
+      "id": "f386d02fc9f1",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Cisco sees record results from an AI ‘supercycle,’ but its stock pulls back",
-      "url": "https://www.marketwatch.com/story/cisco-sees-record-results-from-an-ai-supercycle-but-its-stock-pulls-back-2635b81a?mod=mw_rss_topstories",
-      "summary": "An 18% revenue surge and blowout 2027 forecast weren’t enough to sustain Cisco’s stock momentum.",
-      "author": "Christine Ji",
-      "published": "Thu, 13 Aug 2026 01:16:00 GMT",
+      "title": "Reddit is joining the S&P 500 after months of speculation. Analysts have these concerns.",
+      "url": "https://www.marketwatch.com/story/reddit-is-joining-the-s-p-500-after-months-of-speculation-analysts-have-these-concerns-21f81f77?mod=mw_rss_topstories",
+      "summary": "After past snubs, social-media site Reddit has landed a spot on the S&P 500, sending shares on an after-hours rally Thursday.",
+      "author": "Bill Peters",
+      "published": "Fri, 14 Aug 2026 00:19:00 GMT",
       "tags": []
     },
     {
-      "id": "68ae63f6c0de",
+      "id": "5552bc516b37",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "My wife can claim $900 at 62. Should she take it now — or wait for her spousal benefit?",
-      "url": "https://www.marketwatch.com/story/i-want-her-to-choose-the-best-strategy-my-wifes-social-security-is-just-900-should-she-claim-spousal-benefit-at-62-e3ef621d?mod=mw_rss_topstories",
-      "summary": "“She was a teacher at a school district, so didn’t put much into Social Security.”",
+      "title": "‘My wife and I are both retired’: Should we dip into our $2.3 million investments to pay off our 2.9% $300,000 mortgage?",
+      "url": "https://www.marketwatch.com/story/my-wife-and-i-are-both-retired-do-we-dip-into-our-2-3-million-fund-to-pay-off-our-300-000-mortgage-at-2-9-2d23d1df?mod=mw_rss_topstories",
+      "summary": "“Right now, we’re withdrawing about $100,000 a year from our investments.”",
       "author": "Quentin Fottrell",
-      "published": "Thu, 13 Aug 2026 01:00:00 GMT",
+      "published": "Thu, 13 Aug 2026 22:31:00 GMT",
       "tags": []
     },
     {
-      "id": "27e6e75e1cb3",
+      "id": "471d3fd9e9ad",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "I found a $100 bill in the communal washer at my Airbnb. What should I do?",
-      "url": "https://www.marketwatch.com/story/im-dreaming-of-cocktails-at-chateau-marmont-i-found-100-in-my-airbnbs-communal-washer-what-should-i-do-9694ecca?mod=mw_rss_topstories",
-      "summary": "“The landlord has not been here in months, so I assume it was a previous tenant.”",
-      "author": "Quentin Fottrell",
-      "published": "Thu, 13 Aug 2026 00:45:00 GMT",
+      "title": "Dell’s stock has beaten Micron and AMD this year — and now it’s adding to its gains",
+      "url": "https://www.marketwatch.com/story/dells-stock-has-beaten-micron-and-amd-this-year-and-now-its-adding-to-its-gains-11c00117?mod=mw_rss_topstories",
+      "summary": "Shares of Dell have roughly quadrupled in price this year, with Lenovo’s earnings report helping to drive the latest bout of momentum for the PC and server maker.",
+      "author": "Britney Nguyen",
+      "published": "Thu, 13 Aug 2026 22:09:00 GMT",
       "tags": []
     }
   ],
