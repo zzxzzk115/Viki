@@ -1,303 +1,303 @@
 {
-  "date": "2026-08-14",
+  "date": "2026-08-15",
   "items": [
     {
-      "id": "cea1cf81bd5f",
+      "id": "0db57e2cd22b",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Quinine",
-      "url": "https://simple.wikipedia.org/wiki/Quinine",
-      "summary": "Quinine English pronunciation: /ˈkwaɪnaɪn, kwɪˈniːn, ˈkwiːniːn/ is an alkaloid which can reduce fever, work against malaria, pain and swelling. The bark of the Cinchona family of trees contains quinine. Quinine can be made artificially, but this is more expensive than extracting…",
+      "title": "Tuyên Quang province",
+      "url": "https://simple.wikipedia.org/wiki/Tuy%C3%AAn_Quang_province",
+      "summary": "Tuyên Quang is a province of Vietnam. Its capital is Tuyên Quang.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "80da31349999",
+      "id": "ba4914749019",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Eden Sher",
-      "url": "https://simple.wikipedia.org/wiki/Eden_Sher",
-      "summary": "Eden Sher is an actress who is on the television show, The Middle. She began acting at the age of eight. She was born on December 26, 1991 in Los Angeles, California.",
+      "title": "Duke of Gloucester",
+      "url": "https://simple.wikipedia.org/wiki/Duke_of_Gloucester",
+      "summary": "Duke of Gloucester is a British royal title, often conferred on one of the sons of the reigning monarch. The first four creations were in the Peerage of England, the next in the Peerage of Great Britain, and the last in the Peerage of the United Kingdom; this current creation ca…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "ccebb06f6c32",
+      "id": "be73bc3cd41e",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Gemini 3.7 Flash",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "summary": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flas...",
-      "author": "thisisauserid",
-      "published": "2026-08-13",
+      "title": "Magnitude 7.7 Earthquake – 68 km NNW of Ende, Indonesia",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive",
+      "summary": "",
+      "author": "Bender",
+      "published": "2026-08-15",
       "tags": [
-        "▲ 658"
+        "▲ 57"
       ]
     },
     {
-      "id": "944540e32356",
+      "id": "afb6d0b82506",
       "category": "tech",
       "source": "Hacker News",
-      "title": "SparrowMap – Cameras that watch government vehicles",
-      "url": "https://sparrowmap.com/",
+      "title": "Qwen 3.8 27B",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
       "summary": "",
-      "author": "paulnpace",
+      "author": "erdaltoprak",
       "published": "2026-08-14",
       "tags": [
-        "▲ 96"
+        "▲ 928"
       ]
     },
     {
-      "id": "50f9ffd70672",
+      "id": "2aef49371492",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Accelerating GPT-5.6 Sol Ultrafast",
-      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+      "title": "Going Dark, and the era of law enforcement hacking",
+      "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
       "summary": "",
-      "author": "pr337h4m",
-      "published": "2026-08-13",
-      "tags": [
-        "▲ 463"
-      ]
-    },
-    {
-      "id": "1475fd126ea6",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Bluesky Protocol Services",
-      "url": "https://atproto.com/blog/introducing-bluesky-protocol-services",
-      "summary": "",
-      "author": "danabramov",
+      "author": "vslira",
       "published": "2026-08-14",
       "tags": [
-        "▲ 89"
+        "▲ 220"
       ]
     },
     {
-      "id": "979535eb0116",
+      "id": "172ecfcf22a9",
       "category": "tech",
       "source": "Hacker News",
-      "title": "DeepSeek Harness developer preview",
-      "url": "https://deepseek.com/harness/en/",
-      "summary": "https://github.com/deepseek-ai/deepseek-harness https://deepseek-harness.github.io/deepseek-harness/en/guide...",
-      "author": "bjin",
-      "published": "2026-08-13",
-      "tags": [
-        "▲ 581"
-      ]
-    },
-    {
-      "id": "71e7045c3e08",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Hello, me. It's been a while",
-      "url": "https://themech.net/2026/08/hello-me-its-been-a-while/",
+      "title": "Simplifying and Refactoring Introductory Calculus",
+      "url": "https://arxiv.org/abs/1811.03459",
       "summary": "",
-      "author": "somesoftdev",
-      "published": "2026-08-13",
+      "author": "E-Reverance",
+      "published": "2026-08-15",
       "tags": [
-        "▲ 50"
+        "▲ 26"
       ]
     },
     {
-      "id": "75d485b57c10",
+      "id": "ee04363f17a2",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "The Ploopy A+ Trackball Is Here",
+      "url": "https://blog.ploopy.co/the-aplus-is-finally-here-499",
+      "summary": "",
+      "author": "big_toast",
+      "published": "2026-08-15",
+      "tags": [
+        "▲ 27"
+      ]
+    },
+    {
+      "id": "99bdd8b2cd62",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Why does Opus 5 feel worse to work with?",
+      "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
+      "summary": "",
+      "author": "numeri",
+      "published": "2026-08-14",
+      "tags": [
+        "▲ 801"
+      ]
+    },
+    {
+      "id": "eb2da0298a54",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How to Scrape Google Search Results Without Getting Blocked",
-      "url": "https://dev.to/nick_davies_323125afbb05c/how-to-scrape-google-search-results-without-getting-blocked-a8l",
-      "summary": "Need SERP data at scale? Forget proxies and headless browsers. The Problem Most developers either build custom solutions (slow, fragile) or pay for expensive enterprise APIs (overkill for most projects). There's a middle ground. The Solution Serpstack Scrape SERP data at scale. …",
+      "title": "Numverify — Global phone number validation & lookup",
+      "url": "https://dev.to/nick_davies_323125afbb05c/numverify-global-phone-number-validation-lookup-1jci",
+      "summary": "Looking for a reliable marketing API? Numverify might be exactly what you need. What is Numverify? Validate phone numbers in real-time for 232 countries. Returns carrier info, line type (mobile/landline), and location data. Quick Facts Detail Info Category Marketing Type REST AP…",
       "author": "Nick Davies",
-      "published": "Fri, 14 Aug 2026 03:26:08 +0000",
+      "published": "Sat, 15 Aug 2026 02:15:09 +0000",
       "tags": [
-        "seo",
+        "webdev",
         "api",
-        "webdev",
-        "tools"
-      ]
-    },
-    {
-      "id": "1b74993e7106",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Notes from getting QuickBooks to accept a generated .qbo file",
-      "url": "https://dev.to/ink_gu/notes-from-getting-quickbooks-to-accept-a-generated-qbo-file-3k5i",
-      "summary": "I'm building a small tool that converts bank CSV files into .qbo files for QuickBooks ( qbofile.com ). When a generated file is wrong, QuickBooks rejects it with vague errors and the OFX spec doesn't tell you what QuickBooks actually checks. So I ran some experiments. Notes belo…",
-      "author": "Gu",
-      "published": "Fri, 14 Aug 2026 03:24:14 +0000",
-      "tags": [
-        "quickbooks",
-        "fintech",
-        "webdev",
-        "showdev"
-      ]
-    },
-    {
-      "id": "dc6eda42112b",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Best DevTools APIs for Developers in 2026",
-      "url": "https://dev.to/nick_davies_323125afbb05c/best-devtools-apis-for-developers-in-2026-19l8",
-      "summary": "Need devtools data for your app? Here are the best APIs available on APILayer for devtools. 1. Screenshotlayer Capture website screenshots via API Automated website screenshot capture API. Render any URL as PNG or JPEG. Supports custom viewports, full-page capture, and thumbnail…",
-      "author": "Nick Davies",
-      "published": "Fri, 14 Aug 2026 03:20:57 +0000",
-      "tags": [
-        "api",
-        "webdev",
         "tools",
         "programming"
       ]
     },
     {
-      "id": "2c58848738d6",
+      "id": "3f25a7d82dd8",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Hello DEV! How I'm Blending Technical SEO with Vibe Coding to Build Tools",
-      "url": "https://dev.to/hoangvibecode/hello-dev-how-im-blending-technical-seo-with-vibe-coding-to-build-tools-4ake",
-      "summary": "Hey DEV Community! 👋 I'm Hoang , a Technical SEO Specialist and Web Builder. I'm fascinated by the intersection of search engines, web technology, and AI. While I don't come from a formal Software Engineering background, I’ve been heavily leveraging AI-assisted development (Vib…",
-      "author": "Vo Viet Hoang",
-      "published": "Fri, 14 Aug 2026 03:18:20 +0000",
+      "title": "Top 10 AUTOMATION APIs & Scrapers in 2026 — Ranked by Active Users",
+      "url": "https://dev.to/nick_davies_323125afbb05c/top-10-automation-apis-scrapers-in-2026-ranked-by-active-users-b7o",
+      "summary": "Looking for the best automation tools? I put together a list of the top 10 most popular ones on Apify, ranked by active users. 1. LinkedIn Profile Search Scraper No Cookies ✅ Find all people 📧 37K users | 4.4/5 rating | Pay per event Search for LinkedIn profiles with filters an…",
+      "author": "Nick Davies",
+      "published": "Sat, 15 Aug 2026 02:09:58 +0000",
       "tags": [
-        "welcome",
+        "automation",
         "webdev",
-        "ai",
-        "vibecoding"
+        "productivity",
+        "tools"
       ]
     },
     {
-      "id": "2bb3a7686dc5",
+      "id": "e96b939a9df5",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "3 Ways to Make Your API Requests Idempotent (With Working Code)",
+      "url": "https://dev.to/sirmax/3-ways-to-make-your-api-requests-idempotent-with-working-code-4inl",
+      "summary": "3 Ways to Make Your API Requests Idempotent (With Working Code) We lost a customer payment last year because of a retry. A third-party gateway timed out on our first charge attempt, so our client retried — and the customer got billed twice. It wasn't a huge amount, but the refun…",
+      "author": "Sir Max",
+      "published": "Sat, 15 Aug 2026 02:06:22 +0000",
+      "tags": [
+        "api",
+        "webdev",
+        "tutorial",
+        "python"
+      ]
+    },
+    {
+      "id": "3c143f6ef347",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "In-Depth Analysis: Google Pixel 11 Event and Its T…",
+      "url": "https://dev.to/norviktech/in-depth-analysis-google-pixel-11-event-and-its-t-2kbi",
+      "summary": "Originally published at norvik.tech Introduction Explore the technical innovations presented at the Google Pixel 11 event and their implications for the tech industry. Detailed analysis for businesses an… Understanding the Google Pixel 11 Event The Google Pixel 11 event showcase…",
+      "author": "Norvik Tech",
+      "published": "Sat, 15 Aug 2026 02:06:04 +0000",
+      "tags": [
+        "webdev",
+        "googlepixel11",
+        "mobiletechnology",
+        "aifeatures"
+      ]
+    },
+    {
+      "id": "cc5d0a5f158d",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "European rabbit",
-      "url": "https://en.wikipedia.org/wiki/European_rabbit",
-      "summary": "The European rabbit or coney is a species of rabbit native to the Iberian Peninsula and southwestern France. It has been introduced to hundreds of locations around the world. Wild and domesticated European rabbits around the world can vary widely in size, shape, and colour. The …",
+      "title": "Mesklin",
+      "url": "https://en.wikipedia.org/wiki/Mesklin",
+      "summary": "Mesklin is a fictional planet created by Hal Clement and used in a number of his hard science fiction stories, starting with Mission of Gravity (1954). Alongside the novel's original 1953 serialization in Astounding Science Fiction, Clement published an essay titled \"Whirligig W…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "09443cca3ddd",
+      "id": "1a815948b42a",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Palestinians told to leave homes in village where Israeli settlers besieged houses",
-      "url": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss",
-      "summary": "The mayor of Qusra says Israeli troops have been telling families to leave their houses, using some as barracks.",
-      "published": "Thu, 13 Aug 2026 20:12:17 GMT",
+      "title": "Mangione admits killing healthcare CEO and pleads guilty to federal charges",
+      "url": "https://www.bbc.co.uk/news/articles/cwy0nlq1l2wo?at_medium=RSS&at_campaign=rss",
+      "summary": "\"I shot Mr Thompson in Manhattan and he died,\" the 28-year-old said after pleading guilty to charges of stalking resulting in death.",
+      "published": "Fri, 14 Aug 2026 19:20:43 GMT",
       "tags": []
     },
     {
-      "id": "eeffef378099",
+      "id": "7d85fee523da",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US says dozens of countries helped China dodge Trump's tariffs",
-      "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss",
-      "summary": "A new US report said China had moved goods through nations with lower tariffs to dodge higher levies.",
-      "published": "Fri, 14 Aug 2026 03:09:48 GMT",
+      "title": "Afghan women tell the BBC their lives are unrecognisable after five years of Taliban rule",
+      "url": "https://www.bbc.co.uk/news/articles/clyje43dz4eo?at_medium=RSS&at_campaign=rss",
+      "summary": "Women across the country speak of public floggings, losing their jobs, and barriers to healthcare that endanger lives.",
+      "published": "Fri, 14 Aug 2026 18:25:38 GMT",
       "tags": []
     },
     {
-      "id": "91fd82f2cc46",
+      "id": "39944a5a51fd",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
-      "url": "https://www.bbc.co.uk/news/articles/cqlxpq5q799o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Cernavodă plant, which produces 20% of Romania's electricity, is not expected to be restarted within the next 10 days.",
-      "published": "Thu, 13 Aug 2026 19:46:27 GMT",
+      "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported on board",
+      "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss",
+      "summary": "Thousands of sailors on the Lincoln have reportedly faced food shortages and broken plumbing, with some considering jumping overboard.",
+      "published": "Fri, 14 Aug 2026 17:36:27 GMT",
       "tags": []
     },
     {
-      "id": "a2ea0f8a0db0",
+      "id": "36c71486f9a3",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Engine parts smashed Ryanair window that man's head was sucked out of, report says",
-      "url": "https://www.bbc.co.uk/news/articles/cr59j4z3vl8o?at_medium=RSS&at_campaign=rss",
-      "summary": "A preliminary report by US investigators says an engine fan blade broke on last month's flight from Greece to Germany.",
-      "published": "Thu, 13 Aug 2026 21:43:47 GMT",
+      "title": "Instagram accounts fuelling Ceuta crisis with paid advice for help to cross",
+      "url": "https://www.bbc.co.uk/news/articles/c89n20wj9kko?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC's Top Comment podcast has found a network of Instagram profiles glamourising the swim around the Morocco-Ceuta border fence.",
+      "published": "Fri, 14 Aug 2026 12:19:21 GMT",
       "tags": []
     },
     {
-      "id": "5273c3175afc",
+      "id": "b74725c02d45",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "US wait times for cancer surgeries are getting longer and longer",
-      "url": "https://arstechnica.com/health/2026/08/us-wait-times-for-cancer-surgeries-are-getting-longer-and-longer/",
-      "summary": "Study finds wait times for cancer surgeries hit 10-year high.",
-      "author": "Beth Mole",
-      "published": "Thu, 13 Aug 2026 22:17:29 +0000",
-      "tags": [
-        "Health",
-        "cancer",
-        "care",
-        "delay"
-      ]
-    },
-    {
-      "id": "285cb3fe6043",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Private security firms will soon be allowed to hack overseas cybercriminals",
-      "url": "https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/",
-      "summary": "Trump memo is first time gov't has authorized private sector to perform cyberattacks.",
+      "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
+      "url": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
+      "summary": "Screen-sharing bug lets remote hackers log in without a password.",
       "author": "Dan Goodin",
-      "published": "Thu, 13 Aug 2026 19:38:58 +0000",
+      "published": "Fri, 14 Aug 2026 18:32:14 +0000",
       "tags": [
+        "Apple",
         "Biz & IT",
-        "Policy",
         "Security",
-        "cyber"
+        "apple"
       ]
     },
     {
-      "id": "b1fa5249146c",
+      "id": "855e1413ec0e",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Virgin Galactic wants your help naming its new Delta class spaceship",
-      "url": "https://arstechnica.com/space/2026/08/virgin-galactic-wants-your-help-naming-its-new-delta-class-spaceship/",
-      "summary": "Will it be the VSS... Horizon , Explorer , Ascend or Apeiron ?",
-      "author": "Robert Pearlman",
-      "published": "Thu, 13 Aug 2026 19:12:15 +0000",
+      "title": "First test flight of largest all-electric aircraft used just $5 of electricity",
+      "url": "https://arstechnica.com/gadgets/2026/08/first-test-flight-of-largest-all-electric-aircraft-used-just-5-of-electricity/",
+      "summary": "Airline-backed venture aims to develop a hybrid-electric commercial aircraft.",
+      "author": "Jeremy Hsu",
+      "published": "Fri, 14 Aug 2026 18:00:23 +0000",
       "tags": [
-        "Space",
-        "Apeiron",
-        "ascend",
-        "Commercial spaceflight"
+        "Tech",
+        "air canada",
+        "aircraft",
+        "airlines"
       ]
     },
     {
-      "id": "f386d02fc9f1",
+      "id": "9510778d4d6d",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+      "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+      "summary": "Judge warns pro se litigants are using chatbots wrong and getting desperate.",
+      "author": "Ashley Belanger",
+      "published": "Fri, 14 Aug 2026 17:26:53 +0000",
+      "tags": [
+        "AI",
+        "Policy",
+        "AI prompt injection",
+        "prompt injection"
+      ]
+    },
+    {
+      "id": "cb7922be8c71",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Reddit is joining the S&P 500 after months of speculation. Analysts have these concerns.",
-      "url": "https://www.marketwatch.com/story/reddit-is-joining-the-s-p-500-after-months-of-speculation-analysts-have-these-concerns-21f81f77?mod=mw_rss_topstories",
-      "summary": "After past snubs, social-media site Reddit has landed a spot on the S&P 500, sending shares on an after-hours rally Thursday.",
-      "author": "Bill Peters",
-      "published": "Fri, 14 Aug 2026 00:19:00 GMT",
+      "title": "Berkshire Hathaway doubles down on the U.S. housing market with a fresh bet on this stock",
+      "url": "https://www.marketwatch.com/story/berkshire-hathaway-doubles-down-on-the-u-s-housing-market-with-a-fresh-bet-on-this-stock-e5c8484a?mod=mw_rss_topstories",
+      "summary": "Berkshire Hathaway has upped its bet on the U.S. housing market, and also boosted its stakes in Alphabet and Delta Air Lines.",
+      "author": "Claudia Assis",
+      "published": "Fri, 14 Aug 2026 21:34:00 GMT",
       "tags": []
     },
     {
-      "id": "5552bc516b37",
+      "id": "2a0d723122f3",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘My wife and I are both retired’: Should we dip into our $2.3 million investments to pay off our 2.9% $300,000 mortgage?",
-      "url": "https://www.marketwatch.com/story/my-wife-and-i-are-both-retired-do-we-dip-into-our-2-3-million-fund-to-pay-off-our-300-000-mortgage-at-2-9-2d23d1df?mod=mw_rss_topstories",
-      "summary": "“Right now, we’re withdrawing about $100,000 a year from our investments.”",
-      "author": "Quentin Fottrell",
-      "published": "Thu, 13 Aug 2026 22:31:00 GMT",
+      "title": "16 beaten-down AI stocks that are beloved by BofA analysts",
+      "url": "https://www.marketwatch.com/story/16-beaten-down-ai-stocks-that-are-beloved-by-bofa-analysts-3423dab2?mod=mw_rss_topstories",
+      "summary": "A recent selloff in AI-linked stocks offers opportunities for investors across the hardware, internet and energy sectors, according to analysts.",
+      "author": "Hannah Pedone",
+      "published": "Fri, 14 Aug 2026 19:09:00 GMT",
       "tags": []
     },
     {
-      "id": "471d3fd9e9ad",
+      "id": "8cb270f4b124",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Dell’s stock has beaten Micron and AMD this year — and now it’s adding to its gains",
-      "url": "https://www.marketwatch.com/story/dells-stock-has-beaten-micron-and-amd-this-year-and-now-its-adding-to-its-gains-11c00117?mod=mw_rss_topstories",
-      "summary": "Shares of Dell have roughly quadrupled in price this year, with Lenovo’s earnings report helping to drive the latest bout of momentum for the PC and server maker.",
-      "author": "Britney Nguyen",
-      "published": "Thu, 13 Aug 2026 22:09:00 GMT",
+      "title": "Parents putting money in ‘Trump accounts’ could get a $2,500 tax break. Here’s how.",
+      "url": "https://www.marketwatch.com/story/parents-putting-money-in-trump-accounts-could-get-a-2-500-tax-break-heres-how-fb6fb2f7?mod=mw_rss_topstories",
+      "summary": "A proposed rule could let families do a “discount Roth conversion.”",
+      "author": "Andrew Keshner",
+      "published": "Fri, 14 Aug 2026 18:51:00 GMT",
       "tags": []
     }
   ],
