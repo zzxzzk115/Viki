@@ -1,303 +1,303 @@
 {
-  "date": "2026-08-15",
+  "date": "2026-08-16",
   "items": [
     {
-      "id": "0db57e2cd22b",
+      "id": "d8a8ae96b0f7",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Tuyên Quang province",
-      "url": "https://simple.wikipedia.org/wiki/Tuy%C3%AAn_Quang_province",
-      "summary": "Tuyên Quang is a province of Vietnam. Its capital is Tuyên Quang.",
+      "title": "Bethany Mota",
+      "url": "https://simple.wikipedia.org/wiki/Bethany_Mota",
+      "summary": "Bethany Noel Mota is an American video blogger from Los Banos, California. She was a shy person, lived her childhood with cyber bullying. Starting with her YouTube channel of as \"MacBarbie07\" created in 2009, she rose to fame for her haul videos, in which she shows her fashion p…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "ba4914749019",
+      "id": "cf62404e8dab",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Duke of Gloucester",
-      "url": "https://simple.wikipedia.org/wiki/Duke_of_Gloucester",
-      "summary": "Duke of Gloucester is a British royal title, often conferred on one of the sons of the reigning monarch. The first four creations were in the Peerage of England, the next in the Peerage of Great Britain, and the last in the Peerage of the United Kingdom; this current creation ca…",
+      "title": "Tsunami warning system",
+      "url": "https://simple.wikipedia.org/wiki/Tsunami_warning_system",
+      "summary": "Tsunami warning system or TWS detects tsunamis and issues warnings to prevent loss of life and property. It consists of two equally important components: a network of sensors to detect tsunamis and a communications infrastructure to issue timely alarms to start evacuation before…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "be73bc3cd41e",
+      "id": "f473994441e1",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Magnitude 7.7 Earthquake – 68 km NNW of Ende, Indonesia",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive",
+      "title": "Asus Bike Booster",
+      "url": "https://www.asus.com/accessories/bike-booster/asus-oxiis/oxiis-intelligent-bike-booster/",
       "summary": "",
-      "author": "Bender",
+      "author": "wiradikusuma",
+      "published": "2026-08-12",
+      "tags": [
+        "▲ 106"
+      ]
+    },
+    {
+      "id": "acc499b68485",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Asynchronous I/O in DuckDB: Work, Thread, Work",
+      "url": "https://duckdb.org/2026/07/31/asynchronous-io",
+      "summary": "",
+      "author": "pdet",
+      "published": "2026-08-10",
+      "tags": [
+        "▲ 21"
+      ]
+    },
+    {
+      "id": "c09e460cdf9e",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Semaglutide linked to lower predicted dementia risk",
+      "url": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432",
+      "summary": "",
+      "author": "randycupertino",
       "published": "2026-08-15",
       "tags": [
-        "▲ 57"
+        "▲ 361"
       ]
     },
     {
-      "id": "afb6d0b82506",
+      "id": "03a14d297358",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Qwen 3.8 27B",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "title": "Show HN: Mic Drop, a real-time multiplayer karaoke game",
+      "url": "https://www.micdrop.gg/",
       "summary": "",
-      "author": "erdaltoprak",
-      "published": "2026-08-14",
+      "author": "johnsillings",
+      "published": "2026-08-16",
       "tags": [
-        "▲ 928"
+        "▲ 14"
       ]
     },
     {
-      "id": "2aef49371492",
+      "id": "152a1b19ec9d",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Going Dark, and the era of law enforcement hacking",
-      "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
+      "title": "Cultivating a state of mind where new ideas are born (2023)",
+      "url": "https://www.henrikkarlsson.xyz/p/good-ideas",
       "summary": "",
-      "author": "vslira",
-      "published": "2026-08-14",
-      "tags": [
-        "▲ 220"
-      ]
-    },
-    {
-      "id": "172ecfcf22a9",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Simplifying and Refactoring Introductory Calculus",
-      "url": "https://arxiv.org/abs/1811.03459",
-      "summary": "",
-      "author": "E-Reverance",
+      "author": "felixbraun",
       "published": "2026-08-15",
       "tags": [
-        "▲ 26"
+        "▲ 86"
       ]
     },
     {
-      "id": "ee04363f17a2",
+      "id": "611835edca3b",
       "category": "tech",
       "source": "Hacker News",
-      "title": "The Ploopy A+ Trackball Is Here",
-      "url": "https://blog.ploopy.co/the-aplus-is-finally-here-499",
-      "summary": "",
-      "author": "big_toast",
+      "title": "AI in drug discovery – what it is, where we stand and the path forward",
+      "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+      "summary": "https://www.nature.com/articles/s41573-026-01496-2",
+      "author": "AnodicElegy",
       "published": "2026-08-15",
       "tags": [
-        "▲ 27"
+        "▲ 101"
       ]
     },
     {
-      "id": "99bdd8b2cd62",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Why does Opus 5 feel worse to work with?",
-      "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
-      "summary": "",
-      "author": "numeri",
-      "published": "2026-08-14",
-      "tags": [
-        "▲ 801"
-      ]
-    },
-    {
-      "id": "eb2da0298a54",
+      "id": "e09ed0c9301c",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Numverify — Global phone number validation & lookup",
-      "url": "https://dev.to/nick_davies_323125afbb05c/numverify-global-phone-number-validation-lookup-1jci",
-      "summary": "Looking for a reliable marketing API? Numverify might be exactly what you need. What is Numverify? Validate phone numbers in real-time for 232 countries. Returns carrier info, line type (mobile/landline), and location data. Quick Facts Detail Info Category Marketing Type REST AP…",
-      "author": "Nick Davies",
-      "published": "Sat, 15 Aug 2026 02:15:09 +0000",
+      "title": "Build a Web Scraper and Sell the Data: A Step-by-Step Guide",
+      "url": "https://dev.to/caper_dev/build-a-web-scraper-and-sell-the-data-a-step-by-step-guide-5024",
+      "summary": "Build a Web Scraper and Sell the Data: A Step-by-Step Guide Web scraping is the process of automatically extracting data from websites, and it's a valuable skill for any developer. In this article, we'll walk through the steps to build a web scraper and sell the data, providing …",
+      "author": "Caper B",
+      "published": "Sun, 16 Aug 2026 02:24:03 +0000",
       "tags": [
+        "python",
         "webdev",
-        "api",
-        "tools",
+        "data",
         "programming"
       ]
     },
     {
-      "id": "3f25a7d82dd8",
+      "id": "ecb9e8562698",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Top 10 AUTOMATION APIs & Scrapers in 2026 — Ranked by Active Users",
-      "url": "https://dev.to/nick_davies_323125afbb05c/top-10-automation-apis-scrapers-in-2026-ranked-by-active-users-b7o",
-      "summary": "Looking for the best automation tools? I put together a list of the top 10 most popular ones on Apify, ranked by active users. 1. LinkedIn Profile Search Scraper No Cookies ✅ Find all people 📧 37K users | 4.4/5 rating | Pay per event Search for LinkedIn profiles with filters an…",
+      "title": "Why I Switched to Hostinger — Honest Review After Using It for Months",
+      "url": "https://dev.to/nick_davies_323125afbb05c/why-i-switched-to-hostinger-honest-review-after-using-it-for-months-h86",
+      "summary": "I've tried multiple hosting providers over the years. Here's why Hostinger is my current recommendation, especially for developers and small businesses. What I Like Price-to-Value Ratio Starting at $2.99/mo for the Premium plan, you get more than most hosts charge $10+/mo for: F…",
       "author": "Nick Davies",
-      "published": "Sat, 15 Aug 2026 02:09:58 +0000",
+      "published": "Sun, 16 Aug 2026 02:23:05 +0000",
       "tags": [
-        "automation",
         "webdev",
-        "productivity",
-        "tools"
+        "hosting",
+        "review",
+        "wordpress"
       ]
     },
     {
-      "id": "e96b939a9df5",
+      "id": "276d637952eb",
       "category": "tech",
       "source": "DEV Community",
-      "title": "3 Ways to Make Your API Requests Idempotent (With Working Code)",
-      "url": "https://dev.to/sirmax/3-ways-to-make-your-api-requests-idempotent-with-working-code-4inl",
-      "summary": "3 Ways to Make Your API Requests Idempotent (With Working Code) We lost a customer payment last year because of a retry. A third-party gateway timed out on our first charge attempt, so our client retried — and the customer got billed twice. It wasn't a huge amount, but the refun…",
-      "author": "Sir Max",
-      "published": "Sat, 15 Aug 2026 02:06:22 +0000",
+      "title": "Hostinger Plans Compared: Which One Do You Actually Need in 2026?",
+      "url": "https://dev.to/nick_davies_323125afbb05c/hostinger-plans-compared-which-one-do-you-actually-need-in-2026-kga",
+      "summary": "Choosing a hosting plan shouldn't be complicated. Here's a breakdown of Hostinger's three main plans so you can pick the right one without overpaying. Plan Comparison Plan Price Websites Storage Backups Best For Premium $2.99/mo 3 20 GB SSD Weekly Personal sites, blogs Unlimited…",
+      "author": "Nick Davies",
+      "published": "Sun, 16 Aug 2026 02:17:54 +0000",
       "tags": [
-        "api",
         "webdev",
-        "tutorial",
-        "python"
+        "hosting",
+        "beginners",
+        "wordpress"
       ]
     },
     {
-      "id": "3c143f6ef347",
+      "id": "8ecb5a98b23f",
       "category": "tech",
       "source": "DEV Community",
-      "title": "In-Depth Analysis: Google Pixel 11 Event and Its T…",
-      "url": "https://dev.to/norviktech/in-depth-analysis-google-pixel-11-event-and-its-t-2kbi",
-      "summary": "Originally published at norvik.tech Introduction Explore the technical innovations presented at the Google Pixel 11 event and their implications for the tech industry. Detailed analysis for businesses an… Understanding the Google Pixel 11 Event The Google Pixel 11 event showcase…",
-      "author": "Norvik Tech",
-      "published": "Sat, 15 Aug 2026 02:06:04 +0000",
+      "title": "Free Landing Page - Landing Chatbot",
+      "url": "https://dev.to/razix_devilnemesisloki/free-landing-page-landing-chatbot-3d5",
+      "summary": "Landing Page Enterprise AI chatbot platform. Professional, ROI-focused. Download + Deploy Save the HTML file, open in any browser, or deploy free on Netlify/Vercel. About Built by OmniIncome-v1 using AI. Support: 0x6731ee8E0Bf0ADbdC86b3a07B61ce338ECA6d55b (Base USDC) Part of Omn…",
+      "author": "RAZIX DEVIL NEMESIS (Loki)",
+      "published": "Sun, 16 Aug 2026 02:13:09 +0000",
       "tags": [
         "webdev",
-        "googlepixel11",
-        "mobiletechnology",
-        "aifeatures"
+        "ai",
+        "design",
+        "claude"
       ]
     },
     {
-      "id": "cc5d0a5f158d",
+      "id": "56c9cefe82be",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Mesklin",
-      "url": "https://en.wikipedia.org/wiki/Mesklin",
-      "summary": "Mesklin is a fictional planet created by Hal Clement and used in a number of his hard science fiction stories, starting with Mission of Gravity (1954). Alongside the novel's original 1953 serialization in Astounding Science Fiction, Clement published an essay titled \"Whirligig W…",
+      "title": "Madonna",
+      "url": "https://en.wikipedia.org/wiki/Madonna",
+      "summary": "Madonna Louise Ciccone is an American singer, songwriter, and actress. Dubbed the \"Queen of Pop\", she is known for her continual reinvention and versatility in music production, songwriting, and visual presentation. Her works, which concern social, political, sexual, and religio…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "1a815948b42a",
+      "id": "3ad1c578f974",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Mangione admits killing healthcare CEO and pleads guilty to federal charges",
-      "url": "https://www.bbc.co.uk/news/articles/cwy0nlq1l2wo?at_medium=RSS&at_campaign=rss",
-      "summary": "\"I shot Mr Thompson in Manhattan and he died,\" the 28-year-old said after pleading guilty to charges of stalking resulting in death.",
-      "published": "Fri, 14 Aug 2026 19:20:43 GMT",
+      "title": "Rescuers search for survivors of powerful Indonesia earthquake",
+      "url": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Officials say a rapid assessment into the impact of the earthquake that destroyed hundreds of buildings and killed 47 is under way.",
+      "published": "Sat, 15 Aug 2026 21:49:12 GMT",
       "tags": []
     },
     {
-      "id": "7d85fee523da",
+      "id": "24de7e2006a1",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Afghan women tell the BBC their lives are unrecognisable after five years of Taliban rule",
-      "url": "https://www.bbc.co.uk/news/articles/clyje43dz4eo?at_medium=RSS&at_campaign=rss",
-      "summary": "Women across the country speak of public floggings, losing their jobs, and barriers to healthcare that endanger lives.",
-      "published": "Fri, 14 Aug 2026 18:25:38 GMT",
+      "title": "Morocco detains dozens of migrants trying to cross into Ceuta, reports say",
+      "url": "https://www.bbc.co.uk/news/articles/ckg44x2ey1ro?at_medium=RSS&at_campaign=rss",
+      "summary": "Security had been stepped up amid suggestions on social media of a second mass crossing on Saturday.",
+      "published": "Sat, 15 Aug 2026 20:58:31 GMT",
       "tags": []
     },
     {
-      "id": "39944a5a51fd",
+      "id": "8890d3817dfd",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported on board",
-      "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Thousands of sailors on the Lincoln have reportedly faced food shortages and broken plumbing, with some considering jumping overboard.",
-      "published": "Fri, 14 Aug 2026 17:36:27 GMT",
+      "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
+      "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
+      "summary": "Israel's military said it had struck \"Hezbollah terror infrastructure\" in response to what it described as earlier action against its soldiers.",
+      "published": "Sat, 15 Aug 2026 20:21:14 GMT",
       "tags": []
     },
     {
-      "id": "36c71486f9a3",
+      "id": "3084e9956572",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Instagram accounts fuelling Ceuta crisis with paid advice for help to cross",
-      "url": "https://www.bbc.co.uk/news/articles/c89n20wj9kko?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC's Top Comment podcast has found a network of Instagram profiles glamourising the swim around the Morocco-Ceuta border fence.",
-      "published": "Fri, 14 Aug 2026 12:19:21 GMT",
+      "title": "Liechtenstein changes succession rule to allow women to ascend the throne",
+      "url": "https://www.bbc.co.uk/news/articles/cn9nnxrxg4qo?at_medium=RSS&at_campaign=rss",
+      "summary": "The declaration was made on the national day of the central European country, which has a population of just 44,000.",
+      "published": "Sat, 15 Aug 2026 19:41:57 GMT",
       "tags": []
     },
     {
-      "id": "b74725c02d45",
+      "id": "2cc292066680",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
-      "url": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
-      "summary": "Screen-sharing bug lets remote hackers log in without a password.",
-      "author": "Dan Goodin",
-      "published": "Fri, 14 Aug 2026 18:32:14 +0000",
+      "title": "VisionQuest trailer kicks off Disney's D23 fan event",
+      "url": "https://arstechnica.com/culture/2026/08/visionquest-trailer-kicks-off-disneys-d23-fan-event/",
+      "summary": "Also: Ahsoka S2 teaser, Doomsday trailer, news about MCU's X-Men and Star Wars: Starfighter",
+      "author": "Jennifer Ouellette",
+      "published": "Sat, 15 Aug 2026 21:21:27 +0000",
       "tags": [
-        "Apple",
-        "Biz & IT",
-        "Security",
-        "apple"
+        "Culture",
+        "ahsoka",
+        "Avengers: Doomsday",
+        "disney plus"
       ]
     },
     {
-      "id": "855e1413ec0e",
+      "id": "0ed2f09480ff",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "First test flight of largest all-electric aircraft used just $5 of electricity",
-      "url": "https://arstechnica.com/gadgets/2026/08/first-test-flight-of-largest-all-electric-aircraft-used-just-5-of-electricity/",
-      "summary": "Airline-backed venture aims to develop a hybrid-electric commercial aircraft.",
-      "author": "Jeremy Hsu",
-      "published": "Fri, 14 Aug 2026 18:00:23 +0000",
+      "title": "Ukraine strikes major Russian rocket factory with cruise missiles",
+      "url": "https://arstechnica.com/space/2026/08/ukraine-strikes-major-russian-rocket-factory-with-cruise-missiles/",
+      "summary": "\"Flamingo missiles were used. A good achievement.\"",
+      "author": "Eric Berger",
+      "published": "Sat, 15 Aug 2026 15:46:05 +0000",
       "tags": [
-        "Tech",
-        "air canada",
-        "aircraft",
-        "airlines"
+        "Space",
+        "russia",
+        "samara",
+        "soyuz-2"
       ]
     },
     {
-      "id": "9510778d4d6d",
+      "id": "e20942ac6eee",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
-      "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
-      "summary": "Judge warns pro se litigants are using chatbots wrong and getting desperate.",
-      "author": "Ashley Belanger",
-      "published": "Fri, 14 Aug 2026 17:26:53 +0000",
+      "title": "So much solar: Digging into the list of every US power plant that went online this year",
+      "url": "https://arstechnica.com/science/2026/08/so-much-solar-digging-into-the-list-of-every-us-power-plant-that-went-online-this-year/",
+      "summary": "Utility-scale solar leads by a mile, followed by batteries. Fossil fuels, not so much.",
+      "author": "Dan Gearino, Inside Climate News",
+      "published": "Sat, 15 Aug 2026 11:09:57 +0000",
       "tags": [
-        "AI",
-        "Policy",
-        "AI prompt injection",
-        "prompt injection"
+        "Science",
+        "power plants",
+        "solar power",
+        "syndication"
       ]
     },
     {
-      "id": "cb7922be8c71",
+      "id": "2ede74951aa4",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Berkshire Hathaway doubles down on the U.S. housing market with a fresh bet on this stock",
-      "url": "https://www.marketwatch.com/story/berkshire-hathaway-doubles-down-on-the-u-s-housing-market-with-a-fresh-bet-on-this-stock-e5c8484a?mod=mw_rss_topstories",
-      "summary": "Berkshire Hathaway has upped its bet on the U.S. housing market, and also boosted its stakes in Alphabet and Delta Air Lines.",
-      "author": "Claudia Assis",
-      "published": "Fri, 14 Aug 2026 21:34:00 GMT",
+      "title": "‘It’s a double-edged sword’: My husband got a $42,000 bonus. Will it wipe out our Affordable Care Act subsidy?",
+      "url": "https://www.marketwatch.com/story/its-a-double-edged-sword-my-husband-got-a-42-000-bonus-will-it-wipe-out-our-affordable-care-act-subsidy-32db285e?mod=mw_rss_topstories",
+      "summary": "“We were advised to return the bonus and take out a home-equity loan.”",
+      "author": "Quentin Fottrell",
+      "published": "Sat, 15 Aug 2026 20:30:00 GMT",
       "tags": []
     },
     {
-      "id": "2a0d723122f3",
+      "id": "4ae44c0235be",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "16 beaten-down AI stocks that are beloved by BofA analysts",
-      "url": "https://www.marketwatch.com/story/16-beaten-down-ai-stocks-that-are-beloved-by-bofa-analysts-3423dab2?mod=mw_rss_topstories",
-      "summary": "A recent selloff in AI-linked stocks offers opportunities for investors across the hardware, internet and energy sectors, according to analysts.",
-      "author": "Hannah Pedone",
-      "published": "Fri, 14 Aug 2026 19:09:00 GMT",
+      "title": "I’m 63, a retired CPA with a $1.2 million 401(k). Do I need to bother with a Roth conversion?",
+      "url": "https://www.marketwatch.com/story/im-63-and-a-retired-cpa-i-have-a-1-2-million-401-k-do-i-need-a-roth-conversion-0a227302?mod=mw_rss_topstories",
+      "summary": "“I don’t expect my marginal tax rate to be materially different in the future.”",
+      "author": "Quentin Fottrell",
+      "published": "Sat, 15 Aug 2026 20:00:00 GMT",
       "tags": []
     },
     {
-      "id": "8cb270f4b124",
+      "id": "3e06741cf669",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Parents putting money in ‘Trump accounts’ could get a $2,500 tax break. Here’s how.",
-      "url": "https://www.marketwatch.com/story/parents-putting-money-in-trump-accounts-could-get-a-2-500-tax-break-heres-how-fb6fb2f7?mod=mw_rss_topstories",
-      "summary": "A proposed rule could let families do a “discount Roth conversion.”",
-      "author": "Andrew Keshner",
-      "published": "Fri, 14 Aug 2026 18:51:00 GMT",
+      "title": "Think interest rates are high now? These charts offer a different perspective.",
+      "url": "https://www.marketwatch.com/story/think-interest-rates-are-high-now-these-charts-offers-a-different-perspective-ae5f28c6?mod=mw_rss_topstories",
+      "summary": "Also in Weekend Reads: 10 remarkable housing markets, stock picks, and health-insurance battles.",
+      "author": "Philip van Doorn",
+      "published": "Sat, 15 Aug 2026 19:01:00 GMT",
       "tags": []
     }
   ],
