@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-15",
+  "date": "2026-08-16",
   "items": [
     {
       "id": "5ac4def88eb5",
@@ -112,28 +112,6 @@
       "category": "CS"
     },
     {
-      "id": "0b91f31069ca",
-      "platform": "bilibili",
-      "videoId": "BV1q2jh6FEhX",
-      "title": "30 - Agentic AI 和我们的未来；课程总结 [2026 南京大学操作系统原理]",
-      "channel": "绿导师原谅你了",
-      "url": "https://www.bilibili.com/video/BV1q2jh6FEhX",
-      "thumb": "https://i1.hdslb.com/bfs/archive/b7e8dace001aa6b23bc6117e75ba72fc9b3b2e21.jpg",
-      "published": "2026-06-18",
-      "category": "CS"
-    },
-    {
-      "id": "7ab9db96faa7",
-      "platform": "bilibili",
-      "videoId": "BV1uaEB66EAH",
-      "title": "29 - 虚拟机和容器 [2026 南京大学操作系统原理]",
-      "channel": "绿导师原谅你了",
-      "url": "https://www.bilibili.com/video/BV1uaEB66EAH",
-      "thumb": "https://i2.hdslb.com/bfs/archive/ac577490a4b6c1a5371f75e9aaab9f3601aba2b4.jpg",
-      "published": "2026-06-11",
-      "category": "CS"
-    },
-    {
       "id": "4a9bfb807dd8",
       "platform": "youtube",
       "videoId": "CqApXh80HVo",
@@ -200,28 +178,6 @@
       "category": "历史"
     },
     {
-      "id": "4839cbb8b132",
-      "platform": "bilibili",
-      "videoId": "BV1FBMC61Eif",
-      "title": "虚空一击  伊朗·1980",
-      "channel": "小约翰可汗",
-      "url": "https://www.bilibili.com/video/BV1FBMC61Eif",
-      "thumb": "https://i0.hdslb.com/bfs/archive/b59974cf13241c8453a049bbd2c63124f0a96c50.jpg",
-      "published": "2026-08-07",
-      "category": "历史"
-    },
-    {
-      "id": "1ed3b054afcf",
-      "platform": "bilibili",
-      "videoId": "BV1d6gh6kEQP",
-      "title": "文化革命  伊朗·1980",
-      "channel": "小约翰可汗",
-      "url": "https://www.bilibili.com/video/BV1d6gh6kEQP",
-      "thumb": "https://i1.hdslb.com/bfs/archive/961218b87486be9394da959087157489270c8bb5.jpg",
-      "published": "2026-07-25",
-      "category": "历史"
-    },
-    {
       "id": "54e1a3d8e7cb",
       "platform": "youtube",
       "videoId": "AfOOFdNreEM",
@@ -269,21 +225,22 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "Bilibili 512313464: code=-352 风控校验失败",
     "图形学 · 512313464: 0 条",
     "引擎 · @TheCherno: 2 条",
+    "Bilibili 437860379: code=-352 风控校验失败",
     "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
+    "Bilibili 1567748478: code=-352 风控校验失败",
     "CS · 1567748478: 0 条",
-    "CS · 202224425: 2 条",
+    "Bilibili 202224425: code=-352 风控校验失败",
+    "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 2 条",
     "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
-    "Bilibili 11646119: code=-352 风控校验失败",
     "历史 · 11646119: 0 条",
-    "历史 · 23947287: 2 条",
+    "历史 · 23947287: 0 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
   ]
