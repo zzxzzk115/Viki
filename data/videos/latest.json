@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-16",
+  "date": "2026-08-17",
   "items": [
     {
       "id": "5ac4def88eb5",
@@ -134,6 +134,28 @@
       "category": "金融"
     },
     {
+      "id": "3a23fd5a2def",
+      "platform": "bilibili",
+      "videoId": "BV1XPuo6uES8",
+      "title": "王健林现在怎么样了? 万达什么情况?",
+      "channel": "小Lin说",
+      "url": "https://www.bilibili.com/video/BV1XPuo6uES8",
+      "thumb": "https://i0.hdslb.com/bfs/archive/d3fd5ebcf88dd8c23ba9af5500c192a255f4deb8.jpg",
+      "published": "2026-08-10",
+      "category": "金融"
+    },
+    {
+      "id": "a6c68e4ce158",
+      "platform": "bilibili",
+      "videoId": "BV1gKuF6rEqy",
+      "title": "对话漫威总裁 | 漫威宇宙的崛起和转身，下一个爆点在哪里？",
+      "channel": "小Lin说",
+      "url": "https://www.bilibili.com/video/BV1gKuF6rEqy",
+      "thumb": "https://i2.hdslb.com/bfs/archive/c4c2fc66d8d11a267adf412600fd7b2710135bc9.jpg",
+      "published": "2026-08-04",
+      "category": "金融"
+    },
+    {
       "id": "9caeffee97f4",
       "platform": "youtube",
       "videoId": "xYKSKBcifaE",
@@ -175,6 +197,28 @@
       "url": "https://www.youtube.com/watch?v=h6E4_Bcmscg",
       "thumb": "https://i1.ytimg.com/vi/h6E4_Bcmscg/hqdefault.jpg",
       "published": "2025-08-30",
+      "category": "历史"
+    },
+    {
+      "id": "038c99934189",
+      "platform": "bilibili",
+      "videoId": "BV193GP6eE4F",
+      "title": "傅清·那木扎勒之乱：成仁取义的落幕时刻。【乾隆往事】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV193GP6eE4F",
+      "thumb": "https://i0.hdslb.com/bfs/archive/a7a4b433dca417a40714397b8f566c7fdf23c5f9.jpg",
+      "published": "2026-07-31",
+      "category": "历史"
+    },
+    {
+      "id": "7800bbd06e68",
+      "platform": "bilibili",
+      "videoId": "BV1w2N96uE1U",
+      "title": "毛泽东·四渡赤水：红军不怕远征难。",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1w2N96uE1U",
+      "thumb": "https://i1.hdslb.com/bfs/archive/f9c709d21a277bbd7358004f032633bb129cd727.jpg",
+      "published": "2026-07-14",
       "category": "历史"
     },
     {
@@ -225,21 +269,20 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
+    "Bilibili 512313464: code=-352 风控校验失败",
     "图形学 · 512313464: 0 条",
     "引擎 · @TheCherno: 2 条",
-    "Bilibili 437860379: code=-352 风控校验失败",
     "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
-    "Bilibili 1567748478: code=-352 风控校验失败",
     "CS · 1567748478: 0 条",
     "Bilibili 202224425: code=-352 风控校验失败",
     "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 2 条",
-    "金融 · 520819684: 0 条",
+    "金融 · 520819684: 2 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
-    "历史 · 11646119: 0 条",
+    "历史 · 11646119: 2 条",
     "历史 · 23947287: 0 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
