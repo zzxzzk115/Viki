@@ -1,13 +1,13 @@
 {
-  "date": "2026-08-16",
-  "word": "empirical",
-  "ipa": "ɪmˈpɪr.ɪ.k",
-  "ipaUs": "emˈpɪr.ɪ.k",
-  "pos": "adjective",
-  "definition": "based on what is experienced or seen rather than on theory",
-  "definitionZh": "以经验（或实验）为依据的； 经验主义的",
-  "example": "This theory needs to be backed up with solid empirical data / evidence",
-  "exampleZh": "这个理论需要翔实的实验数据／实践经验来支持。",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uke/ukemo/ukemolu022.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/c/cdo/cdo03/cdo0318usempi1636.mp3"
+  "date": "2026-08-17",
+  "word": "emulate",
+  "ipa": "ˈem.jə.leɪt",
+  "ipaUs": "ˈem.jə.leɪt",
+  "pos": "verb",
+  "definition": "to copy something achieved by someone else and try to do it as well as they have",
+  "definitionZh": "效仿",
+  "example": "They hope to emulate the success of other software companies.",
+  "exampleZh": "他们希望能够效仿其他软件公司的成功先例。",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uke/ukemp/ukemplo014.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/emu/emula/emulate.mp3"
 }

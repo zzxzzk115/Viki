@@ -1,223 +1,237 @@
 {
-  "date": "2026-08-16",
+  "date": "2026-08-17",
   "items": [
     {
-      "id": "d8a8ae96b0f7",
+      "id": "edc2d7e2ff96",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Bethany Mota",
-      "url": "https://simple.wikipedia.org/wiki/Bethany_Mota",
-      "summary": "Bethany Noel Mota is an American video blogger from Los Banos, California. She was a shy person, lived her childhood with cyber bullying. Starting with her YouTube channel of as \"MacBarbie07\" created in 2009, she rose to fame for her haul videos, in which she shows her fashion p…",
+      "title": "Tokugawa shogunate",
+      "url": "https://simple.wikipedia.org/wiki/Tokugawa_shogunate",
+      "summary": "The Tokugawa shogunate, also known as the Tokugawa bakufu (徳川幕府), and the Edo bakufu (江戸幕府), was a feudal Japanese military government. The heads of government were the shoguns. Each was a member of the Tokugawa family.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "cf62404e8dab",
+      "id": "bdcc29110ab7",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Tsunami warning system",
-      "url": "https://simple.wikipedia.org/wiki/Tsunami_warning_system",
-      "summary": "Tsunami warning system or TWS detects tsunamis and issues warnings to prevent loss of life and property. It consists of two equally important components: a network of sensors to detect tsunamis and a communications infrastructure to issue timely alarms to start evacuation before…",
+      "title": "Chowder",
+      "url": "https://simple.wikipedia.org/wiki/Chowder",
+      "summary": "Chowder is the name of a soup usually made with fish or mussels. It is especially popular in the United States. There is also many types of chowder: corn chowder, Bermuda fish chowder, clam chowder.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "f473994441e1",
+      "id": "67414529efd2",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Asus Bike Booster",
-      "url": "https://www.asus.com/accessories/bike-booster/asus-oxiis/oxiis-intelligent-bike-booster/",
+      "title": "The Life and Death of Direct File [pdf]",
+      "url": "https://www.ischool.berkeley.edu/sites/default/files/vinton_report_5.pdf",
       "summary": "",
-      "author": "wiradikusuma",
-      "published": "2026-08-12",
+      "author": "ronbenton",
+      "published": "2026-08-17",
       "tags": [
-        "▲ 106"
+        "▲ 75"
       ]
     },
     {
-      "id": "acc499b68485",
+      "id": "097582375e87",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Asynchronous I/O in DuckDB: Work, Thread, Work",
-      "url": "https://duckdb.org/2026/07/31/asynchronous-io",
+      "title": "Qwen 3.8 27B is excellent, but it defaults to overthinking things",
+      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
       "summary": "",
-      "author": "pdet",
-      "published": "2026-08-10",
-      "tags": [
-        "▲ 21"
-      ]
-    },
-    {
-      "id": "c09e460cdf9e",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Semaglutide linked to lower predicted dementia risk",
-      "url": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432",
-      "summary": "",
-      "author": "randycupertino",
-      "published": "2026-08-15",
-      "tags": [
-        "▲ 361"
-      ]
-    },
-    {
-      "id": "03a14d297358",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Show HN: Mic Drop, a real-time multiplayer karaoke game",
-      "url": "https://www.micdrop.gg/",
-      "summary": "",
-      "author": "johnsillings",
+      "author": "bilsbie",
       "published": "2026-08-16",
       "tags": [
-        "▲ 14"
+        "▲ 83"
       ]
     },
     {
-      "id": "152a1b19ec9d",
+      "id": "d09bfc862e00",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Cultivating a state of mind where new ideas are born (2023)",
-      "url": "https://www.henrikkarlsson.xyz/p/good-ideas",
+      "title": "AGI-64 Brings Sierra Adventures to the Commodore 64",
+      "url": "https://meanhamster.com/news/agi-64-brings-sierra-adventures-to-the-commodore-64",
       "summary": "",
-      "author": "felixbraun",
-      "published": "2026-08-15",
+      "author": "erickhill",
+      "published": "2026-08-17",
       "tags": [
-        "▲ 86"
+        "▲ 9"
       ]
     },
     {
-      "id": "611835edca3b",
+      "id": "0a37f55e0674",
       "category": "tech",
       "source": "Hacker News",
-      "title": "AI in drug discovery – what it is, where we stand and the path forward",
-      "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
-      "summary": "https://www.nature.com/articles/s41573-026-01496-2",
-      "author": "AnodicElegy",
-      "published": "2026-08-15",
+      "title": "Rhombus 1.1 is now available",
+      "url": "https://blog.racket-lang.org/2026/08/rhombus-v1.1.html",
+      "summary": "",
+      "author": "spdegabrielle",
+      "published": "2026-08-17",
       "tags": [
-        "▲ 101"
+        "▲ 23"
       ]
     },
     {
-      "id": "e09ed0c9301c",
+      "id": "3e9e04424fc8",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "A 3rd World Embedded Engineer Responds to \"RISC-V They Should Have Known Better\"",
+      "url": "https://rvembedded.com/blog_post/12/",
+      "summary": "",
+      "author": "Narishma",
+      "published": "2026-08-16",
+      "tags": [
+        "▲ 388"
+      ]
+    },
+    {
+      "id": "9ffac573dcb5",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Claude: System Prompts",
+      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+      "summary": "",
+      "author": "tosh",
+      "published": "2026-08-16",
+      "tags": [
+        "▲ 556"
+      ]
+    },
+    {
+      "id": "60c3213b68cf",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Build a Web Scraper and Sell the Data: A Step-by-Step Guide",
-      "url": "https://dev.to/caper_dev/build-a-web-scraper-and-sell-the-data-a-step-by-step-guide-5024",
-      "summary": "Build a Web Scraper and Sell the Data: A Step-by-Step Guide Web scraping is the process of automatically extracting data from websites, and it's a valuable skill for any developer. In this article, we'll walk through the steps to build a web scraper and sell the data, providing …",
-      "author": "Caper B",
-      "published": "Sun, 16 Aug 2026 02:24:03 +0000",
+      "title": "React useSessionStorage Hook: Per-Tab State That Survives Reloads (2026)",
+      "url": "https://dev.to/childrentime/react-usesessionstorage-hook-per-tab-state-that-survives-reloads-2026-1nd3",
+      "summary": "Here's a checkout flow that loses the customer at step three: function Checkout () { const [ step , setStep ] = useState ( 0 ); const [ form , setForm ] = useState < CheckoutForm > ( EMPTY_FORM ); // step 1: address, step 2: shipping, step 3: payment… } The customer fills in the…",
+      "author": "ReactUse",
+      "published": "Mon, 17 Aug 2026 02:35:15 +0000",
+      "tags": [
+        "react",
+        "javascript",
+        "webdev",
+        "tutorial"
+      ]
+    },
+    {
+      "id": "ccfe111d7ed0",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "I built a forum where rooms die when people stop talking",
+      "url": "https://dev.to/seongjinkang/i-built-a-forum-where-rooms-die-when-people-stop-talking-30mc",
+      "summary": "I got tired of two things about online communities. The first is that they don't die well. A subreddit or a Discord channel that was alive for a week keeps existing for years, and the emptiness is louder than silence — you open it, see the last post is from 2023, and leave. The …",
+      "author": "Seongjin Kang",
+      "published": "Mon, 17 Aug 2026 02:32:27 +0000",
+      "tags": [
+        "webdev",
+        "showdev",
+        "sideprojects",
+        "node"
+      ]
+    },
+    {
+      "id": "399753a05f4b",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "A support chatbot needs to be designed for what it won't answer, not just what it will",
+      "url": "https://dev.to/susumun/a-support-chatbot-needs-to-be-designed-for-what-it-wont-answer-not-just-what-it-will-3j3m",
+      "summary": "Background The support chatbot on our landing page has a simple job: answer questions about the product's features, pricing, and troubleshooting. But a conversational AI built to answer questions shares a common weakness. Left unguarded, it tends to comply with requests designed…",
+      "author": "Susumu Takahashi",
+      "published": "Mon, 17 Aug 2026 02:32:16 +0000",
       "tags": [
         "python",
         "webdev",
-        "data",
         "programming"
       ]
     },
     {
-      "id": "ecb9e8562698",
+      "id": "4522411849d6",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Why I Switched to Hostinger — Honest Review After Using It for Months",
-      "url": "https://dev.to/nick_davies_323125afbb05c/why-i-switched-to-hostinger-honest-review-after-using-it-for-months-h86",
-      "summary": "I've tried multiple hosting providers over the years. Here's why Hostinger is my current recommendation, especially for developers and small businesses. What I Like Price-to-Value Ratio Starting at $2.99/mo for the Premium plan, you get more than most hosts charge $10+/mo for: F…",
-      "author": "Nick Davies",
-      "published": "Sun, 16 Aug 2026 02:23:05 +0000",
+      "title": "n8n vs Make in 2026: Which Workflow Automation Tool Should You Choose?",
+      "url": "https://dev.to/kingston-888/n8n-vs-make-in-2026-which-workflow-automation-tool-should-you-choose-3kb3",
+      "summary": "Choosing between n8n and Make is not really a question of which platform has more features. Both can connect SaaS apps, call APIs, transform data, branch logic, schedule jobs, and support AI automation. The more useful question is: which operating model fits your team, workflow …",
+      "author": "kingston-888",
+      "published": "Mon, 17 Aug 2026 02:30:24 +0000",
       "tags": [
-        "webdev",
-        "hosting",
-        "review",
-        "wordpress"
+        "automation",
+        "productivity",
+        "webdev"
       ]
     },
     {
-      "id": "276d637952eb",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Hostinger Plans Compared: Which One Do You Actually Need in 2026?",
-      "url": "https://dev.to/nick_davies_323125afbb05c/hostinger-plans-compared-which-one-do-you-actually-need-in-2026-kga",
-      "summary": "Choosing a hosting plan shouldn't be complicated. Here's a breakdown of Hostinger's three main plans so you can pick the right one without overpaying. Plan Comparison Plan Price Websites Storage Backups Best For Premium $2.99/mo 3 20 GB SSD Weekly Personal sites, blogs Unlimited…",
-      "author": "Nick Davies",
-      "published": "Sun, 16 Aug 2026 02:17:54 +0000",
-      "tags": [
-        "webdev",
-        "hosting",
-        "beginners",
-        "wordpress"
-      ]
-    },
-    {
-      "id": "8ecb5a98b23f",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Free Landing Page - Landing Chatbot",
-      "url": "https://dev.to/razix_devilnemesisloki/free-landing-page-landing-chatbot-3d5",
-      "summary": "Landing Page Enterprise AI chatbot platform. Professional, ROI-focused. Download + Deploy Save the HTML file, open in any browser, or deploy free on Netlify/Vercel. About Built by OmniIncome-v1 using AI. Support: 0x6731ee8E0Bf0ADbdC86b3a07B61ce338ECA6d55b (Base USDC) Part of Omn…",
-      "author": "RAZIX DEVIL NEMESIS (Loki)",
-      "published": "Sun, 16 Aug 2026 02:13:09 +0000",
-      "tags": [
-        "webdev",
-        "ai",
-        "design",
-        "claude"
-      ]
-    },
-    {
-      "id": "56c9cefe82be",
+      "id": "9dd1ed5575af",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Madonna",
-      "url": "https://en.wikipedia.org/wiki/Madonna",
-      "summary": "Madonna Louise Ciccone is an American singer, songwriter, and actress. Dubbed the \"Queen of Pop\", she is known for her continual reinvention and versatility in music production, songwriting, and visual presentation. Her works, which concern social, political, sexual, and religio…",
+      "title": "Hurricane Camille",
+      "url": "https://en.wikipedia.org/wiki/Hurricane_Camille",
+      "summary": "Hurricane Camille was one of the most powerful hurricanes to make landfall in the United States when it hit southern Mississippi in August 1969. A devastating tropical cyclone, Camille was one of four Atlantic hurricanes to strike the United States as a Category 5 on the Saffir–…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "3ad1c578f974",
+      "id": "d39bc91ddc0a",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Rescuers search for survivors of powerful Indonesia earthquake",
-      "url": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss",
-      "summary": "Officials say a rapid assessment into the impact of the earthquake that destroyed hundreds of buildings and killed 47 is under way.",
-      "published": "Sat, 15 Aug 2026 21:49:12 GMT",
+      "title": "Trump says US to scale back military drills with South Korea after it stayed out of Iran war",
+      "url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Trump cites his \"very good relationship\" with North Korea's leader in deciding to downsize the exercises.",
+      "published": "Mon, 17 Aug 2026 00:06:05 GMT",
       "tags": []
     },
     {
-      "id": "24de7e2006a1",
+      "id": "2d4b21839f92",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Morocco detains dozens of migrants trying to cross into Ceuta, reports say",
-      "url": "https://www.bbc.co.uk/news/articles/ckg44x2ey1ro?at_medium=RSS&at_campaign=rss",
-      "summary": "Security had been stepped up amid suggestions on social media of a second mass crossing on Saturday.",
-      "published": "Sat, 15 Aug 2026 20:58:31 GMT",
+      "title": "Trump envoy Kushner meets Hamas leader to push Gaza peace plan",
+      "url": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss",
+      "summary": "The rare meeting comes a week after Israel rejected Donald Trump's peace plan for Gaza.",
+      "published": "Sun, 16 Aug 2026 19:58:14 GMT",
       "tags": []
     },
     {
-      "id": "8890d3817dfd",
+      "id": "20cfa26d02e6",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
-      "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
-      "summary": "Israel's military said it had struck \"Hezbollah terror infrastructure\" in response to what it described as earlier action against its soldiers.",
-      "published": "Sat, 15 Aug 2026 20:21:14 GMT",
+      "title": "Russia says at least seven killed in largest Ukrainian attack of 2026",
+      "url": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
+      "summary": "Moscow also launched deadly strikes against Ukraine overnight, sparking fires across the capital Kyiv.",
+      "published": "Sun, 16 Aug 2026 19:03:04 GMT",
       "tags": []
     },
     {
-      "id": "3084e9956572",
+      "id": "5282a4741c3e",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Liechtenstein changes succession rule to allow women to ascend the throne",
-      "url": "https://www.bbc.co.uk/news/articles/cn9nnxrxg4qo?at_medium=RSS&at_campaign=rss",
-      "summary": "The declaration was made on the national day of the central European country, which has a population of just 44,000.",
-      "published": "Sat, 15 Aug 2026 19:41:57 GMT",
+      "title": "Two dead and hundreds evacuated after twin fires break out on Greek island",
+      "url": "https://www.bbc.co.uk/news/articles/c87nnwlpe5no?at_medium=RSS&at_campaign=rss",
+      "summary": "About 200 firefighters worked to keep the fires from converging on Salamina, with one now under control.",
+      "published": "Sun, 16 Aug 2026 19:50:36 GMT",
       "tags": []
+    },
+    {
+      "id": "be8aeff40c8a",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Wildfire smoke now bigger prenatal threat than human sources of air pollution",
+      "url": "https://arstechnica.com/science/2026/08/wildfire-smoke-now-bigger-prenatal-threat-than-human-sources-of-air-pollution/",
+      "summary": "Regulations reduced prenatal exposure to harmful emissions, but wildfire smoke is erasing gains.",
+      "author": "Liza Gross",
+      "published": "Sun, 16 Aug 2026 10:00:59 +0000",
+      "tags": [
+        "Science",
+        "climate change",
+        "syndication",
+        "wildfires"
+      ]
     },
     {
       "id": "2cc292066680",
@@ -252,52 +266,36 @@
       ]
     },
     {
-      "id": "e20942ac6eee",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "So much solar: Digging into the list of every US power plant that went online this year",
-      "url": "https://arstechnica.com/science/2026/08/so-much-solar-digging-into-the-list-of-every-us-power-plant-that-went-online-this-year/",
-      "summary": "Utility-scale solar leads by a mile, followed by batteries. Fossil fuels, not so much.",
-      "author": "Dan Gearino, Inside Climate News",
-      "published": "Sat, 15 Aug 2026 11:09:57 +0000",
-      "tags": [
-        "Science",
-        "power plants",
-        "solar power",
-        "syndication"
-      ]
-    },
-    {
-      "id": "2ede74951aa4",
+      "id": "9eca6d390ced",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘It’s a double-edged sword’: My husband got a $42,000 bonus. Will it wipe out our Affordable Care Act subsidy?",
-      "url": "https://www.marketwatch.com/story/its-a-double-edged-sword-my-husband-got-a-42-000-bonus-will-it-wipe-out-our-affordable-care-act-subsidy-32db285e?mod=mw_rss_topstories",
-      "summary": "“We were advised to return the bonus and take out a home-equity loan.”",
-      "author": "Quentin Fottrell",
-      "published": "Sat, 15 Aug 2026 20:30:00 GMT",
+      "title": "U.S. stock futures little changed as investors ponder the Fed’s next move",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-little-changed-as-investors-ponder-the-feds-next-move-27bcbea4?mod=mw_rss_topstories",
+      "summary": "U.S. stock-index futures were little changed on Sunday after a quiet week on Wall Street, as investors await hints from the Fed concerning the outlook for interest rates.",
+      "author": "Mike Murphy",
+      "published": "Mon, 17 Aug 2026 02:24:00 GMT",
       "tags": []
     },
     {
-      "id": "4ae44c0235be",
+      "id": "8645ac90ab5a",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "I’m 63, a retired CPA with a $1.2 million 401(k). Do I need to bother with a Roth conversion?",
-      "url": "https://www.marketwatch.com/story/im-63-and-a-retired-cpa-i-have-a-1-2-million-401-k-do-i-need-a-roth-conversion-0a227302?mod=mw_rss_topstories",
-      "summary": "“I don’t expect my marginal tax rate to be materially different in the future.”",
+      "title": "Can I claim 50% of my husband’s Social Security now — and switch to my higher benefit at 70?",
+      "url": "https://www.marketwatch.com/story/can-i-claim-50-of-my-husbands-social-security-now-and-switch-to-my-higher-benefit-at-70-5518700b?mod=mw_rss_topstories",
+      "summary": "“I would like to offer a piece of advice for women who are or have been married.”",
       "author": "Quentin Fottrell",
-      "published": "Sat, 15 Aug 2026 20:00:00 GMT",
+      "published": "Sun, 16 Aug 2026 18:15:00 GMT",
       "tags": []
     },
     {
-      "id": "3e06741cf669",
+      "id": "6e3509c0aa52",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Think interest rates are high now? These charts offer a different perspective.",
-      "url": "https://www.marketwatch.com/story/think-interest-rates-are-high-now-these-charts-offers-a-different-perspective-ae5f28c6?mod=mw_rss_topstories",
-      "summary": "Also in Weekend Reads: 10 remarkable housing markets, stock picks, and health-insurance battles.",
-      "author": "Philip van Doorn",
-      "published": "Sat, 15 Aug 2026 19:01:00 GMT",
+      "title": "My friend’s mother died. Can she stop Medicaid from taking the family home?",
+      "url": "https://www.marketwatch.com/story/shes-desperate-my-friends-mother-died-can-she-stop-medicaid-from-taking-the-family-home-394fb6e9?mod=mw_rss_topstories",
+      "summary": "“She has contacted the mortgage company, but they will not discuss the mortgage.”",
+      "author": "Quentin Fottrell",
+      "published": "Sun, 16 Aug 2026 17:30:00 GMT",
       "tags": []
     }
   ],
