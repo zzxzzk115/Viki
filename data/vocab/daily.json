@@ -1,13 +1,13 @@
 {
-  "date": "2026-08-17",
-  "word": "emulate",
-  "ipa": "ˈem.jə.leɪt",
-  "ipaUs": "ˈem.jə.leɪt",
+  "date": "2026-08-18",
+  "word": "endeavor",
+  "ipa": "enˈdev.ə",
+  "ipaUs": "enˈdev.ɚ",
   "pos": "verb",
-  "definition": "to copy something achieved by someone else and try to do it as well as they have",
-  "definitionZh": "效仿",
-  "example": "They hope to emulate the success of other software companies.",
-  "exampleZh": "他们希望能够效仿其他软件公司的成功先例。",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uke/ukemp/ukemplo014.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/emu/emula/emulate.mp3"
+  "definition": "to try to do something",
+  "definitionZh": "努力",
+  "example": "Engineers are endeavouring to",
+  "exampleZh": "工程师们正竭尽全力查找问题的根源。",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uke/ukenc/ukencum010.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/end/endea/endeavor.mp3"
 }

@@ -1,301 +1,303 @@
 {
-  "date": "2026-08-17",
+  "date": "2026-08-18",
   "items": [
     {
-      "id": "edc2d7e2ff96",
+      "id": "714dfb3e6a6b",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Tokugawa shogunate",
-      "url": "https://simple.wikipedia.org/wiki/Tokugawa_shogunate",
-      "summary": "The Tokugawa shogunate, also known as the Tokugawa bakufu (徳川幕府), and the Edo bakufu (江戸幕府), was a feudal Japanese military government. The heads of government were the shoguns. Each was a member of the Tokugawa family.",
+      "title": "Cunene Province",
+      "url": "https://simple.wikipedia.org/wiki/Cunene_Province",
+      "summary": "Cunene is a province of Angola. There are about 200,000 to 300,000 people. Ondjiva is the capital. It is the only city in this province. Cunene is north of the Cunene River.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "bdcc29110ab7",
+      "id": "a7fcc4dabcee",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Chowder",
-      "url": "https://simple.wikipedia.org/wiki/Chowder",
-      "summary": "Chowder is the name of a soup usually made with fish or mussels. It is especially popular in the United States. There is also many types of chowder: corn chowder, Bermuda fish chowder, clam chowder.",
+      "title": "Charles Boyer",
+      "url": "https://simple.wikipedia.org/wiki/Charles_Boyer",
+      "summary": "Charles Boyer, was a French-American actor. He appeared in Gaslight and Algiers and may other films.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "67414529efd2",
+      "id": "e881d65294e0",
       "category": "tech",
       "source": "Hacker News",
-      "title": "The Life and Death of Direct File [pdf]",
-      "url": "https://www.ischool.berkeley.edu/sites/default/files/vinton_report_5.pdf",
+      "title": "How Bluesky draws its logo on screenshots",
+      "url": "https://timmarinin.net/2026/bluesky-screenshots/",
       "summary": "",
-      "author": "ronbenton",
+      "author": "gavide",
       "published": "2026-08-17",
       "tags": [
-        "▲ 75"
+        "▲ 247"
       ]
     },
     {
-      "id": "097582375e87",
+      "id": "60d29d18b8a2",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Qwen 3.8 27B is excellent, but it defaults to overthinking things",
-      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+      "title": "Quake Shareware, a CD-ROM just a little too full",
+      "url": "https://fabiensanglard.net/quake_shareware_cd/index.html",
       "summary": "",
-      "author": "bilsbie",
-      "published": "2026-08-16",
-      "tags": [
-        "▲ 83"
-      ]
-    },
-    {
-      "id": "d09bfc862e00",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "AGI-64 Brings Sierra Adventures to the Commodore 64",
-      "url": "https://meanhamster.com/news/agi-64-brings-sierra-adventures-to-the-commodore-64",
-      "summary": "",
-      "author": "erickhill",
+      "author": "shdon",
       "published": "2026-08-17",
       "tags": [
-        "▲ 9"
+        "▲ 164"
       ]
     },
     {
-      "id": "0a37f55e0674",
+      "id": "e37dcbb0bfb6",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Rhombus 1.1 is now available",
-      "url": "https://blog.racket-lang.org/2026/08/rhombus-v1.1.html",
+      "title": "GPT-5.6 Sol Pricing Cut by 50%",
+      "url": "https://openrouter.ai/openai/gpt-5.6-sol",
       "summary": "",
-      "author": "spdegabrielle",
+      "author": "Topfi",
       "published": "2026-08-17",
       "tags": [
-        "▲ 23"
+        "▲ 152"
       ]
     },
     {
-      "id": "3e9e04424fc8",
+      "id": "a4b154c1e5ce",
       "category": "tech",
       "source": "Hacker News",
-      "title": "A 3rd World Embedded Engineer Responds to \"RISC-V They Should Have Known Better\"",
-      "url": "https://rvembedded.com/blog_post/12/",
+      "title": "A Preview of DuckDB v2.0",
+      "url": "https://duckdb.org/2026/08/17/duckdb-20-highlights",
       "summary": "",
-      "author": "Narishma",
-      "published": "2026-08-16",
+      "author": "ibotty",
+      "published": "2026-08-17",
       "tags": [
-        "▲ 388"
+        "▲ 552"
       ]
     },
     {
-      "id": "9ffac573dcb5",
+      "id": "8c07ece6556f",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Claude: System Prompts",
-      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+      "title": "Fairphone 6 and PostmarketOS working main camera",
+      "url": "https://catcrafts.net/posts/fairphone-6-postmarketos-working-main-camera",
       "summary": "",
-      "author": "tosh",
-      "published": "2026-08-16",
+      "author": "pizzaiolo",
+      "published": "2026-08-17",
       "tags": [
-        "▲ 556"
+        "▲ 86"
       ]
     },
     {
-      "id": "60c3213b68cf",
+      "id": "e81d1903d09d",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "GPU Offload in Rust: Portable, Safe, and Fast",
+      "url": "https://arxiv.org/abs/2608.13759",
+      "summary": "",
+      "author": "linggen",
+      "published": "2026-08-17",
+      "tags": [
+        "▲ 166"
+      ]
+    },
+    {
+      "id": "2a6554fa4988",
       "category": "tech",
       "source": "DEV Community",
-      "title": "React useSessionStorage Hook: Per-Tab State That Survives Reloads (2026)",
-      "url": "https://dev.to/childrentime/react-usesessionstorage-hook-per-tab-state-that-survives-reloads-2026-1nd3",
-      "summary": "Here's a checkout flow that loses the customer at step three: function Checkout () { const [ step , setStep ] = useState ( 0 ); const [ form , setForm ] = useState < CheckoutForm > ( EMPTY_FORM ); // step 1: address, step 2: shipping, step 3: payment… } The customer fills in the…",
-      "author": "ReactUse",
-      "published": "Mon, 17 Aug 2026 02:35:15 +0000",
+      "title": "Python For Loops",
+      "url": "https://dev.to/karthick_07/python-for-loops-4j34",
+      "summary": "Python for loops are used to iterate over sequences such as lists, tuples, strings and ranges. Allows the same operation to be applied to every item in a sequence. Avoids the need to manage loop indices manually. a = [\"Geeks\", \"for\", \"Geeks\"] for i in a: print(i) Output: Geeks f…",
+      "author": "Karthick (k)",
+      "published": "Tue, 18 Aug 2026 02:26:00 +0000",
       "tags": [
-        "react",
-        "javascript",
+        "ai",
         "webdev",
-        "tutorial"
+        "programming",
+        "python"
       ]
     },
     {
-      "id": "ccfe111d7ed0",
+      "id": "2a0fb28e50a5",
       "category": "tech",
       "source": "DEV Community",
-      "title": "I built a forum where rooms die when people stop talking",
-      "url": "https://dev.to/seongjinkang/i-built-a-forum-where-rooms-die-when-people-stop-talking-30mc",
-      "summary": "I got tired of two things about online communities. The first is that they don't die well. A subreddit or a Discord channel that was alive for a week keeps existing for years, and the emptiness is louder than silence — you open it, see the last post is from 2023, and leave. The …",
-      "author": "Seongjin Kang",
-      "published": "Mon, 17 Aug 2026 02:32:27 +0000",
+      "title": "The Inference Paradox: Why Agentic Workflows Are 4x More Expensive Than You Think",
+      "url": "https://dev.to/minh_phuongnguyen_b13201/the-inference-paradox-why-agentic-workflows-are-4x-more-expensive-than-you-think-58jo",
+      "summary": "The Inference Paradox: Why Agentic Workflows Are 4x More Expensive Than You Think Over the weekend, I was running an autonomous agent evaluation pipeline when I got a billing ping from Anthropic: I had burned through $85 in under 3 hours . My first reaction was that I had hit an…",
+      "author": "Minh Phuong Nguyen",
+      "published": "Tue, 18 Aug 2026 02:25:32 +0000",
       "tags": [
-        "webdev",
-        "showdev",
-        "sideprojects",
-        "node"
-      ]
-    },
-    {
-      "id": "399753a05f4b",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "A support chatbot needs to be designed for what it won't answer, not just what it will",
-      "url": "https://dev.to/susumun/a-support-chatbot-needs-to-be-designed-for-what-it-wont-answer-not-just-what-it-will-3j3m",
-      "summary": "Background The support chatbot on our landing page has a simple job: answer questions about the product's features, pricing, and troubleshooting. But a conversational AI built to answer questions shares a common weakness. Left unguarded, it tends to comply with requests designed…",
-      "author": "Susumu Takahashi",
-      "published": "Mon, 17 Aug 2026 02:32:16 +0000",
-      "tags": [
-        "python",
-        "webdev",
-        "programming"
-      ]
-    },
-    {
-      "id": "4522411849d6",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "n8n vs Make in 2026: Which Workflow Automation Tool Should You Choose?",
-      "url": "https://dev.to/kingston-888/n8n-vs-make-in-2026-which-workflow-automation-tool-should-you-choose-3kb3",
-      "summary": "Choosing between n8n and Make is not really a question of which platform has more features. Both can connect SaaS apps, call APIs, transform data, branch logic, schedule jobs, and support AI automation. The more useful question is: which operating model fits your team, workflow …",
-      "author": "kingston-888",
-      "published": "Mon, 17 Aug 2026 02:30:24 +0000",
-      "tags": [
-        "automation",
+        "ai",
+        "llm",
         "productivity",
         "webdev"
       ]
     },
     {
-      "id": "9dd1ed5575af",
+      "id": "3438279a10de",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "David Stark: Top High-Paying Roles",
+      "url": "https://dev.to/devpulse/david-stark-top-high-paying-roles-hin",
+      "summary": "👋 Hello Architects & Elite Engineers, The market is shifting. We are seeing a surge in JAVASCRIPT roles this week. We don't do \"Easy Apply\". Our internal gatekeeper just processed 200+ verified remote jobs from our partner network. To get these jobs, you must pass the architect…",
+      "author": "David Stark",
+      "published": "Tue, 18 Aug 2026 02:24:51 +0000",
+      "tags": [
+        "javascript",
+        "react",
+        "webdev",
+        "remote"
+      ]
+    },
+    {
+      "id": "adde9d235c87",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Why Model Risk Governance Is the Most Consequential Discipline in Modern Financial Risk Management",
+      "url": "https://dev.to/itechgrc_solutions/why-model-risk-governance-is-the-most-consequential-discipline-in-modern-financial-risk-management-n7f",
+      "summary": "Financial institutions, insurance companies, and analytically intensive enterprises have become model-dependent organizations in ways that would have been unrecognizable to their predecessors a generation ago. Quantitative models are now embedded in virtually every consequential…",
+      "author": "itechgrc",
+      "published": "Tue, 18 Aug 2026 02:16:46 +0000",
+      "tags": [
+        "ai",
+        "webdev",
+        "productivity",
+        "programming"
+      ]
+    },
+    {
+      "id": "cc81f6e088c6",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Hurricane Camille",
-      "url": "https://en.wikipedia.org/wiki/Hurricane_Camille",
-      "summary": "Hurricane Camille was one of the most powerful hurricanes to make landfall in the United States when it hit southern Mississippi in August 1969. A devastating tropical cyclone, Camille was one of four Atlantic hurricanes to strike the United States as a Category 5 on the Saffir–…",
+      "title": "Siege of Brest (1342)",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Brest_(1342)",
+      "summary": "The siege of Brest took place in 1342 during the Breton Civil War. When John III, the Duke of Brittany, died childless in 1341 the title was contested by Charles of Blois and John of Montfort. Charles was the nephew of the French king, Philip VI, who supported him with a large a…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "d39bc91ddc0a",
+      "id": "fddaa90f876f",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump says US to scale back military drills with South Korea after it stayed out of Iran war",
-      "url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss",
-      "summary": "Trump cites his \"very good relationship\" with North Korea's leader in deciding to downsize the exercises.",
-      "published": "Mon, 17 Aug 2026 00:06:05 GMT",
+      "title": "Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal",
+      "url": "https://www.bbc.co.uk/news/articles/cy5dzk0ryzdo?at_medium=RSS&at_campaign=rss",
+      "summary": "Trump's threat on Oman, which has been holding its own talks with Iran to reopen the Strait of Hormuz, comes as a 60-day window for peace negotiations expires.",
+      "published": "Mon, 17 Aug 2026 19:25:05 GMT",
       "tags": []
     },
     {
-      "id": "2d4b21839f92",
+      "id": "6042dc8f02d2",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump envoy Kushner meets Hamas leader to push Gaza peace plan",
-      "url": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss",
-      "summary": "The rare meeting comes a week after Israel rejected Donald Trump's peace plan for Gaza.",
-      "published": "Sun, 16 Aug 2026 19:58:14 GMT",
+      "title": "Tupac murder trial: 'All hell broke loose' night of rapper's shooting, witness says",
+      "url": "https://www.bbc.co.uk/news/articles/cp3r0kz775ko?at_medium=RSS&at_campaign=rss",
+      "summary": "After he was shot multiple times, Tupac Shakur refused to cooperate with police and told an officer, \"We'll take care of it,\" an officer testified.",
+      "published": "Tue, 18 Aug 2026 02:06:04 GMT",
       "tags": []
     },
     {
-      "id": "20cfa26d02e6",
+      "id": "73549710cf66",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Russia says at least seven killed in largest Ukrainian attack of 2026",
-      "url": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
-      "summary": "Moscow also launched deadly strikes against Ukraine overnight, sparking fires across the capital Kyiv.",
-      "published": "Sun, 16 Aug 2026 19:03:04 GMT",
+      "title": "Russia warns UK over supplying drones to Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo?at_medium=RSS&at_campaign=rss",
+      "summary": "An MoD spokesperson responds by saying Britain stands \"shoulder to shoulder\" with Ukraine.",
+      "published": "Tue, 18 Aug 2026 01:16:41 GMT",
       "tags": []
     },
     {
-      "id": "5282a4741c3e",
+      "id": "24d62d122ca6",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Two dead and hundreds evacuated after twin fires break out on Greek island",
-      "url": "https://www.bbc.co.uk/news/articles/c87nnwlpe5no?at_medium=RSS&at_campaign=rss",
-      "summary": "About 200 firefighters worked to keep the fires from converging on Salamina, with one now under control.",
-      "published": "Sun, 16 Aug 2026 19:50:36 GMT",
+      "title": "BBC breaks down Trump's latest shift on North and South Korea",
+      "url": "https://www.bbc.co.uk/news/videos/cy45zjw424xo?at_medium=RSS&at_campaign=rss",
+      "summary": "Trump said the US will \"substantially reduce\" joint military exercises with South Korea, citing his \"very good relationship\" with Kim Jong Un.",
+      "published": "Mon, 17 Aug 2026 23:42:38 GMT",
       "tags": []
     },
     {
-      "id": "be8aeff40c8a",
+      "id": "6dcb17665432",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Wildfire smoke now bigger prenatal threat than human sources of air pollution",
-      "url": "https://arstechnica.com/science/2026/08/wildfire-smoke-now-bigger-prenatal-threat-than-human-sources-of-air-pollution/",
-      "summary": "Regulations reduced prenatal exposure to harmful emissions, but wildfire smoke is erasing gains.",
-      "author": "Liza Gross",
-      "published": "Sun, 16 Aug 2026 10:00:59 +0000",
+      "title": "US vaccination rates fall again as exemptions continue to rise, CDC data shows",
+      "url": "https://arstechnica.com/health/2026/08/us-vaccination-rates-fall-again-as-exemptions-continue-to-rise-cdc-data-shows/",
+      "summary": "Again, the CDC did not publish a full report and instead simply put the data online.",
+      "author": "Beth Mole",
+      "published": "Mon, 17 Aug 2026 22:08:47 +0000",
+      "tags": [
+        "Health",
+        "anti-vaccine",
+        "CDC",
+        "kennedy"
+      ]
+    },
+    {
+      "id": "f1914d8ebf8a",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Former SpaceX engineers are building a robotic factory for making steel parts",
+      "url": "https://arstechnica.com/ai/2026/08/former-spacex-engineers-are-building-a-robotic-factory-for-making-steel-parts/",
+      "summary": "“We're not necessarily building in a dogmatic fashion towards full autonomy.”",
+      "author": "Jeremy Hsu",
+      "published": "Mon, 17 Aug 2026 21:18:49 +0000",
+      "tags": [
+        "AI",
+        "1872",
+        "factory robots",
+        "Industrial robots"
+      ]
+    },
+    {
+      "id": "809e981aca0b",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "The Moon's shadow raced across the heart of Spain, and I was there to see it",
+      "url": "https://arstechnica.com/space/2026/08/the-moons-shadow-raced-across-the-heart-of-spain-and-i-was-there-to-see-it/",
+      "summary": "Here's what it was like watching a total solar eclipse 90 minutes north of Madrid.",
+      "author": "Stephen Clark",
+      "published": "Mon, 17 Aug 2026 20:23:09 +0000",
       "tags": [
         "Science",
-        "climate change",
-        "syndication",
-        "wildfires"
-      ]
-    },
-    {
-      "id": "2cc292066680",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "VisionQuest trailer kicks off Disney's D23 fan event",
-      "url": "https://arstechnica.com/culture/2026/08/visionquest-trailer-kicks-off-disneys-d23-fan-event/",
-      "summary": "Also: Ahsoka S2 teaser, Doomsday trailer, news about MCU's X-Men and Star Wars: Starfighter",
-      "author": "Jennifer Ouellette",
-      "published": "Sat, 15 Aug 2026 21:21:27 +0000",
-      "tags": [
-        "Culture",
-        "ahsoka",
-        "Avengers: Doomsday",
-        "disney plus"
-      ]
-    },
-    {
-      "id": "0ed2f09480ff",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Ukraine strikes major Russian rocket factory with cruise missiles",
-      "url": "https://arstechnica.com/space/2026/08/ukraine-strikes-major-russian-rocket-factory-with-cruise-missiles/",
-      "summary": "\"Flamingo missiles were used. A good achievement.\"",
-      "author": "Eric Berger",
-      "published": "Sat, 15 Aug 2026 15:46:05 +0000",
-      "tags": [
         "Space",
-        "russia",
-        "samara",
-        "soyuz-2"
+        "moon",
+        "solar eclipse"
       ]
     },
     {
-      "id": "9eca6d390ced",
+      "id": "b0a051f4da64",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "U.S. stock futures little changed as investors ponder the Fed’s next move",
-      "url": "https://www.marketwatch.com/story/u-s-stock-futures-little-changed-as-investors-ponder-the-feds-next-move-27bcbea4?mod=mw_rss_topstories",
-      "summary": "U.S. stock-index futures were little changed on Sunday after a quiet week on Wall Street, as investors await hints from the Fed concerning the outlook for interest rates.",
-      "author": "Mike Murphy",
-      "published": "Mon, 17 Aug 2026 02:24:00 GMT",
+      "title": "Why this popular Treasury-bond ETF is trading at its lowest since 2004",
+      "url": "https://www.marketwatch.com/story/why-this-popular-treasury-bond-etf-is-trading-at-its-lowest-since-2004-27de9a77?mod=mw_rss_topstories",
+      "summary": "One of the most heavily-traded ETFs tracking performance in the U.S. Treasury market has just fallen to its lowest level in over 20 years.",
+      "author": "Isabel Wang",
+      "published": "Mon, 17 Aug 2026 22:33:00 GMT",
       "tags": []
     },
     {
-      "id": "8645ac90ab5a",
+      "id": "2ede74951aa4",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Can I claim 50% of my husband’s Social Security now — and switch to my higher benefit at 70?",
-      "url": "https://www.marketwatch.com/story/can-i-claim-50-of-my-husbands-social-security-now-and-switch-to-my-higher-benefit-at-70-5518700b?mod=mw_rss_topstories",
-      "summary": "“I would like to offer a piece of advice for women who are or have been married.”",
+      "title": "‘It’s a double-edged sword’: My husband got a $42,000 bonus. Will it wipe out our Affordable Care Act subsidy?",
+      "url": "https://www.marketwatch.com/story/its-a-double-edged-sword-my-husband-got-a-42-000-bonus-will-it-wipe-out-our-affordable-care-act-subsidy-32db285e?mod=mw_rss_topstories",
+      "summary": "“We were advised to return the bonus and take out a home-equity loan.”",
       "author": "Quentin Fottrell",
-      "published": "Sun, 16 Aug 2026 18:15:00 GMT",
+      "published": "Mon, 17 Aug 2026 21:30:00 GMT",
       "tags": []
     },
     {
-      "id": "6e3509c0aa52",
+      "id": "1a1d040886ef",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "My friend’s mother died. Can she stop Medicaid from taking the family home?",
-      "url": "https://www.marketwatch.com/story/shes-desperate-my-friends-mother-died-can-she-stop-medicaid-from-taking-the-family-home-394fb6e9?mod=mw_rss_topstories",
-      "summary": "“She has contacted the mortgage company, but they will not discuss the mortgage.”",
-      "author": "Quentin Fottrell",
-      "published": "Sun, 16 Aug 2026 17:30:00 GMT",
+      "title": "There’s a 49% chance the Dow will finish this year up double digits. Here’s why.",
+      "url": "https://www.marketwatch.com/story/theres-a-49-chance-the-dow-will-finish-this-year-up-double-digits-heres-why-6871e569?mod=mw_rss_topstories",
+      "summary": "We’ve seen three years in a row of double-digit gains. Will there be a fourth?",
+      "author": "Mark Hulbert",
+      "published": "Mon, 17 Aug 2026 21:22:00 GMT",
       "tags": []
     }
   ],
