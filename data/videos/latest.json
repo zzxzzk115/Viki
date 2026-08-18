@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-17",
+  "date": "2026-08-18",
   "items": [
     {
       "id": "5ac4def88eb5",
@@ -46,28 +46,6 @@
       "category": "图形学"
     },
     {
-      "id": "9fa31e74074c",
-      "platform": "youtube",
-      "videoId": "YRwtopFzRZ0",
-      "title": "The Matrix Awakens - Unreal Engine 5 \"Experience\" // Game Engine Dev Reacts",
-      "channel": "More Cherno",
-      "url": "https://www.youtube.com/watch?v=YRwtopFzRZ0",
-      "thumb": "https://i2.ytimg.com/vi/YRwtopFzRZ0/hqdefault.jpg",
-      "published": "2022-07-08",
-      "category": "引擎"
-    },
-    {
-      "id": "984c56e48d53",
-      "platform": "youtube",
-      "videoId": "sY_U3-ih4Bs",
-      "title": "BLACK and WHITE Game!  // Game Engine Dev Reacts to Trek to Yomi",
-      "channel": "More Cherno",
-      "url": "https://www.youtube.com/watch?v=sY_U3-ih4Bs",
-      "thumb": "https://i4.ytimg.com/vi/sY_U3-ih4Bs/hqdefault.jpg",
-      "published": "2022-05-05",
-      "category": "引擎"
-    },
-    {
       "id": "a468d6a6f3e6",
       "platform": "youtube",
       "videoId": "0aTUTxOiRgU",
@@ -90,28 +68,6 @@
       "category": "CS"
     },
     {
-      "id": "05c281aad155",
-      "platform": "youtube",
-      "videoId": "mQa_JuujETo",
-      "title": "olc::CodeZone #78 - LivePixel History Hackjob",
-      "channel": "javidx9 extra",
-      "url": "https://www.youtube.com/watch?v=mQa_JuujETo",
-      "thumb": "https://i2.ytimg.com/vi/mQa_JuujETo/hqdefault.jpg",
-      "published": "2025-02-06",
-      "category": "CS"
-    },
-    {
-      "id": "a9de4fe7558a",
-      "platform": "youtube",
-      "videoId": "3dsilDca9DA",
-      "title": "olc::CodeZone #77 - LivePixel Lamp Server",
-      "channel": "javidx9 extra",
-      "url": "https://www.youtube.com/watch?v=3dsilDca9DA",
-      "thumb": "https://i4.ytimg.com/vi/3dsilDca9DA/hqdefault.jpg",
-      "published": "2025-02-06",
-      "category": "CS"
-    },
-    {
       "id": "4a9bfb807dd8",
       "platform": "youtube",
       "videoId": "CqApXh80HVo",
@@ -131,28 +87,6 @@
       "url": "https://www.youtube.com/watch?v=YgbbI_nRF2A",
       "thumb": "https://i2.ytimg.com/vi/YgbbI_nRF2A/hqdefault.jpg",
       "published": "2026-07-24",
-      "category": "金融"
-    },
-    {
-      "id": "3a23fd5a2def",
-      "platform": "bilibili",
-      "videoId": "BV1XPuo6uES8",
-      "title": "王健林现在怎么样了? 万达什么情况?",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV1XPuo6uES8",
-      "thumb": "https://i0.hdslb.com/bfs/archive/d3fd5ebcf88dd8c23ba9af5500c192a255f4deb8.jpg",
-      "published": "2026-08-10",
-      "category": "金融"
-    },
-    {
-      "id": "a6c68e4ce158",
-      "platform": "bilibili",
-      "videoId": "BV1gKuF6rEqy",
-      "title": "对话漫威总裁 | 漫威宇宙的崛起和转身，下一个爆点在哪里？",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV1gKuF6rEqy",
-      "thumb": "https://i2.hdslb.com/bfs/archive/c4c2fc66d8d11a267adf412600fd7b2710135bc9.jpg",
-      "published": "2026-08-04",
       "category": "金融"
     },
     {
@@ -200,6 +134,17 @@
       "category": "历史"
     },
     {
+      "id": "84e18f9c3e49",
+      "platform": "bilibili",
+      "videoId": "BV1PBbe6jEuc",
+      "title": "图理琛：伴君如伴虎，到底有多虎？【康熙王朝】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1PBbe6jEuc",
+      "thumb": "https://i0.hdslb.com/bfs/archive/b105c62837fd6ba0f993fd3f6c87644e61e20cd7.jpg",
+      "published": "2026-08-17",
+      "category": "历史"
+    },
+    {
       "id": "038c99934189",
       "platform": "bilibili",
       "videoId": "BV193GP6eE4F",
@@ -211,80 +156,70 @@
       "category": "历史"
     },
     {
-      "id": "7800bbd06e68",
+      "id": "1a7bb98db39a",
       "platform": "bilibili",
-      "videoId": "BV1w2N96uE1U",
-      "title": "毛泽东·四渡赤水：红军不怕远征难。",
-      "channel": "正直讲史-李正Str",
-      "url": "https://www.bilibili.com/video/BV1w2N96uE1U",
-      "thumb": "https://i1.hdslb.com/bfs/archive/f9c709d21a277bbd7358004f032633bb129cd727.jpg",
-      "published": "2026-07-14",
+      "videoId": "BV1y5gP61E6m",
+      "title": "法国最有松弛感的劫案是哪起？【硬核狠人91】",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV1y5gP61E6m",
+      "thumb": "https://i0.hdslb.com/bfs/archive/095eece333695d1f3df7bb46c8a11d4828a9c4e0.jpg",
+      "published": "2026-08-15",
       "category": "历史"
     },
     {
-      "id": "54e1a3d8e7cb",
+      "id": "4839cbb8b132",
+      "platform": "bilibili",
+      "videoId": "BV1FBMC61Eif",
+      "title": "虚空一击  伊朗·1980",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV1FBMC61Eif",
+      "thumb": "https://i0.hdslb.com/bfs/archive/b59974cf13241c8453a049bbd2c63124f0a96c50.jpg",
+      "published": "2026-08-07",
+      "category": "历史"
+    },
+    {
+      "id": "c74def02764c",
       "platform": "youtube",
-      "videoId": "AfOOFdNreEM",
-      "title": "Polite ways to say you didn’t like a film #shorts",
+      "videoId": "tRM2teDhiPM",
+      "title": "What cheers you up when you're in a bad mood? #realeasyenglish  #podcast  #bbclearningenglish",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/shorts/AfOOFdNreEM",
-      "thumb": "https://i2.ytimg.com/vi/AfOOFdNreEM/hqdefault.jpg",
-      "published": "2026-08-14",
+      "url": "https://www.youtube.com/shorts/tRM2teDhiPM",
+      "thumb": "https://i1.ytimg.com/vi/tRM2teDhiPM/hqdefault.jpg",
+      "published": "2026-08-17",
       "category": "英语"
     },
     {
-      "id": "76ddaedb21ed",
+      "id": "b8ec98bd9b0d",
       "platform": "youtube",
-      "videoId": "-YsckmgRGwU",
-      "title": "🎬 How to talk about films: English Class with George",
+      "videoId": "qfQ61oYIbxY",
+      "title": "Are you in a good or bad mood? 🤩😡 Improve your listening with Real Easy English",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=-YsckmgRGwU",
-      "thumb": "https://i2.ytimg.com/vi/-YsckmgRGwU/hqdefault.jpg",
-      "published": "2026-08-13",
-      "category": "英语"
-    },
-    {
-      "id": "21cff7492871",
-      "platform": "youtube",
-      "videoId": "VPDABZXkriM",
-      "title": "What getting laser eye surgery is really like - From Astigmatism to 20:20 vision | Ad",
-      "channel": "Lucy Bella",
-      "url": "https://www.youtube.com/watch?v=VPDABZXkriM",
-      "thumb": "https://i3.ytimg.com/vi/VPDABZXkriM/hqdefault.jpg",
-      "published": "2020-10-26",
-      "category": "英语"
-    },
-    {
-      "id": "2ee25237109d",
-      "platform": "youtube",
-      "videoId": "GnQkzSZdEts",
-      "title": "Lucy Bella Earl Live Stream",
-      "channel": "Lucy Bella",
-      "url": "https://www.youtube.com/watch?v=GnQkzSZdEts",
-      "thumb": "https://i4.ytimg.com/vi/GnQkzSZdEts/hqdefault.jpg",
-      "published": "2019-05-02",
+      "url": "https://www.youtube.com/watch?v=qfQ61oYIbxY",
+      "thumb": "https://i2.ytimg.com/vi/qfQ61oYIbxY/hqdefault.jpg",
+      "published": "2026-08-17",
       "category": "英语"
     }
   ],
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "Bilibili 512313464: code=-352 风控校验失败",
     "图形学 · 512313464: 0 条",
-    "引擎 · @TheCherno: 2 条",
+    "引擎 · @TheCherno: 0 条",
     "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
-    "CS · @javidx9: 2 条",
+    "CS · @javidx9: 0 条",
+    "Bilibili 1567748478: code=-352 风控校验失败",
     "CS · 1567748478: 0 条",
     "Bilibili 202224425: code=-352 风控校验失败",
     "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 2 条",
-    "金融 · 520819684: 2 条",
+    "Bilibili 520819684: code=-352 风控校验失败",
+    "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
     "历史 · 11646119: 2 条",
-    "历史 · 23947287: 0 条",
+    "历史 · 23947287: 2 条",
     "英语 · @bbclearningenglish: 2 条",
-    "英语 · @EnglishwithLucy: 2 条"
+    "英语 · @EnglishwithLucy: 0 条"
   ]
 }
