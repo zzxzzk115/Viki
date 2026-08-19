@@ -1,303 +1,303 @@
 {
-  "date": "2026-08-18",
+  "date": "2026-08-19",
   "items": [
     {
-      "id": "714dfb3e6a6b",
+      "id": "ea90503a9583",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Cunene Province",
-      "url": "https://simple.wikipedia.org/wiki/Cunene_Province",
-      "summary": "Cunene is a province of Angola. There are about 200,000 to 300,000 people. Ondjiva is the capital. It is the only city in this province. Cunene is north of the Cunene River.",
+      "title": "Gatesville, North Carolina",
+      "url": "https://simple.wikipedia.org/wiki/Gatesville%2C_North_Carolina",
+      "summary": "Gatesville is a town in and the county seat of Gates County, North Carolina, United States. As of the 2020 census, 267 people live in Gatesville.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "a7fcc4dabcee",
+      "id": "7cf6f4b66e1e",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Charles Boyer",
-      "url": "https://simple.wikipedia.org/wiki/Charles_Boyer",
-      "summary": "Charles Boyer, was a French-American actor. He appeared in Gaslight and Algiers and may other films.",
+      "title": "Paul Raymond (musician)",
+      "url": "https://simple.wikipedia.org/wiki/Paul_Raymond_(musician)",
+      "summary": "Paul Martin Raymond was an English keyboardist and guitarist. He was known as a member of the rock band Savoy Brown and more notably UFO. He started his career in 1964 as a jazz musician. He was born in St Albans.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "e881d65294e0",
+      "id": "e6f466131074",
       "category": "tech",
       "source": "Hacker News",
-      "title": "How Bluesky draws its logo on screenshots",
-      "url": "https://timmarinin.net/2026/bluesky-screenshots/",
+      "title": "New paper shows that 37% of workers in US saw real wages decline from 2021-2024 [pdf]",
+      "url": "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf",
       "summary": "",
-      "author": "gavide",
-      "published": "2026-08-17",
+      "author": "jplusequalt",
+      "published": "2026-08-19",
       "tags": [
-        "▲ 247"
+        "▲ 125"
       ]
     },
     {
-      "id": "60d29d18b8a2",
+      "id": "c0e4bffc1619",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Quake Shareware, a CD-ROM just a little too full",
-      "url": "https://fabiensanglard.net/quake_shareware_cd/index.html",
+      "title": "Cerebras CS-4",
+      "url": "https://www.cerebras.ai/cs4",
       "summary": "",
-      "author": "shdon",
-      "published": "2026-08-17",
+      "author": "sunils34",
+      "published": "2026-08-19",
       "tags": [
-        "▲ 164"
+        "▲ 73"
       ]
     },
     {
-      "id": "e37dcbb0bfb6",
+      "id": "be621d64d519",
       "category": "tech",
       "source": "Hacker News",
-      "title": "GPT-5.6 Sol Pricing Cut by 50%",
-      "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+      "title": "A 3D fruit fly on macOS desktop powered by the real FlyWire connectome",
+      "url": "https://github.com/DenisSergeevitch/desktop-fly",
       "summary": "",
-      "author": "Topfi",
-      "published": "2026-08-17",
+      "author": "phoenix120",
+      "published": "2026-08-18",
       "tags": [
-        "▲ 152"
+        "▲ 175"
       ]
     },
     {
-      "id": "a4b154c1e5ce",
+      "id": "67636947efe0",
       "category": "tech",
       "source": "Hacker News",
-      "title": "A Preview of DuckDB v2.0",
-      "url": "https://duckdb.org/2026/08/17/duckdb-20-highlights",
+      "title": "The Amazon tax",
+      "url": "https://seths.blog/2026/08/the-amazon-tax/",
       "summary": "",
-      "author": "ibotty",
-      "published": "2026-08-17",
+      "author": "herbertl",
+      "published": "2026-08-18",
       "tags": [
-        "▲ 552"
+        "▲ 959"
       ]
     },
     {
-      "id": "8c07ece6556f",
+      "id": "7b402756aba5",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Fairphone 6 and PostmarketOS working main camera",
-      "url": "https://catcrafts.net/posts/fairphone-6-postmarketos-working-main-camera",
+      "title": "Solo – a .so loader for static Linux binaries",
+      "url": "https://github.com/pg83/solo",
       "summary": "",
-      "author": "pizzaiolo",
-      "published": "2026-08-17",
+      "author": "zX41ZdbW",
+      "published": "2026-08-18",
       "tags": [
-        "▲ 86"
+        "▲ 51"
       ]
     },
     {
-      "id": "e81d1903d09d",
+      "id": "92c9c49f3ad2",
       "category": "tech",
       "source": "Hacker News",
-      "title": "GPU Offload in Rust: Portable, Safe, and Fast",
-      "url": "https://arxiv.org/abs/2608.13759",
+      "title": "Why crypto's best infrastructure companies stopped looking like crypto?",
+      "url": "https://konstantintkachuk.com/writing/depin-is-dead-long-live-infrastructure-as-a-service/",
       "summary": "",
-      "author": "linggen",
-      "published": "2026-08-17",
+      "author": "Reaktornano",
+      "published": "2026-08-19",
       "tags": [
-        "▲ 166"
+        "▲ 25"
       ]
     },
     {
-      "id": "2a6554fa4988",
+      "id": "275b32360953",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Python For Loops",
-      "url": "https://dev.to/karthick_07/python-for-loops-4j34",
-      "summary": "Python for loops are used to iterate over sequences such as lists, tuples, strings and ranges. Allows the same operation to be applied to every item in a sequence. Avoids the need to manage loop indices manually. a = [\"Geeks\", \"for\", \"Geeks\"] for i in a: print(i) Output: Geeks f…",
-      "author": "Karthick (k)",
-      "published": "Tue, 18 Aug 2026 02:26:00 +0000",
+      "title": "Designing AI Video Generation UI: Treat the Creative Brief as State",
+      "url": "https://dev.to/neural_ethos/designing-ai-video-generation-ui-treat-the-creative-brief-as-state-20jf",
+      "summary": "Designing AI Video Generation UI: Treat the Creative Brief as State This is interface-level reasoning based on public workflow descriptions, not source-code analysis. For creative-generation products, the difficult frontend problem is not only submitting a request. It is retaini…",
+      "author": "Neural_Ethos",
+      "published": "Wed, 19 Aug 2026 02:32:47 +0000",
+      "tags": [
+        "ux",
+        "webdev",
+        "productdesign",
+        "frontend"
+      ]
+    },
+    {
+      "id": "b7862ca58037",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Exploring Opinion Rewards: How Survey Apps Work for Modern Smartphone Users",
+      "url": "https://dev.to/saahil_gupta_061a10a082d7/exploring-opinion-rewards-how-survey-apps-work-for-modern-smartphone-users-4lhj",
+      "summary": "Exploring Opinion Rewards: How Survey Apps Work for Modern Smartphone Users Smartphones have transformed the way people spend their free time. Along with communication, entertainment, and shopping, mobile devices now provide access to digital surveys and feedback activities. Thi…",
+      "author": "Saahil Gupta",
+      "published": "Wed, 19 Aug 2026 02:26:09 +0000",
       "tags": [
         "ai",
         "webdev",
         "programming",
-        "python"
+        "productivity"
       ]
     },
     {
-      "id": "2a0fb28e50a5",
+      "id": "0f0cd59b46e8",
       "category": "tech",
       "source": "DEV Community",
-      "title": "The Inference Paradox: Why Agentic Workflows Are 4x More Expensive Than You Think",
-      "url": "https://dev.to/minh_phuongnguyen_b13201/the-inference-paradox-why-agentic-workflows-are-4x-more-expensive-than-you-think-58jo",
-      "summary": "The Inference Paradox: Why Agentic Workflows Are 4x More Expensive Than You Think Over the weekend, I was running an autonomous agent evaluation pipeline when I got a billing ping from Anthropic: I had burned through $85 in under 3 hours . My first reaction was that I had hit an…",
-      "author": "Minh Phuong Nguyen",
-      "published": "Tue, 18 Aug 2026 02:25:32 +0000",
-      "tags": [
-        "ai",
-        "llm",
-        "productivity",
-        "webdev"
-      ]
-    },
-    {
-      "id": "3438279a10de",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "David Stark: Top High-Paying Roles",
-      "url": "https://dev.to/devpulse/david-stark-top-high-paying-roles-hin",
-      "summary": "👋 Hello Architects & Elite Engineers, The market is shifting. We are seeing a surge in JAVASCRIPT roles this week. We don't do \"Easy Apply\". Our internal gatekeeper just processed 200+ verified remote jobs from our partner network. To get these jobs, you must pass the architect…",
-      "author": "David Stark",
-      "published": "Tue, 18 Aug 2026 02:24:51 +0000",
-      "tags": [
-        "javascript",
-        "react",
-        "webdev",
-        "remote"
-      ]
-    },
-    {
-      "id": "adde9d235c87",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Why Model Risk Governance Is the Most Consequential Discipline in Modern Financial Risk Management",
-      "url": "https://dev.to/itechgrc_solutions/why-model-risk-governance-is-the-most-consequential-discipline-in-modern-financial-risk-management-n7f",
-      "summary": "Financial institutions, insurance companies, and analytically intensive enterprises have become model-dependent organizations in ways that would have been unrecognizable to their predecessors a generation ago. Quantitative models are now embedded in virtually every consequential…",
-      "author": "itechgrc",
-      "published": "Tue, 18 Aug 2026 02:16:46 +0000",
+      "title": "Beyond Messaging: Exploring the Chatji Social and Rewards Platform",
+      "url": "https://dev.to/saahil_gupta_061a10a082d7/beyond-messaging-exploring-the-chatji-social-and-rewards-platform-28hb",
+      "summary": "A smartphone can now serve as a communication tool, entertainment center, and gateway to countless digital activities. As app developers continue to combine different functions, users are seeing platforms that go beyond traditional messaging. Chatji – Chat & Earn Money is built …",
+      "author": "Saahil Gupta",
+      "published": "Wed, 19 Aug 2026 02:25:34 +0000",
       "tags": [
         "ai",
         "webdev",
-        "productivity",
-        "programming"
+        "programming",
+        "productivity"
       ]
     },
     {
-      "id": "cc81f6e088c6",
+      "id": "e62db0c1309b",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Chat and Earn App – A New Way to Enjoy Social Interaction",
+      "url": "https://dev.to/saahil_gupta_061a10a082d7/chat-and-earn-app-a-new-way-to-enjoy-social-interaction-fin",
+      "summary": "Chat and Earn App – A New Way to Enjoy Social Interaction Smartphones have changed the way people communicate. Today, users can connect with communities, exchange messages, and discover new people through mobile applications. Alongside traditional messaging platforms, applicatio…",
+      "author": "Saahil Gupta",
+      "published": "Wed, 19 Aug 2026 02:25:10 +0000",
+      "tags": [
+        "ai",
+        "webdev",
+        "programming",
+        "productivity"
+      ]
+    },
+    {
+      "id": "597266fdc68b",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Siege of Brest (1342)",
-      "url": "https://en.wikipedia.org/wiki/Siege_of_Brest_(1342)",
-      "summary": "The siege of Brest took place in 1342 during the Breton Civil War. When John III, the Duke of Brittany, died childless in 1341 the title was contested by Charles of Blois and John of Montfort. Charles was the nephew of the French king, Philip VI, who supported him with a large a…",
+      "title": "SMS Schwaben",
+      "url": "https://en.wikipedia.org/wiki/SMS_Schwaben",
+      "summary": "SMS Schwaben was the fourth ship of the Wittelsbach class of pre-dreadnought battleships of the German Imperial Navy. Schwaben was built at the Imperial Dockyard in Wilhelmshaven. She was laid down in 1900, and completed in April 1904. Her sister ships were Wittelsbach, Zähringe…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "fddaa90f876f",
+      "id": "20564c93e8ea",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal",
-      "url": "https://www.bbc.co.uk/news/articles/cy5dzk0ryzdo?at_medium=RSS&at_campaign=rss",
-      "summary": "Trump's threat on Oman, which has been holding its own talks with Iran to reopen the Strait of Hormuz, comes as a 60-day window for peace negotiations expires.",
-      "published": "Mon, 17 Aug 2026 19:25:05 GMT",
+      "title": "Meta hooked children on Facebook and Instagram, court hears",
+      "url": "https://www.bbc.co.uk/news/articles/cly5r7vr7q1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Meta argued social media addiction does not exist, as a trial stemming from a major lawsuit brought by US states got under way.",
+      "published": "Tue, 18 Aug 2026 22:11:07 GMT",
       "tags": []
     },
     {
-      "id": "6042dc8f02d2",
+      "id": "f53d7089c651",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Tupac murder trial: 'All hell broke loose' night of rapper's shooting, witness says",
-      "url": "https://www.bbc.co.uk/news/articles/cp3r0kz775ko?at_medium=RSS&at_campaign=rss",
-      "summary": "After he was shot multiple times, Tupac Shakur refused to cooperate with police and told an officer, \"We'll take care of it,\" an officer testified.",
-      "published": "Tue, 18 Aug 2026 02:06:04 GMT",
+      "title": "Sacked Ukrainian defence minister calls for presidential election",
+      "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss",
+      "summary": "Martial law has been in place in Ukraine since February 2022, under which elections are suspended.",
+      "published": "Wed, 19 Aug 2026 01:31:15 GMT",
       "tags": []
     },
     {
-      "id": "73549710cf66",
+      "id": "8e7e394a8fad",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Russia warns UK over supplying drones to Ukraine",
-      "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo?at_medium=RSS&at_campaign=rss",
-      "summary": "An MoD spokesperson responds by saying Britain stands \"shoulder to shoulder\" with Ukraine.",
-      "published": "Tue, 18 Aug 2026 01:16:41 GMT",
+      "title": "Earthquake rocks Spain's historic Granada, injuring three",
+      "url": "https://www.bbc.co.uk/news/articles/cdx755dyy1yo?at_medium=RSS&at_campaign=rss",
+      "summary": "A number of buildings and cars are damaged in the historic city, and the world famous Alhambra palace has temporarily closed.",
+      "published": "Tue, 18 Aug 2026 17:15:39 GMT",
       "tags": []
     },
     {
-      "id": "24d62d122ca6",
+      "id": "bdb8a8744e47",
       "category": "news",
       "source": "BBC 世界",
-      "title": "BBC breaks down Trump's latest shift on North and South Korea",
-      "url": "https://www.bbc.co.uk/news/videos/cy45zjw424xo?at_medium=RSS&at_campaign=rss",
-      "summary": "Trump said the US will \"substantially reduce\" joint military exercises with South Korea, citing his \"very good relationship\" with Kim Jong Un.",
-      "published": "Mon, 17 Aug 2026 23:42:38 GMT",
+      "title": "Brazil's President Lula hails oil discovery near Amazon river",
+      "url": "https://www.bbc.co.uk/news/articles/c4gd7xd8e8lo?at_medium=RSS&at_campaign=rss",
+      "summary": "Environmentalists have heavily criticised the exploratory drilling in the sea off the mouth of the Amazon.",
+      "published": "Tue, 18 Aug 2026 13:13:54 GMT",
       "tags": []
     },
     {
-      "id": "6dcb17665432",
+      "id": "b6864953c729",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "US vaccination rates fall again as exemptions continue to rise, CDC data shows",
-      "url": "https://arstechnica.com/health/2026/08/us-vaccination-rates-fall-again-as-exemptions-continue-to-rise-cdc-data-shows/",
-      "summary": "Again, the CDC did not publish a full report and instead simply put the data online.",
+      "title": "\"Sabotage\": Experts, lawmakers blast RFK Jr. for destroying healthcare research",
+      "url": "https://arstechnica.com/health/2026/08/sabotage-experts-lawmakers-blast-rfk-jr-for-destroying-healthcare-research/",
+      "summary": "US healthcare is broken. Under RFK Jr., the research agency working to fix it is, too.",
       "author": "Beth Mole",
-      "published": "Mon, 17 Aug 2026 22:08:47 +0000",
+      "published": "Tue, 18 Aug 2026 22:32:46 +0000",
       "tags": [
         "Health",
-        "anti-vaccine",
-        "CDC",
-        "kennedy"
+        "AHRQ",
+        "grants",
+        "healthcare"
       ]
     },
     {
-      "id": "f1914d8ebf8a",
+      "id": "2860dde46305",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Former SpaceX engineers are building a robotic factory for making steel parts",
-      "url": "https://arstechnica.com/ai/2026/08/former-spacex-engineers-are-building-a-robotic-factory-for-making-steel-parts/",
-      "summary": "“We're not necessarily building in a dogmatic fashion towards full autonomy.”",
+      "title": "Ukrainian drones overwhelm Russian tanks’ new active protection system—for now",
+      "url": "https://arstechnica.com/gadgets/2026/08/ukrainian-drones-overwhelm-russian-tanks-new-active-protection-system-for-now/",
+      "summary": "Tanks with defensive tech for shooting down drones are still proving vulnerable.",
       "author": "Jeremy Hsu",
-      "published": "Mon, 17 Aug 2026 21:18:49 +0000",
+      "published": "Tue, 18 Aug 2026 22:18:13 +0000",
       "tags": [
-        "AI",
-        "1872",
-        "factory robots",
-        "Industrial robots"
+        "Tech",
+        "armor",
+        "drones",
+        "hezbollah"
       ]
     },
     {
-      "id": "809e981aca0b",
+      "id": "a5b27fe2af8c",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "The Moon's shadow raced across the heart of Spain, and I was there to see it",
-      "url": "https://arstechnica.com/space/2026/08/the-moons-shadow-raced-across-the-heart-of-spain-and-i-was-there-to-see-it/",
-      "summary": "Here's what it was like watching a total solar eclipse 90 minutes north of Madrid.",
+      "title": "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea",
+      "url": "https://arstechnica.com/space/2026/08/its-christmastime-at-spacex-as-company-salvages-starship-from-indian-ocean/",
+      "summary": "\"A team of SpaceX engineers is on their way to conduct additional analysis on the vehicle.\"",
       "author": "Stephen Clark",
-      "published": "Mon, 17 Aug 2026 20:23:09 +0000",
+      "published": "Tue, 18 Aug 2026 19:01:09 +0000",
       "tags": [
         "Science",
         "Space",
-        "moon",
-        "solar eclipse"
+        "australia",
+        "Christmas Island"
       ]
     },
     {
-      "id": "b0a051f4da64",
+      "id": "66f913174b25",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Why this popular Treasury-bond ETF is trading at its lowest since 2004",
-      "url": "https://www.marketwatch.com/story/why-this-popular-treasury-bond-etf-is-trading-at-its-lowest-since-2004-27de9a77?mod=mw_rss_topstories",
-      "summary": "One of the most heavily-traded ETFs tracking performance in the U.S. Treasury market has just fallen to its lowest level in over 20 years.",
-      "author": "Isabel Wang",
-      "published": "Mon, 17 Aug 2026 22:33:00 GMT",
+      "title": "Cerebras’s stock has been a post-IPO bust. Its comeback hinges on this new chip.",
+      "url": "https://www.marketwatch.com/story/cerebrass-stock-has-been-a-post-ipo-bust-its-comeback-hinges-on-this-new-chip-a25a7ca4?mod=mw_rss_topstories",
+      "summary": "Cerebras is betting that its specialized chips will outpace traditional graphics processing units as AI agents become more widespread.",
+      "author": "Christine Ji",
+      "published": "Wed, 19 Aug 2026 00:00:00 GMT",
       "tags": []
     },
     {
-      "id": "2ede74951aa4",
+      "id": "5cf4ff68f1d1",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘It’s a double-edged sword’: My husband got a $42,000 bonus. Will it wipe out our Affordable Care Act subsidy?",
-      "url": "https://www.marketwatch.com/story/its-a-double-edged-sword-my-husband-got-a-42-000-bonus-will-it-wipe-out-our-affordable-care-act-subsidy-32db285e?mod=mw_rss_topstories",
-      "summary": "“We were advised to return the bonus and take out a home-equity loan.”",
+      "title": "‘We are committed Christians’: Our son and daughter-in-law cut us out of their lives after a political argument. Should we change our $3 million will?",
+      "url": "https://www.marketwatch.com/story/we-are-hurt-our-son-and-daughter-in-law-cut-off-contact-with-us-over-politics-should-we-change-our-3-million-will-f763b761?mod=mw_rss_topstories",
+      "summary": "“We are hurt and confused, but we have also tried to respect the boundaries they have established.”",
       "author": "Quentin Fottrell",
-      "published": "Mon, 17 Aug 2026 21:30:00 GMT",
+      "published": "Tue, 18 Aug 2026 23:30:00 GMT",
       "tags": []
     },
     {
-      "id": "1a1d040886ef",
+      "id": "a2ae4614d679",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "There’s a 49% chance the Dow will finish this year up double digits. Here’s why.",
-      "url": "https://www.marketwatch.com/story/theres-a-49-chance-the-dow-will-finish-this-year-up-double-digits-heres-why-6871e569?mod=mw_rss_topstories",
-      "summary": "We’ve seen three years in a row of double-digit gains. Will there be a fourth?",
-      "author": "Mark Hulbert",
-      "published": "Mon, 17 Aug 2026 21:22:00 GMT",
+      "title": "My son does not work, yet pays $500 for Affordable Care Act health insurance. Is that fair?",
+      "url": "https://www.marketwatch.com/story/my-son-does-not-work-yet-he-pays-500-for-aca-health-insurance-how-is-that-fair-92f578c4?mod=mw_rss_topstories",
+      "summary": "“I see people who have a lot of money but little or no taxable income who still qualify for ACA Marketplace subsidies.”",
+      "author": "Quentin Fottrell",
+      "published": "Tue, 18 Aug 2026 23:15:00 GMT",
       "tags": []
     }
   ],

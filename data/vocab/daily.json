@@ -1,13 +1,13 @@
 {
-  "date": "2026-08-18",
-  "word": "endeavor",
-  "ipa": "enˈdev.ə",
-  "ipaUs": "enˈdev.ɚ",
+  "date": "2026-08-19",
+  "word": "enhance",
+  "ipa": "ɪnˈhɑːns",
+  "ipaUs": "ɪnˈhæns",
   "pos": "verb",
-  "definition": "to try to do something",
-  "definitionZh": "努力",
-  "example": "Engineers are endeavouring to",
-  "exampleZh": "工程师们正竭尽全力查找问题的根源。",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uke/ukenc/ukencum010.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/end/endea/endeavor.mp3"
+  "definition": "to improve the quality, amount, or strength of something",
+  "definitionZh": "提高",
+  "example": "These scandals will not enhance the organization's reputation.",
+  "exampleZh": "这些丑闻可不会提高这个组织的声誉。",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uke/ukeng/ukengin012.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/enh/enhan/enhance.mp3"
 }
