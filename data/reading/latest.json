@@ -1,293 +1,269 @@
 {
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "items": [
     {
-      "id": "ea90503a9583",
+      "id": "c626413d935c",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Gatesville, North Carolina",
-      "url": "https://simple.wikipedia.org/wiki/Gatesville%2C_North_Carolina",
-      "summary": "Gatesville is a town in and the county seat of Gates County, North Carolina, United States. As of the 2020 census, 267 people live in Gatesville.",
+      "title": "Province of Cosenza",
+      "url": "https://simple.wikipedia.org/wiki/Province_of_Cosenza",
+      "summary": "Cosenza is a province in the region of Calabria in Italy.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "7cf6f4b66e1e",
+      "id": "26153fb8516d",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Paul Raymond (musician)",
-      "url": "https://simple.wikipedia.org/wiki/Paul_Raymond_(musician)",
-      "summary": "Paul Martin Raymond was an English keyboardist and guitarist. He was known as a member of the rock band Savoy Brown and more notably UFO. He started his career in 1964 as a jazz musician. He was born in St Albans.",
+      "title": "Benazir Bhutto",
+      "url": "https://simple.wikipedia.org/wiki/Benazir_Bhutto",
+      "summary": "Benazir Bhutto was a Pakistani politician who became the 11th and 13th prime minister of Pakistan. She served from 1988 to 1990 and then from 1993 to 1996. She made history as the first woman to lead a democratic government in a Muslim-majority country. She was Pakistan’s first …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "e6f466131074",
+      "id": "44dce72c1eb7",
       "category": "tech",
       "source": "Hacker News",
-      "title": "New paper shows that 37% of workers in US saw real wages decline from 2021-2024 [pdf]",
-      "url": "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf",
-      "summary": "",
-      "author": "jplusequalt",
+      "title": "OpenRouter is joining Stripe",
+      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
+      "summary": "Previously: Stripe will reportedly acquire OpenRouter for $7B+ https://news.ycombinator.com/item?id=49323381",
+      "author": "rvz",
       "published": "2026-08-19",
       "tags": [
-        "▲ 125"
+        "▲ 660"
       ]
     },
     {
-      "id": "c0e4bffc1619",
+      "id": "79127fb50f93",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Cerebras CS-4",
-      "url": "https://www.cerebras.ai/cs4",
+      "title": "Go 1.27",
+      "url": "https://go.dev/blog/go1.27",
       "summary": "",
-      "author": "sunils34",
+      "author": "database64128",
       "published": "2026-08-19",
       "tags": [
-        "▲ 73"
+        "▲ 466"
       ]
     },
     {
-      "id": "be621d64d519",
+      "id": "8d7c873a76f8",
       "category": "tech",
       "source": "Hacker News",
-      "title": "A 3D fruit fly on macOS desktop powered by the real FlyWire connectome",
-      "url": "https://github.com/DenisSergeevitch/desktop-fly",
+      "title": "Google replaced Git tags for certain source code with obtaining via Google Drive",
+      "url": "https://grapheneos.social/@GrapheneOS/117057099753905023",
       "summary": "",
-      "author": "phoenix120",
-      "published": "2026-08-18",
-      "tags": [
-        "▲ 175"
-      ]
-    },
-    {
-      "id": "67636947efe0",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "The Amazon tax",
-      "url": "https://seths.blog/2026/08/the-amazon-tax/",
-      "summary": "",
-      "author": "herbertl",
-      "published": "2026-08-18",
-      "tags": [
-        "▲ 959"
-      ]
-    },
-    {
-      "id": "7b402756aba5",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Solo – a .so loader for static Linux binaries",
-      "url": "https://github.com/pg83/solo",
-      "summary": "",
-      "author": "zX41ZdbW",
-      "published": "2026-08-18",
-      "tags": [
-        "▲ 51"
-      ]
-    },
-    {
-      "id": "92c9c49f3ad2",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Why crypto's best infrastructure companies stopped looking like crypto?",
-      "url": "https://konstantintkachuk.com/writing/depin-is-dead-long-live-infrastructure-as-a-service/",
-      "summary": "",
-      "author": "Reaktornano",
+      "author": "Animux",
       "published": "2026-08-19",
       "tags": [
-        "▲ 25"
+        "▲ 313"
       ]
     },
     {
-      "id": "275b32360953",
+      "id": "ea7e05327455",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Manabu Kosaka's Handmade Paper Sculptures",
+      "url": "https://coca11272000.wixsite.com/manabukosaka",
+      "summary": "",
+      "author": "surprisetalk",
+      "published": "2026-08-19",
+      "tags": [
+        "▲ 45"
+      ]
+    },
+    {
+      "id": "b650c8e47359",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Unlocking a locked/deactivated e-waste Cricut Maker",
+      "url": "https://sprocketfox.io/xssfox/2026/07/01/cricut-unlock/",
+      "summary": "",
+      "author": "1e1a",
+      "published": "2026-08-19",
+      "tags": [
+        "▲ 142"
+      ]
+    },
+    {
+      "id": "5bdbe701c0fd",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Unsloth Dynamic 3.0 GGUFs",
+      "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
+      "summary": "",
+      "author": "jonesy827",
+      "published": "2026-08-19",
+      "tags": [
+        "▲ 192"
+      ]
+    },
+    {
+      "id": "ddec72f9c24b",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Designing AI Video Generation UI: Treat the Creative Brief as State",
-      "url": "https://dev.to/neural_ethos/designing-ai-video-generation-ui-treat-the-creative-brief-as-state-20jf",
-      "summary": "Designing AI Video Generation UI: Treat the Creative Brief as State This is interface-level reasoning based on public workflow descriptions, not source-code analysis. For creative-generation products, the difficult frontend problem is not only submitting a request. It is retaini…",
-      "author": "Neural_Ethos",
-      "published": "Wed, 19 Aug 2026 02:32:47 +0000",
+      "title": "Why I Built Bapu Studio: A Unified, Local-First Cockpit for APIs, Databases, and Secrets",
+      "url": "https://dev.to/joravar/why-i-built-bapu-studio-a-unified-local-first-cockpit-for-apis-databases-and-secrets-4i9p",
+      "summary": "As a software engineer, my daily workflow always felt fragmented. In any given hour of building a feature, I was constantly context-switching between: An HTTP client to test REST endpoints and verify response headers. A database GUI to inspect database tables and run quick SQL/N…",
+      "author": "joravar",
+      "published": "Thu, 20 Aug 2026 02:27:21 +0000",
       "tags": [
-        "ux",
+        "opensource",
+        "devtools",
         "webdev",
-        "productdesign",
-        "frontend"
-      ]
-    },
-    {
-      "id": "b7862ca58037",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Exploring Opinion Rewards: How Survey Apps Work for Modern Smartphone Users",
-      "url": "https://dev.to/saahil_gupta_061a10a082d7/exploring-opinion-rewards-how-survey-apps-work-for-modern-smartphone-users-4lhj",
-      "summary": "Exploring Opinion Rewards: How Survey Apps Work for Modern Smartphone Users Smartphones have transformed the way people spend their free time. Along with communication, entertainment, and shopping, mobile devices now provide access to digital surveys and feedback activities. Thi…",
-      "author": "Saahil Gupta",
-      "published": "Wed, 19 Aug 2026 02:26:09 +0000",
-      "tags": [
-        "ai",
-        "webdev",
-        "programming",
         "productivity"
       ]
     },
     {
-      "id": "0f0cd59b46e8",
+      "id": "a082b0278279",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Beyond Messaging: Exploring the Chatji Social and Rewards Platform",
-      "url": "https://dev.to/saahil_gupta_061a10a082d7/beyond-messaging-exploring-the-chatji-social-and-rewards-platform-28hb",
-      "summary": "A smartphone can now serve as a communication tool, entertainment center, and gateway to countless digital activities. As app developers continue to combine different functions, users are seeing platforms that go beyond traditional messaging. Chatji – Chat & Earn Money is built …",
-      "author": "Saahil Gupta",
-      "published": "Wed, 19 Aug 2026 02:25:34 +0000",
+      "title": "From Port Harcourt to the World: How LeeX Could Build a Global Location Intelligence Network",
+      "url": "https://dev.to/lee_x/from-port-harcourt-to-the-world-how-leex-could-build-a-global-location-intelligence-network-521f",
+      "summary": "From Port Harcourt to the World: How LeeX Could Build a Global Location Intelligence Network Every major city has its own network of businesses, events, infrastructure, communities and places. Yet information about those places is often fragmented across different platforms. Lee…",
+      "author": "Lee X",
+      "published": "Thu, 20 Aug 2026 02:21:13 +0000",
       "tags": [
         "ai",
         "webdev",
-        "programming",
+        "leex"
+      ]
+    },
+    {
+      "id": "852eaffba880",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "How to Build Client portals Without Writing a Single Line of Code",
+      "url": "https://dev.to/nick_davies_323125afbb05c/how-to-build-client-portals-without-writing-a-single-line-of-code-47c9",
+      "summary": "Need client portals but don't have the budget for a dev team? Here's how to build it yourself in minutes. The Problem Traditionally, building client portals requires: A frontend developer A backend developer Database design DevOps for deployment Weeks or months of development ti…",
+      "author": "Nick Davies",
+      "published": "Thu, 20 Aug 2026 02:18:07 +0000",
+      "tags": [
+        "nocode",
+        "startup",
+        "webdev",
         "productivity"
       ]
     },
     {
-      "id": "e62db0c1309b",
+      "id": "9c1bda2cf61a",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Chat and Earn App – A New Way to Enjoy Social Interaction",
-      "url": "https://dev.to/saahil_gupta_061a10a082d7/chat-and-earn-app-a-new-way-to-enjoy-social-interaction-fin",
-      "summary": "Chat and Earn App – A New Way to Enjoy Social Interaction Smartphones have changed the way people communicate. Today, users can connect with communities, exchange messages, and discover new people through mobile applications. Alongside traditional messaging platforms, applicatio…",
-      "author": "Saahil Gupta",
-      "published": "Wed, 19 Aug 2026 02:25:10 +0000",
+      "title": "How I Built a Burnout Thought Detector in 100 Lines of Vanilla JavaScript — No AI, No NLP, No Sentiment Analysis",
+      "url": "https://dev.to/473185670/how-i-built-a-burnout-thought-detector-in-100-lines-of-vanilla-javascript-no-ai-no-nlp-no-206o",
+      "summary": "When you build anything that reads someone's thoughts and says \"that's a burnout thought,\" the assumption is immediate: you need sentiment analysis. An LLM. A fine-tuned classifier. Something that \"understands\" the nuance of exhaustion and cynicism. You don't. I built a tool tha…",
+      "author": "473185670",
+      "published": "Thu, 20 Aug 2026 02:13:44 +0000",
       "tags": [
-        "ai",
         "webdev",
-        "programming",
-        "productivity"
+        "javascript",
+        "productivity",
+        "discuss"
       ]
     },
     {
-      "id": "597266fdc68b",
+      "id": "a77b02d1fdae",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "SMS Schwaben",
-      "url": "https://en.wikipedia.org/wiki/SMS_Schwaben",
-      "summary": "SMS Schwaben was the fourth ship of the Wittelsbach class of pre-dreadnought battleships of the German Imperial Navy. Schwaben was built at the Imperial Dockyard in Wilhelmshaven. She was laid down in 1900, and completed in April 1904. Her sister ships were Wittelsbach, Zähringe…",
+      "title": "Pat O'Keeffe",
+      "url": "https://en.wikipedia.org/wiki/Pat_O'Keeffe",
+      "summary": "Pat O'Keeffe was a British professional boxer who twice held the British middleweight title. His professional career spanned sixteen years, from 1902 to 1918, and took him to the United States and Australia between 1907 and 1910. In 1914, he challenged Georges Carpentier in a co…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "20564c93e8ea",
+      "id": "f0db32b6db43",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Meta hooked children on Facebook and Instagram, court hears",
-      "url": "https://www.bbc.co.uk/news/articles/cly5r7vr7q1o?at_medium=RSS&at_campaign=rss",
-      "summary": "Meta argued social media addiction does not exist, as a trial stemming from a major lawsuit brought by US states got under way.",
-      "published": "Tue, 18 Aug 2026 22:11:07 GMT",
+      "title": "Israel confirms soldiers fired at car in which Hind Rajab was killed and opens criminal investigation",
+      "url": "https://www.bbc.co.uk/news/articles/crl7yjlpx2po?at_medium=RSS&at_campaign=rss",
+      "summary": "The five-year-old Palestinian girl initially survived the attack and pleaded for help but her body was recovered later with those of six of her relatives.",
+      "published": "Wed, 19 Aug 2026 15:33:32 GMT",
       "tags": []
     },
     {
-      "id": "f53d7089c651",
+      "id": "088e31d8fd42",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Sacked Ukrainian defence minister calls for presidential election",
-      "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss",
-      "summary": "Martial law has been in place in Ukraine since February 2022, under which elections are suspended.",
-      "published": "Wed, 19 Aug 2026 01:31:15 GMT",
+      "title": "Australia 'outraged' after Israeli decision not to prosecute over killing of aid worker in Gaza",
+      "url": "https://www.bbc.co.uk/news/articles/cp87g29r718o?at_medium=RSS&at_campaign=rss",
+      "summary": "Australia's foreign minister says she will summon the Israeli ambassador over 'insulting' Zomi Frankcom decision.",
+      "published": "Thu, 20 Aug 2026 00:48:57 GMT",
       "tags": []
     },
     {
-      "id": "8e7e394a8fad",
+      "id": "61c52ea5c150",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Earthquake rocks Spain's historic Granada, injuring three",
-      "url": "https://www.bbc.co.uk/news/articles/cdx755dyy1yo?at_medium=RSS&at_campaign=rss",
-      "summary": "A number of buildings and cars are damaged in the historic city, and the world famous Alhambra palace has temporarily closed.",
-      "published": "Tue, 18 Aug 2026 17:15:39 GMT",
+      "title": "Trump threatens 'tremendous economic consequences' on any country helping Iran",
+      "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss",
+      "summary": "It comes after a 60-day ceasefire expired on Monday, with no sign of a diplomatic or military off-ramp to the conflict.",
+      "published": "Thu, 20 Aug 2026 02:16:49 GMT",
       "tags": []
     },
     {
-      "id": "bdb8a8744e47",
+      "id": "c956a27fca88",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Brazil's President Lula hails oil discovery near Amazon river",
-      "url": "https://www.bbc.co.uk/news/articles/c4gd7xd8e8lo?at_medium=RSS&at_campaign=rss",
-      "summary": "Environmentalists have heavily criticised the exploratory drilling in the sea off the mouth of the Amazon.",
-      "published": "Tue, 18 Aug 2026 13:13:54 GMT",
+      "title": "Giant whales move into Greenland waters as ice disappears",
+      "url": "https://www.bbc.co.uk/news/articles/cq6dn9gj7eno?at_medium=RSS&at_campaign=rss",
+      "summary": "Melting sea ice from climate change has opened up the region for giant whales to undertake 'feeding frenzies'.",
+      "published": "Thu, 20 Aug 2026 02:05:20 GMT",
       "tags": []
     },
     {
-      "id": "b6864953c729",
+      "id": "2bb7ef03548e",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "\"Sabotage\": Experts, lawmakers blast RFK Jr. for destroying healthcare research",
-      "url": "https://arstechnica.com/health/2026/08/sabotage-experts-lawmakers-blast-rfk-jr-for-destroying-healthcare-research/",
-      "summary": "US healthcare is broken. Under RFK Jr., the research agency working to fix it is, too.",
-      "author": "Beth Mole",
-      "published": "Tue, 18 Aug 2026 22:32:46 +0000",
+      "title": "NASA calls off mission to rescue Swift gamma-ray observatory",
+      "url": "https://arstechnica.com/space/2026/08/nasa-calls-off-mission-to-rescue-swift-gamma-ray-observatory/",
+      "summary": "Without a rescue, NASA's Swift Observatory is expected to reenter the atmosphere later this year.",
+      "author": "Stephen Clark",
+      "published": "Thu, 20 Aug 2026 00:18:48 +0000",
       "tags": [
-        "Health",
-        "AHRQ",
-        "grants",
-        "healthcare"
+        "Space",
+        "Commercial space",
+        "katalyst space",
+        "NASA"
       ]
     },
     {
-      "id": "2860dde46305",
+      "id": "038ae9e9704b",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Ukrainian drones overwhelm Russian tanks’ new active protection system—for now",
-      "url": "https://arstechnica.com/gadgets/2026/08/ukrainian-drones-overwhelm-russian-tanks-new-active-protection-system-for-now/",
-      "summary": "Tanks with defensive tech for shooting down drones are still proving vulnerable.",
+      "title": "Amazon aims for delivery drones to reach 500 US neighborhoods by end of 2026",
+      "url": "https://arstechnica.com/gadgets/2026/08/amazon-aims-for-delivery-drones-to-reach-500-us-neighborhoods-by-end-of-2026/",
+      "summary": "US residents face trade-offs as delivery drone services such as Prime Air expand.",
       "author": "Jeremy Hsu",
-      "published": "Tue, 18 Aug 2026 22:18:13 +0000",
+      "published": "Wed, 19 Aug 2026 22:02:38 +0000",
       "tags": [
         "Tech",
-        "armor",
-        "drones",
-        "hezbollah"
+        "AI drones",
+        "Amazon",
+        "delivery drones"
       ]
     },
     {
-      "id": "a5b27fe2af8c",
+      "id": "9c4159617916",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea",
-      "url": "https://arstechnica.com/space/2026/08/its-christmastime-at-spacex-as-company-salvages-starship-from-indian-ocean/",
-      "summary": "\"A team of SpaceX engineers is on their way to conduct additional analysis on the vehicle.\"",
-      "author": "Stephen Clark",
-      "published": "Tue, 18 Aug 2026 19:01:09 +0000",
+      "title": "Framework responds to complaints that BIOS update bricks Ryzen 7040 laptops",
+      "url": "https://arstechnica.com/gadgets/2026/08/framework-responds-to-complaints-that-bios-update-bricked-ryzen-7040-laptops/",
+      "summary": "Framework says it's replacing some out-of-warranty AMD mainboards.",
+      "author": "Scharon Harding",
+      "published": "Wed, 19 Aug 2026 20:21:59 +0000",
       "tags": [
-        "Science",
-        "Space",
-        "australia",
-        "Christmas Island"
+        "Tech",
+        "framework",
+        "laptops"
       ]
-    },
-    {
-      "id": "66f913174b25",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "Cerebras’s stock has been a post-IPO bust. Its comeback hinges on this new chip.",
-      "url": "https://www.marketwatch.com/story/cerebrass-stock-has-been-a-post-ipo-bust-its-comeback-hinges-on-this-new-chip-a25a7ca4?mod=mw_rss_topstories",
-      "summary": "Cerebras is betting that its specialized chips will outpace traditional graphics processing units as AI agents become more widespread.",
-      "author": "Christine Ji",
-      "published": "Wed, 19 Aug 2026 00:00:00 GMT",
-      "tags": []
-    },
-    {
-      "id": "5cf4ff68f1d1",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "‘We are committed Christians’: Our son and daughter-in-law cut us out of their lives after a political argument. Should we change our $3 million will?",
-      "url": "https://www.marketwatch.com/story/we-are-hurt-our-son-and-daughter-in-law-cut-off-contact-with-us-over-politics-should-we-change-our-3-million-will-f763b761?mod=mw_rss_topstories",
-      "summary": "“We are hurt and confused, but we have also tried to respect the boundaries they have established.”",
-      "author": "Quentin Fottrell",
-      "published": "Tue, 18 Aug 2026 23:30:00 GMT",
-      "tags": []
     },
     {
       "id": "a2ae4614d679",
@@ -297,7 +273,29 @@
       "url": "https://www.marketwatch.com/story/my-son-does-not-work-yet-he-pays-500-for-aca-health-insurance-how-is-that-fair-92f578c4?mod=mw_rss_topstories",
       "summary": "“I see people who have a lot of money but little or no taxable income who still qualify for ACA Marketplace subsidies.”",
       "author": "Quentin Fottrell",
-      "published": "Tue, 18 Aug 2026 23:15:00 GMT",
+      "published": "Wed, 19 Aug 2026 23:30:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "edeaa17caab4",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "I hold my mother-in-law’s power of attorney. I’m also her executor and trustee. Do I have ultimate authority?",
+      "url": "https://www.marketwatch.com/story/im-my-mother-in-laws-power-of-attorney-executor-and-trustee-do-i-hold-all-the-power-a11968a2?mod=mw_rss_topstories",
+      "summary": "“There is a lot of legal and financial power in my hands.”",
+      "author": "Quentin Fottrell",
+      "published": "Wed, 19 Aug 2026 23:15:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "de9de5f75bdb",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "Retirees: This investment gives you a guaranteed 5% safe withdrawal rate",
+      "url": "https://www.marketwatch.com/story/retirees-this-investment-gives-you-a-guaranteed-5-safe-withdrawal-rate-facdfd76?mod=mw_rss_topstories",
+      "summary": "TIPS yields are at or close to 20-year highs.",
+      "author": "Mark Hulbert",
+      "published": "Wed, 19 Aug 2026 23:01:00 GMT",
       "tags": []
     }
   ],
