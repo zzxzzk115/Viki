@@ -1,268 +1,270 @@
 {
-  "date": "2026-08-20",
+  "date": "2026-08-21",
   "items": [
     {
-      "id": "c626413d935c",
+      "id": "8695e537de65",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Province of Cosenza",
-      "url": "https://simple.wikipedia.org/wiki/Province_of_Cosenza",
-      "summary": "Cosenza is a province in the region of Calabria in Italy.",
+      "title": "Uintah County, Utah",
+      "url": "https://simple.wikipedia.org/wiki/Uintah_County%2C_Utah",
+      "summary": "Uintah County is a county in the U.S. state of Utah. As of the 2020 census, the county had a population of 35,620. The county seat is Vernal.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "26153fb8516d",
+      "id": "b59a63505c8d",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Benazir Bhutto",
-      "url": "https://simple.wikipedia.org/wiki/Benazir_Bhutto",
-      "summary": "Benazir Bhutto was a Pakistani politician who became the 11th and 13th prime minister of Pakistan. She served from 1988 to 1990 and then from 1993 to 1996. She made history as the first woman to lead a democratic government in a Muslim-majority country. She was Pakistan’s first …",
+      "title": "Heinz Arzberger",
+      "url": "https://simple.wikipedia.org/wiki/Heinz_Arzberger",
+      "summary": "Heinz Arzberger is a retired Austrian professional footballer. He played as goalkeeper. After his career he became goalkeeper coach for FC Red Bull Salzburg and FC Liefering.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "44dce72c1eb7",
+      "id": "ad9e90903af4",
       "category": "tech",
       "source": "Hacker News",
-      "title": "OpenRouter is joining Stripe",
-      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
-      "summary": "Previously: Stripe will reportedly acquire OpenRouter for $7B+ https://news.ycombinator.com/item?id=49323381",
-      "author": "rvz",
-      "published": "2026-08-19",
-      "tags": [
-        "▲ 660"
-      ]
-    },
-    {
-      "id": "79127fb50f93",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Go 1.27",
-      "url": "https://go.dev/blog/go1.27",
+      "title": "Copyright does not protect AI-generated content in EU",
+      "url": "https://mathstodon.xyz/@maxpool/117128107757895678",
       "summary": "",
-      "author": "database64128",
-      "published": "2026-08-19",
+      "author": "u1hcw9nx",
+      "published": "2026-08-21",
       "tags": [
-        "▲ 466"
+        "▲ 134"
       ]
     },
     {
-      "id": "8d7c873a76f8",
+      "id": "0dbce6fe1027",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Google replaced Git tags for certain source code with obtaining via Google Drive",
-      "url": "https://grapheneos.social/@GrapheneOS/117057099753905023",
+      "title": "It is a sign of the times that Amazon gets to call this fair use",
+      "url": "http://observationalepidemiology.blogspot.com/2026/08/it-is-sign-of-times-that-amazon-gets-to.html",
       "summary": "",
-      "author": "Animux",
-      "published": "2026-08-19",
+      "author": "sonicrocketman",
+      "published": "2026-08-21",
       "tags": [
-        "▲ 313"
+        "▲ 76"
       ]
     },
     {
-      "id": "ea7e05327455",
+      "id": "ba7ef830fa2a",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Manabu Kosaka's Handmade Paper Sculptures",
-      "url": "https://coca11272000.wixsite.com/manabukosaka",
+      "title": "The August 17 outage, and the work ahead",
+      "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
       "summary": "",
-      "author": "surprisetalk",
-      "published": "2026-08-19",
+      "author": "0xedb",
+      "published": "2026-08-20",
       "tags": [
-        "▲ 45"
+        "▲ 345"
       ]
     },
     {
-      "id": "b650c8e47359",
+      "id": "68486633cf63",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Unlocking a locked/deactivated e-waste Cricut Maker",
-      "url": "https://sprocketfox.io/xssfox/2026/07/01/cricut-unlock/",
+      "title": "I like 'em thick: an apology to my English teachers",
+      "url": "https://www.experimental-history.com/p/i-like-em-thick",
       "summary": "",
-      "author": "1e1a",
-      "published": "2026-08-19",
+      "author": "Ariarule",
+      "published": "2026-08-18",
       "tags": [
-        "▲ 142"
+        "▲ 584"
       ]
     },
     {
-      "id": "5bdbe701c0fd",
+      "id": "b9407ca92b8d",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Unsloth Dynamic 3.0 GGUFs",
-      "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
+      "title": "Consumer Rights Wiki",
+      "url": "https://consumerrights.wiki/w/Main_Page",
       "summary": "",
-      "author": "jonesy827",
-      "published": "2026-08-19",
+      "author": "gregsadetsky",
+      "published": "2026-08-20",
       "tags": [
-        "▲ 192"
+        "▲ 236"
       ]
     },
     {
-      "id": "ddec72f9c24b",
+      "id": "c992986a594f",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
+      "url": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
+      "summary": "",
+      "author": "speckx",
+      "published": "2026-08-20",
+      "tags": [
+        "▲ 1065"
+      ]
+    },
+    {
+      "id": "dafeef112393",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Why I Built Bapu Studio: A Unified, Local-First Cockpit for APIs, Databases, and Secrets",
-      "url": "https://dev.to/joravar/why-i-built-bapu-studio-a-unified-local-first-cockpit-for-apis-databases-and-secrets-4i9p",
-      "summary": "As a software engineer, my daily workflow always felt fragmented. In any given hour of building a feature, I was constantly context-switching between: An HTTP client to test REST endpoints and verify response headers. A database GUI to inspect database tables and run quick SQL/N…",
-      "author": "joravar",
-      "published": "Thu, 20 Aug 2026 02:27:21 +0000",
-      "tags": [
-        "opensource",
-        "devtools",
-        "webdev",
-        "productivity"
-      ]
-    },
-    {
-      "id": "a082b0278279",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "From Port Harcourt to the World: How LeeX Could Build a Global Location Intelligence Network",
-      "url": "https://dev.to/lee_x/from-port-harcourt-to-the-world-how-leex-could-build-a-global-location-intelligence-network-521f",
-      "summary": "From Port Harcourt to the World: How LeeX Could Build a Global Location Intelligence Network Every major city has its own network of businesses, events, infrastructure, communities and places. Yet information about those places is often fragmented across different platforms. Lee…",
-      "author": "Lee X",
-      "published": "Thu, 20 Aug 2026 02:21:13 +0000",
+      "title": "HappierLeads Data – 175M+ Verified B2B Contacts",
+      "url": "https://dev.to/al_beruni_6f2dfaf29b51d96/happierleads-data-175m-verified-b2b-contacts-1iae",
+      "summary": "HappierLeads Data Review: Access 175M+ Verified B2B Contacts with Instant CSV Downloads – My Detailed Hands-On Experience As a freelance digital marketer based in Rajshahi, Bangladesh, finding high-quality B2B leads has always been one of the most time-consuming parts of client …",
+      "author": "Al Beruni",
+      "published": "Fri, 21 Aug 2026 02:34:16 +0000",
       "tags": [
         "ai",
         "webdev",
-        "leex"
+        "programming",
+        "productivity"
       ]
     },
     {
-      "id": "852eaffba880",
+      "id": "dcca4a9240b0",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How to Build Client portals Without Writing a Single Line of Code",
-      "url": "https://dev.to/nick_davies_323125afbb05c/how-to-build-client-portals-without-writing-a-single-line-of-code-47c9",
-      "summary": "Need client portals but don't have the budget for a dev team? Here's how to build it yourself in minutes. The Problem Traditionally, building client portals requires: A frontend developer A backend developer Database design DevOps for deployment Weeks or months of development ti…",
+      "title": "Why I Switched to Hostinger — Honest Review After Using It for Months",
+      "url": "https://dev.to/nick_davies_323125afbb05c/why-i-switched-to-hostinger-honest-review-after-using-it-for-months-4030",
+      "summary": "I've tried multiple hosting providers over the years. Here's why Hostinger is my current recommendation, especially for developers and small businesses. What I Like Price-to-Value Ratio Starting at $2.99/mo for the Premium plan, you get more than most hosts charge $10+/mo for: F…",
       "author": "Nick Davies",
-      "published": "Thu, 20 Aug 2026 02:18:07 +0000",
+      "published": "Fri, 21 Aug 2026 02:25:35 +0000",
       "tags": [
-        "nocode",
-        "startup",
+        "webdev",
+        "hosting",
+        "review",
+        "wordpress"
+      ]
+    },
+    {
+      "id": "608e7107ef64",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "React: valida email sin respuestas viejas",
+      "url": "https://dev.to/silviutech/react-valida-email-sin-respuestas-viejas-33od",
+      "summary": "Una de las cosas mas molestas en formularios modernos no es el error en si. Es el error que llega tarde. La persona escribe su email, corrige una letra, y doscientos milisegundos despues aparece un mensaje sobre la version anterior del campo. El resultado se siente medio roto, a…",
+      "author": "Silviu Technology",
+      "published": "Fri, 21 Aug 2026 02:24:31 +0000",
+      "tags": [
+        "react",
+        "a11y",
+        "performance",
+        "webdev"
+      ]
+    },
+    {
+      "id": "0098980daa57",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Mở 20 tab Chrome kèm IDE thì 16GB RAM có đuối hơn 32GB?",
+      "url": "https://dev.to/hung_phatlaptop_a651fc86/mo-20-tab-chrome-kem-ide-thi-16gb-ram-co-duoi-hon-32gb-2lhb",
+      "summary": "Nhiều người nghĩ 16GB RAM vẫn đủ cho mọi tác vụ lập trình web hiện đại. Thực tế dùng hàng ngày lại chỉ ra điều ngược lại khi bạn vừa viết code vừa tra cứu tài liệu và chạy công cụ trực tuyến. Mức tiêu thụ thực tế khi dồn 20 tab và VS Code Quy trình làm việc thực tế của một web d…",
+      "author": "Review Laptop",
+      "published": "Fri, 21 Aug 2026 02:22:32 +0000",
+      "tags": [
+        "vscode",
+        "performance",
         "webdev",
         "productivity"
       ]
     },
     {
-      "id": "9c1bda2cf61a",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "How I Built a Burnout Thought Detector in 100 Lines of Vanilla JavaScript — No AI, No NLP, No Sentiment Analysis",
-      "url": "https://dev.to/473185670/how-i-built-a-burnout-thought-detector-in-100-lines-of-vanilla-javascript-no-ai-no-nlp-no-206o",
-      "summary": "When you build anything that reads someone's thoughts and says \"that's a burnout thought,\" the assumption is immediate: you need sentiment analysis. An LLM. A fine-tuned classifier. Something that \"understands\" the nuance of exhaustion and cynicism. You don't. I built a tool tha…",
-      "author": "473185670",
-      "published": "Thu, 20 Aug 2026 02:13:44 +0000",
-      "tags": [
-        "webdev",
-        "javascript",
-        "productivity",
-        "discuss"
-      ]
-    },
-    {
-      "id": "a77b02d1fdae",
+      "id": "ddf36a5e71c2",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Pat O'Keeffe",
-      "url": "https://en.wikipedia.org/wiki/Pat_O'Keeffe",
-      "summary": "Pat O'Keeffe was a British professional boxer who twice held the British middleweight title. His professional career spanned sixteen years, from 1902 to 1918, and took him to the United States and Australia between 1907 and 1910. In 1914, he challenged Georges Carpentier in a co…",
+      "title": "Stanley Goble",
+      "url": "https://en.wikipedia.org/wiki/Stanley_Goble",
+      "summary": "Air Vice-Marshal Stanley James Goble was a senior commander in the Royal Australian Air Force (RAAF). He served three terms as Chief of the Air Staff, alternating with Wing Commander Richard Williams. Goble came to national attention in 1924 when he and fellow RAAF pilot Ivor Mc…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "f0db32b6db43",
+      "id": "e28573af70a1",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Israel confirms soldiers fired at car in which Hind Rajab was killed and opens criminal investigation",
-      "url": "https://www.bbc.co.uk/news/articles/crl7yjlpx2po?at_medium=RSS&at_campaign=rss",
-      "summary": "The five-year-old Palestinian girl initially survived the attack and pleaded for help but her body was recovered later with those of six of her relatives.",
-      "published": "Wed, 19 Aug 2026 15:33:32 GMT",
+      "title": "UK, France, Germany, Italy and Canada condemn Israel's West Bank settlement project",
+      "url": "https://www.bbc.co.uk/news/articles/c998evlgz8ko?at_medium=RSS&at_campaign=rss",
+      "summary": "European countries and Canada pile on pressure over Israel's plans to expand settlements in a strategically vital part of the occupied West Bank.",
+      "published": "Thu, 20 Aug 2026 18:55:14 GMT",
       "tags": []
     },
     {
-      "id": "088e31d8fd42",
+      "id": "7bad4a198588",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Australia 'outraged' after Israeli decision not to prosecute over killing of aid worker in Gaza",
-      "url": "https://www.bbc.co.uk/news/articles/cp87g29r718o?at_medium=RSS&at_campaign=rss",
-      "summary": "Australia's foreign minister says she will summon the Israeli ambassador over 'insulting' Zomi Frankcom decision.",
-      "published": "Thu, 20 Aug 2026 00:48:57 GMT",
+      "title": "How much could Trump's 'economic D-Day' hurt Iran?",
+      "url": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro?at_medium=RSS&at_campaign=rss",
+      "summary": "Iran has so far proved adept at finding ways around years of already punishing sanctions on its economy.",
+      "published": "Thu, 20 Aug 2026 23:16:45 GMT",
       "tags": []
     },
     {
-      "id": "61c52ea5c150",
+      "id": "cedf7f5c0142",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump threatens 'tremendous economic consequences' on any country helping Iran",
-      "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss",
-      "summary": "It comes after a 60-day ceasefire expired on Monday, with no sign of a diplomatic or military off-ramp to the conflict.",
-      "published": "Thu, 20 Aug 2026 02:16:49 GMT",
+      "title": "Russia 'purposefully' hit critical infrastructure in latest strikes, Kyiv mayor says",
+      "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
+      "summary": "At least 17 people were killed in the \"massive attack\" overnight on Ukraine's capital, as mayor Vitali Klitschko warns hot water supply has been disrupted.",
+      "published": "Thu, 20 Aug 2026 17:14:55 GMT",
       "tags": []
     },
     {
-      "id": "c956a27fca88",
+      "id": "0582391aa0b0",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Giant whales move into Greenland waters as ice disappears",
-      "url": "https://www.bbc.co.uk/news/articles/cq6dn9gj7eno?at_medium=RSS&at_campaign=rss",
-      "summary": "Melting sea ice from climate change has opened up the region for giant whales to undertake 'feeding frenzies'.",
-      "published": "Thu, 20 Aug 2026 02:05:20 GMT",
+      "title": "Trump wants to be friends with Kim - but South Korea could pay the price",
+      "url": "https://www.bbc.co.uk/news/articles/c4gj1vje8dxo?at_medium=RSS&at_campaign=rss",
+      "summary": "US military exercises with South Korea end early on Friday, at a time when the North is in a position of strength.",
+      "published": "Thu, 20 Aug 2026 22:01:26 GMT",
       "tags": []
     },
     {
-      "id": "2bb7ef03548e",
+      "id": "b7e65a5154d5",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "NASA calls off mission to rescue Swift gamma-ray observatory",
-      "url": "https://arstechnica.com/space/2026/08/nasa-calls-off-mission-to-rescue-swift-gamma-ray-observatory/",
-      "summary": "Without a rescue, NASA's Swift Observatory is expected to reenter the atmosphere later this year.",
-      "author": "Stephen Clark",
-      "published": "Thu, 20 Aug 2026 00:18:48 +0000",
+      "title": "US distributor of China’s most popular humanoid robots pivots after US ban",
+      "url": "https://arstechnica.com/gadgets/2026/08/us-distributor-of-chinas-most-popular-humanoid-robots-pivots-after-us-ban/",
+      "summary": "FCC ban on foreign-made robots accelerated RoboStore’s US manufacturing plans.",
+      "author": "Jeremy Hsu",
+      "published": "Thu, 20 Aug 2026 22:00:11 +0000",
+      "tags": [
+        "Tech",
+        "humanoid robots",
+        "Industrial robots",
+        "medical robots"
+      ]
+    },
+    {
+      "id": "6a6c4f15758f",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Europe cancels planned upgrades for Ariane 6 rocket",
+      "url": "https://arstechnica.com/space/2026/08/europe-cancels-planned-upgrades-for-ariane-6-rocket/",
+      "summary": "Arianespace hasn’t publicly disclosed the cost for an Ariane 6 launch.",
+      "author": "Eric Berger",
+      "published": "Thu, 20 Aug 2026 21:40:52 +0000",
       "tags": [
         "Space",
-        "Commercial space",
-        "katalyst space",
-        "NASA"
+        "ariane 6",
+        "Future",
+        "rockets"
       ]
     },
     {
-      "id": "038ae9e9704b",
+      "id": "4f853a8a6020",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Amazon aims for delivery drones to reach 500 US neighborhoods by end of 2026",
-      "url": "https://arstechnica.com/gadgets/2026/08/amazon-aims-for-delivery-drones-to-reach-500-us-neighborhoods-by-end-of-2026/",
-      "summary": "US residents face trade-offs as delivery drone services such as Prime Air expand.",
-      "author": "Jeremy Hsu",
-      "published": "Wed, 19 Aug 2026 22:02:38 +0000",
+      "title": "They survived 9/11; 25 years later, their bonds remain unbroken",
+      "url": "https://arstechnica.com/culture/2026/08/new-9-11-documentary-finds-hope-in-the-horror/",
+      "summary": "Survivors reconnect with those who saved them in National Geographic's 9/11: Reunited .",
+      "author": "Jennifer Ouellette",
+      "published": "Thu, 20 Aug 2026 21:25:25 +0000",
       "tags": [
-        "Tech",
-        "AI drones",
-        "Amazon",
-        "delivery drones"
-      ]
-    },
-    {
-      "id": "9c4159617916",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Framework responds to complaints that BIOS update bricks Ryzen 7040 laptops",
-      "url": "https://arstechnica.com/gadgets/2026/08/framework-responds-to-complaints-that-bios-update-bricked-ryzen-7040-laptops/",
-      "summary": "Framework says it's replacing some out-of-warranty AMD mainboards.",
-      "author": "Scharon Harding",
-      "published": "Wed, 19 Aug 2026 20:21:59 +0000",
-      "tags": [
-        "Tech",
-        "framework",
-        "laptops"
+        "Culture",
+        "9/11",
+        "disney plus",
+        "documentaries"
       ]
     },
     {
@@ -273,29 +275,29 @@
       "url": "https://www.marketwatch.com/story/my-son-does-not-work-yet-he-pays-500-for-aca-health-insurance-how-is-that-fair-92f578c4?mod=mw_rss_topstories",
       "summary": "“I see people who have a lot of money but little or no taxable income who still qualify for ACA Marketplace subsidies.”",
       "author": "Quentin Fottrell",
-      "published": "Wed, 19 Aug 2026 23:30:00 GMT",
+      "published": "Thu, 20 Aug 2026 23:00:00 GMT",
       "tags": []
     },
     {
       "id": "edeaa17caab4",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "I hold my mother-in-law’s power of attorney. I’m also her executor and trustee. Do I have ultimate authority?",
+      "title": "I hold my mother-in-law’s power of attorney. I’m also her executor and trustee. Do I have too much power over her affairs?",
       "url": "https://www.marketwatch.com/story/im-my-mother-in-laws-power-of-attorney-executor-and-trustee-do-i-hold-all-the-power-a11968a2?mod=mw_rss_topstories",
       "summary": "“There is a lot of legal and financial power in my hands.”",
       "author": "Quentin Fottrell",
-      "published": "Wed, 19 Aug 2026 23:15:00 GMT",
+      "published": "Thu, 20 Aug 2026 22:45:00 GMT",
       "tags": []
     },
     {
-      "id": "de9de5f75bdb",
+      "id": "ee9d0964dd88",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Retirees: This investment gives you a guaranteed 5% safe withdrawal rate",
-      "url": "https://www.marketwatch.com/story/retirees-this-investment-gives-you-a-guaranteed-5-safe-withdrawal-rate-facdfd76?mod=mw_rss_topstories",
-      "summary": "TIPS yields are at or close to 20-year highs.",
-      "author": "Mark Hulbert",
-      "published": "Wed, 19 Aug 2026 23:01:00 GMT",
+      "title": "Our 4-year-old son has $100,000 in his 529 account. Is a bull market a bad time to buy him stocks instead?",
+      "url": "https://www.marketwatch.com/story/our-4-year-old-son-has-100-000-in-his-529-account-should-we-buy-him-stocks-instead-3ca745b2?mod=mw_rss_topstories",
+      "summary": "“I’d love for our son to be able to attend college without needing to take out student loans.”",
+      "author": "Quentin Fottrell",
+      "published": "Thu, 20 Aug 2026 22:00:00 GMT",
       "tags": []
     }
   ],

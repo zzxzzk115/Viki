@@ -1,13 +1,13 @@
 {
-  "date": "2026-08-20",
-  "word": "immutable",
-  "ipa": "ɪˈmjuː.tə.b",
-  "ipaUs": "ɪˈmjuː.t̬ə.b",
+  "date": "2026-08-21",
+  "word": "impartial",
+  "ipa": "ɪmˈpɑː.ʃ",
+  "ipaUs": "ɪmˈpɑːr.ʃ",
   "pos": "adjective",
-  "definition": "not changing, or unable to be changed",
-  "definitionZh": "永恒的",
-  "example": "an immutable law",
-  "exampleZh": "永恒的法则",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uki/ukimm/ukimmod020.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/eus/eus72/eus72334.mp3"
+  "definition": "not supporting any of the sides involved in an argument",
+  "definitionZh": "公正的",
+  "example": "impartial advice",
+  "exampleZh": "客观公正的建议",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uki/ukimp/ukimpar002.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/i/imp/impar/impartial.mp3"
 }
