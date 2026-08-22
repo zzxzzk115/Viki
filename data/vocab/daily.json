@@ -1,13 +1,13 @@
 {
-  "date": "2026-08-21",
-  "word": "impartial",
-  "ipa": "ɪmˈpɑː.ʃ",
-  "ipaUs": "ɪmˈpɑːr.ʃ",
+  "date": "2026-08-22",
+  "word": "imperative",
+  "ipa": "ɪmˈper.ə.tɪv",
+  "ipaUs": "ɪmˈper.ə.t̬ɪv",
   "pos": "adjective",
-  "definition": "not supporting any of the sides involved in an argument",
-  "definitionZh": "公正的",
-  "example": "impartial advice",
-  "exampleZh": "客观公正的建议",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uki/ukimp/ukimpar002.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/i/imp/impar/impartial.mp3"
+  "definition": "extremely important or urgent",
+  "definitionZh": "极重要的",
+  "example": "The president said it was imperative that",
+  "exampleZh": "总统说当前要务是确保所有人质都获释。",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uki/ukimp/ukimpar028.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/eus/eus72/eus72337.mp3"
 }

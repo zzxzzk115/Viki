@@ -1,117 +1,132 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-22",
   "items": [
     {
-      "id": "8695e537de65",
+      "id": "abd235f507c2",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Uintah County, Utah",
-      "url": "https://simple.wikipedia.org/wiki/Uintah_County%2C_Utah",
-      "summary": "Uintah County is a county in the U.S. state of Utah. As of the 2020 census, the county had a population of 35,620. The county seat is Vernal.",
+      "title": "Holocaust trivialization",
+      "url": "https://simple.wikipedia.org/wiki/Holocaust_trivialization",
+      "summary": "Holocaust trivialization is the use of the word Holocaust in a way that decreases the perceived size or importance of the Holocaust. More specifically, Dr. Manfred Gerstenfeld of the Jerusalem Center for Security and Foreign Affairs (JCFA), observed Holocaust trivialization as[A…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "b59a63505c8d",
+      "id": "4eb3a101aaa8",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Heinz Arzberger",
-      "url": "https://simple.wikipedia.org/wiki/Heinz_Arzberger",
-      "summary": "Heinz Arzberger is a retired Austrian professional footballer. He played as goalkeeper. After his career he became goalkeeper coach for FC Red Bull Salzburg and FC Liefering.",
+      "title": "Raúl Padilla",
+      "url": "https://simple.wikipedia.org/wiki/Ra%C3%BAl_Padilla",
+      "summary": "Raúl \"Chato\" Padilla Mendoza was a Mexican actor. He was known for his role as Jaimito, el Cartero in El Chavo del Ocho.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "ad9e90903af4",
+      "id": "2715b13cc178",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Copyright does not protect AI-generated content in EU",
-      "url": "https://mathstodon.xyz/@maxpool/117128107757895678",
+      "title": "There's no reason for software to be slow anymore",
+      "url": "https://danluu.com/perf-opt/",
       "summary": "",
-      "author": "u1hcw9nx",
+      "author": "Jach",
+      "published": "2026-08-22",
+      "tags": [
+        "▲ 57"
+      ]
+    },
+    {
+      "id": "2eabb3f0a812",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Felony Bench",
+      "url": "https://www.felonybench.com/",
+      "summary": "",
+      "author": "colinprince",
       "published": "2026-08-21",
       "tags": [
-        "▲ 134"
+        "▲ 545"
       ]
     },
     {
-      "id": "0dbce6fe1027",
+      "id": "ee8e0afe53f1",
       "category": "tech",
       "source": "Hacker News",
-      "title": "It is a sign of the times that Amazon gets to call this fair use",
-      "url": "http://observationalepidemiology.blogspot.com/2026/08/it-is-sign-of-times-that-amazon-gets-to.html",
+      "title": "Kobo can run apps now",
+      "url": "https://bandarlabs.github.io/Cobalt/",
       "summary": "",
-      "author": "sonicrocketman",
+      "author": "thepoet",
       "published": "2026-08-21",
       "tags": [
-        "▲ 76"
+        "▲ 446"
       ]
     },
     {
-      "id": "ba7ef830fa2a",
+      "id": "31ef8ebb46d9",
       "category": "tech",
       "source": "Hacker News",
-      "title": "The August 17 outage, and the work ahead",
-      "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
-      "summary": "",
-      "author": "0xedb",
-      "published": "2026-08-20",
+      "title": "Rust Glancer: Rust LSP using 100x less RAM",
+      "url": "https://rust-glancer.github.io/blog/hello-world/",
+      "summary": "https://matklad.github.io/2026/08/21/rust-glancer.html",
+      "author": "matklad",
+      "published": "2026-08-21",
       "tags": [
-        "▲ 345"
+        "▲ 42"
       ]
     },
     {
-      "id": "68486633cf63",
+      "id": "5d9a1ebcc719",
       "category": "tech",
       "source": "Hacker News",
-      "title": "I like 'em thick: an apology to my English teachers",
-      "url": "https://www.experimental-history.com/p/i-like-em-thick",
+      "title": "Initial focus for our partnership with Motorola is a regular non-folding device",
+      "url": "https://grapheneos.social/@GrapheneOS/117136278553665985",
       "summary": "",
-      "author": "Ariarule",
-      "published": "2026-08-18",
+      "author": "Cider9986",
+      "published": "2026-08-22",
       "tags": [
-        "▲ 584"
+        "▲ 17"
       ]
     },
     {
-      "id": "b9407ca92b8d",
+      "id": "ec74d4d3ec74",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Consumer Rights Wiki",
-      "url": "https://consumerrights.wiki/w/Main_Page",
-      "summary": "",
-      "author": "gregsadetsky",
-      "published": "2026-08-20",
+      "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+      "url": "https://ozbrain.com",
+      "summary": "I think agent-first chat interfaces will be a primary software modality and busy dashboard/UI will go away. I’m not sure who exactly wins it, but I want my knowledge to grow/go with me. A lot of the “knowledge” ie research, analysis, reasoning will be done by agents as the prima…",
+      "author": "dariusmonsef",
+      "published": "2026-08-21",
       "tags": [
-        "▲ 236"
+        "▲ 44"
       ]
     },
     {
-      "id": "c992986a594f",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
-      "url": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
-      "summary": "",
-      "author": "speckx",
-      "published": "2026-08-20",
-      "tags": [
-        "▲ 1065"
-      ]
-    },
-    {
-      "id": "dafeef112393",
+      "id": "9883a561bcd9",
       "category": "tech",
       "source": "DEV Community",
-      "title": "HappierLeads Data – 175M+ Verified B2B Contacts",
-      "url": "https://dev.to/al_beruni_6f2dfaf29b51d96/happierleads-data-175m-verified-b2b-contacts-1iae",
-      "summary": "HappierLeads Data Review: Access 175M+ Verified B2B Contacts with Instant CSV Downloads – My Detailed Hands-On Experience As a freelance digital marketer based in Rajshahi, Bangladesh, finding high-quality B2B leads has always been one of the most time-consuming parts of client …",
-      "author": "Al Beruni",
-      "published": "Fri, 21 Aug 2026 02:34:16 +0000",
+      "title": "Safely in 2026 Buying Old Gmail Accounts Guide Aged...",
+      "url": "https://dev.to/lannagrantwqkqt/safely-in-2026-buying-old-gmail-accounts-guide-aged-50bm",
+      "summary": "Buy Old Gmail Accounts 🌐 ⚡️🕐 Instant Reply Guaranteed — Message now for quick assistance. 🛒🏆📱 Telegram: https://t.me/getpvatop 🛒🏆📱 WhatsApp : +1(873)710-7167 🛒🏆📢 Telegram Username: @getpvatop 🛒🏆📧 Email: getpvatop@gmail.com 🛒🏆💜 Discord Community: getpvatop 🛒🏆🌍…",
+      "author": "lannagrantwq",
+      "published": "Sat, 22 Aug 2026 02:29:27 +0000",
+      "tags": [
+        "webdev",
+        "ai",
+        "programming"
+      ]
+    },
+    {
+      "id": "cfe1896cae36",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "boys hostel near Pari Chowk",
+      "url": "https://dev.to/thehotelproperties/boys-hostel-near-pari-chowk-3icd",
+      "summary": "Discover comfortable and affordable living at a Boys Hostel Near Pari Chowk, Greater Noida with EzStays. Choose a convenient accommodation option in a prime location with easy access to nearby colleges, educational hubs and daily essentials. 📍 Office: Office Unit - 03 & 04, 30t…",
+      "author": "seo work",
+      "published": "Sat, 22 Aug 2026 02:26:50 +0000",
       "tags": [
         "ai",
         "webdev",
@@ -120,184 +135,167 @@
       ]
     },
     {
-      "id": "dcca4a9240b0",
+      "id": "485fdfb0389f",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Why I Switched to Hostinger — Honest Review After Using It for Months",
-      "url": "https://dev.to/nick_davies_323125afbb05c/why-i-switched-to-hostinger-honest-review-after-using-it-for-months-4030",
-      "summary": "I've tried multiple hosting providers over the years. Here's why Hostinger is my current recommendation, especially for developers and small businesses. What I Like Price-to-Value Ratio Starting at $2.99/mo for the Premium plan, you get more than most hosts charge $10+/mo for: F…",
+      "title": "Hostinger Plans Compared: Which One Do You Actually Need in 2026?",
+      "url": "https://dev.to/nick_davies_323125afbb05c/hostinger-plans-compared-which-one-do-you-actually-need-in-2026-i08",
+      "summary": "Choosing a hosting plan shouldn't be complicated. Here's a breakdown of Hostinger's three main plans so you can pick the right one without overpaying. Plan Comparison Plan Price Websites Storage Backups Best For Premium $2.99/mo 3 20 GB SSD Weekly Personal sites, blogs Unlimited…",
       "author": "Nick Davies",
-      "published": "Fri, 21 Aug 2026 02:25:35 +0000",
+      "published": "Sat, 22 Aug 2026 02:16:57 +0000",
       "tags": [
         "webdev",
         "hosting",
-        "review",
+        "beginners",
         "wordpress"
       ]
     },
     {
-      "id": "608e7107ef64",
+      "id": "0fa625c38f61",
       "category": "tech",
       "source": "DEV Community",
-      "title": "React: valida email sin respuestas viejas",
-      "url": "https://dev.to/silviutech/react-valida-email-sin-respuestas-viejas-33od",
-      "summary": "Una de las cosas mas molestas en formularios modernos no es el error en si. Es el error que llega tarde. La persona escribe su email, corrige una letra, y doscientos milisegundos despues aparece un mensaje sobre la version anterior del campo. El resultado se siente medio roto, a…",
-      "author": "Silviu Technology",
-      "published": "Fri, 21 Aug 2026 02:24:31 +0000",
+      "title": "How to Scrape Any Social Media Platform in 2026 — Complete Guide",
+      "url": "https://dev.to/nick_davies_323125afbb05c/how-to-scrape-any-social-media-platform-in-2026-complete-guide-4b6a",
+      "summary": "Need social media data for research, marketing, or AI training? Here are the best tools. The Problem Most developers still write custom scripts for data collection. This means: Hours of development time Maintaining proxy infrastructure Dealing with CAPTCHAs and rate limits Scrip…",
+      "author": "Nick Davies",
+      "published": "Sat, 22 Aug 2026 02:11:47 +0000",
       "tags": [
-        "react",
-        "a11y",
-        "performance",
+        "socialmedia",
+        "api",
+        "automation",
         "webdev"
       ]
     },
     {
-      "id": "0098980daa57",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Mở 20 tab Chrome kèm IDE thì 16GB RAM có đuối hơn 32GB?",
-      "url": "https://dev.to/hung_phatlaptop_a651fc86/mo-20-tab-chrome-kem-ide-thi-16gb-ram-co-duoi-hon-32gb-2lhb",
-      "summary": "Nhiều người nghĩ 16GB RAM vẫn đủ cho mọi tác vụ lập trình web hiện đại. Thực tế dùng hàng ngày lại chỉ ra điều ngược lại khi bạn vừa viết code vừa tra cứu tài liệu và chạy công cụ trực tuyến. Mức tiêu thụ thực tế khi dồn 20 tab và VS Code Quy trình làm việc thực tế của một web d…",
-      "author": "Review Laptop",
-      "published": "Fri, 21 Aug 2026 02:22:32 +0000",
-      "tags": [
-        "vscode",
-        "performance",
-        "webdev",
-        "productivity"
-      ]
-    },
-    {
-      "id": "ddf36a5e71c2",
+      "id": "a13ad8524efb",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Stanley Goble",
-      "url": "https://en.wikipedia.org/wiki/Stanley_Goble",
-      "summary": "Air Vice-Marshal Stanley James Goble was a senior commander in the Royal Australian Air Force (RAAF). He served three terms as Chief of the Air Staff, alternating with Wing Commander Richard Williams. Goble came to national attention in 1924 when he and fellow RAAF pilot Ivor Mc…",
+      "title": "Edmontosaurus mummy SMF R 4036",
+      "url": "https://en.wikipedia.org/wiki/Edmontosaurus_mummy_SMF_R_4036",
+      "summary": "The Edmontosaurus mummy SMF R 4036, nicknamed the Senckenberg mummy or Edmond, is an exceptionally well-preserved dinosaur fossil in the collection of the Senckenberg Museum (SMF) in Frankfurt am Main, Germany. It was found in 1910 in Wyoming, United States, in rocks of the Lanc…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "e28573af70a1",
+      "id": "d02a76f12d1e",
       "category": "news",
       "source": "BBC 世界",
-      "title": "UK, France, Germany, Italy and Canada condemn Israel's West Bank settlement project",
-      "url": "https://www.bbc.co.uk/news/articles/c998evlgz8ko?at_medium=RSS&at_campaign=rss",
-      "summary": "European countries and Canada pile on pressure over Israel's plans to expand settlements in a strategically vital part of the occupied West Bank.",
-      "published": "Thu, 20 Aug 2026 18:55:14 GMT",
+      "title": "'We have more work to do', says Canada negotiator as US trade deadline looms",
+      "url": "https://www.bbc.co.uk/news/articles/czjlr0evy0do?at_medium=RSS&at_campaign=rss",
+      "summary": "Negotiations to finalise a deal between the US and Canada are going down to the wire ahead of a Friday night deadline.",
+      "published": "Sat, 22 Aug 2026 00:40:47 GMT",
       "tags": []
     },
     {
-      "id": "7bad4a198588",
+      "id": "f3ee26afe8b1",
       "category": "news",
       "source": "BBC 世界",
-      "title": "How much could Trump's 'economic D-Day' hurt Iran?",
-      "url": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro?at_medium=RSS&at_campaign=rss",
-      "summary": "Iran has so far proved adept at finding ways around years of already punishing sanctions on its economy.",
-      "published": "Thu, 20 Aug 2026 23:16:45 GMT",
+      "title": "TikTok to pay $400m to US in one of largest child privacy settlements",
+      "url": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss",
+      "summary": "The deal stems from a 2024 lawsuit alleging TikTok and its parent company ByteDance collected \"vast amounts of data\" on millions of users under the age of 13.",
+      "published": "Fri, 21 Aug 2026 22:36:12 GMT",
       "tags": []
     },
     {
-      "id": "cedf7f5c0142",
+      "id": "be74360785ae",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Russia 'purposefully' hit critical infrastructure in latest strikes, Kyiv mayor says",
-      "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
-      "summary": "At least 17 people were killed in the \"massive attack\" overnight on Ukraine's capital, as mayor Vitali Klitschko warns hot water supply has been disrupted.",
-      "published": "Thu, 20 Aug 2026 17:14:55 GMT",
+      "title": "Israel re-establishes closed West Bank settlement, defying growing international protests",
+      "url": "https://www.bbc.co.uk/news/articles/cn7n0l4p0kzo?at_medium=RSS&at_campaign=rss",
+      "summary": "Thirty \"pioneer families\" have arrived on a wave of nationalism driven by Israel's government, but the rapid change has left nearby Palestinian residents fearful.",
+      "published": "Fri, 21 Aug 2026 05:00:57 GMT",
       "tags": []
     },
     {
-      "id": "0582391aa0b0",
+      "id": "fcfb10d2b5d4",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump wants to be friends with Kim - but South Korea could pay the price",
-      "url": "https://www.bbc.co.uk/news/articles/c4gj1vje8dxo?at_medium=RSS&at_campaign=rss",
-      "summary": "US military exercises with South Korea end early on Friday, at a time when the North is in a position of strength.",
-      "published": "Thu, 20 Aug 2026 22:01:26 GMT",
+      "title": "Russian double-tap drone strike kills 16 in Ukrainian mall, officials say",
+      "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
+      "summary": "At least 130 people, including 23 children, were also injured when the shopping centre was hit, according to the regional head.",
+      "published": "Sat, 22 Aug 2026 01:47:54 GMT",
       "tags": []
     },
     {
-      "id": "b7e65a5154d5",
+      "id": "f90858f43fcf",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "US distributor of China’s most popular humanoid robots pivots after US ban",
-      "url": "https://arstechnica.com/gadgets/2026/08/us-distributor-of-chinas-most-popular-humanoid-robots-pivots-after-us-ban/",
-      "summary": "FCC ban on foreign-made robots accelerated RoboStore’s US manufacturing plans.",
-      "author": "Jeremy Hsu",
-      "published": "Thu, 20 Aug 2026 22:00:11 +0000",
-      "tags": [
-        "Tech",
-        "humanoid robots",
-        "Industrial robots",
-        "medical robots"
-      ]
-    },
-    {
-      "id": "6a6c4f15758f",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Europe cancels planned upgrades for Ariane 6 rocket",
-      "url": "https://arstechnica.com/space/2026/08/europe-cancels-planned-upgrades-for-ariane-6-rocket/",
-      "summary": "Arianespace hasn’t publicly disclosed the cost for an Ariane 6 launch.",
-      "author": "Eric Berger",
-      "published": "Thu, 20 Aug 2026 21:40:52 +0000",
+      "title": "Trump's space transportation policy calls for new spaceport on federal land",
+      "url": "https://arstechnica.com/space/2026/08/trump-admin-calls-for-more-spaceports-to-handle-surge-in-launches/",
+      "summary": "\"We probably need another site that's capable of heavy and super heavy launch capability.\"",
+      "author": "Stephen Clark",
+      "published": "Fri, 21 Aug 2026 23:32:17 +0000",
       "tags": [
         "Space",
-        "ariane 6",
-        "Future",
-        "rockets"
+        "Commercial space",
+        "launch",
+        "military space"
       ]
     },
     {
-      "id": "4f853a8a6020",
+      "id": "f7d709790eca",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "They survived 9/11; 25 years later, their bonds remain unbroken",
-      "url": "https://arstechnica.com/culture/2026/08/new-9-11-documentary-finds-hope-in-the-horror/",
-      "summary": "Survivors reconnect with those who saved them in National Geographic's 9/11: Reunited .",
-      "author": "Jennifer Ouellette",
-      "published": "Thu, 20 Aug 2026 21:25:25 +0000",
+      "title": "Thunder + fiber-optic cabling used for seismic imaging",
+      "url": "https://arstechnica.com/science/2026/08/researchers-use-thunderquakes-to-study-structure-of-earths-surface/",
+      "summary": "Thunderstorms make seismic waves that can be used to find sub-surface features.",
+      "author": "John Timmer",
+      "published": "Fri, 21 Aug 2026 20:26:46 +0000",
       "tags": [
-        "Culture",
-        "9/11",
-        "disney plus",
-        "documentaries"
+        "Science",
+        "atmospheric science",
+        "Earth sciences",
+        "seismology"
       ]
     },
     {
-      "id": "a2ae4614d679",
+      "id": "05f949a592c9",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Hidden Zillow listings created fake supply shock, raising NYC rents, lawsuit says",
+      "url": "https://arstechnica.com/tech-policy/2026/08/class-action-accuses-brokers-of-hiding-zillow-listings-driving-up-nyc-rents/",
+      "summary": "Renters say hidden Zillow listings make it harder to afford living in New York City.",
+      "author": "Ashley Belanger",
+      "published": "Fri, 21 Aug 2026 20:10:50 +0000",
+      "tags": [
+        "Policy",
+        "real estate",
+        "Zillow"
+      ]
+    },
+    {
+      "id": "417725a13565",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "My son does not work, yet pays $500 for Affordable Care Act health insurance. Is that fair?",
-      "url": "https://www.marketwatch.com/story/my-son-does-not-work-yet-he-pays-500-for-aca-health-insurance-how-is-that-fair-92f578c4?mod=mw_rss_topstories",
-      "summary": "“I see people who have a lot of money but little or no taxable income who still qualify for ACA Marketplace subsidies.”",
-      "author": "Quentin Fottrell",
-      "published": "Thu, 20 Aug 2026 23:00:00 GMT",
+      "title": "You can now Venmo your kid’s college tuition. But should you?",
+      "url": "https://www.marketwatch.com/story/should-you-venmo-your-tuition-heres-what-to-know-as-colleges-add-new-payment-options-1a70ae96?mod=mw_rss_topstories",
+      "summary": "Some universities will begin accepting the nontraditional payment method as consumers seek flexible spending options.",
+      "author": "Genna Contino",
+      "published": "Fri, 21 Aug 2026 21:20:00 GMT",
       "tags": []
     },
     {
-      "id": "edeaa17caab4",
+      "id": "8702e8064a7a",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "I hold my mother-in-law’s power of attorney. I’m also her executor and trustee. Do I have too much power over her affairs?",
-      "url": "https://www.marketwatch.com/story/im-my-mother-in-laws-power-of-attorney-executor-and-trustee-do-i-hold-all-the-power-a11968a2?mod=mw_rss_topstories",
-      "summary": "“There is a lot of legal and financial power in my hands.”",
-      "author": "Quentin Fottrell",
-      "published": "Thu, 20 Aug 2026 22:45:00 GMT",
+      "title": "Soon you can buy Medicare Advantage plans at Costco. What you need to know.",
+      "url": "https://www.marketwatch.com/story/soon-you-can-buy-medicare-advantage-plans-at-costco-what-you-need-to-know-34e03242?mod=mw_rss_topstories",
+      "summary": "The warehouse club becomes the latest consumer brand to offer health insurance.",
+      "author": "Jessica Hall,Jaimy Lee",
+      "published": "Fri, 21 Aug 2026 21:17:00 GMT",
       "tags": []
     },
     {
-      "id": "ee9d0964dd88",
+      "id": "c1a7f84a43a0",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Our 4-year-old son has $100,000 in his 529 account. Is a bull market a bad time to buy him stocks instead?",
-      "url": "https://www.marketwatch.com/story/our-4-year-old-son-has-100-000-in-his-529-account-should-we-buy-him-stocks-instead-3ca745b2?mod=mw_rss_topstories",
-      "summary": "“I’d love for our son to be able to attend college without needing to take out student loans.”",
-      "author": "Quentin Fottrell",
-      "published": "Thu, 20 Aug 2026 22:00:00 GMT",
+      "title": "Tesla’s stock jumps as the company gets cleared for a Las Vegas robotaxi launch",
+      "url": "https://www.marketwatch.com/story/tesla-stocks-jumps-as-the-company-gets-ready-for-a-robotaxi-push-c680f87f?mod=mw_rss_topstories",
+      "summary": "The automaker plans to soon launch its Cybercab in Austin, Texas, and got the nod to deploy thousands of vehicles in Nevada.",
+      "author": "William Gavin",
+      "published": "Fri, 21 Aug 2026 20:34:00 GMT",
       "tags": []
     }
   ],
