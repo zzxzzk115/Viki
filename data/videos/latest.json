@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-22",
   "items": [
     {
       "id": "22acc98b4302",
@@ -68,6 +68,50 @@
       "category": "图形学"
     },
     {
+      "id": "9fa31e74074c",
+      "platform": "youtube",
+      "videoId": "YRwtopFzRZ0",
+      "title": "The Matrix Awakens - Unreal Engine 5 \"Experience\" // Game Engine Dev Reacts",
+      "channel": "More Cherno",
+      "url": "https://www.youtube.com/watch?v=YRwtopFzRZ0",
+      "thumb": "https://i2.ytimg.com/vi/YRwtopFzRZ0/hqdefault.jpg",
+      "published": "2022-07-08",
+      "category": "引擎"
+    },
+    {
+      "id": "984c56e48d53",
+      "platform": "youtube",
+      "videoId": "sY_U3-ih4Bs",
+      "title": "BLACK and WHITE Game!  // Game Engine Dev Reacts to Trek to Yomi",
+      "channel": "More Cherno",
+      "url": "https://www.youtube.com/watch?v=sY_U3-ih4Bs",
+      "thumb": "https://i4.ytimg.com/vi/sY_U3-ih4Bs/hqdefault.jpg",
+      "published": "2022-05-05",
+      "category": "引擎"
+    },
+    {
+      "id": "74d5969623e3",
+      "platform": "bilibili",
+      "videoId": "BV1BTnxzKEVv",
+      "title": "2025.9月编程语言排行榜 C++、C、JAVA亚军之争异常激烈 Perl的火爆与人工智能无关",
+      "channel": "原子之音",
+      "url": "https://www.bilibili.com/video/BV1BTnxzKEVv",
+      "thumb": "https://i0.hdslb.com/bfs/archive/57a35f617d5a79a0ce357179e98382a0c2786185.jpg",
+      "published": "2025-09-26",
+      "category": "引擎"
+    },
+    {
+      "id": "20c78ca36141",
+      "platform": "bilibili",
+      "videoId": "BV1TXWVzZEx4",
+      "title": "虚幻中的C++: 输入系统(Input与Enhanced Input)",
+      "channel": "原子之音",
+      "url": "https://www.bilibili.com/video/BV1TXWVzZEx4",
+      "thumb": "https://i0.hdslb.com/bfs/archive/56b88c2f99c47fd48d8dd518d296fa8697902d72.jpg",
+      "published": "2025-09-20",
+      "category": "引擎"
+    },
+    {
       "id": "a468d6a6f3e6",
       "platform": "youtube",
       "videoId": "0aTUTxOiRgU",
@@ -90,26 +134,70 @@
       "category": "CS"
     },
     {
-      "id": "9018e970ca98",
-      "platform": "bilibili",
-      "videoId": "BV1ScKR6QEQF",
-      "title": "古法做视频里加一点点科技",
-      "channel": "跟李沐学AI",
-      "url": "https://www.bilibili.com/video/BV1ScKR6QEQF",
-      "thumb": "https://i0.hdslb.com/bfs/archive/b9d2e88f8d41fe24cecddcf715756265ff68b9d2.jpg",
-      "published": "2026-06-29",
+      "id": "05c281aad155",
+      "platform": "youtube",
+      "videoId": "mQa_JuujETo",
+      "title": "olc::CodeZone #78 - LivePixel History Hackjob",
+      "channel": "javidx9 extra",
+      "url": "https://www.youtube.com/watch?v=mQa_JuujETo",
+      "thumb": "https://i2.ytimg.com/vi/mQa_JuujETo/hqdefault.jpg",
+      "published": "2025-02-06",
       "category": "CS"
     },
     {
-      "id": "4001551d4ad2",
-      "platform": "bilibili",
-      "videoId": "BV1RfEw6LEfF",
-      "title": "能跟你对话的TTS【开源】",
-      "channel": "跟李沐学AI",
-      "url": "https://www.bilibili.com/video/BV1RfEw6LEfF",
-      "thumb": "https://i0.hdslb.com/bfs/archive/414b79823c78f30b3e60d27f14c0f44111f0234f.jpg",
-      "published": "2026-06-04",
+      "id": "a9de4fe7558a",
+      "platform": "youtube",
+      "videoId": "3dsilDca9DA",
+      "title": "olc::CodeZone #77 - LivePixel Lamp Server",
+      "channel": "javidx9 extra",
+      "url": "https://www.youtube.com/watch?v=3dsilDca9DA",
+      "thumb": "https://i4.ytimg.com/vi/3dsilDca9DA/hqdefault.jpg",
+      "published": "2025-02-06",
       "category": "CS"
+    },
+    {
+      "id": "0b91f31069ca",
+      "platform": "bilibili",
+      "videoId": "BV1q2jh6FEhX",
+      "title": "30 - Agentic AI 和我们的未来；课程总结 [2026 南京大学操作系统原理]",
+      "channel": "绿导师原谅你了",
+      "url": "https://www.bilibili.com/video/BV1q2jh6FEhX",
+      "thumb": "https://i1.hdslb.com/bfs/archive/b7e8dace001aa6b23bc6117e75ba72fc9b3b2e21.jpg",
+      "published": "2026-06-18",
+      "category": "CS"
+    },
+    {
+      "id": "7ab9db96faa7",
+      "platform": "bilibili",
+      "videoId": "BV1uaEB66EAH",
+      "title": "29 - 虚拟机和容器 [2026 南京大学操作系统原理]",
+      "channel": "绿导师原谅你了",
+      "url": "https://www.bilibili.com/video/BV1uaEB66EAH",
+      "thumb": "https://i2.hdslb.com/bfs/archive/ac577490a4b6c1a5371f75e9aaab9f3601aba2b4.jpg",
+      "published": "2026-06-11",
+      "category": "CS"
+    },
+    {
+      "id": "4a9bfb807dd8",
+      "platform": "youtube",
+      "videoId": "CqApXh80HVo",
+      "title": "Canada's Condo Conundrum",
+      "channel": "The Plain Bagel",
+      "url": "https://www.youtube.com/watch?v=CqApXh80HVo",
+      "thumb": "https://i4.ytimg.com/vi/CqApXh80HVo/hqdefault.jpg",
+      "published": "2026-08-08",
+      "category": "金融"
+    },
+    {
+      "id": "30974e7ddbe6",
+      "platform": "youtube",
+      "videoId": "YgbbI_nRF2A",
+      "title": "Here We Go Again",
+      "channel": "The Plain Bagel",
+      "url": "https://www.youtube.com/watch?v=YgbbI_nRF2A",
+      "thumb": "https://i2.ytimg.com/vi/YgbbI_nRF2A/hqdefault.jpg",
+      "published": "2026-07-24",
+      "category": "金融"
     },
     {
       "id": "7a7ea21493aa",
@@ -156,6 +244,17 @@
       "category": "历史"
     },
     {
+      "id": "1eb786886d2d",
+      "platform": "youtube",
+      "videoId": "FE1pzridr7w",
+      "title": "BBC Learning English does the 'trapdoor' trend! Can you guess the last one?  #shorts",
+      "channel": "BBC Learning English",
+      "url": "https://www.youtube.com/shorts/FE1pzridr7w",
+      "thumb": "https://i3.ytimg.com/vi/FE1pzridr7w/hqdefault.jpg",
+      "published": "2026-08-21",
+      "category": "英语"
+    },
+    {
       "id": "3bc891b2e15d",
       "platform": "youtube",
       "videoId": "jUsQUPyFbXY",
@@ -167,14 +266,25 @@
       "category": "英语"
     },
     {
-      "id": "5d67c860b166",
+      "id": "21cff7492871",
       "platform": "youtube",
-      "videoId": "SC_opiKLohg",
-      "title": "Sharing the road with driverless cars ⏲️ 6 Minute English",
-      "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=SC_opiKLohg",
-      "thumb": "https://i4.ytimg.com/vi/SC_opiKLohg/hqdefault.jpg",
-      "published": "2026-08-20",
+      "videoId": "VPDABZXkriM",
+      "title": "What getting laser eye surgery is really like - From Astigmatism to 20:20 vision | Ad",
+      "channel": "Lucy Bella",
+      "url": "https://www.youtube.com/watch?v=VPDABZXkriM",
+      "thumb": "https://i3.ytimg.com/vi/VPDABZXkriM/hqdefault.jpg",
+      "published": "2020-10-26",
+      "category": "英语"
+    },
+    {
+      "id": "2ee25237109d",
+      "platform": "youtube",
+      "videoId": "GnQkzSZdEts",
+      "title": "Lucy Bella Earl Live Stream",
+      "channel": "Lucy Bella",
+      "url": "https://www.youtube.com/watch?v=GnQkzSZdEts",
+      "thumb": "https://i4.ytimg.com/vi/GnQkzSZdEts/hqdefault.jpg",
+      "published": "2019-05-02",
       "category": "英语"
     }
   ],
@@ -182,23 +292,21 @@
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
     "图形学 · 512313464: 2 条",
-    "引擎 · @TheCherno: 0 条",
-    "Bilibili 437860379: code=-352 风控校验失败",
-    "引擎 · 437860379: 0 条",
+    "引擎 · @TheCherno: 2 条",
+    "引擎 · 437860379: 2 条",
     "CS · @Computerphile: 2 条",
-    "CS · @javidx9: 0 条",
-    "CS · 1567748478: 2 条",
-    "Bilibili 202224425: code=-352 风控校验失败",
-    "CS · 202224425: 0 条",
-    "金融 · @ThePlainBagel: 0 条",
-    "Bilibili 520819684: code=-352 风控校验失败",
+    "CS · @javidx9: 2 条",
+    "Bilibili 1567748478: code=-352 风控校验失败",
+    "CS · 1567748478: 0 条",
+    "CS · 202224425: 2 条",
+    "金融 · @ThePlainBagel: 2 条",
     "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
+    "Bilibili 11646119: code=-352 风控校验失败",
     "历史 · 11646119: 0 条",
-    "Bilibili 23947287: code=-352 风控校验失败",
     "历史 · 23947287: 0 条",
     "英语 · @bbclearningenglish: 2 条",
-    "英语 · @EnglishwithLucy: 0 条"
+    "英语 · @EnglishwithLucy: 2 条"
   ]
 }
