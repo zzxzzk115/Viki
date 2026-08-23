@@ -1,13 +1,13 @@
 {
-  "date": "2026-08-22",
-  "word": "imperative",
-  "ipa": "ɪmˈper.ə.tɪv",
-  "ipaUs": "ɪmˈper.ə.t̬ɪv",
+  "date": "2026-08-23",
+  "word": "implicit",
+  "ipa": "ɪmˈplɪs.ɪt",
+  "ipaUs": "ɪmˈplɪs.ɪt",
   "pos": "adjective",
-  "definition": "extremely important or urgent",
-  "definitionZh": "极重要的",
-  "example": "The president said it was imperative that",
-  "exampleZh": "总统说当前要务是确保所有人质都获释。",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uki/ukimp/ukimpar028.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/eus/eus72/eus72337.mp3"
+  "definition": "suggested but not communicated directly",
+  "definitionZh": "不明言的",
+  "example": "He interpreted her comments as an implicit criticism of the government.",
+  "exampleZh": "他将她的评论理解为对政府的含蓄批评。",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uki/ukimp/ukimpet024.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/i/imp/impli/implicit.mp3"
 }
