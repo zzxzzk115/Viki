@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-22",
+  "date": "2026-08-23",
   "items": [
     {
       "id": "22acc98b4302",
@@ -46,28 +46,6 @@
       "category": "图形学"
     },
     {
-      "id": "5348402d958e",
-      "platform": "bilibili",
-      "videoId": "BV1ekgK6NEwv",
-      "title": "GAMES Webinar 411-CAX专题-丁俊豪-从数字几何到金属实体:复杂结构的增材制造、路径生成与性能调控",
-      "channel": "GAMES-Webinar",
-      "url": "https://www.bilibili.com/video/BV1ekgK6NEwv",
-      "thumb": "https://i1.hdslb.com/bfs/archive/e890c3b8f1ba391b1f2f3d9b01b09bc553eb8098.jpg",
-      "published": "2026-08-14",
-      "category": "图形学"
-    },
-    {
-      "id": "4de7d4784480",
-      "platform": "bilibili",
-      "videoId": "BV1VkgK6NEjN",
-      "title": "GAMES Webinar 411-CAX专题-黄昱铭-增材制造几何计算与优化",
-      "channel": "GAMES-Webinar",
-      "url": "https://www.bilibili.com/video/BV1VkgK6NEjN",
-      "thumb": "https://i0.hdslb.com/bfs/archive/892a7f52fd7cd7d553ec9ca7f1afdc98b2818eb4.jpg",
-      "published": "2026-08-14",
-      "category": "图形学"
-    },
-    {
       "id": "9fa31e74074c",
       "platform": "youtube",
       "videoId": "YRwtopFzRZ0",
@@ -90,26 +68,15 @@
       "category": "引擎"
     },
     {
-      "id": "74d5969623e3",
-      "platform": "bilibili",
-      "videoId": "BV1BTnxzKEVv",
-      "title": "2025.9月编程语言排行榜 C++、C、JAVA亚军之争异常激烈 Perl的火爆与人工智能无关",
-      "channel": "原子之音",
-      "url": "https://www.bilibili.com/video/BV1BTnxzKEVv",
-      "thumb": "https://i0.hdslb.com/bfs/archive/57a35f617d5a79a0ce357179e98382a0c2786185.jpg",
-      "published": "2025-09-26",
-      "category": "引擎"
-    },
-    {
-      "id": "20c78ca36141",
-      "platform": "bilibili",
-      "videoId": "BV1TXWVzZEx4",
-      "title": "虚幻中的C++: 输入系统(Input与Enhanced Input)",
-      "channel": "原子之音",
-      "url": "https://www.bilibili.com/video/BV1TXWVzZEx4",
-      "thumb": "https://i0.hdslb.com/bfs/archive/56b88c2f99c47fd48d8dd518d296fa8697902d72.jpg",
-      "published": "2025-09-20",
-      "category": "引擎"
+      "id": "95b8d6e50ed2",
+      "platform": "youtube",
+      "videoId": "-mXaU3N9e8Y",
+      "title": "2.685 is (almost) everywhere - Numberphile",
+      "channel": "Numberphile",
+      "url": "https://www.youtube.com/watch?v=-mXaU3N9e8Y",
+      "thumb": "https://i2.ytimg.com/vi/-mXaU3N9e8Y/hqdefault.jpg",
+      "published": "2026-08-22",
+      "category": "CS"
     },
     {
       "id": "a468d6a6f3e6",
@@ -120,17 +87,6 @@
       "url": "https://www.youtube.com/watch?v=0aTUTxOiRgU",
       "thumb": "https://i1.ytimg.com/vi/0aTUTxOiRgU/hqdefault.jpg",
       "published": "2026-08-10",
-      "category": "CS"
-    },
-    {
-      "id": "488f250f7008",
-      "platform": "youtube",
-      "videoId": "oYGBRhS1Ujo",
-      "title": "Cutting Moons  - Numberphile",
-      "channel": "Numberphile",
-      "url": "https://www.youtube.com/watch?v=oYGBRhS1Ujo",
-      "thumb": "https://i4.ytimg.com/vi/oYGBRhS1Ujo/hqdefault.jpg",
-      "published": "2026-08-05",
       "category": "CS"
     },
     {
@@ -156,25 +112,25 @@
       "category": "CS"
     },
     {
-      "id": "0b91f31069ca",
+      "id": "9018e970ca98",
       "platform": "bilibili",
-      "videoId": "BV1q2jh6FEhX",
-      "title": "30 - Agentic AI 和我们的未来；课程总结 [2026 南京大学操作系统原理]",
-      "channel": "绿导师原谅你了",
-      "url": "https://www.bilibili.com/video/BV1q2jh6FEhX",
-      "thumb": "https://i1.hdslb.com/bfs/archive/b7e8dace001aa6b23bc6117e75ba72fc9b3b2e21.jpg",
-      "published": "2026-06-18",
+      "videoId": "BV1ScKR6QEQF",
+      "title": "古法做视频里加一点点科技",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1ScKR6QEQF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/b9d2e88f8d41fe24cecddcf715756265ff68b9d2.jpg",
+      "published": "2026-06-29",
       "category": "CS"
     },
     {
-      "id": "7ab9db96faa7",
+      "id": "4001551d4ad2",
       "platform": "bilibili",
-      "videoId": "BV1uaEB66EAH",
-      "title": "29 - 虚拟机和容器 [2026 南京大学操作系统原理]",
-      "channel": "绿导师原谅你了",
-      "url": "https://www.bilibili.com/video/BV1uaEB66EAH",
-      "thumb": "https://i2.hdslb.com/bfs/archive/ac577490a4b6c1a5371f75e9aaab9f3601aba2b4.jpg",
-      "published": "2026-06-11",
+      "videoId": "BV1RfEw6LEfF",
+      "title": "能跟你对话的TTS【开源】",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1RfEw6LEfF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/414b79823c78f30b3e60d27f14c0f44111f0234f.jpg",
+      "published": "2026-06-04",
       "category": "CS"
     },
     {
@@ -291,15 +247,17 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "图形学 · 512313464: 2 条",
+    "Bilibili 512313464: code=-352 风控校验失败",
+    "图形学 · 512313464: 0 条",
     "引擎 · @TheCherno: 2 条",
-    "引擎 · 437860379: 2 条",
+    "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
-    "Bilibili 1567748478: code=-352 风控校验失败",
-    "CS · 1567748478: 0 条",
-    "CS · 202224425: 2 条",
+    "CS · 1567748478: 2 条",
+    "Bilibili 202224425: code=-352 风控校验失败",
+    "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 2 条",
+    "Bilibili 520819684: code=-352 风控校验失败",
     "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
