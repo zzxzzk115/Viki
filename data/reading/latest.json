@@ -1,223 +1,255 @@
 {
-  "date": "2026-08-23",
+  "date": "2026-08-24",
   "items": [
     {
-      "id": "49471258685d",
+      "id": "9f8b295490d8",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Warren County, North Carolina",
-      "url": "https://simple.wikipedia.org/wiki/Warren_County%2C_North_Carolina",
-      "summary": "Warren County is a county in the U.S. state of North Carolina. It is on the northern border with Virginia. In 2020, 18,642 people lived there. Its county seat is Warrenton.",
+      "title": "Dali Man",
+      "url": "https://simple.wikipedia.org/wiki/Dali_Man",
+      "summary": "The Dali Man is a fossil skull of an extinct human relative that was found in China in 1978.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "8bb00d378d6d",
+      "id": "51641b2bca70",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Falkirk Stadium",
-      "url": "https://simple.wikipedia.org/wiki/Falkirk_Stadium",
-      "summary": "Falkirk Stadium is a Scottish football stadium. It is owned by Falkirk F.C. who play their home games at the stadium.",
+      "title": "Know Your Meme",
+      "url": "https://simple.wikipedia.org/wiki/Know_Your_Meme",
+      "summary": "Know Your Meme (KYM) is a website and video series where various Internet memes and other online phenomena are documented, such as viral videos, image macros, catchphrases, internet celebrities and more. It also investigates new and changing memes through research, as it commerc…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "a0f751d89314",
+      "id": "d1afeccb07bc",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Figmimic – A bookmarklet to copy any webpage into Figma as editable layers",
-      "url": "https://marcua.net/minitools/figmimic/",
+      "title": "Everything I own, owned",
+      "url": "https://schlarp.com/posts/everything-i-own-owned/",
+      "summary": "https://web.archive.org/web/20260823225933/https://schlarp.c...",
+      "author": "schlarpc",
+      "published": "2026-08-23",
+      "tags": [
+        "▲ 323"
+      ]
+    },
+    {
+      "id": "fe3d3d341997",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "How I find problems to solve as a staff engineer",
+      "url": "https://lalitm.com/post/find-problems-staff-engineer/",
       "summary": "",
-      "author": "speckx",
-      "published": "2026-08-22",
+      "author": "vanpra",
+      "published": "2026-08-23",
       "tags": [
-        "▲ 49"
+        "▲ 285"
       ]
     },
     {
-      "id": "0cbbcd53f19c",
+      "id": "75a73f0d5f53",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Scrap (2006)",
-      "url": "https://twitter.com/moxie/status/2091218652133732491",
-      "summary": "https://xcancel.com/moxie/status/2091218652133732491",
-      "author": "tosh",
-      "published": "2026-08-22",
-      "tags": [
-        "▲ 322"
-      ]
-    },
-    {
-      "id": "3377c27b081e",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "NanoGPT Speedrun Frontier",
-      "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
+      "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+      "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
       "summary": "",
-      "author": "stared",
-      "published": "2026-08-22",
+      "author": "naves",
+      "published": "2026-08-23",
       "tags": [
-        "▲ 53"
+        "▲ 254"
       ]
     },
     {
-      "id": "c0f9d10986f5",
+      "id": "4b192a6211dd",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Why your local LLM feels dumber than it is",
-      "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+      "title": "Google Workspace thinks my domain is an email provider (2025)",
+      "url": "https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/",
       "summary": "",
-      "author": "felineflock",
-      "published": "2026-08-22",
+      "author": "el1s7",
+      "published": "2026-08-23",
       "tags": [
-        "▲ 199"
+        "▲ 191"
       ]
     },
     {
-      "id": "32dc5360b273",
+      "id": "a19aa4c7f425",
       "category": "tech",
       "source": "Hacker News",
-      "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
-      "url": "https://quantumi.sh/public/labs.html",
+      "title": "Migrating a Synology NAS to a UniFi UNAS Pro 8 with Robocopy, SMB Multichannel",
+      "url": "https://www.hanselman.com/blog/migrating-a-synology-nas-to-a-unifi-unas-pro-8-with-robocopy-smb-multichannel-and-surprising-performance-traps",
       "summary": "",
-      "author": "jemoka",
-      "published": "2026-08-22",
+      "author": "soheilpro",
+      "published": "2026-08-24",
       "tags": [
-        "▲ 321"
+        "▲ 8"
       ]
     },
     {
-      "id": "e3f8dc16a640",
+      "id": "451496f8489c",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Hister – A private, full content search index that you control",
-      "url": "https://hister.org/",
+      "title": "My agent.md to improve LLM-assisted code quality",
+      "url": "https://fabiensanglard.net/agent.md/index.html",
       "summary": "",
-      "author": "auraham",
-      "published": "2026-08-18",
+      "author": "ibobev",
+      "published": "2026-08-23",
       "tags": [
-        "▲ 244"
+        "▲ 178"
       ]
     },
     {
-      "id": "68524107728a",
+      "id": "169b015687a3",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Fast YouTube Channel Scraper API | Profiles, Subs & Stats — 2K Users Can't Be Wrong",
-      "url": "https://dev.to/nick_davies_323125afbb05c/fast-youtube-channel-scraper-api-profiles-subs-stats-2k-users-cant-be-wrong-53gh",
-      "summary": "Are you spending hours writing custom scrapers? There's probably an actor for that already. What is Fast YouTube Channel Scraper API | Profiles, Subs & Stats? Extreme flexibility with search functionalities enables you to retrieve extensive channel information in detail. Not jus…",
-      "author": "Nick Davies",
-      "published": "Sun, 23 Aug 2026 02:26:04 +0000",
+      "title": "IVR Software Provider Delhi NCR",
+      "url": "https://dev.to/thehotelproperties/ivr-software-provider-delhi-ncr-3i8k",
+      "summary": "Looking for a reliable IVR Software solution for your business? JMR Infosystem provides efficient IVR systems designed to automate customer calls, route calls to the right department, and improve customer support. Simplify your business communication with a professional and scal…",
+      "author": "seo work",
+      "published": "Mon, 24 Aug 2026 02:32:24 +0000",
       "tags": [
+        "ai",
         "webdev",
-        "automation",
-        "api",
-        "tools"
-      ]
-    },
-    {
-      "id": "593a91abf9be",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Building a Marketplace Where Zero Is a Feature, Not an Embarrassment",
-      "url": "https://dev.to/shawnbure/building-a-marketplace-where-zero-is-a-feature-not-an-embarrassment-5c9f",
-      "summary": "Most marketplace dashboards are designed to make small numbers look large. They celebrate registrations, page views, clicks, and gross inventory. Those numbers are easy to move. They are also weak evidence that a marketplace is doing its job. I am building unscrewed.lol , a very…",
-      "author": "Shawn Bure",
-      "published": "Sun, 23 Aug 2026 02:25:22 +0000",
-      "tags": [
-        "webdev",
-        "typescript",
-        "startup",
-        "architecture"
-      ]
-    },
-    {
-      "id": "6c2dc2543064",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Email MFA Fallbacks Need One Owner",
-      "url": "https://dev.to/sophiax99/email-mfa-fallbacks-need-one-owner-5ajd",
-      "summary": "Email fallback for MFA usually starts as a convenience feature. A user loses their authenticator app, support needs a recovery route, and the team reaches for email because it is already there. That sounds reasonable, but once email can bypass or replace a stronger factor, it be…",
-      "author": "SophiaXS",
-      "published": "Sun, 23 Aug 2026 02:24:23 +0000",
-      "tags": [
-        "security",
-        "authentication",
-        "privacy",
-        "webdev"
-      ]
-    },
-    {
-      "id": "a62d9c4a8ec2",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "How to Build Ai agents Without Writing a Single Line of Code",
-      "url": "https://dev.to/nick_davies_323125afbb05c/how-to-build-ai-agents-without-writing-a-single-line-of-code-4388",
-      "summary": "Need ai agents but don't have the budget for a dev team? Here's how to build it yourself in minutes. The Problem Traditionally, building ai agents requires: A frontend developer A backend developer Database design DevOps for deployment Weeks or months of development time The Sol…",
-      "author": "Nick Davies",
-      "published": "Sun, 23 Aug 2026 02:20:53 +0000",
-      "tags": [
-        "nocode",
-        "startup",
-        "webdev",
+        "programming",
         "productivity"
       ]
     },
     {
-      "id": "e821d051193c",
+      "id": "0dad07b6c918",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Detailed JavaScript Event Loop and Concurrency Model",
+      "url": "https://dev.to/sharique_siddiqui_8242dad/detailed-javascript-event-loop-and-concurrency-model-3lf5",
+      "summary": "Understanding the JavaScript event loop and concurrency model is essential to mastering asynchronous programming in JavaScript. Despite running on a single thread, JavaScript can manage multiple tasks concurrently without blocking the main thread — all thanks to the event loop. …",
+      "author": "Sharique Siddiqui",
+      "published": "Mon, 24 Aug 2026 02:30:00 +0000",
+      "tags": [
+        "javascript",
+        "advanced",
+        "webdev",
+        "frontend"
+      ]
+    },
+    {
+      "id": "9d92f92f17ff",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Server-Sent Events Across Multiple Pods: Redis Pub/Sub + Spring WebFlux",
+      "url": "https://dev.to/anand_rathnas_d5b608cc3de/server-sent-events-across-multiple-pods-redis-pubsub-spring-webflux-g0o",
+      "summary": "This article was originally published on Jo4 Blog . We replaced our notification-bell polling with Server-Sent Events. On a single pod, this is easy — Spring WebFlux + a Flux of events, done in 30 lines. On multiple pods, it gets interesting fast: a write that happens on pod A n…",
+      "author": "Anand Rathnas",
+      "published": "Mon, 24 Aug 2026 02:25:05 +0000",
+      "tags": [
+        "springboot",
+        "redis",
+        "java",
+        "webdev"
+      ]
+    },
+    {
+      "id": "e22142b0729b",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Rate Limiting vs Throttling: What’s the Difference?",
+      "url": "https://dev.to/avijitbera/rate-limiting-vs-throttling-whats-the-difference-3484",
+      "summary": "Rate Limiting vs Throttling: What’s the Difference? When you're building an API, controlling traffic is essential. Without proper traffic controls, a sudden spike in requests can overwhelm your application, increase infrastructure costs, slow down legitimate users, or even cause…",
+      "author": "Avijit Bera",
+      "published": "Mon, 24 Aug 2026 02:24:51 +0000",
+      "tags": [
+        "api",
+        "security",
+        "edgewrap",
+        "webdev"
+      ]
+    },
+    {
+      "id": "4544ef9af742",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Figure skating at the 2002 Winter Olympics – Pair skating",
-      "url": "https://en.wikipedia.org/wiki/Figure_skating_at_the_2002_Winter_Olympics_%E2%80%93_Pair_skating",
-      "summary": "The pairs' figure skating competition at the 2002 Winter Olympics was held on February 9 and 11 at the Salt Lake Ice Center in Salt Lake City, Utah, in the United States. Originally, Elena Berezhnaya and Anton Sikharulidze of Russia won the gold medals, while Jamie Salé and Davi…",
+      "title": "Brochfael ap Meurig",
+      "url": "https://en.wikipedia.org/wiki/Brochfael_ap_Meurig",
+      "summary": "Brochfael ap Meurig was king of Gwent in south-east Wales. He ruled jointly with his brother, Ffernfael ap Meurig. Gwent and Glywysing, the neighbouring territory to the west, were ruled as a single kingdom in some periods; at other times they were separate and the king of Glywy…",
       "published": "",
       "tags": [
         "今日精选"
       ]
+    },
+    {
+      "id": "c85614423c82",
+      "category": "news",
+      "source": "BBC 世界",
+      "title": "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss",
+      "summary": "Mykhailo Fedorov has also called for wartime elections to be held in Ukraine.",
+      "published": "Sun, 23 Aug 2026 12:56:43 GMT",
+      "tags": []
     },
     {
       "id": "f4c36d47d3dd",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
+      "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
       "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
-      "summary": "Canada's prime minister said he was \"reluctantly\" announcing retaliatory tariffs as he accused the US of starting a trade war.",
-      "published": "Sat, 22 Aug 2026 20:10:00 GMT",
+      "summary": "Canada's PM said he was \"reluctantly\" announcing retaliatory tariffs and accused the US of starting a trade war.",
+      "published": "Sun, 23 Aug 2026 19:11:30 GMT",
       "tags": []
     },
     {
-      "id": "5fd4de93df4f",
+      "id": "c3bfba41d611",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Carney faces crucial test after walking away from Trump's deal",
-      "url": "https://www.bbc.co.uk/news/articles/c3040pn8lmmo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Canadian prime minister will have to sell his gamble that walking away from talks with the White House will be worth the consequences.",
-      "published": "Sat, 22 Aug 2026 20:02:46 GMT",
+      "title": "Guinea rubbish landfill collapse kills 30",
+      "url": "https://www.bbc.co.uk/news/articles/c4g3g36z7p6o?at_medium=RSS&at_campaign=rss",
+      "summary": "A mound of rubbish at a major waste site buried several homes in the capital, the government says.",
+      "published": "Sun, 23 Aug 2026 18:17:37 GMT",
       "tags": []
     },
     {
-      "id": "fcfb10d2b5d4",
+      "id": "02fe1f5a459e",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
-      "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Four people are still missing after Friday's attack which killed 16 and left 130 injured, including a number of children.",
-      "published": "Sat, 22 Aug 2026 13:13:16 GMT",
+      "title": "DR Congo and M23 rebels agree roadmap for peace talks",
+      "url": "https://www.bbc.co.uk/news/articles/cre4e1q3wewo?at_medium=RSS&at_campaign=rss",
+      "summary": "Representatives met in Switzerland to work out next steps to resolve the conflict.",
+      "published": "Sun, 23 Aug 2026 12:52:08 GMT",
       "tags": []
     },
     {
-      "id": "47b46dfdfc59",
-      "category": "news",
-      "source": "BBC 世界",
-      "title": "Father leaves 7-year-old son alone on Mount Fuji to continue hike",
-      "url": "https://www.bbc.co.uk/news/articles/c93403wg288o?at_medium=RSS&at_campaign=rss",
-      "summary": "The man had taken his two boys on the trip but is said to have left one behind when he got tired.",
-      "published": "Sat, 22 Aug 2026 14:35:11 GMT",
-      "tags": []
+      "id": "d41bba286354",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Due to need for 'absolute success,' China delays critical Moon launch to 2027",
+      "url": "https://arstechnica.com/space/2026/08/due-to-need-for-absolute-success-china-delays-critical-moon-launch-to-2027/",
+      "summary": "\"The Chang’e 7 mission does not meet the conditions for launch.\"",
+      "author": "Eric Berger",
+      "published": "Sun, 23 Aug 2026 14:30:16 +0000",
+      "tags": [
+        "Space",
+        "blue origin",
+        "chang'e 7",
+        "china"
+      ]
+    },
+    {
+      "id": "0d50cbd1b3b1",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Volcanoes that made history",
+      "url": "https://arstechnica.com/science/2026/08/volcanoes-that-made-history/",
+      "summary": "Enormous eruptions altered Earth’s climate and societies all over the globe.",
+      "author": "Alexandra Witze, Knowable Magazine",
+      "published": "Sun, 23 Aug 2026 11:02:54 +0000",
+      "tags": [
+        "Science",
+        "super volcanoes",
+        "syndication",
+        "volcanoes"
+      ]
     },
     {
       "id": "cd8d6f001cfc",
@@ -236,68 +268,36 @@
       ]
     },
     {
-      "id": "e2b84ab9f51a",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Dismantling the Roadless Rule threatens to disrupt wildlife and water in US",
-      "url": "https://arstechnica.com/science/2026/08/dismantling-the-roadless-rule-threatens-to-disrupt-wildlife-and-water-in-us/",
-      "summary": "Lands free of roads are under threat from the Trump administration’s proposed rollback.",
-      "author": "Mariah Meek and Travis Belote, The Conversation",
-      "published": "Sat, 22 Aug 2026 11:08:53 +0000",
-      "tags": [
-        "Policy",
-        "Science",
-        "preservation",
-        "roadless rule"
-      ]
-    },
-    {
-      "id": "f90858f43fcf",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Trump's space transportation policy calls for new spaceport on federal land",
-      "url": "https://arstechnica.com/space/2026/08/trump-admin-calls-for-more-spaceports-to-handle-surge-in-launches/",
-      "summary": "\"We probably need another site that's capable of heavy and super heavy launch capability.\"",
-      "author": "Stephen Clark",
-      "published": "Fri, 21 Aug 2026 23:32:17 +0000",
-      "tags": [
-        "Space",
-        "Commercial space",
-        "launch",
-        "military space"
-      ]
-    },
-    {
-      "id": "212a4ec238c3",
+      "id": "86c6abe6285a",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘The estrangement isn’t about politics’: My daughter hasn’t spoken to me for 4 years. Do I leave her a monthly annuity?",
-      "url": "https://www.marketwatch.com/story/its-truly-a-tragedy-my-daughter-hasnt-spoken-to-me-for-4-years-but-it-has-nothing-to-do-with-politics-86c4bcf6?mod=mw_rss_topstories",
-      "summary": "“You’ll have to trust me when I tell you that she had love, support and opportunities.”",
-      "author": "Quentin Fottrell",
-      "published": "Sat, 22 Aug 2026 20:45:00 GMT",
+      "title": "Stock futures flat as U.S. and Canada appear headed for trade war",
+      "url": "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24?mod=mw_rss_topstories",
+      "summary": "U.S. stock-index futures were little changed on Sunday, as it appeared the U.S. was on the verge of an all-out trade war with Canada, one of its biggest trading partners.",
+      "author": "Mike Murphy",
+      "published": "Mon, 24 Aug 2026 02:29:00 GMT",
       "tags": []
     },
     {
-      "id": "ce51824d27ce",
+      "id": "a2ae4614d679",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Canada announces retaliatory tariffs on U.S. goods after trade talks break down",
-      "url": "https://www.marketwatch.com/story/canada-announces-retaliatory-tariffs-on-u-s-goods-after-trade-talks-break-down-45081c2f?mod=mw_rss_topstories",
-      "summary": "Canadian Prime Minister Mark Carney on Saturday announced his country would impose “dollar-for-dollar” tariffs on U.S. goods — a retaliatory measure after trade talks between the two nations broke down.",
-      "author": "Rey Mashayekhi",
-      "published": "Sat, 22 Aug 2026 20:31:00 GMT",
+      "title": "My son does not work, yet pays $500 for Affordable Care Act health insurance. Is that fair?",
+      "url": "https://www.marketwatch.com/story/my-son-does-not-work-yet-he-pays-500-for-aca-health-insurance-how-is-that-fair-92f578c4?mod=mw_rss_topstories",
+      "summary": "“I see people who have a lot of money but little or no taxable income who still qualify for ACA Marketplace subsidies.”",
+      "author": "Quentin Fottrell",
+      "published": "Sun, 23 Aug 2026 19:30:00 GMT",
       "tags": []
     },
     {
-      "id": "5cf4ff68f1d1",
+      "id": "54bebdb5afd0",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘We are committed Christians’: Our son and daughter-in-law cut us off over politics. Should we change our $3 million will?",
-      "url": "https://www.marketwatch.com/story/we-are-hurt-our-son-and-daughter-in-law-cut-off-contact-with-us-over-politics-should-we-change-our-3-million-will-f763b761?mod=mw_rss_topstories",
-      "summary": "“We are hurt and confused, but we have also tried to respect the boundaries they have established.”",
+      "title": "‘The market is obviously on fire’: Should I take $1,000 from my brokerage account to pay off my car loan?",
+      "url": "https://www.marketwatch.com/story/the-market-is-obviously-on-fire-is-it-a-mistake-to-take-1-000-from-my-brokerage-account-to-pay-my-car-loan-65800d1f?mod=mw_rss_topstories",
+      "summary": "“I’m curious whether there’s a downside.”",
       "author": "Quentin Fottrell",
-      "published": "Sat, 22 Aug 2026 20:30:00 GMT",
+      "published": "Sun, 23 Aug 2026 19:00:00 GMT",
       "tags": []
     }
   ],
