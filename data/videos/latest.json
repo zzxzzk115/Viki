@@ -1,6 +1,17 @@
 {
-  "date": "2026-08-24",
+  "date": "2026-08-25",
   "items": [
+    {
+      "id": "105ab17fca33",
+      "platform": "youtube",
+      "videoId": "wMl6c_r0ubw",
+      "title": "This Small AI Will Change Everything",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=wMl6c_r0ubw",
+      "thumb": "https://i4.ytimg.com/vi/wMl6c_r0ubw/hqdefault.jpg",
+      "published": "2026-08-24",
+      "category": "图形学"
+    },
     {
       "id": "22acc98b4302",
       "platform": "youtube",
@@ -10,17 +21,6 @@
       "url": "https://www.youtube.com/watch?v=kyYepbhe1g8",
       "thumb": "https://i4.ytimg.com/vi/kyYepbhe1g8/hqdefault.jpg",
       "published": "2026-08-19",
-      "category": "图形学"
-    },
-    {
-      "id": "5ac4def88eb5",
-      "platform": "youtube",
-      "videoId": "QnGNF8k_uoc",
-      "title": "Claude AI Failed 650 Times…Then Beat The Human Record",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=QnGNF8k_uoc",
-      "thumb": "https://i2.ytimg.com/vi/QnGNF8k_uoc/hqdefault.jpg",
-      "published": "2026-08-14",
       "category": "图形学"
     },
     {
@@ -112,6 +112,50 @@
       "category": "CS"
     },
     {
+      "id": "9018e970ca98",
+      "platform": "bilibili",
+      "videoId": "BV1ScKR6QEQF",
+      "title": "古法做视频里加一点点科技",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1ScKR6QEQF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/b9d2e88f8d41fe24cecddcf715756265ff68b9d2.jpg",
+      "published": "2026-06-29",
+      "category": "CS"
+    },
+    {
+      "id": "4001551d4ad2",
+      "platform": "bilibili",
+      "videoId": "BV1RfEw6LEfF",
+      "title": "能跟你对话的TTS【开源】",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1RfEw6LEfF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/414b79823c78f30b3e60d27f14c0f44111f0234f.jpg",
+      "published": "2026-06-04",
+      "category": "CS"
+    },
+    {
+      "id": "0b91f31069ca",
+      "platform": "bilibili",
+      "videoId": "BV1q2jh6FEhX",
+      "title": "30 - Agentic AI 和我们的未来；课程总结 [2026 南京大学操作系统原理]",
+      "channel": "绿导师原谅你了",
+      "url": "https://www.bilibili.com/video/BV1q2jh6FEhX",
+      "thumb": "https://i1.hdslb.com/bfs/archive/b7e8dace001aa6b23bc6117e75ba72fc9b3b2e21.jpg",
+      "published": "2026-06-18",
+      "category": "CS"
+    },
+    {
+      "id": "7ab9db96faa7",
+      "platform": "bilibili",
+      "videoId": "BV1uaEB66EAH",
+      "title": "29 - 虚拟机和容器 [2026 南京大学操作系统原理]",
+      "channel": "绿导师原谅你了",
+      "url": "https://www.bilibili.com/video/BV1uaEB66EAH",
+      "thumb": "https://i2.hdslb.com/bfs/archive/ac577490a4b6c1a5371f75e9aaab9f3601aba2b4.jpg",
+      "published": "2026-06-11",
+      "category": "CS"
+    },
+    {
       "id": "4a9bfb807dd8",
       "platform": "youtube",
       "videoId": "CqApXh80HVo",
@@ -132,28 +176,6 @@
       "thumb": "https://i2.ytimg.com/vi/YgbbI_nRF2A/hqdefault.jpg",
       "published": "2026-07-24",
       "category": "金融"
-    },
-    {
-      "id": "7a7ea21493aa",
-      "platform": "youtube",
-      "videoId": "ZLc9udbCaeI",
-      "title": "The Mystery Behind Earth’s Missing Rocks: Crash Course Geology #16",
-      "channel": "CrashCourse",
-      "url": "https://www.youtube.com/watch?v=ZLc9udbCaeI",
-      "thumb": "https://i3.ytimg.com/vi/ZLc9udbCaeI/hqdefault.jpg",
-      "published": "2026-08-20",
-      "category": "历史"
-    },
-    {
-      "id": "0912fd517819",
-      "platform": "youtube",
-      "videoId": "Ksq2Fq69Yl8",
-      "title": "Is the Yellowstone volcano going to erupt again? 🌋",
-      "channel": "CrashCourse",
-      "url": "https://www.youtube.com/shorts/Ksq2Fq69Yl8",
-      "thumb": "https://i4.ytimg.com/vi/Ksq2Fq69Yl8/hqdefault.jpg",
-      "published": "2026-08-18",
-      "category": "历史"
     },
     {
       "id": "4bf7cec58b49",
@@ -178,47 +200,25 @@
       "category": "历史"
     },
     {
-      "id": "1eb786886d2d",
+      "id": "13cc7d3aba54",
       "platform": "youtube",
-      "videoId": "FE1pzridr7w",
-      "title": "BBC Learning English does the 'trapdoor' trend! Can you guess the last one?  #shorts",
+      "videoId": "ORk0_54mjNA",
+      "title": "☕️ How do you take your coffee?",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/shorts/FE1pzridr7w",
-      "thumb": "https://i3.ytimg.com/vi/FE1pzridr7w/hqdefault.jpg",
-      "published": "2026-08-21",
+      "url": "https://www.youtube.com/shorts/ORk0_54mjNA",
+      "thumb": "https://i4.ytimg.com/vi/ORk0_54mjNA/hqdefault.jpg",
+      "published": "2026-08-24",
       "category": "英语"
     },
     {
-      "id": "3bc891b2e15d",
+      "id": "4160ead5081a",
       "platform": "youtube",
-      "videoId": "jUsQUPyFbXY",
-      "title": "How to use 'prefer', 'would rather' and 'like' to talk about your preferences! Live English Class",
+      "videoId": "BFJsSnEEGrI",
+      "title": "How do you take your coffee? ☕🥛🍯 Improve your listening skills with Real Easy English",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=jUsQUPyFbXY",
-      "thumb": "https://i3.ytimg.com/vi/jUsQUPyFbXY/hqdefault.jpg",
-      "published": "2026-08-20",
-      "category": "英语"
-    },
-    {
-      "id": "21cff7492871",
-      "platform": "youtube",
-      "videoId": "VPDABZXkriM",
-      "title": "What getting laser eye surgery is really like - From Astigmatism to 20:20 vision | Ad",
-      "channel": "Lucy Bella",
-      "url": "https://www.youtube.com/watch?v=VPDABZXkriM",
-      "thumb": "https://i3.ytimg.com/vi/VPDABZXkriM/hqdefault.jpg",
-      "published": "2020-10-26",
-      "category": "英语"
-    },
-    {
-      "id": "2ee25237109d",
-      "platform": "youtube",
-      "videoId": "GnQkzSZdEts",
-      "title": "Lucy Bella Earl Live Stream",
-      "channel": "Lucy Bella",
-      "url": "https://www.youtube.com/watch?v=GnQkzSZdEts",
-      "thumb": "https://i4.ytimg.com/vi/GnQkzSZdEts/hqdefault.jpg",
-      "published": "2019-05-02",
+      "url": "https://www.youtube.com/watch?v=BFJsSnEEGrI",
+      "thumb": "https://i3.ytimg.com/vi/BFJsSnEEGrI/hqdefault.jpg",
+      "published": "2026-08-24",
       "category": "英语"
     }
   ],
@@ -227,21 +227,21 @@
     "图形学 · @Acerola_t: 2 条",
     "图形学 · 512313464: 0 条",
     "引擎 · @TheCherno: 2 条",
+    "Bilibili 437860379: code=-352 风控校验失败",
     "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
-    "Bilibili 1567748478: code=-352 风控校验失败",
-    "CS · 1567748478: 0 条",
-    "CS · 202224425: 0 条",
+    "CS · 1567748478: 2 条",
+    "CS · 202224425: 2 条",
     "金融 · @ThePlainBagel: 2 条",
+    "Bilibili 520819684: code=-352 风控校验失败",
     "金融 · 520819684: 0 条",
-    "历史 · @CrashCourse: 2 条",
+    "历史 · @CrashCourse: 0 条",
     "历史 · @HistoriaCivilis: 2 条",
-    "Bilibili 11646119: code=-352 风控校验失败",
     "历史 · 11646119: 0 条",
     "Bilibili 23947287: code=-352 风控校验失败",
     "历史 · 23947287: 0 条",
     "英语 · @bbclearningenglish: 2 条",
-    "英语 · @EnglishwithLucy: 2 条"
+    "英语 · @EnglishwithLucy: 0 条"
   ]
 }
