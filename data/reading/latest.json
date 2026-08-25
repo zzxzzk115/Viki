@@ -1,303 +1,303 @@
 {
-  "date": "2026-08-24",
+  "date": "2026-08-25",
   "items": [
     {
-      "id": "9f8b295490d8",
+      "id": "32aa04d73576",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Dali Man",
-      "url": "https://simple.wikipedia.org/wiki/Dali_Man",
-      "summary": "The Dali Man is a fossil skull of an extinct human relative that was found in China in 1978.",
+      "title": "Braches",
+      "url": "https://simple.wikipedia.org/wiki/Braches",
+      "summary": "Braches is a commune. It is in Hauts-de-France in the Somme department in north France.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "51641b2bca70",
+      "id": "d2b63dfa0636",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Know Your Meme",
-      "url": "https://simple.wikipedia.org/wiki/Know_Your_Meme",
-      "summary": "Know Your Meme (KYM) is a website and video series where various Internet memes and other online phenomena are documented, such as viral videos, image macros, catchphrases, internet celebrities and more. It also investigates new and changing memes through research, as it commerc…",
+      "title": "Reginald Grey, 3rd Baron Grey de Ruthyn",
+      "url": "https://simple.wikipedia.org/wiki/Reginald_Grey%2C_3rd_Baron_Grey_de_Ruthyn",
+      "summary": "Reginald Grey, 3rd Baron Grey de Ruthyn, was a powerful Welsh marcher lord. He became Baron after his father's death in July 1388. His main military actions were against the Welsh, during the rebellion of Owain Glyndŵr.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "d1afeccb07bc",
+      "id": "6a63078b3dd9",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Everything I own, owned",
-      "url": "https://schlarp.com/posts/everything-i-own-owned/",
-      "summary": "https://web.archive.org/web/20260823225933/https://schlarp.c...",
-      "author": "schlarpc",
-      "published": "2026-08-23",
-      "tags": [
-        "▲ 323"
-      ]
-    },
-    {
-      "id": "fe3d3d341997",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "How I find problems to solve as a staff engineer",
-      "url": "https://lalitm.com/post/find-problems-staff-engineer/",
+      "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
+      "url": "https://developer.apple.com/news/?id=1ptvdtcm",
       "summary": "",
-      "author": "vanpra",
-      "published": "2026-08-23",
-      "tags": [
-        "▲ 285"
-      ]
-    },
-    {
-      "id": "75a73f0d5f53",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
-      "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
-      "summary": "",
-      "author": "naves",
-      "published": "2026-08-23",
-      "tags": [
-        "▲ 254"
-      ]
-    },
-    {
-      "id": "4b192a6211dd",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Google Workspace thinks my domain is an email provider (2025)",
-      "url": "https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/",
-      "summary": "",
-      "author": "el1s7",
-      "published": "2026-08-23",
-      "tags": [
-        "▲ 191"
-      ]
-    },
-    {
-      "id": "a19aa4c7f425",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Migrating a Synology NAS to a UniFi UNAS Pro 8 with Robocopy, SMB Multichannel",
-      "url": "https://www.hanselman.com/blog/migrating-a-synology-nas-to-a-unifi-unas-pro-8-with-robocopy-smb-multichannel-and-surprising-performance-traps",
-      "summary": "",
-      "author": "soheilpro",
+      "author": "K7PJP",
       "published": "2026-08-24",
       "tags": [
-        "▲ 8"
+        "▲ 247"
       ]
     },
     {
-      "id": "451496f8489c",
+      "id": "8e01f065f751",
       "category": "tech",
       "source": "Hacker News",
-      "title": "My agent.md to improve LLM-assisted code quality",
-      "url": "https://fabiensanglard.net/agent.md/index.html",
+      "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
+      "url": "https://twitter.com/lemire/status/2091894299289874926",
+      "summary": "https://xcancel.com/lemire/status/2091894299289874926",
+      "author": "tosh",
+      "published": "2026-08-24",
+      "tags": [
+        "▲ 739"
+      ]
+    },
+    {
+      "id": "f34dd1b06c9b",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
+      "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
       "summary": "",
-      "author": "ibobev",
-      "published": "2026-08-23",
+      "author": "ComputerGuru",
+      "published": "2026-08-24",
       "tags": [
-        "▲ 178"
+        "▲ 574"
       ]
     },
     {
-      "id": "169b015687a3",
+      "id": "f40a211fa8cf",
       "category": "tech",
-      "source": "DEV Community",
-      "title": "IVR Software Provider Delhi NCR",
-      "url": "https://dev.to/thehotelproperties/ivr-software-provider-delhi-ncr-3i8k",
-      "summary": "Looking for a reliable IVR Software solution for your business? JMR Infosystem provides efficient IVR systems designed to automate customer calls, route calls to the right department, and improve customer support. Simplify your business communication with a professional and scal…",
-      "author": "seo work",
-      "published": "Mon, 24 Aug 2026 02:32:24 +0000",
+      "source": "Hacker News",
+      "title": "Moon (2024)",
+      "url": "https://ciechanow.ski/moon/",
+      "summary": "",
+      "author": "simonebrunozzi",
+      "published": "2026-08-24",
       "tags": [
-        "ai",
-        "webdev",
-        "programming",
-        "productivity"
+        "▲ 111"
       ]
     },
     {
-      "id": "0dad07b6c918",
+      "id": "c75e015ff81a",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "How Universities Should Prepare Founders",
+      "url": "https://paulgraham.com/prepare.html",
+      "summary": "",
+      "author": "gmays",
+      "published": "2026-08-25",
+      "tags": [
+        "▲ 24"
+      ]
+    },
+    {
+      "id": "c20a4456d4f9",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "The entire city of San Francisco as a video game",
+      "url": "https://sf.thijs.gg/",
+      "summary": "https://twitter.com/cdngdev/status/2091909073038082139 , https://xcancel.com/cdngdev/status/2091909073038082139",
+      "author": "centrosphere",
+      "published": "2026-08-24",
+      "tags": [
+        "▲ 359"
+      ]
+    },
+    {
+      "id": "4bc7fffe3ab1",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Detailed JavaScript Event Loop and Concurrency Model",
-      "url": "https://dev.to/sharique_siddiqui_8242dad/detailed-javascript-event-loop-and-concurrency-model-3lf5",
-      "summary": "Understanding the JavaScript event loop and concurrency model is essential to mastering asynchronous programming in JavaScript. Despite running on a single thread, JavaScript can manage multiple tasks concurrently without blocking the main thread — all thanks to the event loop. …",
-      "author": "Sharique Siddiqui",
-      "published": "Mon, 24 Aug 2026 02:30:00 +0000",
+      "title": "David Stark: Top High-Paying Roles",
+      "url": "https://dev.to/devpulse/david-stark-top-high-paying-roles-4kb6",
+      "summary": "👋 Hello Architects & Elite Engineers, The market is shifting. We are seeing a surge in JAVASCRIPT roles this week. We don't do \"Easy Apply\". Our internal gatekeeper just processed 200+ verified remote jobs from our partner network. To get these jobs, you must pass the architect…",
+      "author": "David Stark",
+      "published": "Tue, 25 Aug 2026 02:26:48 +0000",
       "tags": [
         "javascript",
-        "advanced",
+        "react",
         "webdev",
-        "frontend"
+        "remote"
       ]
     },
     {
-      "id": "9d92f92f17ff",
+      "id": "34adbe3d394a",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Server-Sent Events Across Multiple Pods: Redis Pub/Sub + Spring WebFlux",
-      "url": "https://dev.to/anand_rathnas_d5b608cc3de/server-sent-events-across-multiple-pods-redis-pubsub-spring-webflux-g0o",
-      "summary": "This article was originally published on Jo4 Blog . We replaced our notification-bell polling with Server-Sent Events. On a single pod, this is easy — Spring WebFlux + a Flux of events, done in 30 lines. On multiple pods, it gets interesting fast: a write that happens on pod A n…",
-      "author": "Anand Rathnas",
-      "published": "Mon, 24 Aug 2026 02:25:05 +0000",
+      "title": "Find the Safe Proxy Concurrency Ceiling for Browser Automation",
+      "url": "https://dev.to/98ip/find-the-safe-proxy-concurrency-ceiling-for-browser-automation-4cc",
+      "summary": "Browser concurrency and proxy capacity are different limits. A platform may launch 200 browser sessions while the proxy gateway, regional inventory, destination policy, or result pipeline saturates much earlier. This test plan finds the highest useful throughput without hiding f…",
+      "author": "98IP Proxy",
+      "published": "Tue, 25 Aug 2026 02:26:40 +0000",
       "tags": [
-        "springboot",
-        "redis",
-        "java",
-        "webdev"
+        "webdev",
+        "automation",
+        "testing",
+        "performance"
       ]
     },
     {
-      "id": "e22142b0729b",
+      "id": "c8f4225eb37b",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Rate Limiting vs Throttling: What’s the Difference?",
-      "url": "https://dev.to/avijitbera/rate-limiting-vs-throttling-whats-the-difference-3484",
-      "summary": "Rate Limiting vs Throttling: What’s the Difference? When you're building an API, controlling traffic is essential. Without proper traffic controls, a sudden spike in requests can overwhelm your application, increase infrastructure costs, slow down legitimate users, or even cause…",
-      "author": "Avijit Bera",
-      "published": "Mon, 24 Aug 2026 02:24:51 +0000",
+      "title": "La unidad de cobro es una decisión de arquitectura, no de pricing",
+      "url": "https://dev.to/multita/la-unidad-de-cobro-es-una-decision-de-arquitectura-no-de-pricing-3d0p",
+      "summary": "La unidad de cobro de un SaaS que scrapea no es una decisión de pricing. Es una decisión de arquitectura, y se toma antes de escribir el primer scraper, porque después condiciona todo: el caché, los reintentos, el modo asincrónico y hasta el contrato de errores. Multita consulta…",
+      "author": "Multita",
+      "published": "Tue, 25 Aug 2026 02:23:03 +0000",
       "tags": [
         "api",
-        "security",
-        "edgewrap",
-        "webdev"
+        "webdev",
+        "architecture",
+        "saas"
       ]
     },
     {
-      "id": "4544ef9af742",
+      "id": "12deb81c7503",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Mở 20 tab Chrome kèm IDE: Pin to liệu có trụ được cả ngày?",
+      "url": "https://dev.to/hung_phatlaptop_a651fc86/mo-20-tab-chrome-kem-ide-pin-to-lieu-co-tru-duoc-ca-ngay-44ja",
+      "summary": "Nhiều người mặc định mua laptop pin to cả trăm Wh thì mở bao nhiêu tab trình duyệt hay IDE cũng chẳng lo cạn nguồn giữa chừng. Thực tế thì pin trâu trên thông số giấy tờ hoàn toàn khác với việc máy phải gánh tải nặng trong phiên làm việc thực tế của lập trình viên. Áp lực RAM, c…",
+      "author": "Review Laptop",
+      "published": "Tue, 25 Aug 2026 02:22:07 +0000",
+      "tags": [
+        "xps9340",
+        "vscode",
+        "webdev",
+        "performance"
+      ]
+    },
+    {
+      "id": "2db95abf86b0",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Brochfael ap Meurig",
-      "url": "https://en.wikipedia.org/wiki/Brochfael_ap_Meurig",
-      "summary": "Brochfael ap Meurig was king of Gwent in south-east Wales. He ruled jointly with his brother, Ffernfael ap Meurig. Gwent and Glywysing, the neighbouring territory to the west, were ruled as a single kingdom in some periods; at other times they were separate and the king of Glywy…",
+      "title": "Well-being",
+      "url": "https://en.wikipedia.org/wiki/Well-being",
+      "summary": "Well-being is what is non-instrumentally good for a person. Also called welfare and quality of life, it is a measure of how well life is going for someone. In the broadest sense, it covers the balance of all positive and negative aspects of a person's life. More narrowly, it ref…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "c85614423c82",
+      "id": "6655729cdf12",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss",
-      "summary": "Mykhailo Fedorov has also called for wartime elections to be held in Ukraine.",
-      "published": "Sun, 23 Aug 2026 12:56:43 GMT",
+      "title": "Iran faces 'greatest financial offensive ever', says US treasury secretary",
+      "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
+      "summary": "Scott Bessent says the US will sever all economic ties with the country and that any nation partnering with Iran financially will also be isolated.",
+      "published": "Mon, 24 Aug 2026 23:48:25 GMT",
       "tags": []
     },
     {
-      "id": "f4c36d47d3dd",
+      "id": "6c51db20726b",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-      "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
-      "summary": "Canada's PM said he was \"reluctantly\" announcing retaliatory tariffs and accused the US of starting a trade war.",
-      "published": "Sun, 23 Aug 2026 19:11:30 GMT",
+      "title": "UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia",
+      "url": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
+      "summary": "It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine.",
+      "published": "Tue, 25 Aug 2026 01:48:24 GMT",
       "tags": []
     },
     {
-      "id": "c3bfba41d611",
+      "id": "4ff6fd0394b8",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Guinea rubbish landfill collapse kills 30",
-      "url": "https://www.bbc.co.uk/news/articles/c4g3g36z7p6o?at_medium=RSS&at_campaign=rss",
-      "summary": "A mound of rubbish at a major waste site buried several homes in the capital, the government says.",
-      "published": "Sun, 23 Aug 2026 18:17:37 GMT",
+      "title": "US removes Syria from list of state sponsors of terrorism",
+      "url": "https://www.bbc.co.uk/news/articles/c33knmyl0y5o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Trump administration has embraced Syria's new president, former al-Qaeda linked militant Ahmed al-Sharaa.",
+      "published": "Tue, 25 Aug 2026 00:17:25 GMT",
       "tags": []
     },
     {
-      "id": "02fe1f5a459e",
+      "id": "e1edf19d9654",
       "category": "news",
       "source": "BBC 世界",
-      "title": "DR Congo and M23 rebels agree roadmap for peace talks",
-      "url": "https://www.bbc.co.uk/news/articles/cre4e1q3wewo?at_medium=RSS&at_campaign=rss",
-      "summary": "Representatives met in Switzerland to work out next steps to resolve the conflict.",
-      "published": "Sun, 23 Aug 2026 12:52:08 GMT",
+      "title": "Moment tornado tears through southern France",
+      "url": "https://www.bbc.co.uk/news/videos/ckg8wkd0j7do?at_medium=RSS&at_campaign=rss",
+      "summary": "The tornado has injured more than 40 people and destroyed homes in villages.",
+      "published": "Tue, 25 Aug 2026 00:16:35 GMT",
       "tags": []
     },
     {
-      "id": "d41bba286354",
+      "id": "f2e956db9dee",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Due to need for 'absolute success,' China delays critical Moon launch to 2027",
-      "url": "https://arstechnica.com/space/2026/08/due-to-need-for-absolute-success-china-delays-critical-moon-launch-to-2027/",
-      "summary": "\"The Chang’e 7 mission does not meet the conditions for launch.\"",
-      "author": "Eric Berger",
-      "published": "Sun, 23 Aug 2026 14:30:16 +0000",
+      "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
+      "url": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
+      "summary": "Young employment in AI-impacted fields down 19% compared to more AI-resistant occupations.",
+      "author": "Kyle Orland",
+      "published": "Mon, 24 Aug 2026 21:45:53 +0000",
       "tags": [
-        "Space",
-        "blue origin",
-        "chang'e 7",
-        "china"
+        "AI",
+        "economy",
+        "employment",
+        "job losses"
       ]
     },
     {
-      "id": "0d50cbd1b3b1",
+      "id": "743a13d8b156",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Volcanoes that made history",
-      "url": "https://arstechnica.com/science/2026/08/volcanoes-that-made-history/",
-      "summary": "Enormous eruptions altered Earth’s climate and societies all over the globe.",
-      "author": "Alexandra Witze, Knowable Magazine",
-      "published": "Sun, 23 Aug 2026 11:02:54 +0000",
+      "title": "Data centers become \"killer application\" for new power transformer tech",
+      "url": "https://arstechnica.com/gadgets/2026/08/energy-hungry-ai-data-centers-spur-new-power-transformer-technology/",
+      "summary": "Solid-state transformers could also benefit EV charging and someday households.",
+      "author": "Jeremy Hsu",
+      "published": "Mon, 24 Aug 2026 21:32:16 +0000",
       "tags": [
-        "Science",
-        "super volcanoes",
-        "syndication",
-        "volcanoes"
+        "Tech",
+        "AI chips",
+        "ai data centers",
+        "data centers"
       ]
     },
     {
-      "id": "cd8d6f001cfc",
+      "id": "f2431745b262",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Putting mice into hibernation causes a major loss of synapses",
-      "url": "https://arstechnica.com/science/2026/08/memories-stick-around-even-after-half-the-synapses-are-gone/",
-      "summary": "Hibernation cuts down on synapses, but mice seem to retain memories anyway.",
-      "author": "Jacek Krywko",
-      "published": "Sat, 22 Aug 2026 11:22:32 +0000",
+      "title": "RFK Jr. may upend how vaccine recommendations are categorized",
+      "url": "https://arstechnica.com/health/2026/08/rfk-jr-may-upend-how-vaccine-recommendations-are-categorized/",
+      "summary": "There are currently 3 categories. Without reason, RFK Jr. is considering changes.",
+      "author": "Beth Mole",
+      "published": "Mon, 24 Aug 2026 21:04:48 +0000",
       "tags": [
-        "Science",
-        "Biology",
-        "hibernation",
-        "memory"
+        "Health",
+        "anti-vaccine",
+        "CDC",
+        "robert f kennedy jr"
       ]
     },
     {
-      "id": "86c6abe6285a",
+      "id": "660c78717c92",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Stock futures flat as U.S. and Canada appear headed for trade war",
-      "url": "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24?mod=mw_rss_topstories",
-      "summary": "U.S. stock-index futures were little changed on Sunday, as it appeared the U.S. was on the verge of an all-out trade war with Canada, one of its biggest trading partners.",
-      "author": "Mike Murphy",
-      "published": "Mon, 24 Aug 2026 02:29:00 GMT",
-      "tags": []
-    },
-    {
-      "id": "a2ae4614d679",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "My son does not work, yet pays $500 for Affordable Care Act health insurance. Is that fair?",
-      "url": "https://www.marketwatch.com/story/my-son-does-not-work-yet-he-pays-500-for-aca-health-insurance-how-is-that-fair-92f578c4?mod=mw_rss_topstories",
-      "summary": "“I see people who have a lot of money but little or no taxable income who still qualify for ACA Marketplace subsidies.”",
+      "title": "‘She looked into COBRA’: My friend was laid off and lost her health insurance. How can she find affordable coverage?",
+      "url": "https://www.marketwatch.com/story/shes-desperate-my-friend-was-laid-off-and-lost-her-health-insurance-how-can-she-find-affordable-coverage-3b17b553?mod=mw_rss_topstories",
+      "summary": "“The cost is absolutely ridiculous.”",
       "author": "Quentin Fottrell",
-      "published": "Sun, 23 Aug 2026 19:30:00 GMT",
+      "published": "Tue, 25 Aug 2026 00:15:00 GMT",
       "tags": []
     },
     {
-      "id": "54bebdb5afd0",
+      "id": "7712b256ef8f",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘The market is obviously on fire’: Should I take $1,000 from my brokerage account to pay off my car loan?",
-      "url": "https://www.marketwatch.com/story/the-market-is-obviously-on-fire-is-it-a-mistake-to-take-1-000-from-my-brokerage-account-to-pay-my-car-loan-65800d1f?mod=mw_rss_topstories",
-      "summary": "“I’m curious whether there’s a downside.”",
+      "title": "My father-in-law passed away, leaving a house with tenants. Do I evict them?",
+      "url": "https://www.marketwatch.com/story/my-father-in-law-passed-away-leaving-a-house-with-tenants-do-i-evict-them-f974428c?mod=mw_rss_topstories",
+      "summary": "“We don’t know whether they have signed leases or are renting month to month.”",
       "author": "Quentin Fottrell",
-      "published": "Sun, 23 Aug 2026 19:00:00 GMT",
+      "published": "Tue, 25 Aug 2026 00:00:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "c8e68b19219d",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
+      "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
+      "summary": "“I also own my home and an SUV outright, with no outstanding debt.”",
+      "author": "Quentin Fottrell",
+      "published": "Mon, 24 Aug 2026 23:45:00 GMT",
       "tags": []
     }
   ],
