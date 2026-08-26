@@ -1,281 +1,292 @@
 {
-  "date": "2026-08-25",
+  "date": "2026-08-26",
   "items": [
     {
-      "id": "32aa04d73576",
+      "id": "506eb1349741",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Braches",
-      "url": "https://simple.wikipedia.org/wiki/Braches",
-      "summary": "Braches is a commune. It is in Hauts-de-France in the Somme department in north France.",
+      "title": "Wellingborough",
+      "url": "https://simple.wikipedia.org/wiki/Wellingborough",
+      "summary": "Wellingborough is a town in Northamptonshire, England. In 2001 there were 72,519 people living in the town. The town is near the A45 road.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "d2b63dfa0636",
+      "id": "31a710b56e55",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Reginald Grey, 3rd Baron Grey de Ruthyn",
-      "url": "https://simple.wikipedia.org/wiki/Reginald_Grey%2C_3rd_Baron_Grey_de_Ruthyn",
-      "summary": "Reginald Grey, 3rd Baron Grey de Ruthyn, was a powerful Welsh marcher lord. He became Baron after his father's death in July 1388. His main military actions were against the Welsh, during the rebellion of Owain Glyndŵr.",
+      "title": "Michelle Bachelet",
+      "url": "https://simple.wikipedia.org/wiki/Michelle_Bachelet",
+      "summary": "Verónica Michelle Bachelet Jeria AC is a Chilean politician. She served as the 35th President of Chile from 11 March 1995 to 11 March 1999. She was also President of Chile from 11 March 2006 to 11 March 2010. She was the first woman president of Chile.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "6a63078b3dd9",
+      "id": "ebd8abd75cd5",
       "category": "tech",
       "source": "Hacker News",
-      "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
-      "url": "https://developer.apple.com/news/?id=1ptvdtcm",
+      "title": "FDA authorizes first wearable device that monitors ketone and blood sugar levels",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar",
       "summary": "",
-      "author": "K7PJP",
-      "published": "2026-08-24",
-      "tags": [
-        "▲ 247"
-      ]
-    },
-    {
-      "id": "8e01f065f751",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
-      "url": "https://twitter.com/lemire/status/2091894299289874926",
-      "summary": "https://xcancel.com/lemire/status/2091894299289874926",
-      "author": "tosh",
-      "published": "2026-08-24",
-      "tags": [
-        "▲ 739"
-      ]
-    },
-    {
-      "id": "f34dd1b06c9b",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
-      "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
-      "summary": "",
-      "author": "ComputerGuru",
-      "published": "2026-08-24",
-      "tags": [
-        "▲ 574"
-      ]
-    },
-    {
-      "id": "f40a211fa8cf",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Moon (2024)",
-      "url": "https://ciechanow.ski/moon/",
-      "summary": "",
-      "author": "simonebrunozzi",
-      "published": "2026-08-24",
-      "tags": [
-        "▲ 111"
-      ]
-    },
-    {
-      "id": "c75e015ff81a",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "How Universities Should Prepare Founders",
-      "url": "https://paulgraham.com/prepare.html",
-      "summary": "",
-      "author": "gmays",
+      "author": "sunnynagra",
       "published": "2026-08-25",
       "tags": [
-        "▲ 24"
+        "▲ 296"
       ]
     },
     {
-      "id": "c20a4456d4f9",
+      "id": "198147ad1e6e",
       "category": "tech",
       "source": "Hacker News",
-      "title": "The entire city of San Francisco as a video game",
-      "url": "https://sf.thijs.gg/",
-      "summary": "https://twitter.com/cdngdev/status/2091909073038082139 , https://xcancel.com/cdngdev/status/2091909073038082139",
-      "author": "centrosphere",
-      "published": "2026-08-24",
+      "title": "Apple introduces M6 and M5 Ultra",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "summary": "https://techcrunch.com/2026/08/25/apple-debuts-its-most-powe... https://9to5mac.com/2026/08/25/m6-mac-mini-vs-m4-mac-mini-he...",
+      "author": "interpol_p",
+      "published": "2026-08-25",
       "tags": [
-        "▲ 359"
+        "▲ 983"
       ]
     },
     {
-      "id": "4bc7fffe3ab1",
+      "id": "e61f241d4e2e",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "OpenAI Jalapeño: Better than Nvidia Blackwell",
+      "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+      "summary": "https://www.bloomberg.com/news/articles/2026-08-25/openai-cl... , https://archive.ph/yCTrr",
+      "author": "bmulholland",
+      "published": "2026-08-25",
+      "tags": [
+        "▲ 351"
+      ]
+    },
+    {
+      "id": "25e219691ed2",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "New Mac Studio with M5 Max and M5 Ultra",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/",
+      "summary": "",
+      "author": "interpol_p",
+      "published": "2026-08-25",
+      "tags": [
+        "▲ 710"
+      ]
+    },
+    {
+      "id": "3fe4db8a4ef7",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "The brain may be about to have its Ozempic moment",
+      "url": "https://www.economist.com/science-and-technology/2026/08/11/the-brain-may-be-about-to-have-its-ozempic-moment",
+      "summary": "",
+      "author": "Anon84",
+      "published": "2026-08-26",
+      "tags": [
+        "▲ 26"
+      ]
+    },
+    {
+      "id": "ec5e1953f81d",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Black hole singularity is a surface not a point",
+      "url": "https://arxiv.org/abs/2608.21590",
+      "summary": "",
+      "author": "raattgift",
+      "published": "2026-08-25",
+      "tags": [
+        "▲ 197"
+      ]
+    },
+    {
+      "id": "0f69c6ccaecc",
       "category": "tech",
       "source": "DEV Community",
-      "title": "David Stark: Top High-Paying Roles",
-      "url": "https://dev.to/devpulse/david-stark-top-high-paying-roles-4kb6",
-      "summary": "👋 Hello Architects & Elite Engineers, The market is shifting. We are seeing a surge in JAVASCRIPT roles this week. We don't do \"Easy Apply\". Our internal gatekeeper just processed 200+ verified remote jobs from our partner network. To get these jobs, you must pass the architect…",
-      "author": "David Stark",
-      "published": "Tue, 25 Aug 2026 02:26:48 +0000",
+      "title": "Interactive Voice Response System Provider Delhi",
+      "url": "https://dev.to/thehotelproperties/interactive-voice-response-system-provider-delhi-2ap2",
+      "summary": "Looking for a reliable Interactive Voice Response (IVR) System? JMR Infosystem provides advanced IVR solutions to help businesses automate customer calls, manage high call volumes, route calls efficiently, and improve customer service. An IVR system allows callers to connect wit…",
+      "author": "seo work",
+      "published": "Wed, 26 Aug 2026 02:38:17 +0000",
       "tags": [
-        "javascript",
+        "ai",
+        "webdev",
+        "programming",
+        "productivity"
+      ]
+    },
+    {
+      "id": "3af1483367d1",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "3..2..1 Lift off!!!",
+      "url": "https://dev.to/kelvin_air_tmla/321-lift-off-4abb",
+      "summary": "Proud to announce that FicCrunch has launched on Peerlist ! 🎉 FicCrunch turns a tangled GitHub issue/PR thread into a bounded reading order and visual graph — built to help developers stop losing hours in cross-repo link chains. If you have a moment, an upvote on Peerlist would…",
+      "author": "Kelvin-Air",
+      "published": "Wed, 26 Aug 2026 02:36:33 +0000",
+      "tags": [
+        "webdev",
+        "ai",
+        "productivity",
+        "github"
+      ]
+    },
+    {
+      "id": "d425db50c3a7",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "From Polling to SSE in RTK Query Without Breaking Reconnect Logic",
+      "url": "https://dev.to/anand_rathnas_d5b608cc3de/from-polling-to-sse-in-rtk-query-without-breaking-reconnect-logic-4g5a",
+      "summary": "This article was originally published on Jo4 Blog . We had a React notification bell that polled /notifications/unread-count every 30 seconds. It worked. It also sent thousands of pointless requests when the answer was \"still zero, still zero, still zero.\" We replaced it with Se…",
+      "author": "Anand Rathnas",
+      "published": "Wed, 26 Aug 2026 02:27:22 +0000",
+      "tags": [
         "react",
+        "typescript",
         "webdev",
-        "remote"
+        "javascript"
       ]
     },
     {
-      "id": "34adbe3d394a",
+      "id": "8307f39bea6c",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Find the Safe Proxy Concurrency Ceiling for Browser Automation",
-      "url": "https://dev.to/98ip/find-the-safe-proxy-concurrency-ceiling-for-browser-automation-4cc",
-      "summary": "Browser concurrency and proxy capacity are different limits. A platform may launch 200 browser sessions while the proxy gateway, regional inventory, destination policy, or result pipeline saturates much earlier. This test plan finds the highest useful throughput without hiding f…",
-      "author": "98IP Proxy",
-      "published": "Tue, 25 Aug 2026 02:26:40 +0000",
+      "title": "How to Launch a WordPress blog for Under $3/Month",
+      "url": "https://dev.to/nick_davies_323125afbb05c/how-to-launch-a-wordpress-blog-for-under-3month-9mh",
+      "summary": "You don't need expensive hosting to launch a WordPress blog. Here's how to get one live in under an hour for $2.99/mo. What You Need A domain — Hostinger includes one free for the first year Hosting — The Premium plan ($2.99/mo) is enough to start A platform — WordPress (one-cli…",
+      "author": "Nick Davies",
+      "published": "Wed, 26 Aug 2026 02:26:39 +0000",
       "tags": [
         "webdev",
-        "automation",
-        "testing",
-        "performance"
+        "hosting",
+        "beginners",
+        "tutorial"
       ]
     },
     {
-      "id": "c8f4225eb37b",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "La unidad de cobro es una decisión de arquitectura, no de pricing",
-      "url": "https://dev.to/multita/la-unidad-de-cobro-es-una-decision-de-arquitectura-no-de-pricing-3d0p",
-      "summary": "La unidad de cobro de un SaaS que scrapea no es una decisión de pricing. Es una decisión de arquitectura, y se toma antes de escribir el primer scraper, porque después condiciona todo: el caché, los reintentos, el modo asincrónico y hasta el contrato de errores. Multita consulta…",
-      "author": "Multita",
-      "published": "Tue, 25 Aug 2026 02:23:03 +0000",
-      "tags": [
-        "api",
-        "webdev",
-        "architecture",
-        "saas"
-      ]
-    },
-    {
-      "id": "12deb81c7503",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Mở 20 tab Chrome kèm IDE: Pin to liệu có trụ được cả ngày?",
-      "url": "https://dev.to/hung_phatlaptop_a651fc86/mo-20-tab-chrome-kem-ide-pin-to-lieu-co-tru-duoc-ca-ngay-44ja",
-      "summary": "Nhiều người mặc định mua laptop pin to cả trăm Wh thì mở bao nhiêu tab trình duyệt hay IDE cũng chẳng lo cạn nguồn giữa chừng. Thực tế thì pin trâu trên thông số giấy tờ hoàn toàn khác với việc máy phải gánh tải nặng trong phiên làm việc thực tế của lập trình viên. Áp lực RAM, c…",
-      "author": "Review Laptop",
-      "published": "Tue, 25 Aug 2026 02:22:07 +0000",
-      "tags": [
-        "xps9340",
-        "vscode",
-        "webdev",
-        "performance"
-      ]
-    },
-    {
-      "id": "2db95abf86b0",
+      "id": "1d72b5f45c88",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Well-being",
-      "url": "https://en.wikipedia.org/wiki/Well-being",
-      "summary": "Well-being is what is non-instrumentally good for a person. Also called welfare and quality of life, it is a measure of how well life is going for someone. In the broadest sense, it covers the balance of all positive and negative aspects of a person's life. More narrowly, it ref…",
+      "title": "The Real Adventures of Jonny Quest",
+      "url": "https://en.wikipedia.org/wiki/The_Real_Adventures_of_Jonny_Quest",
+      "summary": "The Real Adventures of Jonny Quest is an American animated television series produced by Hanna-Barbera Cartoons and broadcast on Cartoon Network from August 26, 1996, to April 16, 1997. It is a continuation of Jonny Quest (1964) and The New Adventures of Jonny Quest (1986) and f…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "6655729cdf12",
+      "id": "94a6ef56b551",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Iran faces 'greatest financial offensive ever', says US treasury secretary",
-      "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
-      "summary": "Scott Bessent says the US will sever all economic ties with the country and that any nation partnering with Iran financially will also be isolated.",
-      "published": "Mon, 24 Aug 2026 23:48:25 GMT",
+      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+      "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss",
+      "summary": "The latest escalation in an ongoing trade war between the US and Canada will see new levies on goods from steel to furniture, fresh tuna and makeup.",
+      "published": "Tue, 25 Aug 2026 19:50:57 GMT",
       "tags": []
     },
     {
-      "id": "6c51db20726b",
+      "id": "62bd4787a022",
       "category": "news",
       "source": "BBC 世界",
-      "title": "UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia",
-      "url": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
-      "summary": "It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine.",
-      "published": "Tue, 25 Aug 2026 01:48:24 GMT",
+      "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
+      "url": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss",
+      "summary": "The US has threatened to isolate nations that continue to do business with Tehran, which sells much of its oil to Beijing.",
+      "published": "Tue, 25 Aug 2026 11:53:36 GMT",
       "tags": []
     },
     {
-      "id": "4ff6fd0394b8",
+      "id": "89c4e17188b2",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US removes Syria from list of state sponsors of terrorism",
-      "url": "https://www.bbc.co.uk/news/articles/c33knmyl0y5o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Trump administration has embraced Syria's new president, former al-Qaeda linked militant Ahmed al-Sharaa.",
-      "published": "Tue, 25 Aug 2026 00:17:25 GMT",
+      "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
+      "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss",
+      "summary": "Flight tracking data confirms an American military aircraft travelled to Russia from the US via Latvia on Tuesday.",
+      "published": "Tue, 25 Aug 2026 19:48:14 GMT",
       "tags": []
     },
     {
-      "id": "e1edf19d9654",
+      "id": "8a33f55feeca",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Moment tornado tears through southern France",
-      "url": "https://www.bbc.co.uk/news/videos/ckg8wkd0j7do?at_medium=RSS&at_campaign=rss",
-      "summary": "The tornado has injured more than 40 people and destroyed homes in villages.",
-      "published": "Tue, 25 Aug 2026 00:16:35 GMT",
+      "title": "Mass arrests in global crackdown on West African cyber-crime networks",
+      "url": "https://www.bbc.co.uk/news/articles/cq5xdnxppl4o?at_medium=RSS&at_campaign=rss",
+      "summary": "The operation included the arrest of 39 people in South Africa for romance and investment scams.",
+      "published": "Tue, 25 Aug 2026 19:30:37 GMT",
       "tags": []
     },
     {
-      "id": "f2e956db9dee",
+      "id": "a6e98391ec18",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
-      "url": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
-      "summary": "Young employment in AI-impacted fields down 19% compared to more AI-resistant occupations.",
-      "author": "Kyle Orland",
-      "published": "Mon, 24 Aug 2026 21:45:53 +0000",
+      "title": "The world's busiest spaceport is about to get a lot quieter, at least for now",
+      "url": "https://arstechnica.com/space/2026/08/the-worlds-busiest-spaceport-is-about-to-get-a-lot-quieter-at-least-for-now/",
+      "summary": "SpaceX aims to launch Starship from Florida by the end of the year. 2027 seems more likely.",
+      "author": "Stephen Clark",
+      "published": "Tue, 25 Aug 2026 22:21:06 +0000",
+      "tags": [
+        "Space",
+        "cape canaveral",
+        "falcon 9",
+        "launch"
+      ]
+    },
+    {
+      "id": "91e48aee1020",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "World humanoid robot games show runners breaking records, bursting into flames",
+      "url": "https://arstechnica.com/ai/2026/08/world-humanoid-robot-games-show-runners-breaking-records-bursting-into-flames/",
+      "summary": "Record-breaking robot races are less substantial than household chore challenges.",
+      "author": "Jeremy Hsu",
+      "published": "Tue, 25 Aug 2026 20:59:03 +0000",
       "tags": [
         "AI",
-        "economy",
-        "employment",
-        "job losses"
+        "china",
+        "humanoid robots",
+        "Robotics"
       ]
     },
     {
-      "id": "743a13d8b156",
+      "id": "54a31dd8a160",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Data centers become \"killer application\" for new power transformer tech",
-      "url": "https://arstechnica.com/gadgets/2026/08/energy-hungry-ai-data-centers-spur-new-power-transformer-technology/",
-      "summary": "Solid-state transformers could also benefit EV charging and someday households.",
-      "author": "Jeremy Hsu",
-      "published": "Mon, 24 Aug 2026 21:32:16 +0000",
+      "title": "Preserving glow-in-the-dark art and fashion for future generations",
+      "url": "https://arstechnica.com/science/2026/08/how-chemistry-can-keep-glow-in-the-dark-pigments-from-fading/",
+      "summary": "Understanding unique photochemistry of such materials will help in conservation, storage, and exhibition.",
+      "author": "Jennifer Ouellette",
+      "published": "Tue, 25 Aug 2026 18:59:12 +0000",
       "tags": [
-        "Tech",
-        "AI chips",
-        "ai data centers",
-        "data centers"
+        "Science",
+        "American Chemical Society",
+        "art conservation",
+        "chemistry"
       ]
     },
     {
-      "id": "f2431745b262",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "RFK Jr. may upend how vaccine recommendations are categorized",
-      "url": "https://arstechnica.com/health/2026/08/rfk-jr-may-upend-how-vaccine-recommendations-are-categorized/",
-      "summary": "There are currently 3 categories. Without reason, RFK Jr. is considering changes.",
-      "author": "Beth Mole",
-      "published": "Mon, 24 Aug 2026 21:04:48 +0000",
-      "tags": [
-        "Health",
-        "anti-vaccine",
-        "CDC",
-        "robert f kennedy jr"
-      ]
-    },
-    {
-      "id": "660c78717c92",
+      "id": "7f17b6c990fe",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘She looked into COBRA’: My friend was laid off and lost her health insurance. How can she find affordable coverage?",
-      "url": "https://www.marketwatch.com/story/shes-desperate-my-friend-was-laid-off-and-lost-her-health-insurance-how-can-she-find-affordable-coverage-3b17b553?mod=mw_rss_topstories",
-      "summary": "“The cost is absolutely ridiculous.”",
-      "author": "Quentin Fottrell",
-      "published": "Tue, 25 Aug 2026 00:15:00 GMT",
+      "title": "Are older Americans spoiling the economy for everyone else?",
+      "url": "https://www.marketwatch.com/story/are-older-americans-spoiling-the-economy-for-everyone-else-064b5820?mod=mw_rss_topstories",
+      "summary": "How to get seniors to spend $12 trillion in home equity.",
+      "author": "Geoffrey Sanzenbacher",
+      "published": "Wed, 26 Aug 2026 01:41:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "dd43063c5f7e",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "5 cheap U.S. cities to retire in — if you can deal with this one thing",
+      "url": "https://www.marketwatch.com/story/5-cheap-u-s-cities-to-retire-in-if-you-can-deal-with-this-one-thing-fbda5d1a?mod=mw_rss_topstories",
+      "summary": "You don’t have to leave the country to find an affordable place that matches your retirement vision.",
+      "author": "Edd and Cynthia Staton",
+      "published": "Wed, 26 Aug 2026 01:35:00 GMT",
       "tags": []
     },
     {
@@ -286,18 +297,7 @@
       "url": "https://www.marketwatch.com/story/my-father-in-law-passed-away-leaving-a-house-with-tenants-do-i-evict-them-f974428c?mod=mw_rss_topstories",
       "summary": "“We don’t know whether they have signed leases or are renting month to month.”",
       "author": "Quentin Fottrell",
-      "published": "Tue, 25 Aug 2026 00:00:00 GMT",
-      "tags": []
-    },
-    {
-      "id": "c8e68b19219d",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
-      "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
-      "summary": "“I also own my home and an SUV outright, with no outstanding debt.”",
-      "author": "Quentin Fottrell",
-      "published": "Mon, 24 Aug 2026 23:45:00 GMT",
+      "published": "Wed, 26 Aug 2026 00:30:00 GMT",
       "tags": []
     }
   ],
