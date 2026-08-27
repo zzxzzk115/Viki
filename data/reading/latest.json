@@ -1,117 +1,149 @@
 {
-  "date": "2026-08-26",
+  "date": "2026-08-27",
   "items": [
     {
-      "id": "506eb1349741",
+      "id": "ffd0b1c0a5f2",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Wellingborough",
-      "url": "https://simple.wikipedia.org/wiki/Wellingborough",
-      "summary": "Wellingborough is a town in Northamptonshire, England. In 2001 there were 72,519 people living in the town. The town is near the A45 road.",
+      "title": "Burgsalach",
+      "url": "https://simple.wikipedia.org/wiki/Burgsalach",
+      "summary": "Burgsalach is a municipality in Weißenburg-Gunzenhausen in Bavaria, Germany.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "31a710b56e55",
+      "id": "0ff4f61da75b",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Michelle Bachelet",
-      "url": "https://simple.wikipedia.org/wiki/Michelle_Bachelet",
-      "summary": "Verónica Michelle Bachelet Jeria AC is a Chilean politician. She served as the 35th President of Chile from 11 March 1995 to 11 March 1999. She was also President of Chile from 11 March 2006 to 11 March 2010. She was the first woman president of Chile.",
+      "title": "Fermo",
+      "url": "https://simple.wikipedia.org/wiki/Fermo",
+      "summary": "Fermo is a comune and city in the Marche region, in central Italy. Fermo is the capital of the province of Fermo.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "ebd8abd75cd5",
+      "id": "5bf92f9b1d01",
       "category": "tech",
       "source": "Hacker News",
-      "title": "FDA authorizes first wearable device that monitors ketone and blood sugar levels",
-      "url": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar",
+      "title": "Nvidia agrees to acquire Hugging Face for $13B",
+      "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+      "summary": "https://www.theinformation.com/articles/nvidia-agrees-buy-op... (paywalled) https://techcrunch.com/2026/08/24/hugging-face-reportedly-in...",
+      "author": "mfiguiere",
+      "published": "2026-08-27",
+      "tags": [
+        "▲ 1247"
+      ]
+    },
+    {
+      "id": "29e2bc91323a",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Mechanical Turk shutting down September 30",
+      "url": "https://www.mturk.com/",
       "summary": "",
-      "author": "sunnynagra",
-      "published": "2026-08-25",
-      "tags": [
-        "▲ 296"
-      ]
-    },
-    {
-      "id": "198147ad1e6e",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Apple introduces M6 and M5 Ultra",
-      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
-      "summary": "https://techcrunch.com/2026/08/25/apple-debuts-its-most-powe... https://9to5mac.com/2026/08/25/m6-mac-mini-vs-m4-mac-mini-he...",
-      "author": "interpol_p",
-      "published": "2026-08-25",
-      "tags": [
-        "▲ 983"
-      ]
-    },
-    {
-      "id": "e61f241d4e2e",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "OpenAI Jalapeño: Better than Nvidia Blackwell",
-      "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
-      "summary": "https://www.bloomberg.com/news/articles/2026-08-25/openai-cl... , https://archive.ph/yCTrr",
-      "author": "bmulholland",
-      "published": "2026-08-25",
-      "tags": [
-        "▲ 351"
-      ]
-    },
-    {
-      "id": "25e219691ed2",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "New Mac Studio with M5 Max and M5 Ultra",
-      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/",
-      "summary": "",
-      "author": "interpol_p",
-      "published": "2026-08-25",
-      "tags": [
-        "▲ 710"
-      ]
-    },
-    {
-      "id": "3fe4db8a4ef7",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "The brain may be about to have its Ozempic moment",
-      "url": "https://www.economist.com/science-and-technology/2026/08/11/the-brain-may-be-about-to-have-its-ozempic-moment",
-      "summary": "",
-      "author": "Anon84",
+      "author": "tmp10423288442",
       "published": "2026-08-26",
       "tags": [
-        "▲ 26"
+        "▲ 400"
       ]
     },
     {
-      "id": "ec5e1953f81d",
+      "id": "05f53b90b474",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Black hole singularity is a surface not a point",
-      "url": "https://arxiv.org/abs/2608.21590",
-      "summary": "",
-      "author": "raattgift",
-      "published": "2026-08-25",
+      "title": "GLM-5.3-Flash",
+      "url": "https://z.ai/blog/glm-5.3-flash",
+      "summary": "https://news.ycombinator.com/item?id=49450353",
+      "author": "Philpax",
+      "published": "2026-08-26",
       "tags": [
-        "▲ 197"
+        "▲ 1052"
       ]
     },
     {
-      "id": "0f69c6ccaecc",
+      "id": "47eca0edb07d",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "U.S. State Department pauses immigrant visa applications",
+      "url": "https://www.wsj.com/politics/policy/u-s-state-department-pauses-immigrant-visa-applications-25b31b23",
+      "summary": "",
+      "author": "sss111",
+      "published": "2026-08-26",
+      "tags": [
+        "▲ 570"
+      ]
+    },
+    {
+      "id": "256005002a96",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Tailcat – Like netcat, but over Tailscale’s data plane",
+      "url": "https://github.com/tailscale/tailcat",
+      "summary": "",
+      "author": "nderjung",
+      "published": "2026-08-26",
+      "tags": [
+        "▲ 590"
+      ]
+    },
+    {
+      "id": "ea8ca5864990",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Asahi Linux Progress Report: Linux 7.2",
+      "url": "https://asahilinux.org/2026/08/progress-report-7-2/",
+      "summary": "",
+      "author": "pizzaiolo",
+      "published": "2026-08-26",
+      "tags": [
+        "▲ 303"
+      ]
+    },
+    {
+      "id": "519c43b9289d",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Interactive Voice Response System Provider Delhi",
-      "url": "https://dev.to/thehotelproperties/interactive-voice-response-system-provider-delhi-2ap2",
-      "summary": "Looking for a reliable Interactive Voice Response (IVR) System? JMR Infosystem provides advanced IVR solutions to help businesses automate customer calls, manage high call volumes, route calls efficiently, and improve customer service. An IVR system allows callers to connect wit…",
-      "author": "seo work",
-      "published": "Wed, 26 Aug 2026 02:38:17 +0000",
+      "title": "Revenue Cycle Management Services | GoSourceMD RCM Experts",
+      "url": "https://dev.to/gauri_deore_766aec48a236f/revenue-cycle-management-services-gosourcemd-rcm-experts-p65",
+      "summary": "Improve cash flow with GoSourceMD's Revenue Cycle Management Services. From medical billing to coding and denial management, we help healthcare practices get paid faster. - Revenue Cycle Management Services www.GoSourcemd.com",
+      "author": "Gauri Deore",
+      "published": "Thu, 27 Aug 2026 11:26:45 +0000",
+      "tags": [
+        "medical",
+        "rpa",
+        "ai",
+        "webdev"
+      ]
+    },
+    {
+      "id": "b7b9146de3c7",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Ship Email Checks Without UI Drift",
+      "url": "https://dev.to/ryanlee91/ship-email-checks-without-ui-drift-45e1",
+      "summary": "Email signup bugs rarely come from the regex anymore. They usually come from drift between the React field state, the Node.js validation endpoint, and the product rule nobody wrote down. One request finishes late, one message stays on screen too long, and suddenly the form feels…",
+      "author": "ryanlee",
+      "published": "Thu, 27 Aug 2026 11:24:18 +0000",
+      "tags": [
+        "react",
+        "node",
+        "javascript",
+        "webdev"
+      ]
+    },
+    {
+      "id": "28d2c369bc7c",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Top 10 Site to Buy Verified Instagram Accounts in ...2026",
+      "url": "https://dev.to/lynnetharness6rt1q/top-10-site-to-buy-verified-instagram-accounts-in-2026-9h1",
+      "summary": "Buy Verified Instagram Accounts ◈═━👑━═◈➜Fast Reply 24/7 | Instant Support 🚀 ◈═━👑━═◈➜Telegram: @progmbofficial ◈═━👑━═◈➜WhatsApp: +1 (920) 212-9737 ◈═━👑━═◈➜Telegram Channel: @progmbofficial ◈═━👑━═◈➜Email: progmb.contact@gmail.com ◈═━👑━═◈➜Visit Our Website: https://www.progm…",
+      "author": "ness6rt1q",
+      "published": "Thu, 27 Aug 2026 11:22:58 +0000",
       "tags": [
         "ai",
         "webdev",
@@ -120,184 +152,151 @@
       ]
     },
     {
-      "id": "3af1483367d1",
+      "id": "ad14af6cf800",
       "category": "tech",
       "source": "DEV Community",
-      "title": "3..2..1 Lift off!!!",
-      "url": "https://dev.to/kelvin_air_tmla/321-lift-off-4abb",
-      "summary": "Proud to announce that FicCrunch has launched on Peerlist ! 🎉 FicCrunch turns a tangled GitHub issue/PR thread into a bounded reading order and visual graph — built to help developers stop losing hours in cross-repo link chains. If you have a moment, an upvote on Peerlist would…",
-      "author": "Kelvin-Air",
-      "published": "Wed, 26 Aug 2026 02:36:33 +0000",
+      "title": "Buy Verified Poloniex Accounts with Verified Security and ...",
+      "url": "https://dev.to/usasvcit43tgfq/buy-verified-poloniex-accounts-with-verified-security-and--28l1",
+      "summary": "Buy Verified Poloniex Accounts with Verified Security and ... 24 hours response/(Contact US) ➤ WhatsApp: +1 (903) 702-9701 ➤ Telegram: @usasvcit ➤ Email: usasvcit@gmail.com The phrase “Buy Verified Poloniex Account” is commonly used as a search query by people looking for quick …",
+      "author": "Top 10 Sites To Buy Github Accounts In This Year 2",
+      "published": "Thu, 27 Aug 2026 11:21:23 +0000",
       "tags": [
         "webdev",
         "ai",
-        "productivity",
-        "github"
+        "programming",
+        "productivity"
       ]
     },
     {
-      "id": "d425db50c3a7",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "From Polling to SSE in RTK Query Without Breaking Reconnect Logic",
-      "url": "https://dev.to/anand_rathnas_d5b608cc3de/from-polling-to-sse-in-rtk-query-without-breaking-reconnect-logic-4g5a",
-      "summary": "This article was originally published on Jo4 Blog . We had a React notification bell that polled /notifications/unread-count every 30 seconds. It worked. It also sent thousands of pointless requests when the answer was \"still zero, still zero, still zero.\" We replaced it with Se…",
-      "author": "Anand Rathnas",
-      "published": "Wed, 26 Aug 2026 02:27:22 +0000",
-      "tags": [
-        "react",
-        "typescript",
-        "webdev",
-        "javascript"
-      ]
-    },
-    {
-      "id": "8307f39bea6c",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "How to Launch a WordPress blog for Under $3/Month",
-      "url": "https://dev.to/nick_davies_323125afbb05c/how-to-launch-a-wordpress-blog-for-under-3month-9mh",
-      "summary": "You don't need expensive hosting to launch a WordPress blog. Here's how to get one live in under an hour for $2.99/mo. What You Need A domain — Hostinger includes one free for the first year Hosting — The Premium plan ($2.99/mo) is enough to start A platform — WordPress (one-cli…",
-      "author": "Nick Davies",
-      "published": "Wed, 26 Aug 2026 02:26:39 +0000",
-      "tags": [
-        "webdev",
-        "hosting",
-        "beginners",
-        "tutorial"
-      ]
-    },
-    {
-      "id": "1d72b5f45c88",
+      "id": "ed9d6f6b5e6a",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "The Real Adventures of Jonny Quest",
-      "url": "https://en.wikipedia.org/wiki/The_Real_Adventures_of_Jonny_Quest",
-      "summary": "The Real Adventures of Jonny Quest is an American animated television series produced by Hanna-Barbera Cartoons and broadcast on Cartoon Network from August 26, 1996, to April 16, 1997. It is a continuation of Jonny Quest (1964) and The New Adventures of Jonny Quest (1986) and f…",
+      "title": "Assassination of Lord Mountbatten",
+      "url": "https://en.wikipedia.org/wiki/Assassination_of_Lord_Mountbatten",
+      "summary": "Lord Mountbatten, a retired British statesman and cousin to Queen Elizabeth II, was assassinated on 27 August 1979 off the coast of Mullaghmore, Ireland. Thomas McMahon, an Irish republican and a volunteer for the Provisional Irish Republican Army (IRA), planted a bomb on Mountb…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "94a6ef56b551",
+      "id": "1f13e3f0e166",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-      "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss",
-      "summary": "The latest escalation in an ongoing trade war between the US and Canada will see new levies on goods from steel to furniture, fresh tuna and makeup.",
-      "published": "Tue, 25 Aug 2026 19:50:57 GMT",
+      "title": "Collapsed glacier likely caused devastating Nepal-Tibet floods, scientists say",
+      "url": "https://www.bbc.co.uk/news/articles/cly464k252yo?at_medium=RSS&at_campaign=rss",
+      "summary": "Preliminary investigations by scientists have pointed to a collapsed glacier as the cause, highlighting the issue of rapidly melting Himalayan ice.",
+      "published": "Thu, 27 Aug 2026 09:50:10 GMT",
       "tags": []
     },
     {
-      "id": "62bd4787a022",
+      "id": "ff8d8d19e796",
       "category": "news",
       "source": "BBC 世界",
-      "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
-      "url": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss",
-      "summary": "The US has threatened to isolate nations that continue to do business with Tehran, which sells much of its oil to Beijing.",
-      "published": "Tue, 25 Aug 2026 11:53:36 GMT",
+      "title": "What we know about deadly Nepal-Tibet floods",
+      "url": "https://www.bbc.co.uk/news/articles/cd948kn02e5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Hundreds have died in flooding and landslides on the border of Nepal and Tibet.",
+      "published": "Thu, 27 Aug 2026 09:55:02 GMT",
       "tags": []
     },
     {
-      "id": "89c4e17188b2",
+      "id": "544d472ce9eb",
       "category": "news",
       "source": "BBC 世界",
-      "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
-      "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss",
-      "summary": "Flight tracking data confirms an American military aircraft travelled to Russia from the US via Latvia on Tuesday.",
-      "published": "Tue, 25 Aug 2026 19:48:14 GMT",
+      "title": "Norway's royal family gathers at King Harald's bedside as his condition worsens",
+      "url": "https://www.bbc.co.uk/news/articles/cqxvrnvrr5do?at_medium=RSS&at_campaign=rss",
+      "summary": "The 89-year-old has been in hospital for over a week receiving treatment for a rare blood condition.",
+      "published": "Thu, 27 Aug 2026 11:20:49 GMT",
       "tags": []
     },
     {
-      "id": "8a33f55feeca",
+      "id": "980d6cccbe34",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Mass arrests in global crackdown on West African cyber-crime networks",
-      "url": "https://www.bbc.co.uk/news/articles/cq5xdnxppl4o?at_medium=RSS&at_campaign=rss",
-      "summary": "The operation included the arrest of 39 people in South Africa for romance and investment scams.",
-      "published": "Tue, 25 Aug 2026 19:30:37 GMT",
+      "title": "Man who attacked nun on CCTV in Jerusalem acquitted on grounds of mental health",
+      "url": "https://www.bbc.co.uk/news/articles/cpwl54kddeko?at_medium=RSS&at_campaign=rss",
+      "summary": "A Jerusalem court said the Jewish attacker was having a psychotic episode when he assaulted the nun, in an incident which caused outrage.",
+      "published": "Thu, 27 Aug 2026 11:23:28 GMT",
       "tags": []
     },
     {
-      "id": "a6e98391ec18",
+      "id": "e69eb1479445",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "The world's busiest spaceport is about to get a lot quieter, at least for now",
-      "url": "https://arstechnica.com/space/2026/08/the-worlds-busiest-spaceport-is-about-to-get-a-lot-quieter-at-least-for-now/",
-      "summary": "SpaceX aims to launch Starship from Florida by the end of the year. 2027 seems more likely.",
-      "author": "Stephen Clark",
-      "published": "Tue, 25 Aug 2026 22:21:06 +0000",
+      "title": "RIP, Tim Curry: Ars remembers his top 10 iconic performances",
+      "url": "https://arstechnica.com/culture/2026/08/rip-tim-curry-ars-remembers-his-top-10-iconic-performances/",
+      "summary": "A dashing pirate, a butler, a killer clown, an alien mad scientist in drag—the man had range.",
+      "author": "Jennifer Ouellette",
+      "published": "Wed, 26 Aug 2026 22:13:15 +0000",
       "tags": [
-        "Space",
-        "cape canaveral",
-        "falcon 9",
-        "launch"
+        "Culture",
+        "Obituaries",
+        "Tim Curry"
       ]
     },
     {
-      "id": "91e48aee1020",
+      "id": "fbbe9e7cb9c5",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "World humanoid robot games show runners breaking records, bursting into flames",
-      "url": "https://arstechnica.com/ai/2026/08/world-humanoid-robot-games-show-runners-breaking-records-bursting-into-flames/",
-      "summary": "Record-breaking robot races are less substantial than household chore challenges.",
-      "author": "Jeremy Hsu",
-      "published": "Tue, 25 Aug 2026 20:59:03 +0000",
+      "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
+      "url": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/",
+      "summary": "Report shows Meta's challenges replacing people with AI agents.",
+      "author": "Scharon Harding",
+      "published": "Wed, 26 Aug 2026 21:25:27 +0000",
       "tags": [
         "AI",
-        "china",
-        "humanoid robots",
-        "Robotics"
+        "Biz & IT",
+        "job losses",
+        "jobs"
       ]
     },
     {
-      "id": "54a31dd8a160",
+      "id": "1f2ea201e85d",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Preserving glow-in-the-dark art and fashion for future generations",
-      "url": "https://arstechnica.com/science/2026/08/how-chemistry-can-keep-glow-in-the-dark-pigments-from-fading/",
-      "summary": "Understanding unique photochemistry of such materials will help in conservation, storage, and exhibition.",
-      "author": "Jennifer Ouellette",
-      "published": "Tue, 25 Aug 2026 18:59:12 +0000",
+      "title": "New Twitter launches, says Musk's X gave up the name",
+      "url": "https://arstechnica.com/tech-policy/2026/08/new-twitter-launches-says-musks-x-gave-up-the-name/",
+      "summary": "Judge hasn't ruled on X Corp’s preliminary injunction, but Operation Bluebird plows ahead",
+      "author": "Cyrus Farivar",
+      "published": "Wed, 26 Aug 2026 20:49:04 +0000",
       "tags": [
-        "Science",
-        "American Chemical Society",
-        "art conservation",
-        "chemistry"
+        "Policy",
+        "legal",
+        "musk",
+        "Twitter"
       ]
     },
     {
-      "id": "7f17b6c990fe",
+      "id": "72f99c67a9a2",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Are older Americans spoiling the economy for everyone else?",
-      "url": "https://www.marketwatch.com/story/are-older-americans-spoiling-the-economy-for-everyone-else-064b5820?mod=mw_rss_topstories",
-      "summary": "How to get seniors to spend $12 trillion in home equity.",
-      "author": "Geoffrey Sanzenbacher",
-      "published": "Wed, 26 Aug 2026 01:41:00 GMT",
+      "title": "Why these analysts say bitcoin will double by next year — and could reach $500,000 by the end of the decade",
+      "url": "https://www.marketwatch.com/story/why-these-analysts-say-bitcoin-will-double-by-next-year-and-could-reach-500-000-at-the-end-of-the-decade-23ec78f3?mod=mw_rss_topstories",
+      "summary": "Bitcoin has had a revival lately. Bernstein analysts think the cryptocurrency is headed for a new high of $300,000 by 2029.",
+      "author": "Barbara Kollmeyer",
+      "published": "Thu, 27 Aug 2026 11:30:00 GMT",
       "tags": []
     },
     {
-      "id": "dd43063c5f7e",
+      "id": "27398c6aa2ed",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "5 cheap U.S. cities to retire in — if you can deal with this one thing",
-      "url": "https://www.marketwatch.com/story/5-cheap-u-s-cities-to-retire-in-if-you-can-deal-with-this-one-thing-fbda5d1a?mod=mw_rss_topstories",
-      "summary": "You don’t have to leave the country to find an affordable place that matches your retirement vision.",
-      "author": "Edd and Cynthia Staton",
-      "published": "Wed, 26 Aug 2026 01:35:00 GMT",
-      "tags": []
-    },
-    {
-      "id": "7712b256ef8f",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "My father-in-law passed away, leaving a house with tenants. Do I evict them?",
-      "url": "https://www.marketwatch.com/story/my-father-in-law-passed-away-leaving-a-house-with-tenants-do-i-evict-them-f974428c?mod=mw_rss_topstories",
-      "summary": "“We don’t know whether they have signed leases or are renting month to month.”",
+      "title": "Does a 2% beneficiary inherit 100% if the 98% beneficiary dies in a car accident? Asking for a friend.",
+      "url": "https://www.marketwatch.com/story/does-a-2-beneficiary-inherit-100-if-the-98-beneficiary-dies-in-a-car-accident-asking-for-a-friend-67aacc06?mod=mw_rss_topstories",
+      "summary": "“I’m curious what would happen if the account owner were to die suddenly at the same time as the 98% beneficiary.”",
       "author": "Quentin Fottrell",
-      "published": "Wed, 26 Aug 2026 00:30:00 GMT",
+      "published": "Thu, 27 Aug 2026 11:15:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "8e76692c53b7",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "Salesforce stock is jumping. What Wall Street is saying about its earnings and its Anthropic relationship.",
+      "url": "https://www.marketwatch.com/story/salesforce-stock-is-jumping-what-wall-street-is-saying-about-its-earnings-and-its-anthropic-relationship-853ada85?mod=mw_rss_topstories",
+      "summary": "Shares in the software company climbed in premarket trading. Citigroup and Jefferies both lifted their price targets for the stock.",
+      "author": "Nora Redmond",
+      "published": "Thu, 27 Aug 2026 11:01:00 GMT",
       "tags": []
     }
   ],
