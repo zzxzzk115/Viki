@@ -1,13 +1,13 @@
 {
-  "date": "2026-08-27",
-  "word": "indispensable",
-  "ipa": "ˌɪn.dɪˈspen.sə.b",
-  "ipaUs": "ˌɪn.dɪˈspen.sə.b",
+  "date": "2026-08-28",
+  "word": "inevitable",
+  "ipa": "ɪˈnev.ɪ.tə.b",
+  "ipaUs": "ˌɪnˈev.ə.t̬ə.b",
   "pos": "adjective",
-  "definition": "Something or someone that is indispensable is so good or important that you could not manage without it, him, or her.",
-  "definitionZh": "必不可少的",
-  "example": "This book is an indispensable resource for researchers.",
-  "exampleZh": "这本书是研究者必不可少的资料。",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uki/ukind/ukindif024.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/i/ind/indis/indispensable.mp3"
+  "definition": "certain to happen and unable to be avoided or prevented",
+  "definitionZh": "不可避免的",
+  "example": "The accident was the inevitable consequence / result / outcome of carelessness.",
+  "exampleZh": "这一事故是粗心导致的必然结果。",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uki/ukine/ukineff020.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/eus/eus72/eus72405.mp3"
 }
