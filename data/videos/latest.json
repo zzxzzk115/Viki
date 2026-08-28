@@ -1,6 +1,17 @@
 {
-  "date": "2026-08-27",
+  "date": "2026-08-28",
   "items": [
+    {
+      "id": "0638f3b98be6",
+      "platform": "youtube",
+      "videoId": "LBiNcdGNgrg",
+      "title": "This Free AI Just Caught The Billion Dollar Giants",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=LBiNcdGNgrg",
+      "thumb": "https://i1.ytimg.com/vi/LBiNcdGNgrg/hqdefault.jpg",
+      "published": "2026-08-28",
+      "category": "图形学"
+    },
     {
       "id": "39fab277272e",
       "platform": "youtube",
@@ -13,21 +24,10 @@
       "category": "图形学"
     },
     {
-      "id": "105ab17fca33",
-      "platform": "youtube",
-      "videoId": "wMl6c_r0ubw",
-      "title": "This Small AI Will Change Everything",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=wMl6c_r0ubw",
-      "thumb": "https://i4.ytimg.com/vi/wMl6c_r0ubw/hqdefault.jpg",
-      "published": "2026-08-24",
-      "category": "图形学"
-    },
-    {
       "id": "41a44f1be560",
       "platform": "youtube",
       "videoId": "mGuYUEuVDYc",
-      "title": "I Tried Recreating Every TETRIS Ever",
+      "title": "I Tried Recreating Every TETRIS Ever (All 58 Games)",
       "channel": "Acerola",
       "url": "https://www.youtube.com/watch?v=mGuYUEuVDYc",
       "thumb": "https://i2.ytimg.com/vi/mGuYUEuVDYc/hqdefault.jpg",
@@ -156,25 +156,25 @@
       "category": "CS"
     },
     {
-      "id": "a2243f085f1d",
+      "id": "9018e970ca98",
       "platform": "bilibili",
-      "videoId": "BV1pb8o6yE8f",
-      "title": "欢迎来到未来 [01-Raw/26生成式软件工程/NJU]",
-      "channel": "绿导师原谅你了",
-      "url": "https://www.bilibili.com/video/BV1pb8o6yE8f",
-      "thumb": "https://i0.hdslb.com/bfs/archive/d6c6e9f0534276d739e7ba3c8ae84473fd58c784.jpg",
-      "published": "2026-08-26",
+      "videoId": "BV1ScKR6QEQF",
+      "title": "古法做视频里加一点点科技",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1ScKR6QEQF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/b9d2e88f8d41fe24cecddcf715756265ff68b9d2.jpg",
+      "published": "2026-06-29",
       "category": "CS"
     },
     {
-      "id": "0b91f31069ca",
+      "id": "4001551d4ad2",
       "platform": "bilibili",
-      "videoId": "BV1q2jh6FEhX",
-      "title": "30 - Agentic AI 和我们的未来；课程总结 [2026 南京大学操作系统原理]",
-      "channel": "绿导师原谅你了",
-      "url": "https://www.bilibili.com/video/BV1q2jh6FEhX",
-      "thumb": "https://i1.hdslb.com/bfs/archive/b7e8dace001aa6b23bc6117e75ba72fc9b3b2e21.jpg",
-      "published": "2026-06-18",
+      "videoId": "BV1RfEw6LEfF",
+      "title": "能跟你对话的TTS【开源】",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1RfEw6LEfF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/414b79823c78f30b3e60d27f14c0f44111f0234f.jpg",
+      "published": "2026-06-04",
       "category": "CS"
     },
     {
@@ -197,6 +197,28 @@
       "url": "https://www.youtube.com/watch?v=YgbbI_nRF2A",
       "thumb": "https://i2.ytimg.com/vi/YgbbI_nRF2A/hqdefault.jpg",
       "published": "2026-07-24",
+      "category": "金融"
+    },
+    {
+      "id": "45f33b3cfe41",
+      "platform": "bilibili",
+      "videoId": "BV16rtc63EgT",
+      "title": "日元创40年新低，美国突然出手，怎么回事儿？",
+      "channel": "小Lin说",
+      "url": "https://www.bilibili.com/video/BV16rtc63EgT",
+      "thumb": "https://i1.hdslb.com/bfs/archive/eb5ee332388fbd5d5f1bc769ae5885eee8d22f12.jpg",
+      "published": "2026-08-28",
+      "category": "金融"
+    },
+    {
+      "id": "3a23fd5a2def",
+      "platform": "bilibili",
+      "videoId": "BV1XPuo6uES8",
+      "title": "王健林现在怎么样了? 万达什么情况?",
+      "channel": "小Lin说",
+      "url": "https://www.bilibili.com/video/BV1XPuo6uES8",
+      "thumb": "https://i0.hdslb.com/bfs/archive/d3fd5ebcf88dd8c23ba9af5500c192a255f4deb8.jpg",
+      "published": "2026-08-10",
       "category": "金融"
     },
     {
@@ -244,6 +266,17 @@
       "category": "历史"
     },
     {
+      "id": "3db0b6c3a8da",
+      "platform": "bilibili",
+      "videoId": "BV1SUhw6KESQ",
+      "title": "绝望同盟  伊朗·1988",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV1SUhw6KESQ",
+      "thumb": "https://i0.hdslb.com/bfs/archive/4203cf06eb7e7ef4e6befa8861f127609b8349ce.jpg",
+      "published": "2026-08-28",
+      "category": "历史"
+    },
+    {
       "id": "1a7bb98db39a",
       "platform": "bilibili",
       "videoId": "BV1y5gP61E6m",
@@ -255,35 +288,24 @@
       "category": "历史"
     },
     {
-      "id": "4839cbb8b132",
-      "platform": "bilibili",
-      "videoId": "BV1FBMC61Eif",
-      "title": "虚空一击  伊朗·1980",
-      "channel": "小约翰可汗",
-      "url": "https://www.bilibili.com/video/BV1FBMC61Eif",
-      "thumb": "https://i0.hdslb.com/bfs/archive/b59974cf13241c8453a049bbd2c63124f0a96c50.jpg",
-      "published": "2026-08-07",
-      "category": "历史"
+      "id": "6991db1db0eb",
+      "platform": "youtube",
+      "videoId": "FinOIdu21XA",
+      "title": "Literally: Learn the new meaning! #shorts",
+      "channel": "BBC Learning English",
+      "url": "https://www.youtube.com/shorts/FinOIdu21XA",
+      "thumb": "https://i3.ytimg.com/vi/FinOIdu21XA/hqdefault.jpg",
+      "published": "2026-08-28",
+      "category": "英语"
     },
     {
       "id": "d62f2be07a08",
       "platform": "youtube",
       "videoId": "LOp_5N3i1ks",
-      "title": "🍔 Food expressions to sound more fluent 🍜🍭 What's your go-to comfort food?",
+      "title": "🍔 Food expressions to sound more fluent 🍜🍭 English class with Georgie",
       "channel": "BBC Learning English",
       "url": "https://www.youtube.com/watch?v=LOp_5N3i1ks",
       "thumb": "https://i1.ytimg.com/vi/LOp_5N3i1ks/hqdefault.jpg",
-      "published": "2026-08-26",
-      "category": "英语"
-    },
-    {
-      "id": "ed972ec44090",
-      "platform": "youtube",
-      "videoId": "xwseWCSXD3Y",
-      "title": "How are smell adjectives different? ⏲️ 6 Minute English",
-      "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=xwseWCSXD3Y",
-      "thumb": "https://i1.ytimg.com/vi/xwseWCSXD3Y/hqdefault.jpg",
       "published": "2026-08-27",
       "category": "英语"
     },
@@ -318,10 +340,10 @@
     "引擎 · 437860379: 2 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
-    "CS · 1567748478: 0 条",
-    "CS · 202224425: 2 条",
+    "CS · 1567748478: 2 条",
+    "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 2 条",
-    "金融 · 520819684: 0 条",
+    "金融 · 520819684: 2 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
     "历史 · 11646119: 0 条",
