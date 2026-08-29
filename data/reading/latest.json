@@ -1,291 +1,280 @@
 {
-  "date": "2026-08-28",
+  "date": "2026-08-29",
   "items": [
     {
-      "id": "c10a86704f8a",
+      "id": "b27c6c7012b6",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Donald A. Glaser",
-      "url": "https://simple.wikipedia.org/wiki/Donald_A._Glaser",
-      "summary": "Donald Arthur Glaser was an American physicist and neurobiologist of Jewish descent. He won the 1960 Nobel Prize in Physics for his invention of the bubble chamber used in subatomic particle physics.",
+      "title": "Netherlands in the Eurovision Song Contest",
+      "url": "https://simple.wikipedia.org/wiki/Netherlands_in_the_Eurovision_Song_Contest",
+      "summary": "The Netherlands has participated in the Eurovision Song Contest 65 times since its debut in 1956. AVROTROS is the Dutch broadcaster. The Netherlands had missed only two contests: 1985, 1991, 1995 and 2002.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "5a1f23cc1c0f",
+      "id": "dc4e465adcea",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Cato the Younger",
-      "url": "https://simple.wikipedia.org/wiki/Cato_the_Younger",
-      "summary": "Cato the Younger was a politician and statesman in the late Roman Republic, and a follower of the Stoic philosophy. He was known as Cato Minor to distinguish him from his great-grandfather. A noted orator, he had great moral integrity. He could not be bribed, and disliked the po…",
+      "title": "Saeed Jalili",
+      "url": "https://simple.wikipedia.org/wiki/Saeed_Jalili",
+      "summary": "Saeed Jalili is an Iranian politician. He was the secretary of the Supreme National Security Council from 2007 to 2013. He is a member of the Expediency Discernment Council.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "a8673fb7f148",
+      "id": "e287e9396e84",
       "category": "tech",
       "source": "Hacker News",
-      "title": "OpenAI: Migrating to HTTPX2",
-      "url": "https://github.com/openai/openai-python/blob/main/httpx2.md",
+      "title": "Samsung's Processing-in-Memory (PIM)",
+      "url": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
       "summary": "",
-      "author": "tosh",
+      "author": "ingve",
+      "published": "2026-08-29",
+      "tags": [
+        "▲ 30"
+      ]
+    },
+    {
+      "id": "58021e8b5c67",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+      "url": "https://github.com/Lakr233/vphone-cli",
+      "summary": "",
+      "author": "hentrep",
       "published": "2026-08-28",
       "tags": [
-        "▲ 35"
+        "▲ 237"
       ]
     },
     {
-      "id": "15a21800e001",
+      "id": "b66a26257c9c",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Hilariously Fast Volume Computation with the Divergence Theorem",
-      "url": "https://alyssarosenzweig.ca/blog/hilariously-fast-volume-computation-with-the-divergence-theorem.html",
+      "title": "GUIs should be fully keyboard-driven",
+      "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
       "summary": "",
-      "author": "luu",
+      "author": "ckardaris",
       "published": "2026-08-28",
       "tags": [
-        "▲ 127"
+        "▲ 757"
       ]
     },
     {
-      "id": "252a963c4b57",
+      "id": "05e1cd622476",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Show HN: SubSmith – Turn your own videos into language-learning material",
-      "url": "https://subsmith.app",
-      "summary": "I've been learning Japanese for a few years and kept running into a similar problem. I'd find a video I wanted to learn from, hear a useful sentence, and then realise that turning that sentence into something I could study later was both time consuming and draining at times. I w…",
-      "author": "IbrahimF96",
+      "title": "TurboKV: Insanely fast Rust key-value store",
+      "url": "https://github.com/kingroryg/turbokv",
+      "summary": "",
+      "author": "rgbimbochamp",
+      "published": "2026-08-29",
+      "tags": [
+        "▲ 78"
+      ]
+    },
+    {
+      "id": "7c1666985ef1",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Htmx 4.0",
+      "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
+      "summary": "",
+      "author": "rmsaksida",
       "published": "2026-08-28",
       "tags": [
-        "▲ 21"
+        "▲ 631"
       ]
     },
     {
-      "id": "c262c2ce414e",
+      "id": "e456ef2feada",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Pentagon's blacklisting of Anthropic was unlawful, US judge rules",
-      "url": "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/",
+      "title": "e is a customizable self-aware Emacs-like editor written in Chez Scheme",
+      "url": "https://github.com/paveluv/e",
       "summary": "",
-      "author": "softwaredoug",
-      "published": "2026-08-28",
+      "author": "p4bl0",
+      "published": "2026-08-29",
       "tags": [
-        "▲ 82"
+        "▲ 10"
       ]
     },
     {
-      "id": "0dcbe6606195",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
-      "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
-      "summary": "",
-      "author": "TangerineDream",
-      "published": "2026-08-27",
-      "tags": [
-        "▲ 815"
-      ]
-    },
-    {
-      "id": "3d1a94f342fc",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Luanti removed from Google Play due to baseless AI copyright notice",
-      "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
-      "summary": "",
-      "author": "miniBill",
-      "published": "2026-08-28",
-      "tags": [
-        "▲ 80"
-      ]
-    },
-    {
-      "id": "2c99a9bbf279",
+      "id": "a954963f547f",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Austin TX Commercial Roofing Experts Trusted by Local Companies",
-      "url": "https://dev.to/llagua_roofing_bb02f8c895/austin-tx-commercial-roofing-experts-trusted-by-local-companies-g9",
-      "summary": "LLAgua Roofing provides dependable Commercial Roofing Austin TX solutions for local businesses that need strong, durable, and professionally maintained roofing systems. From office buildings and retail properties to warehouses and other commercial spaces, a reliable roof plays a…",
-      "author": "Llagua Roofing",
-      "published": "Fri, 28 Aug 2026 12:56:06 +0000",
+      "title": "Production-Ready Data Scrapers & Termux Automation Scripts #29096",
+      "url": "https://dev.to/justice_sigauke_043c71782/production-ready-data-scrapers-termux-automation-scripts-29096-5fle",
+      "summary": "Production-Ready Data Scrapers & Termux Automation Scripts Building custom command-line automation tools, web scraping pipelines, and mobile terminal agents. What I Offer Custom Software Development: Automated Node.js and Python workflows. Data Analytics & Extraction: Clean, str…",
+      "author": "Justice Sigauke",
+      "published": "Sat, 29 Aug 2026 07:52:11 +0000",
       "tags": [
-        "ai",
+        "javascript",
         "webdev",
-        "programming",
-        "productivity"
+        "productivity",
+        "opensource"
       ]
     },
     {
-      "id": "b49eb88c914f",
+      "id": "dc07ef14f861",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How to Choose a Web Development Company for a Hotel",
-      "url": "https://dev.to/softwin/how-to-choose-a-web-development-company-for-a-hotel-27fl",
-      "summary": "If you've ever been handed the brief \"rebuild the hotel website and connect it to our PMS,\" you already know this isn't a typical marketing-site build. It's closer to building an integration layer around a real-time inventory system, with a payment processor, a channel manager, …",
-      "author": "SoftWin",
-      "published": "Fri, 28 Aug 2026 12:50:59 +0000",
+      "title": "What Developers Should Look for in a Real-Time Cricket API",
+      "url": "https://dev.to/games_tech02_a28a6158122c/what-developers-should-look-for-in-a-real-time-cricket-api-49e3",
+      "summary": "What Developers Should Look for in a Real-Time Cricket API When building a cricket application , getting the user interface right is only one part of the project. Behind every live score screen is a data layer responsible for delivering match information, player statistics, even…",
+      "author": "Games tech02",
+      "published": "Sat, 29 Aug 2026 07:51:20 +0000",
       "tags": [
         "webdev",
-        "api",
-        "hospitality",
-        "seo"
+        "javascript",
+        "python",
+        "api"
       ]
     },
     {
-      "id": "c35a61e66086",
+      "id": "e235297818f9",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How to talk about trade-offs without sounding like you are hedging",
-      "url": "https://dev.to/moputa/how-to-talk-about-trade-offs-without-sounding-like-you-are-hedging-3eia",
-      "summary": "Nuance is the thing that gets you levelled up, and hedging is the thing that gets you levelled down. They sound almost identical from the outside, and the difference is entirely structural. Ask a junior engineer whether to use SQL or NoSQL and you get an answer. Ask a senior eng…",
-      "author": "Martin",
-      "published": "Fri, 28 Aug 2026 12:50:00 +0000",
+      "title": "Production-Ready Data Scrapers & Termux Automation Scripts #09625",
+      "url": "https://dev.to/justice_sigauke_043c71782/production-ready-data-scrapers-termux-automation-scripts-09625-3ji3",
+      "summary": "Production-Ready Data Scrapers & Termux Automation Scripts Building custom command-line automation tools, web scraping pipelines, and mobile terminal agents. What I Offer Custom Software Development: Automated Node.js and Python workflows. Data Analytics & Extraction: Clean, str…",
+      "author": "Justice Sigauke",
+      "published": "Sat, 29 Aug 2026 07:50:14 +0000",
       "tags": [
-        "discuss",
-        "career",
-        "programming",
-        "webdev"
-      ]
-    },
-    {
-      "id": "26ac1384902c",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "How to Turn a Flowchart Screenshot into Editable PowerPoint Shapes",
-      "url": "https://dev.to/local_ai_28441e061d716cb1/how-to-turn-a-flowchart-screenshot-into-editable-powerpoint-shapes-1218",
-      "summary": "You paste a flowchart screenshot into PowerPoint, and the slide looks finished—until a label changes. PowerPoint sees one picture, so you cannot select a process box, rewrite its text, or move a decision without editing the pixels. To turn an image into editable PowerPoint , the…",
-      "author": "local ai",
-      "published": "Fri, 28 Aug 2026 12:46:49 +0000",
-      "tags": [
-        "powerpoint",
-        "ai",
+        "javascript",
         "webdev",
-        "tutorial"
+        "productivity",
+        "opensource"
       ]
     },
     {
-      "id": "e6f773ca2da3",
+      "id": "815c0787f0d8",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Production-Ready Data Scrapers & Termux Automation Scripts #89642",
+      "url": "https://dev.to/justice_sigauke_043c71782/production-ready-data-scrapers-termux-automation-scripts-89642-15j3",
+      "summary": "Production-Ready Data Scrapers & Termux Automation Scripts Building custom command-line automation tools, web scraping pipelines, and mobile terminal agents. What I Offer Custom Software Development: Automated Node.js and Python workflows. Data Analytics & Extraction: Clean, str…",
+      "author": "Justice Sigauke",
+      "published": "Sat, 29 Aug 2026 07:48:11 +0000",
+      "tags": [
+        "javascript",
+        "webdev",
+        "productivity",
+        "opensource"
+      ]
+    },
+    {
+      "id": "327f2de8f047",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "The All-Story Magazine",
-      "url": "https://en.wikipedia.org/wiki/The_All-Story_Magazine",
-      "summary": "The All-Story Magazine was a pulp magazine founded in 1905 and published by Frank Munsey. The editor was Robert H. Davis; Thomas Newell Metcalf also worked as a managing editor for the magazine. It was published monthly until March 1914, and then switched to a weekly schedule. M…",
+      "title": "Dualism",
+      "url": "https://en.wikipedia.org/wiki/Dualism",
+      "summary": "Dualism is a family of views that propose a fundamental division into two separate principles or kinds. It typically emphasizes a sharp distinction between independent or antagonistic sides, but in a broader sense, it also includes theories in which the two sides are correlated …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "23c9706f54f7",
+      "id": "929aeaf9b438",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Watch: Why rescuers fear new barrier lake could cause another Nepal-Tibet flood",
-      "url": "https://www.bbc.co.uk/news/videos/cj06j16vpr5o?at_medium=RSS&at_campaign=rss",
-      "summary": "Laura Bicker explains how a lake which formed after the recent landslide near the Nepal-Tibet border is raising fears of a second flood.",
-      "published": "Fri, 28 Aug 2026 10:35:06 GMT",
+      "title": "Footage of Tibet floods isn't being shown in China - and we know little about victims there",
+      "url": "https://www.bbc.co.uk/news/articles/cx2z415w2gpo?at_medium=RSS&at_campaign=rss",
+      "summary": "Some of the most dramatic footage from the deadly flash flooding is hidden from public view in China.",
+      "published": "Sat, 29 Aug 2026 03:54:11 GMT",
       "tags": []
     },
     {
-      "id": "a02da80871c3",
+      "id": "d1fd3bc001a5",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Who is Norway's new King Haakon VIII?",
-      "url": "https://www.bbc.co.uk/news/articles/cp841114eg6o?at_medium=RSS&at_campaign=rss",
-      "summary": "Haakon becomes the king at a turbulent time for Norway's monarchy.",
-      "published": "Fri, 28 Aug 2026 10:37:21 GMT",
+      "title": "Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil",
+      "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Venezuelan interim president says the unusual agreement will help revive her country's economy.",
+      "published": "Sat, 29 Aug 2026 02:42:27 GMT",
       "tags": []
     },
     {
-      "id": "f1b245ed42d6",
+      "id": "fde97915fc16",
       "category": "news",
       "source": "BBC 世界",
-      "title": "'Not far enough' - US parents and teens on Meta's new limits for young users",
-      "url": "https://www.bbc.co.uk/news/articles/cx2zn9zj361o?at_medium=RSS&at_campaign=rss",
-      "summary": "As part of an $18bn settlement in a child-safety lawsuit, Meta announced new restrictions on its apps. We asked families what they thought.",
-      "published": "Fri, 28 Aug 2026 09:32:14 GMT",
+      "title": "Landlady to 9/11 hijackers reveals their links to alleged Saudi spy",
+      "url": "https://www.bbc.co.uk/news/articles/c99dvm39mreo?at_medium=RSS&at_campaign=rss",
+      "summary": "A woman who rented out homes to two al-Qaeda members speaks publicly for the first time - to the BBC.",
+      "published": "Sat, 29 Aug 2026 00:32:17 GMT",
       "tags": []
     },
     {
-      "id": "fc871ed3ce64",
+      "id": "1dd516218cfb",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump signs order to rename Lake Ontario as Lake America",
-      "url": "https://www.bbc.co.uk/news/articles/ckgwdn1g58yo?at_medium=RSS&at_campaign=rss",
-      "summary": "Canada has rejected the new name of the lake, which straddles both countries, as their row deepens.",
-      "published": "Fri, 28 Aug 2026 08:26:09 GMT",
+      "title": "Norway mourns King Harald as Haakon VIII ascends throne",
+      "url": "https://www.bbc.co.uk/news/articles/cm2rzxrdr71o?at_medium=RSS&at_campaign=rss",
+      "summary": "Mourners gather outside the palace as royals, politicians and citizens remember a beloved king, whose son has adopted the family motto \"all for norway\".",
+      "published": "Fri, 28 Aug 2026 19:40:45 GMT",
       "tags": []
     },
     {
-      "id": "2444b0ce38f1",
+      "id": "5161e1d00ebf",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Authorities arrest 2 alleged members of prolific hacking group TeamPCP",
-      "url": "https://arstechnica.com/security/2026/08/authorities-arrest-2-alleged-members-of-prolific-hacking-group-teampcp/",
-      "summary": "The group infected more than 1,000 organizations in a relentless supply-chain attack campaign.",
-      "author": "Dan Goodin",
-      "published": "Fri, 28 Aug 2026 11:15:05 +0000",
+      "title": "Court rules Kalshi sports bets aren't \"swaps,\" just gambling with a different name",
+      "url": "https://arstechnica.com/tech-policy/2026/08/kalshi-cant-evade-nevada-gambling-laws-by-calling-bets-swaps-court-rules/",
+      "summary": "Kalshi can't evade Nevada gambling laws by calling bets \"swaps,\" judges rule.",
+      "author": "Jon Brodkin",
+      "published": "Fri, 28 Aug 2026 22:14:52 +0000",
       "tags": [
-        "Biz & IT",
-        "Security",
-        "law enforcement",
-        "supply chain attacks"
+        "Policy",
+        "Kalshi",
+        "prediction market"
       ]
     },
     {
-      "id": "5c1b5881c6f5",
+      "id": "00099a67b9db",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Rocket Report: Europe splashes some cash on launch startups; Pallas-1 nears debut",
-      "url": "https://arstechnica.com/space/2026/08/rocket-report-europe-splashes-some-cash-on-launch-startups-pallas-1-nears-debut/",
-      "summary": "\"From here on, Starlink missions out of Florida will fly on Starship.\"",
-      "author": "Eric Berger",
-      "published": "Fri, 28 Aug 2026 11:00:39 +0000",
+      "title": "Cities terminate Flock contracts at record pace in August",
+      "url": "https://arstechnica.com/tech-policy/2026/08/cities-terminate-flock-contracts-at-record-pace-in-august/",
+      "summary": "Cancellations have accelerated.",
+      "author": "Cyrus Farivar",
+      "published": "Fri, 28 Aug 2026 21:33:54 +0000",
       "tags": [
-        "Space",
-        "rocket report",
-        "space"
+        "Policy",
+        "alprs",
+        "cameras",
+        "Flock!"
       ]
     },
     {
-      "id": "77020aa53dd6",
+      "id": "b5dcd310e649",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Anthropic's new hardware standard lets AI agents control the physical world",
-      "url": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/",
-      "summary": "Standardized driver interface aims to let devices talk to AI and each other.",
-      "author": "Kyle Orland",
-      "published": "Thu, 27 Aug 2026 22:15:43 +0000",
+      "title": "\"RFK Jr. has lied to the Senate\": Lawmakers call for criminal probe, ouster",
+      "url": "https://arstechnica.com/health/2026/08/rfk-jr-has-lied-to-the-senate-lawmakers-call-for-criminal-probe-ouster/",
+      "summary": "RFK Jr. went to Samoa to spread vaccine fears. The measles outbreak after killed 83.",
+      "author": "Beth Mole",
+      "published": "Fri, 28 Aug 2026 21:17:38 +0000",
       "tags": [
-        "AI",
-        "Amazon Web Services",
-        "Anthropic",
-        "automata"
+        "Health",
+        "anti-vaccine",
+        "measles outbreak",
+        "robert f kennedy jr"
       ]
     },
     {
-      "id": "c0c30f1f9d3d",
+      "id": "bf70e17a2fd3",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "This new Social Security math could lead us down a dangerous road",
-      "url": "https://www.marketwatch.com/story/this-new-social-security-math-could-lead-us-down-a-dangerous-road-3c44d7d7?mod=mw_rss_topstories",
-      "summary": "What are taxpayers entitled to?",
-      "author": "Brett Arends",
-      "published": "Fri, 28 Aug 2026 12:48:00 GMT",
-      "tags": []
-    },
-    {
-      "id": "6b679ff48e32",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "How a plan to fix a $326 billion hole on bank balance sheets could underpin a Warsh and Bessent Treasury twist",
-      "url": "https://www.marketwatch.com/story/how-bank-of-america-and-three-other-lenders-could-win-big-from-scott-bessents-and-kevin-warshs-bond-market-mechanations-4e56b581?mod=mw_rss_topstories",
-      "summary": "It looks like Federal Reserve Chair Kevin Warsh and Treasury Secretary Scott Bessent are acting in a coordinated way to reduce long-term bond yields, according to Citrini Research.",
-      "author": "Steve Goldstein",
-      "published": "Fri, 28 Aug 2026 12:44:00 GMT",
+      "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
+      "url": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
+      "summary": "“These shares are the only assets in her estate without designated beneficiaries.”",
+      "author": "Quentin Fottrell",
+      "published": "Fri, 28 Aug 2026 23:00:00 GMT",
       "tags": []
     },
     {
@@ -296,7 +285,18 @@
       "url": "https://www.marketwatch.com/story/does-a-2-beneficiary-inherit-100-if-the-98-beneficiary-dies-in-a-car-accident-asking-for-a-friend-67aacc06?mod=mw_rss_topstories",
       "summary": "“I’m curious what would happen if the account owner were to die suddenly at the same time as the 98% beneficiary.”",
       "author": "Quentin Fottrell",
-      "published": "Fri, 28 Aug 2026 12:15:00 GMT",
+      "published": "Fri, 28 Aug 2026 22:15:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "3a459acdf629",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "Microsoft’s stock seals its longest winning streak of the year as AI software fears fade",
+      "url": "https://www.marketwatch.com/story/microsofts-stock-seals-its-longest-winning-streak-of-the-year-as-ai-software-fears-fade-e5669f5b?mod=mw_rss_topstories",
+      "summary": "Microsoft’s software offers capabilities that will be critical for AI, one analyst notes.",
+      "author": "Hannah Pedone",
+      "published": "Fri, 28 Aug 2026 21:34:00 GMT",
       "tags": []
     }
   ],

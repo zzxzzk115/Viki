@@ -1,13 +1,13 @@
 {
-  "date": "2026-08-28",
-  "word": "inevitable",
-  "ipa": "ɪˈnev.ɪ.tə.b",
-  "ipaUs": "ˌɪnˈev.ə.t̬ə.b",
-  "pos": "adjective",
-  "definition": "certain to happen and unable to be avoided or prevented",
-  "definitionZh": "不可避免的",
-  "example": "The accident was the inevitable consequence / result / outcome of carelessness.",
-  "exampleZh": "这一事故是粗心导致的必然结果。",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uki/ukine/ukineff020.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/eus/eus72/eus72405.mp3"
+  "date": "2026-08-29",
+  "word": "inference",
+  "ipa": "ˈɪn.f",
+  "ipaUs": "ˈɪn.fɚ.",
+  "pos": "noun",
+  "definition": "a guess that you make or an opinion that you form based on the information that you have",
+  "definitionZh": "推断",
+  "example": "They were warned to expect a heavy air attack and by",
+  "exampleZh": "他们被警告可能会受到严厉的空中打击，由此推断会有许多人员伤亡。",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uki/ukinf/ukinfec006.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/i/inf/infer/inference.mp3"
 }
