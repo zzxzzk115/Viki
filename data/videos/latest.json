@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-08-30",
   "items": [
     {
       "id": "0638f3b98be6",
@@ -27,7 +27,7 @@
       "id": "41a44f1be560",
       "platform": "youtube",
       "videoId": "mGuYUEuVDYc",
-      "title": "I Tried Recreating Every TETRIS Ever (All 58 Games)",
+      "title": "Revisiting, Ranking, and Remaking Every TETRIS Ever (All 58 Games)",
       "channel": "Acerola",
       "url": "https://www.youtube.com/watch?v=mGuYUEuVDYc",
       "thumb": "https://i2.ytimg.com/vi/mGuYUEuVDYc/hqdefault.jpg",
@@ -43,6 +43,28 @@
       "url": "https://www.youtube.com/watch?v=x-DIGi8Sc9E",
       "thumb": "https://i1.ytimg.com/vi/x-DIGi8Sc9E/hqdefault.jpg",
       "published": "2026-01-30",
+      "category": "图形学"
+    },
+    {
+      "id": "18b3cac683f0",
+      "platform": "bilibili",
+      "videoId": "BV1th8b6zEqg",
+      "title": "GAMES Webinar 412-CAX专题-余宇轩-让AI生成可计算的三维实体",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV1th8b6zEqg",
+      "thumb": "https://i1.hdslb.com/bfs/archive/5dbad629ee5b5b656f2f5e0d28d47c55ae606e7a.jpg",
+      "published": "2026-08-23",
+      "category": "图形学"
+    },
+    {
+      "id": "425294b397bd",
+      "platform": "bilibili",
+      "videoId": "BV1th8b6zEBV",
+      "title": "GAMES Webinar 412-CAX专题-童话-Advances in grid-based all-hexahedral mesh generation",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV1th8b6zEBV",
+      "thumb": "https://i2.hdslb.com/bfs/archive/8550ad694a0522af45c1c18c34c046d5b6174460.jpg",
+      "published": "2026-08-23",
       "category": "图形学"
     },
     {
@@ -65,6 +87,28 @@
       "url": "https://www.youtube.com/watch?v=sY_U3-ih4Bs",
       "thumb": "https://i4.ytimg.com/vi/sY_U3-ih4Bs/hqdefault.jpg",
       "published": "2022-05-05",
+      "category": "引擎"
+    },
+    {
+      "id": "74d5969623e3",
+      "platform": "bilibili",
+      "videoId": "BV1BTnxzKEVv",
+      "title": "2025.9月编程语言排行榜 C++、C、JAVA亚军之争异常激烈 Perl的火爆与人工智能无关",
+      "channel": "原子之音",
+      "url": "https://www.bilibili.com/video/BV1BTnxzKEVv",
+      "thumb": "https://i0.hdslb.com/bfs/archive/57a35f617d5a79a0ce357179e98382a0c2786185.jpg",
+      "published": "2025-09-26",
+      "category": "引擎"
+    },
+    {
+      "id": "20c78ca36141",
+      "platform": "bilibili",
+      "videoId": "BV1TXWVzZEx4",
+      "title": "虚幻中的C++: 输入系统(Input与Enhanced Input)",
+      "channel": "原子之音",
+      "url": "https://www.bilibili.com/video/BV1TXWVzZEx4",
+      "thumb": "https://i0.hdslb.com/bfs/archive/56b88c2f99c47fd48d8dd518d296fa8697902d72.jpg",
+      "published": "2025-09-20",
       "category": "引擎"
     },
     {
@@ -153,28 +197,6 @@
       "url": "https://www.youtube.com/watch?v=CqApXh80HVo",
       "thumb": "https://i4.ytimg.com/vi/CqApXh80HVo/hqdefault.jpg",
       "published": "2026-08-08",
-      "category": "金融"
-    },
-    {
-      "id": "45f33b3cfe41",
-      "platform": "bilibili",
-      "videoId": "BV16rtc63EgT",
-      "title": "日元创40年新低，美国突然出手，怎么回事儿？",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV16rtc63EgT",
-      "thumb": "https://i1.hdslb.com/bfs/archive/eb5ee332388fbd5d5f1bc769ae5885eee8d22f12.jpg",
-      "published": "2026-08-28",
-      "category": "金融"
-    },
-    {
-      "id": "3a23fd5a2def",
-      "platform": "bilibili",
-      "videoId": "BV1XPuo6uES8",
-      "title": "王健林现在怎么样了? 万达什么情况?",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV1XPuo6uES8",
-      "thumb": "https://i0.hdslb.com/bfs/archive/d3fd5ebcf88dd8c23ba9af5500c192a255f4deb8.jpg",
-      "published": "2026-08-10",
       "category": "金融"
     },
     {
@@ -291,19 +313,17 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "Bilibili 512313464: code=-352 风控校验失败",
-    "图形学 · 512313464: 0 条",
+    "图形学 · 512313464: 2 条",
     "引擎 · @TheCherno: 2 条",
-    "引擎 · 437860379: 0 条",
+    "引擎 · 437860379: 2 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
     "CS · 1567748478: 0 条",
     "CS · 202224425: 2 条",
     "金融 · @ThePlainBagel: 2 条",
-    "金融 · 520819684: 2 条",
+    "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
-    "Bilibili 11646119: code=-352 风控校验失败",
     "历史 · 11646119: 0 条",
     "历史 · 23947287: 2 条",
     "英语 · @bbclearningenglish: 2 条",
