@@ -1,179 +1,179 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-08-30",
   "items": [
     {
-      "id": "b27c6c7012b6",
+      "id": "38527c1f9a66",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Netherlands in the Eurovision Song Contest",
-      "url": "https://simple.wikipedia.org/wiki/Netherlands_in_the_Eurovision_Song_Contest",
-      "summary": "The Netherlands has participated in the Eurovision Song Contest 65 times since its debut in 1956. AVROTROS is the Dutch broadcaster. The Netherlands had missed only two contests: 1985, 1991, 1995 and 2002.",
+      "title": "Anthony Geary",
+      "url": "https://simple.wikipedia.org/wiki/Anthony_Geary",
+      "summary": "Anthony Geary was an American actor. He was known for playing David Lockhart on Bright Promise, George Curtis in The Young and the Restless and as Luke Spencer on General Hospital. For his role as Luke, Geary went on to earn a record eight Daytime Emmy Awards for Outstanding Lea…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "dc4e465adcea",
+      "id": "05236fc8f00d",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Saeed Jalili",
-      "url": "https://simple.wikipedia.org/wiki/Saeed_Jalili",
-      "summary": "Saeed Jalili is an Iranian politician. He was the secretary of the Supreme National Security Council from 2007 to 2013. He is a member of the Expediency Discernment Council.",
+      "title": "Kjeld Kirk Kristiansen",
+      "url": "https://simple.wikipedia.org/wiki/Kjeld_Kirk_Kristiansen",
+      "summary": "Kjeld Kirk Kristiansen is a Danish businessman. He is the former president and CEO of The Lego Group from 1979 to 2004.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "e287e9396e84",
+      "id": "1fc8156d3a11",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Samsung's Processing-in-Memory (PIM)",
-      "url": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
+      "title": "Bug Blindness",
+      "url": "https://danluu.com/bug-blind/",
       "summary": "",
-      "author": "ingve",
+      "author": "davidmckenna",
+      "published": "2026-08-30",
+      "tags": [
+        "▲ 183"
+      ]
+    },
+    {
+      "id": "e4efc6a513fe",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "RISC-V is now officially supported by CPython",
+      "url": "https://blog.python.org/2026/08/riscv-now-officially-supported/",
+      "summary": "",
+      "author": "lumpa",
+      "published": "2026-08-24",
+      "tags": [
+        "▲ 102"
+      ]
+    },
+    {
+      "id": "f9935fd33821",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Hy4 preview",
+      "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
+      "summary": "",
+      "author": "shenli3514",
       "published": "2026-08-29",
       "tags": [
-        "▲ 30"
+        "▲ 257"
       ]
     },
     {
-      "id": "58021e8b5c67",
+      "id": "06ed8c51b5a9",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
-      "url": "https://github.com/Lakr233/vphone-cli",
+      "title": "FreeCORE TrueNAS Core – Continued",
+      "url": "https://freecore.org/",
       "summary": "",
-      "author": "hentrep",
-      "published": "2026-08-28",
+      "author": "sashk",
+      "published": "2026-08-30",
       "tags": [
-        "▲ 237"
+        "▲ 74"
       ]
     },
     {
-      "id": "b66a26257c9c",
+      "id": "a89b38db9531",
       "category": "tech",
       "source": "Hacker News",
-      "title": "GUIs should be fully keyboard-driven",
-      "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
+      "title": "Creating Teensy ELF Executables for Linux (Or, \"Size Is Everything\")",
+      "url": "https://www.muppetlabs.com/~breadbox/software/tiny/teensy.html",
       "summary": "",
-      "author": "ckardaris",
-      "published": "2026-08-28",
+      "author": "Bluestein",
+      "published": "2026-08-25",
       "tags": [
-        "▲ 757"
+        "▲ 31"
       ]
     },
     {
-      "id": "05e1cd622476",
+      "id": "23f76a751065",
       "category": "tech",
       "source": "Hacker News",
-      "title": "TurboKV: Insanely fast Rust key-value store",
-      "url": "https://github.com/kingroryg/turbokv",
+      "title": "California lawmakers unanimously pass Linux exemption from age-verification law",
+      "url": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt",
       "summary": "",
-      "author": "rgbimbochamp",
-      "published": "2026-08-29",
+      "author": "shscs911",
+      "published": "2026-08-30",
       "tags": [
-        "▲ 78"
+        "▲ 120"
       ]
     },
     {
-      "id": "7c1666985ef1",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Htmx 4.0",
-      "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
-      "summary": "",
-      "author": "rmsaksida",
-      "published": "2026-08-28",
-      "tags": [
-        "▲ 631"
-      ]
-    },
-    {
-      "id": "e456ef2feada",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "e is a customizable self-aware Emacs-like editor written in Chez Scheme",
-      "url": "https://github.com/paveluv/e",
-      "summary": "",
-      "author": "p4bl0",
-      "published": "2026-08-29",
-      "tags": [
-        "▲ 10"
-      ]
-    },
-    {
-      "id": "a954963f547f",
+      "id": "f653b360ce4d",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Production-Ready Data Scrapers & Termux Automation Scripts #29096",
-      "url": "https://dev.to/justice_sigauke_043c71782/production-ready-data-scrapers-termux-automation-scripts-29096-5fle",
-      "summary": "Production-Ready Data Scrapers & Termux Automation Scripts Building custom command-line automation tools, web scraping pipelines, and mobile terminal agents. What I Offer Custom Software Development: Automated Node.js and Python workflows. Data Analytics & Extraction: Clean, str…",
-      "author": "Justice Sigauke",
-      "published": "Sat, 29 Aug 2026 07:52:11 +0000",
+      "title": "A practical preflight checklist for Manifest V3 extension releases",
+      "url": "https://dev.to/mv3replay/a-practical-preflight-checklist-for-manifest-v3-extension-releases-384i",
+      "summary": "An extension can work perfectly in development and still fail after packaging. The risky change is often not in the feature code itself. It can be a permission that moved, a host pattern that expanded, a content script that now runs somewhere new, or a browser surface that was n…",
+      "author": "MV3Replay",
+      "published": "Sun, 30 Aug 2026 06:52:43 +0000",
       "tags": [
-        "javascript",
+        "chromeextension",
+        "testing",
+        "opensource",
+        "webdev"
+      ]
+    },
+    {
+      "id": "42b665f1eaee",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Why AI Coding Agents Fail at UI/UX (And How We Engineered 43 Protocols to Fix It)",
+      "url": "https://dev.to/uwayxt_/why-ai-coding-agents-fail-at-uiux-and-how-we-engineered-43-protocols-to-fix-it-29pi",
+      "summary": "Why AI Coding Agents Fail at UI/UX (And How We Engineered 43 Protocols to Fix It) Every engineer who has paired with Claude Code , Cursor , Windsurf , or Google Antigravity knows the 2:00 AM AI UI illusion . You prompt the model: \"Build a high-converting billing dashboard with t…",
+      "author": "Wahyudi",
+      "published": "Sun, 30 Aug 2026 06:42:24 +0000",
+      "tags": [
+        "ai",
         "webdev",
-        "productivity",
+        "javascript",
         "opensource"
       ]
     },
     {
-      "id": "dc07ef14f861",
+      "id": "e004d7ad7e2c",
       "category": "tech",
       "source": "DEV Community",
-      "title": "What Developers Should Look for in a Real-Time Cricket API",
-      "url": "https://dev.to/games_tech02_a28a6158122c/what-developers-should-look-for-in-a-real-time-cricket-api-49e3",
-      "summary": "What Developers Should Look for in a Real-Time Cricket API When building a cricket application , getting the user interface right is only one part of the project. Behind every live score screen is a data layer responsible for delivering match information, player statistics, even…",
-      "author": "Games tech02",
-      "published": "Sat, 29 Aug 2026 07:51:20 +0000",
+      "title": "Streaming Responses Have a Silent Gap: A Three-Myth FAQ",
+      "url": "https://dev.to/gitlab_3188/streaming-responses-have-a-silent-gap-a-three-myth-faq-5499",
+      "summary": "I was watching a chat UI print one character, stall, print two, stall again. The first guess is a dead server. The second guess is a broken proxy. Both guesses miss. The stream is alive. The tokens just arrive in the wrong rhythm. This FAQ busts three streaming myths I keep seei…",
+      "author": "Jordan Huang",
+      "published": "Sun, 30 Aug 2026 06:36:41 +0000",
       "tags": [
-        "webdev",
+        "ai",
         "javascript",
-        "python",
-        "api"
+        "performance",
+        "webdev"
       ]
     },
     {
-      "id": "e235297818f9",
+      "id": "8737fe2dc771",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Production-Ready Data Scrapers & Termux Automation Scripts #09625",
-      "url": "https://dev.to/justice_sigauke_043c71782/production-ready-data-scrapers-termux-automation-scripts-09625-3ji3",
-      "summary": "Production-Ready Data Scrapers & Termux Automation Scripts Building custom command-line automation tools, web scraping pipelines, and mobile terminal agents. What I Offer Custom Software Development: Automated Node.js and Python workflows. Data Analytics & Extraction: Clean, str…",
-      "author": "Justice Sigauke",
-      "published": "Sat, 29 Aug 2026 07:50:14 +0000",
+      "title": "How to Build a Strong Personal Brand on LinkedIn in 2026",
+      "url": "https://dev.to/themez_world_dc53aea53896/how-to-build-a-strong-personal-brand-on-linkedin-in-2026-i7j",
+      "summary": "The Crucial Role of Personal Branding in 2026 In 2026, personal branding might matter more than ever. As highlighted in the headline from Style Rave, your online presence can significantly influence your career trajectory, often overshadowing even your experience. For job seeker…",
+      "author": "Themez World",
+      "published": "Sun, 30 Aug 2026 06:34:35 +0000",
       "tags": [
-        "javascript",
-        "webdev",
+        "ai",
         "productivity",
-        "opensource"
+        "tools",
+        "webdev"
       ]
     },
     {
-      "id": "815c0787f0d8",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Production-Ready Data Scrapers & Termux Automation Scripts #89642",
-      "url": "https://dev.to/justice_sigauke_043c71782/production-ready-data-scrapers-termux-automation-scripts-89642-15j3",
-      "summary": "Production-Ready Data Scrapers & Termux Automation Scripts Building custom command-line automation tools, web scraping pipelines, and mobile terminal agents. What I Offer Custom Software Development: Automated Node.js and Python workflows. Data Analytics & Extraction: Clean, str…",
-      "author": "Justice Sigauke",
-      "published": "Sat, 29 Aug 2026 07:48:11 +0000",
-      "tags": [
-        "javascript",
-        "webdev",
-        "productivity",
-        "opensource"
-      ]
-    },
-    {
-      "id": "327f2de8f047",
+      "id": "6f81f0e674d9",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Dualism",
-      "url": "https://en.wikipedia.org/wiki/Dualism",
-      "summary": "Dualism is a family of views that propose a fundamental division into two separate principles or kinds. It typically emphasizes a sharp distinction between independent or antagonistic sides, but in a broader sense, it also includes theories in which the two sides are correlated …",
+      "title": "1980–81 Ipswich Town F.C. season",
+      "url": "https://en.wikipedia.org/wiki/1980%E2%80%9381_Ipswich_Town_F.C._season",
+      "summary": "During the 1980–81 English football season, Ipswich Town F.C. competed in the Football League First Division. In one of the most successful seasons in the club's history, they finished as runners-up in the league championship, were semi-finalists in the FA Cup and won the UEFA C…",
       "published": "",
       "tags": [
         "今日精选"
@@ -190,34 +190,50 @@
       "tags": []
     },
     {
-      "id": "d1fd3bc001a5",
+      "id": "868f6bb6e2a9",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil",
-      "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
-      "summary": "Venezuelan interim president says the unusual agreement will help revive her country's economy.",
-      "published": "Sat, 29 Aug 2026 02:42:27 GMT",
+      "title": "Manhunt after one killed and five injured in Swiss shooting, police say",
+      "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss",
+      "summary": "A major police operation has been launched after the shooting at an event near Zurich overnight.",
+      "published": "Sun, 30 Aug 2026 06:43:26 GMT",
       "tags": []
     },
     {
-      "id": "fde97915fc16",
+      "id": "2458fe404ed3",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Landlady to 9/11 hijackers reveals their links to alleged Saudi spy",
-      "url": "https://www.bbc.co.uk/news/articles/c99dvm39mreo?at_medium=RSS&at_campaign=rss",
-      "summary": "A woman who rented out homes to two al-Qaeda members speaks publicly for the first time - to the BBC.",
-      "published": "Sat, 29 Aug 2026 00:32:17 GMT",
+      "title": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
+      "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss",
+      "summary": "An investigation has begun into the storage of weapons for Ukraine's military near a residential area.",
+      "published": "Sat, 29 Aug 2026 20:13:16 GMT",
       "tags": []
     },
     {
-      "id": "1dd516218cfb",
+      "id": "a3d0d3ca0dff",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Norway mourns King Harald as Haakon VIII ascends throne",
-      "url": "https://www.bbc.co.uk/news/articles/cm2rzxrdr71o?at_medium=RSS&at_campaign=rss",
-      "summary": "Mourners gather outside the palace as royals, politicians and citizens remember a beloved king, whose son has adopted the family motto \"all for norway\".",
-      "published": "Fri, 28 Aug 2026 19:40:45 GMT",
+      "title": "Iceland EU referendum on a knife edge as counting continues",
+      "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss",
+      "summary": "A vote on whether to resume membership talks with the European Union is too close to call.",
+      "published": "Sun, 30 Aug 2026 03:57:01 GMT",
       "tags": []
+    },
+    {
+      "id": "01fb7eabcec4",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "I asked 100 companies for my data. Some deleted it instead.",
+      "url": "https://arstechnica.com/tech-policy/2026/08/i-asked-100-companies-for-my-data-some-deleted-it-instead/",
+      "summary": "Testing 100 companies found privacy requests often led to confusion and dead ends.",
+      "author": "Reece Rodgers, wired.com",
+      "published": "Sat, 29 Aug 2026 10:50:31 +0000",
+      "tags": [
+        "Policy",
+        "california consumer privacy act",
+        "CCPA",
+        "opt out"
+      ]
     },
     {
       "id": "5161e1d00ebf",
@@ -251,20 +267,15 @@
       ]
     },
     {
-      "id": "b5dcd310e649",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "\"RFK Jr. has lied to the Senate\": Lawmakers call for criminal probe, ouster",
-      "url": "https://arstechnica.com/health/2026/08/rfk-jr-has-lied-to-the-senate-lawmakers-call-for-criminal-probe-ouster/",
-      "summary": "RFK Jr. went to Samoa to spread vaccine fears. The measles outbreak after killed 83.",
-      "author": "Beth Mole",
-      "published": "Fri, 28 Aug 2026 21:17:38 +0000",
-      "tags": [
-        "Health",
-        "anti-vaccine",
-        "measles outbreak",
-        "robert f kennedy jr"
-      ]
+      "id": "2db288bd22f8",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "Am I too old for Roth conversions? I’m 84 and my wife is 77. We have $8 million saved.",
+      "url": "https://www.marketwatch.com/story/am-i-too-old-for-roth-conversions-im-84-and-my-wife-is-77-we-have-8-million-saved-fb08fccd?mod=mw_rss_topstories",
+      "summary": "“We are reluctant to pay a financial adviser 2% of assets — roughly $160,000 per year.”",
+      "author": "Quentin Fottrell",
+      "published": "Sat, 29 Aug 2026 16:30:00 GMT",
+      "tags": []
     },
     {
       "id": "bf70e17a2fd3",
@@ -274,29 +285,18 @@
       "url": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
       "summary": "“These shares are the only assets in her estate without designated beneficiaries.”",
       "author": "Quentin Fottrell",
-      "published": "Fri, 28 Aug 2026 23:00:00 GMT",
+      "published": "Sat, 29 Aug 2026 16:00:00 GMT",
       "tags": []
     },
     {
-      "id": "27398c6aa2ed",
+      "id": "7179dad1536b",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Does a 2% beneficiary inherit 100% if the 98% beneficiary dies in a car accident? Asking for a friend.",
-      "url": "https://www.marketwatch.com/story/does-a-2-beneficiary-inherit-100-if-the-98-beneficiary-dies-in-a-car-accident-asking-for-a-friend-67aacc06?mod=mw_rss_topstories",
-      "summary": "“I’m curious what would happen if the account owner were to die suddenly at the same time as the 98% beneficiary.”",
+      "title": "‘I feel shoehorned’: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
+      "url": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
+      "summary": "“His argument is essentially that, since my parents provided the money for the Roth, they have a say in how I invest it.”",
       "author": "Quentin Fottrell",
-      "published": "Fri, 28 Aug 2026 22:15:00 GMT",
-      "tags": []
-    },
-    {
-      "id": "3a459acdf629",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "Microsoft’s stock seals its longest winning streak of the year as AI software fears fade",
-      "url": "https://www.marketwatch.com/story/microsofts-stock-seals-its-longest-winning-streak-of-the-year-as-ai-software-fears-fade-e5669f5b?mod=mw_rss_topstories",
-      "summary": "Microsoft’s software offers capabilities that will be critical for AI, one analyst notes.",
-      "author": "Hannah Pedone",
-      "published": "Fri, 28 Aug 2026 21:34:00 GMT",
+      "published": "Sat, 29 Aug 2026 15:31:00 GMT",
       "tags": []
     }
   ],
