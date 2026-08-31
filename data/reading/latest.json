@@ -1,302 +1,303 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-08-31",
   "items": [
     {
-      "id": "38527c1f9a66",
+      "id": "00cac8f83013",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Anthony Geary",
-      "url": "https://simple.wikipedia.org/wiki/Anthony_Geary",
-      "summary": "Anthony Geary was an American actor. He was known for playing David Lockhart on Bright Promise, George Curtis in The Young and the Restless and as Luke Spencer on General Hospital. For his role as Luke, Geary went on to earn a record eight Daytime Emmy Awards for Outstanding Lea…",
+      "title": "CryEngine",
+      "url": "https://simple.wikipedia.org/wiki/CryEngine",
+      "summary": "CryEngine is a game engine designed by the German game developer Crytek. It has been used in games made by Crytek and other third-party games. Ubisoft, the current owner of the Far Cry franchise, uses a modified version of CryEngine called the Dunia Engine.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "05236fc8f00d",
+      "id": "b42a191db063",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Kjeld Kirk Kristiansen",
-      "url": "https://simple.wikipedia.org/wiki/Kjeld_Kirk_Kristiansen",
-      "summary": "Kjeld Kirk Kristiansen is a Danish businessman. He is the former president and CEO of The Lego Group from 1979 to 2004.",
+      "title": "Progesterone",
+      "url": "https://simple.wikipedia.org/wiki/Progesterone",
+      "summary": "Progesterone is a steroid hormone.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "1fc8156d3a11",
+      "id": "8a01e72be812",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Bug Blindness",
-      "url": "https://danluu.com/bug-blind/",
+      "title": "“I just chose words carefully”",
+      "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
       "summary": "",
-      "author": "davidmckenna",
+      "author": "zdw",
       "published": "2026-08-30",
       "tags": [
-        "▲ 183"
+        "▲ 615"
       ]
     },
     {
-      "id": "e4efc6a513fe",
+      "id": "4dc119bd96eb",
       "category": "tech",
       "source": "Hacker News",
-      "title": "RISC-V is now officially supported by CPython",
-      "url": "https://blog.python.org/2026/08/riscv-now-officially-supported/",
+      "title": "P99 0 ms* autocomplete for 240M domain names",
+      "url": "https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names",
       "summary": "",
-      "author": "lumpa",
-      "published": "2026-08-24",
+      "author": "dbalatero",
+      "published": "2026-08-31",
       "tags": [
-        "▲ 102"
+        "▲ 67"
       ]
     },
     {
-      "id": "f9935fd33821",
+      "id": "7bf7e8f5bf8c",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Hy4 preview",
-      "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
+      "title": "Creepy Crawlies",
+      "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
       "summary": "",
-      "author": "shenli3514",
+      "author": "zdw",
       "published": "2026-08-29",
       "tags": [
-        "▲ 257"
+        "▲ 1063"
       ]
     },
     {
-      "id": "06ed8c51b5a9",
+      "id": "fe40be9fc8b5",
       "category": "tech",
       "source": "Hacker News",
-      "title": "FreeCORE TrueNAS Core – Continued",
-      "url": "https://freecore.org/",
+      "title": "Transfer files over an Ethernet patch cable",
+      "url": "https://maurycyz.com/misc/etherfiles/",
       "summary": "",
-      "author": "sashk",
-      "published": "2026-08-30",
+      "author": "jllyhill",
+      "published": "2026-08-31",
       "tags": [
-        "▲ 74"
+        "▲ 45"
       ]
     },
     {
-      "id": "a89b38db9531",
+      "id": "ba6b93bf69d8",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Creating Teensy ELF Executables for Linux (Or, \"Size Is Everything\")",
-      "url": "https://www.muppetlabs.com/~breadbox/software/tiny/teensy.html",
+      "title": "It takes 5 cloud services to hear my doorbell",
+      "url": "https://blog.vghaisas.com/rube-goldberg-doorbell/",
       "summary": "",
-      "author": "Bluestein",
-      "published": "2026-08-25",
+      "author": "vghaisas",
+      "published": "2026-08-28",
       "tags": [
-        "▲ 31"
+        "▲ 112"
       ]
     },
     {
-      "id": "23f76a751065",
+      "id": "fa17eae077cb",
       "category": "tech",
       "source": "Hacker News",
-      "title": "California lawmakers unanimously pass Linux exemption from age-verification law",
-      "url": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt",
+      "title": "My hobby of building miniatures and taking pretty pictures",
+      "url": "https://sandyuraz.com/blogs/tiny-cafe/",
       "summary": "",
-      "author": "shscs911",
-      "published": "2026-08-30",
+      "author": "thecsw",
+      "published": "2026-08-28",
       "tags": [
-        "▲ 120"
+        "▲ 68"
       ]
     },
     {
-      "id": "f653b360ce4d",
+      "id": "fd4f2c574160",
       "category": "tech",
       "source": "DEV Community",
-      "title": "A practical preflight checklist for Manifest V3 extension releases",
-      "url": "https://dev.to/mv3replay/a-practical-preflight-checklist-for-manifest-v3-extension-releases-384i",
-      "summary": "An extension can work perfectly in development and still fail after packaging. The risky change is often not in the feature code itself. It can be a permission that moved, a host pattern that expanded, a content script that now runs somewhere new, or a browser surface that was n…",
-      "author": "MV3Replay",
-      "published": "Sun, 30 Aug 2026 06:52:43 +0000",
+      "title": "The Journey of Creating a Custom Hook that Improves User Experience",
+      "url": "https://dev.to/karthick_07/the-journey-of-creating-a-custom-hook-that-improves-user-experience-d6j",
+      "summary": "Write a blog about creating a new project for a custom hook that improves user experience. What you should learn from this project This project teaches a very important React idea: how to copy text to the clipboard with one click. 1) Learn the main goal The app is about improvin…",
+      "author": "Karthick (k)",
+      "published": "Mon, 31 Aug 2026 07:04:07 +0000",
       "tags": [
-        "chromeextension",
-        "testing",
-        "opensource",
+        "react",
+        "reactnative",
+        "ai",
         "webdev"
       ]
     },
     {
-      "id": "42b665f1eaee",
+      "id": "e1e09252e233",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Why AI Coding Agents Fail at UI/UX (And How We Engineered 43 Protocols to Fix It)",
-      "url": "https://dev.to/uwayxt_/why-ai-coding-agents-fail-at-uiux-and-how-we-engineered-43-protocols-to-fix-it-29pi",
-      "summary": "Why AI Coding Agents Fail at UI/UX (And How We Engineered 43 Protocols to Fix It) Every engineer who has paired with Claude Code , Cursor , Windsurf , or Google Antigravity knows the 2:00 AM AI UI illusion . You prompt the model: \"Build a high-converting billing dashboard with t…",
-      "author": "Wahyudi",
-      "published": "Sun, 30 Aug 2026 06:42:24 +0000",
+      "title": "From Pricing Page to Real Bitcoin Payment: Zorgax Monetization Is Live",
+      "url": "https://dev.to/danielioni/from-pricing-page-to-real-bitcoin-payment-zorgax-monetization-is-live-31mi",
+      "summary": "From Pricing Page to Real Bitcoin Payment: Zorgax Monetization Is Live Today we completed an important milestone for the MyZubster ecosystem: Zorgax processed its first real Bitcoin payment and activated a Pro subscription in production. This was not only a checkout interface te…",
+      "author": "Daniel Ioni",
+      "published": "Mon, 31 Aug 2026 07:03:10 +0000",
+      "tags": [
+        "bitcoin",
+        "node",
+        "webdev",
+        "saas"
+      ]
+    },
+    {
+      "id": "fc72855f89ac",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "How to Deploy Qwen2.5 72B with vLLM + GGUF Quantization on a $5/Month DigitalOcean Droplet: Multilingual Inference at 1/200th Claude Opus Cost",
+      "url": "https://dev.to/ramosai/how-to-deploy-qwen25-72b-with-vllm-gguf-quantization-on-a-5month-digitalocean-droplet-454g",
+      "summary": "⚡ Deploy this in under 10 minutes Get $200 free: https://m.do.co/c/9fa609b86a0e ($5/month server — this is what I used) How to Deploy Qwen2.5 72B with vLLM + GGUF Quantization on a $5/Month DigitalOcean Droplet: Multilingual Inference at 1/200th Claude Opus Cost Stop overpaying …",
+      "author": "RamosAI",
+      "published": "Mon, 31 Aug 2026 07:02:46 +0000",
+      "tags": [
+        "programming",
+        "tutorial",
+        "ai",
+        "webdev"
+      ]
+    },
+    {
+      "id": "609608b7cb4d",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "🚀 The Browser Is Becoming a Compute Platform: How Edge AI, WebGPU, and WASM Are Reshaping Modern Architecture",
+      "url": "https://dev.to/usman_awan/the-browser-is-becoming-a-compute-platform-how-edge-ai-webgpu-and-wasm-are-reshaping-modern-2na5",
+      "summary": "The Browser Is Becoming a Compute Platform: How Edge AI and High-Performance Web Architectures Are Reshaping the Modern Web For most of the web's history, browsers were presentation layers. They rendered HTML, executed lightweight JavaScript, and delegated computationally expens…",
+      "author": "Muhammad Usman Awan",
+      "published": "Mon, 31 Aug 2026 07:01:29 +0000",
       "tags": [
         "ai",
         "webdev",
         "javascript",
-        "opensource"
+        "architecture"
       ]
     },
     {
-      "id": "e004d7ad7e2c",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Streaming Responses Have a Silent Gap: A Three-Myth FAQ",
-      "url": "https://dev.to/gitlab_3188/streaming-responses-have-a-silent-gap-a-three-myth-faq-5499",
-      "summary": "I was watching a chat UI print one character, stall, print two, stall again. The first guess is a dead server. The second guess is a broken proxy. Both guesses miss. The stream is alive. The tokens just arrive in the wrong rhythm. This FAQ busts three streaming myths I keep seei…",
-      "author": "Jordan Huang",
-      "published": "Sun, 30 Aug 2026 06:36:41 +0000",
-      "tags": [
-        "ai",
-        "javascript",
-        "performance",
-        "webdev"
-      ]
-    },
-    {
-      "id": "8737fe2dc771",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "How to Build a Strong Personal Brand on LinkedIn in 2026",
-      "url": "https://dev.to/themez_world_dc53aea53896/how-to-build-a-strong-personal-brand-on-linkedin-in-2026-i7j",
-      "summary": "The Crucial Role of Personal Branding in 2026 In 2026, personal branding might matter more than ever. As highlighted in the headline from Style Rave, your online presence can significantly influence your career trajectory, often overshadowing even your experience. For job seeker…",
-      "author": "Themez World",
-      "published": "Sun, 30 Aug 2026 06:34:35 +0000",
-      "tags": [
-        "ai",
-        "productivity",
-        "tools",
-        "webdev"
-      ]
-    },
-    {
-      "id": "6f81f0e674d9",
+      "id": "dd82e8e9163b",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "1980–81 Ipswich Town F.C. season",
-      "url": "https://en.wikipedia.org/wiki/1980%E2%80%9381_Ipswich_Town_F.C._season",
-      "summary": "During the 1980–81 English football season, Ipswich Town F.C. competed in the Football League First Division. In one of the most successful seasons in the club's history, they finished as runners-up in the league championship, were semi-finalists in the FA Cup and won the UEFA C…",
+      "title": "Music Box (album)",
+      "url": "https://en.wikipedia.org/wiki/Music_Box_(album)",
+      "summary": "Music Box is the third studio album by American singer-songwriter Mariah Carey. It was released on August 31, 1993, by Columbia Records. In an attempt to appeal to a wider audience, Carey sought a radio-friendly approach for Music Box.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "929aeaf9b438",
+      "id": "80226a3cb4a8",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Footage of Tibet floods isn't being shown in China - and we know little about victims there",
-      "url": "https://www.bbc.co.uk/news/articles/cx2z415w2gpo?at_medium=RSS&at_campaign=rss",
-      "summary": "Some of the most dramatic footage from the deadly flash flooding is hidden from public view in China.",
-      "published": "Sat, 29 Aug 2026 03:54:11 GMT",
+      "title": "Eight killed and 18 missing after ferry capsizes off northern Cyprus",
+      "url": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss",
+      "summary": "A search and rescue operation is under way after a ferry carrying nearly 270 people turns over after leaving port.",
+      "published": "Mon, 31 Aug 2026 03:56:15 GMT",
       "tags": []
     },
     {
-      "id": "868f6bb6e2a9",
+      "id": "77c755dad93a",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Manhunt after one killed and five injured in Swiss shooting, police say",
-      "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss",
-      "summary": "A major police operation has been launched after the shooting at an event near Zurich overnight.",
-      "published": "Sun, 30 Aug 2026 06:43:26 GMT",
-      "tags": []
-    },
-    {
-      "id": "2458fe404ed3",
-      "category": "news",
-      "source": "BBC 世界",
-      "title": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
-      "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss",
-      "summary": "An investigation has begun into the storage of weapons for Ukraine's military near a residential area.",
-      "published": "Sat, 29 Aug 2026 20:13:16 GMT",
+      "title": "US and Iran trade strikes for first time in weeks",
+      "url": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
+      "summary": "Iran says the attack on Larak Island, the first known US strikes since late July, killed two people and injured two others.",
+      "published": "Mon, 31 Aug 2026 07:04:36 GMT",
       "tags": []
     },
     {
       "id": "a3d0d3ca0dff",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Iceland EU referendum on a knife edge as counting continues",
+      "title": "Iceland votes against restarting EU membership talks",
       "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss",
-      "summary": "A vote on whether to resume membership talks with the European Union is too close to call.",
-      "published": "Sun, 30 Aug 2026 03:57:01 GMT",
+      "summary": "Broadcaster RUV reports that 52.8% of voters rejected the government's proposal to resume accession talks.",
+      "published": "Sun, 30 Aug 2026 16:11:44 GMT",
       "tags": []
     },
     {
-      "id": "01fb7eabcec4",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "I asked 100 companies for my data. Some deleted it instead.",
-      "url": "https://arstechnica.com/tech-policy/2026/08/i-asked-100-companies-for-my-data-some-deleted-it-instead/",
-      "summary": "Testing 100 companies found privacy requests often led to confusion and dead ends.",
-      "author": "Reece Rodgers, wired.com",
-      "published": "Sat, 29 Aug 2026 10:50:31 +0000",
-      "tags": [
-        "Policy",
-        "california consumer privacy act",
-        "CCPA",
-        "opt out"
-      ]
-    },
-    {
-      "id": "5161e1d00ebf",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Court rules Kalshi sports bets aren't \"swaps,\" just gambling with a different name",
-      "url": "https://arstechnica.com/tech-policy/2026/08/kalshi-cant-evade-nevada-gambling-laws-by-calling-bets-swaps-court-rules/",
-      "summary": "Kalshi can't evade Nevada gambling laws by calling bets \"swaps,\" judges rule.",
-      "author": "Jon Brodkin",
-      "published": "Fri, 28 Aug 2026 22:14:52 +0000",
-      "tags": [
-        "Policy",
-        "Kalshi",
-        "prediction market"
-      ]
-    },
-    {
-      "id": "00099a67b9db",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Cities terminate Flock contracts at record pace in August",
-      "url": "https://arstechnica.com/tech-policy/2026/08/cities-terminate-flock-contracts-at-record-pace-in-august/",
-      "summary": "Cancellations have accelerated.",
-      "author": "Cyrus Farivar",
-      "published": "Fri, 28 Aug 2026 21:33:54 +0000",
-      "tags": [
-        "Policy",
-        "alprs",
-        "cameras",
-        "Flock!"
-      ]
-    },
-    {
-      "id": "2db288bd22f8",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "Am I too old for Roth conversions? I’m 84 and my wife is 77. We have $8 million saved.",
-      "url": "https://www.marketwatch.com/story/am-i-too-old-for-roth-conversions-im-84-and-my-wife-is-77-we-have-8-million-saved-fb08fccd?mod=mw_rss_topstories",
-      "summary": "“We are reluctant to pay a financial adviser 2% of assets — roughly $160,000 per year.”",
-      "author": "Quentin Fottrell",
-      "published": "Sat, 29 Aug 2026 16:30:00 GMT",
+      "id": "868f6bb6e2a9",
+      "category": "news",
+      "source": "BBC 世界",
+      "title": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five",
+      "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss",
+      "summary": "Five others in their twenties were injured after shots were fired at a techno event near Zurich.",
+      "published": "Sun, 30 Aug 2026 17:49:31 GMT",
       "tags": []
     },
     {
-      "id": "bf70e17a2fd3",
+      "id": "6034bfd30121",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "A 12TB Steam “teraleak” spills more than a decade of lost PC gaming history",
+      "url": "https://arstechnica.com/gaming/2026/08/a-12tb-steam-teraleak-spills-more-than-a-decade-of-lost-pc-gaming-history/",
+      "summary": "Cut content from Portal 2 , hints of Half Life 2: Episode 3 , and so much more.",
+      "author": "Kyle Orland",
+      "published": "Sun, 30 Aug 2026 21:40:56 +0000",
+      "tags": [
+        "Gaming",
+        "leak",
+        "Left 4 Dead 2",
+        "Portal 2"
+      ]
+    },
+    {
+      "id": "ff1e4285f7cc",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Why it matters that President Trump just dialed into a NASA news conference",
+      "url": "https://arstechnica.com/space/2026/08/why-it-matters-that-president-trump-just-dialed-into-a-nasa-news-conference/",
+      "summary": "With just one more major mission upcoming, NASA's science programs need a boost.",
+      "author": "Eric Berger",
+      "published": "Sun, 30 Aug 2026 17:40:30 +0000",
+      "tags": [
+        "Space",
+        "isaacman",
+        "NASA",
+        "space"
+      ]
+    },
+    {
+      "id": "ce11c9b872b5",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Inside Meta’s push to put robots to work in data centers",
+      "url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
+      "summary": "The company is testing robots on tasks that can performed by technicians.",
+      "author": "Paresh Dave, WIRED.com",
+      "published": "Sun, 30 Aug 2026 11:03:47 +0000",
+      "tags": [
+        "AI",
+        "Biz & IT",
+        "ai data centers",
+        "data centers"
+      ]
+    },
+    {
+      "id": "92f0969c266c",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
-      "url": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
-      "summary": "“These shares are the only assets in her estate without designated beneficiaries.”",
-      "author": "Quentin Fottrell",
-      "published": "Sat, 29 Aug 2026 16:00:00 GMT",
+      "title": "U.S. stock futures slip as chances of rate hike rise after Warsh’s Jackson Hole comments",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories",
+      "summary": "U.S. stock-index futures declined on Sunday, as investors ponder the likelihood of a fresh interest-rate hike and as new fighting between the U.S. and Iran threatens to reignite the conflict.",
+      "author": "Mike Murphy",
+      "published": "Mon, 31 Aug 2026 03:03:00 GMT",
       "tags": []
     },
     {
-      "id": "7179dad1536b",
+      "id": "2af2a8e1e00b",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘I feel shoehorned’: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
-      "url": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
-      "summary": "“His argument is essentially that, since my parents provided the money for the Roth, they have a say in how I invest it.”",
+      "title": "‘It’s the ultimate regifting’: My mom gave me a house. Should I transfer it back to her to reduce capital gains?",
+      "url": "https://www.marketwatch.com/story/its-the-ultimate-regifting-my-mom-gave-me-a-house-should-i-transfer-it-back-to-her-to-reduce-capital-gains-e357f49c?mod=mw_rss_topstories",
+      "summary": "“The property is very old and requires significant ongoing maintenance.”",
       "author": "Quentin Fottrell",
-      "published": "Sat, 29 Aug 2026 15:31:00 GMT",
+      "published": "Sun, 30 Aug 2026 22:31:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "c8e68b19219d",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
+      "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
+      "summary": "“I also own my home and an SUV outright, with no outstanding debt.”",
+      "author": "Quentin Fottrell",
+      "published": "Sun, 30 Aug 2026 22:15:00 GMT",
       "tags": []
     }
   ],
