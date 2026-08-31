@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-08-31",
   "items": [
     {
       "id": "0638f3b98be6",
@@ -156,28 +156,6 @@
       "category": "CS"
     },
     {
-      "id": "eac9f4d8a246",
-      "platform": "bilibili",
-      "videoId": "BV1fKtN6DErG",
-      "title": "失败的AI Slop数字永生尝试",
-      "channel": "绿导师原谅你了",
-      "url": "https://www.bilibili.com/video/BV1fKtN6DErG",
-      "thumb": "https://i1.hdslb.com/bfs/archive/14f00050e64f477bcc240965dcd9739c8c750497.jpg",
-      "published": "2026-08-28",
-      "category": "CS"
-    },
-    {
-      "id": "a2243f085f1d",
-      "platform": "bilibili",
-      "videoId": "BV1pb8o6yE8f",
-      "title": "欢迎来到未来 [01-Raw/26生成式软件工程/NJU]",
-      "channel": "绿导师原谅你了",
-      "url": "https://www.bilibili.com/video/BV1pb8o6yE8f",
-      "thumb": "https://i0.hdslb.com/bfs/archive/d6c6e9f0534276d739e7ba3c8ae84473fd58c784.jpg",
-      "published": "2026-08-26",
-      "category": "CS"
-    },
-    {
       "id": "79c64a96a16f",
       "platform": "youtube",
       "videoId": "-VWZ3pDm94c",
@@ -197,6 +175,28 @@
       "url": "https://www.youtube.com/watch?v=CqApXh80HVo",
       "thumb": "https://i4.ytimg.com/vi/CqApXh80HVo/hqdefault.jpg",
       "published": "2026-08-08",
+      "category": "金融"
+    },
+    {
+      "id": "45f33b3cfe41",
+      "platform": "bilibili",
+      "videoId": "BV16rtc63EgT",
+      "title": "日元创40年新低，美国突然出手，怎么回事儿？",
+      "channel": "小Lin说",
+      "url": "https://www.bilibili.com/video/BV16rtc63EgT",
+      "thumb": "https://i1.hdslb.com/bfs/archive/eb5ee332388fbd5d5f1bc769ae5885eee8d22f12.jpg",
+      "published": "2026-08-28",
+      "category": "金融"
+    },
+    {
+      "id": "3a23fd5a2def",
+      "platform": "bilibili",
+      "videoId": "BV1XPuo6uES8",
+      "title": "王健林现在怎么样了? 万达什么情况?",
+      "channel": "小Lin说",
+      "url": "https://www.bilibili.com/video/BV1XPuo6uES8",
+      "thumb": "https://i0.hdslb.com/bfs/archive/d3fd5ebcf88dd8c23ba9af5500c192a255f4deb8.jpg",
+      "published": "2026-08-10",
       "category": "金融"
     },
     {
@@ -318,12 +318,14 @@
     "引擎 · 437860379: 2 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
+    "Bilibili 1567748478: code=-352 风控校验失败",
     "CS · 1567748478: 0 条",
-    "CS · 202224425: 2 条",
+    "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 2 条",
-    "金融 · 520819684: 0 条",
+    "金融 · 520819684: 2 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
+    "Bilibili 11646119: code=-352 风控校验失败",
     "历史 · 11646119: 0 条",
     "历史 · 23947287: 2 条",
     "英语 · @bbclearningenglish: 2 条",
