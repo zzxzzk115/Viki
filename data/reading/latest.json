@@ -1,303 +1,300 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "items": [
     {
-      "id": "00cac8f83013",
+      "id": "a5314b5a9eec",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "CryEngine",
-      "url": "https://simple.wikipedia.org/wiki/CryEngine",
-      "summary": "CryEngine is a game engine designed by the German game developer Crytek. It has been used in games made by Crytek and other third-party games. Ubisoft, the current owner of the Far Cry franchise, uses a modified version of CryEngine called the Dunia Engine.",
+      "title": "Melilla (Congress of Deputies constituency)",
+      "url": "https://simple.wikipedia.org/wiki/Melilla_(Congress_of_Deputies_constituency)",
+      "summary": "Melilla is a constituency in Spain. It represents the autonomous city of Melilla and elects one member.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "b42a191db063",
+      "id": "59e71c1097ad",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Progesterone",
-      "url": "https://simple.wikipedia.org/wiki/Progesterone",
-      "summary": "Progesterone is a steroid hormone.",
+      "title": "Acid anhydride",
+      "url": "https://simple.wikipedia.org/wiki/Acid_anhydride",
+      "summary": "An acid anhydride is a chemical compound made by removing a molecule of water from two equivalents of some oxoacid(s), especially carboxylic acids, and connecting them with the remaining oxygen atom. They can also be thought of as the result of replacing an acidic hydrogen atom …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "8a01e72be812",
+      "id": "b03e2b0176b5",
       "category": "tech",
       "source": "Hacker News",
-      "title": "“I just chose words carefully”",
-      "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
+      "title": "GPU World",
+      "url": "https://www.gpuworld.org/",
       "summary": "",
-      "author": "zdw",
-      "published": "2026-08-30",
+      "author": "simonpure",
+      "published": "2026-09-01",
       "tags": [
-        "▲ 615"
+        "▲ 80"
       ]
     },
     {
-      "id": "4dc119bd96eb",
+      "id": "810b752f868b",
       "category": "tech",
       "source": "Hacker News",
-      "title": "P99 0 ms* autocomplete for 240M domain names",
-      "url": "https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names",
+      "title": "Fastpotify",
+      "url": "https://fastpotify.rocks/",
       "summary": "",
-      "author": "dbalatero",
+      "author": "nreece",
+      "published": "2026-09-01",
+      "tags": [
+        "▲ 184"
+      ]
+    },
+    {
+      "id": "06fc64092c57",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "AI Can Make You Suck Faster Too",
+      "url": "https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too",
+      "summary": "",
+      "author": "degamad",
+      "published": "2026-09-01",
+      "tags": [
+        "▲ 13"
+      ]
+    },
+    {
+      "id": "9873a12fbbcf",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Restroom Archive",
+      "url": "https://restroomarchive.com",
+      "summary": "",
+      "author": "jcalx",
+      "published": "2026-09-01",
+      "tags": [
+        "▲ 72"
+      ]
+    },
+    {
+      "id": "1dd429c0badb",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "I turned my security cameras into an automatic bird identification system",
+      "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
+      "summary": "",
+      "author": "speckx",
       "published": "2026-08-31",
       "tags": [
-        "▲ 67"
+        "▲ 443"
       ]
     },
     {
-      "id": "7bf7e8f5bf8c",
+      "id": "c39813977232",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Creepy Crawlies",
-      "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
+      "title": "Playa Phone",
+      "url": "https://playaphone.com/",
       "summary": "",
-      "author": "zdw",
-      "published": "2026-08-29",
-      "tags": [
-        "▲ 1063"
-      ]
-    },
-    {
-      "id": "fe40be9fc8b5",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Transfer files over an Ethernet patch cable",
-      "url": "https://maurycyz.com/misc/etherfiles/",
-      "summary": "",
-      "author": "jllyhill",
+      "author": "cutoff",
       "published": "2026-08-31",
       "tags": [
-        "▲ 45"
+        "▲ 581"
       ]
     },
     {
-      "id": "ba6b93bf69d8",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "It takes 5 cloud services to hear my doorbell",
-      "url": "https://blog.vghaisas.com/rube-goldberg-doorbell/",
-      "summary": "",
-      "author": "vghaisas",
-      "published": "2026-08-28",
-      "tags": [
-        "▲ 112"
-      ]
-    },
-    {
-      "id": "fa17eae077cb",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "My hobby of building miniatures and taking pretty pictures",
-      "url": "https://sandyuraz.com/blogs/tiny-cafe/",
-      "summary": "",
-      "author": "thecsw",
-      "published": "2026-08-28",
-      "tags": [
-        "▲ 68"
-      ]
-    },
-    {
-      "id": "fd4f2c574160",
+      "id": "332b23bc104b",
       "category": "tech",
       "source": "DEV Community",
-      "title": "The Journey of Creating a Custom Hook that Improves User Experience",
-      "url": "https://dev.to/karthick_07/the-journey-of-creating-a-custom-hook-that-improves-user-experience-d6j",
-      "summary": "Write a blog about creating a new project for a custom hook that improves user experience. What you should learn from this project This project teaches a very important React idea: how to copy text to the clipboard with one click. 1) Learn the main goal The app is about improvin…",
-      "author": "Karthick (k)",
-      "published": "Mon, 31 Aug 2026 07:04:07 +0000",
+      "title": "How to Build Faster CRM Platforms with CRM Software Development Services",
+      "url": "https://dev.to/naresh_chandralohani/how-to-build-faster-crm-platforms-with-crm-software-development-services-7lc",
+      "summary": "A CRM API can become slow long before the application reaches millions of users. A common failure pattern is a dashboard that executes several joins, loads an entire activity history, calls external services synchronously, and recalculates pipeline metrics on every request. The …",
+      "author": "Naresh Chandra Lohani",
+      "published": "Tue, 01 Sep 2026 06:15:13 +0000",
       "tags": [
-        "react",
-        "reactnative",
         "ai",
+        "webdev",
+        "programming",
+        "productivity"
+      ]
+    },
+    {
+      "id": "bdd0f189b645",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "How to Keep AI Code Reviews from Blocking Clean Changes",
+      "url": "https://dev.to/devconnect/how-to-keep-ai-code-reviews-from-blocking-clean-changes-4456",
+      "summary": "Short answer: Keep AI reviews advisory for low-risk diffs, require a human override path, and tune them against your own repo’s conventions, so clean changes pass without fighting a generic checklist. Keep AI code reviews from being the final gate for low-risk diffs. Make them a…",
+      "author": "Dev Connect",
+      "published": "Tue, 01 Sep 2026 06:15:06 +0000",
+      "tags": [
+        "ai",
+        "programming",
+        "codequality",
         "webdev"
       ]
     },
     {
-      "id": "e1e09252e233",
+      "id": "b90a2ecab9db",
       "category": "tech",
       "source": "DEV Community",
-      "title": "From Pricing Page to Real Bitcoin Payment: Zorgax Monetization Is Live",
-      "url": "https://dev.to/danielioni/from-pricing-page-to-real-bitcoin-payment-zorgax-monetization-is-live-31mi",
-      "summary": "From Pricing Page to Real Bitcoin Payment: Zorgax Monetization Is Live Today we completed an important milestone for the MyZubster ecosystem: Zorgax processed its first real Bitcoin payment and activated a Pro subscription in production. This was not only a checkout interface te…",
-      "author": "Daniel Ioni",
-      "published": "Mon, 31 Aug 2026 07:03:10 +0000",
-      "tags": [
-        "bitcoin",
-        "node",
-        "webdev",
-        "saas"
-      ]
-    },
-    {
-      "id": "fc72855f89ac",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "How to Deploy Qwen2.5 72B with vLLM + GGUF Quantization on a $5/Month DigitalOcean Droplet: Multilingual Inference at 1/200th Claude Opus Cost",
-      "url": "https://dev.to/ramosai/how-to-deploy-qwen25-72b-with-vllm-gguf-quantization-on-a-5month-digitalocean-droplet-454g",
-      "summary": "⚡ Deploy this in under 10 minutes Get $200 free: https://m.do.co/c/9fa609b86a0e ($5/month server — this is what I used) How to Deploy Qwen2.5 72B with vLLM + GGUF Quantization on a $5/Month DigitalOcean Droplet: Multilingual Inference at 1/200th Claude Opus Cost Stop overpaying …",
-      "author": "RamosAI",
-      "published": "Mon, 31 Aug 2026 07:02:46 +0000",
+      "title": "How to review agent-generated pull requests",
+      "url": "https://dev.to/devconnect/how-to-review-agent-generated-pull-requests-3c84",
+      "summary": "Short answer: Review agent-generated pull requests in layers: first confirm the change is the right one, then run tests, inspect risky diffs, verify dependencies, and only approve code you could explain to a teammate. Review agent-generated pull requests the same way you would r…",
+      "author": "Dev Connect",
+      "published": "Tue, 01 Sep 2026 06:15:04 +0000",
       "tags": [
         "programming",
-        "tutorial",
-        "ai",
-        "webdev"
+        "webdev",
+        "discuss"
       ]
     },
     {
-      "id": "609608b7cb4d",
+      "id": "d914047da916",
       "category": "tech",
       "source": "DEV Community",
-      "title": "🚀 The Browser Is Becoming a Compute Platform: How Edge AI, WebGPU, and WASM Are Reshaping Modern Architecture",
-      "url": "https://dev.to/usman_awan/the-browser-is-becoming-a-compute-platform-how-edge-ai-webgpu-and-wasm-are-reshaping-modern-2na5",
-      "summary": "The Browser Is Becoming a Compute Platform: How Edge AI and High-Performance Web Architectures Are Reshaping the Modern Web For most of the web's history, browsers were presentation layers. They rendered HTML, executed lightweight JavaScript, and delegated computationally expens…",
-      "author": "Muhammad Usman Awan",
-      "published": "Mon, 31 Aug 2026 07:01:29 +0000",
+      "title": "How to Scale PHP Applications Without Maxing Out PHP-FPM Pools",
+      "url": "https://dev.to/alok1663/how-to-scale-php-applications-without-maxing-out-php-fpm-pools-14f2",
+      "summary": "PHP runs a massive percentage of web applications and APIs, from custom frameworks to large Laravel and Symfony monoliths. Modern PHP 8.x with JIT and OPcache executes code quickly, but production servers still struggle during sudden traffic surges. The root problem is rarely th…",
+      "author": "Alok Deep",
+      "published": "Tue, 01 Sep 2026 06:14:01 +0000",
       "tags": [
-        "ai",
+        "php",
+        "backend",
         "webdev",
-        "javascript",
-        "architecture"
+        "performance"
       ]
     },
     {
-      "id": "dd82e8e9163b",
+      "id": "441b3dc1edb5",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Music Box (album)",
-      "url": "https://en.wikipedia.org/wiki/Music_Box_(album)",
-      "summary": "Music Box is the third studio album by American singer-songwriter Mariah Carey. It was released on August 31, 1993, by Columbia Records. In an attempt to appeal to a wider audience, Carey sought a radio-friendly approach for Music Box.",
+      "title": "Anfield",
+      "url": "https://en.wikipedia.org/wiki/Anfield",
+      "summary": "Anfield is a football stadium in the area of Anfield, Liverpool, England, which has been the home of Liverpool Football Club since their formation in 1892. The stadium has a seating capacity of 61,276, making it the fifth-largest football stadium in England. It was originally th…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "80226a3cb4a8",
+      "id": "45140c161fd7",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Eight killed and 18 missing after ferry capsizes off northern Cyprus",
-      "url": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss",
-      "summary": "A search and rescue operation is under way after a ferry carrying nearly 270 people turns over after leaving port.",
-      "published": "Mon, 31 Aug 2026 03:56:15 GMT",
+      "title": "What it was like inside court for Tupac Shakur’s murder trial verdict",
+      "url": "https://www.bbc.co.uk/news/videos/cz6zp2pwzx5o?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC presenter Anoushka Mutanda-Dougherty describes what it was like when Duane \"Keffe D\" Davis was found guilty of murdering the famous rapper.",
+      "published": "Tue, 01 Sep 2026 02:30:45 GMT",
       "tags": []
     },
     {
-      "id": "77c755dad93a",
+      "id": "1c9ffcd8b2f4",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US and Iran trade strikes for first time in weeks",
-      "url": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
-      "summary": "Iran says the attack on Larak Island, the first known US strikes since late July, killed two people and injured two others.",
-      "published": "Mon, 31 Aug 2026 07:04:36 GMT",
+      "title": "Nepal rescuers blast hillside in search of hydropower workers as families wait anxiously",
+      "url": "https://www.bbc.co.uk/news/articles/c5ylvgq9q71o?at_medium=RSS&at_campaign=rss",
+      "summary": "Rescuers have resorted to explosives as they struggle to reach trapped workers, as the flooding death toll reaches 939.",
+      "published": "Tue, 01 Sep 2026 02:18:26 GMT",
       "tags": []
     },
     {
-      "id": "a3d0d3ca0dff",
+      "id": "1d4bfcb5c9ea",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Iceland votes against restarting EU membership talks",
-      "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss",
-      "summary": "Broadcaster RUV reports that 52.8% of voters rejected the government's proposal to resume accession talks.",
-      "published": "Sun, 30 Aug 2026 16:11:44 GMT",
+      "title": "US army secretary resigns after months of tension",
+      "url": "https://www.bbc.co.uk/news/articles/czjz31dk1xmo?at_medium=RSS&at_campaign=rss",
+      "summary": "Dan Driscoll, the youngest-ever army secretary, was about 18 months into his post.",
+      "published": "Tue, 01 Sep 2026 01:01:03 GMT",
       "tags": []
     },
     {
-      "id": "868f6bb6e2a9",
+      "id": "24aade08508e",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five",
-      "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss",
-      "summary": "Five others in their twenties were injured after shots were fired at a techno event near Zurich.",
-      "published": "Sun, 30 Aug 2026 17:49:31 GMT",
+      "title": "'I've never been to Afghanistan': Six million deportees forced to start over under the Taliban",
+      "url": "https://www.bbc.co.uk/news/articles/c2e074nn8eko?at_medium=RSS&at_campaign=rss",
+      "summary": "As of August, the number forced to return this year from Pakistan and Iran had reached another million.",
+      "published": "Tue, 01 Sep 2026 05:00:34 GMT",
       "tags": []
     },
     {
-      "id": "6034bfd30121",
+      "id": "a86d1c9695df",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "A 12TB Steam “teraleak” spills more than a decade of lost PC gaming history",
-      "url": "https://arstechnica.com/gaming/2026/08/a-12tb-steam-teraleak-spills-more-than-a-decade-of-lost-pc-gaming-history/",
-      "summary": "Cut content from Portal 2 , hints of Half Life 2: Episode 3 , and so much more.",
-      "author": "Kyle Orland",
-      "published": "Sun, 30 Aug 2026 21:40:56 +0000",
+      "title": "The Bentley Supersports: A stripped-out engineer's indulgence",
+      "url": "https://arstechnica.com/cars/2026/08/the-bentley-supersports-a-stripped-out-engineers-indulgence/",
+      "summary": "It's the lightest Bentley in 85 years.",
+      "author": "Jonathan M. Gitlin",
+      "published": "Mon, 31 Aug 2026 23:01:16 +0000",
       "tags": [
-        "Gaming",
-        "leak",
-        "Left 4 Dead 2",
-        "Portal 2"
+        "Cars",
+        "Bentley Supersports",
+        "car review",
+        "Laguna Seca"
       ]
     },
     {
-      "id": "ff1e4285f7cc",
+      "id": "cfd746cd5be4",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Why it matters that President Trump just dialed into a NASA news conference",
-      "url": "https://arstechnica.com/space/2026/08/why-it-matters-that-president-trump-just-dialed-into-a-nasa-news-conference/",
-      "summary": "With just one more major mission upcoming, NASA's science programs need a boost.",
-      "author": "Eric Berger",
-      "published": "Sun, 30 Aug 2026 17:40:30 +0000",
+      "title": "Trump admin shelves Cyclospora research despite record-breaking outbreak",
+      "url": "https://arstechnica.com/health/2026/08/trump-admin-shelves-cyclospora-research-despite-record-breaking-outbreak/",
+      "summary": "The CDC has tallied nearly 30,000 confirmed and probable cases this summer.",
+      "author": "Beth Mole",
+      "published": "Mon, 31 Aug 2026 21:23:09 +0000",
       "tags": [
-        "Space",
-        "isaacman",
-        "NASA",
-        "space"
+        "Health",
+        "cyclospora",
+        "cyclosporiasis",
+        "Infectious disease"
       ]
     },
     {
-      "id": "ce11c9b872b5",
+      "id": "4c346055d82b",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Inside Meta’s push to put robots to work in data centers",
-      "url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
-      "summary": "The company is testing robots on tasks that can performed by technicians.",
-      "author": "Paresh Dave, WIRED.com",
-      "published": "Sun, 30 Aug 2026 11:03:47 +0000",
+      "title": "Get in on the Ars community that doesn’t fit beneath an article",
+      "url": "https://arstechnica.com/staff/2026/08/get-in-on-the-ars-community-that-doesnt-fit-beneath-an-article/",
+      "summary": "You've read the stories. Now check out our forums.",
+      "author": "Eric Bangeman",
+      "published": "Mon, 31 Aug 2026 21:12:01 +0000",
       "tags": [
-        "AI",
-        "Biz & IT",
-        "ai data centers",
-        "data centers"
+        "Staff",
+        "Ars Pro"
       ]
     },
     {
-      "id": "92f0969c266c",
+      "id": "c98ad6c34c3c",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "U.S. stock futures slip as chances of rate hike rise after Warsh’s Jackson Hole comments",
-      "url": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories",
-      "summary": "U.S. stock-index futures declined on Sunday, as investors ponder the likelihood of a fresh interest-rate hike and as new fighting between the U.S. and Iran threatens to reignite the conflict.",
-      "author": "Mike Murphy",
-      "published": "Mon, 31 Aug 2026 03:03:00 GMT",
+      "title": "Amazon’s stock slips as the FTC alleges billions of dollars in hidden ad fees",
+      "url": "https://www.marketwatch.com/story/amazons-stock-slips-as-the-ftc-alleges-billions-of-dollars-in-hidden-ad-fees-4ae44ee4?mod=mw_rss_topstories",
+      "summary": "Regulators claim Amazon artificially bumped up floor prices during peak shopping periods, adding surcharges to merchants’ ad spending.",
+      "author": "Christine Ji",
+      "published": "Mon, 31 Aug 2026 22:24:00 GMT",
       "tags": []
     },
     {
-      "id": "2af2a8e1e00b",
+      "id": "39ca6798fcb7",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘It’s the ultimate regifting’: My mom gave me a house. Should I transfer it back to her to reduce capital gains?",
-      "url": "https://www.marketwatch.com/story/its-the-ultimate-regifting-my-mom-gave-me-a-house-should-i-transfer-it-back-to-her-to-reduce-capital-gains-e357f49c?mod=mw_rss_topstories",
-      "summary": "“The property is very old and requires significant ongoing maintenance.”",
+      "title": "‘I’m leaving money on the table’: I’m 64 and my husband is 70. Should I take spousal benefits or wait for my own?",
+      "url": "https://www.marketwatch.com/story/im-leaving-money-on-the-table-im-64-and-my-husband-is-70-should-i-take-spousal-benefits-or-wait-for-my-own-2490f5cd?mod=mw_rss_topstories",
+      "summary": "“I paid a significant amount into Social Security.”",
       "author": "Quentin Fottrell",
-      "published": "Sun, 30 Aug 2026 22:31:00 GMT",
+      "published": "Mon, 31 Aug 2026 22:00:00 GMT",
       "tags": []
     },
     {
-      "id": "c8e68b19219d",
+      "id": "4f3de2af6bc6",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
-      "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
-      "summary": "“I also own my home and an SUV outright, with no outstanding debt.”",
-      "author": "Quentin Fottrell",
-      "published": "Sun, 30 Aug 2026 22:15:00 GMT",
+      "title": "The S&P 500 usually falls in September. Why this year should be different.",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-usually-falls-in-september-why-this-year-should-be-different-77ebb626?mod=mw_rss_topstories",
+      "summary": "As U.S. stocks head into September, a key trading level suggests the S&P 500 could dodge a big loss in what is historically a turbulent month.",
+      "author": "Christine Idzelis",
+      "published": "Mon, 31 Aug 2026 21:36:00 GMT",
       "tags": []
     }
   ],
