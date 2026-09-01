@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "items": [
     {
       "id": "0638f3b98be6",
@@ -27,7 +27,7 @@
       "id": "41a44f1be560",
       "platform": "youtube",
       "videoId": "mGuYUEuVDYc",
-      "title": "Revisiting, Ranking, and Remaking Every TETRIS Ever (All 58 Games)",
+      "title": "Understanding TETRIS As a Game Developer",
       "channel": "Acerola",
       "url": "https://www.youtube.com/watch?v=mGuYUEuVDYc",
       "thumb": "https://i2.ytimg.com/vi/mGuYUEuVDYc/hqdefault.jpg",
@@ -90,28 +90,6 @@
       "category": "引擎"
     },
     {
-      "id": "74d5969623e3",
-      "platform": "bilibili",
-      "videoId": "BV1BTnxzKEVv",
-      "title": "2025.9月编程语言排行榜 C++、C、JAVA亚军之争异常激烈 Perl的火爆与人工智能无关",
-      "channel": "原子之音",
-      "url": "https://www.bilibili.com/video/BV1BTnxzKEVv",
-      "thumb": "https://i0.hdslb.com/bfs/archive/57a35f617d5a79a0ce357179e98382a0c2786185.jpg",
-      "published": "2025-09-26",
-      "category": "引擎"
-    },
-    {
-      "id": "20c78ca36141",
-      "platform": "bilibili",
-      "videoId": "BV1TXWVzZEx4",
-      "title": "虚幻中的C++: 输入系统(Input与Enhanced Input)",
-      "channel": "原子之音",
-      "url": "https://www.bilibili.com/video/BV1TXWVzZEx4",
-      "thumb": "https://i0.hdslb.com/bfs/archive/56b88c2f99c47fd48d8dd518d296fa8697902d72.jpg",
-      "published": "2025-09-20",
-      "category": "引擎"
-    },
-    {
       "id": "95b8d6e50ed2",
       "platform": "youtube",
       "videoId": "-mXaU3N9e8Y",
@@ -156,6 +134,28 @@
       "category": "CS"
     },
     {
+      "id": "9018e970ca98",
+      "platform": "bilibili",
+      "videoId": "BV1ScKR6QEQF",
+      "title": "古法做视频里加一点点科技",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1ScKR6QEQF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/b9d2e88f8d41fe24cecddcf715756265ff68b9d2.jpg",
+      "published": "2026-06-29",
+      "category": "CS"
+    },
+    {
+      "id": "4001551d4ad2",
+      "platform": "bilibili",
+      "videoId": "BV1RfEw6LEfF",
+      "title": "能跟你对话的TTS【开源】",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1RfEw6LEfF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/414b79823c78f30b3e60d27f14c0f44111f0234f.jpg",
+      "published": "2026-06-04",
+      "category": "CS"
+    },
+    {
       "id": "79c64a96a16f",
       "platform": "youtube",
       "videoId": "-VWZ3pDm94c",
@@ -175,28 +175,6 @@
       "url": "https://www.youtube.com/watch?v=CqApXh80HVo",
       "thumb": "https://i4.ytimg.com/vi/CqApXh80HVo/hqdefault.jpg",
       "published": "2026-08-08",
-      "category": "金融"
-    },
-    {
-      "id": "45f33b3cfe41",
-      "platform": "bilibili",
-      "videoId": "BV16rtc63EgT",
-      "title": "日元创40年新低，美国突然出手，怎么回事儿？",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV16rtc63EgT",
-      "thumb": "https://i1.hdslb.com/bfs/archive/eb5ee332388fbd5d5f1bc769ae5885eee8d22f12.jpg",
-      "published": "2026-08-28",
-      "category": "金融"
-    },
-    {
-      "id": "3a23fd5a2def",
-      "platform": "bilibili",
-      "videoId": "BV1XPuo6uES8",
-      "title": "王健林现在怎么样了? 万达什么情况?",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV1XPuo6uES8",
-      "thumb": "https://i0.hdslb.com/bfs/archive/d3fd5ebcf88dd8c23ba9af5500c192a255f4deb8.jpg",
-      "published": "2026-08-10",
       "category": "金融"
     },
     {
@@ -266,6 +244,17 @@
       "category": "历史"
     },
     {
+      "id": "3a2a1b62de74",
+      "platform": "youtube",
+      "videoId": "q4JyFF46528",
+      "title": "Do you like cleaning? 🚽🧹🧽 | Improve your listening skills with Real Easy English",
+      "channel": "BBC Learning English",
+      "url": "https://www.youtube.com/watch?v=q4JyFF46528",
+      "thumb": "https://i2.ytimg.com/vi/q4JyFF46528/hqdefault.jpg",
+      "published": "2026-08-31",
+      "category": "英语"
+    },
+    {
       "id": "6991db1db0eb",
       "platform": "youtube",
       "videoId": "FinOIdu21XA",
@@ -274,17 +263,6 @@
       "url": "https://www.youtube.com/shorts/FinOIdu21XA",
       "thumb": "https://i3.ytimg.com/vi/FinOIdu21XA/hqdefault.jpg",
       "published": "2026-08-28",
-      "category": "英语"
-    },
-    {
-      "id": "d62f2be07a08",
-      "platform": "youtube",
-      "videoId": "LOp_5N3i1ks",
-      "title": "🍔 Food expressions to sound more fluent 🍜🍭 English class with Georgie",
-      "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=LOp_5N3i1ks",
-      "thumb": "https://i1.ytimg.com/vi/LOp_5N3i1ks/hqdefault.jpg",
-      "published": "2026-08-27",
       "category": "英语"
     },
     {
@@ -315,14 +293,14 @@
     "图形学 · @Acerola_t: 2 条",
     "图形学 · 512313464: 2 条",
     "引擎 · @TheCherno: 2 条",
-    "引擎 · 437860379: 2 条",
+    "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
-    "Bilibili 1567748478: code=-352 风控校验失败",
-    "CS · 1567748478: 0 条",
+    "CS · 1567748478: 2 条",
+    "Bilibili 202224425: code=-352 风控校验失败",
     "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 2 条",
-    "金融 · 520819684: 2 条",
+    "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
     "Bilibili 11646119: code=-352 风控校验失败",
