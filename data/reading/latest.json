@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "items": [
     {
-      "id": "a5314b5a9eec",
+      "id": "0ec55cb51756",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Melilla (Congress of Deputies constituency)",
-      "url": "https://simple.wikipedia.org/wiki/Melilla_(Congress_of_Deputies_constituency)",
-      "summary": "Melilla is a constituency in Spain. It represents the autonomous city of Melilla and elects one member.",
+      "title": "Northern Bavarian",
+      "url": "https://simple.wikipedia.org/wiki/Northern_Bavarian",
+      "summary": "Northern Bavarian or North Central Bavarian is a dialect of the Bavarian language. Though mostly spoken in Weiden in der Oberpfalz, Northern Bavarian is also spoken in Upper, Lower Bavaria and Upper Franconia. There is one subvariant called West Northern Bavarian or West Norther…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "59e71c1097ad",
+      "id": "9f1d79e5fef1",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Acid anhydride",
-      "url": "https://simple.wikipedia.org/wiki/Acid_anhydride",
-      "summary": "An acid anhydride is a chemical compound made by removing a molecule of water from two equivalents of some oxoacid(s), especially carboxylic acids, and connecting them with the remaining oxygen atom. They can also be thought of as the result of replacing an acidic hydrogen atom …",
+      "title": "Eupeodes lapponicus",
+      "url": "https://simple.wikipedia.org/wiki/Eupeodes_lapponicus",
+      "summary": "Eupeodes lapponicus is a common European species of hoverfly. It is sometimes known as the Lapland syrphid fly.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "b03e2b0176b5",
+      "id": "3df5fbd9b803",
       "category": "tech",
       "source": "Hacker News",
-      "title": "GPU World",
-      "url": "https://www.gpuworld.org/",
-      "summary": "",
-      "author": "simonpure",
+      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "summary": "What's new in Claude Fable 5.1 – https://platform.claude.com/docs/en/models/fable-5-1/whats-n... System Card: https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32...",
+      "author": "denysvitali",
       "published": "2026-09-01",
       "tags": [
-        "▲ 80"
+        "▲ 1083"
       ]
     },
     {
-      "id": "810b752f868b",
+      "id": "6f443a0a8f07",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Fastpotify",
-      "url": "https://fastpotify.rocks/",
+      "title": "True Rate of Unemployment",
+      "url": "https://www.lisep.org/tru",
       "summary": "",
-      "author": "nreece",
+      "author": "ptrhvns",
+      "published": "2026-09-02",
+      "tags": [
+        "▲ 118"
+      ]
+    },
+    {
+      "id": "c4a33f02a535",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "The Emergent Symbolic Structure of Artificial Neural Networks",
+      "url": "https://arxiv.org/abs/2608.29530",
+      "summary": "",
+      "author": "schmuhblaster",
+      "published": "2026-09-02",
+      "tags": [
+        "▲ 37"
+      ]
+    },
+    {
+      "id": "3b73faf3a995",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "url": "https://danluu.com/zitron/",
+      "summary": "",
+      "author": "jatins",
       "published": "2026-09-01",
       "tags": [
-        "▲ 184"
+        "▲ 580"
       ]
     },
     {
-      "id": "06fc64092c57",
+      "id": "31bdc7269e63",
       "category": "tech",
       "source": "Hacker News",
-      "title": "AI Can Make You Suck Faster Too",
-      "url": "https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too",
+      "title": "Fine, I'll build my own text editor",
+      "url": "https://dbushell.com/2026/09/01/text-editor/",
       "summary": "",
-      "author": "degamad",
+      "author": "Alephinitesimal",
       "published": "2026-09-01",
       "tags": [
-        "▲ 13"
+        "▲ 41"
       ]
     },
     {
-      "id": "9873a12fbbcf",
+      "id": "4cce6faaea2a",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Restroom Archive",
-      "url": "https://restroomarchive.com",
+      "title": "WebFPGA",
+      "url": "https://webfpga.io/",
       "summary": "",
-      "author": "jcalx",
-      "published": "2026-09-01",
+      "author": "gurjeet",
+      "published": "2026-09-02",
       "tags": [
-        "▲ 72"
+        "▲ 25"
       ]
     },
     {
-      "id": "1dd429c0badb",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "I turned my security cameras into an automatic bird identification system",
-      "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
-      "summary": "",
-      "author": "speckx",
-      "published": "2026-08-31",
-      "tags": [
-        "▲ 443"
-      ]
-    },
-    {
-      "id": "c39813977232",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Playa Phone",
-      "url": "https://playaphone.com/",
-      "summary": "",
-      "author": "cutoff",
-      "published": "2026-08-31",
-      "tags": [
-        "▲ 581"
-      ]
-    },
-    {
-      "id": "332b23bc104b",
+      "id": "a678d63d68c7",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How to Build Faster CRM Platforms with CRM Software Development Services",
-      "url": "https://dev.to/naresh_chandralohani/how-to-build-faster-crm-platforms-with-crm-software-development-services-7lc",
-      "summary": "A CRM API can become slow long before the application reaches millions of users. A common failure pattern is a dashboard that executes several joins, loads an entire activity history, calls external services synchronously, and recalculates pipeline metrics on every request. The …",
-      "author": "Naresh Chandra Lohani",
-      "published": "Tue, 01 Sep 2026 06:15:13 +0000",
+      "title": "Building a Digital Employee Rewards and Recognition Program",
+      "url": "https://dev.to/enalytix/building-a-digital-employee-rewards-and-recognition-program-21hj",
+      "summary": "Employee recognition is often handled informally. A manager sends a thank-you message, a team celebrates an achievement, or someone gets mentioned during a meeting. These moments are valuable, but they can become inconsistent when an organization grows. This is where rewards and…",
+      "author": "Enalytix",
+      "published": "Wed, 02 Sep 2026 05:54:41 +0000",
       "tags": [
         "ai",
         "webdev",
@@ -120,159 +120,171 @@
       ]
     },
     {
-      "id": "bdd0f189b645",
+      "id": "0fc9e5923ea0",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How to Keep AI Code Reviews from Blocking Clean Changes",
-      "url": "https://dev.to/devconnect/how-to-keep-ai-code-reviews-from-blocking-clean-changes-4456",
-      "summary": "Short answer: Keep AI reviews advisory for low-risk diffs, require a human override path, and tune them against your own repo’s conventions, so clean changes pass without fighting a generic checklist. Keep AI code reviews from being the final gate for low-risk diffs. Make them a…",
-      "author": "Dev Connect",
-      "published": "Tue, 01 Sep 2026 06:15:06 +0000",
+      "title": "How I Used AI to Generate 500+ Apple Watch Wallpapers (And What I Learned About Tiny Screens)",
+      "url": "https://dev.to/watch/how-i-used-ai-to-generate-500-apple-watch-wallpapers-and-what-i-learned-about-tiny-screens-4ho8",
+      "summary": "Most wallpaper generators are built for phones and desktops. Nobody thinks about the 374×446 pixel screen on your wrist. So I built one. The Problem With Resizing I tried generating Apple Watch wallpapers with Midjourney, DALL-E, and Stable Diffusion. Every single image came out…",
+      "author": "Дарья",
+      "published": "Wed, 02 Sep 2026 05:54:26 +0000",
       "tags": [
         "ai",
-        "programming",
-        "codequality",
+        "design",
+        "ios",
         "webdev"
       ]
     },
     {
-      "id": "b90a2ecab9db",
+      "id": "fefa9ad59ebc",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How to review agent-generated pull requests",
-      "url": "https://dev.to/devconnect/how-to-review-agent-generated-pull-requests-3c84",
-      "summary": "Short answer: Review agent-generated pull requests in layers: first confirm the change is the right one, then run tests, inspect risky diffs, verify dependencies, and only approve code you could explain to a teammate. Review agent-generated pull requests the same way you would r…",
-      "author": "Dev Connect",
-      "published": "Tue, 01 Sep 2026 06:15:04 +0000",
+      "title": "Students Don’t Need to Wait for College to Start Learning AI",
+      "url": "https://dev.to/aischolars/students-dont-need-to-wait-for-college-to-start-learning-ai-46hj",
+      "summary": "Artificial Intelligence is becoming part of almost every technology career. But if you're a student, there's a common misconception: “I’ll learn AI after I get into college.” You don't necessarily have to. You also don't need to start with advanced mathematics, neural networks, …",
+      "author": "Ai Scholars",
+      "published": "Wed, 02 Sep 2026 05:50:35 +0000",
       "tags": [
+        "ai",
         "programming",
-        "webdev",
-        "discuss"
+        "python",
+        "webdev"
       ]
     },
     {
-      "id": "d914047da916",
+      "id": "04d2d32ba9e7",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How to Scale PHP Applications Without Maxing Out PHP-FPM Pools",
-      "url": "https://dev.to/alok1663/how-to-scale-php-applications-without-maxing-out-php-fpm-pools-14f2",
-      "summary": "PHP runs a massive percentage of web applications and APIs, from custom frameworks to large Laravel and Symfony monoliths. Modern PHP 8.x with JIT and OPcache executes code quickly, but production servers still struggle during sudden traffic surges. The root problem is rarely th…",
-      "author": "Alok Deep",
-      "published": "Tue, 01 Sep 2026 06:14:01 +0000",
+      "title": "Talk to Someone New Today",
+      "url": "https://dev.to/neminath_patil_bc9b28ad10/talk-to-someone-new-today-5e1",
+      "summary": "In many cases, some of the most important conversations can start simply from making the decision to converse with a stranger. Our era of modernity has provided us with an array of opportunities to communicate. It is possible to exchange messages in real-time, to become a part o…",
+      "author": "Neminath Patil",
+      "published": "Wed, 02 Sep 2026 05:48:36 +0000",
       "tags": [
-        "php",
-        "backend",
+        "ai",
+        "startup",
         "webdev",
-        "performance"
+        "programming"
       ]
     },
     {
-      "id": "441b3dc1edb5",
+      "id": "6a1c627f4143",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Anfield",
-      "url": "https://en.wikipedia.org/wiki/Anfield",
-      "summary": "Anfield is a football stadium in the area of Anfield, Liverpool, England, which has been the home of Liverpool Football Club since their formation in 1892. The stadium has a seating capacity of 61,276, making it the fifth-largest football stadium in England. It was originally th…",
+      "title": "Laguna Miscanti",
+      "url": "https://en.wikipedia.org/wiki/Laguna_Miscanti",
+      "summary": "Laguna Miscanti is a brackish lake in the Altiplano of the Antofagasta Region in northern Chile. It has an area of about 13 square kilometres (5 sq mi) and the shape of an arrowhead. The lake has no permanent surface inflows or outflows apart from several springs, and is primari…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "45140c161fd7",
+      "id": "eef742c7215c",
       "category": "news",
       "source": "BBC 世界",
-      "title": "What it was like inside court for Tupac Shakur’s murder trial verdict",
-      "url": "https://www.bbc.co.uk/news/videos/cz6zp2pwzx5o?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC presenter Anoushka Mutanda-Dougherty describes what it was like when Duane \"Keffe D\" Davis was found guilty of murdering the famous rapper.",
-      "published": "Tue, 01 Sep 2026 02:30:45 GMT",
+      "title": "Iran attacks US bases in Middle East after reports US strike killed five at wedding party",
+      "url": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Iranian Red Crescent says a child was among those killed when shrapnel from a US strike hit a home. The US military says it is aware of the reports and it never targets civilians.",
+      "published": "Wed, 02 Sep 2026 05:12:07 GMT",
       "tags": []
     },
     {
-      "id": "1c9ffcd8b2f4",
+      "id": "4ce72792147b",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Nepal rescuers blast hillside in search of hydropower workers as families wait anxiously",
-      "url": "https://www.bbc.co.uk/news/articles/c5ylvgq9q71o?at_medium=RSS&at_campaign=rss",
-      "summary": "Rescuers have resorted to explosives as they struggle to reach trapped workers, as the flooding death toll reaches 939.",
-      "published": "Tue, 01 Sep 2026 02:18:26 GMT",
+      "title": "Zelensky says airlines should avoid Russian airspace as Ukraine escalates drone operations",
+      "url": "https://www.bbc.co.uk/news/articles/c9v9yydy2wvo?at_medium=RSS&at_campaign=rss",
+      "summary": "Chinese and Gulf state airlines are among those still using Russian airspace. Meanwhile, Russia says it will intensify its own attacks on Ukraine.",
+      "published": "Wed, 02 Sep 2026 04:23:23 GMT",
       "tags": []
     },
     {
-      "id": "1d4bfcb5c9ea",
+      "id": "f68dbfeae48a",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US army secretary resigns after months of tension",
-      "url": "https://www.bbc.co.uk/news/articles/czjz31dk1xmo?at_medium=RSS&at_campaign=rss",
-      "summary": "Dan Driscoll, the youngest-ever army secretary, was about 18 months into his post.",
-      "published": "Tue, 01 Sep 2026 01:01:03 GMT",
+      "title": "Israel expanding presence in Lebanon, officials say, as BBC visits occupied areas",
+      "url": "https://www.bbc.co.uk/news/articles/cge41d19gq9o?at_medium=RSS&at_campaign=rss",
+      "summary": "A BBC team joined a humanitarian mission of the UN peacekeeping force, which says Israeli troops are fortifying positions and continuing demolitions.",
+      "published": "Wed, 02 Sep 2026 05:03:09 GMT",
       "tags": []
     },
     {
-      "id": "24aade08508e",
+      "id": "6c64c0e5be0b",
       "category": "news",
       "source": "BBC 世界",
-      "title": "'I've never been to Afghanistan': Six million deportees forced to start over under the Taliban",
-      "url": "https://www.bbc.co.uk/news/articles/c2e074nn8eko?at_medium=RSS&at_campaign=rss",
-      "summary": "As of August, the number forced to return this year from Pakistan and Iran had reached another million.",
-      "published": "Tue, 01 Sep 2026 05:00:34 GMT",
+      "title": "Charlie Kirk murder suspect pleads not guilty as judge clears way for death penalty trial",
+      "url": "https://www.bbc.co.uk/news/articles/cj4jn9q7evpo?at_medium=RSS&at_campaign=rss",
+      "summary": "The 23-year-old is charged with aggravated murder, a capital offence in Utah, and six other counts.",
+      "published": "Wed, 02 Sep 2026 01:59:10 GMT",
       "tags": []
     },
     {
-      "id": "a86d1c9695df",
+      "id": "a94d0ae71979",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "The Bentley Supersports: A stripped-out engineer's indulgence",
-      "url": "https://arstechnica.com/cars/2026/08/the-bentley-supersports-a-stripped-out-engineers-indulgence/",
-      "summary": "It's the lightest Bentley in 85 years.",
+      "title": "Here's our first look—and drive—of the 2027 Range Rover Electric",
+      "url": "https://arstechnica.com/cars/2026/09/range-rover-ev-electric-propulsion-pairs-perfectly-with-this-luxury-suv/",
+      "summary": "333 miles of real-world range with uncompromised comfort and off-road ability.",
       "author": "Jonathan M. Gitlin",
-      "published": "Mon, 31 Aug 2026 23:01:16 +0000",
+      "published": "Tue, 01 Sep 2026 23:01:52 +0000",
       "tags": [
         "Cars",
-        "Bentley Supersports",
-        "car review",
-        "Laguna Seca"
+        "Range Rover Electric"
       ]
     },
     {
-      "id": "cfd746cd5be4",
+      "id": "7b391dea3ce2",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Trump admin shelves Cyclospora research despite record-breaking outbreak",
-      "url": "https://arstechnica.com/health/2026/08/trump-admin-shelves-cyclospora-research-despite-record-breaking-outbreak/",
-      "summary": "The CDC has tallied nearly 30,000 confirmed and probable cases this summer.",
+      "title": "Research roundup: 7 cool science stories we almost missed",
+      "url": "https://arstechnica.com/science/2026/09/august-research-roundup-7-cool-science-stories-we-almost-missed/",
+      "summary": "\"Black hole stars,\" making cookies from plastic, tiny sound-powered drones, and more.",
+      "author": "Jennifer Ouellette",
+      "published": "Tue, 01 Sep 2026 19:06:10 +0000",
+      "tags": [
+        "Science",
+        "aerodynamics",
+        "astronomy",
+        "bioacoustics"
+      ]
+    },
+    {
+      "id": "4a37762fac1f",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "A newborn and child reportedly died of measles; CDC isn't counting them",
+      "url": "https://arstechnica.com/health/2026/09/cdc-reported-then-deleted-two-measles-deaths-that-were-questioned-by-rfk-jr/",
+      "summary": "Historically, state health departments determine cases and deaths, not the CDC.",
       "author": "Beth Mole",
-      "published": "Mon, 31 Aug 2026 21:23:09 +0000",
+      "published": "Tue, 01 Sep 2026 18:21:16 +0000",
       "tags": [
         "Health",
-        "cyclospora",
-        "cyclosporiasis",
-        "Infectious disease"
+        "anti-vaccine",
+        "CDC",
+        "deaths"
       ]
     },
     {
-      "id": "4c346055d82b",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Get in on the Ars community that doesn’t fit beneath an article",
-      "url": "https://arstechnica.com/staff/2026/08/get-in-on-the-ars-community-that-doesnt-fit-beneath-an-article/",
-      "summary": "You've read the stories. Now check out our forums.",
-      "author": "Eric Bangeman",
-      "published": "Mon, 31 Aug 2026 21:12:01 +0000",
-      "tags": [
-        "Staff",
-        "Ars Pro"
-      ]
-    },
-    {
-      "id": "c98ad6c34c3c",
+      "id": "ec72f5b56d41",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Amazon’s stock slips as the FTC alleges billions of dollars in hidden ad fees",
-      "url": "https://www.marketwatch.com/story/amazons-stock-slips-as-the-ftc-alleges-billions-of-dollars-in-hidden-ad-fees-4ae44ee4?mod=mw_rss_topstories",
-      "summary": "Regulators claim Amazon artificially bumped up floor prices during peak shopping periods, adding surcharges to merchants’ ad spending.",
-      "author": "Christine Ji",
-      "published": "Mon, 31 Aug 2026 22:24:00 GMT",
+      "title": "Dell’s AI servers drive a stellar earnings performance, and a raised outlook",
+      "url": "https://www.marketwatch.com/story/dells-ai-servers-drive-a-stellar-earnings-performance-and-a-raised-outlook-86476ace?mod=mw_rss_topstories",
+      "summary": "The company’s backlog has reached $95 billion as demand accelerates for its AI servers",
+      "author": "Britney Nguyen",
+      "published": "Wed, 02 Sep 2026 00:19:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "0c68975b2277",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "Palo Alto Networks’ stock falls despite strong AI cybersecurity demand",
+      "url": "https://www.marketwatch.com/story/palo-alto-networks-stock-climbs-as-demand-for-ai-cybersecurity-powers-an-earnings-beat-4b39578c?mod=mw_rss_topstories",
+      "summary": "Enterprise cyber threats and AI adoption are giving Palo Alto Networks ‘durable tailwinds,’ according to CEO Nikesh Arora, but the stock retreated after an earnings beat",
+      "author": "Christine Ji,Hannah Pedone",
+      "published": "Wed, 02 Sep 2026 00:18:00 GMT",
       "tags": []
     },
     {
@@ -283,18 +295,7 @@
       "url": "https://www.marketwatch.com/story/im-leaving-money-on-the-table-im-64-and-my-husband-is-70-should-i-take-spousal-benefits-or-wait-for-my-own-2490f5cd?mod=mw_rss_topstories",
       "summary": "“I paid a significant amount into Social Security.”",
       "author": "Quentin Fottrell",
-      "published": "Mon, 31 Aug 2026 22:00:00 GMT",
-      "tags": []
-    },
-    {
-      "id": "4f3de2af6bc6",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "The S&P 500 usually falls in September. Why this year should be different.",
-      "url": "https://www.marketwatch.com/story/the-s-p-500-usually-falls-in-september-why-this-year-should-be-different-77ebb626?mod=mw_rss_topstories",
-      "summary": "As U.S. stocks head into September, a key trading level suggests the S&P 500 could dodge a big loss in what is historically a turbulent month.",
-      "author": "Christine Idzelis",
-      "published": "Mon, 31 Aug 2026 21:36:00 GMT",
+      "published": "Wed, 02 Sep 2026 00:00:00 GMT",
       "tags": []
     }
   ],
