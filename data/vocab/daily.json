@@ -1,13 +1,13 @@
 {
-  "date": "2026-09-03",
-  "word": "delineate",
-  "ipa": "dɪˈlɪn.i.eɪt",
-  "ipaUs": "dɪˈlɪn.i.eɪt",
+  "date": "2026-09-04",
+  "word": "denote",
+  "ipa": "dɪˈnəʊt",
+  "ipaUs": "dɪˈnoʊt",
   "pos": "verb",
-  "definition": "to describe or mark the edge of something",
-  "definitionZh": "描述",
-  "example": "The main characters are clearly delineated in the first chapter.",
-  "exampleZh": "主要人物在第一章里得到了清晰的描述。",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/ukd/ukdel/ukdelig005.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/eus/eus75/eus75558.mp3"
+  "definition": "to represent something",
+  "definitionZh": "表示",
+  "example": "The colour red is used to denote passion or danger.",
+  "exampleZh": "红色用于表示激情或危险。",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/ukd/ukdem/ukdemot025.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/eus/eus75/eus75577.mp3"
 }

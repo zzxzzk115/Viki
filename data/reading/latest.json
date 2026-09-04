@@ -1,302 +1,303 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "items": [
     {
-      "id": "ea902660f791",
+      "id": "390d3ed20e34",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "David James",
-      "url": "https://simple.wikipedia.org/wiki/David_James",
-      "summary": "David James is an English retired footballer. He last played for Kerala Blasters FC and England national team.",
+      "title": "Balcony",
+      "url": "https://simple.wikipedia.org/wiki/Balcony",
+      "summary": "A balcony is a kind of floor at a certain height, which stands out from the building. Usually, there is some kind of balustrade so people do not fall off.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "0d09349e160b",
+      "id": "7a9644c09ff9",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Christy Marx",
-      "url": "https://simple.wikipedia.org/wiki/Christy_Marx",
-      "summary": "Christy Marx is an American scriptwriter, author, and game designer.",
+      "title": "Bricquebosq",
+      "url": "https://simple.wikipedia.org/wiki/Bricquebosq",
+      "summary": "Bricquebosq is a commune in the Manche department in Normandy in northwestern France.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "3e6570f9052d",
+      "id": "c59c597501ce",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Muse Spark 1.3",
-      "url": "https://developer.meta.com/ai/models/muse-spark/",
-      "summary": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
-      "author": "bvaldivielso",
-      "published": "2026-09-02",
+      "title": "GPT-6 Astra",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "summary": "System Card: https://deploymentsafety.openai.com/gpt-6-astra Related ongoing threads: OpenAI's GPT-6 Astra on ARC-AGI-3 - https://news.ycombinator.com/item?id=49555691 GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index - https://news.ycombinator.com/item…",
+      "author": "kibae",
+      "published": "2026-09-03",
       "tags": [
-        "▲ 497"
+        "▲ 1592"
       ]
     },
     {
-      "id": "31a63e18c7f4",
+      "id": "6429aeb0f4a1",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-      "summary": "https://deepmind.google/models/model-cards/gemini-3-8-flash/",
-      "author": "bratao",
-      "published": "2026-09-02",
-      "tags": [
-        "▲ 940"
-      ]
-    },
-    {
-      "id": "9c71d74e7048",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "The Computer Museum of America reclamation project",
-      "url": "https://computer-museum.org/wp/",
+      "title": ".name Termination",
+      "url": "https://neil.fraser.name/news/2026/09/03/",
       "summary": "",
-      "author": "rbanffy",
-      "published": "2026-08-31",
+      "author": "pavel_lishin",
+      "published": "2026-09-03",
       "tags": [
-        "▲ 9"
+        "▲ 1597"
       ]
     },
     {
-      "id": "b379084d2b2f",
+      "id": "7e80672b84c6",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Holden's Lightning Flight",
-      "url": "https://en.wikipedia.org/wiki/Holden%27s_Lightning_flight",
+      "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+      "url": "https://inference-docs.cerebras.ai/models/overview",
       "summary": "",
-      "author": "ColinWright",
-      "published": "2026-08-31",
+      "author": "altertable",
+      "published": "2026-09-03",
       "tags": [
-        "▲ 116"
+        "▲ 510"
       ]
     },
     {
-      "id": "8012cf858374",
+      "id": "0552e0b9a0f8",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Google avoids a breakup of its ad tech business",
-      "url": "https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html",
-      "summary": "https://archive.ph/rlAbY https://www.reuters.com/legal/litigation/google-defeats-us-b...",
-      "author": "donohoe",
-      "published": "2026-09-02",
-      "tags": [
-        "▲ 333"
-      ]
-    },
-    {
-      "id": "57676719cf1f",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
-      "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+      "title": "A Mysterious Kidney Disease Has Arrived in Texas",
+      "url": "https://www.texasmonthly.com/news-politics/ckdu-kidney-disease-immigration/",
       "summary": "",
-      "author": "jakobgreenfeld",
-      "published": "2026-09-02",
+      "author": "johntfella",
+      "published": "2026-09-04",
       "tags": [
-        "▲ 359"
+        "▲ 57"
       ]
     },
     {
-      "id": "59d3bfae11b4",
+      "id": "d71410b2ce99",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Project Xanadu: Even More Hindsight",
+      "url": "https://gwern.net/xanadu",
+      "summary": "",
+      "author": "andsoitis",
+      "published": "2026-09-04",
+      "tags": [
+        "▲ 57"
+      ]
+    },
+    {
+      "id": "de53b1caf532",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Grep beats LSP? Why coding agents ignore your fancier tools",
+      "url": "https://www.agentconnect.md/blog/grep-beat-lsp-harness/",
+      "summary": "",
+      "author": "kaonashi-tyc-01",
+      "published": "2026-09-04",
+      "tags": [
+        "▲ 51"
+      ]
+    },
+    {
+      "id": "3e483c0deca1",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How to turn a pet photo into artwork in under 60 seconds with Pet Imagination by Inithouse",
-      "url": "https://dev.to/jakub_inithouse/how-to-turn-a-pet-photo-into-artwork-in-under-60-seconds-with-pet-imagination-by-inithouse-28od",
-      "summary": "Pet Imagination is a free AI pet portrait generator that turns a pet photo into artwork in 9 styles in under 60 seconds, no signup required. We built it at Inithouse because generic photo filters treat a golden retriever the same way they treat a latte. Our pipeline is trained o…",
-      "author": "Jakub",
-      "published": "Thu, 03 Sep 2026 05:56:54 +0000",
+      "title": "How to Deploy Llama 3.3 70B with Ollama + Docker on a $5/Month DigitalOcean Droplet: CPU-Only Inference at 1/200th Claude Opus Cost",
+      "url": "https://dev.to/ramosai/how-to-deploy-llama-33-70b-with-ollama-docker-on-a-5month-digitalocean-droplet-cpu-only-5fhn",
+      "summary": "⚡ Deploy this in under 10 minutes Get $200 free: https://m.do.co/c/9fa609b86a0e ($5/month server — this is what I used) How to Deploy Llama 3.3 70B with Ollama + Docker on a $5/Month DigitalOcean Droplet: CPU-Only Inference at 1/200th Claude Opus Cost Stop overpaying $20 per mil…",
+      "author": "RamosAI",
+      "published": "Fri, 04 Sep 2026 06:07:15 +0000",
       "tags": [
-        "ai",
-        "machinelearning",
-        "webdev",
-        "pets"
-      ]
-    },
-    {
-      "id": "0248816bd6c6",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "MyZubster, N4K48 and Neon Plaza: Connecting Open Source Profiles Through a Visual Metaverse Layer",
-      "url": "https://dev.to/danielioni/myzubster-n4k48-and-neon-plaza-connecting-open-source-profiles-through-a-visual-metaverse-layer-3h4",
-      "summary": "MyZubster, N4K48 and Neon Plaza Over the last development cycle, we completed an important step in the evolution of MyZubster : we connected real GitHub work, participant profiles, visual storytelling and the emerging MyZubster Metaverse into one navigable open-source structure.…",
-      "author": "Daniel Ioni",
-      "published": "Thu, 03 Sep 2026 05:53:10 +0000",
-      "tags": [
-        "opensource",
-        "github",
+        "programming",
+        "tutorial",
         "ai",
         "webdev"
       ]
     },
     {
-      "id": "bd358e2b80f4",
+      "id": "d46adf16ce3e",
       "category": "tech",
       "source": "DEV Community",
-      "title": "I built 47 client-side developer & AI tools because I'm tired of bloated, ad-heavy utility sites",
-      "url": "https://dev.to/jarvissing/i-built-47-client-side-developer-ai-tools-because-im-tired-of-bloated-ad-heavy-utility-sites-3bj9",
-      "summary": "Like most developers, I search Google every single week for quick utilities: Formatting, validating, or minifying dirty JSON Calculating OpenAI & Claude API prompt costs Decoding JWT payloads Converting cURL commands to modern Fetch or Python requests Generating and decoding Cro…",
-      "author": "Prince Preet",
-      "published": "Thu, 03 Sep 2026 05:50:13 +0000",
+      "title": "Top 10 Best CS Cart to WooCommerce Migration Companies",
+      "url": "https://dev.to/oliverpitts/top-10-best-cs-cart-to-woocommerce-migration-companies-nk",
+      "summary": "You've got a CS Cart store but you're stuck with limited options and vendor constraints. Time to migrate to WooCommerce. Let's talk about which companies actually understand the technical side and won't corrupt your data, break your architecture, or lose your revenue. What Actua…",
+      "author": "Oliver Pitts",
+      "published": "Fri, 04 Sep 2026 06:06:20 +0000",
       "tags": [
+        "ai",
         "webdev",
-        "javascript",
         "programming",
-        "productivity"
+        "devops"
       ]
     },
     {
-      "id": "5ee2bdcb5800",
+      "id": "a184244450b0",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Free Puzzle Games Online — and the Honest Answer to \"Do They Help Your Brain?\"",
-      "url": "https://dev.to/lucian_lkb_1f009d/free-puzzle-games-online-and-the-honest-answer-to-do-they-help-your-brain-56i3",
-      "summary": "A quick mental break, a proper brain workout, or somewhere to put fifteen restless minutes — a good puzzle does all three, and the best ones cost nothing and need no download. Before the tour, though, the question everyone asks and few answer honestly: do puzzles actually keep y…",
-      "author": "Lucian (LKB)",
-      "published": "Thu, 03 Sep 2026 05:49:26 +0000",
+      "title": "Meta Muse Voice Transcribe's I…",
+      "url": "https://dev.to/norviktech/meta-muse-voice-transcribes-i-43ak",
+      "summary": "Originally published at norvik.tech Introduction Explore the technical details and implications of Meta's Muse Voice Transcribe, priced at $0.18/hour. A deep dive into its performance and business use ca… What is Muse Voice Transcribe? Meta's Muse Voice Transcribe is a cutting-e…",
+      "author": "Norvik Tech",
+      "published": "Fri, 04 Sep 2026 06:05:55 +0000",
       "tags": [
-        "puzzles",
-        "braintraining",
         "webdev",
-        "productivity"
+        "metamuse",
+        "voicetranscribe",
+        "transcriptiontechnol"
       ]
     },
     {
-      "id": "ac5148a29409",
+      "id": "e5e675c7c3d0",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "400 Twitter and LinkedIn Profiles Run Through Enrichment APIs: Coverage Numbers Nobody Publishes",
+      "url": "https://dev.to/zackrag/400-twitter-and-linkedin-profiles-run-through-enrichment-apis-coverage-numbers-nobody-publishes-555c",
+      "summary": "400 Twitter and LinkedIn Profiles Run Through Enrichment APIs: Coverage Numbers Nobody Publishes Last quarter I ran a test I couldn't find real data on anywhere: take B2B contacts whose social handles I already know — specifically their Twitter/X handle and LinkedIn URL — and se…",
+      "author": "Zackrag",
+      "published": "Fri, 04 Sep 2026 06:03:56 +0000",
+      "tags": [
+        "osint",
+        "sales",
+        "productivity",
+        "webdev"
+      ]
+    },
+    {
+      "id": "cee099db0bea",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Huhu beetle",
-      "url": "https://en.wikipedia.org/wiki/Huhu_beetle",
-      "summary": "The huhu beetle is a longhorn beetle endemic to New Zealand. It is a large, visually distinctive species whose adults reach up to five cm (2 in) in length. It is widespread throughout New Zealand, occurring up to 1,400 m (4,600 ft) in altitude. Although the adult is unable to ea…",
+      "title": "Heard Island and McDonald Islands",
+      "url": "https://en.wikipedia.org/wiki/Heard_Island_and_McDonald_Islands",
+      "summary": "The Territory of Heard Island and McDonald Islands is an Australian external territory in the southern Indian Ocean. Discovered in the mid-19th century, the territory is a group of sub-Antarctic volcanic islands that lie on the Kerguelen Plateau. It is about 4000 kilometres (250…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "f27187479b74",
+      "id": "5921185e3481",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Channel smuggling gangs resort to 'mega-dinghies' as crackdown limits small boat supply",
-      "url": "https://www.bbc.co.uk/news/articles/ce3rn93de9eo?at_medium=RSS&at_campaign=rss",
-      "summary": "Once-rival criminal groups are being forced to work together because of a shortage of small boats, a BBC investigation has found.",
-      "published": "Thu, 03 Sep 2026 05:00:04 GMT",
+      "title": "Nepal says it will need billions in funding to rebuild after flash floods",
+      "url": "https://www.bbc.co.uk/news/videos/ce8x2401zdeo?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC South Asia correspondent Azadeh Moshiri is in Nepal where authorities are trying to begin rebuilding amid the debris.",
+      "published": "Fri, 04 Sep 2026 02:20:37 GMT",
       "tags": []
     },
     {
-      "id": "5ff02e054c7c",
+      "id": "2aceafb83740",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Iranian attack on Saudi tanker killed two Filipino sailors, Saudi Arabia says",
-      "url": "https://www.bbc.co.uk/news/articles/cx2zxgg4mx9o?at_medium=RSS&at_campaign=rss",
-      "summary": "The kingdom condemns the targeting of Sidr, which was reportedly hit by unknown projectiles in the Strait of Hormuz on Monday.",
-      "published": "Wed, 02 Sep 2026 17:33:45 GMT",
+      "title": "Tensions flare as judge declines to remove juror in Lindsay Clancy trial",
+      "url": "https://www.bbc.co.uk/news/articles/c7v4n7pv5epo?at_medium=RSS&at_campaign=rss",
+      "summary": "The defence lawyer is upset after the judge decides not to remove a holdout in the triple murder case.",
+      "published": "Fri, 04 Sep 2026 00:54:46 GMT",
       "tags": []
     },
     {
-      "id": "98ba99425150",
+      "id": "f84bbd8c79cb",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Protests in Spain against government's handling of Ceuta migrant crisis",
-      "url": "https://www.bbc.co.uk/news/articles/c1mvn2yp9n2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Spanish opposition parties accuse Prime Minister Pedro Sánchez of abandoning the residents of Ceuta.",
-      "published": "Wed, 02 Sep 2026 21:34:27 GMT",
+      "title": "Argentine leader threatens to sanction oil firms and reiterates Falklands claim",
+      "url": "https://www.bbc.co.uk/news/articles/clyk18g1l8ko?at_medium=RSS&at_campaign=rss",
+      "summary": "Javier Milei reiterates his country's claim on the British overseas territory, saying the \"winds of change\" favour it.",
+      "published": "Fri, 04 Sep 2026 05:01:33 GMT",
       "tags": []
     },
     {
-      "id": "608a9487eb92",
+      "id": "2f45761c5c5c",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Will the Lindsay Clancy trial end in a mistrial? Here are the jury's options",
-      "url": "https://www.bbc.co.uk/news/articles/c93vgv4kr49o?at_medium=RSS&at_campaign=rss",
-      "summary": "Jurors have five options before them as they decide the fate of the former nurse charged with murdering her three children.",
-      "published": "Wed, 02 Sep 2026 23:56:29 GMT",
+      "title": "US investigating if missile hit Iran wedding, Vance says",
+      "url": "https://www.bbc.co.uk/news/articles/cy4zvk3z2k1o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Iranian Red Crescent Society (IRCS) said shrapnel from a missile hit the ceremony and killed four people on Tuesday.",
+      "published": "Thu, 03 Sep 2026 22:19:59 GMT",
       "tags": []
     },
     {
-      "id": "fae6522e99c2",
+      "id": "9cd9b698f712",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Spending deal comes with a bonus: Blocking political control of grants",
-      "url": "https://arstechnica.com/science/2026/09/budget-deal-puts-political-control-of-grants-on-hold-until-december/",
-      "summary": "Congress pauses the OMB's attempt to rewrite how research is funded.",
-      "author": "John Timmer",
-      "published": "Wed, 02 Sep 2026 21:20:03 +0000",
+      "title": "Reports: RFK Jr. ordered measles deaths deletion; CDC still secretly counts them",
+      "url": "https://arstechnica.com/health/2026/09/reports-rfk-jr-ordered-measles-deaths-deletion-cdc-still-secretly-counts-them/",
+      "summary": "CDC staff had already accepted the measles death reports when RFK Jr. meddled.",
+      "author": "Beth Mole",
+      "published": "Thu, 03 Sep 2026 22:13:50 +0000",
       "tags": [
-        "Policy",
-        "Science",
-        "continuing resolution",
-        "federal budget"
+        "Health",
+        "anti-vaccine",
+        "CDC",
+        "deaths"
       ]
     },
     {
-      "id": "4767180cb8ae",
+      "id": "898c0fc1cfd9",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "I rented a car, and within hours, my driver's license was for sale",
-      "url": "https://arstechnica.com/security/2026/09/my-drivers-license-is-one-of-153-million-for-sale-on-a-new-dark-website/",
-      "summary": "The FBI is reportedly investigating a massive data breach that is unfolding in real time.",
-      "author": "Dan Goodin",
-      "published": "Wed, 02 Sep 2026 20:32:02 +0000",
+      "title": "Xbox imposes harsh new time limits for Game Pass game streaming",
+      "url": "https://arstechnica.com/gaming/2026/09/xbox-imposes-harsh-new-time-limits-for-game-pass-game-streaming/",
+      "summary": "Over 1 million Game Pass subscribers will have to pay more for their heavy streaming use.",
+      "author": "Kyle Orland",
+      "published": "Thu, 03 Sep 2026 21:10:59 +0000",
       "tags": [
-        "Biz & IT",
-        "Features",
-        "Security",
-        "drivers licenses"
+        "Gaming",
+        "cloud gaming",
+        "Game Pass",
+        "microsoft"
       ]
     },
     {
-      "id": "ddf2b9940aaf",
+      "id": "d07319f18272",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "FCC plans robocall scorecard to grade phone companies on spam call blocking",
-      "url": "https://arstechnica.com/tech-policy/2026/09/fcc-plans-robocall-scorecard-to-grade-phone-companies-on-spam-call-blocking/",
-      "summary": "Carrier scorecards may include call-blocking stats and data on customer complaints.",
-      "author": "Jon Brodkin",
-      "published": "Wed, 02 Sep 2026 19:54:27 +0000",
+      "title": "150 research primates got diarrhea, flooding lab with priceless vaccine data",
+      "url": "https://arstechnica.com/health/2026/09/150-research-primates-got-diarrhea-flooding-lab-with-priceless-vaccine-data/",
+      "summary": "Researchers now have clear new targets and insights for developing a Shigella vaccine.",
+      "author": "Beth Mole",
+      "published": "Thu, 03 Sep 2026 20:14:48 +0000",
       "tags": [
-        "Policy",
-        "FCC",
-        "robocalls"
+        "Health",
+        "bacteria",
+        "LPS",
+        "outbreak"
       ]
     },
     {
-      "id": "90c0989c82a6",
+      "id": "e11e80a0050b",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "There’s a new record number of 401(k) millionaires as retirement savings hold at all-time highs",
-      "url": "https://www.marketwatch.com/story/theres-a-new-record-number-of-401-k-millionaires-as-retirement-savings-hold-at-all-time-highs-94f2c520?mod=mw_rss_topstories",
-      "summary": "Retirement savings hovered at record highs in the second quarter, pushing the number of 401(k) millionaires to a record as investors focused on their long-term goals despite persistent anxiety about the broader economy, Fidelity Investments said Thursday.",
-      "author": "Jessica Hall",
-      "published": "Thu, 03 Sep 2026 04:01:00 GMT",
+      "title": "Snowflake has a secret weapon that’s powering its stock toward a huge gain",
+      "url": "https://www.marketwatch.com/story/shares-in-snowflake-are-surging-heres-what-wall-street-analysts-are-saying-0b6343c0?mod=mw_rss_topstories",
+      "summary": "The company’s AI-powered coding assistant is driving major sales momentum.",
+      "author": "Nora Redmond,Hannah Pedone",
+      "published": "Fri, 04 Sep 2026 00:35:00 GMT",
       "tags": []
     },
     {
-      "id": "ed2029e5f1dc",
+      "id": "e80eb04c9840",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Broadcom’s stock falls despite upbeat earnings, extending a frustrating stretch for investors",
-      "url": "https://www.marketwatch.com/story/broadcoms-stock-falls-despite-upbeat-earnings-extending-a-frustrating-stretch-for-investors-81de3f53?mod=mw_rss_topstories",
-      "summary": "Broadcom topped expectations with its latest quarterly financial results, but that wasn’t enough to send its stock higher.",
-      "author": "Britney Nguyen",
-      "published": "Thu, 03 Sep 2026 00:25:00 GMT",
+      "title": "‘I currently give him $1,000 a month’: My grandson has severe mental illness. How do I protect him after I’m gone?",
+      "url": "https://www.marketwatch.com/story/im-desperately-trying-to-plan-ahead-im-leaving-everything-to-my-grandson-who-has-severe-mental-illness-how-can-i-protect-him-d8df2646?mod=mw_rss_topstories",
+      "summary": "“I’m desperately trying to plan ahead while I’m still able.”",
+      "author": "Quentin Fottrell",
+      "published": "Fri, 04 Sep 2026 00:31:00 GMT",
       "tags": []
     },
     {
-      "id": "3d3d2e301b20",
+      "id": "b2944cf2beb1",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Snowflake’s stock soars as the company blows away estimates with its AI-fueled forecast",
-      "url": "https://www.marketwatch.com/story/snowflakes-stock-soars-as-the-company-blows-away-estimates-with-its-ai-fueled-forecast-5b5cf36c?mod=mw_rss_topstories",
-      "summary": "Companies looking to build AI tools on top of their data are turning to Snowflake, driving robust revenue growth.",
-      "author": "Christine Ji,Hannah Pedone",
-      "published": "Thu, 03 Sep 2026 00:23:00 GMT",
+      "title": "Adobe just announced its next CEO. Here’s why its stock is dropping.",
+      "url": "https://www.marketwatch.com/story/adobe-just-announced-its-next-ceo-heres-why-its-stock-is-dropping-bad9ed8a?mod=mw_rss_topstories",
+      "summary": "Incoming CEO Anil Chakravarthy is a company veteran. But another longtime business head will be departing Adobe, potentially foreshadowing further turnover in leadership.",
+      "author": "Emily Bary",
+      "published": "Fri, 04 Sep 2026 00:25:00 GMT",
       "tags": []
     }
   ],
