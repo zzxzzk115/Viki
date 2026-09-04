@@ -1,6 +1,17 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "items": [
+    {
+      "id": "f14a8fc51934",
+      "platform": "youtube",
+      "videoId": "B3LXEW4Pc-w",
+      "title": "Claude Fable AI Is Much Stranger Than The Headlines Suggest",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=B3LXEW4Pc-w",
+      "thumb": "https://i3.ytimg.com/vi/B3LXEW4Pc-w/hqdefault.jpg",
+      "published": "2026-09-03",
+      "category": "图形学"
+    },
     {
       "id": "afefdcee885e",
       "platform": "youtube",
@@ -10,17 +21,6 @@
       "url": "https://www.youtube.com/watch?v=w9RDunJACkc",
       "thumb": "https://i4.ytimg.com/vi/w9RDunJACkc/hqdefault.jpg",
       "published": "2026-09-01",
-      "category": "图形学"
-    },
-    {
-      "id": "0638f3b98be6",
-      "platform": "youtube",
-      "videoId": "LBiNcdGNgrg",
-      "title": "The Billion Dollar AI Gap Is Collapsing",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=LBiNcdGNgrg",
-      "thumb": "https://i1.ytimg.com/vi/LBiNcdGNgrg/hqdefault.jpg",
-      "published": "2026-08-28",
       "category": "图形学"
     },
     {
@@ -134,28 +134,6 @@
       "category": "CS"
     },
     {
-      "id": "9018e970ca98",
-      "platform": "bilibili",
-      "videoId": "BV1ScKR6QEQF",
-      "title": "古法做视频里加一点点科技",
-      "channel": "跟李沐学AI",
-      "url": "https://www.bilibili.com/video/BV1ScKR6QEQF",
-      "thumb": "https://i0.hdslb.com/bfs/archive/b9d2e88f8d41fe24cecddcf715756265ff68b9d2.jpg",
-      "published": "2026-06-29",
-      "category": "CS"
-    },
-    {
-      "id": "4001551d4ad2",
-      "platform": "bilibili",
-      "videoId": "BV1RfEw6LEfF",
-      "title": "能跟你对话的TTS【开源】",
-      "channel": "跟李沐学AI",
-      "url": "https://www.bilibili.com/video/BV1RfEw6LEfF",
-      "thumb": "https://i0.hdslb.com/bfs/archive/414b79823c78f30b3e60d27f14c0f44111f0234f.jpg",
-      "published": "2026-06-04",
-      "category": "CS"
-    },
-    {
       "id": "35bb44d2c5e5",
       "platform": "bilibili",
       "videoId": "BV1CQt365EzW",
@@ -200,6 +178,17 @@
       "category": "金融"
     },
     {
+      "id": "741358dc1249",
+      "platform": "youtube",
+      "videoId": "mIIJd66Ycr8",
+      "title": "How old is the Earth?: Crash Course Geology #17",
+      "channel": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=mIIJd66Ycr8",
+      "thumb": "https://i2.ytimg.com/vi/mIIJd66Ycr8/hqdefault.jpg",
+      "published": "2026-09-03",
+      "category": "历史"
+    },
+    {
       "id": "bd6e39803bb9",
       "platform": "youtube",
       "videoId": "RYGRmYs40PU",
@@ -208,17 +197,6 @@
       "url": "https://www.youtube.com/shorts/RYGRmYs40PU",
       "thumb": "https://i3.ytimg.com/vi/RYGRmYs40PU/hqdefault.jpg",
       "published": "2026-09-01",
-      "category": "历史"
-    },
-    {
-      "id": "81bafc478373",
-      "platform": "youtube",
-      "videoId": "uwCbFDsma7Q",
-      "title": "Earthquake Resistant Buildings",
-      "channel": "CrashCourse",
-      "url": "https://www.youtube.com/shorts/uwCbFDsma7Q",
-      "thumb": "https://i2.ytimg.com/vi/uwCbFDsma7Q/hqdefault.jpg",
-      "published": "2026-08-25",
       "category": "历史"
     },
     {
@@ -244,25 +222,25 @@
       "category": "历史"
     },
     {
-      "id": "3db0b6c3a8da",
+      "id": "ad62a1790b36",
       "platform": "bilibili",
-      "videoId": "BV1SUhw6KESQ",
-      "title": "绝望同盟  伊朗·1988",
-      "channel": "小约翰可汗",
-      "url": "https://www.bilibili.com/video/BV1SUhw6KESQ",
-      "thumb": "https://i0.hdslb.com/bfs/archive/4203cf06eb7e7ef4e6befa8861f127609b8349ce.jpg",
-      "published": "2026-08-28",
+      "videoId": "BV1zLta68EQq",
+      "title": "大学士·图海：配享太庙，到底有多难？【康熙王朝】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1zLta68EQq",
+      "thumb": "https://i1.hdslb.com/bfs/archive/0746add8e947478cac56dacb70505bf5f2c0ebe6.jpg",
+      "published": "2026-08-31",
       "category": "历史"
     },
     {
-      "id": "1a7bb98db39a",
+      "id": "ce18bb4af2c4",
       "platform": "bilibili",
-      "videoId": "BV1y5gP61E6m",
-      "title": "法国最有松弛感的劫案是哪起？【硬核狠人91】",
-      "channel": "小约翰可汗",
-      "url": "https://www.bilibili.com/video/BV1y5gP61E6m",
-      "thumb": "https://i0.hdslb.com/bfs/archive/095eece333695d1f3df7bb46c8a11d4828a9c4e0.jpg",
-      "published": "2026-08-15",
+      "videoId": "BV1mS8t6qEGw",
+      "title": "唐伯虎：老天爷的戏弄，是江南才子的一生。【大明风华】【视频播客】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1mS8t6qEGw",
+      "thumb": "https://i1.hdslb.com/bfs/archive/6a8dcf8bc7f072183cf11b2391622f143f0deca2.jpg",
+      "published": "2026-08-23",
       "category": "历史"
     },
     {
@@ -273,18 +251,18 @@
       "channel": "BBC Learning English",
       "url": "https://www.youtube.com/watch?v=Lxo-NLfeylg",
       "thumb": "https://i1.ytimg.com/vi/Lxo-NLfeylg/hqdefault.jpg",
-      "published": "2026-09-02",
+      "published": "2026-09-03",
       "category": "英语"
     },
     {
-      "id": "9cebc93ee1b4",
+      "id": "ce9e232286ef",
       "platform": "youtube",
-      "videoId": "FuExlxdoTcY",
-      "title": "Nepal recovering from impact of flash floods 💻: Learn about the news in English 🗞️",
+      "videoId": "pEO9-iPZQWA",
+      "title": "Climate and extreme weather ⏲️ 6 Minute English",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=FuExlxdoTcY",
-      "thumb": "https://i3.ytimg.com/vi/FuExlxdoTcY/hqdefault.jpg",
-      "published": "2026-09-02",
+      "url": "https://www.youtube.com/watch?v=pEO9-iPZQWA",
+      "thumb": "https://i1.ytimg.com/vi/pEO9-iPZQWA/hqdefault.jpg",
+      "published": "2026-09-03",
       "category": "英语"
     },
     {
@@ -313,20 +291,20 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "Bilibili 512313464: code=-352 风控校验失败",
     "图形学 · 512313464: 0 条",
     "引擎 · @TheCherno: 2 条",
     "引擎 · 437860379: 2 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
-    "CS · 1567748478: 2 条",
+    "Bilibili 1567748478: code=-352 风控校验失败",
+    "CS · 1567748478: 0 条",
     "CS · 202224425: 2 条",
     "金融 · @ThePlainBagel: 2 条",
     "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
-    "历史 · 11646119: 0 条",
-    "历史 · 23947287: 2 条",
+    "历史 · 11646119: 2 条",
+    "历史 · 23947287: 0 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
   ]
