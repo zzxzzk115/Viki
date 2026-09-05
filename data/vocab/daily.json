@@ -1,13 +1,13 @@
 {
-  "date": "2026-09-04",
-  "word": "denote",
-  "ipa": "dɪˈnəʊt",
-  "ipaUs": "dɪˈnoʊt",
+  "date": "2026-09-05",
+  "word": "depict",
+  "ipa": "dɪˈpɪkt",
+  "ipaUs": "dɪˈpɪkt",
   "pos": "verb",
-  "definition": "to represent something",
-  "definitionZh": "表示",
-  "example": "The colour red is used to denote passion or danger.",
-  "exampleZh": "红色用于表示激情或危险。",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/ukd/ukdem/ukdemot025.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/eus/eus75/eus75577.mp3"
+  "definition": "to represent or show something in a picture or story",
+  "definitionZh": "描绘",
+  "example": "Her paintings depict the lives of ordinary people in the last century.",
+  "exampleZh": "她的画反映了上个世纪普通人的生活。",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/ukd/ukden/ukdensi028.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/eus/eus75/eus75583.mp3"
 }

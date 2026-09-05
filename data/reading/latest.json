@@ -1,303 +1,303 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-05",
   "items": [
     {
-      "id": "390d3ed20e34",
+      "id": "36278d738b60",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Balcony",
-      "url": "https://simple.wikipedia.org/wiki/Balcony",
-      "summary": "A balcony is a kind of floor at a certain height, which stands out from the building. Usually, there is some kind of balustrade so people do not fall off.",
+      "title": "Vasco da Gama Pillar",
+      "url": "https://simple.wikipedia.org/wiki/Vasco_da_Gama_Pillar",
+      "summary": "The Vasco da Gama Pillar in Malindi, Kenya, was erected by the Portuguese explorer Vasco da Gama. It was constructed in 1498 or 1499 during his pioneering expedition from Lisbon to India via the Cape of Good Hope (1497–1499).",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "7a9644c09ff9",
+      "id": "8a7f2196dbc5",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Bricquebosq",
-      "url": "https://simple.wikipedia.org/wiki/Bricquebosq",
-      "summary": "Bricquebosq is a commune in the Manche department in Normandy in northwestern France.",
+      "title": "Antonis Samaras",
+      "url": "https://simple.wikipedia.org/wiki/Antonis_Samaras",
+      "summary": "Antonis Samaras is a Greek politician. He became Prime Minister of Greece and Leader of New Democracy. He last served as the Minister of Finance in 1989, then Minister of Foreign Affairs from 1989 to 1990, and again from 1990 to 1992. His term as prime minister ended on 26 Janua…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "c59c597501ce",
+      "id": "0bd764270a92",
       "category": "tech",
       "source": "Hacker News",
-      "title": "GPT-6 Astra",
-      "url": "https://openai.com/index/gpt-6-astra/",
-      "summary": "System Card: https://deploymentsafety.openai.com/gpt-6-astra Related ongoing threads: OpenAI's GPT-6 Astra on ARC-AGI-3 - https://news.ycombinator.com/item?id=49555691 GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index - https://news.ycombinator.com/item…",
-      "author": "kibae",
-      "published": "2026-09-03",
-      "tags": [
-        "▲ 1592"
-      ]
-    },
-    {
-      "id": "6429aeb0f4a1",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": ".name Termination",
-      "url": "https://neil.fraser.name/news/2026/09/03/",
+      "title": "Actively exploited sandbox RCE in all Chromium versions",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
       "summary": "",
-      "author": "pavel_lishin",
-      "published": "2026-09-03",
+      "author": "negura",
+      "published": "2026-09-04",
+      "tags": [
+        "▲ 390"
+      ]
+    },
+    {
+      "id": "41f6aa329ebf",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Discovery of a new OpenAI agent message board",
+      "url": "https://collusion.wiki/",
+      "summary": "https://www.reuters.com/world/europe/openai-agents-hijacked-...",
+      "author": "moultano",
+      "published": "2026-09-04",
       "tags": [
         "▲ 1597"
       ]
     },
     {
-      "id": "7e80672b84c6",
+      "id": "44c50944f9bd",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
-      "url": "https://inference-docs.cerebras.ai/models/overview",
-      "summary": "",
-      "author": "altertable",
-      "published": "2026-09-03",
-      "tags": [
-        "▲ 510"
-      ]
-    },
-    {
-      "id": "0552e0b9a0f8",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "A Mysterious Kidney Disease Has Arrived in Texas",
-      "url": "https://www.texasmonthly.com/news-politics/ckdu-kidney-disease-immigration/",
-      "summary": "",
-      "author": "johntfella",
+      "title": "Formalizing Fermat's Last Theorem",
+      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "summary": "https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-h...",
+      "author": "jlebar",
       "published": "2026-09-04",
       "tags": [
-        "▲ 57"
+        "▲ 565"
       ]
     },
     {
-      "id": "d71410b2ce99",
+      "id": "6dfe48a67a1b",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Project Xanadu: Even More Hindsight",
-      "url": "https://gwern.net/xanadu",
+      "title": "Statichost.eu – European static site hosting",
+      "url": "https://www.statichost.eu/",
       "summary": "",
-      "author": "andsoitis",
+      "author": "p4bl0",
       "published": "2026-09-04",
       "tags": [
-        "▲ 57"
+        "▲ 214"
       ]
     },
     {
-      "id": "de53b1caf532",
+      "id": "3a1a5311d298",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Grep beats LSP? Why coding agents ignore your fancier tools",
-      "url": "https://www.agentconnect.md/blog/grep-beat-lsp-harness/",
+      "title": "GPT-6 Astra on OpenRouter",
+      "url": "https://openrouter.ai/openai/gpt-6-astra",
       "summary": "",
-      "author": "kaonashi-tyc-01",
+      "author": "Topfi",
       "published": "2026-09-04",
       "tags": [
-        "▲ 51"
+        "▲ 174"
       ]
     },
     {
-      "id": "3e483c0deca1",
+      "id": "2079f49c8f8d",
       "category": "tech",
-      "source": "DEV Community",
-      "title": "How to Deploy Llama 3.3 70B with Ollama + Docker on a $5/Month DigitalOcean Droplet: CPU-Only Inference at 1/200th Claude Opus Cost",
-      "url": "https://dev.to/ramosai/how-to-deploy-llama-33-70b-with-ollama-docker-on-a-5month-digitalocean-droplet-cpu-only-5fhn",
-      "summary": "⚡ Deploy this in under 10 minutes Get $200 free: https://m.do.co/c/9fa609b86a0e ($5/month server — this is what I used) How to Deploy Llama 3.3 70B with Ollama + Docker on a $5/Month DigitalOcean Droplet: CPU-Only Inference at 1/200th Claude Opus Cost Stop overpaying $20 per mil…",
-      "author": "RamosAI",
-      "published": "Fri, 04 Sep 2026 06:07:15 +0000",
+      "source": "Hacker News",
+      "title": "Can AI design circuit boards yet?",
+      "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+      "summary": "",
+      "author": "iopapa",
+      "published": "2026-09-04",
       "tags": [
-        "programming",
-        "tutorial",
-        "ai",
-        "webdev"
+        "▲ 218"
       ]
     },
     {
-      "id": "d46adf16ce3e",
+      "id": "f655f6c91589",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Top 10 Best CS Cart to WooCommerce Migration Companies",
-      "url": "https://dev.to/oliverpitts/top-10-best-cs-cart-to-woocommerce-migration-companies-nk",
-      "summary": "You've got a CS Cart store but you're stuck with limited options and vendor constraints. Time to migrate to WooCommerce. Let's talk about which companies actually understand the technical side and won't corrupt your data, break your architecture, or lose your revenue. What Actua…",
-      "author": "Oliver Pitts",
-      "published": "Fri, 04 Sep 2026 06:06:20 +0000",
+      "title": "Browser Bookmarks vs a Local Snippet DB: A 6-Month Migration Experiment",
+      "url": "https://dev.to/ke_jia_24bb2f9f84f14f728a/browser-bookmarks-vs-a-local-snippet-db-a-6-month-migration-experiment-51n5",
+      "summary": "For six months I ran the experiment: all code snippets captured in snippetx, none in browser bookmarks, and a weekly log of how many times I retrieved a snippet versus rewrote the code. The setup: a migration afternoon that moved the existing bookmarks over — the code became sni…",
+      "author": "ke jia",
+      "published": "Sat, 05 Sep 2026 05:48:39 +0000",
       "tags": [
-        "ai",
-        "webdev",
-        "programming",
-        "devops"
-      ]
-    },
-    {
-      "id": "a184244450b0",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Meta Muse Voice Transcribe's I…",
-      "url": "https://dev.to/norviktech/meta-muse-voice-transcribes-i-43ak",
-      "summary": "Originally published at norvik.tech Introduction Explore the technical details and implications of Meta's Muse Voice Transcribe, priced at $0.18/hour. A deep dive into its performance and business use ca… What is Muse Voice Transcribe? Meta's Muse Voice Transcribe is a cutting-e…",
-      "author": "Norvik Tech",
-      "published": "Fri, 04 Sep 2026 06:05:55 +0000",
-      "tags": [
-        "webdev",
-        "metamuse",
-        "voicetranscribe",
-        "transcriptiontechnol"
-      ]
-    },
-    {
-      "id": "e5e675c7c3d0",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "400 Twitter and LinkedIn Profiles Run Through Enrichment APIs: Coverage Numbers Nobody Publishes",
-      "url": "https://dev.to/zackrag/400-twitter-and-linkedin-profiles-run-through-enrichment-apis-coverage-numbers-nobody-publishes-555c",
-      "summary": "400 Twitter and LinkedIn Profiles Run Through Enrichment APIs: Coverage Numbers Nobody Publishes Last quarter I ran a test I couldn't find real data on anywhere: take B2B contacts whose social handles I already know — specifically their Twitter/X handle and LinkedIn URL — and se…",
-      "author": "Zackrag",
-      "published": "Fri, 04 Sep 2026 06:03:56 +0000",
-      "tags": [
-        "osint",
-        "sales",
+        "javascript",
+        "cli",
         "productivity",
         "webdev"
       ]
     },
     {
-      "id": "cee099db0bea",
+      "id": "90da65f233fe",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "SnippetX vs Raycast vs Notion: Where Should Code Snippets Actually Live?",
+      "url": "https://dev.to/ke_jia_24bb2f9f84f14f728a/snippetx-vs-raycast-vs-notion-where-should-code-snippets-actually-live-3d54",
+      "summary": "Raycast is a launcher, Notion is a workspace, and snippetx is a terminal tool — the comparison is not which is better, it is which layer of your day does the snippet live in. The honest analysis: Raycast wins the retrieval moment if you are already living in it, because the snip…",
+      "author": "ke jia",
+      "published": "Sat, 05 Sep 2026 05:47:48 +0000",
+      "tags": [
+        "javascript",
+        "cli",
+        "productivity",
+        "webdev"
+      ]
+    },
+    {
+      "id": "a47dd2f0fe0a",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "The Evolution of Database Tools: From SQL Editors to AI Assistants",
+      "url": "https://dev.to/giaa_a5d787a32b92a/the-evolution-of-database-tools-from-sql-editors-to-ai-assistants-gmg",
+      "summary": "The Evolution of Database Tools: From SQL Editors to AI Assistants Data is the backbone of modern business — every transaction, signup, and click generates information worth acting on. But while the volume of data has exploded, the way people interact with it has changed just as…",
+      "author": "Gia",
+      "published": "Sat, 05 Sep 2026 05:37:37 +0000",
+      "tags": [
+        "ai",
+        "webdev",
+        "productivity",
+        "beginners"
+      ]
+    },
+    {
+      "id": "7fb7d541af90",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "How I Built a Zero-Latency Open Graph & SERP Previewer with Next.js",
+      "url": "https://dev.to/amrgharzuae/how-i-built-a-zero-latency-open-graph-serp-previewer-with-nextjs-4b9m",
+      "summary": "Most social preview debuggers and meta tag testers today are bloated, slow, or locked behind ad walls and paywalls. I wanted a clean, browser-native suite of tools that runs 100% client-side with 0ms server latency, so I built OmniSEOtools . Why Client-Side Matters Instead of sc…",
+      "author": "amrgharz",
+      "published": "Sat, 05 Sep 2026 05:35:39 +0000",
+      "tags": [
+        "webdev",
+        "ai",
+        "nextjs",
+        "seo"
+      ]
+    },
+    {
+      "id": "d1c03b007d6e",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Heard Island and McDonald Islands",
-      "url": "https://en.wikipedia.org/wiki/Heard_Island_and_McDonald_Islands",
-      "summary": "The Territory of Heard Island and McDonald Islands is an Australian external territory in the southern Indian Ocean. Discovered in the mid-19th century, the territory is a group of sub-Antarctic volcanic islands that lie on the Kerguelen Plateau. It is about 4000 kilometres (250…",
+      "title": "1923 season 2",
+      "url": "https://en.wikipedia.org/wiki/1923_season_2",
+      "summary": "The second and final season of the American neo-Western and period drama television series 1923 was announced in February 2023. As a limited-run series, the program was not originally intended to extend beyond its initial eight-episode order. Season two was developed after its c…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "5921185e3481",
+      "id": "ab7c59624980",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Nepal says it will need billions in funding to rebuild after flash floods",
-      "url": "https://www.bbc.co.uk/news/videos/ce8x2401zdeo?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC South Asia correspondent Azadeh Moshiri is in Nepal where authorities are trying to begin rebuilding amid the debris.",
-      "published": "Fri, 04 Sep 2026 02:20:37 GMT",
+      "title": "Mistrial declared in Lindsay Clancy murder case, after jury deadlocks",
+      "url": "https://www.bbc.co.uk/news/articles/cpwlrj2je1po?at_medium=RSS&at_campaign=rss",
+      "summary": "The mistrial now puts the murder case - and Clancy's future - in limbo as to whether she will be held criminally liable in the deaths of her three kids.",
+      "published": "Fri, 04 Sep 2026 22:48:38 GMT",
       "tags": []
     },
     {
-      "id": "2aceafb83740",
+      "id": "af2f5b8966b4",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Tensions flare as judge declines to remove juror in Lindsay Clancy trial",
-      "url": "https://www.bbc.co.uk/news/articles/c7v4n7pv5epo?at_medium=RSS&at_campaign=rss",
-      "summary": "The defence lawyer is upset after the judge decides not to remove a holdout in the triple murder case.",
-      "published": "Fri, 04 Sep 2026 00:54:46 GMT",
+      "title": "Trump's peace envoys to visit Moscow and Kyiv over weekend",
+      "url": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&at_campaign=rss",
+      "summary": "Steve Witkoff and Jared Kushner have led President Donald Trump's efforts to end the Russia-Ukraine war - but talks have stalled.",
+      "published": "Sat, 05 Sep 2026 04:28:21 GMT",
       "tags": []
     },
     {
-      "id": "f84bbd8c79cb",
+      "id": "4217cb2605bd",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Argentine leader threatens to sanction oil firms and reiterates Falklands claim",
-      "url": "https://www.bbc.co.uk/news/articles/clyk18g1l8ko?at_medium=RSS&at_campaign=rss",
-      "summary": "Javier Milei reiterates his country's claim on the British overseas territory, saying the \"winds of change\" favour it.",
-      "published": "Fri, 04 Sep 2026 05:01:33 GMT",
+      "title": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect",
+      "url": "https://www.bbc.co.uk/news/articles/c5y4g6meekro?at_medium=RSS&at_campaign=rss",
+      "summary": "Germany has blamed Russia for an attack on Leipzig airport but there has been a series of suspicious incidents elsewhere.",
+      "published": "Fri, 04 Sep 2026 16:49:15 GMT",
       "tags": []
     },
     {
-      "id": "2f45761c5c5c",
+      "id": "019b2f5a178c",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US investigating if missile hit Iran wedding, Vance says",
-      "url": "https://www.bbc.co.uk/news/articles/cy4zvk3z2k1o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Iranian Red Crescent Society (IRCS) said shrapnel from a missile hit the ceremony and killed four people on Tuesday.",
-      "published": "Thu, 03 Sep 2026 22:19:59 GMT",
+      "title": "UN votes to adopt new world map to reflect Africa's true size",
+      "url": "https://www.bbc.co.uk/news/articles/ce30vp55dnlo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Togo-sponsored resolution was backed by 164 nations - with the US as the only nation to vote against it.",
+      "published": "Sat, 05 Sep 2026 00:53:11 GMT",
       "tags": []
     },
     {
-      "id": "9cd9b698f712",
+      "id": "3ee62c9aa743",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Reports: RFK Jr. ordered measles deaths deletion; CDC still secretly counts them",
-      "url": "https://arstechnica.com/health/2026/09/reports-rfk-jr-ordered-measles-deaths-deletion-cdc-still-secretly-counts-them/",
-      "summary": "CDC staff had already accepted the measles death reports when RFK Jr. meddled.",
+      "title": "After 8 years, Europe's BepiColombo mission is on final approach to Mercury",
+      "url": "https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/",
+      "summary": "\"Fundamentally, we want to learn about the origins of this planet and how it came to be like it is.\"",
+      "author": "Stephen Clark",
+      "published": "Fri, 04 Sep 2026 22:49:17 +0000",
+      "tags": [
+        "Space",
+        "bepicolombo",
+        "european space agency",
+        "Japan"
+      ]
+    },
+    {
+      "id": "680bad5aa943",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+      "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+      "summary": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
+      "author": "Dan Goodin",
+      "published": "Fri, 04 Sep 2026 22:17:36 +0000",
+      "tags": [
+        "AI",
+        "Biz & IT",
+        "Security",
+        "AI agents"
+      ]
+    },
+    {
+      "id": "6756f32e5a86",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Measles killed 6-week-old baby, coroner confirms after RFK Jr. disputed deaths",
+      "url": "https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/",
+      "summary": "\"It’s long past time for RFK to stop playing games with people’s lives.\"",
       "author": "Beth Mole",
-      "published": "Thu, 03 Sep 2026 22:13:50 +0000",
+      "published": "Fri, 04 Sep 2026 20:22:41 +0000",
       "tags": [
         "Health",
-        "anti-vaccine",
-        "CDC",
-        "deaths"
+        "baby",
+        "death",
+        "infant"
       ]
     },
     {
-      "id": "898c0fc1cfd9",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Xbox imposes harsh new time limits for Game Pass game streaming",
-      "url": "https://arstechnica.com/gaming/2026/09/xbox-imposes-harsh-new-time-limits-for-game-pass-game-streaming/",
-      "summary": "Over 1 million Game Pass subscribers will have to pay more for their heavy streaming use.",
-      "author": "Kyle Orland",
-      "published": "Thu, 03 Sep 2026 21:10:59 +0000",
-      "tags": [
-        "Gaming",
-        "cloud gaming",
-        "Game Pass",
-        "microsoft"
-      ]
-    },
-    {
-      "id": "d07319f18272",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "150 research primates got diarrhea, flooding lab with priceless vaccine data",
-      "url": "https://arstechnica.com/health/2026/09/150-research-primates-got-diarrhea-flooding-lab-with-priceless-vaccine-data/",
-      "summary": "Researchers now have clear new targets and insights for developing a Shigella vaccine.",
-      "author": "Beth Mole",
-      "published": "Thu, 03 Sep 2026 20:14:48 +0000",
-      "tags": [
-        "Health",
-        "bacteria",
-        "LPS",
-        "outbreak"
-      ]
-    },
-    {
-      "id": "e11e80a0050b",
+      "id": "411b612e84ce",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Snowflake has a secret weapon that’s powering its stock toward a huge gain",
-      "url": "https://www.marketwatch.com/story/shares-in-snowflake-are-surging-heres-what-wall-street-analysts-are-saying-0b6343c0?mod=mw_rss_topstories",
-      "summary": "The company’s AI-powered coding assistant is driving major sales momentum.",
-      "author": "Nora Redmond,Hannah Pedone",
-      "published": "Fri, 04 Sep 2026 00:35:00 GMT",
-      "tags": []
-    },
-    {
-      "id": "e80eb04c9840",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "‘I currently give him $1,000 a month’: My grandson has severe mental illness. How do I protect him after I’m gone?",
-      "url": "https://www.marketwatch.com/story/im-desperately-trying-to-plan-ahead-im-leaving-everything-to-my-grandson-who-has-severe-mental-illness-how-can-i-protect-him-d8df2646?mod=mw_rss_topstories",
-      "summary": "“I’m desperately trying to plan ahead while I’m still able.”",
-      "author": "Quentin Fottrell",
-      "published": "Fri, 04 Sep 2026 00:31:00 GMT",
-      "tags": []
-    },
-    {
-      "id": "b2944cf2beb1",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "Adobe just announced its next CEO. Here’s why its stock is dropping.",
-      "url": "https://www.marketwatch.com/story/adobe-just-announced-its-next-ceo-heres-why-its-stock-is-dropping-bad9ed8a?mod=mw_rss_topstories",
-      "summary": "Incoming CEO Anil Chakravarthy is a company veteran. But another longtime business head will be departing Adobe, potentially foreshadowing further turnover in leadership.",
+      "title": "Bloom Energy was just named to the S&P 500. These other stocks are joining the index as well.",
+      "url": "https://www.marketwatch.com/story/s-p-500-changes-are-coming-soon-these-stocks-could-be-named-to-the-index-today-2d0d7c14?mod=mw_rss_topstories",
+      "summary": "Molson Coors Beverage, Builders FirstSource and Trade Desk will be getting the boot from the benchmark index.",
       "author": "Emily Bary",
-      "published": "Fri, 04 Sep 2026 00:25:00 GMT",
+      "published": "Fri, 04 Sep 2026 21:46:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "eb1eedaaa1b3",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "Tesla’s stock falls as Cybercab launch lands with a thud",
+      "url": "https://www.marketwatch.com/story/teslas-stock-falls-as-cybercab-launch-lands-with-a-thud-1108376b?mod=mw_rss_topstories",
+      "summary": "The company’s Cybercab rollout won’t be as broad as some investors had hoped.",
+      "author": "William Gavin",
+      "published": "Fri, 04 Sep 2026 20:18:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "17d8f5ca8780",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "Micron is doubling down on AI memory chips. That could pay off big time for investors.",
+      "url": "https://www.marketwatch.com/story/micron-is-doubling-down-on-ai-memory-chips-that-could-pay-off-big-time-for-investors-da9e7f5e?mod=mw_rss_topstories",
+      "summary": "Micron is reportedly increasing production capacity of a more profitable memory offering that’s in high demand due to AI.",
+      "author": "Britney Nguyen",
+      "published": "Fri, 04 Sep 2026 20:12:00 GMT",
       "tags": []
     }
   ],
