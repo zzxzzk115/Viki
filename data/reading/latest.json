@@ -1,223 +1,239 @@
 {
-  "date": "2026-09-05",
+  "date": "2026-09-06",
   "items": [
     {
-      "id": "36278d738b60",
+      "id": "9080c1fea33d",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Vasco da Gama Pillar",
-      "url": "https://simple.wikipedia.org/wiki/Vasco_da_Gama_Pillar",
-      "summary": "The Vasco da Gama Pillar in Malindi, Kenya, was erected by the Portuguese explorer Vasco da Gama. It was constructed in 1498 or 1499 during his pioneering expedition from Lisbon to India via the Cape of Good Hope (1497–1499).",
+      "title": "Pioneer, Louisiana",
+      "url": "https://simple.wikipedia.org/wiki/Pioneer%2C_Louisiana",
+      "summary": "Pioneer is a village in West Carroll Parish, Louisiana, United States.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "8a7f2196dbc5",
+      "id": "5b970bb2f6e0",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Antonis Samaras",
-      "url": "https://simple.wikipedia.org/wiki/Antonis_Samaras",
-      "summary": "Antonis Samaras is a Greek politician. He became Prime Minister of Greece and Leader of New Democracy. He last served as the Minister of Finance in 1989, then Minister of Foreign Affairs from 1989 to 1990, and again from 1990 to 1992. His term as prime minister ended on 26 Janua…",
+      "title": "Danny Trejo",
+      "url": "https://simple.wikipedia.org/wiki/Danny_Trejo",
+      "summary": "Danny Trejo is a Mexican-American actor. He often plays villains or anti-heroes. He was born in Los Angeles, California to Mexican-American parents. He is a second cousin of writer-director Robert Rodriguez. He has worked with Rodriguez in several of his movies. These include th…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "0bd764270a92",
+      "id": "fbaa403a36b2",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Actively exploited sandbox RCE in all Chromium versions",
-      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
+      "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
+      "url": "https://cloudinabottle.org/blog/launch-post",
       "summary": "",
-      "author": "negura",
-      "published": "2026-09-04",
+      "author": "zplizzi",
+      "published": "2026-09-06",
       "tags": [
-        "▲ 390"
+        "▲ 282"
       ]
     },
     {
-      "id": "41f6aa329ebf",
+      "id": "b529fde1aac2",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Discovery of a new OpenAI agent message board",
-      "url": "https://collusion.wiki/",
-      "summary": "https://www.reuters.com/world/europe/openai-agents-hijacked-...",
-      "author": "moultano",
-      "published": "2026-09-04",
-      "tags": [
-        "▲ 1597"
-      ]
-    },
-    {
-      "id": "44c50944f9bd",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Formalizing Fermat's Last Theorem",
-      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-      "summary": "https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-h...",
-      "author": "jlebar",
-      "published": "2026-09-04",
-      "tags": [
-        "▲ 565"
-      ]
-    },
-    {
-      "id": "6dfe48a67a1b",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Statichost.eu – European static site hosting",
-      "url": "https://www.statichost.eu/",
+      "title": "The revolt of the reader",
+      "url": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/",
       "summary": "",
-      "author": "p4bl0",
-      "published": "2026-09-04",
+      "author": "chmaynard",
+      "published": "2026-09-05",
       "tags": [
-        "▲ 214"
+        "▲ 250"
       ]
     },
     {
-      "id": "3a1a5311d298",
+      "id": "9f0b5f45e857",
       "category": "tech",
       "source": "Hacker News",
-      "title": "GPT-6 Astra on OpenRouter",
-      "url": "https://openrouter.ai/openai/gpt-6-astra",
+      "title": "The ColorChecker, photography's most important 24 squares, turns 50",
+      "url": "https://www.dpreview.com/news/the-colorchecker-photographys-most-important-24-squares-turns-50/",
       "summary": "",
-      "author": "Topfi",
-      "published": "2026-09-04",
+      "author": "sohkamyung",
+      "published": "2026-09-01",
       "tags": [
-        "▲ 174"
+        "▲ 28"
       ]
     },
     {
-      "id": "2079f49c8f8d",
+      "id": "ce653837c7da",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Can AI design circuit boards yet?",
-      "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+      "title": "OpenBSD Stories: Strange Medieval Devices",
+      "url": "http://miod.online.fr/software/openbsd/stories/smd.html",
       "summary": "",
-      "author": "iopapa",
-      "published": "2026-09-04",
+      "author": "zdw",
+      "published": "2026-09-02",
       "tags": [
-        "▲ 218"
+        "▲ 33"
       ]
     },
     {
-      "id": "f655f6c91589",
+      "id": "7d478de9ce8a",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "GPT-6 Astra on robot arms",
+      "url": "https://openai.robocurve.org/gpt-6-astra/",
+      "summary": "",
+      "author": "Anon84",
+      "published": "2026-09-06",
+      "tags": [
+        "▲ 132"
+      ]
+    },
+    {
+      "id": "5a28257a7646",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Chrome again exempts Google from user site data settings",
+      "url": "https://lapcatsoftware.com/articles/2026/9/1.html",
+      "summary": "",
+      "author": "ExMachina73",
+      "published": "2026-09-05",
+      "tags": [
+        "▲ 250"
+      ]
+    },
+    {
+      "id": "9cc08e70e365",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Browser Bookmarks vs a Local Snippet DB: A 6-Month Migration Experiment",
-      "url": "https://dev.to/ke_jia_24bb2f9f84f14f728a/browser-bookmarks-vs-a-local-snippet-db-a-6-month-migration-experiment-51n5",
-      "summary": "For six months I ran the experiment: all code snippets captured in snippetx, none in browser bookmarks, and a weekly log of how many times I retrieved a snippet versus rewrote the code. The setup: a migration afternoon that moved the existing bookmarks over — the code became sni…",
-      "author": "ke jia",
-      "published": "Sat, 05 Sep 2026 05:48:39 +0000",
+      "title": "Generative Engine Optimization: Future of SEO in 2026",
+      "url": "https://dev.to/mecanik-dev/generative-engine-optimization-future-of-seo-in-2026-297b",
+      "summary": "Generative Engine Optimization is the next evolution of digital search strategy. As users migrate from keyword-based search queries to conversational AI interfaces, business owners must adapt how their platforms present information. AI search engines—such as Perplexity, ChatGPT …",
+      "author": "Mecanik1337",
+      "published": "Sun, 06 Sep 2026 06:00:00 +0000",
       "tags": [
-        "javascript",
-        "cli",
+        "webdev",
+        "seo",
+        "ai",
+        "geo"
+      ]
+    },
+    {
+      "id": "2c1278e9a319",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "How to Set Up VS Code & AI Copilot for Fast Student Projects",
+      "url": "https://dev.to/anagha_shetty_23/how-to-set-up-vs-code-ai-copilot-for-fast-student-projects-4eef",
+      "summary": "If you are balancing multiple college coding assignments, hackathons, or personal projects, your code editor setup can make or break your productivity. Instead of searching Stack Overflow for every syntax error, you can supercharge your development workflow using VS Code paired …",
+      "author": "Anagha Shetty",
+      "published": "Sun, 06 Sep 2026 05:54:10 +0000",
+      "tags": [
+        "webdev",
+        "programming",
+        "githubcopilot",
+        "vscode"
+      ]
+    },
+    {
+      "id": "0604c492210d",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "We Ran Our Own Blog Through Our Word Counter: 22.1 Words a Sentence",
+      "url": "https://dev.to/lucian_lkb_1f009d/we-ran-our-own-blog-through-our-word-counter-221-words-a-sentence-4ehh",
+      "summary": "A word counter's least useful output is the word count. The number that shows up biggest is the one that matters least — the value is in the analysis underneath it: how long your sentences run, which words you lean on, how readable the whole thing actually is. So instead of desc…",
+      "author": "Lucian (LKB)",
+      "published": "Sun, 06 Sep 2026 05:52:18 +0000",
+      "tags": [
+        "writing",
         "productivity",
+        "webdev",
+        "career"
+      ]
+    },
+    {
+      "id": "698f42e4da1b",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "How Model Context Protocol (MCP) changes SaaS feature rollouts forever",
+      "url": "https://dev.to/pavan_s_poojary/how-model-context-protocol-mcp-changes-saas-feature-rollouts-forever-g67",
+      "summary": "Model Context Protocol (MCP) is usually framed as a way for LLMs to read local files or query SQL databases. But the highest-leverage application of MCP isn't reading data—it's runtime app orchestration . What if your AI coding agent could ship in-app announcements, contextual o…",
+      "author": "Pavan S Poojary",
+      "published": "Sun, 06 Sep 2026 05:45:00 +0000",
+      "tags": [
+        "ai",
+        "mcp",
+        "programming",
         "webdev"
       ]
     },
     {
-      "id": "90da65f233fe",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "SnippetX vs Raycast vs Notion: Where Should Code Snippets Actually Live?",
-      "url": "https://dev.to/ke_jia_24bb2f9f84f14f728a/snippetx-vs-raycast-vs-notion-where-should-code-snippets-actually-live-3d54",
-      "summary": "Raycast is a launcher, Notion is a workspace, and snippetx is a terminal tool — the comparison is not which is better, it is which layer of your day does the snippet live in. The honest analysis: Raycast wins the retrieval moment if you are already living in it, because the snip…",
-      "author": "ke jia",
-      "published": "Sat, 05 Sep 2026 05:47:48 +0000",
-      "tags": [
-        "javascript",
-        "cli",
-        "productivity",
-        "webdev"
-      ]
-    },
-    {
-      "id": "a47dd2f0fe0a",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "The Evolution of Database Tools: From SQL Editors to AI Assistants",
-      "url": "https://dev.to/giaa_a5d787a32b92a/the-evolution-of-database-tools-from-sql-editors-to-ai-assistants-gmg",
-      "summary": "The Evolution of Database Tools: From SQL Editors to AI Assistants Data is the backbone of modern business — every transaction, signup, and click generates information worth acting on. But while the volume of data has exploded, the way people interact with it has changed just as…",
-      "author": "Gia",
-      "published": "Sat, 05 Sep 2026 05:37:37 +0000",
-      "tags": [
-        "ai",
-        "webdev",
-        "productivity",
-        "beginners"
-      ]
-    },
-    {
-      "id": "7fb7d541af90",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "How I Built a Zero-Latency Open Graph & SERP Previewer with Next.js",
-      "url": "https://dev.to/amrgharzuae/how-i-built-a-zero-latency-open-graph-serp-previewer-with-nextjs-4b9m",
-      "summary": "Most social preview debuggers and meta tag testers today are bloated, slow, or locked behind ad walls and paywalls. I wanted a clean, browser-native suite of tools that runs 100% client-side with 0ms server latency, so I built OmniSEOtools . Why Client-Side Matters Instead of sc…",
-      "author": "amrgharz",
-      "published": "Sat, 05 Sep 2026 05:35:39 +0000",
-      "tags": [
-        "webdev",
-        "ai",
-        "nextjs",
-        "seo"
-      ]
-    },
-    {
-      "id": "d1c03b007d6e",
+      "id": "f59ef5a7a38f",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "1923 season 2",
-      "url": "https://en.wikipedia.org/wiki/1923_season_2",
-      "summary": "The second and final season of the American neo-Western and period drama television series 1923 was announced in February 2023. As a limited-run series, the program was not originally intended to extend beyond its initial eight-episode order. Season two was developed after its c…",
+      "title": "Assassination of William McKinley",
+      "url": "https://en.wikipedia.org/wiki/Assassination_of_William_McKinley",
+      "summary": "William McKinley, the 25th president of the United States, was shot on the grounds of the Pan-American Exposition in the Temple of Music in Buffalo, New York, on September 6, 1901, six months into his second term. He was shaking hands with the public when an anarchist, Leon Czol…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "ab7c59624980",
+      "id": "5ea7c78ca31e",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Mistrial declared in Lindsay Clancy murder case, after jury deadlocks",
-      "url": "https://www.bbc.co.uk/news/articles/cpwlrj2je1po?at_medium=RSS&at_campaign=rss",
-      "summary": "The mistrial now puts the murder case - and Clancy's future - in limbo as to whether she will be held criminally liable in the deaths of her three kids.",
-      "published": "Fri, 04 Sep 2026 22:48:38 GMT",
+      "title": "US envoys set for Ukraine talks after meeting Putin in Russia",
+      "url": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss",
+      "summary": "It will be the first trip by Steve Witkoff and Jared Kushner, Trump's top negotiators, to Kyiv.",
+      "published": "Sun, 06 Sep 2026 02:24:16 GMT",
       "tags": []
     },
     {
-      "id": "af2f5b8966b4",
+      "id": "84a48662e571",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump's peace envoys to visit Moscow and Kyiv over weekend",
-      "url": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&at_campaign=rss",
-      "summary": "Steve Witkoff and Jared Kushner have led President Donald Trump's efforts to end the Russia-Ukraine war - but talks have stalled.",
-      "published": "Sat, 05 Sep 2026 04:28:21 GMT",
+      "title": "US and Iran trade retaliatory attacks on ships as conflict flares",
+      "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
+      "summary": "The US says it hit three Iranian oil tankers, while Iran says it targeted three US-linked ships.",
+      "published": "Sat, 05 Sep 2026 22:44:07 GMT",
       "tags": []
     },
     {
-      "id": "4217cb2605bd",
+      "id": "d31b4f8c9165",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect",
-      "url": "https://www.bbc.co.uk/news/articles/c5y4g6meekro?at_medium=RSS&at_campaign=rss",
-      "summary": "Germany has blamed Russia for an attack on Leipzig airport but there has been a series of suspicious incidents elsewhere.",
-      "published": "Fri, 04 Sep 2026 16:49:15 GMT",
+      "title": "TV presenter among 11 sentenced to death in Egypt drugs case",
+      "url": "https://www.bbc.co.uk/news/articles/c5y7gk9knnlo?at_medium=RSS&at_campaign=rss",
+      "summary": "Sarah Khalifa is best known for her TV programme Mission Impossible which dealt with crime issues.",
+      "published": "Sun, 06 Sep 2026 05:04:04 GMT",
       "tags": []
     },
     {
-      "id": "019b2f5a178c",
+      "id": "de3874786362",
       "category": "news",
       "source": "BBC 世界",
-      "title": "UN votes to adopt new world map to reflect Africa's true size",
-      "url": "https://www.bbc.co.uk/news/articles/ce30vp55dnlo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Togo-sponsored resolution was backed by 164 nations - with the US as the only nation to vote against it.",
-      "published": "Sat, 05 Sep 2026 00:53:11 GMT",
+      "title": "Volcano eruption triggers flight suspensions at Indonesia's main airport",
+      "url": "https://www.bbc.co.uk/news/articles/cvgy5k4n07ko?at_medium=RSS&at_campaign=rss",
+      "summary": "More than 20,000 passengers are stranded after ash was detected in airspace near Jakarta following volcanic eruptions.",
+      "published": "Sun, 06 Sep 2026 05:12:44 GMT",
       "tags": []
+    },
+    {
+      "id": "5ab91582f423",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Tesla’s Cybercab has been deployed, and it’s already under investigation",
+      "url": "https://arstechnica.com/cars/2026/09/teslas-cybercab-has-been-deployed-and-its-already-under-investigation/",
+      "summary": "The US government is investigating whether the Cybercab meets vehicle safety standards.",
+      "author": "Aarian Marshall, WIRED.COM",
+      "published": "Sat, 05 Sep 2026 15:17:36 +0000",
+      "tags": [
+        "Cars",
+        "cybercab",
+        "nhtsa",
+        "syndication"
+      ]
     },
     {
       "id": "3ee62c9aa743",
@@ -252,52 +268,36 @@
       ]
     },
     {
-      "id": "6756f32e5a86",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Measles killed 6-week-old baby, coroner confirms after RFK Jr. disputed deaths",
-      "url": "https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/",
-      "summary": "\"It’s long past time for RFK to stop playing games with people’s lives.\"",
-      "author": "Beth Mole",
-      "published": "Fri, 04 Sep 2026 20:22:41 +0000",
-      "tags": [
-        "Health",
-        "baby",
-        "death",
-        "infant"
-      ]
-    },
-    {
-      "id": "411b612e84ce",
+      "id": "9ba9e6460cb7",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Bloom Energy was just named to the S&P 500. These other stocks are joining the index as well.",
-      "url": "https://www.marketwatch.com/story/s-p-500-changes-are-coming-soon-these-stocks-could-be-named-to-the-index-today-2d0d7c14?mod=mw_rss_topstories",
-      "summary": "Molson Coors Beverage, Builders FirstSource and Trade Desk will be getting the boot from the benchmark index.",
-      "author": "Emily Bary",
-      "published": "Fri, 04 Sep 2026 21:46:00 GMT",
+      "title": "‘Poverty doesn’t have to be my reality’: I thought I’d have to rely on Social Security. Then I taught myself how to invest.",
+      "url": "https://www.marketwatch.com/story/i-didnt-know-what-i-didnt-know-i-thought-id-have-to-depend-on-social-security-then-i-taught-myself-how-to-invest-0129870b?mod=mw_rss_topstories",
+      "summary": "“It always baffled me how some people managed to retire with significant wealth.”",
+      "author": "Quentin Fottrell",
+      "published": "Sat, 05 Sep 2026 23:45:00 GMT",
       "tags": []
     },
     {
-      "id": "eb1eedaaa1b3",
+      "id": "03ef0af24265",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Tesla’s stock falls as Cybercab launch lands with a thud",
-      "url": "https://www.marketwatch.com/story/teslas-stock-falls-as-cybercab-launch-lands-with-a-thud-1108376b?mod=mw_rss_topstories",
-      "summary": "The company’s Cybercab rollout won’t be as broad as some investors had hoped.",
-      "author": "William Gavin",
-      "published": "Fri, 04 Sep 2026 20:18:00 GMT",
+      "title": "Why does almost nobody want to befriend older people like me — except scammers?",
+      "url": "https://www.marketwatch.com/story/why-does-almost-nobody-want-to-befriend-older-people-like-me-except-scammers-fda849d1?mod=mw_rss_topstories",
+      "summary": "“I’d rather leave my estate to people who spent time with me because they genuinely valued my company.”",
+      "author": "Quentin Fottrell",
+      "published": "Sat, 05 Sep 2026 23:07:00 GMT",
       "tags": []
     },
     {
-      "id": "17d8f5ca8780",
+      "id": "d75de1c5b0e5",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Micron is doubling down on AI memory chips. That could pay off big time for investors.",
-      "url": "https://www.marketwatch.com/story/micron-is-doubling-down-on-ai-memory-chips-that-could-pay-off-big-time-for-investors-da9e7f5e?mod=mw_rss_topstories",
-      "summary": "Micron is reportedly increasing production capacity of a more profitable memory offering that’s in high demand due to AI.",
-      "author": "Britney Nguyen",
-      "published": "Fri, 04 Sep 2026 20:12:00 GMT",
+      "title": "Think you maxed out your 401(k)? The real limit is actually almost $50,000 higher.",
+      "url": "https://www.marketwatch.com/story/think-you-maxed-out-your-401-k-the-real-limit-is-actually-almost-50-000-higher-217a89ee?mod=mw_rss_topstories",
+      "summary": "You can unlock greater retirement wealth by reading this document that nearly everyone ignores.",
+      "author": "Kurt Supe",
+      "published": "Sat, 05 Sep 2026 18:59:00 GMT",
       "tags": []
     }
   ],

@@ -1,13 +1,13 @@
 {
-  "date": "2026-09-05",
-  "word": "depict",
-  "ipa": "dɪˈpɪkt",
-  "ipaUs": "dɪˈpɪkt",
+  "date": "2026-09-06",
+  "word": "deviate",
+  "ipa": "ˈdiː.vi.eɪt",
+  "ipaUs": "ˈdiː.vi.eɪt",
   "pos": "verb",
-  "definition": "to represent or show something in a picture or story",
-  "definitionZh": "描绘",
-  "example": "Her paintings depict the lives of ordinary people in the last century.",
-  "exampleZh": "她的画反映了上个世纪普通人的生活。",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/ukd/ukden/ukdensi028.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/eus/eus75/eus75583.mp3"
+  "definition": "to do something that is different from the usual or common way of behaving",
+  "definitionZh": "脱离",
+  "example": "The recent pattern of weather deviates from",
+  "exampleZh": "近来的天气状况与往年同期相比有些异常。",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/ukd/ukdet/ukdetou028.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/d/dev/devia/deviate.mp3"
 }
