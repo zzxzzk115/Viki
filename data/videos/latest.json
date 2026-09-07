@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-06",
+  "date": "2026-09-07",
   "items": [
     {
       "id": "f14a8fc51934",
@@ -134,48 +134,92 @@
       "category": "金融"
     },
     {
-      "id": "968783204fa7",
-      "platform": "bilibili",
-      "videoId": "BV1HGta6aEf8",
-      "title": "沙特2030愿景，现在怎么样了？",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV1HGta6aEf8",
-      "thumb": "https://i1.hdslb.com/bfs/archive/68912c6c7b8fff18e6a98b643bb8298a2a29771f.jpg",
+      "id": "741358dc1249",
+      "platform": "youtube",
+      "videoId": "mIIJd66Ycr8",
+      "title": "How old is the Earth?: Crash Course Geology #17",
+      "channel": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=mIIJd66Ycr8",
+      "thumb": "https://i2.ytimg.com/vi/mIIJd66Ycr8/hqdefault.jpg",
+      "published": "2026-09-03",
+      "category": "历史"
+    },
+    {
+      "id": "bd6e39803bb9",
+      "platform": "youtube",
+      "videoId": "RYGRmYs40PU",
+      "title": "Let's Go on a Field Trip!",
+      "channel": "CrashCourse",
+      "url": "https://www.youtube.com/shorts/RYGRmYs40PU",
+      "thumb": "https://i3.ytimg.com/vi/RYGRmYs40PU/hqdefault.jpg",
       "published": "2026-09-01",
-      "category": "金融"
-    },
-    {
-      "id": "45f33b3cfe41",
-      "platform": "bilibili",
-      "videoId": "BV16rtc63EgT",
-      "title": "日元创40年新低，美国突然出手，怎么回事儿？",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV16rtc63EgT",
-      "thumb": "https://i1.hdslb.com/bfs/archive/eb5ee332388fbd5d5f1bc769ae5885eee8d22f12.jpg",
-      "published": "2026-08-28",
-      "category": "金融"
-    },
-    {
-      "id": "ad62a1790b36",
-      "platform": "bilibili",
-      "videoId": "BV1zLta68EQq",
-      "title": "大学士·图海：配享太庙，到底有多难？【康熙王朝】",
-      "channel": "正直讲史-李正Str",
-      "url": "https://www.bilibili.com/video/BV1zLta68EQq",
-      "thumb": "https://i1.hdslb.com/bfs/archive/0746add8e947478cac56dacb70505bf5f2c0ebe6.jpg",
-      "published": "2026-08-31",
       "category": "历史"
     },
     {
-      "id": "ce18bb4af2c4",
-      "platform": "bilibili",
-      "videoId": "BV1mS8t6qEGw",
-      "title": "唐伯虎：老天爷的戏弄，是江南才子的一生。【大明风华】【视频播客】",
-      "channel": "正直讲史-李正Str",
-      "url": "https://www.bilibili.com/video/BV1mS8t6qEGw",
-      "thumb": "https://i1.hdslb.com/bfs/archive/6a8dcf8bc7f072183cf11b2391622f143f0deca2.jpg",
-      "published": "2026-08-23",
+      "id": "4bf7cec58b49",
+      "platform": "youtube",
+      "videoId": "872JcpP3FEM",
+      "title": "The City.",
+      "channel": "Historia Civilis",
+      "url": "https://www.youtube.com/watch?v=872JcpP3FEM",
+      "thumb": "https://i1.ytimg.com/vi/872JcpP3FEM/hqdefault.jpg",
+      "published": "2026-04-18",
       "category": "历史"
+    },
+    {
+      "id": "ad015d1c117d",
+      "platform": "youtube",
+      "videoId": "h6E4_Bcmscg",
+      "title": "Reform or Revolution? (1830 to 1832)",
+      "channel": "Historia Civilis",
+      "url": "https://www.youtube.com/watch?v=h6E4_Bcmscg",
+      "thumb": "https://i1.ytimg.com/vi/h6E4_Bcmscg/hqdefault.jpg",
+      "published": "2025-08-30",
+      "category": "历史"
+    },
+    {
+      "id": "dd18c01daf32",
+      "platform": "youtube",
+      "videoId": "KB-y5uvg6so",
+      "title": "What to say instead of ‘long time no see’ #shorts",
+      "channel": "BBC Learning English",
+      "url": "https://www.youtube.com/shorts/KB-y5uvg6so",
+      "thumb": "https://i4.ytimg.com/vi/KB-y5uvg6so/hqdefault.jpg",
+      "published": "2026-09-04",
+      "category": "英语"
+    },
+    {
+      "id": "804a52f8b43c",
+      "platform": "youtube",
+      "videoId": "Lxo-NLfeylg",
+      "title": "🎵 Phrasal verbs and expressions to talk about music 🎵  Live English Class with Annie",
+      "channel": "BBC Learning English",
+      "url": "https://www.youtube.com/watch?v=Lxo-NLfeylg",
+      "thumb": "https://i1.ytimg.com/vi/Lxo-NLfeylg/hqdefault.jpg",
+      "published": "2026-09-03",
+      "category": "英语"
+    },
+    {
+      "id": "21cff7492871",
+      "platform": "youtube",
+      "videoId": "VPDABZXkriM",
+      "title": "What getting laser eye surgery is really like - From Astigmatism to 20:20 vision | Ad",
+      "channel": "Lucy Bella",
+      "url": "https://www.youtube.com/watch?v=VPDABZXkriM",
+      "thumb": "https://i3.ytimg.com/vi/VPDABZXkriM/hqdefault.jpg",
+      "published": "2020-10-26",
+      "category": "英语"
+    },
+    {
+      "id": "2ee25237109d",
+      "platform": "youtube",
+      "videoId": "GnQkzSZdEts",
+      "title": "Lucy Bella Earl Live Stream",
+      "channel": "Lucy Bella",
+      "url": "https://www.youtube.com/watch?v=GnQkzSZdEts",
+      "thumb": "https://i4.ytimg.com/vi/GnQkzSZdEts/hqdefault.jpg",
+      "published": "2019-05-02",
+      "category": "英语"
     }
   ],
   "notes": [
@@ -186,16 +230,16 @@
     "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
-    "Bilibili 1567748478: code=-352 风控校验失败",
     "CS · 1567748478: 0 条",
+    "Bilibili 202224425: code=-352 风控校验失败",
     "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 2 条",
-    "金融 · 520819684: 2 条",
-    "历史 · @CrashCourse: 0 条",
-    "历史 · @HistoriaCivilis: 0 条",
-    "历史 · 11646119: 2 条",
+    "金融 · 520819684: 0 条",
+    "历史 · @CrashCourse: 2 条",
+    "历史 · @HistoriaCivilis: 2 条",
+    "历史 · 11646119: 0 条",
     "历史 · 23947287: 0 条",
-    "英语 · @bbclearningenglish: 0 条",
-    "英语 · @EnglishwithLucy: 0 条"
+    "英语 · @bbclearningenglish: 2 条",
+    "英语 · @EnglishwithLucy: 2 条"
   ]
 }
