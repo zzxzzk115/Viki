@@ -1,223 +1,251 @@
 {
-  "date": "2026-09-06",
+  "date": "2026-09-07",
   "items": [
     {
-      "id": "9080c1fea33d",
+      "id": "8a9874328a7f",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Pioneer, Louisiana",
-      "url": "https://simple.wikipedia.org/wiki/Pioneer%2C_Louisiana",
-      "summary": "Pioneer is a village in West Carroll Parish, Louisiana, United States.",
+      "title": "Yoshiki",
+      "url": "https://simple.wikipedia.org/wiki/Yoshiki",
+      "summary": "Yoshiki Hayashi is a Japanese musician. He is a co-founder of the Japanese band rock X Japan. He also founded an independent record label Extasy Records. X Japan ended in 1997. They got back together in 2007 and are currently touring worldwide.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "5b970bb2f6e0",
+      "id": "8347314e7d7f",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Danny Trejo",
-      "url": "https://simple.wikipedia.org/wiki/Danny_Trejo",
-      "summary": "Danny Trejo is a Mexican-American actor. He often plays villains or anti-heroes. He was born in Los Angeles, California to Mexican-American parents. He is a second cousin of writer-director Robert Rodriguez. He has worked with Rodriguez in several of his movies. These include th…",
+      "title": "Longvilliers, Yvelines",
+      "url": "https://simple.wikipedia.org/wiki/Longvilliers%2C_Yvelines",
+      "summary": "Longvilliers is a commune. It is in Île-de-France in the Yvelines department in north-central France.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "fbaa403a36b2",
+      "id": "45f14d4fedcb",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
-      "url": "https://cloudinabottle.org/blog/launch-post",
+      "title": "Keep Our Servers Running",
+      "url": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/",
       "summary": "",
-      "author": "zplizzi",
+      "author": "sonicrocketman",
+      "published": "2026-09-07",
+      "tags": [
+        "▲ 196"
+      ]
+    },
+    {
+      "id": "b8daa0a9e9fb",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Making a Python interpreter in 1024 bytes",
+      "url": "https://austinhenley.com/blog/python1024.html",
+      "summary": "",
+      "author": "azhenley",
       "published": "2026-09-06",
       "tags": [
-        "▲ 282"
+        "▲ 176"
       ]
     },
     {
-      "id": "b529fde1aac2",
+      "id": "53c12cd85ace",
       "category": "tech",
       "source": "Hacker News",
-      "title": "The revolt of the reader",
-      "url": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/",
+      "title": "I'm a seeing-eye dog for a computer",
+      "url": "https://claytonwramsey.com/blog/seeing-eye/",
       "summary": "",
-      "author": "chmaynard",
-      "published": "2026-09-05",
+      "author": "claytonwramsey",
+      "published": "2026-09-03",
       "tags": [
-        "▲ 250"
+        "▲ 41"
       ]
     },
     {
-      "id": "9f0b5f45e857",
+      "id": "da78c093b571",
       "category": "tech",
       "source": "Hacker News",
-      "title": "The ColorChecker, photography's most important 24 squares, turns 50",
-      "url": "https://www.dpreview.com/news/the-colorchecker-photographys-most-important-24-squares-turns-50/",
+      "title": "It took a year to ship WebAssembly in Anubis",
+      "url": "https://anubis.techaro.lol/blog/2026/anubis-wasm/",
       "summary": "",
-      "author": "sohkamyung",
-      "published": "2026-09-01",
-      "tags": [
-        "▲ 28"
-      ]
-    },
-    {
-      "id": "ce653837c7da",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "OpenBSD Stories: Strange Medieval Devices",
-      "url": "http://miod.online.fr/software/openbsd/stories/smd.html",
-      "summary": "",
-      "author": "zdw",
-      "published": "2026-09-02",
-      "tags": [
-        "▲ 33"
-      ]
-    },
-    {
-      "id": "7d478de9ce8a",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "GPT-6 Astra on robot arms",
-      "url": "https://openai.robocurve.org/gpt-6-astra/",
-      "summary": "",
-      "author": "Anon84",
+      "author": "xena",
       "published": "2026-09-06",
       "tags": [
-        "▲ 132"
+        "▲ 214"
       ]
     },
     {
-      "id": "5a28257a7646",
+      "id": "0b02fde37a63",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Chrome again exempts Google from user site data settings",
-      "url": "https://lapcatsoftware.com/articles/2026/9/1.html",
+      "title": "Has anybody seen my keys? A key-hierarchy strategy for rack-level security",
+      "url": "https://rfd.shared.oxide.computer/rfd/0301",
       "summary": "",
-      "author": "ExMachina73",
-      "published": "2026-09-05",
+      "author": "cyb0rg0",
+      "published": "2026-09-07",
       "tags": [
-        "▲ 250"
+        "▲ 15"
       ]
     },
     {
-      "id": "9cc08e70e365",
+      "id": "d751cd674791",
       "category": "tech",
-      "source": "DEV Community",
-      "title": "Generative Engine Optimization: Future of SEO in 2026",
-      "url": "https://dev.to/mecanik-dev/generative-engine-optimization-future-of-seo-in-2026-297b",
-      "summary": "Generative Engine Optimization is the next evolution of digital search strategy. As users migrate from keyword-based search queries to conversational AI interfaces, business owners must adapt how their platforms present information. AI search engines—such as Perplexity, ChatGPT …",
-      "author": "Mecanik1337",
-      "published": "Sun, 06 Sep 2026 06:00:00 +0000",
+      "source": "Hacker News",
+      "title": "I refused to train the AI that could replace me",
+      "url": "https://restofworld.org/2026/ai-training-jobs-expert-replacement/",
+      "summary": "",
+      "author": "colinprince",
+      "published": "2026-09-07",
       "tags": [
-        "webdev",
-        "seo",
-        "ai",
-        "geo"
+        "▲ 22"
       ]
     },
     {
-      "id": "2c1278e9a319",
+      "id": "4ebb0d9d36d5",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How to Set Up VS Code & AI Copilot for Fast Student Projects",
-      "url": "https://dev.to/anagha_shetty_23/how-to-set-up-vs-code-ai-copilot-for-fast-student-projects-4eef",
-      "summary": "If you are balancing multiple college coding assignments, hackathons, or personal projects, your code editor setup can make or break your productivity. Instead of searching Stack Overflow for every syntax error, you can supercharge your development workflow using VS Code paired …",
-      "author": "Anagha Shetty",
-      "published": "Sun, 06 Sep 2026 05:54:10 +0000",
-      "tags": [
-        "webdev",
-        "programming",
-        "githubcopilot",
-        "vscode"
-      ]
-    },
-    {
-      "id": "0604c492210d",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "We Ran Our Own Blog Through Our Word Counter: 22.1 Words a Sentence",
-      "url": "https://dev.to/lucian_lkb_1f009d/we-ran-our-own-blog-through-our-word-counter-221-words-a-sentence-4ehh",
-      "summary": "A word counter's least useful output is the word count. The number that shows up biggest is the one that matters least — the value is in the analysis underneath it: how long your sentences run, which words you lean on, how readable the whole thing actually is. So instead of desc…",
-      "author": "Lucian (LKB)",
-      "published": "Sun, 06 Sep 2026 05:52:18 +0000",
-      "tags": [
-        "writing",
-        "productivity",
-        "webdev",
-        "career"
-      ]
-    },
-    {
-      "id": "698f42e4da1b",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "How Model Context Protocol (MCP) changes SaaS feature rollouts forever",
-      "url": "https://dev.to/pavan_s_poojary/how-model-context-protocol-mcp-changes-saas-feature-rollouts-forever-g67",
-      "summary": "Model Context Protocol (MCP) is usually framed as a way for LLMs to read local files or query SQL databases. But the highest-leverage application of MCP isn't reading data—it's runtime app orchestration . What if your AI coding agent could ship in-app announcements, contextual o…",
-      "author": "Pavan S Poojary",
-      "published": "Sun, 06 Sep 2026 05:45:00 +0000",
+      "title": "The Legacy of Trust: Exploring the Market for Yahoo Accounts",
+      "url": "https://dev.to/localpvashop023/the-legacy-of-trust-exploring-the-market-for-yahoo-accounts-1f4m",
+      "summary": "Introduction Email accounts are more than just communication tools — they are digital identities, gateways to professional networks, and essential credentials for countless online services. Among the pioneers of webmail, Yahoo Mail holds a special place in internet history. When…",
+      "author": "Buy Old Gmail Accounts",
+      "published": "Mon, 07 Sep 2026 06:09:21 +0000",
       "tags": [
         "ai",
-        "mcp",
-        "programming",
         "webdev"
       ]
     },
     {
-      "id": "f59ef5a7a38f",
+      "id": "8f062bd017a2",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Let's Understand Zustand Selector So That Application Performance Is Optimal",
+      "url": "https://dev.to/javapixastudio/lets-understand-zustand-selector-so-that-application-performance-is-optimal-2k5",
+      "summary": "Developing modern web applications often means juggling complex state. When state changes, we want our user interfaces to update efficiently, showing the latest information without stuttering or causing components to re-render more than they truly need to. Unnecessary re-renders…",
+      "author": "Javapixa Creative Studio",
+      "published": "Mon, 07 Sep 2026 06:09:05 +0000",
+      "tags": [
+        "webdev",
+        "programming"
+      ]
+    },
+    {
+      "id": "bbea93cdbdd9",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "How I Built an Autonomous AI Agent That Earns USDC While I Sleep",
+      "url": "https://dev.to/nikhilranka23/how-i-built-an-autonomous-ai-agent-that-earns-usdc-while-i-sleep-lob",
+      "summary": "How I Built an Autonomous AI Agent That Earns USDC While I Sleep Author: senior engineer Date: 2025‑11‑03 Overview The goal was simple: create a program that runs continuously, performs a narrowly defined task that people are willing to pay for, and receives USDC on Base without…",
+      "author": "Nikhil Ranka",
+      "published": "Mon, 07 Sep 2026 06:07:05 +0000",
+      "tags": [
+        "ai",
+        "automation",
+        "webdev",
+        "crypto"
+      ]
+    },
+    {
+      "id": "fc74745c6ce7",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Clucky's Innovative Alarm App",
+      "url": "https://dev.to/norviktech/cluckys-innovative-alarm-app-35hf",
+      "summary": "Originally published at norvik.tech Introduction Dive into Clucky's new alarm app that wakes users with a crowing rooster and learn its technical implications. Understanding Clucky's Alarm App: An Overview Clucky’s new alarm app introduces a unique feature where users wake up to…",
+      "author": "Norvik Tech",
+      "published": "Mon, 07 Sep 2026 06:05:56 +0000",
+      "tags": [
+        "webdev",
+        "cluckyapp",
+        "alarmtechnology",
+        "userengagement"
+      ]
+    },
+    {
+      "id": "2b802c91b85b",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Assassination of William McKinley",
-      "url": "https://en.wikipedia.org/wiki/Assassination_of_William_McKinley",
-      "summary": "William McKinley, the 25th president of the United States, was shot on the grounds of the Pan-American Exposition in the Temple of Music in Buffalo, New York, on September 6, 1901, six months into his second term. He was shaking hands with the public when an anarchist, Leon Czol…",
+      "title": "George Krugers",
+      "url": "https://en.wikipedia.org/wiki/George_Krugers",
+      "summary": "George Edward Albert Krugers was a filmmaker active in the Dutch East Indies during the early 20th century. Born in Banda Neira, he migrated to Java in the 1920s and spent time in Surabaya before moving to Bandung. There, he worked with L. Heuveldorp on the colony's first featur…",
       "published": "",
       "tags": [
         "今日精选"
       ]
+    },
+    {
+      "id": "aafc7669e145",
+      "category": "news",
+      "source": "BBC 世界",
+      "title": "Germany's far-right AfD hails big victory in east, but falls short of majority",
+      "url": "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Alternative for Germany hails a \"historic\" success as preliminary results show a big margin of victory with almost 44% of the vote.",
+      "published": "Mon, 07 Sep 2026 04:48:02 GMT",
+      "tags": []
+    },
+    {
+      "id": "966a44eb6140",
+      "category": "news",
+      "source": "BBC 世界",
+      "title": "Europe wrestles with impact of historic regional gains for Germany's AfD",
+      "url": "https://www.bbc.co.uk/news/articles/c986w38r4j5o?at_medium=RSS&at_campaign=rss",
+      "summary": "The BBC's Europe editor Katya Adler sees the far-right win in Saxony-Anhalt state ringing alarm bells for the EU and traditional parties.",
+      "published": "Mon, 07 Sep 2026 04:07:23 GMT",
+      "tags": []
+    },
+    {
+      "id": "85e21207cd70",
+      "category": "news",
+      "source": "BBC 世界",
+      "title": "Five dead after Amazon cargo plane crashes at Miami airport",
+      "url": "https://www.bbc.co.uk/news/articles/c0e3p1j7n3ro?at_medium=RSS&at_campaign=rss",
+      "summary": "Five people are dead and five seriously injured after a Boeing 767-300 cargo plane \"overran\" the runway and caught fire, officials say.",
+      "published": "Mon, 07 Sep 2026 00:57:38 GMT",
+      "tags": []
     },
     {
       "id": "5ea7c78ca31e",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US envoys set for Ukraine talks after meeting Putin in Russia",
+      "title": "Zelensky says he expects war to continue into winter after talks with US envoys",
       "url": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss",
-      "summary": "It will be the first trip by Steve Witkoff and Jared Kushner, Trump's top negotiators, to Kyiv.",
-      "published": "Sun, 06 Sep 2026 02:24:16 GMT",
+      "summary": "There was no announcement of a major breakthrough, after Steve Witkoff and Jared Kushner travelled to Kyiv.",
+      "published": "Sun, 06 Sep 2026 20:41:58 GMT",
       "tags": []
     },
     {
-      "id": "84a48662e571",
-      "category": "news",
-      "source": "BBC 世界",
-      "title": "US and Iran trade retaliatory attacks on ships as conflict flares",
-      "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
-      "summary": "The US says it hit three Iranian oil tankers, while Iran says it targeted three US-linked ships.",
-      "published": "Sat, 05 Sep 2026 22:44:07 GMT",
-      "tags": []
+      "id": "4f2c430ba44b",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "German company becomes first in Europe to launch fully commercial orbital rocket",
+      "url": "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/",
+      "summary": "\"We achieved within a few years what had taken the European space industry decades before.\"",
+      "author": "Stephen Clark",
+      "published": "Sun, 06 Sep 2026 11:55:26 +0000",
+      "tags": [
+        "Science",
+        "Space",
+        "Commercial space",
+        "europe"
+      ]
     },
     {
-      "id": "d31b4f8c9165",
-      "category": "news",
-      "source": "BBC 世界",
-      "title": "TV presenter among 11 sentenced to death in Egypt drugs case",
-      "url": "https://www.bbc.co.uk/news/articles/c5y7gk9knnlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Sarah Khalifa is best known for her TV programme Mission Impossible which dealt with crime issues.",
-      "published": "Sun, 06 Sep 2026 05:04:04 GMT",
-      "tags": []
-    },
-    {
-      "id": "de3874786362",
-      "category": "news",
-      "source": "BBC 世界",
-      "title": "Volcano eruption triggers flight suspensions at Indonesia's main airport",
-      "url": "https://www.bbc.co.uk/news/articles/cvgy5k4n07ko?at_medium=RSS&at_campaign=rss",
-      "summary": "More than 20,000 passengers are stranded after ash was detected in airspace near Jakarta following volcanic eruptions.",
-      "published": "Sun, 06 Sep 2026 05:12:44 GMT",
-      "tags": []
+      "id": "a165ac63c9c3",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Farmed salmon may not be as nutritious as it once was, new research suggests",
+      "url": "https://arstechnica.com/science/2026/09/farmed-salmon-may-not-be-as-nutritious-as-it-once-was-new-research-suggests/",
+      "summary": "The shift in the fish’s diet is having significant downstream impacts on the environment and climate.",
+      "author": "Georgina Gustin, Inside Climate News",
+      "published": "Sun, 06 Sep 2026 10:00:35 +0000",
+      "tags": [
+        "Science",
+        "climate",
+        "fish farming",
+        "salmon"
+      ]
     },
     {
       "id": "5ab91582f423",
@@ -236,68 +264,36 @@
       ]
     },
     {
-      "id": "3ee62c9aa743",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "After 8 years, Europe's BepiColombo mission is on final approach to Mercury",
-      "url": "https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/",
-      "summary": "\"Fundamentally, we want to learn about the origins of this planet and how it came to be like it is.\"",
-      "author": "Stephen Clark",
-      "published": "Fri, 04 Sep 2026 22:49:17 +0000",
-      "tags": [
-        "Space",
-        "bepicolombo",
-        "european space agency",
-        "Japan"
-      ]
-    },
-    {
-      "id": "680bad5aa943",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
-      "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
-      "summary": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
-      "author": "Dan Goodin",
-      "published": "Fri, 04 Sep 2026 22:17:36 +0000",
-      "tags": [
-        "AI",
-        "Biz & IT",
-        "Security",
-        "AI agents"
-      ]
-    },
-    {
-      "id": "9ba9e6460cb7",
+      "id": "e80eb04c9840",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘Poverty doesn’t have to be my reality’: I thought I’d have to rely on Social Security. Then I taught myself how to invest.",
-      "url": "https://www.marketwatch.com/story/i-didnt-know-what-i-didnt-know-i-thought-id-have-to-depend-on-social-security-then-i-taught-myself-how-to-invest-0129870b?mod=mw_rss_topstories",
-      "summary": "“It always baffled me how some people managed to retire with significant wealth.”",
+      "title": "‘I currently give him $1,000 a month’: My grandson has severe mental illness. How do I protect him after I’m gone?",
+      "url": "https://www.marketwatch.com/story/im-desperately-trying-to-plan-ahead-im-leaving-everything-to-my-grandson-who-has-severe-mental-illness-how-can-i-protect-him-d8df2646?mod=mw_rss_topstories",
+      "summary": "“I’m desperately trying to plan ahead while I’m still able.”",
       "author": "Quentin Fottrell",
-      "published": "Sat, 05 Sep 2026 23:45:00 GMT",
+      "published": "Sun, 06 Sep 2026 21:30:00 GMT",
       "tags": []
     },
     {
-      "id": "03ef0af24265",
+      "id": "2bd5e43e1913",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Why does almost nobody want to befriend older people like me — except scammers?",
-      "url": "https://www.marketwatch.com/story/why-does-almost-nobody-want-to-befriend-older-people-like-me-except-scammers-fda849d1?mod=mw_rss_topstories",
-      "summary": "“I’d rather leave my estate to people who spent time with me because they genuinely valued my company.”",
+      "title": "‘It’s not fair’: My twin brother and I were left houses by our parents. Can I make him pay his share for taxes and upkeep?",
+      "url": "https://www.marketwatch.com/story/its-not-fair-my-twin-brother-and-i-were-left-houses-by-our-parents-can-i-make-him-pay-his-share-for-taxes-and-upkeep-43feb780?mod=mw_rss_topstories",
+      "summary": "“I am frustrated and financially exhausted from continuing to invest my own money into these properties.”",
       "author": "Quentin Fottrell",
-      "published": "Sat, 05 Sep 2026 23:07:00 GMT",
+      "published": "Sun, 06 Sep 2026 21:00:00 GMT",
       "tags": []
     },
     {
-      "id": "d75de1c5b0e5",
+      "id": "f7956284b570",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Think you maxed out your 401(k)? The real limit is actually almost $50,000 higher.",
-      "url": "https://www.marketwatch.com/story/think-you-maxed-out-your-401-k-the-real-limit-is-actually-almost-50-000-higher-217a89ee?mod=mw_rss_topstories",
-      "summary": "You can unlock greater retirement wealth by reading this document that nearly everyone ignores.",
-      "author": "Kurt Supe",
-      "published": "Sat, 05 Sep 2026 18:59:00 GMT",
+      "title": "My wife and I are in our 70s. Should we move to California and take on a bigger mortgage to be near our kids?",
+      "url": "https://www.marketwatch.com/story/my-wife-and-i-are-in-our-70s-should-we-move-to-california-and-take-on-a-bigger-mortgage-to-be-near-our-kids-1d619084?mod=mw_rss_topstories",
+      "summary": "“We currently live in a relatively low-cost, lower-tax Northwest state.”",
+      "author": "Quentin Fottrell",
+      "published": "Sun, 06 Sep 2026 20:00:00 GMT",
       "tags": []
     }
   ],
