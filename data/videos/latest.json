@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "items": [
     {
       "id": "f14a8fc51934",
@@ -43,6 +43,28 @@
       "url": "https://www.youtube.com/watch?v=x-DIGi8Sc9E",
       "thumb": "https://i1.ytimg.com/vi/x-DIGi8Sc9E/hqdefault.jpg",
       "published": "2026-01-30",
+      "category": "图形学"
+    },
+    {
+      "id": "18b3cac683f0",
+      "platform": "bilibili",
+      "videoId": "BV1th8b6zEqg",
+      "title": "GAMES Webinar 412-CAX专题-余宇轩-让AI生成可计算的三维实体",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV1th8b6zEqg",
+      "thumb": "https://i1.hdslb.com/bfs/archive/5dbad629ee5b5b656f2f5e0d28d47c55ae606e7a.jpg",
+      "published": "2026-08-23",
+      "category": "图形学"
+    },
+    {
+      "id": "425294b397bd",
+      "platform": "bilibili",
+      "videoId": "BV1th8b6zEBV",
+      "title": "GAMES Webinar 412-CAX专题-童话-Advances in grid-based all-hexahedral mesh generation",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV1th8b6zEBV",
+      "thumb": "https://i2.hdslb.com/bfs/archive/8550ad694a0522af45c1c18c34c046d5b6174460.jpg",
+      "published": "2026-08-23",
       "category": "图形学"
     },
     {
@@ -112,6 +134,28 @@
       "category": "CS"
     },
     {
+      "id": "9018e970ca98",
+      "platform": "bilibili",
+      "videoId": "BV1ScKR6QEQF",
+      "title": "古法做视频里加一点点科技",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1ScKR6QEQF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/b9d2e88f8d41fe24cecddcf715756265ff68b9d2.jpg",
+      "published": "2026-06-29",
+      "category": "CS"
+    },
+    {
+      "id": "4001551d4ad2",
+      "platform": "bilibili",
+      "videoId": "BV1RfEw6LEfF",
+      "title": "能跟你对话的TTS【开源】",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1RfEw6LEfF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/414b79823c78f30b3e60d27f14c0f44111f0234f.jpg",
+      "published": "2026-06-04",
+      "category": "CS"
+    },
+    {
       "id": "79c64a96a16f",
       "platform": "youtube",
       "videoId": "-VWZ3pDm94c",
@@ -178,25 +222,47 @@
       "category": "历史"
     },
     {
-      "id": "dd18c01daf32",
+      "id": "ad62a1790b36",
+      "platform": "bilibili",
+      "videoId": "BV1zLta68EQq",
+      "title": "大学士·图海：配享太庙，到底有多难？【康熙王朝】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1zLta68EQq",
+      "thumb": "https://i1.hdslb.com/bfs/archive/0746add8e947478cac56dacb70505bf5f2c0ebe6.jpg",
+      "published": "2026-08-31",
+      "category": "历史"
+    },
+    {
+      "id": "ce18bb4af2c4",
+      "platform": "bilibili",
+      "videoId": "BV1mS8t6qEGw",
+      "title": "唐伯虎：老天爷的戏弄，是江南才子的一生。【大明风华】【视频播客】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1mS8t6qEGw",
+      "thumb": "https://i1.hdslb.com/bfs/archive/6a8dcf8bc7f072183cf11b2391622f143f0deca2.jpg",
+      "published": "2026-08-23",
+      "category": "历史"
+    },
+    {
+      "id": "8f19d8a367f2",
       "platform": "youtube",
-      "videoId": "KB-y5uvg6so",
-      "title": "What to say instead of ‘long time no see’ #shorts",
+      "videoId": "5jZWbzo8FOQ",
+      "title": "Do you like complaining? ☝️😡 #englishpodcast #realeasyenglish",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/shorts/KB-y5uvg6so",
-      "thumb": "https://i4.ytimg.com/vi/KB-y5uvg6so/hqdefault.jpg",
-      "published": "2026-09-04",
+      "url": "https://www.youtube.com/shorts/5jZWbzo8FOQ",
+      "thumb": "https://i2.ytimg.com/vi/5jZWbzo8FOQ/hqdefault.jpg",
+      "published": "2026-09-07",
       "category": "英语"
     },
     {
-      "id": "804a52f8b43c",
+      "id": "a1dfd39f67f2",
       "platform": "youtube",
-      "videoId": "Lxo-NLfeylg",
-      "title": "🎵 Phrasal verbs and expressions to talk about music 🎵  Live English Class with Annie",
+      "videoId": "E3G-dsvZHGU",
+      "title": "When is it OK to complain? ☝️😠 | Practise your listening skills with Real Easy English",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=Lxo-NLfeylg",
-      "thumb": "https://i1.ytimg.com/vi/Lxo-NLfeylg/hqdefault.jpg",
-      "published": "2026-09-03",
+      "url": "https://www.youtube.com/watch?v=E3G-dsvZHGU",
+      "thumb": "https://i2.ytimg.com/vi/E3G-dsvZHGU/hqdefault.jpg",
+      "published": "2026-09-07",
       "category": "英语"
     },
     {
@@ -225,19 +291,22 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "图形学 · 512313464: 0 条",
+    "图形学 · 512313464: 2 条",
     "引擎 · @TheCherno: 2 条",
+    "Bilibili 437860379: code=-352 风控校验失败",
     "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
-    "CS · 1567748478: 0 条",
+    "CS · 1567748478: 2 条",
     "Bilibili 202224425: code=-352 风控校验失败",
     "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 2 条",
+    "Bilibili 520819684: code=-352 风控校验失败",
     "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
-    "历史 · 11646119: 0 条",
+    "历史 · 11646119: 2 条",
+    "Bilibili 23947287: code=-352 风控校验失败",
     "历史 · 23947287: 0 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
