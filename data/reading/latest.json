@@ -1,293 +1,308 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "items": [
     {
-      "id": "067312994260",
+      "id": "b394cdce8114",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "To the Shores of Iwo Jima",
-      "url": "https://simple.wikipedia.org/wiki/To_the_Shores_of_Iwo_Jima",
-      "summary": "To the Shores of Iwo Jima is a documentary about the battles of Iwo Jima during World War II. It is a short color war movie. It was produced by the United States Navy and United States Marine Corps.",
+      "title": "Yuri Gagarin",
+      "url": "https://simple.wikipedia.org/wiki/Yuri_Gagarin",
+      "summary": "Yuri Alexeyevich Gagarin was a Soviet and Russian cosmonaut (astronaut). He was the first person to travel into space.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "cb46423b270e",
+      "id": "6d0ad4ecd484",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Eristicophis",
-      "url": "https://simple.wikipedia.org/wiki/Eristicophis",
-      "summary": "Eristicophis is a monotypic genus made for the venomous viper species \"E. macmahonii\". It is found in the desert areas near the borders of Iran, Pakistan, and Afghanistan. There are currently no subspecies recognized. The E. macmahonii is also known as the \"McMahon's Viper\", the…",
+      "title": "University of Alabama",
+      "url": "https://simple.wikipedia.org/wiki/University_of_Alabama",
+      "summary": "The University of Alabama (UA) is a university in the U.S. state of Alabama. The University of Alabama is in the city of Tuscaloosa. People can usually just say Alabama or UA for short when they are talking about the university.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "62dc7d9ddc6c",
+      "id": "bee62d297216",
       "category": "tech",
       "source": "Hacker News",
-      "title": "We have a year to fix security everywhere",
-      "url": "https://jyn.dev/a-year-to-fix-security/",
+      "title": "Muse – Meta’s personal AI agent",
+      "url": "https://ai.meta.com/muse/",
       "summary": "",
-      "author": "saikatsg",
+      "author": "yks",
       "published": "2026-09-08",
       "tags": [
-        "▲ 75"
+        "▲ 440"
       ]
     },
     {
-      "id": "7dca434f16ba",
+      "id": "d10a3fd68ee1",
       "category": "tech",
       "source": "Hacker News",
-      "title": "I've factored the RSA keys of a Certificate Authority from the 90s",
-      "url": "https://mcpherrin.ca/2026/09/07/rsa.html",
+      "title": "Tension wood: A 'muscle' that can both bend and straighten plants",
+      "url": "https://phys.org/news/2026-09-trees-muscle-posture-newly-role.html",
       "summary": "",
-      "author": "ahlCVA",
+      "author": "mdp2021",
+      "published": "2026-09-03",
+      "tags": [
+        "▲ 82"
+      ]
+    },
+    {
+      "id": "6d05cbe635d4",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Navier-Stokes – Tristan Buckmaster [pdf]",
+      "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+      "summary": "",
+      "author": "procedurecall",
       "published": "2026-09-08",
       "tags": [
-        "▲ 235"
+        "▲ 1506"
       ]
     },
     {
-      "id": "9890218d8398",
+      "id": "00ea837cb76d",
       "category": "tech",
       "source": "Hacker News",
-      "title": "My Feed, My Way",
-      "url": "https://www.pm.gov.au/media/my-feed-my-way",
+      "title": "Researchers Spot Fake Ancient Pottery Using the Earth's Magnetic Field",
+      "url": "https://www.smithsonianmag.com/smart-news/researchers-determine-how-to-spot-fake-ancient-pottery-using-the-earths-magnetic-field-180989441/",
       "summary": "",
-      "author": "dotcoma",
+      "author": "cisc",
+      "published": "2026-09-05",
+      "tags": [
+        "▲ 18"
+      ]
+    },
+    {
+      "id": "3f7faa570ce6",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "How to build a printer",
+      "url": "https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/",
+      "summary": "",
+      "author": "cat-whisperer",
       "published": "2026-09-08",
       "tags": [
-        "▲ 30"
+        "▲ 245"
       ]
     },
     {
-      "id": "3045481d86a5",
+      "id": "bc39e137c953",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
-      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
-      "summary": "",
-      "author": "kuberwastaken",
+      "title": "AlphaGenome Atlas: a high-resolution map of human DNA",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+      "summary": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-... https://deepmind.google.com/science/alphagenome/atlas",
+      "author": "utiiiD",
       "published": "2026-09-08",
       "tags": [
-        "▲ 24"
+        "▲ 535"
       ]
     },
     {
-      "id": "7112d035781e",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "I tested 10 model/harness combinations on the same Three.js task",
-      "url": "https://alvins82.github.io/hangar-harness-model-tests/",
-      "summary": "",
-      "author": "alvins82",
-      "published": "2026-09-08",
-      "tags": [
-        "▲ 33"
-      ]
-    },
-    {
-      "id": "1e6d810ba1d3",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "TALA Is Open-Source",
-      "url": "https://d2lang.com/blog/tala-is-open-source/",
-      "summary": "",
-      "author": "alixanderwang",
-      "published": "2026-09-07",
-      "tags": [
-        "▲ 167"
-      ]
-    },
-    {
-      "id": "1f3577938a41",
+      "id": "e9c2b1211e0b",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How to Reduce Cache Misses and Improve Application Performance",
-      "url": "https://dev.to/serveravatar/how-to-reduce-cache-misses-and-improve-application-performance-1jg8",
-      "summary": "A cache is supposed to remove work. Yet an application can have Redis installed, a CDN enabled, and a page-cache plugin active while still rebuilding the same responses again and again. To reduce cache misses, you must ensure the application can consistently reuse cached data. T…",
-      "author": "Meghna Meghwani",
-      "published": "Tue, 08 Sep 2026 06:00:00 +0000",
+      "title": "What to Check When Reviewing AI-Generated UI",
+      "url": "https://dev.to/janarthanan_soundararajan/what-to-check-when-reviewing-ai-generated-ui-h28",
+      "summary": "AI can help us build a form, a modal, or a dashboard quickly. The result may look good. The inputs accept text. The buttons respond. The layout fits the screen. But before merging the code, there is another question to ask: Does the UI work well beyond the happy path? Some detai…",
+      "author": "Janarthanan Soundararajan (Jana)",
+      "published": "Wed, 09 Sep 2026 06:05:57 +0000",
       "tags": [
-        "performance",
-        "webdev",
-        "devops",
-        "caching"
-      ]
-    },
-    {
-      "id": "a6afb04e30a9",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Building an Award Flight Finder: What I Learned Turning 365 Date Checks Into One Search",
-      "url": "https://dev.to/curtis_zhang_f52bce500a3e/building-an-award-flight-finder-what-i-learned-turning-365-date-checks-into-one-search-50j6",
-      "summary": "Reward flights are one of those problems that look simple until you try to build a useful search experience around them. A traveller usually starts with a straightforward question: “Which dates can I fly this route using miles?” But airline websites often make people check one d…",
-      "author": "Curtis Zhang",
-      "published": "Tue, 08 Sep 2026 05:53:58 +0000",
-      "tags": [
-        "showdev",
-        "webdev",
-        "startup",
-        "productivity"
-      ]
-    },
-    {
-      "id": "ea0939fbefa3",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "O conhecimento técnico é apenas o começo!",
-      "url": "https://dev.to/igoralencar/o-conhecimento-tecnico-e-apenas-o-comeco-2g09",
-      "summary": "O conhecimento técnico é apenas o começo Quando comecei a pensar mais sobre desenvolvimento de carreira na área de tecnologia, percebi que aprender a programar é apenas uma parte do processo. Conhecer linguagens, frameworks e ferramentas é importante, mas esse conhecimento preci…",
-      "author": "Igor Alencar",
-      "published": "Tue, 08 Sep 2026 05:52:01 +0000",
-      "tags": [
-        "career",
+        "ai",
         "webdev",
         "programming",
-        "beginners"
+        "react"
       ]
     },
     {
-      "id": "a2a4aa264c32",
+      "id": "cafa020618de",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Optimizing CI/CD Pipelines for…",
+      "url": "https://dev.to/norviktech/optimizing-cicd-pipelines-for-3kd1",
+      "summary": "Originally published at norvik.tech Introduction Explore how to enhance CI/CD pipelines to improve development speed and reliability. Deep technical insights for teams. Understanding CI/CD Pipelines: A Technical Overview CI/CD pipelines are essential frameworks in modern softwar…",
+      "author": "Norvik Tech",
+      "published": "Wed, 09 Sep 2026 06:05:56 +0000",
+      "tags": [
+        "webdev",
+        "cicd",
+        "continuousintegratio",
+        "continuousdeployment"
+      ]
+    },
+    {
+      "id": "8daca8cd0d92",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "I made an API that has no signup, because the payment is the login",
+      "url": "https://dev.to/keitaemsden/i-made-an-api-that-has-no-signup-because-the-payment-is-the-login-4ddn",
+      "summary": "I wanted an agent of mine to resolve an Australian company by its ABN. That is a solved problem. There are several APIs that do it and they are cheap. The agent could not use the ones I found. The price was never the blocker. The signup was. Each of them wanted an email address,…",
+      "author": "Keita Emsden",
+      "published": "Wed, 09 Sep 2026 06:03:15 +0000",
+      "tags": [
+        "api",
+        "webdev",
+        "ai",
+        "blockchain"
+      ]
+    },
+    {
+      "id": "29375d73b132",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Benefits of Snapchat Accounts: Ephemeral Identity, Creativity, and Connection in the Digital Age",
+      "url": "https://dev.to/localpvashop23/benefits-of-snapchat-accounts-ephemeral-identity-creativity-and-connection-in-the-digital-age-1ppp",
+      "summary": "Introduction In the ever‑changing landscape of social media, Snapchat accounts stand out for their emphasis on spontaneity, creativity, and privacy. Launched in 2011, Snapchat revolutionized digital communication by introducing disappearing messages and stories, reshaping how pe…",
+      "author": "Buy Old Gmail Accounts",
+      "published": "Wed, 09 Sep 2026 06:02:11 +0000",
+      "tags": [
+        "ai",
+        "webdev"
+      ]
+    },
+    {
+      "id": "d0c660e493e7",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Lacy (song)",
-      "url": "https://en.wikipedia.org/wiki/Lacy_(song)",
-      "summary": "\"Lacy\" is a song by American singer-songwriter Olivia Rodrigo from her second studio album, Guts (2023). Rodrigo wrote the track with its producer, Dan Nigro. It became available when the album was released by Geffen Records. A folk-pop and indie folk song, \"Lacy\" originated fro…",
+      "title": "Agnosticism",
+      "url": "https://en.wikipedia.org/wiki/Agnosticism",
+      "summary": "Agnosticism is a position that questions the existence of God or the divine. On a psychological level, it is a personal attitude that suspends judgment, withholding both belief and disbelief. In philosophy, agnosticism is often treated as a general claim stating that God's exist…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "c0fa9c1f63e8",
+      "id": "93271b6b281a",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Flight recorders recovered from Amazon cargo plane crash",
-      "url": "https://www.bbc.co.uk/news/articles/ce8e32n8epeo?at_medium=RSS&at_campaign=rss",
-      "summary": "Five people were killed and five others seriously injured when the Boeing 767-300 overshot the runway at Miami International Airport.",
-      "published": "Mon, 07 Sep 2026 22:23:03 GMT",
+      "title": "US strikes Iranian oil tankers as Tehran targets American base in Jordan",
+      "url": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
+      "summary": "Oil prices edged closer to $100 a barrel after an escalation in the tit-for-tat strikes between the US and Iran.",
+      "published": "Wed, 09 Sep 2026 04:26:38 GMT",
       "tags": []
     },
     {
-      "id": "a4d3815524c4",
+      "id": "93750ee7c1a8",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Palestinian parents fear for children's lives at school as settler attacks grow",
-      "url": "https://www.bbc.co.uk/news/articles/c3wj45g73g1o?at_medium=RSS&at_campaign=rss",
-      "summary": "A headteacher in the occupied West Bank has installed new barbed wire fencing after three pupils were killed this year.",
-      "published": "Mon, 07 Sep 2026 21:12:37 GMT",
+      "title": "Paul Adams: British-Israeli relations at lowest ebb in decades",
+      "url": "https://www.bbc.co.uk/news/articles/c5ydlex9yn3o?at_medium=RSS&at_campaign=rss",
+      "summary": "Israel's response to London's trade ban with Israeli settlements in the occupied West Bank shows how important this moment is.",
+      "published": "Tue, 08 Sep 2026 21:46:31 GMT",
       "tags": []
     },
     {
-      "id": "826be3ecd39b",
+      "id": "0e9b96493399",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Germany's far-right AfD says 'democracy demands' parties work with them after state election win",
-      "url": "https://www.bbc.co.uk/news/articles/cpd0113082eo?at_medium=RSS&at_campaign=rss",
-      "summary": "The far-right party is trying to form a government in the state after falling three seats short of a majority.",
-      "published": "Mon, 07 Sep 2026 14:04:01 GMT",
+      "title": "US slaps import ban on Canadian alcohol, motorbikes and other goods",
+      "url": "https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss",
+      "summary": "It is the latest strike in a long trade war, and comes as Canadian counter-tariffs on US goods come into force.",
+      "published": "Wed, 09 Sep 2026 03:03:32 GMT",
       "tags": []
     },
     {
-      "id": "b1ad3a0a8a22",
+      "id": "61d9c17f80cd",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Eiffel Tower shut by staff protest after female workers moved for religious visit",
-      "url": "https://www.bbc.co.uk/news/articles/clyenxp540vo?at_medium=RSS&at_campaign=rss",
-      "summary": "An investigation will be launched into the incident, which left female employees \"humiliated\", a union representative says.",
-      "published": "Mon, 07 Sep 2026 23:46:44 GMT",
+      "title": "'Constantly on my mind' - 9/11 agony endures for bereaved, 25 years on",
+      "url": "https://www.bbc.co.uk/news/articles/clyrjw1yj75o?at_medium=RSS&at_campaign=rss",
+      "summary": "As the 25th anniversary approaches, the wait for the alleged mastermind of the attack to be put on trial goes on.",
+      "published": "Tue, 08 Sep 2026 23:11:32 GMT",
       "tags": []
     },
     {
-      "id": "d1f74a46c409",
+      "id": "dc3eda17ca27",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "The complex corporate web behind a $3.2 billion AI data center",
-      "url": "https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/",
-      "summary": "When multiple companies are behind one project, who bears responsibility for problems?",
-      "author": "Petala Ironcloud",
-      "published": "Mon, 07 Sep 2026 11:00:03 +0000",
+      "title": "LG TV shown scanning LAN for third-party phones and other devices",
+      "url": "https://arstechnica.com/gadgets/2026/09/lg-tv-shown-capable-of-tracking-user-activity-even-when-offline/",
+      "summary": "“It doesn’t cost a lot to store text forever.”",
+      "author": "Scharon Harding",
+      "published": "Tue, 08 Sep 2026 21:52:29 +0000",
+      "tags": [
+        "Tech",
+        "ads",
+        "LG",
+        "TVs"
+      ]
+    },
+    {
+      "id": "e883a47e5391",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "GOG brings back \"big box\" PC games, one printable template at a time",
+      "url": "https://arstechnica.com/gaming/2026/09/gog-brings-back-big-box-pc-games-one-printable-template-at-a-time/",
+      "summary": "Preservation \"goodies\" also includes downloadable 3D models for desktop perusal.",
+      "author": "Kyle Orland",
+      "published": "Tue, 08 Sep 2026 21:23:13 +0000",
+      "tags": [
+        "Gaming",
+        "big box",
+        "gog",
+        "packaging"
+      ]
+    },
+    {
+      "id": "bf8c2b1da340",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Why this month's Microsoft patch release is a doozy",
+      "url": "https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/",
+      "summary": "Security gnomes are pumping out patches ahead of an expected onslaught of AI-assisted attacks.",
+      "author": "Dan Goodin",
+      "published": "Tue, 08 Sep 2026 21:11:46 +0000",
       "tags": [
         "AI",
-        "Features",
-        "ai data centers"
+        "Biz & IT",
+        "Security",
+        "LLM"
       ]
     },
     {
-      "id": "4f2c430ba44b",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "German company becomes first in Europe to launch fully commercial orbital rocket",
-      "url": "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/",
-      "summary": "\"We achieved within a few years what had taken the European space industry decades before.\"",
-      "author": "Stephen Clark",
-      "published": "Sun, 06 Sep 2026 11:55:26 +0000",
-      "tags": [
-        "Science",
-        "Space",
-        "Commercial space",
-        "europe"
-      ]
-    },
-    {
-      "id": "a165ac63c9c3",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Farmed salmon may not be as nutritious as it once was, new research suggests",
-      "url": "https://arstechnica.com/science/2026/09/farmed-salmon-may-not-be-as-nutritious-as-it-once-was-new-research-suggests/",
-      "summary": "The shift in the fish’s diet is having significant downstream impacts on the environment and climate.",
-      "author": "Georgina Gustin, Inside Climate News",
-      "published": "Sun, 06 Sep 2026 10:00:35 +0000",
-      "tags": [
-        "Science",
-        "climate",
-        "fish farming",
-        "salmon"
-      ]
-    },
-    {
-      "id": "272ce0102f97",
+      "id": "f2dc1cc5833d",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels",
-      "url": "https://www.marketwatch.com/story/oil-prices-hit-near-seven-week-highs-before-edging-lower-as-iran-plans-to-increase-control-of-hormuz-5070167c?mod=mw_rss_topstories",
-      "summary": "The West Texas Intermediate and Brent crude contracts previously rose to near-seven-week highs.",
-      "author": "Nora Redmond",
-      "published": "Tue, 08 Sep 2026 03:09:00 GMT",
+      "title": "How to create a ‘forever paycheck’ without paying for an annuity",
+      "url": "https://www.marketwatch.com/story/how-to-create-a-forever-paycheck-without-paying-for-an-annuity-e5d171d3?mod=mw_rss_topstories",
+      "summary": "Jean Chatzky’s new book lays out several strategies for creating steady retirement income.",
+      "author": "Beth Pinsker",
+      "published": "Wed, 09 Sep 2026 02:20:00 GMT",
       "tags": []
     },
     {
-      "id": "03ef0af24265",
+      "id": "40cf4c73356f",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Why does almost nobody want to befriend older people like me — except scammers?",
-      "url": "https://www.marketwatch.com/story/why-does-almost-nobody-want-to-befriend-older-people-like-me-except-scammers-fda849d1?mod=mw_rss_topstories",
-      "summary": "“I’d rather leave my estate to people who spent time with me because they genuinely valued my company.”",
-      "author": "Quentin Fottrell",
-      "published": "Mon, 07 Sep 2026 22:00:00 GMT",
+      "title": "Bombardier’s stock drops as the U.S.-Canada trade war intensifies. Here’s what Trump is targeting next.",
+      "url": "https://www.marketwatch.com/story/bombardiers-stock-drops-as-the-u-s-canada-trade-war-intensifies-heres-what-trump-may-target-next-b389065e?mod=mw_rss_topstories",
+      "summary": "Shares in Bombardier lost altitude Tuesday after President Donald Trump threatened to ban the Canadian aircraft manufacturer unless it makes new commitments to build in the U.S.",
+      "author": "Victor Reklaitis",
+      "published": "Wed, 09 Sep 2026 00:17:00 GMT",
       "tags": []
     },
     {
-      "id": "839a79bf43a5",
+      "id": "0f0536f01bd1",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘I’m the executor’: My two siblings and I inherited an IRA. Can we just cash it out?",
-      "url": "https://www.marketwatch.com/story/im-the-executor-my-two-siblings-and-i-inherited-an-ira-can-we-just-cash-it-out-dafc5b8d?mod=mw_rss_topstories",
-      "summary": "“Am I required to create three new inherited IRAs so that the firm can divide it equally?”",
-      "author": "Quentin Fottrell",
-      "published": "Mon, 07 Sep 2026 22:00:00 GMT",
+      "title": "How to invest in a booming stock market that’s way cheaper than the S&P 500",
+      "url": "https://www.marketwatch.com/story/how-to-invest-in-a-booming-stock-market-thats-way-cheaper-than-the-s-p-500-b2f5ef5d?mod=mw_rss_topstories",
+      "summary": "Poland’s reclassification as a developed economy from an emerging market opens it up for investment by many more investors.",
+      "author": "Philip van Doorn",
+      "published": "Tue, 08 Sep 2026 22:50:00 GMT",
       "tags": []
     }
   ],
   "notes": [
     "Simple English Wikipedia: 2 条",
     "Hacker News: 6 条",
-    "DEV Community: 3 条（跳过 1 条非中英内容）",
+    "DEV Community: 4 条",
     "Wikipedia: 1 条",
     "BBC 世界: 4 条",
     "Ars Technica: 3 条",
