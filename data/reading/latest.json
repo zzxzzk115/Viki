@@ -1,301 +1,303 @@
 {
-  "date": "2026-09-09",
+  "date": "2026-09-10",
   "items": [
     {
-      "id": "b394cdce8114",
+      "id": "036dead999d8",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Yuri Gagarin",
-      "url": "https://simple.wikipedia.org/wiki/Yuri_Gagarin",
-      "summary": "Yuri Alexeyevich Gagarin was a Soviet and Russian cosmonaut (astronaut). He was the first person to travel into space.",
+      "title": "Goran Paskaljević",
+      "url": "https://simple.wikipedia.org/wiki/Goran_Paskaljevi%C4%87",
+      "summary": "Goran Paskaljević was a Serbian-French movie director. He was born in Belgrade.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "6d0ad4ecd484",
+      "id": "9c2767176ef4",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "University of Alabama",
-      "url": "https://simple.wikipedia.org/wiki/University_of_Alabama",
-      "summary": "The University of Alabama (UA) is a university in the U.S. state of Alabama. The University of Alabama is in the city of Tuscaloosa. People can usually just say Alabama or UA for short when they are talking about the university.",
+      "title": "Peachland",
+      "url": "https://simple.wikipedia.org/wiki/Peachland",
+      "summary": "Peachland is a district municipality in the province of British Columbia, Canada. It is located in the Central Okanagan regional district.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "bee62d297216",
+      "id": "da868ab08df1",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Muse – Meta’s personal AI agent",
-      "url": "https://ai.meta.com/muse/",
+      "title": "iPhone Duo",
+      "url": "https://www.apple.com/iphone-duo/",
       "summary": "",
-      "author": "yks",
-      "published": "2026-09-08",
+      "author": "thecosmicfrog",
+      "published": "2026-09-09",
       "tags": [
-        "▲ 440"
+        "▲ 1083"
       ]
     },
     {
-      "id": "d10a3fd68ee1",
+      "id": "8c0d9de43541",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Tension wood: A 'muscle' that can both bend and straighten plants",
-      "url": "https://phys.org/news/2026-09-trees-muscle-posture-newly-role.html",
-      "summary": "",
-      "author": "mdp2021",
-      "published": "2026-09-03",
+      "title": "Show HN: What if the speed of light was 5 km/h?",
+      "url": "https://rivendell.dmitrybrant.com/relativity/",
+      "summary": "I've always wanted to make a visualization where the speed of light was scaled down to human speeds, so that we could intuit relativistic effects with everyday objects. Here is the first version of it!",
+      "author": "dmitrybrant",
+      "published": "2026-09-10",
       "tags": [
-        "▲ 82"
+        "▲ 175"
       ]
     },
     {
-      "id": "6d05cbe635d4",
+      "id": "9a2757cb9d4a",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Navier-Stokes – Tristan Buckmaster [pdf]",
-      "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+      "title": "Version Control Second Coming",
+      "url": "https://psantosl.github.io/posts/version-control-second-coming/",
       "summary": "",
-      "author": "procedurecall",
-      "published": "2026-09-08",
+      "author": "bananaboy",
+      "published": "2026-09-07",
       "tags": [
-        "▲ 1506"
+        "▲ 40"
       ]
     },
     {
-      "id": "00ea837cb76d",
+      "id": "6cd77879a668",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Researchers Spot Fake Ancient Pottery Using the Earth's Magnetic Field",
-      "url": "https://www.smithsonianmag.com/smart-news/researchers-determine-how-to-spot-fake-ancient-pottery-using-the-earths-magnetic-field-180989441/",
+      "title": "ESP32 Bit Pirate Hardware Hacking Kit with Web Tools That Speaks Every Protocol",
+      "url": "https://geo-tp.github.io/ESP32-Bit-Pirate/",
       "summary": "",
-      "author": "cisc",
-      "published": "2026-09-05",
+      "author": "geotp",
+      "published": "2026-09-06",
+      "tags": [
+        "▲ 59"
+      ]
+    },
+    {
+      "id": "d59e00a72362",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "All grown-ups were once children… but only few of them remember it",
+      "url": "https://mathstodon.xyz/@tao/117244102901892965",
+      "summary": "",
+      "author": "yurivish",
+      "published": "2026-09-10",
       "tags": [
         "▲ 18"
       ]
     },
     {
-      "id": "3f7faa570ce6",
+      "id": "8ef59f4ca466",
       "category": "tech",
       "source": "Hacker News",
-      "title": "How to build a printer",
-      "url": "https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/",
+      "title": "Shopify acquires Tailwind",
+      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
       "summary": "",
-      "author": "cat-whisperer",
-      "published": "2026-09-08",
+      "author": "EdwinHoksberg",
+      "published": "2026-09-09",
       "tags": [
-        "▲ 245"
+        "▲ 976"
       ]
     },
     {
-      "id": "bc39e137c953",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "AlphaGenome Atlas: a high-resolution map of human DNA",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
-      "summary": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-... https://deepmind.google.com/science/alphagenome/atlas",
-      "author": "utiiiD",
-      "published": "2026-09-08",
-      "tags": [
-        "▲ 535"
-      ]
-    },
-    {
-      "id": "e9c2b1211e0b",
+      "id": "22a16e43814d",
       "category": "tech",
       "source": "DEV Community",
-      "title": "What to Check When Reviewing AI-Generated UI",
-      "url": "https://dev.to/janarthanan_soundararajan/what-to-check-when-reviewing-ai-generated-ui-h28",
-      "summary": "AI can help us build a form, a modal, or a dashboard quickly. The result may look good. The inputs accept text. The buttons respond. The layout fits the screen. But before merging the code, there is another question to ask: Does the UI work well beyond the happy path? Some detai…",
-      "author": "Janarthanan Soundararajan (Jana)",
-      "published": "Wed, 09 Sep 2026 06:05:57 +0000",
+      "title": "The Future of Smart Living in 2026:",
+      "url": "https://dev.to/offerszy_offrerszy_ef9d7a/the-future-of-smart-living-in-2026-3jog",
+      "summary": "The Future of Smart Living in 2026: How Technology, Finance, Health, and Travel Are Changing Everyday Life In 2026, technology is no longer limited to smartphones, laptops, or workplaces. It has become an essential part of how we manage money, learn new skills, travel the world,…",
+      "author": "offerszy offrerszy",
+      "published": "Thu, 10 Sep 2026 05:58:38 +0000",
       "tags": [
         "ai",
         "webdev",
         "programming",
-        "react"
+        "automation"
       ]
     },
     {
-      "id": "cafa020618de",
+      "id": "ab45f083d7d3",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Optimizing CI/CD Pipelines for…",
-      "url": "https://dev.to/norviktech/optimizing-cicd-pipelines-for-3kd1",
-      "summary": "Originally published at norvik.tech Introduction Explore how to enhance CI/CD pipelines to improve development speed and reliability. Deep technical insights for teams. Understanding CI/CD Pipelines: A Technical Overview CI/CD pipelines are essential frameworks in modern softwar…",
-      "author": "Norvik Tech",
-      "published": "Wed, 09 Sep 2026 06:05:56 +0000",
-      "tags": [
-        "webdev",
-        "cicd",
-        "continuousintegratio",
-        "continuousdeployment"
-      ]
-    },
-    {
-      "id": "8daca8cd0d92",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "I made an API that has no signup, because the payment is the login",
-      "url": "https://dev.to/keitaemsden/i-made-an-api-that-has-no-signup-because-the-payment-is-the-login-4ddn",
-      "summary": "I wanted an agent of mine to resolve an Australian company by its ABN. That is a solved problem. There are several APIs that do it and they are cheap. The agent could not use the ones I found. The price was never the blocker. The signup was. Each of them wanted an email address,…",
-      "author": "Keita Emsden",
-      "published": "Wed, 09 Sep 2026 06:03:15 +0000",
-      "tags": [
-        "api",
-        "webdev",
-        "ai",
-        "blockchain"
-      ]
-    },
-    {
-      "id": "29375d73b132",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Benefits of Snapchat Accounts: Ephemeral Identity, Creativity, and Connection in the Digital Age",
-      "url": "https://dev.to/localpvashop23/benefits-of-snapchat-accounts-ephemeral-identity-creativity-and-connection-in-the-digital-age-1ppp",
-      "summary": "Introduction In the ever‑changing landscape of social media, Snapchat accounts stand out for their emphasis on spontaneity, creativity, and privacy. Launched in 2011, Snapchat revolutionized digital communication by introducing disappearing messages and stories, reshaping how pe…",
-      "author": "Buy Old Gmail Accounts",
-      "published": "Wed, 09 Sep 2026 06:02:11 +0000",
+      "title": "How Video Analytics Turns Retail CCTV Into Customer Intelligence",
+      "url": "https://dev.to/enalytix/how-video-analytics-turns-retail-cctv-into-customer-intelligence-57e4",
+      "summary": "Retail stores already have one of the most valuable sources of physical-world data: cameras. However, conventional CCTV primarily helps security teams review events after they happen. With AI-powered video analytics, the same camera infrastructure can potentially provide operati…",
+      "author": "Enalytix",
+      "published": "Thu, 10 Sep 2026 05:46:16 +0000",
       "tags": [
         "ai",
-        "webdev"
+        "webdev",
+        "programming",
+        "productivity"
       ]
     },
     {
-      "id": "d0c660e493e7",
+      "id": "304423707121",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Site Reliability Engineering Course | SRE Course Online",
+      "url": "https://dev.to/rakesh_visualpath_9eb20ee/site-reliability-engineering-course-sre-course-online-jef",
+      "summary": "How Can Teams Reduce Downtime with Site Reliability Engineering? Introduction Reduce Downtime is a key goal for teams that manage modern software systems. Even a short service outage can affect users, business operations, and trust. Site Reliability Engineering Training helps le…",
+      "author": "rakesh visualpath",
+      "published": "Thu, 10 Sep 2026 05:45:45 +0000",
+      "tags": [
+        "ai",
+        "webdev",
+        "programming",
+        "productivity"
+      ]
+    },
+    {
+      "id": "ae4c49c51bbf",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Learning Website Deployment with Tencent EdgeOne Makers, It’s Actually Fun!",
+      "url": "https://dev.to/nabila_sistiani_a6fccafe2/learning-website-deployment-with-tencent-edgeone-makers-its-actually-fun-124n",
+      "summary": "Learning web development is not only about creating a website or writing code. After finishing a project, there is another thing that makes me curious: how can I make my website accessible online? As a student who is currently learning about technology, I am still exploring many…",
+      "author": "nabila sistiani",
+      "published": "Thu, 10 Sep 2026 05:40:57 +0000",
+      "tags": [
+        "webdev",
+        "development",
+        "cloud",
+        "beginners"
+      ]
+    },
+    {
+      "id": "2bd949583cf7",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Agnosticism",
-      "url": "https://en.wikipedia.org/wiki/Agnosticism",
-      "summary": "Agnosticism is a position that questions the existence of God or the divine. On a psychological level, it is a personal attitude that suspends judgment, withholding both belief and disbelief. In philosophy, agnosticism is often treated as a general claim stating that God's exist…",
+      "title": "Yugoslav torpedo boat T6",
+      "url": "https://en.wikipedia.org/wiki/Yugoslav_torpedo_boat_T6",
+      "summary": "T6 was a sea-going torpedo boat that was operated by the Royal Yugoslav Navy between 1921 and 1941. Originally 93 F, a 250t-class torpedo boat of the Austro-Hungarian Navy built in 1915–1916, she was armed with two Škoda 66 mm (2.6 in) guns and four 450 mm (17.7 in) torpedo tube…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "93271b6b281a",
+      "id": "7d0d4d3f6bdb",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US strikes Iranian oil tankers as Tehran targets American base in Jordan",
-      "url": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
-      "summary": "Oil prices edged closer to $100 a barrel after an escalation in the tit-for-tat strikes between the US and Iran.",
-      "published": "Wed, 09 Sep 2026 04:26:38 GMT",
+      "title": "Iran war won't end until after crucial November elections, says Trump",
+      "url": "https://www.bbc.co.uk/news/articles/c5ydld0gykpo?at_medium=RSS&at_campaign=rss",
+      "summary": "The president also said oil prices won't come down until after the November races, claiming without evidence that Iran wants to impact the election.",
+      "published": "Thu, 10 Sep 2026 05:56:38 GMT",
       "tags": []
     },
     {
-      "id": "93750ee7c1a8",
+      "id": "c4e9a534ed7d",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Paul Adams: British-Israeli relations at lowest ebb in decades",
-      "url": "https://www.bbc.co.uk/news/articles/c5ydlex9yn3o?at_medium=RSS&at_campaign=rss",
-      "summary": "Israel's response to London's trade ban with Israeli settlements in the occupied West Bank shows how important this moment is.",
-      "published": "Tue, 08 Sep 2026 21:46:31 GMT",
+      "title": "Trump pledges $5,000 to every American - and other takeaways from Republican midterms convention",
+      "url": "https://www.bbc.co.uk/news/articles/cg7kjlzlev1o?at_medium=RSS&at_campaign=rss",
+      "summary": "He covered many of the subjects he has returned to time and again - with a few surprises thrown in.",
+      "published": "Thu, 10 Sep 2026 04:07:44 GMT",
       "tags": []
     },
     {
-      "id": "0e9b96493399",
+      "id": "9b7633b8584a",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US slaps import ban on Canadian alcohol, motorbikes and other goods",
-      "url": "https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss",
-      "summary": "It is the latest strike in a long trade war, and comes as Canadian counter-tariffs on US goods come into force.",
-      "published": "Wed, 09 Sep 2026 03:03:32 GMT",
+      "title": "Five dead and 86 missing as 'heartbreaking' fire breaks out on Philippines ferry",
+      "url": "https://www.bbc.co.uk/news/articles/cy4zd4dn9n9o?at_medium=RSS&at_campaign=rss",
+      "summary": "The fire broke out as the vessel nearing its destination at the tourist hotspot of Coron in Palawan.",
+      "published": "Thu, 10 Sep 2026 04:08:07 GMT",
       "tags": []
     },
     {
-      "id": "61d9c17f80cd",
+      "id": "710026623b8e",
       "category": "news",
       "source": "BBC 世界",
-      "title": "'Constantly on my mind' - 9/11 agony endures for bereaved, 25 years on",
-      "url": "https://www.bbc.co.uk/news/articles/clyrjw1yj75o?at_medium=RSS&at_campaign=rss",
-      "summary": "As the 25th anniversary approaches, the wait for the alleged mastermind of the attack to be put on trial goes on.",
-      "published": "Tue, 08 Sep 2026 23:11:32 GMT",
+      "title": "Spanish intelligence warned of Ceuta mass crossing plans before surge",
+      "url": "https://www.bbc.co.uk/news/articles/ced7vj2gv82o?at_medium=RSS&at_campaign=rss",
+      "summary": "Declassified documents show Spanish and Moroccan authorities were alerted to social media calls for a mass migrant crossing the day before tens of thousands entered Ceuta.",
+      "published": "Wed, 09 Sep 2026 21:23:45 GMT",
       "tags": []
     },
     {
-      "id": "dc3eda17ca27",
+      "id": "eca0578fed48",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "LG TV shown scanning LAN for third-party phones and other devices",
-      "url": "https://arstechnica.com/gadgets/2026/09/lg-tv-shown-capable-of-tracking-user-activity-even-when-offline/",
-      "summary": "“It doesn’t cost a lot to store text forever.”",
-      "author": "Scharon Harding",
-      "published": "Tue, 08 Sep 2026 21:52:29 +0000",
-      "tags": [
-        "Tech",
-        "ads",
-        "LG",
-        "TVs"
-      ]
-    },
-    {
-      "id": "e883a47e5391",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "GOG brings back \"big box\" PC games, one printable template at a time",
-      "url": "https://arstechnica.com/gaming/2026/09/gog-brings-back-big-box-pc-games-one-printable-template-at-a-time/",
-      "summary": "Preservation \"goodies\" also includes downloadable 3D models for desktop perusal.",
-      "author": "Kyle Orland",
-      "published": "Tue, 08 Sep 2026 21:23:13 +0000",
-      "tags": [
-        "Gaming",
-        "big box",
-        "gog",
-        "packaging"
-      ]
-    },
-    {
-      "id": "bf8c2b1da340",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Why this month's Microsoft patch release is a doozy",
-      "url": "https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/",
-      "summary": "Security gnomes are pumping out patches ahead of an expected onslaught of AI-assisted attacks.",
+      "title": "4 groups caught using the same Chrome and Windows exploit kit",
+      "url": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
+      "summary": "A patch gap and the hastened pace of AI-based vulnerability discovery are likely contributors.",
       "author": "Dan Goodin",
-      "published": "Tue, 08 Sep 2026 21:11:46 +0000",
+      "published": "Wed, 09 Sep 2026 20:55:02 +0000",
       "tags": [
-        "AI",
         "Biz & IT",
         "Security",
-        "LLM"
+        "chrome",
+        "chromium"
       ]
     },
     {
-      "id": "f2dc1cc5833d",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "How to create a ‘forever paycheck’ without paying for an annuity",
-      "url": "https://www.marketwatch.com/story/how-to-create-a-forever-paycheck-without-paying-for-an-annuity-e5d171d3?mod=mw_rss_topstories",
-      "summary": "Jean Chatzky’s new book lays out several strategies for creating steady retirement income.",
-      "author": "Beth Pinsker",
-      "published": "Wed, 09 Sep 2026 02:20:00 GMT",
-      "tags": []
+      "id": "19322c230a99",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Europe may finally have found a space entrepreneur who is meeting the moment",
+      "url": "https://arstechnica.com/space/2026/09/as-europe-flounders-in-space-a-rising-french-star-may-show-the-way/",
+      "summary": "\"We will not be relevant without a massive rocket at a massive cadence.\"",
+      "author": "Eric Berger",
+      "published": "Wed, 09 Sep 2026 20:27:40 +0000",
+      "tags": [
+        "Space",
+        "helene huby",
+        "space",
+        "the exploration company"
+      ]
     },
     {
-      "id": "40cf4c73356f",
+      "id": "1fcac2698cde",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Six Chinese AI firms accused of aggressively copying US frontier models",
+      "url": "https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models/",
+      "summary": "US urges AI firms to ID, then secretly switch, Chinese users to less-capable models.",
+      "author": "Ashley Belanger",
+      "published": "Wed, 09 Sep 2026 20:06:28 +0000",
+      "tags": [
+        "AI",
+        "Policy",
+        "Artificial Intelligence",
+        "china"
+      ]
+    },
+    {
+      "id": "bfea02ed61d0",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Bombardier’s stock drops as the U.S.-Canada trade war intensifies. Here’s what Trump is targeting next.",
-      "url": "https://www.marketwatch.com/story/bombardiers-stock-drops-as-the-u-s-canada-trade-war-intensifies-heres-what-trump-may-target-next-b389065e?mod=mw_rss_topstories",
-      "summary": "Shares in Bombardier lost altitude Tuesday after President Donald Trump threatened to ban the Canadian aircraft manufacturer unless it makes new commitments to build in the U.S.",
+      "title": "Trump promises $5,000 checks if Republicans win the midterms. He also teased tariff and ‘DOGE’ dividends last year that never came.",
+      "url": "https://www.marketwatch.com/story/trump-promises-5-000-checks-if-republicans-win-the-midterms-but-he-also-promised-tariff-dividends-last-year-that-never-came-d062c602?mod=mw_rss_topstories",
+      "summary": "President Trump’s speech at his party’s midterm convention in Dallas comes as many analysts expect losses for Republicans in November’s elections due to voters’ frustrations with high prices.",
       "author": "Victor Reklaitis",
-      "published": "Wed, 09 Sep 2026 00:17:00 GMT",
+      "published": "Thu, 10 Sep 2026 03:00:00 GMT",
       "tags": []
     },
     {
-      "id": "0f0536f01bd1",
+      "id": "a44b2eca3eb6",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "How to invest in a booming stock market that’s way cheaper than the S&P 500",
-      "url": "https://www.marketwatch.com/story/how-to-invest-in-a-booming-stock-market-thats-way-cheaper-than-the-s-p-500-b2f5ef5d?mod=mw_rss_topstories",
-      "summary": "Poland’s reclassification as a developed economy from an emerging market opens it up for investment by many more investors.",
-      "author": "Philip van Doorn",
-      "published": "Tue, 08 Sep 2026 22:50:00 GMT",
+      "title": "Hunter Biden memecoin $LAPTOP loses 95% of market value just hours after launch",
+      "url": "https://www.marketwatch.com/story/hunter-bidens-memecoin-flops-falling-95-just-hours-after-launch-3e9307d0?mod=mw_rss_topstories",
+      "summary": "Investor appetite for memecoins has clearly not recovered, even as bitcoin prices have crept higher.",
+      "author": "Joseph Adinolfi",
+      "published": "Thu, 10 Sep 2026 02:04:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "25b3650e8266",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "Diesel prices hit another record high. If you’re shocked, wait until you see your grocery bill.",
+      "url": "https://www.marketwatch.com/story/diesel-prices-hit-another-record-high-if-youre-shocked-wait-until-you-see-your-grocery-bill-afee7076?mod=mw_rss_topstories",
+      "summary": "The most important price in America is one most drivers never pay — and it reaches the CPI, the Fed and the European Central Bank in the same week.",
+      "author": "Charlie Garcia",
+      "published": "Wed, 09 Sep 2026 22:51:00 GMT",
       "tags": []
     }
   ],
