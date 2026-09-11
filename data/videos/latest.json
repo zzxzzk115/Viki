@@ -1,6 +1,17 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "items": [
+    {
+      "id": "9818ebd3c2a0",
+      "platform": "youtube",
+      "videoId": "mOvtumfyjCs",
+      "title": "I Never Thought I’d See This Happen",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=mOvtumfyjCs",
+      "thumb": "https://i2.ytimg.com/vi/mOvtumfyjCs/hqdefault.jpg",
+      "published": "2026-09-10",
+      "category": "图形学"
+    },
     {
       "id": "ff7563162bf9",
       "platform": "youtube",
@@ -10,17 +21,6 @@
       "url": "https://www.youtube.com/watch?v=eVBJIUxv8N8",
       "thumb": "https://i2.ytimg.com/vi/eVBJIUxv8N8/hqdefault.jpg",
       "published": "2026-09-08",
-      "category": "图形学"
-    },
-    {
-      "id": "f14a8fc51934",
-      "platform": "youtube",
-      "videoId": "B3LXEW4Pc-w",
-      "title": "Claude Fable AI Is Much Stranger Than The Headlines Suggest",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=B3LXEW4Pc-w",
-      "thumb": "https://i3.ytimg.com/vi/B3LXEW4Pc-w/hqdefault.jpg",
-      "published": "2026-09-03",
       "category": "图形学"
     },
     {
@@ -46,6 +46,28 @@
       "category": "图形学"
     },
     {
+      "id": "18b3cac683f0",
+      "platform": "bilibili",
+      "videoId": "BV1th8b6zEqg",
+      "title": "GAMES Webinar 412-CAX专题-余宇轩-让AI生成可计算的三维实体",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV1th8b6zEqg",
+      "thumb": "https://i1.hdslb.com/bfs/archive/5dbad629ee5b5b656f2f5e0d28d47c55ae606e7a.jpg",
+      "published": "2026-08-23",
+      "category": "图形学"
+    },
+    {
+      "id": "425294b397bd",
+      "platform": "bilibili",
+      "videoId": "BV1th8b6zEBV",
+      "title": "GAMES Webinar 412-CAX专题-童话-Advances in grid-based all-hexahedral mesh generation",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV1th8b6zEBV",
+      "thumb": "https://i2.hdslb.com/bfs/archive/8550ad694a0522af45c1c18c34c046d5b6174460.jpg",
+      "published": "2026-08-23",
+      "category": "图形学"
+    },
+    {
       "id": "9fa31e74074c",
       "platform": "youtube",
       "videoId": "YRwtopFzRZ0",
@@ -65,28 +87,6 @@
       "url": "https://www.youtube.com/watch?v=sY_U3-ih4Bs",
       "thumb": "https://i4.ytimg.com/vi/sY_U3-ih4Bs/hqdefault.jpg",
       "published": "2022-05-05",
-      "category": "引擎"
-    },
-    {
-      "id": "74d5969623e3",
-      "platform": "bilibili",
-      "videoId": "BV1BTnxzKEVv",
-      "title": "2025.9月编程语言排行榜 C++、C、JAVA亚军之争异常激烈 Perl的火爆与人工智能无关",
-      "channel": "原子之音",
-      "url": "https://www.bilibili.com/video/BV1BTnxzKEVv",
-      "thumb": "https://i0.hdslb.com/bfs/archive/57a35f617d5a79a0ce357179e98382a0c2786185.jpg",
-      "published": "2025-09-26",
-      "category": "引擎"
-    },
-    {
-      "id": "20c78ca36141",
-      "platform": "bilibili",
-      "videoId": "BV1TXWVzZEx4",
-      "title": "虚幻中的C++: 输入系统(Input与Enhanced Input)",
-      "channel": "原子之音",
-      "url": "https://www.bilibili.com/video/BV1TXWVzZEx4",
-      "thumb": "https://i0.hdslb.com/bfs/archive/56b88c2f99c47fd48d8dd518d296fa8697902d72.jpg",
-      "published": "2025-09-20",
       "category": "引擎"
     },
     {
@@ -156,28 +156,6 @@
       "category": "CS"
     },
     {
-      "id": "81d7adf9faa1",
-      "platform": "bilibili",
-      "videoId": "BV1kybV6DE47",
-      "title": "软件仓库管理 [03-Raw/26生成式软件工程/NJU]",
-      "channel": "绿导师原谅你了",
-      "url": "https://www.bilibili.com/video/BV1kybV6DE47",
-      "thumb": "https://i1.hdslb.com/bfs/archive/68df1508fe220439d042badb972f99db90e57ff0.jpg",
-      "published": "2026-09-08",
-      "category": "CS"
-    },
-    {
-      "id": "35bb44d2c5e5",
-      "platform": "bilibili",
-      "videoId": "BV1CQt365EzW",
-      "title": "提示词工程 [02-Raw/26生成式软件工程/NJU]",
-      "channel": "绿导师原谅你了",
-      "url": "https://www.bilibili.com/video/BV1CQt365EzW",
-      "thumb": "https://i1.hdslb.com/bfs/archive/7cb300cfcc64cbaeb9c7bf74c41de28f3a558318.jpg",
-      "published": "2026-09-01",
-      "category": "CS"
-    },
-    {
       "id": "79c64a96a16f",
       "platform": "youtube",
       "videoId": "-VWZ3pDm94c",
@@ -200,6 +178,17 @@
       "category": "金融"
     },
     {
+      "id": "d1e75aea5af8",
+      "platform": "youtube",
+      "videoId": "iWUp2kMCv6o",
+      "title": "How Do Fossils Form?: Crash Course Geology #18",
+      "channel": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=iWUp2kMCv6o",
+      "thumb": "https://i2.ytimg.com/vi/iWUp2kMCv6o/hqdefault.jpg",
+      "published": "2026-09-10",
+      "category": "历史"
+    },
+    {
       "id": "741358dc1249",
       "platform": "youtube",
       "videoId": "mIIJd66Ycr8",
@@ -208,17 +197,6 @@
       "url": "https://www.youtube.com/watch?v=mIIJd66Ycr8",
       "thumb": "https://i2.ytimg.com/vi/mIIJd66Ycr8/hqdefault.jpg",
       "published": "2026-09-03",
-      "category": "历史"
-    },
-    {
-      "id": "bd6e39803bb9",
-      "platform": "youtube",
-      "videoId": "RYGRmYs40PU",
-      "title": "Let's Go on a Field Trip!",
-      "channel": "CrashCourse",
-      "url": "https://www.youtube.com/shorts/RYGRmYs40PU",
-      "thumb": "https://i3.ytimg.com/vi/RYGRmYs40PU/hqdefault.jpg",
-      "published": "2026-09-01",
       "category": "历史"
     },
     {
@@ -244,25 +222,69 @@
       "category": "历史"
     },
     {
-      "id": "a37d9958ff8f",
+      "id": "ad62a1790b36",
+      "platform": "bilibili",
+      "videoId": "BV1zLta68EQq",
+      "title": "大学士·图海：配享太庙，到底有多难？【康熙王朝】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1zLta68EQq",
+      "thumb": "https://i1.hdslb.com/bfs/archive/0746add8e947478cac56dacb70505bf5f2c0ebe6.jpg",
+      "published": "2026-08-31",
+      "category": "历史"
+    },
+    {
+      "id": "ce18bb4af2c4",
+      "platform": "bilibili",
+      "videoId": "BV1mS8t6qEGw",
+      "title": "唐伯虎：老天爷的戏弄，是江南才子的一生。【大明风华】【视频播客】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1mS8t6qEGw",
+      "thumb": "https://i1.hdslb.com/bfs/archive/6a8dcf8bc7f072183cf11b2391622f143f0deca2.jpg",
+      "published": "2026-08-23",
+      "category": "历史"
+    },
+    {
+      "id": "b806d6653432",
+      "platform": "bilibili",
+      "videoId": "BV12RYx6TE9r",
+      "title": "告别伊玛目  伊朗篇（终）",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV12RYx6TE9r",
+      "thumb": "https://i1.hdslb.com/bfs/archive/78b3aa4466a8e541c8191498d2e7dfa3bd6833fb.jpg",
+      "published": "2026-09-11",
+      "category": "历史"
+    },
+    {
+      "id": "6b536c03812b",
+      "platform": "bilibili",
+      "videoId": "BV1bHtd6CESR",
+      "title": "天 雷 滚 滚 纽 约 城【神奇组织53】",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV1bHtd6CESR",
+      "thumb": "https://i2.hdslb.com/bfs/archive/8136c66675bf9b68ac93c4473d9c34b801d005dd.jpg",
+      "published": "2026-09-04",
+      "category": "历史"
+    },
+    {
+      "id": "72dfcaad872a",
       "platform": "youtube",
-      "videoId": "ScyumiPXca8",
-      "title": "Transplanted pig kidney works inside patient for record nine months | Learning English from the News",
+      "videoId": "WFF1VbE-E3A",
+      "title": "How to understand English conversations at natural speed",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=ScyumiPXca8",
-      "thumb": "https://i4.ytimg.com/vi/ScyumiPXca8/hqdefault.jpg",
-      "published": "2026-09-09",
+      "url": "https://www.youtube.com/watch?v=WFF1VbE-E3A",
+      "thumb": "https://i4.ytimg.com/vi/WFF1VbE-E3A/hqdefault.jpg",
+      "published": "2026-09-10",
       "category": "英语"
     },
     {
-      "id": "ada6e46c9a94",
+      "id": "1f54732e452f",
       "platform": "youtube",
-      "videoId": "3r2jQtj1w9Y",
-      "title": "‘I will lose my weight’– Fix this sentence! #shorts",
+      "videoId": "-XcALxwXJVY",
+      "title": "Can apps teach you a language? ⏲️ 6 Minute English",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/shorts/3r2jQtj1w9Y",
-      "thumb": "https://i4.ytimg.com/vi/3r2jQtj1w9Y/hqdefault.jpg",
-      "published": "2026-09-09",
+      "url": "https://www.youtube.com/watch?v=-XcALxwXJVY",
+      "thumb": "https://i2.ytimg.com/vi/-XcALxwXJVY/hqdefault.jpg",
+      "published": "2026-09-10",
       "category": "英语"
     },
     {
@@ -291,21 +313,20 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "图形学 · 512313464: 0 条",
+    "图形学 · 512313464: 2 条",
     "引擎 · @TheCherno: 2 条",
-    "引擎 · 437860379: 2 条",
+    "Bilibili 437860379: code=-352 风控校验失败",
+    "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
     "CS · 1567748478: 2 条",
-    "CS · 202224425: 2 条",
+    "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 2 条",
-    "Bilibili 520819684: code=-352 风控校验失败",
     "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
-    "历史 · 11646119: 0 条",
-    "Bilibili 23947287: code=-352 风控校验失败",
-    "历史 · 23947287: 0 条",
+    "历史 · 11646119: 2 条",
+    "历史 · 23947287: 2 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
   ]
