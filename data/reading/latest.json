@@ -1,133 +1,117 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "items": [
     {
-      "id": "036dead999d8",
+      "id": "ed9d4b795dc2",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Goran Paskaljević",
-      "url": "https://simple.wikipedia.org/wiki/Goran_Paskaljevi%C4%87",
-      "summary": "Goran Paskaljević was a Serbian-French movie director. He was born in Belgrade.",
+      "title": "Silkworm",
+      "url": "https://simple.wikipedia.org/wiki/Silkworm",
+      "summary": "The silkworm is the larva or caterpillar of the Bombyx mori moth. Silk has been made for at least 5000 years in China. The moth is important because it makes silk. It is entirely dependent on humans, and it no longer lives in the wild. Silkworms eat mulberry leaves, and are nati…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "9c2767176ef4",
+      "id": "9a38bcd198e9",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Peachland",
-      "url": "https://simple.wikipedia.org/wiki/Peachland",
-      "summary": "Peachland is a district municipality in the province of British Columbia, Canada. It is located in the Central Okanagan regional district.",
+      "title": "Wim Jansen",
+      "url": "https://simple.wikipedia.org/wiki/Wim_Jansen",
+      "summary": "Wilhelmus Marinus Antonius Jansen was a Dutch professional football player and manager. As a midfielder or defender, he spent most of his career at Feyenoord, winning honours including the European Cup in 1970. He earned 65 international caps with the Dutch national team and pla…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "da868ab08df1",
+      "id": "e0bea100c91b",
       "category": "tech",
       "source": "Hacker News",
-      "title": "iPhone Duo",
-      "url": "https://www.apple.com/iphone-duo/",
+      "title": "Shopify is moving from React Native back to Swift and Kotlin",
+      "url": "https://shopify.engineering/back-to-native",
       "summary": "",
-      "author": "thecosmicfrog",
-      "published": "2026-09-09",
-      "tags": [
-        "▲ 1083"
-      ]
-    },
-    {
-      "id": "8c0d9de43541",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Show HN: What if the speed of light was 5 km/h?",
-      "url": "https://rivendell.dmitrybrant.com/relativity/",
-      "summary": "I've always wanted to make a visualization where the speed of light was scaled down to human speeds, so that we could intuit relativistic effects with everyday objects. Here is the first version of it!",
-      "author": "dmitrybrant",
+      "author": "fnthawar2",
       "published": "2026-09-10",
       "tags": [
-        "▲ 175"
+        "▲ 949"
       ]
     },
     {
-      "id": "9a2757cb9d4a",
+      "id": "4330d272b635",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Version Control Second Coming",
-      "url": "https://psantosl.github.io/posts/version-control-second-coming/",
+      "title": "The little holes in your bread are telling you something",
+      "url": "https://edconway.substack.com/p/the-little-holes-in-your-bread-are",
       "summary": "",
-      "author": "bananaboy",
-      "published": "2026-09-07",
+      "author": "baud147258",
+      "published": "2026-09-08",
       "tags": [
-        "▲ 40"
+        "▲ 27"
       ]
     },
     {
-      "id": "6cd77879a668",
+      "id": "fe93b4954af2",
       "category": "tech",
       "source": "Hacker News",
-      "title": "ESP32 Bit Pirate Hardware Hacking Kit with Web Tools That Speaks Every Protocol",
-      "url": "https://geo-tp.github.io/ESP32-Bit-Pirate/",
+      "title": "Don't let anyone take away your big box of cables",
+      "url": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
       "summary": "",
-      "author": "geotp",
-      "published": "2026-09-06",
-      "tags": [
-        "▲ 59"
-      ]
-    },
-    {
-      "id": "d59e00a72362",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "All grown-ups were once children… but only few of them remember it",
-      "url": "https://mathstodon.xyz/@tao/117244102901892965",
-      "summary": "",
-      "author": "yurivish",
+      "author": "Brajeshwar",
       "published": "2026-09-10",
       "tags": [
-        "▲ 18"
+        "▲ 435"
       ]
     },
     {
-      "id": "8ef59f4ca466",
+      "id": "cf1d2b81fef8",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Shopify acquires Tailwind",
-      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+      "title": "OpenAI Agents API",
+      "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
       "summary": "",
-      "author": "EdwinHoksberg",
-      "published": "2026-09-09",
+      "author": "aquir",
+      "published": "2026-09-10",
       "tags": [
-        "▲ 976"
+        "▲ 210"
       ]
     },
     {
-      "id": "22a16e43814d",
+      "id": "69669daef825",
       "category": "tech",
-      "source": "DEV Community",
-      "title": "The Future of Smart Living in 2026:",
-      "url": "https://dev.to/offerszy_offrerszy_ef9d7a/the-future-of-smart-living-in-2026-3jog",
-      "summary": "The Future of Smart Living in 2026: How Technology, Finance, Health, and Travel Are Changing Everyday Life In 2026, technology is no longer limited to smartphones, laptops, or workplaces. It has become an essential part of how we manage money, learn new skills, travel the world,…",
-      "author": "offerszy offrerszy",
-      "published": "Thu, 10 Sep 2026 05:58:38 +0000",
+      "source": "Hacker News",
+      "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+      "url": "https://cognition.com/blog/swe-2",
+      "summary": "",
+      "author": "seelos",
+      "published": "2026-09-10",
       "tags": [
-        "ai",
-        "webdev",
-        "programming",
-        "automation"
+        "▲ 397"
       ]
     },
     {
-      "id": "ab45f083d7d3",
+      "id": "0a4249c49402",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Mexican student creates an acoustic fire extinguisher to put out fire in seconds",
+      "url": "https://www.upsocl.com/en/16-year-old-mexican-student-creates-an-acoustic-fire-extinguisher-that-uses-sound-waves-to-put-out-fires-in-seconds/",
+      "summary": "",
+      "author": "rguiscard",
+      "published": "2026-09-11",
+      "tags": [
+        "▲ 132"
+      ]
+    },
+    {
+      "id": "71a41ac5b955",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How Video Analytics Turns Retail CCTV Into Customer Intelligence",
-      "url": "https://dev.to/enalytix/how-video-analytics-turns-retail-cctv-into-customer-intelligence-57e4",
-      "summary": "Retail stores already have one of the most valuable sources of physical-world data: cameras. However, conventional CCTV primarily helps security teams review events after they happen. With AI-powered video analytics, the same camera infrastructure can potentially provide operati…",
-      "author": "Enalytix",
-      "published": "Thu, 10 Sep 2026 05:46:16 +0000",
+      "title": "Evaluating the Agentic Development Life Cycle: A Pragmatic Look at Next-Gen Engineering",
+      "url": "https://dev.to/cleopatrathegreat/evaluating-the-agentic-development-life-cycle-a-pragmatic-look-at-next-gen-engineering-425l",
+      "summary": "AI-generated code is everywhere. Developers write prompts, auto-complete lines, and spin up boilerplate applications in minutes. However, as an engineering leader overseeing software architectures in the US, I frequently see a sharp divergence between rapid prototype speed and e…",
+      "author": "Cleopatra",
+      "published": "Fri, 11 Sep 2026 06:01:35 +0000",
       "tags": [
         "ai",
         "webdev",
@@ -136,168 +120,182 @@
       ]
     },
     {
-      "id": "304423707121",
+      "id": "f536df183b26",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Site Reliability Engineering Course | SRE Course Online",
-      "url": "https://dev.to/rakesh_visualpath_9eb20ee/site-reliability-engineering-course-sre-course-online-jef",
-      "summary": "How Can Teams Reduce Downtime with Site Reliability Engineering? Introduction Reduce Downtime is a key goal for teams that manage modern software systems. Even a short service outage can affect users, business operations, and trust. Site Reliability Engineering Training helps le…",
-      "author": "rakesh visualpath",
-      "published": "Thu, 10 Sep 2026 05:45:45 +0000",
+      "title": "Affiliate Marketing vs. D2C Subscriptions: The Digital Nomad's Dilemma",
+      "url": "https://dev.to/kevin_jang_200b10826b3a5d/affiliate-marketing-vs-d2c-subscriptions-the-digital-nomads-dilemma-3b0g",
+      "summary": "Affiliate Marketing vs. D2C Subscriptions: The Digital Nomad's Dilemma Running a tech startup feels like a never-ending bug fix. You patch one hole, and another one appears. Founders deal with these struggles daily, no matter if they're in Davao or halfway around the world. But …",
+      "author": "Kevin Jang",
+      "published": "Fri, 11 Sep 2026 06:00:59 +0000",
+      "tags": [
+        "saas",
+        "webdev",
+        "productivity",
+        "startup"
+      ]
+    },
+    {
+      "id": "620619cc7bef",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "AI vs Traditional Recruitment: Which Is Better?",
+      "url": "https://dev.to/brajendra_visko_ac06e12f5/ai-vs-traditional-recruitment-which-is-better-60o",
+      "summary": "Recruitment has changed significantly in recent years. Traditional hiring methods are still widely used, but AI-powered recruitment is helping companies make the process faster and more efficient. So, which approach is better? Traditional Recruitment Traditional recruitment usua…",
+      "author": "Brajendra Visko",
+      "published": "Fri, 11 Sep 2026 05:59:03 +0000",
       "tags": [
         "ai",
-        "webdev",
-        "programming",
-        "productivity"
+        "career",
+        "hiring",
+        "webdev"
       ]
     },
     {
-      "id": "ae4c49c51bbf",
+      "id": "c2e8792c3bcb",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Learning Website Deployment with Tencent EdgeOne Makers, It’s Actually Fun!",
-      "url": "https://dev.to/nabila_sistiani_a6fccafe2/learning-website-deployment-with-tencent-edgeone-makers-its-actually-fun-124n",
-      "summary": "Learning web development is not only about creating a website or writing code. After finishing a project, there is another thing that makes me curious: how can I make my website accessible online? As a student who is currently learning about technology, I am still exploring many…",
-      "author": "nabila sistiani",
-      "published": "Thu, 10 Sep 2026 05:40:57 +0000",
+      "title": "Handling Tables That Split Across Page Breaks",
+      "url": "https://dev.to/simon_briggs_6607e52a5245/handling-tables-that-split-across-page-breaks-4a5m",
+      "summary": "You've written the extraction logic. It works beautifully on every test PDF you threw at it. Then a user uploads a real-world invoice with a 40-row table, and your parser hands back two separate tables instead of one, with the second missing its header row and the first missing …",
+      "author": "Simon Briggs",
+      "published": "Fri, 11 Sep 2026 05:55:39 +0000",
       "tags": [
-        "webdev",
-        "development",
-        "cloud",
-        "beginners"
+        "ai",
+        "programming",
+        "webdev"
       ]
     },
     {
-      "id": "2bd949583cf7",
+      "id": "3b73d12cf0a2",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Yugoslav torpedo boat T6",
-      "url": "https://en.wikipedia.org/wiki/Yugoslav_torpedo_boat_T6",
-      "summary": "T6 was a sea-going torpedo boat that was operated by the Royal Yugoslav Navy between 1921 and 1941. Originally 93 F, a 250t-class torpedo boat of the Austro-Hungarian Navy built in 1915–1916, she was armed with two Škoda 66 mm (2.6 in) guns and four 450 mm (17.7 in) torpedo tube…",
+      "title": "American Airlines Flight 11",
+      "url": "https://en.wikipedia.org/wiki/American_Airlines_Flight_11",
+      "summary": "American Airlines Flight 11 was a scheduled domestic transcontinental passenger flight that was hijacked by Mohamed Atta and four other al-Qaeda hijackers on the morning of September 11, 2001. It was one of four aircraft hijacked as part of the September 11 attacks. Atta deliber…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "7d0d4d3f6bdb",
+      "id": "5885c6bd56ff",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Iran war won't end until after crucial November elections, says Trump",
-      "url": "https://www.bbc.co.uk/news/articles/c5ydld0gykpo?at_medium=RSS&at_campaign=rss",
-      "summary": "The president also said oil prices won't come down until after the November races, claiming without evidence that Iran wants to impact the election.",
-      "published": "Thu, 10 Sep 2026 05:56:38 GMT",
+      "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
+      "url": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss",
+      "summary": "Mokha's capture would bring the Iran-backed group closer to controlling the Bab al-Mandab Strait waterway, a key shipping route.",
+      "published": "Thu, 10 Sep 2026 18:15:47 GMT",
       "tags": []
     },
     {
-      "id": "c4e9a534ed7d",
+      "id": "6bda194990ba",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump pledges $5,000 to every American - and other takeaways from Republican midterms convention",
-      "url": "https://www.bbc.co.uk/news/articles/cg7kjlzlev1o?at_medium=RSS&at_campaign=rss",
-      "summary": "He covered many of the subjects he has returned to time and again - with a few surprises thrown in.",
-      "published": "Thu, 10 Sep 2026 04:07:44 GMT",
+      "title": "Five killed and 67 injured in Russian strike on shopping centre, Ukraine says",
+      "url": "https://www.bbc.co.uk/news/articles/cpvelrmp1vmo?at_medium=RSS&at_campaign=rss",
+      "summary": "The attack in Pavlohrad city centre was the third Russian strike on a mall within days, local media report.",
+      "published": "Thu, 10 Sep 2026 22:36:02 GMT",
       "tags": []
     },
     {
-      "id": "9b7633b8584a",
+      "id": "3ca3e39dbda6",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Five dead and 86 missing as 'heartbreaking' fire breaks out on Philippines ferry",
-      "url": "https://www.bbc.co.uk/news/articles/cy4zd4dn9n9o?at_medium=RSS&at_campaign=rss",
-      "summary": "The fire broke out as the vessel nearing its destination at the tourist hotspot of Coron in Palawan.",
-      "published": "Thu, 10 Sep 2026 04:08:07 GMT",
+      "title": "Pilot warned Amazon cargo plane going too fast before deadly crash, data shows",
+      "url": "https://www.bbc.co.uk/news/articles/cj4jynv59ddo?at_medium=RSS&at_campaign=rss",
+      "summary": "One pilot told the other about the aircraft's \"excessive speed\" but received an uneven response even as alarms sounded.",
+      "published": "Thu, 10 Sep 2026 16:31:30 GMT",
       "tags": []
     },
     {
-      "id": "710026623b8e",
+      "id": "7270f17d48f0",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Spanish intelligence warned of Ceuta mass crossing plans before surge",
-      "url": "https://www.bbc.co.uk/news/articles/ced7vj2gv82o?at_medium=RSS&at_campaign=rss",
-      "summary": "Declassified documents show Spanish and Moroccan authorities were alerted to social media calls for a mass migrant crossing the day before tens of thousands entered Ceuta.",
-      "published": "Wed, 09 Sep 2026 21:23:45 GMT",
+      "title": "Israel's Netanyahu to sue newspaper over claim UAE warned him of 7 October attack",
+      "url": "https://www.bbc.co.uk/news/articles/c1kxwm870g1o?at_medium=RSS&at_campaign=rss",
+      "summary": "The paper said it stood by its reporting, after publishing extracts from a book where the claim appears.",
+      "published": "Thu, 10 Sep 2026 15:54:17 GMT",
       "tags": []
     },
     {
-      "id": "eca0578fed48",
+      "id": "f7d25b4f5a8b",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "4 groups caught using the same Chrome and Windows exploit kit",
-      "url": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
-      "summary": "A patch gap and the hastened pace of AI-based vulnerability discovery are likely contributors.",
-      "author": "Dan Goodin",
-      "published": "Wed, 09 Sep 2026 20:55:02 +0000",
+      "title": "Boy developed \"toasted skin\" condition from using a laptop every day",
+      "url": "https://arstechnica.com/health/2026/09/boy-developed-toasted-skin-condition-from-using-a-laptop-every-day/",
+      "summary": "Laptops don't usually get hot enough to burn—but they can still be harmful.",
+      "author": "Beth Mole",
+      "published": "Thu, 10 Sep 2026 22:16:05 +0000",
       "tags": [
-        "Biz & IT",
-        "Security",
-        "chrome",
-        "chromium"
+        "Health",
+        "bmj case reports",
+        "erythema ab igne",
+        "heat"
       ]
     },
     {
-      "id": "19322c230a99",
+      "id": "8bbba81b854d",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Europe may finally have found a space entrepreneur who is meeting the moment",
-      "url": "https://arstechnica.com/space/2026/09/as-europe-flounders-in-space-a-rising-french-star-may-show-the-way/",
-      "summary": "\"We will not be relevant without a massive rocket at a massive cadence.\"",
-      "author": "Eric Berger",
-      "published": "Wed, 09 Sep 2026 20:27:40 +0000",
+      "title": "LinkedIn beats \"BrowserGate\" lawsuits over scanning users' Chrome extensions",
+      "url": "https://arstechnica.com/tech-policy/2026/09/linkedin-beats-browsergate-lawsuits-over-scanning-users-chrome-extensions/",
+      "summary": "Judge tosses lawsuits, says plaintiffs didn't allege any real privacy violation.",
+      "author": "Jon Brodkin",
+      "published": "Thu, 10 Sep 2026 20:55:29 +0000",
+      "tags": [
+        "Policy",
+        "browsergate",
+        "LinkedIn"
+      ]
+    },
+    {
+      "id": "74bb69ef8216",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Europe will go it alone on Venus mission after NASA yanks radar instrument",
+      "url": "https://arstechnica.com/space/2026/09/europe-will-go-it-alone-on-venus-mission-after-nasa-yanks-radar-instrument/",
+      "summary": "Europe is looking inward, and perhaps to China, as the White House tries to cancel some NASA partnerships.",
+      "author": "Stephen Clark",
+      "published": "Thu, 10 Sep 2026 19:09:29 +0000",
       "tags": [
         "Space",
-        "helene huby",
-        "space",
-        "the exploration company"
+        "envision",
+        "europe",
+        "european space agency"
       ]
     },
     {
-      "id": "1fcac2698cde",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Six Chinese AI firms accused of aggressively copying US frontier models",
-      "url": "https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models/",
-      "summary": "US urges AI firms to ID, then secretly switch, Chinese users to less-capable models.",
-      "author": "Ashley Belanger",
-      "published": "Wed, 09 Sep 2026 20:06:28 +0000",
-      "tags": [
-        "AI",
-        "Policy",
-        "Artificial Intelligence",
-        "china"
-      ]
-    },
-    {
-      "id": "bfea02ed61d0",
+      "id": "2ad28becaf9e",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Trump promises $5,000 checks if Republicans win the midterms. He also teased tariff and ‘DOGE’ dividends last year that never came.",
-      "url": "https://www.marketwatch.com/story/trump-promises-5-000-checks-if-republicans-win-the-midterms-but-he-also-promised-tariff-dividends-last-year-that-never-came-d062c602?mod=mw_rss_topstories",
-      "summary": "President Trump’s speech at his party’s midterm convention in Dallas comes as many analysts expect losses for Republicans in November’s elections due to voters’ frustrations with high prices.",
-      "author": "Victor Reklaitis",
-      "published": "Thu, 10 Sep 2026 03:00:00 GMT",
+      "title": "Oracle’s AI bet pays off as cloud momentum helps drive a rosier forecast",
+      "url": "https://www.marketwatch.com/story/oracles-ai-bet-pays-off-as-cloud-momentum-helps-drive-a-rosier-forecast-cc41a4aa?mod=mw_rss_topstories",
+      "summary": "The company saw its backlog grow even more in the latest quarter.",
+      "author": "Hannah Pedone",
+      "published": "Fri, 11 Sep 2026 00:19:00 GMT",
       "tags": []
     },
     {
-      "id": "a44b2eca3eb6",
+      "id": "52efc89956a2",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Hunter Biden memecoin $LAPTOP loses 95% of market value just hours after launch",
-      "url": "https://www.marketwatch.com/story/hunter-bidens-memecoin-flops-falling-95-just-hours-after-launch-3e9307d0?mod=mw_rss_topstories",
-      "summary": "Investor appetite for memecoins has clearly not recovered, even as bitcoin prices have crept higher.",
-      "author": "Joseph Adinolfi",
-      "published": "Thu, 10 Sep 2026 02:04:00 GMT",
+      "title": "Adobe’s latest earnings leave Wall Street wanting more",
+      "url": "https://www.marketwatch.com/story/adobes-latest-earnings-leave-wall-street-wanting-more-137ea782?mod=mw_rss_topstories",
+      "summary": "“In this environment you can’t just meet” expectations, an analyst says",
+      "author": "William Gavin,Emily Bary",
+      "published": "Fri, 11 Sep 2026 00:17:00 GMT",
       "tags": []
     },
     {
-      "id": "25b3650e8266",
+      "id": "a6ef29e040d8",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Diesel prices hit another record high. If you’re shocked, wait until you see your grocery bill.",
-      "url": "https://www.marketwatch.com/story/diesel-prices-hit-another-record-high-if-youre-shocked-wait-until-you-see-your-grocery-bill-afee7076?mod=mw_rss_topstories",
-      "summary": "The most important price in America is one most drivers never pay — and it reaches the CPI, the Fed and the European Central Bank in the same week.",
-      "author": "Charlie Garcia",
-      "published": "Wed, 09 Sep 2026 22:51:00 GMT",
+      "title": "All the ways record-high diesel and rising gas prices are about to make your life more expensive — from commuting to grocery shopping",
+      "url": "https://www.marketwatch.com/story/all-the-ways-record-high-diesel-and-rising-gas-prices-are-about-to-make-your-life-more-expensive-from-commuting-to-grocery-shopping-2083fec3?mod=mw_rss_topstories",
+      "summary": "“Diesel touches everything in the economy,” one analyst says.",
+      "author": "Andrew Keshner",
+      "published": "Thu, 10 Sep 2026 22:54:00 GMT",
       "tags": []
     }
   ],
