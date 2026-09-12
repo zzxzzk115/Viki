@@ -1,301 +1,301 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-12",
   "items": [
     {
-      "id": "ed9d4b795dc2",
+      "id": "552cf0e1fa95",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Silkworm",
-      "url": "https://simple.wikipedia.org/wiki/Silkworm",
-      "summary": "The silkworm is the larva or caterpillar of the Bombyx mori moth. Silk has been made for at least 5000 years in China. The moth is important because it makes silk. It is entirely dependent on humans, and it no longer lives in the wild. Silkworms eat mulberry leaves, and are nati…",
+      "title": "Lee County, Alabama",
+      "url": "https://simple.wikipedia.org/wiki/Lee_County%2C_Alabama",
+      "summary": "Lee County is a county in the U.S. state of Alabama. As of the 2020 census, the population was 174,241. The county seat is Opelika, and the largest city is Auburn. The county is named for General Robert E. Lee (1807–1870), who served as General in Chief of the Armies of the Conf…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "9a38bcd198e9",
+      "id": "657bb8f9ec43",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Wim Jansen",
-      "url": "https://simple.wikipedia.org/wiki/Wim_Jansen",
-      "summary": "Wilhelmus Marinus Antonius Jansen was a Dutch professional football player and manager. As a midfielder or defender, he spent most of his career at Feyenoord, winning honours including the European Cup in 1970. He earned 65 international caps with the Dutch national team and pla…",
+      "title": "Frank Kameny",
+      "url": "https://simple.wikipedia.org/wiki/Frank_Kameny",
+      "summary": "Franklin Edward \"Frank\" Kameny was an important person in the American gay rights movement.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "e0bea100c91b",
+      "id": "ebc58e96076d",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Shopify is moving from React Native back to Swift and Kotlin",
-      "url": "https://shopify.engineering/back-to-native",
+      "title": "Google no longer provides direct URLs in search results",
+      "url": "https://www.autom.dev/blog/google-search-goto-links",
       "summary": "",
-      "author": "fnthawar2",
-      "published": "2026-09-10",
+      "author": "1e1a",
+      "published": "2026-09-12",
       "tags": [
-        "▲ 949"
+        "▲ 240"
       ]
     },
     {
-      "id": "4330d272b635",
+      "id": "630e5525d960",
       "category": "tech",
       "source": "Hacker News",
-      "title": "The little holes in your bread are telling you something",
-      "url": "https://edconway.substack.com/p/the-little-holes-in-your-bread-are",
+      "title": "Clay Mathematics Institute on the Navier-Stokes Problem",
+      "url": "https://www.claymath.org/news/navier-stokes-announcement/",
       "summary": "",
-      "author": "baud147258",
-      "published": "2026-09-08",
+      "author": "rvz",
+      "published": "2026-09-12",
       "tags": [
-        "▲ 27"
+        "▲ 52"
       ]
     },
     {
-      "id": "fe93b4954af2",
+      "id": "3f3cc1b7224e",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Don't let anyone take away your big box of cables",
-      "url": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
-      "summary": "",
-      "author": "Brajeshwar",
-      "published": "2026-09-10",
-      "tags": [
-        "▲ 435"
-      ]
-    },
-    {
-      "id": "cf1d2b81fef8",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "OpenAI Agents API",
-      "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
-      "summary": "",
-      "author": "aquir",
-      "published": "2026-09-10",
-      "tags": [
-        "▲ 210"
-      ]
-    },
-    {
-      "id": "69669daef825",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
-      "url": "https://cognition.com/blog/swe-2",
-      "summary": "",
-      "author": "seelos",
-      "published": "2026-09-10",
-      "tags": [
-        "▲ 397"
-      ]
-    },
-    {
-      "id": "0a4249c49402",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Mexican student creates an acoustic fire extinguisher to put out fire in seconds",
-      "url": "https://www.upsocl.com/en/16-year-old-mexican-student-creates-an-acoustic-fire-extinguisher-that-uses-sound-waves-to-put-out-fires-in-seconds/",
-      "summary": "",
-      "author": "rguiscard",
+      "title": "A misalignment of AI in mathematics",
+      "url": "https://mathandai.org/",
+      "summary": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm... https://www.economist.com/science-and-technology/2026/09/11/... , https://unwall.app/www.economist.com/science-and-technology/...",
+      "author": "meredydd",
       "published": "2026-09-11",
       "tags": [
-        "▲ 132"
+        "▲ 800"
       ]
     },
     {
-      "id": "71a41ac5b955",
+      "id": "46e8068ba501",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Usenet rewind archive search engine",
+      "url": "https://www.usenet-rewind.com/",
+      "summary": "",
+      "author": "cstadler1869",
+      "published": "2026-09-12",
+      "tags": [
+        "▲ 26"
+      ]
+    },
+    {
+      "id": "ddaf075d4dfc",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "I spent $220 on Google app ads and 60% of the installs were robots",
+      "url": "https://dayzlegame.com/blog/google-ads-bot-farm/",
+      "summary": "",
+      "author": "nickabe",
+      "published": "2026-09-11",
+      "tags": [
+        "▲ 427"
+      ]
+    },
+    {
+      "id": "af97bc6dbf1c",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Pandas Should Go Extinct",
+      "url": "https://eddie.codes/posts/pandas-should-go-extinct/",
+      "summary": "",
+      "author": "__eddie__",
+      "published": "2026-09-12",
+      "tags": [
+        "▲ 112"
+      ]
+    },
+    {
+      "id": "753abcd8e92b",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Evaluating the Agentic Development Life Cycle: A Pragmatic Look at Next-Gen Engineering",
-      "url": "https://dev.to/cleopatrathegreat/evaluating-the-agentic-development-life-cycle-a-pragmatic-look-at-next-gen-engineering-425l",
-      "summary": "AI-generated code is everywhere. Developers write prompts, auto-complete lines, and spin up boilerplate applications in minutes. However, as an engineering leader overseeing software architectures in the US, I frequently see a sharp divergence between rapid prototype speed and e…",
-      "author": "Cleopatra",
-      "published": "Fri, 11 Sep 2026 06:01:35 +0000",
+      "title": "Top 9 Sites To Buy, Old Github Accounts In This Year......",
+      "url": "https://dev.to/smmusapva12410/top-9-sites-to-buy-old-github-accounts-in-this-year-206c",
+      "summary": "Top 9 Sites To Buy, Old Github Accounts In This Year...... GitHub has become an important part of modern software development, education, open-source collaboration, and professional life. Students use it to publish assignments and build portfolios, We’re available 24/7 to assist…",
+      "author": "smmusapva",
+      "published": "Sat, 12 Sep 2026 05:54:07 +0000",
       "tags": [
-        "ai",
         "webdev",
         "programming",
-        "productivity"
-      ]
-    },
-    {
-      "id": "f536df183b26",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Affiliate Marketing vs. D2C Subscriptions: The Digital Nomad's Dilemma",
-      "url": "https://dev.to/kevin_jang_200b10826b3a5d/affiliate-marketing-vs-d2c-subscriptions-the-digital-nomads-dilemma-3b0g",
-      "summary": "Affiliate Marketing vs. D2C Subscriptions: The Digital Nomad's Dilemma Running a tech startup feels like a never-ending bug fix. You patch one hole, and another one appears. Founders deal with these struggles daily, no matter if they're in Davao or halfway around the world. But …",
-      "author": "Kevin Jang",
-      "published": "Fri, 11 Sep 2026 06:00:59 +0000",
-      "tags": [
-        "saas",
-        "webdev",
         "productivity",
-        "startup"
+        "javascript"
       ]
     },
     {
-      "id": "620619cc7bef",
+      "id": "0d40897425a9",
       "category": "tech",
       "source": "DEV Community",
-      "title": "AI vs Traditional Recruitment: Which Is Better?",
-      "url": "https://dev.to/brajendra_visko_ac06e12f5/ai-vs-traditional-recruitment-which-is-better-60o",
-      "summary": "Recruitment has changed significantly in recent years. Traditional hiring methods are still widely used, but AI-powered recruitment is helping companies make the process faster and more efficient. So, which approach is better? Traditional Recruitment Traditional recruitment usua…",
-      "author": "Brajendra Visko",
-      "published": "Fri, 11 Sep 2026 05:59:03 +0000",
+      "title": "Quality Digital Product Development Services to Accelerate Your Business",
+      "url": "https://dev.to/javapixastudio/quality-digital-product-development-services-to-accelerate-your-business-2fej",
+      "summary": "Building a digital product that actually moves the needle for a business requires more than just clean code or a polished interface. It demands a strategy that aligns technical execution with business objectives. When the development process lacks focus, teams end up building fe…",
+      "author": "Javapixa Creative Studio",
+      "published": "Sat, 12 Sep 2026 05:53:57 +0000",
       "tags": [
-        "ai",
-        "career",
-        "hiring",
-        "webdev"
+        "webdev",
+        "programming"
       ]
     },
     {
-      "id": "c2e8792c3bcb",
+      "id": "bcdfcf1f579a",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Handling Tables That Split Across Page Breaks",
-      "url": "https://dev.to/simon_briggs_6607e52a5245/handling-tables-that-split-across-page-breaks-4a5m",
-      "summary": "You've written the extraction logic. It works beautifully on every test PDF you threw at it. Then a user uploads a real-world invoice with a 40-row table, and your parser hands back two separate tables instead of one, with the second missing its header row and the first missing …",
-      "author": "Simon Briggs",
-      "published": "Fri, 11 Sep 2026 05:55:39 +0000",
+      "title": "Best 31 Sites to Buy Old GitHub Accounts (New & Aged)",
+      "url": "https://dev.to/smmusapva12410/best-31-sites-to-buy-old-github-accounts-new-aged-130l",
+      "summary": "Best 31 Sites to Buy Old GitHub Accounts (New & Aged) GitHub has become an important part of modern software development, education, open-source collaboration, and professional life. Students use it to publish assignments and build portfolios, We’re available 24/7 to assist you …",
+      "author": "smmusapva",
+      "published": "Sat, 12 Sep 2026 05:52:50 +0000",
       "tags": [
-        "ai",
+        "webdev",
         "programming",
-        "webdev"
+        "productivity",
+        "javascript"
       ]
     },
     {
-      "id": "3b73d12cf0a2",
+      "id": "8853029311c7",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "I read 500 'AI will replace developers' posts. They all make the same 3 mistakes.",
+      "url": "https://dev.to/infoinlet1/i-read-500-ai-will-replace-developers-posts-they-all-make-the-same-3-mistakes-3819",
+      "summary": "Last month I spent 30 days letting AI write 100% of my code — a real SaaS, in production, no line of app code typed by me. Then I did the thing you're supposed to do after an experiment: I went and read what everyone else thinks is happening. So I read the discourse. Not a few h…",
+      "author": "Info Inlet",
+      "published": "Sat, 12 Sep 2026 05:51:11 +0000",
+      "tags": [
+        "ai",
+        "webdev",
+        "programming",
+        "career"
+      ]
+    },
+    {
+      "id": "41b27cdeab62",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "American Airlines Flight 11",
-      "url": "https://en.wikipedia.org/wiki/American_Airlines_Flight_11",
-      "summary": "American Airlines Flight 11 was a scheduled domestic transcontinental passenger flight that was hijacked by Mohamed Atta and four other al-Qaeda hijackers on the morning of September 11, 2001. It was one of four aircraft hijacked as part of the September 11 attacks. Atta deliber…",
+      "title": "United States v. Moore (1973)",
+      "url": "https://en.wikipedia.org/wiki/United_States_v._Moore_(1973)",
+      "summary": "United States v. Moore, 486 F.2d 1139, was a case heard by the United States Court of Appeals for the District of Columbia Circuit in which the court ruled that narcotics addicts are not protected from prosecution for narcotics possession. Police officers investigating a drug tr…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "5885c6bd56ff",
+      "id": "dbb34488a1b8",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
-      "url": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss",
-      "summary": "Mokha's capture would bring the Iran-backed group closer to controlling the Bab al-Mandab Strait waterway, a key shipping route.",
-      "published": "Thu, 10 Sep 2026 18:15:47 GMT",
+      "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
+      "url": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
+      "summary": "Iraq removes a military commander and opens investigations into the attack that came from an area bordering Iran.",
+      "published": "Sat, 12 Sep 2026 04:43:10 GMT",
       "tags": []
     },
     {
-      "id": "6bda194990ba",
+      "id": "2a02efd44975",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Five killed and 67 injured in Russian strike on shopping centre, Ukraine says",
-      "url": "https://www.bbc.co.uk/news/articles/cpvelrmp1vmo?at_medium=RSS&at_campaign=rss",
-      "summary": "The attack in Pavlohrad city centre was the third Russian strike on a mall within days, local media report.",
-      "published": "Thu, 10 Sep 2026 22:36:02 GMT",
+      "title": "Tragic death of woman who testified against father in notorious mafia murder of mother",
+      "url": "https://www.bbc.co.uk/news/articles/c39mr81j2j1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Denise Cosco testified against the powerful 'Ndrangheta clan and her own father over the murder of her mother in Italy.",
+      "published": "Fri, 11 Sep 2026 20:34:29 GMT",
       "tags": []
     },
     {
-      "id": "3ca3e39dbda6",
+      "id": "a2ba9af87a7d",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Pilot warned Amazon cargo plane going too fast before deadly crash, data shows",
-      "url": "https://www.bbc.co.uk/news/articles/cj4jynv59ddo?at_medium=RSS&at_campaign=rss",
-      "summary": "One pilot told the other about the aircraft's \"excessive speed\" but received an uneven response even as alarms sounded.",
-      "published": "Thu, 10 Sep 2026 16:31:30 GMT",
+      "title": "Death toll from Philippines ferry fire climbs to 35, with dozens still missing",
+      "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Access to the burnt-out boat has been slowed by toxic fumes and lingering heat, the country's coast guard says.",
+      "published": "Sat, 12 Sep 2026 03:02:28 GMT",
       "tags": []
     },
     {
-      "id": "7270f17d48f0",
+      "id": "a95a11f55bd8",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Israel's Netanyahu to sue newspaper over claim UAE warned him of 7 October attack",
-      "url": "https://www.bbc.co.uk/news/articles/c1kxwm870g1o?at_medium=RSS&at_campaign=rss",
-      "summary": "The paper said it stood by its reporting, after publishing extracts from a book where the claim appears.",
-      "published": "Thu, 10 Sep 2026 15:54:17 GMT",
+      "title": "Passenger train derails in France leaving at least 44 injured",
+      "url": "https://www.bbc.co.uk/news/articles/c8d37dm8d8mo?at_medium=RSS&at_campaign=rss",
+      "summary": "France's transport minister says 180 passengers were on board the train operating the Rouen-Caen route in Normandy.",
+      "published": "Fri, 11 Sep 2026 21:25:32 GMT",
       "tags": []
     },
     {
-      "id": "f7d25b4f5a8b",
+      "id": "4fb7c0b8bdda",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Boy developed \"toasted skin\" condition from using a laptop every day",
-      "url": "https://arstechnica.com/health/2026/09/boy-developed-toasted-skin-condition-from-using-a-laptop-every-day/",
-      "summary": "Laptops don't usually get hot enough to burn—but they can still be harmful.",
+      "title": "Some satellite companies still have an appetite for boutique launch services",
+      "url": "https://arstechnica.com/space/2026/09/some-satellite-companies-still-have-an-appetite-for-boutique-launch-services/",
+      "summary": "\"Dedicated launch is pretty essential for us for most of our missions.\"",
+      "author": "Stephen Clark",
+      "published": "Fri, 11 Sep 2026 23:34:45 +0000",
+      "tags": [
+        "Science",
+        "Space",
+        "Astroscale",
+        "isar aerospace"
+      ]
+    },
+    {
+      "id": "d7b2f7525c3f",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Random rewards enrich classic game-theory insights",
+      "url": "https://arstechnica.com/science/2026/09/random-rewards-enrich-classic-game-theory-contests/",
+      "summary": "Simple games gain rich strategies in the face of noise.",
+      "author": "Chris Lee",
+      "published": "Fri, 11 Sep 2026 21:41:16 +0000",
+      "tags": [
+        "Science",
+        "Behavioral science",
+        "game theory",
+        "math"
+      ]
+    },
+    {
+      "id": "23758e513507",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Bouncy castle launches horrifying MRSA outbreak, striking 48 kids in Ireland",
+      "url": "https://arstechnica.com/health/2026/09/bouncy-castle-launches-horrifying-mrsa-outbreak-striking-48-kids-in-ireland/",
+      "summary": "The strain lurking in the inflatable structure was hypervirulent.",
       "author": "Beth Mole",
-      "published": "Thu, 10 Sep 2026 22:16:05 +0000",
+      "published": "Fri, 11 Sep 2026 21:14:26 +0000",
       "tags": [
         "Health",
-        "bmj case reports",
-        "erythema ab igne",
-        "heat"
+        "antibiotics",
+        "bouncy castle",
+        "drug resistance"
       ]
     },
     {
-      "id": "8bbba81b854d",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "LinkedIn beats \"BrowserGate\" lawsuits over scanning users' Chrome extensions",
-      "url": "https://arstechnica.com/tech-policy/2026/09/linkedin-beats-browsergate-lawsuits-over-scanning-users-chrome-extensions/",
-      "summary": "Judge tosses lawsuits, says plaintiffs didn't allege any real privacy violation.",
-      "author": "Jon Brodkin",
-      "published": "Thu, 10 Sep 2026 20:55:29 +0000",
-      "tags": [
-        "Policy",
-        "browsergate",
-        "LinkedIn"
-      ]
-    },
-    {
-      "id": "74bb69ef8216",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Europe will go it alone on Venus mission after NASA yanks radar instrument",
-      "url": "https://arstechnica.com/space/2026/09/europe-will-go-it-alone-on-venus-mission-after-nasa-yanks-radar-instrument/",
-      "summary": "Europe is looking inward, and perhaps to China, as the White House tries to cancel some NASA partnerships.",
-      "author": "Stephen Clark",
-      "published": "Thu, 10 Sep 2026 19:09:29 +0000",
-      "tags": [
-        "Space",
-        "envision",
-        "europe",
-        "european space agency"
-      ]
-    },
-    {
-      "id": "2ad28becaf9e",
+      "id": "4ddd84a82b45",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Oracle’s AI bet pays off as cloud momentum helps drive a rosier forecast",
-      "url": "https://www.marketwatch.com/story/oracles-ai-bet-pays-off-as-cloud-momentum-helps-drive-a-rosier-forecast-cc41a4aa?mod=mw_rss_topstories",
-      "summary": "The company saw its backlog grow even more in the latest quarter.",
-      "author": "Hannah Pedone",
-      "published": "Fri, 11 Sep 2026 00:19:00 GMT",
+      "title": "The Fed could raise interest rates three times. Here’s where the market could face the stiffest test.",
+      "url": "https://www.marketwatch.com/story/the-fed-could-raise-interest-rates-three-times-heres-where-the-market-could-face-the-stiffest-test-757872a1?mod=mw_rss_topstories",
+      "summary": "Economists note that the Fed historically has not been content to raise rates only once.",
+      "author": "Greg Robb,Joy Wiltermuth",
+      "published": "Fri, 11 Sep 2026 23:54:00 GMT",
       "tags": []
     },
     {
-      "id": "52efc89956a2",
+      "id": "2ce98fe64613",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Adobe’s latest earnings leave Wall Street wanting more",
-      "url": "https://www.marketwatch.com/story/adobes-latest-earnings-leave-wall-street-wanting-more-137ea782?mod=mw_rss_topstories",
-      "summary": "“In this environment you can’t just meet” expectations, an analyst says",
-      "author": "William Gavin,Emily Bary",
-      "published": "Fri, 11 Sep 2026 00:17:00 GMT",
+      "title": "This investment is safe from both Trump and the Democrats — and it pays 4.7%",
+      "url": "https://www.marketwatch.com/story/this-investment-is-safe-from-both-trump-and-the-democrats-and-it-pays-4-7-4b76c2f3?mod=mw_rss_topstories",
+      "summary": "There’s a safe haven hiding in plain sight.",
+      "author": "Brett Arends",
+      "published": "Fri, 11 Sep 2026 22:06:00 GMT",
       "tags": []
     },
     {
-      "id": "a6ef29e040d8",
+      "id": "b5b7aa89dda1",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "All the ways record-high diesel and rising gas prices are about to make your life more expensive — from commuting to grocery shopping",
-      "url": "https://www.marketwatch.com/story/all-the-ways-record-high-diesel-and-rising-gas-prices-are-about-to-make-your-life-more-expensive-from-commuting-to-grocery-shopping-2083fec3?mod=mw_rss_topstories",
-      "summary": "“Diesel touches everything in the economy,” one analyst says.",
-      "author": "Andrew Keshner",
-      "published": "Thu, 10 Sep 2026 22:54:00 GMT",
+      "title": "Marvell is sitting on an incredibly ‘sticky’ business that could help it unlock a $30 billion opportunity",
+      "url": "https://www.marketwatch.com/story/marvell-is-sitting-on-an-incredibly-sticky-business-that-could-help-it-unlock-a-30-billion-opportunity-caa6c83f?mod=mw_rss_topstories",
+      "summary": "Marvell is best known for making custom chips — but an analyst notes there’s arguably more potential in supporting components and optical networking.",
+      "author": "Britney Nguyen",
+      "published": "Fri, 11 Sep 2026 21:16:00 GMT",
       "tags": []
     }
   ],
