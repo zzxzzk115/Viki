@@ -1,188 +1,181 @@
 {
-  "date": "2026-09-13",
+  "date": "2026-09-12",
   "items": [
     {
-      "id": "0b09bdb823c1",
+      "id": "552cf0e1fa95",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Wake County, North Carolina",
-      "url": "https://simple.wikipedia.org/wiki/Wake_County%2C_North_Carolina",
-      "summary": "Wake County is a county in the U.S. state of North Carolina. As of 2020, 1,129,410 people lived there. Wake County has more people than any other county in North Carolina. The county seat is Raleigh, which is also the state capital. From 2005 to 2006, Wake County was the 9th fas…",
+      "title": "Lee County, Alabama",
+      "url": "https://simple.wikipedia.org/wiki/Lee_County%2C_Alabama",
+      "summary": "Lee County is a county in the U.S. state of Alabama. As of the 2020 census, the population was 174,241. The county seat is Opelika, and the largest city is Auburn. The county is named for General Robert E. Lee (1807–1870), who served as General in Chief of the Armies of the Conf…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "be7cd845309c",
+      "id": "657bb8f9ec43",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Manuela Carmena",
-      "url": "https://simple.wikipedia.org/wiki/Manuela_Carmena",
-      "summary": "Manuela Carmena Castrillo is a retired Spanish lawyer and judge. She was Mayor of Madrid from June 2015 to June 2019. She was a member of the General Council of the Judiciary.",
+      "title": "Frank Kameny",
+      "url": "https://simple.wikipedia.org/wiki/Frank_Kameny",
+      "summary": "Franklin Edward \"Frank\" Kameny was an important person in the American gay rights movement.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "942c4a03dcd9",
+      "id": "ebc58e96076d",
       "category": "tech",
       "source": "Hacker News",
-      "title": "The Interim Computer Museum",
-      "url": "https://icm.museum/",
+      "title": "Google no longer provides direct URLs in search results",
+      "url": "https://www.autom.dev/blog/google-search-goto-links",
       "summary": "",
-      "author": "mulmen",
-      "published": "2026-09-13",
-      "tags": [
-        "▲ 72"
-      ]
-    },
-    {
-      "id": "15de64b60e84",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Make your first edit to OpenStreetMap",
-      "url": "https://high5apps.github.io/josm-plugin-website-wizard/",
-      "summary": "",
-      "author": "juliantigler",
+      "author": "1e1a",
       "published": "2026-09-12",
       "tags": [
-        "▲ 409"
+        "▲ 240"
       ]
     },
     {
-      "id": "ae1c0b143270",
+      "id": "630e5525d960",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Why are AI agents lying, cheating and coordinating?",
-      "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+      "title": "Clay Mathematics Institute on the Navier-Stokes Problem",
+      "url": "https://www.claymath.org/news/navier-stokes-announcement/",
       "summary": "",
-      "author": "jonifico",
-      "published": "2026-09-13",
-      "tags": [
-        "▲ 72"
-      ]
-    },
-    {
-      "id": "16316487dc98",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
-      "url": "https://withspecific.com/benchmarks/real-swe",
-      "summary": "",
-      "author": "theanonymousone",
+      "author": "rvz",
       "published": "2026-09-12",
       "tags": [
-        "▲ 199"
+        "▲ 52"
       ]
     },
     {
-      "id": "849d8ab6c68f",
+      "id": "3f3cc1b7224e",
       "category": "tech",
       "source": "Hacker News",
-      "title": "I Made a Non-Wi-Fi Mitsubishi AC Smart with an ESP32",
-      "url": "https://medium.com/@ivangomezarnedo/how-i-added-a-non-wi-fi-mitsubishi-ac-to-home-assistant-22770661dd77",
-      "summary": "",
-      "author": "ichacas",
-      "published": "2026-09-10",
+      "title": "A misalignment of AI in mathematics",
+      "url": "https://mathandai.org/",
+      "summary": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm... https://www.economist.com/science-and-technology/2026/09/11/... , https://unwall.app/www.economist.com/science-and-technology/...",
+      "author": "meredydd",
+      "published": "2026-09-11",
       "tags": [
-        "▲ 36"
+        "▲ 800"
       ]
     },
     {
-      "id": "c63b548b0537",
+      "id": "46e8068ba501",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Nvidia is the central bank of AI",
-      "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
-      "summary": "https://archive.ph/kt50V",
-      "author": "tolugenius",
+      "title": "Usenet rewind archive search engine",
+      "url": "https://www.usenet-rewind.com/",
+      "summary": "",
+      "author": "cstadler1869",
       "published": "2026-09-12",
       "tags": [
-        "▲ 445"
+        "▲ 26"
       ]
     },
     {
-      "id": "a163100d3fb9",
+      "id": "ddaf075d4dfc",
       "category": "tech",
-      "source": "DEV Community",
-      "title": "252 affiliate programs, and 38% of the terms are not published",
-      "url": "https://dev.to/dave8172/252-affiliate-programs-and-38-of-the-terms-are-not-published-4fbl",
-      "summary": "I read the affiliate page of 252 developer and SaaS tools and recorded five terms for each one: commission rate, recurring or one-time, cookie window, minimum payout, and payout method. Every field carries the URL it came from and the date it was read. 483 of those 1,260 fields …",
-      "author": "Dave",
-      "published": "Sun, 13 Sep 2026 06:11:58 +0000",
+      "source": "Hacker News",
+      "title": "I spent $220 on Google app ads and 60% of the installs were robots",
+      "url": "https://dayzlegame.com/blog/google-ads-bot-farm/",
+      "summary": "",
+      "author": "nickabe",
+      "published": "2026-09-11",
       "tags": [
-        "marketing",
-        "data",
-        "webdev"
+        "▲ 427"
       ]
     },
     {
-      "id": "5f13983f24dc",
+      "id": "af97bc6dbf1c",
       "category": "tech",
-      "source": "DEV Community",
-      "title": "The Digital Key to Global Finance: Unlocking the Power of a Verified Skrill Account",
-      "url": "https://dev.to/localpvashop25/the-digital-key-to-global-finance-unlocking-the-power-of-a-verified-skrill-account-4dkl",
-      "summary": "Introduction In the modern financial landscape, digital wallets have become essential tools for freelancers, entrepreneurs, and everyday users. Among them, Skrill stands out as a versatile platform for online payments, money transfers, and international commerce. Yet the true po…",
-      "author": "Buy Old Gmail Accounts",
-      "published": "Sun, 13 Sep 2026 06:09:25 +0000",
+      "source": "Hacker News",
+      "title": "Pandas Should Go Extinct",
+      "url": "https://eddie.codes/posts/pandas-should-go-extinct/",
+      "summary": "",
+      "author": "__eddie__",
+      "published": "2026-09-12",
       "tags": [
-        "ai",
-        "webdev"
+        "▲ 112"
       ]
     },
     {
-      "id": "14e83e7e7f9f",
+      "id": "753abcd8e92b",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Mecka AI Approaches $500M Valu…",
-      "url": "https://dev.to/norviktech/mecka-ai-approaches-500m-valu-1186",
-      "summary": "Originally published at norvik.tech Introduction Explore the implications of Mecka AI's valuation surge and its impact on the AI landscape. A deep dive into technology and market trends. Understanding Mecka AI's Technology and Value Proposition Mecka AI is positioning itself as …",
-      "author": "Norvik Tech",
-      "published": "Sun, 13 Sep 2026 06:05:56 +0000",
+      "title": "Top 9 Sites To Buy, Old Github Accounts In This Year......",
+      "url": "https://dev.to/smmusapva12410/top-9-sites-to-buy-old-github-accounts-in-this-year-206c",
+      "summary": "Top 9 Sites To Buy, Old Github Accounts In This Year...... GitHub has become an important part of modern software development, education, open-source collaboration, and professional life. Students use it to publish assignments and build portfolios, We’re available 24/7 to assist…",
+      "author": "smmusapva",
+      "published": "Sat, 12 Sep 2026 05:54:07 +0000",
       "tags": [
         "webdev",
-        "meckaai",
-        "aivaluation",
-        "robottrainingdata"
+        "programming",
+        "productivity",
+        "javascript"
       ]
     },
     {
-      "id": "28b66f873ca3",
+      "id": "0d40897425a9",
       "category": "tech",
       "source": "DEV Community",
-      "title": "The Gateway to Global Payments: A Step‑by‑Step Guide to the Payoneer Verification Process",
-      "url": "https://dev.to/localpvashop25/the-gateway-to-global-payments-a-step-by-step-guide-to-the-payoneer-verification-process-ghh",
-      "summary": "Introduction In the digital economy, freelancers, entrepreneurs, and businesses rely on platforms that allow seamless international transactions. Payoneer has emerged as one of the most trusted solutions, enabling users to send and receive payments across borders. Yet before unl…",
-      "author": "Buy Old Gmail Accounts",
-      "published": "Sun, 13 Sep 2026 05:50:14 +0000",
+      "title": "Quality Digital Product Development Services to Accelerate Your Business",
+      "url": "https://dev.to/javapixastudio/quality-digital-product-development-services-to-accelerate-your-business-2fej",
+      "summary": "Building a digital product that actually moves the needle for a business requires more than just clean code or a polished interface. It demands a strategy that aligns technical execution with business objectives. When the development process lacks focus, teams end up building fe…",
+      "author": "Javapixa Creative Studio",
+      "published": "Sat, 12 Sep 2026 05:53:57 +0000",
       "tags": [
-        "ai",
-        "webdev"
+        "webdev",
+        "programming"
       ]
     },
     {
-      "id": "0f424de99808",
+      "id": "bcdfcf1f579a",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Best 31 Sites to Buy Old GitHub Accounts (New & Aged)",
+      "url": "https://dev.to/smmusapva12410/best-31-sites-to-buy-old-github-accounts-new-aged-130l",
+      "summary": "Best 31 Sites to Buy Old GitHub Accounts (New & Aged) GitHub has become an important part of modern software development, education, open-source collaboration, and professional life. Students use it to publish assignments and build portfolios, We’re available 24/7 to assist you …",
+      "author": "smmusapva",
+      "published": "Sat, 12 Sep 2026 05:52:50 +0000",
+      "tags": [
+        "webdev",
+        "programming",
+        "productivity",
+        "javascript"
+      ]
+    },
+    {
+      "id": "8853029311c7",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "I read 500 'AI will replace developers' posts. They all make the same 3 mistakes.",
+      "url": "https://dev.to/infoinlet1/i-read-500-ai-will-replace-developers-posts-they-all-make-the-same-3-mistakes-3819",
+      "summary": "Last month I spent 30 days letting AI write 100% of my code — a real SaaS, in production, no line of app code typed by me. Then I did the thing you're supposed to do after an experiment: I went and read what everyone else thinks is happening. So I read the discourse. Not a few h…",
+      "author": "Info Inlet",
+      "published": "Sat, 12 Sep 2026 05:51:11 +0000",
+      "tags": [
+        "ai",
+        "webdev",
+        "programming",
+        "career"
+      ]
+    },
+    {
+      "id": "41b27cdeab62",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Thomas Hardy (Royal Navy officer, died 1732)",
-      "url": "https://en.wikipedia.org/wiki/Thomas_Hardy_(Royal_Navy_officer%2C_died_1732)",
-      "summary": "Rear-Admiral Sir Thomas Hardy was a Royal Navy officer and politician. Having joined the navy sometime before 1688, Hardy was supported in his career by George Churchill, whom he served as first lieutenant during the Battle of Barfleur in 1692. Promoted to captain in 1693, Hardy…",
+      "title": "United States v. Moore (1973)",
+      "url": "https://en.wikipedia.org/wiki/United_States_v._Moore_(1973)",
+      "summary": "United States v. Moore, 486 F.2d 1139, was a case heard by the United States Court of Appeals for the District of Columbia Circuit in which the court ruled that narcotics addicts are not protected from prosecution for narcotics possession. Police officers investigating a drug tr…",
       "published": "",
       "tags": [
         "今日精选"
       ]
-    },
-    {
-      "id": "4a1f65fbb798",
-      "category": "news",
-      "source": "BBC 世界",
-      "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
-      "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
-      "summary": "The call comes amid growing concerns that AI models may become able to inflict serious damage worldwide.",
-      "published": "Sat, 12 Sep 2026 21:16:47 GMT",
-      "tags": []
     },
     {
       "id": "dbb34488a1b8",
@@ -191,44 +184,38 @@
       "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
       "url": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
       "summary": "Iraq removes a military commander and opens investigations into the attack that came from an area bordering Iran.",
-      "published": "Sat, 12 Sep 2026 12:15:50 GMT",
+      "published": "Sat, 12 Sep 2026 04:43:10 GMT",
       "tags": []
     },
     {
-      "id": "8cc83cc7debb",
+      "id": "2a02efd44975",
       "category": "news",
       "source": "BBC 世界",
-      "title": "They lost their jobs after posting about Charlie Kirk, but some have no regrets",
-      "url": "https://www.bbc.co.uk/news/articles/cj06jgl9qzlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Some people fired in the wake of Kirk's assassination have won big settlements from employers, others have had to start over from scratch.",
-      "published": "Sun, 13 Sep 2026 00:49:08 GMT",
+      "title": "Tragic death of woman who testified against father in notorious mafia murder of mother",
+      "url": "https://www.bbc.co.uk/news/articles/c39mr81j2j1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Denise Cosco testified against the powerful 'Ndrangheta clan and her own father over the murder of her mother in Italy.",
+      "published": "Fri, 11 Sep 2026 20:34:29 GMT",
       "tags": []
     },
     {
-      "id": "cd21a5daca06",
+      "id": "a2ba9af87a7d",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump's comments on a united Ireland may have targeted audience across the Atlantic",
-      "url": "https://www.bbc.co.uk/news/articles/cwyzppd1d5lo?at_medium=RSS&at_campaign=rss",
-      "summary": "Nobody could have predicted that today's main global headline would be Trump's desire to see a unified Ireland.",
-      "published": "Sat, 12 Sep 2026 21:25:28 GMT",
+      "title": "Death toll from Philippines ferry fire climbs to 35, with dozens still missing",
+      "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Access to the burnt-out boat has been slowed by toxic fumes and lingering heat, the country's coast guard says.",
+      "published": "Sat, 12 Sep 2026 03:02:28 GMT",
       "tags": []
     },
     {
-      "id": "55f997459685",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "I spent $4,000 on a robot dog from China",
-      "url": "https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china/",
-      "summary": "Unitree might be the world’s most important robotics company.",
-      "author": "Timothy B. Lee",
-      "published": "Sat, 12 Sep 2026 11:00:53 +0000",
-      "tags": [
-        "AI",
-        "Tech",
-        "china",
-        "chinese robots"
-      ]
+      "id": "a95a11f55bd8",
+      "category": "news",
+      "source": "BBC 世界",
+      "title": "Passenger train derails in France leaving at least 44 injured",
+      "url": "https://www.bbc.co.uk/news/articles/c8d37dm8d8mo?at_medium=RSS&at_campaign=rss",
+      "summary": "France's transport minister says 180 passengers were on board the train operating the Rouen-Caen route in Normandy.",
+      "published": "Fri, 11 Sep 2026 21:25:32 GMT",
+      "tags": []
     },
     {
       "id": "4fb7c0b8bdda",
@@ -263,36 +250,52 @@
       ]
     },
     {
-      "id": "58e45bfd8e53",
+      "id": "23758e513507",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Bouncy castle launches horrifying MRSA outbreak, striking 48 kids in Ireland",
+      "url": "https://arstechnica.com/health/2026/09/bouncy-castle-launches-horrifying-mrsa-outbreak-striking-48-kids-in-ireland/",
+      "summary": "The strain lurking in the inflatable structure was hypervirulent.",
+      "author": "Beth Mole",
+      "published": "Fri, 11 Sep 2026 21:14:26 +0000",
+      "tags": [
+        "Health",
+        "antibiotics",
+        "bouncy castle",
+        "drug resistance"
+      ]
+    },
+    {
+      "id": "4ddd84a82b45",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Why OpenAI’s Sam Altman says an IPO isn’t in the cards this year",
-      "url": "https://www.marketwatch.com/story/why-openais-sam-altman-says-an-ipo-isnt-in-the-cards-this-year-229de89c?mod=mw_rss_topstories",
-      "summary": "Concerns about AI safety have ramped up, and OpenAI’s CEO says now would be an ‘ill-advised’ time for the ChatGPT creator to go public",
-      "author": "Emily Bary",
-      "published": "Sat, 12 Sep 2026 21:50:00 GMT",
+      "title": "The Fed could raise interest rates three times. Here’s where the market could face the stiffest test.",
+      "url": "https://www.marketwatch.com/story/the-fed-could-raise-interest-rates-three-times-heres-where-the-market-could-face-the-stiffest-test-757872a1?mod=mw_rss_topstories",
+      "summary": "Economists note that the Fed historically has not been content to raise rates only once.",
+      "author": "Greg Robb,Joy Wiltermuth",
+      "published": "Fri, 11 Sep 2026 23:54:00 GMT",
       "tags": []
     },
     {
-      "id": "0cf785a6a48e",
+      "id": "2ce98fe64613",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Elon Musk backs Anthropic’s call to slow down AI progress before rogue bots take over the entire internet",
-      "url": "https://www.marketwatch.com/story/elon-musk-backs-anthropics-call-to-slow-down-ai-progress-before-rogue-bots-take-over-the-entire-internet-46f12d98?mod=mw_rss_topstories",
-      "summary": "Leaders of major AI companies say they agree with Anthropic CEO Dario Amodei, who just called for the tech industry to move more slowly with model development.",
-      "author": "Emily Bary",
-      "published": "Sat, 12 Sep 2026 17:20:00 GMT",
+      "title": "This investment is safe from both Trump and the Democrats — and it pays 4.7%",
+      "url": "https://www.marketwatch.com/story/this-investment-is-safe-from-both-trump-and-the-democrats-and-it-pays-4-7-4b76c2f3?mod=mw_rss_topstories",
+      "summary": "There’s a safe haven hiding in plain sight.",
+      "author": "Brett Arends",
+      "published": "Fri, 11 Sep 2026 22:06:00 GMT",
       "tags": []
     },
     {
-      "id": "953f199b649e",
+      "id": "b5b7aa89dda1",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘I still don’t have my MRI’: My health insurer canceled my plan without warning. Is that legal?",
-      "url": "https://www.marketwatch.com/story/i-still-dont-have-my-mri-my-health-insurer-canceled-my-plan-without-warning-is-that-legal-02143710?mod=mw_rss_topstories",
-      "summary": "“It wasn’t an ACA plan, but it was meaningfully cheaper than anything I could find on the ACA exchange.”",
-      "author": "Quentin Fottrell",
-      "published": "Sat, 12 Sep 2026 16:01:00 GMT",
+      "title": "Marvell is sitting on an incredibly ‘sticky’ business that could help it unlock a $30 billion opportunity",
+      "url": "https://www.marketwatch.com/story/marvell-is-sitting-on-an-incredibly-sticky-business-that-could-help-it-unlock-a-30-billion-opportunity-caa6c83f?mod=mw_rss_topstories",
+      "summary": "Marvell is best known for making custom chips — but an analyst notes there’s arguably more potential in supporting components and optical networking.",
+      "author": "Britney Nguyen",
+      "published": "Fri, 11 Sep 2026 21:16:00 GMT",
       "tags": []
     }
   ],
