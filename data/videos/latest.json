@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "items": [
     {
       "id": "9818ebd3c2a0",
@@ -68,6 +68,28 @@
       "category": "引擎"
     },
     {
+      "id": "74d5969623e3",
+      "platform": "bilibili",
+      "videoId": "BV1BTnxzKEVv",
+      "title": "2025.9月编程语言排行榜 C++、C、JAVA亚军之争异常激烈 Perl的火爆与人工智能无关",
+      "channel": "原子之音",
+      "url": "https://www.bilibili.com/video/BV1BTnxzKEVv",
+      "thumb": "https://i0.hdslb.com/bfs/archive/57a35f617d5a79a0ce357179e98382a0c2786185.jpg",
+      "published": "2025-09-26",
+      "category": "引擎"
+    },
+    {
+      "id": "20c78ca36141",
+      "platform": "bilibili",
+      "videoId": "BV1TXWVzZEx4",
+      "title": "虚幻中的C++: 输入系统(Input与Enhanced Input)",
+      "channel": "原子之音",
+      "url": "https://www.bilibili.com/video/BV1TXWVzZEx4",
+      "thumb": "https://i0.hdslb.com/bfs/archive/56b88c2f99c47fd48d8dd518d296fa8697902d72.jpg",
+      "published": "2025-09-20",
+      "category": "引擎"
+    },
+    {
       "id": "253664261c42",
       "platform": "youtube",
       "videoId": "A020pGO5MBs",
@@ -112,6 +134,50 @@
       "category": "CS"
     },
     {
+      "id": "9018e970ca98",
+      "platform": "bilibili",
+      "videoId": "BV1ScKR6QEQF",
+      "title": "古法做视频里加一点点科技",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1ScKR6QEQF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/b9d2e88f8d41fe24cecddcf715756265ff68b9d2.jpg",
+      "published": "2026-06-29",
+      "category": "CS"
+    },
+    {
+      "id": "4001551d4ad2",
+      "platform": "bilibili",
+      "videoId": "BV1RfEw6LEfF",
+      "title": "能跟你对话的TTS【开源】",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1RfEw6LEfF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/414b79823c78f30b3e60d27f14c0f44111f0234f.jpg",
+      "published": "2026-06-04",
+      "category": "CS"
+    },
+    {
+      "id": "81d7adf9faa1",
+      "platform": "bilibili",
+      "videoId": "BV1kybV6DE47",
+      "title": "软件仓库管理 [03-Raw/26生成式软件工程/NJU]",
+      "channel": "绿导师原谅你了",
+      "url": "https://www.bilibili.com/video/BV1kybV6DE47",
+      "thumb": "https://i1.hdslb.com/bfs/archive/68df1508fe220439d042badb972f99db90e57ff0.jpg",
+      "published": "2026-09-08",
+      "category": "CS"
+    },
+    {
+      "id": "35bb44d2c5e5",
+      "platform": "bilibili",
+      "videoId": "BV1CQt365EzW",
+      "title": "提示词工程 [02-Raw/26生成式软件工程/NJU]",
+      "channel": "绿导师原谅你了",
+      "url": "https://www.bilibili.com/video/BV1CQt365EzW",
+      "thumb": "https://i1.hdslb.com/bfs/archive/7cb300cfcc64cbaeb9c7bf74c41de28f3a558318.jpg",
+      "published": "2026-09-01",
+      "category": "CS"
+    },
+    {
       "id": "f10fd44d83bb",
       "platform": "youtube",
       "videoId": "v824SHV6COE",
@@ -131,6 +197,28 @@
       "url": "https://www.youtube.com/watch?v=-VWZ3pDm94c",
       "thumb": "https://i2.ytimg.com/vi/-VWZ3pDm94c/hqdefault.jpg",
       "published": "2026-08-28",
+      "category": "金融"
+    },
+    {
+      "id": "d91da4d86f21",
+      "platform": "bilibili",
+      "videoId": "BV1zTYs6nEkk",
+      "title": "特朗普关税被判违法，这一整年白忙了? 现在关税什么情况?",
+      "channel": "小Lin说",
+      "url": "https://www.bilibili.com/video/BV1zTYs6nEkk",
+      "thumb": "https://i2.hdslb.com/bfs/archive/3dbf4edfbeb1d568030c431d47fa58681c923ea7.jpg",
+      "published": "2026-09-09",
+      "category": "金融"
+    },
+    {
+      "id": "968783204fa7",
+      "platform": "bilibili",
+      "videoId": "BV1HGta6aEf8",
+      "title": "沙特2030愿景，现在怎么样了？",
+      "channel": "小Lin说",
+      "url": "https://www.bilibili.com/video/BV1HGta6aEf8",
+      "thumb": "https://i1.hdslb.com/bfs/archive/68912c6c7b8fff18e6a98b643bb8298a2a29771f.jpg",
+      "published": "2026-09-01",
       "category": "金融"
     },
     {
@@ -178,47 +266,47 @@
       "category": "历史"
     },
     {
-      "id": "b806d6653432",
+      "id": "9c7859f9a6d8",
       "platform": "bilibili",
-      "videoId": "BV12RYx6TE9r",
-      "title": "告别伊玛目  伊朗篇（终）",
-      "channel": "小约翰可汗",
-      "url": "https://www.bilibili.com/video/BV12RYx6TE9r",
-      "thumb": "https://i1.hdslb.com/bfs/archive/78b3aa4466a8e541c8191498d2e7dfa3bd6833fb.jpg",
-      "published": "2026-09-11",
+      "videoId": "BV1w8YX6uEvL",
+      "title": "才女·黄媛介：拒绝顶流告白，只为逃婚丈夫，回心转意？【大明风华】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1w8YX6uEvL",
+      "thumb": "https://i0.hdslb.com/bfs/archive/3469211773b26d6bf12e4ebb6ad9e413971afccc.jpg",
+      "published": "2026-09-12",
       "category": "历史"
     },
     {
-      "id": "6b536c03812b",
+      "id": "ad62a1790b36",
       "platform": "bilibili",
-      "videoId": "BV1bHtd6CESR",
-      "title": "天 雷 滚 滚 纽 约 城【神奇组织53】",
-      "channel": "小约翰可汗",
-      "url": "https://www.bilibili.com/video/BV1bHtd6CESR",
-      "thumb": "https://i2.hdslb.com/bfs/archive/8136c66675bf9b68ac93c4473d9c34b801d005dd.jpg",
-      "published": "2026-09-04",
+      "videoId": "BV1zLta68EQq",
+      "title": "大学士·图海：配享太庙，到底有多难？【康熙王朝】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1zLta68EQq",
+      "thumb": "https://i1.hdslb.com/bfs/archive/0746add8e947478cac56dacb70505bf5f2c0ebe6.jpg",
+      "published": "2026-08-31",
       "category": "历史"
     },
     {
-      "id": "75231210c421",
+      "id": "3aff4bb36a56",
       "platform": "youtube",
-      "videoId": "QdJ9roBJQLM",
-      "title": "How well do you know 🇬🇧 British and 🇺🇸 American slang? #shorts #vocabulary",
+      "videoId": "ioGawW_2ZlM",
+      "title": "Are you a chocolate person? 🍫 | Real Easy English  #podcast #speakenglish",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/shorts/QdJ9roBJQLM",
-      "thumb": "https://i2.ytimg.com/vi/QdJ9roBJQLM/hqdefault.jpg",
-      "published": "2026-09-11",
+      "url": "https://www.youtube.com/shorts/ioGawW_2ZlM",
+      "thumb": "https://i2.ytimg.com/vi/ioGawW_2ZlM/hqdefault.jpg",
+      "published": "2026-09-14",
       "category": "英语"
     },
     {
-      "id": "72dfcaad872a",
+      "id": "d3b09e450034",
       "platform": "youtube",
-      "videoId": "WFF1VbE-E3A",
-      "title": "How to understand English conversations at natural speed",
+      "videoId": "P3jsDVjil2o",
+      "title": "Our favourite sweet foods 🍦🍭🍫  Practise your listening with Real Easy English",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=WFF1VbE-E3A",
-      "thumb": "https://i4.ytimg.com/vi/WFF1VbE-E3A/hqdefault.jpg",
-      "published": "2026-09-10",
+      "url": "https://www.youtube.com/watch?v=P3jsDVjil2o",
+      "thumb": "https://i1.ytimg.com/vi/P3jsDVjil2o/hqdefault.jpg",
+      "published": "2026-09-14",
       "category": "英语"
     },
     {
@@ -247,20 +335,20 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
+    "Bilibili 512313464: code=-352 风控校验失败",
     "图形学 · 512313464: 0 条",
     "引擎 · @TheCherno: 2 条",
-    "引擎 · 437860379: 0 条",
+    "引擎 · 437860379: 2 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
-    "Bilibili 1567748478: code=-352 风控校验失败",
-    "CS · 1567748478: 0 条",
-    "CS · 202224425: 0 条",
+    "CS · 1567748478: 2 条",
+    "CS · 202224425: 2 条",
     "金融 · @ThePlainBagel: 2 条",
-    "金融 · 520819684: 0 条",
+    "金融 · 520819684: 2 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
-    "历史 · 11646119: 0 条",
-    "历史 · 23947287: 2 条",
+    "历史 · 11646119: 2 条",
+    "历史 · 23947287: 0 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
   ]
