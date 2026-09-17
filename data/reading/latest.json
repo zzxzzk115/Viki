@@ -1,270 +1,301 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "items": [
     {
-      "id": "2d03dcc1dd8b",
+      "id": "a60d347119fa",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Stuart Loory",
-      "url": "https://simple.wikipedia.org/wiki/Stuart_Loory",
-      "summary": "Stuart Hugh Loory was an American journalist and educator. He was born in Wilson, Pennsylvania.",
+      "title": "Nischal Basnet",
+      "url": "https://simple.wikipedia.org/wiki/Nischal_Basnet",
+      "summary": "Nischal Basnet in Kathmandu, Nepal is a Nepali director, producer, actor, dancer and singer of Nepali Film Industry. He rose fame from his first movie Loot which was directed by him in 2012 and breaks all the records of the Nepali box office. After that he produce next superhit …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "d6b2c43e5888",
+      "id": "d3bdd40cb607",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Arnaut Danièl",
-      "url": "https://simple.wikipedia.org/wiki/Arnaut_Dani%C3%A8l",
-      "summary": "Arnaut Daniel de Riberac wrote and performed music and poetry in the 12th century. He was Occitan.",
+      "title": "Sex doll",
+      "url": "https://simple.wikipedia.org/wiki/Sex_doll",
+      "summary": "A sex doll is a sex toy. It has the size of a sexual partner, and should help with masturbation.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "642a1494ec3f",
+      "id": "1990b508cd2f",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Introducing System One Models and Jev",
-      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "title": "Keys Not Included: recovering the signing keys for US driver's license barcodes",
+      "url": "https://ryan.science/blog/keys-not-included",
       "summary": "",
-      "author": "albelfio",
+      "author": "Ryan5453",
+      "published": "2026-09-17",
+      "tags": [
+        "▲ 105"
+      ]
+    },
+    {
+      "id": "dbb60a81aa82",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Nvidia announces native GPU programming in Rust",
+      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+      "summary": "",
+      "author": "nonmaskable",
+      "published": "2026-09-16",
+      "tags": [
+        "▲ 524"
+      ]
+    },
+    {
+      "id": "2a70d59635a9",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+      "url": "https://rohanbansal.com/qorl",
+      "summary": "",
+      "author": "polyphilz",
+      "published": "2026-09-16",
+      "tags": [
+        "▲ 488"
+      ]
+    },
+    {
+      "id": "4d12d43d1356",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Comparison of Malloc() Algorithms",
+      "url": "https://egbert.net/blog/articles/comparison-of-arena-architecture-in-malloc.html",
+      "summary": "",
+      "author": "egberts1",
       "published": "2026-09-15",
       "tags": [
-        "▲ 1106"
+        "▲ 18"
       ]
     },
     {
-      "id": "faddb36e8fb1",
+      "id": "3010916ccd18",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Apple Reference Image: A New Approach for Verified Photography",
-      "url": "https://security.apple.com/blog/apple-reference-image/",
+      "title": "Xiaomi Mimo 2.6 live post-training dashboard",
+      "url": "https://mimo.xiaomi.com/rl/",
       "summary": "",
-      "author": "imwally",
+      "author": "krackers",
       "published": "2026-09-16",
       "tags": [
-        "▲ 144"
+        "▲ 379"
       ]
     },
     {
-      "id": "4e7ba9f5f04b",
+      "id": "6aa76e4f0b22",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
-      "url": "https://github.com/arnegiacomo/fugleramme",
-      "summary": "See also: Avian Visitors - https://news.ycombinator.com/item?id=48343424 - May 2026 (20 comments)",
-      "author": "arnemunthekaas",
-      "published": "2026-09-15",
-      "tags": [
-        "▲ 1489"
-      ]
-    },
-    {
-      "id": "93012fd9d904",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Show HN: I made a flight simulator, except you're just a passenger",
-      "url": "https://inflightsimulator.com",
-      "summary": "Buckle your seatbelt, secure your tray table, and open your window shade. Now you can simulate flying anywhere in the world as a commercial passenger, from takeoff to touchdown. Terrain, weather, and realtime sun position included. Don't worry, the latest release now features le…",
-      "author": "rkotcher",
-      "published": "2026-09-14",
-      "tags": [
-        "▲ 100"
-      ]
-    },
-    {
-      "id": "2b63f7d3b22b",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Negativland, Culture Jamming, and the Art of Making Something New",
-      "url": "https://blog.archive.org/2026/09/11/negativland-culture-jamming-and-the-art-of-making-something-new/",
+      "title": "Backups Aren't Simple",
+      "url": "https://filipovski.net/2026/09/16/backups-arent-simple.html",
       "summary": "",
-      "author": "bananaboy",
+      "author": "afilipovski",
       "published": "2026-09-16",
       "tags": [
-        "▲ 64"
+        "▲ 176"
       ]
     },
     {
-      "id": "0f67af4401c8",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Datamimic – don't let your coding agent invent its own test world",
-      "url": "https://github.com/rapiddweller/datamimic",
-      "summary": "",
-      "author": "ake2l",
-      "published": "2026-09-16",
-      "tags": [
-        "▲ 13"
-      ]
-    },
-    {
-      "id": "2d2f3337deea",
+      "id": "5d95f2165218",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Deep Dive: Aron’s Procurement Automation and Its I…",
-      "url": "https://dev.to/norviktech/deep-dive-arons-procurement-automation-and-its-i-in2",
-      "summary": "Originally published at norvik.tech Introduction An in-depth analysis of Aron’s procurement automation launch, exploring technical mechanics, implications for businesses, and actionable insights. Understanding Procurement Automation: What Aron Offers Aron’s launch marks a signif…",
+      "title": "Why birthday reminders fail (and what actually works)",
+      "url": "https://dev.to/dont_remember_e077a18c884/why-birthday-reminders-fail-and-what-actually-works-53lk",
+      "summary": "You set the reminder. Your phone buzzed. You saw the name. And somehow the day still ended with a late text, a weak emoji, or silence. That is why birthday reminders fail for so many people. It is not that calendars are broken. It is that a calendar alert is not a love letter. I…",
+      "author": "Dont Remember",
+      "published": "Thu, 17 Sep 2026 06:09:41 +0000",
+      "tags": [
+        "productivity",
+        "ai",
+        "webdev"
+      ]
+    },
+    {
+      "id": "72a3b3f0b3f5",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Understanding Workiva's Trust-Driven Approach to A…",
+      "url": "https://dev.to/norviktech/understanding-workivas-trust-driven-approach-to-a-3dda",
+      "summary": "Originally published at norvik.tech Introduction An in-depth analysis of Workiva's strategy on trust and governance as AI agents integrate into financial reporting processes. AI Agents in Financial Reporting: Defining the Future Workiva's recent push into utilizing AI agents wit…",
       "author": "Norvik Tech",
-      "published": "Wed, 16 Sep 2026 06:05:57 +0000",
+      "published": "Thu, 17 Sep 2026 06:05:58 +0000",
       "tags": [
         "webdev",
-        "procurementautomatio",
-        "aronstartup",
-        "supplychainefficienc"
+        "aiagents",
+        "financialreporting",
+        "workiva"
       ]
     },
     {
-      "id": "cf147c834d4c",
+      "id": "9abbdf4b77c0",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Claude Code vs Codex vs Cursor: Which One Actually Makes Me Faster?",
-      "url": "https://dev.to/bilalshahdev/claude-code-vs-codex-vs-cursor-which-one-actually-makes-me-faster-5gnp",
-      "summary": "AI Coding Tools: Which One Actually Makes Me Faster? AI coding tools are no longer just autocomplete. They can read code, explain unfamiliar modules, suggest fixes, generate tests, refactor files, and help you move through a project faster. But speed isn't only about how quickly…",
-      "author": "Bilal Shah",
-      "published": "Wed, 16 Sep 2026 06:01:13 +0000",
+      "title": "How Domain Allowlisting Changes Agentic Research Architecture",
+      "url": "https://dev.to/cygnetone/how-domain-allowlisting-changes-agentic-research-architecture-2p5l",
+      "summary": "Enterprise research agents are starting to move beyond internal knowledge bases. They search the web, retrieve documents, compare sources, open pages, follow links, and sometimes interact with external systems. That creates a design problem that is easy to underestimate. Once an…",
+      "author": "Cygnet.One",
+      "published": "Thu, 17 Sep 2026 06:04:44 +0000",
       "tags": [
         "ai",
-        "claude",
-        "webdev",
-        "programming"
+        "webdev"
       ]
     },
     {
-      "id": "128b9fdeba78",
+      "id": "e6d1a498ede0",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How Much Does Custom Software Development Cost in the USA? Build a Reliable Budget",
-      "url": "https://dev.to/codezens_softsolution_428/how-much-does-custom-software-development-cost-in-the-usa-build-a-reliable-budget-2adf",
-      "summary": "Custom software development has become a critical aspect for businesses looking to enhance efficiency, streamline operations, and achieve competitive advantage. However, determining the cost of custom software development in the USA is a complex task influenced by various factor…",
-      "author": "codezens softsolution",
-      "published": "Wed, 16 Sep 2026 05:54:54 +0000",
+      "title": "The Hidden Cost of Cross-Border Stripe Fees in 2026 (And How to Calculate Net Payouts)",
+      "url": "https://dev.to/mg_x_9532a1c112cb2e04e2e4/the-hidden-cost-of-cross-border-stripe-fees-in-2026-and-how-to-calculate-net-payouts-k6d",
+      "summary": "If you bill international clients or sell digital products globally, Stripe’s headline 2.9% + $0.30 rate is only the baseline. Many creators and founders don't realize that cross-border transactions trigger additional fees that can silently eat into your margins: International C…",
+      "author": "mg x",
+      "published": "Thu, 17 Sep 2026 05:59:25 +0000",
       "tags": [
-        "softwaredevelopment",
+        "stripe",
         "webdev",
-        "appdevelopment",
-        "saasdevelopment"
+        "fintech",
+        "freelance"
       ]
     },
     {
-      "id": "f4cc26ae995f",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "How to Build an Online Pharmacy App Like Chemist Warehouse",
-      "url": "https://dev.to/esferasoftau/how-to-build-an-online-pharmacy-app-like-chemist-warehouse-6d2",
-      "summary": "The healthcare industry is changing rapidly over the years, so as the consumer's intent. With time, customers prefer faster, simpler, and super-convenient ways to access the healthcare products. This is where, the demand of online pharmacy app development comes into play. Result…",
-      "author": "Esferasoft AU",
-      "published": "Wed, 16 Sep 2026 05:51:25 +0000",
-      "tags": [
-        "ai",
-        "webdev",
-        "opensource",
-        "mobile"
-      ]
-    },
-    {
-      "id": "2b2dd445ca7d",
+      "id": "ec52edba951a",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Grace Coolidge",
-      "url": "https://en.wikipedia.org/wiki/Grace_Coolidge",
-      "summary": "Grace Anna Coolidge was first lady of the United States from 1923 to 1929 as the wife of the 30th president of the United States, Calvin Coolidge. She was previously the second lady of the United States from 1921 to 1923 and the first lady of Massachusetts from 1919 to 1921.",
+      "title": "Eternal Blue (album)",
+      "url": "https://en.wikipedia.org/wiki/Eternal_Blue_(album)",
+      "summary": "Eternal Blue is the debut studio album by the Canadian heavy metal band Spiritbox. It was released on September 17, 2021, through the band's label Pale Chord Records in partnership with Rise Records. Vocalist Courtney LaPlante and guitarist Mike Stringer formed Spiritbox in 2016…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "9c657c0b5de7",
+      "id": "99aca68ee45f",
       "category": "news",
       "source": "BBC 世界",
-      "title": "All support acts on Ed Sheeran's US tour quit after Macklemore dropped",
-      "url": "https://www.bbc.co.uk/news/articles/c3vgyn49y4l7o?at_medium=RSS&at_campaign=rss",
-      "summary": "The star said he was not responsible for Macklemore being dropped from the line-up after he made pro-Palestinian statements on stage.",
-      "published": "Wed, 16 Sep 2026 01:29:20 GMT",
+      "title": "Assad regime planned US journalist's kidnap for weeks, BBC finds",
+      "url": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss",
+      "summary": "Austin Tice’s abduction was approved by Syria’s former leader Bashar al-Assad, a source claims.",
+      "published": "Thu, 17 Sep 2026 05:00:18 GMT",
       "tags": []
     },
     {
-      "id": "60791b55f7b7",
+      "id": "f5b6dac208dd",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Denmark says Russian warship fired flares at military helicopter",
-      "url": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Danish prime minister has accused Russia of \"reckless\" behaviour, while the Kremlin is yet to comment.",
-      "published": "Tue, 15 Sep 2026 11:40:00 GMT",
+      "title": "US interest rates raised for first time in three years",
+      "url": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss",
+      "summary": "Rates were hiked in a unanimous decision despite fierce opposition from President Donald Trump, who had called for a cut.",
+      "published": "Thu, 17 Sep 2026 00:40:17 GMT",
       "tags": []
     },
     {
-      "id": "1e5e15ecd6e2",
+      "id": "2c1c4f48aefe",
       "category": "news",
       "source": "BBC 世界",
-      "title": "What weapon could the US have put into space?",
-      "url": "https://www.bbc.co.uk/news/articles/cmy4zqgk97wlo?at_medium=RSS&at_campaign=rss",
-      "summary": "The announcement by the US points to a developing field of modern warfare in the Earth's orbit.",
-      "published": "Tue, 15 Sep 2026 14:23:14 GMT",
+      "title": "Snapchat open to putting time limits on teens, boss tells BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cr3wjz3edd10o?at_medium=RSS&at_campaign=rss",
+      "summary": "Evan Spiegel says it would be \"an important step forward for the industry\" in an interview with the BBC.",
+      "published": "Wed, 16 Sep 2026 23:41:57 GMT",
       "tags": []
     },
     {
-      "id": "2d8e1e0e96fd",
+      "id": "2b5de424490a",
       "category": "news",
       "source": "BBC 世界",
-      "title": "South African president vows justice as more women's bodies found near Johannesburg",
-      "url": "https://www.bbc.co.uk/news/articles/crgqde1nex2vo?at_medium=RSS&at_campaign=rss",
-      "summary": "Police have not linked the deaths to a serial killer but are investigating this possibility.",
-      "published": "Tue, 15 Sep 2026 18:01:51 GMT",
+      "title": "Rosenberg: Russia's elections will have few surprises, but for the Kremlin they matter",
+      "url": "https://www.bbc.co.uk/news/articles/ck62m0r4r1y3o?at_medium=RSS&at_campaign=rss",
+      "summary": "There is no doubt over the outcome of this vote, but for the Kremlin they are still an important moment.",
+      "published": "Thu, 17 Sep 2026 05:00:36 GMT",
       "tags": []
     },
     {
-      "id": "ea18852fc544",
+      "id": "00f56e1b1eec",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "How chimps teach their kids tool tricks",
-      "url": "https://arstechnica.com/science/2026/09/how-chimps-teach-their-kids-tool-tricks/",
-      "summary": "Adults first demonstrate tool use, then hand over the implements to their infants, who copy the behavior.",
-      "author": "Jennifer Ouellette",
-      "published": "Wed, 16 Sep 2026 04:00:39 +0000",
+      "title": "Apple reportedly building server packed with M-series Ultra chips for AI",
+      "url": "https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/",
+      "summary": "Planned 2029 debut could make this Apple’s first enterprise server in decades.",
+      "author": "Jeremy Hsu",
+      "published": "Wed, 16 Sep 2026 22:02:46 +0000",
       "tags": [
-        "Science",
-        "animal behavior",
-        "animal psychology",
-        "animal tool use"
+        "AI",
+        "Apple",
+        "AI developers",
+        "ai servers"
       ]
     },
     {
-      "id": "ecaae448f6f4",
+      "id": "2a4fab1da5c1",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "The Roman telescope has enough gas for 22 years, double NASA's expectations",
-      "url": "https://arstechnica.com/space/2026/09/the-roman-telescope-has-enough-gas-for-22-years-double-nasas-expectations/",
-      "summary": "The Nancy Grace Roman Space Telescope is the first NASA observatory designed for in-space refueling.",
-      "author": "Stephen Clark",
-      "published": "Tue, 15 Sep 2026 22:26:32 +0000",
-      "tags": [
-        "Space",
-        "falcon heavy",
-        "goddard space flight center",
-        "Nancy Grace Roman Space Telescope"
-      ]
-    },
-    {
-      "id": "7f3629cfa6b1",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "“Filmmaker” suing PassThePopcorn may be banned user out for revenge",
-      "url": "https://arstechnica.com/tech-policy/2026/09/filmmaker-suing-passthepopcorn-may-be-banned-user-out-for-revenge/",
-      "summary": "Allegedly fake filmmaker targeted trackers like PassThePopcorn, BroadcasTheNet, and HDBits.",
+      "title": "Epstein had huge cache of child sex pics; victims sue to find out who's in them",
+      "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-trump-doj-notified-very-few-victims-in-epsteins-stash-of-child-sex-images/",
+      "summary": "Survivors appalled nobody will tell them if they’re in Epstein’s CSAM collection.",
       "author": "Ashley Belanger",
-      "published": "Tue, 15 Sep 2026 20:19:17 +0000",
+      "published": "Wed, 16 Sep 2026 21:42:09 +0000",
       "tags": [
         "Policy",
-        "movie piracy",
-        "Torrent"
+        "child porn",
+        "child sex abuse materials",
+        "csam"
       ]
+    },
+    {
+      "id": "c60fc05e1d0d",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Nonprofit that tracks meteors taken down by \"critical blow\" from a cyberattack",
+      "url": "https://arstechnica.com/security/2026/09/nonprofit-that-tracks-meteors-taken-down-by-critical-blow-from-a-cyberattack/",
+      "summary": "Group plans to be largely out of commission for several weeks.",
+      "author": "Dan Goodin",
+      "published": "Wed, 16 Sep 2026 21:08:14 +0000",
+      "tags": [
+        "Biz & IT",
+        "Science",
+        "Security",
+        "Space"
+      ]
+    },
+    {
+      "id": "7b4c69c9ad3a",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "Intel’s stock rises as investors hope memory chips can mark the next step in its turnaround",
+      "url": "https://www.marketwatch.com/story/intels-stock-rises-as-investors-hope-memory-chips-can-mark-the-next-step-in-its-turnaround-a276608f?mod=mw_rss_topstories",
+      "summary": "A report says Intel is in early talks with SK Hynix, which is considering some sort of partnership that would enable it to make memory chips in the U.S.",
+      "author": "Emily Bary",
+      "published": "Wed, 16 Sep 2026 23:51:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "dc3c5ad2f1b7",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "As Fed rolls out its first interest-rate hike in 3 years, market braces for more increases",
+      "url": "https://www.marketwatch.com/story/warshs-fed-rolls-out-first-interest-rate-hike-in-3-years-with-one-more-increase-expected-cde3060d?mod=mw_rss_topstories",
+      "summary": "The Fed’s policy-making committee was unanimous in its decision to hike, but forward guidance was split.",
+      "author": "Victor Reklaitis,Greg Robb",
+      "published": "Wed, 16 Sep 2026 22:25:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "32c6b96eb50e",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "My rental property is paid off, but I need cash. Is this a bad time to take out a $50,000 HELOC?",
+      "url": "https://www.marketwatch.com/story/my-rental-property-is-paid-off-but-i-need-cash-is-this-a-bad-time-to-take-out-a-50-000-heloc-d094bbc5?mod=mw_rss_topstories",
+      "summary": "The Federal Reserve announced a quarter-percentage-point interest-rate hike Wednesday, to a range of 3.75%-4.0%.",
+      "author": "Quentin Fottrell",
+      "published": "Wed, 16 Sep 2026 22:16:00 GMT",
+      "tags": []
     }
   ],
   "notes": [
@@ -274,7 +305,6 @@
     "Wikipedia: 1 条",
     "BBC 世界: 4 条",
     "Ars Technica: 3 条",
-    "feeds.marketwatch.com 返回 400，跳过",
-    "MarketWatch: 0 条"
+    "MarketWatch: 3 条"
   ]
 }
