@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "items": [
     {
       "id": "281ff94730f2",
@@ -68,6 +68,17 @@
       "category": "引擎"
     },
     {
+      "id": "30638ded7aa3",
+      "platform": "youtube",
+      "videoId": "oax6t6Of2WY",
+      "title": "The Biggest Gaps Between Primes - Numberphile",
+      "channel": "Numberphile",
+      "url": "https://www.youtube.com/watch?v=oax6t6Of2WY",
+      "thumb": "https://i4.ytimg.com/vi/oax6t6Of2WY/hqdefault.jpg",
+      "published": "2026-09-16",
+      "category": "CS"
+    },
+    {
       "id": "253664261c42",
       "platform": "youtube",
       "videoId": "A020pGO5MBs",
@@ -76,17 +87,6 @@
       "url": "https://www.youtube.com/watch?v=A020pGO5MBs",
       "thumb": "https://i2.ytimg.com/vi/A020pGO5MBs/hqdefault.jpg",
       "published": "2026-09-04",
-      "category": "CS"
-    },
-    {
-      "id": "95b8d6e50ed2",
-      "platform": "youtube",
-      "videoId": "-mXaU3N9e8Y",
-      "title": "2.685 is (almost) everywhere - Numberphile",
-      "channel": "Numberphile",
-      "url": "https://www.youtube.com/watch?v=-mXaU3N9e8Y",
-      "thumb": "https://i2.ytimg.com/vi/-mXaU3N9e8Y/hqdefault.jpg",
-      "published": "2026-08-22",
       "category": "CS"
     },
     {
@@ -244,47 +244,25 @@
       "category": "历史"
     },
     {
-      "id": "b806d6653432",
-      "platform": "bilibili",
-      "videoId": "BV12RYx6TE9r",
-      "title": "告别伊玛目  伊朗篇（终）",
-      "channel": "小约翰可汗",
-      "url": "https://www.bilibili.com/video/BV12RYx6TE9r",
-      "thumb": "https://i1.hdslb.com/bfs/archive/78b3aa4466a8e541c8191498d2e7dfa3bd6833fb.jpg",
-      "published": "2026-09-11",
-      "category": "历史"
-    },
-    {
-      "id": "6b536c03812b",
-      "platform": "bilibili",
-      "videoId": "BV1bHtd6CESR",
-      "title": "天 雷 滚 滚 纽 约 城【神奇组织53】",
-      "channel": "小约翰可汗",
-      "url": "https://www.bilibili.com/video/BV1bHtd6CESR",
-      "thumb": "https://i2.hdslb.com/bfs/archive/8136c66675bf9b68ac93c4473d9c34b801d005dd.jpg",
-      "published": "2026-09-04",
-      "category": "历史"
-    },
-    {
-      "id": "24ebb44cff4c",
+      "id": "b3c13d2a08af",
       "platform": "youtube",
-      "videoId": "JriTpFSQvyQ",
-      "title": "BOX SET: 6 Minute English - 'Language 4' English mega-class! 30 minutes of new vocab!",
+      "videoId": "f_MUzfzI4RM",
+      "title": "Humans could lose control of AI systems, AI boss says | BBC Learning English from the News",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=JriTpFSQvyQ",
-      "thumb": "https://i3.ytimg.com/vi/JriTpFSQvyQ/hqdefault.jpg",
-      "published": "2026-09-15",
+      "url": "https://www.youtube.com/watch?v=f_MUzfzI4RM",
+      "thumb": "https://i3.ytimg.com/vi/f_MUzfzI4RM/hqdefault.jpg",
+      "published": "2026-09-16",
       "category": "英语"
     },
     {
-      "id": "3aff4bb36a56",
+      "id": "ca24bf203157",
       "platform": "youtube",
-      "videoId": "ioGawW_2ZlM",
-      "title": "Are you a chocolate person? 🍫 | Real Easy English  #podcast #speakenglish",
+      "videoId": "LpL2L8N76Jw",
+      "title": "Can you say these vegetables before I do? #shorts",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/shorts/ioGawW_2ZlM",
-      "thumb": "https://i2.ytimg.com/vi/ioGawW_2ZlM/hqdefault.jpg",
-      "published": "2026-09-14",
+      "url": "https://www.youtube.com/shorts/LpL2L8N76Jw",
+      "thumb": "https://i1.ytimg.com/vi/LpL2L8N76Jw/hqdefault.jpg",
+      "published": "2026-09-16",
       "category": "英语"
     },
     {
@@ -325,7 +303,8 @@
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
     "历史 · 11646119: 2 条",
-    "历史 · 23947287: 2 条",
+    "Bilibili 23947287: code=-352 风控校验失败",
+    "历史 · 23947287: 0 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
   ]
