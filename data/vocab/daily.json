@@ -1,13 +1,13 @@
 {
-  "date": "2026-09-17",
-  "word": "fundamental",
-  "ipa": "ˌfʌn.dəˈmen.t",
-  "ipaUs": "ˌfʌn.dəˈmen.t̬",
+  "date": "2026-09-18",
+  "word": "gregarious",
+  "ipa": "ɡrɪˈɡeə.ri.əs",
+  "ipaUs": "ɡrɪˈɡer.i.əs",
   "pos": "adjective",
-  "definition": "forming the base, from which everything else develops",
-  "definitionZh": "基础的",
-  "example": "We need to make fundamental changes",
-  "exampleZh": "我们需要从根本上改变对待环境的态度。",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/ukf/ukfum/ukfumes013.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/eus/eus71/eus71948.mp3"
+  "definition": "(of people) liking to be with other people",
+  "definitionZh": "（ 人",
+  "example": "Emma's a gregarious, outgoing sort of person.",
+  "exampleZh": "埃玛是个喜欢交际、性情爽直的人。",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/ukg/ukgre/ukgreen022.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/g/gre/grega/gregarious.mp3"
 }

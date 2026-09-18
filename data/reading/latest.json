@@ -1,117 +1,117 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "items": [
     {
-      "id": "a60d347119fa",
+      "id": "8edb47c9d1c9",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Nischal Basnet",
-      "url": "https://simple.wikipedia.org/wiki/Nischal_Basnet",
-      "summary": "Nischal Basnet in Kathmandu, Nepal is a Nepali director, producer, actor, dancer and singer of Nepali Film Industry. He rose fame from his first movie Loot which was directed by him in 2012 and breaks all the records of the Nepali box office. After that he produce next superhit …",
+      "title": "Richard Shepherd",
+      "url": "https://simple.wikipedia.org/wiki/Richard_Shepherd",
+      "summary": "Sir Richard Charles Scrimgeour Shepherd was a British Conservative politician. He was Member of Parliament for Aldridge-Brownhills from 1979 to 2015.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "d3bdd40cb607",
+      "id": "0239b672f592",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Sex doll",
-      "url": "https://simple.wikipedia.org/wiki/Sex_doll",
-      "summary": "A sex doll is a sex toy. It has the size of a sexual partner, and should help with masturbation.",
+      "title": "Morangis, Essonne",
+      "url": "https://simple.wikipedia.org/wiki/Morangis%2C_Essonne",
+      "summary": "Morangis is a commune. It is in Île-de-France in the Essonne department in north France.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "1990b508cd2f",
+      "id": "39b208522bb5",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Keys Not Included: recovering the signing keys for US driver's license barcodes",
-      "url": "https://ryan.science/blog/keys-not-included",
+      "title": "Hacking OpenAI",
+      "url": "https://www.hacktron.ai/blog/hacking-openai",
       "summary": "",
-      "author": "Ryan5453",
+      "author": "Handy-Man",
+      "published": "2026-09-18",
+      "tags": [
+        "▲ 203"
+      ]
+    },
+    {
+      "id": "b38892ce5b71",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Waymo in Singapore",
+      "url": "https://waymo.com/waymo-in-singapore/",
+      "summary": "",
+      "author": "ramanan",
+      "published": "2026-09-18",
+      "tags": [
+        "▲ 72"
+      ]
+    },
+    {
+      "id": "01e6418dc113",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Astra for Law",
+      "url": "https://openai.com/index/astra-for-law/",
+      "summary": "",
+      "author": "vertigoruntime",
       "published": "2026-09-17",
       "tags": [
-        "▲ 105"
+        "▲ 425"
       ]
     },
     {
-      "id": "dbb60a81aa82",
+      "id": "4a65016fd02f",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Nvidia announces native GPU programming in Rust",
-      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+      "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+      "url": "https://prismml.com/news/bonsai-2-27b",
       "summary": "",
-      "author": "nonmaskable",
-      "published": "2026-09-16",
+      "author": "JonSchneider",
+      "published": "2026-09-17",
       "tags": [
-        "▲ 524"
+        "▲ 351"
       ]
     },
     {
-      "id": "2a70d59635a9",
+      "id": "705ff08b9e85",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
-      "url": "https://rohanbansal.com/qorl",
+      "title": "Jemalloc 5.4.0",
+      "url": "https://github.com/jemalloc/jemalloc/releases/tag/5.4.0",
       "summary": "",
-      "author": "polyphilz",
-      "published": "2026-09-16",
-      "tags": [
-        "▲ 488"
-      ]
-    },
-    {
-      "id": "4d12d43d1356",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Comparison of Malloc() Algorithms",
-      "url": "https://egbert.net/blog/articles/comparison-of-arena-architecture-in-malloc.html",
-      "summary": "",
-      "author": "egberts1",
-      "published": "2026-09-15",
+      "author": "gkfasdfasdf",
+      "published": "2026-09-18",
       "tags": [
         "▲ 18"
       ]
     },
     {
-      "id": "3010916ccd18",
+      "id": "fdbe8e7f4578",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Xiaomi Mimo 2.6 live post-training dashboard",
-      "url": "https://mimo.xiaomi.com/rl/",
+      "title": "The Scourge of x86 Emulation",
+      "url": "https://fex-emu.com/Scourge-of-emulation/",
       "summary": "",
-      "author": "krackers",
-      "published": "2026-09-16",
+      "author": "dagmx",
+      "published": "2026-09-18",
       "tags": [
-        "▲ 379"
+        "▲ 21"
       ]
     },
     {
-      "id": "6aa76e4f0b22",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Backups Aren't Simple",
-      "url": "https://filipovski.net/2026/09/16/backups-arent-simple.html",
-      "summary": "",
-      "author": "afilipovski",
-      "published": "2026-09-16",
-      "tags": [
-        "▲ 176"
-      ]
-    },
-    {
-      "id": "5d95f2165218",
+      "id": "0787b29d2961",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Why birthday reminders fail (and what actually works)",
-      "url": "https://dev.to/dont_remember_e077a18c884/why-birthday-reminders-fail-and-what-actually-works-53lk",
-      "summary": "You set the reminder. Your phone buzzed. You saw the name. And somehow the day still ended with a late text, a weak emoji, or silence. That is why birthday reminders fail for so many people. It is not that calendars are broken. It is that a calendar alert is not a love letter. I…",
+      "title": "How to send automatic anniversary emails that still feel like you",
+      "url": "https://dev.to/dont_remember_e077a18c884/how-to-send-automatic-anniversary-emails-that-still-feel-like-you-4l86",
+      "summary": "You remembered the anniversary last year. You meant to. This year the day showed up anyway, and your best move was a rushed text at 10:47pm that started with \"happy anniversary!! sorry this is late.\" That is the quiet pattern a lot of couples and close friends fall into. Not bec…",
       "author": "Dont Remember",
-      "published": "Thu, 17 Sep 2026 06:09:41 +0000",
+      "published": "Fri, 18 Sep 2026 05:57:08 +0000",
       "tags": [
         "productivity",
         "ai",
@@ -119,182 +119,184 @@
       ]
     },
     {
-      "id": "72a3b3f0b3f5",
+      "id": "d3830a6eec82",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Understanding Workiva's Trust-Driven Approach to A…",
-      "url": "https://dev.to/norviktech/understanding-workivas-trust-driven-approach-to-a-3dda",
-      "summary": "Originally published at norvik.tech Introduction An in-depth analysis of Workiva's strategy on trust and governance as AI agents integrate into financial reporting processes. AI Agents in Financial Reporting: Defining the Future Workiva's recent push into utilizing AI agents wit…",
-      "author": "Norvik Tech",
-      "published": "Thu, 17 Sep 2026 06:05:58 +0000",
+      "title": "Engineering Low-Latency Event Telemetry: UHF RFID Ingestion, Edge De-Bouncing & Room Dwell Architecture",
+      "url": "https://dev.to/stampiq/engineering-low-latency-event-telemetry-uhf-rfid-ingestion-edge-de-bouncing-room-dwell-36k1",
+      "summary": "Deploying real-time attendee tracking across a 15,000-delegate tech summit or stadium tournament introduces severe distributed systems constraints. Unlike standard point-of-sale terminals or office badge taps, large-scale conference venues cannot force delegates into single-file…",
+      "author": "stampiq",
+      "published": "Fri, 18 Sep 2026 05:56:17 +0000",
       "tags": [
+        "iot",
+        "architecture",
         "webdev",
-        "aiagents",
-        "financialreporting",
-        "workiva"
+        "performance"
       ]
     },
     {
-      "id": "9abbdf4b77c0",
+      "id": "917f030bb30b",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How Domain Allowlisting Changes Agentic Research Architecture",
-      "url": "https://dev.to/cygnetone/how-domain-allowlisting-changes-agentic-research-architecture-2p5l",
-      "summary": "Enterprise research agents are starting to move beyond internal knowledge bases. They search the web, retrieve documents, compare sources, open pages, follow links, and sometimes interact with external systems. That creates a design problem that is easy to underestimate. Once an…",
-      "author": "Cygnet.One",
-      "published": "Thu, 17 Sep 2026 06:04:44 +0000",
+      "title": "Buy Verified ByBit Account – Fully Certified Crypto Trading Profiles for Unrestricted Access",
+      "url": "https://dev.to/localpvashop028/buy-verified-bybit-account-fully-certified-crypto-trading-profiles-for-unrestricted-access-4l1b",
+      "summary": "Introduction Navigating the global cryptocurrency markets requires access to exchanges that offer deep liquidity, low latency execution, and advanced derivatives products. ByBit stands out as one of the world's leading platforms for spot trading, perpetual contracts, and Peer-to…",
+      "author": "Buy Old Gmail Accounts",
+      "published": "Fri, 18 Sep 2026 05:51:04 +0000",
       "tags": [
         "ai",
-        "webdev"
+        "webdev",
+        "business",
+        "marketing"
       ]
     },
     {
-      "id": "e6d1a498ede0",
+      "id": "b2d76a105662",
       "category": "tech",
       "source": "DEV Community",
-      "title": "The Hidden Cost of Cross-Border Stripe Fees in 2026 (And How to Calculate Net Payouts)",
-      "url": "https://dev.to/mg_x_9532a1c112cb2e04e2e4/the-hidden-cost-of-cross-border-stripe-fees-in-2026-and-how-to-calculate-net-payouts-k6d",
-      "summary": "If you bill international clients or sell digital products globally, Stripe’s headline 2.9% + $0.30 rate is only the baseline. Many creators and founders don't realize that cross-border transactions trigger additional fees that can silently eat into your margins: International C…",
-      "author": "mg x",
-      "published": "Thu, 17 Sep 2026 05:59:25 +0000",
+      "title": "Buy Verified Transferwise Account – Fully Certified Multi-Currency Banking Solutions for Global Commerce",
+      "url": "https://dev.to/localpvashop028/buy-verified-transferwise-account-fully-certified-multi-currency-banking-solutions-for-global-3374",
+      "summary": "Introduction Managing cross-border commerce requires an efficient payment setup. Legacy banking networks rely on traditional wire systems that charge substantial conversion fees and delay transaction speeds. For digital marketers, e-commerce sellers, and remote agencies operatin…",
+      "author": "Buy Old Gmail Accounts",
+      "published": "Fri, 18 Sep 2026 05:48:08 +0000",
       "tags": [
-        "stripe",
+        "ai",
         "webdev",
-        "fintech",
-        "freelance"
+        "business",
+        "marketing"
       ]
     },
     {
-      "id": "ec52edba951a",
+      "id": "78f292ab6e13",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Eternal Blue (album)",
-      "url": "https://en.wikipedia.org/wiki/Eternal_Blue_(album)",
-      "summary": "Eternal Blue is the debut studio album by the Canadian heavy metal band Spiritbox. It was released on September 17, 2021, through the band's label Pale Chord Records in partnership with Rise Records. Vocalist Courtney LaPlante and guitarist Mike Stringer formed Spiritbox in 2016…",
+      "title": "Noemvriana",
+      "url": "https://en.wikipedia.org/wiki/Noemvriana",
+      "summary": "The Noemvriana was an armed confrontation in Athens in December [O.S. November] 1916 between the Kingdom of Greece and the Allied Powers, arising from a dispute over Greece's neutrality in World War I, followed by reprisals and riots against Greek supporters of the Allies.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "99aca68ee45f",
+      "id": "01f384c10a4c",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Assad regime planned US journalist's kidnap for weeks, BBC finds",
-      "url": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Austin Tice’s abduction was approved by Syria’s former leader Bashar al-Assad, a source claims.",
-      "published": "Thu, 17 Sep 2026 05:00:18 GMT",
+      "title": "Canada welcomes EU proposal to become 'associate member'",
+      "url": "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo?at_medium=RSS&at_campaign=rss",
+      "summary": "Canadian Prime Minister Mark Carney said a Canada-EU alliance would create a \"beacon for other democracies\".",
+      "published": "Thu, 17 Sep 2026 12:27:18 GMT",
       "tags": []
     },
     {
-      "id": "f5b6dac208dd",
+      "id": "ad5a5678babb",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US interest rates raised for first time in three years",
-      "url": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss",
-      "summary": "Rates were hiked in a unanimous decision despite fierce opposition from President Donald Trump, who had called for a cut.",
-      "published": "Thu, 17 Sep 2026 00:40:17 GMT",
+      "title": "Ninth woman's body found as South African police investigate string of deaths",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo?at_medium=RSS&at_campaign=rss",
+      "summary": "South Africa police have cautioned against assuming that all the killings are linked but many women are afraid.",
+      "published": "Thu, 17 Sep 2026 13:44:07 GMT",
       "tags": []
     },
     {
-      "id": "2c1c4f48aefe",
+      "id": "e0d2ddbae9a5",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Snapchat open to putting time limits on teens, boss tells BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cr3wjz3edd10o?at_medium=RSS&at_campaign=rss",
-      "summary": "Evan Spiegel says it would be \"an important step forward for the industry\" in an interview with the BBC.",
-      "published": "Wed, 16 Sep 2026 23:41:57 GMT",
+      "title": "UN experts say grounds to believe US committed war crimes in Iran strikes",
+      "url": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss",
+      "summary": "The US has not acknowledged carrying out February's deadly strikes on a primary school in Minab and a sports complex in Lamerd.",
+      "published": "Thu, 17 Sep 2026 20:34:30 GMT",
       "tags": []
     },
     {
-      "id": "2b5de424490a",
+      "id": "f2796f02c79a",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Rosenberg: Russia's elections will have few surprises, but for the Kremlin they matter",
-      "url": "https://www.bbc.co.uk/news/articles/ck62m0r4r1y3o?at_medium=RSS&at_campaign=rss",
-      "summary": "There is no doubt over the outcome of this vote, but for the Kremlin they are still an important moment.",
-      "published": "Thu, 17 Sep 2026 05:00:36 GMT",
+      "title": "US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark",
+      "url": "https://www.bbc.co.uk/news/articles/c6n8m72r13ngo?at_medium=RSS&at_campaign=rss",
+      "summary": "The BBC understands Iranian President Masoud Pezeshkian and Foreign Minister Abbas Araghchi are among the delegates allowed to enter the US.",
+      "published": "Thu, 17 Sep 2026 21:41:19 GMT",
       "tags": []
     },
     {
-      "id": "00f56e1b1eec",
+      "id": "f5dbcedb0e59",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Apple reportedly building server packed with M-series Ultra chips for AI",
-      "url": "https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/",
-      "summary": "Planned 2029 debut could make this Apple’s first enterprise server in decades.",
+      "title": "RFK Jr. names 8 new members to influential preventive medicine task force",
+      "url": "https://arstechnica.com/health/2026/09/rfk-jr-stacks-another-influential-federal-panel-with-questionable-picks/",
+      "summary": "The USPSTF sets insurance coverage from preventive services, like colonoscopies.",
+      "author": "Beth Mole",
+      "published": "Thu, 17 Sep 2026 22:31:28 +0000",
+      "tags": [
+        "Health",
+        "preventive medicine",
+        "robert f kennedy jr",
+        "USPSTF"
+      ]
+    },
+    {
+      "id": "289b2cb14f50",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Small AI models let drones autonomously identify and attack battlefield targets",
+      "url": "https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions/",
+      "summary": "Scaleout deploys decentralized AI-driven learning to military bases and drones.",
       "author": "Jeremy Hsu",
-      "published": "Wed, 16 Sep 2026 22:02:46 +0000",
+      "published": "Thu, 17 Sep 2026 22:12:58 +0000",
       "tags": [
         "AI",
-        "Apple",
-        "AI developers",
-        "ai servers"
+        "AI drones",
+        "AI models",
+        "computer vision"
       ]
     },
     {
-      "id": "2a4fab1da5c1",
+      "id": "beb9711acac3",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Epstein had huge cache of child sex pics; victims sue to find out who's in them",
-      "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-trump-doj-notified-very-few-victims-in-epsteins-stash-of-child-sex-images/",
-      "summary": "Survivors appalled nobody will tell them if they’re in Epstein’s CSAM collection.",
-      "author": "Ashley Belanger",
-      "published": "Wed, 16 Sep 2026 21:42:09 +0000",
+      "title": "Google announces new experimental \"CC\" AI agent for families",
+      "url": "https://arstechnica.com/google/2026/09/google-announces-new-experimental-cc-ai-agent-for-families/",
+      "summary": "Multiple family members can share data to help the agent make plans and complete tasks.",
+      "author": "Ryan Whitwam",
+      "published": "Thu, 17 Sep 2026 20:24:34 +0000",
       "tags": [
-        "Policy",
-        "child porn",
-        "child sex abuse materials",
-        "csam"
+        "AI",
+        "Google",
+        "Artificial Intelligence",
+        "gemini"
       ]
     },
     {
-      "id": "c60fc05e1d0d",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Nonprofit that tracks meteors taken down by \"critical blow\" from a cyberattack",
-      "url": "https://arstechnica.com/security/2026/09/nonprofit-that-tracks-meteors-taken-down-by-critical-blow-from-a-cyberattack/",
-      "summary": "Group plans to be largely out of commission for several weeks.",
-      "author": "Dan Goodin",
-      "published": "Wed, 16 Sep 2026 21:08:14 +0000",
-      "tags": [
-        "Biz & IT",
-        "Science",
-        "Security",
-        "Space"
-      ]
-    },
-    {
-      "id": "7b4c69c9ad3a",
+      "id": "9fb9d15bf0d2",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Intel’s stock rises as investors hope memory chips can mark the next step in its turnaround",
-      "url": "https://www.marketwatch.com/story/intels-stock-rises-as-investors-hope-memory-chips-can-mark-the-next-step-in-its-turnaround-a276608f?mod=mw_rss_topstories",
-      "summary": "A report says Intel is in early talks with SK Hynix, which is considering some sort of partnership that would enable it to make memory chips in the U.S.",
-      "author": "Emily Bary",
-      "published": "Wed, 16 Sep 2026 23:51:00 GMT",
+      "title": "The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.",
+      "url": "https://www.marketwatch.com/story/the-bond-market-is-seeing-trouble-why-investors-are-buying-now-anyway-065a2f9f?mod=mw_rss_topstories",
+      "summary": "“The higher that yields go — for at least new money — it becomes more enticing to think about putting money into bonds,” one strategist notes.",
+      "author": "Joy Wiltermuth",
+      "published": "Thu, 17 Sep 2026 21:22:00 GMT",
       "tags": []
     },
     {
-      "id": "dc3c5ad2f1b7",
+      "id": "c15091685fb0",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "As Fed rolls out its first interest-rate hike in 3 years, market braces for more increases",
-      "url": "https://www.marketwatch.com/story/warshs-fed-rolls-out-first-interest-rate-hike-in-3-years-with-one-more-increase-expected-cde3060d?mod=mw_rss_topstories",
-      "summary": "The Fed’s policy-making committee was unanimous in its decision to hike, but forward guidance was split.",
-      "author": "Victor Reklaitis,Greg Robb",
-      "published": "Wed, 16 Sep 2026 22:25:00 GMT",
+      "title": "Micron, Intel and other chip stocks are furthering their strong comebacks",
+      "url": "https://www.marketwatch.com/story/micron-intel-and-other-chip-stocks-are-furthering-their-strong-comebacks-14b1ecac?mod=mw_rss_topstories",
+      "summary": "Investor fears about an AI spending slowdown and the impact of interest-rate hikes are subsiding.",
+      "author": "Britney Nguyen",
+      "published": "Thu, 17 Sep 2026 21:22:00 GMT",
       "tags": []
     },
     {
-      "id": "32c6b96eb50e",
+      "id": "8b9bc1bc1c95",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "My rental property is paid off, but I need cash. Is this a bad time to take out a $50,000 HELOC?",
-      "url": "https://www.marketwatch.com/story/my-rental-property-is-paid-off-but-i-need-cash-is-this-a-bad-time-to-take-out-a-50-000-heloc-d094bbc5?mod=mw_rss_topstories",
-      "summary": "The Federal Reserve announced a quarter-percentage-point interest-rate hike Wednesday, to a range of 3.75%-4.0%.",
-      "author": "Quentin Fottrell",
-      "published": "Wed, 16 Sep 2026 22:16:00 GMT",
+      "title": "Wall Street is betting Trump backs down on Iran — but what if the ‘TACO’ trade fails this time?",
+      "url": "https://www.marketwatch.com/story/wall-street-is-betting-trump-backs-down-on-iran-but-what-if-the-taco-trade-fails-this-time-53845c77?mod=mw_rss_topstories",
+      "summary": "For six months, investors had a playbook: when Trump threatens Iran, buy the dip, because he always backs down. But in September, the playbook stopped working.",
+      "author": "Isabel Wang,Joseph Adinolfi",
+      "published": "Thu, 17 Sep 2026 21:09:00 GMT",
       "tags": []
     }
   ],
