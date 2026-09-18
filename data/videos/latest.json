@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "items": [
     {
       "id": "281ff94730f2",
@@ -43,6 +43,28 @@
       "url": "https://www.youtube.com/watch?v=x-DIGi8Sc9E",
       "thumb": "https://i1.ytimg.com/vi/x-DIGi8Sc9E/hqdefault.jpg",
       "published": "2026-01-30",
+      "category": "图形学"
+    },
+    {
+      "id": "4a8d4af7a842",
+      "platform": "bilibili",
+      "videoId": "BV1Toe36YE4z",
+      "title": "GAMES Webinar 415-具身智能专题-窦志扬-NeuralActuator",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV1Toe36YE4z",
+      "thumb": "https://i1.hdslb.com/bfs/archive/dcee9e187b03d0fd8a90f98b826059c2e322816b.jpg",
+      "published": "2026-09-17",
+      "category": "图形学"
+    },
+    {
+      "id": "b6a8c1757788",
+      "platform": "bilibili",
+      "videoId": "BV14oe36YE6P",
+      "title": "GAMES Webinar 415-具身智能专题-杨理欣-面向机器人操作的4D世界-动作表征",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV14oe36YE6P",
+      "thumb": "https://i0.hdslb.com/bfs/archive/646fb0bc1c52b4f122ac5fed7369e00f31ddb649.jpg",
+      "published": "2026-09-17",
       "category": "图形学"
     },
     {
@@ -112,25 +134,25 @@
       "category": "CS"
     },
     {
-      "id": "9018e970ca98",
+      "id": "c9180e751184",
       "platform": "bilibili",
-      "videoId": "BV1ScKR6QEQF",
-      "title": "古法做视频里加一点点科技",
-      "channel": "跟李沐学AI",
-      "url": "https://www.bilibili.com/video/BV1ScKR6QEQF",
-      "thumb": "https://i0.hdslb.com/bfs/archive/b9d2e88f8d41fe24cecddcf715756265ff68b9d2.jpg",
-      "published": "2026-06-29",
+      "videoId": "BV1Q6en6NEUo",
+      "title": "软件仓库管理 (2) [04-Raw/26生成式软件工程/NJU]",
+      "channel": "绿导师原谅你了",
+      "url": "https://www.bilibili.com/video/BV1Q6en6NEUo",
+      "thumb": "https://i2.hdslb.com/bfs/archive/168d8b60cc63f056d15486450260509004e0b559.jpg",
+      "published": "2026-09-15",
       "category": "CS"
     },
     {
-      "id": "4001551d4ad2",
+      "id": "81d7adf9faa1",
       "platform": "bilibili",
-      "videoId": "BV1RfEw6LEfF",
-      "title": "能跟你对话的TTS【开源】",
-      "channel": "跟李沐学AI",
-      "url": "https://www.bilibili.com/video/BV1RfEw6LEfF",
-      "thumb": "https://i0.hdslb.com/bfs/archive/414b79823c78f30b3e60d27f14c0f44111f0234f.jpg",
-      "published": "2026-06-04",
+      "videoId": "BV1kybV6DE47",
+      "title": "软件仓库管理 [03-Raw/26生成式软件工程/NJU]",
+      "channel": "绿导师原谅你了",
+      "url": "https://www.bilibili.com/video/BV1kybV6DE47",
+      "thumb": "https://i1.hdslb.com/bfs/archive/68df1508fe220439d042badb972f99db90e57ff0.jpg",
+      "published": "2026-09-08",
       "category": "CS"
     },
     {
@@ -178,6 +200,17 @@
       "category": "金融"
     },
     {
+      "id": "c93741ae59a2",
+      "platform": "youtube",
+      "videoId": "HICDzXfCAs4",
+      "title": "Crash Course Astronomy Marathon • Full Series",
+      "channel": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=HICDzXfCAs4",
+      "thumb": "https://i1.ytimg.com/vi/HICDzXfCAs4/hqdefault.jpg",
+      "published": "2026-09-17",
+      "category": "历史"
+    },
+    {
       "id": "089da44bc50e",
       "platform": "youtube",
       "videoId": "KibgDxh68I8",
@@ -186,17 +219,6 @@
       "url": "https://www.youtube.com/watch?v=KibgDxh68I8",
       "thumb": "https://i4.ytimg.com/vi/KibgDxh68I8/hqdefault.jpg",
       "published": "2026-09-15",
-      "category": "历史"
-    },
-    {
-      "id": "d1e75aea5af8",
-      "platform": "youtube",
-      "videoId": "iWUp2kMCv6o",
-      "title": "How Do Fossils Form?: Crash Course Geology #18",
-      "channel": "CrashCourse",
-      "url": "https://www.youtube.com/watch?v=iWUp2kMCv6o",
-      "thumb": "https://i2.ytimg.com/vi/iWUp2kMCv6o/hqdefault.jpg",
-      "published": "2026-09-10",
       "category": "历史"
     },
     {
@@ -244,25 +266,25 @@
       "category": "历史"
     },
     {
-      "id": "b3c13d2a08af",
+      "id": "61a65e583223",
       "platform": "youtube",
-      "videoId": "f_MUzfzI4RM",
-      "title": "Humans could lose control of AI systems, AI boss says | BBC Learning English from the News",
+      "videoId": "6xr8-U8fFs4",
+      "title": "🔨 DIY and home improvement vocabulary | Live English Class with George",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=f_MUzfzI4RM",
-      "thumb": "https://i3.ytimg.com/vi/f_MUzfzI4RM/hqdefault.jpg",
-      "published": "2026-09-16",
+      "url": "https://www.youtube.com/watch?v=6xr8-U8fFs4",
+      "thumb": "https://i3.ytimg.com/vi/6xr8-U8fFs4/hqdefault.jpg",
+      "published": "2026-09-17",
       "category": "英语"
     },
     {
-      "id": "ca24bf203157",
+      "id": "e6623d1b7c84",
       "platform": "youtube",
-      "videoId": "LpL2L8N76Jw",
-      "title": "Can you say these vegetables before I do? #shorts",
+      "videoId": "rCIs5x0SGTY",
+      "title": "How do you feel when someone says 'no'? ⏲️ 6 Minute English",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/shorts/LpL2L8N76Jw",
-      "thumb": "https://i1.ytimg.com/vi/LpL2L8N76Jw/hqdefault.jpg",
-      "published": "2026-09-16",
+      "url": "https://www.youtube.com/watch?v=rCIs5x0SGTY",
+      "thumb": "https://i3.ytimg.com/vi/rCIs5x0SGTY/hqdefault.jpg",
+      "published": "2026-09-17",
       "category": "英语"
     },
     {
@@ -291,13 +313,13 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "图形学 · 512313464: 0 条",
+    "图形学 · 512313464: 2 条",
     "引擎 · @TheCherno: 2 条",
     "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
-    "CS · 1567748478: 2 条",
-    "CS · 202224425: 0 条",
+    "CS · 1567748478: 0 条",
+    "CS · 202224425: 2 条",
     "金融 · @ThePlainBagel: 2 条",
     "金融 · 520819684: 2 条",
     "历史 · @CrashCourse: 2 条",
