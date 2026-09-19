@@ -1,117 +1,133 @@
 {
-  "date": "2026-09-18",
+  "date": "2026-09-19",
   "items": [
     {
-      "id": "8edb47c9d1c9",
+      "id": "653442c45f6f",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Richard Shepherd",
-      "url": "https://simple.wikipedia.org/wiki/Richard_Shepherd",
-      "summary": "Sir Richard Charles Scrimgeour Shepherd was a British Conservative politician. He was Member of Parliament for Aldridge-Brownhills from 1979 to 2015.",
+      "title": "River Tay",
+      "url": "https://simple.wikipedia.org/wiki/River_Tay",
+      "summary": "River Tay is a river in Scotland. It starts in Loch Tay, and opens up into the North Sea at the Firth of Tay. It discharges more water than the Thames and the Severn put together.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "0239b672f592",
+      "id": "753f7db994f5",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Morangis, Essonne",
-      "url": "https://simple.wikipedia.org/wiki/Morangis%2C_Essonne",
-      "summary": "Morangis is a commune. It is in Île-de-France in the Essonne department in north France.",
+      "title": "Anna Maria Alberghetti",
+      "url": "https://simple.wikipedia.org/wiki/Anna_Maria_Alberghetti",
+      "summary": "Anna Maria Alberghetti is an Italian-American actress and soprano. Her career began in 1942. She won a Tony Award in 1962 for her performance in Carnival!. She appeared on The Ed Sullivan Show more than 50 times.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "39b208522bb5",
+      "id": "40933b269753",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Hacking OpenAI",
-      "url": "https://www.hacktron.ai/blog/hacking-openai",
+      "title": "San Francisco Onion Futures Company",
+      "url": "https://onionfutures.com/",
       "summary": "",
-      "author": "Handy-Man",
+      "author": "z-mach9",
+      "published": "2026-09-19",
+      "tags": [
+        "▲ 110"
+      ]
+    },
+    {
+      "id": "1704ec300ffe",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
+      "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
+      "summary": "",
+      "author": "theanonymousone",
       "published": "2026-09-18",
       "tags": [
-        "▲ 203"
+        "▲ 725"
       ]
     },
     {
-      "id": "b38892ce5b71",
+      "id": "e93a36750b02",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Waymo in Singapore",
-      "url": "https://waymo.com/waymo-in-singapore/",
+      "title": "Typesafe-computer-use drives a Mac toward a goal for 1/50th of a cent per step",
+      "url": "https://github.com/awlevin/typesafe-computer-use",
       "summary": "",
-      "author": "ramanan",
+      "author": "rahimnathwani",
+      "published": "2026-09-16",
+      "tags": [
+        "▲ 39"
+      ]
+    },
+    {
+      "id": "572384faccbb",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "SDCC – Small Device C Compiler",
+      "url": "https://sdcc.sourceforge.net/",
+      "summary": "",
+      "author": "lioeters",
+      "published": "2026-09-19",
+      "tags": [
+        "▲ 47"
+      ]
+    },
+    {
+      "id": "145c15022bb7",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Science Is Open Software",
+      "url": "https://jepedersen.dk/blog/202505_research/",
+      "summary": "",
+      "author": "jegp",
+      "published": "2026-09-19",
+      "tags": [
+        "▲ 50"
+      ]
+    },
+    {
+      "id": "bac22dcf3ca7",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Cloudflare Quick Tunnels",
+      "url": "https://try.cloudflare.com/",
+      "summary": "",
+      "author": "jcbhmr",
       "published": "2026-09-18",
       "tags": [
-        "▲ 72"
+        "▲ 657"
       ]
     },
     {
-      "id": "01e6418dc113",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Astra for Law",
-      "url": "https://openai.com/index/astra-for-law/",
-      "summary": "",
-      "author": "vertigoruntime",
-      "published": "2026-09-17",
-      "tags": [
-        "▲ 425"
-      ]
-    },
-    {
-      "id": "4a65016fd02f",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
-      "url": "https://prismml.com/news/bonsai-2-27b",
-      "summary": "",
-      "author": "JonSchneider",
-      "published": "2026-09-17",
-      "tags": [
-        "▲ 351"
-      ]
-    },
-    {
-      "id": "705ff08b9e85",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Jemalloc 5.4.0",
-      "url": "https://github.com/jemalloc/jemalloc/releases/tag/5.4.0",
-      "summary": "",
-      "author": "gkfasdfasdf",
-      "published": "2026-09-18",
-      "tags": [
-        "▲ 18"
-      ]
-    },
-    {
-      "id": "fdbe8e7f4578",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "The Scourge of x86 Emulation",
-      "url": "https://fex-emu.com/Scourge-of-emulation/",
-      "summary": "",
-      "author": "dagmx",
-      "published": "2026-09-18",
-      "tags": [
-        "▲ 21"
-      ]
-    },
-    {
-      "id": "0787b29d2961",
+      "id": "2cede5c19cbe",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How to send automatic anniversary emails that still feel like you",
-      "url": "https://dev.to/dont_remember_e077a18c884/how-to-send-automatic-anniversary-emails-that-still-feel-like-you-4l86",
-      "summary": "You remembered the anniversary last year. You meant to. This year the day showed up anyway, and your best move was a rushed text at 10:47pm that started with \"happy anniversary!! sorry this is late.\" That is the quiet pattern a lot of couples and close friends fall into. Not bec…",
+      "title": "PostgreSQL vs MySQL Architecture: Deep Engine & Workload Analysis",
+      "url": "https://dev.to/wantsvibes/postgresql-vs-mysql-architecture-deep-engine-workload-analysis-4j94",
+      "summary": "PostgreSQL vs MySQL Architecture: Deep Engine & Workload Analysis Database selection for high-traffic applications requires evaluating concrete execution mechanics rather than relying on abstract feature comparisons. Choosing between PostgreSQL and MySQL demands a rigorous analy…",
+      "author": "wantsvibes",
+      "published": "Sat, 19 Sep 2026 05:52:04 +0000",
+      "tags": [
+        "programming",
+        "softwareengineering",
+        "architecture",
+        "webdev"
+      ]
+    },
+    {
+      "id": "f19e764a7ee0",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "How to set up a recurring birthday email that still sounds like you",
+      "url": "https://dev.to/dont_remember_e077a18c884/how-to-set-up-a-recurring-birthday-email-that-still-sounds-like-you-47i2",
+      "summary": "You know their birthday. You have known it for years. Somehow you still end up typing a late \"happy birthday!!\" on your phone while dinner cools, hoping the double exclamation mark covers how thin the note feels. That pattern is not a character flaw. It is what happens when the …",
       "author": "Dont Remember",
-      "published": "Fri, 18 Sep 2026 05:57:08 +0000",
+      "published": "Sat, 19 Sep 2026 05:51:39 +0000",
       "tags": [
         "productivity",
         "ai",
@@ -119,184 +135,168 @@
       ]
     },
     {
-      "id": "d3830a6eec82",
+      "id": "b351afe44a38",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Engineering Low-Latency Event Telemetry: UHF RFID Ingestion, Edge De-Bouncing & Room Dwell Architecture",
-      "url": "https://dev.to/stampiq/engineering-low-latency-event-telemetry-uhf-rfid-ingestion-edge-de-bouncing-room-dwell-36k1",
-      "summary": "Deploying real-time attendee tracking across a 15,000-delegate tech summit or stadium tournament introduces severe distributed systems constraints. Unlike standard point-of-sale terminals or office badge taps, large-scale conference venues cannot force delegates into single-file…",
-      "author": "stampiq",
-      "published": "Fri, 18 Sep 2026 05:56:17 +0000",
+      "title": "A browser arcade in plain TypeScript: 8 classic games, 35 kB, no framework",
+      "url": "https://dev.to/minjiahu/a-browser-arcade-in-plain-typescript-8-classic-games-35-kb-no-framework-41ha",
+      "summary": "Play it: https://minjia-hu.github.io/retro-arcade/ Source: https://github.com/Minjia-Hu/retro-arcade A retro-styled collection of browser games. Open the page and play, no install, no sign-up. Snake, Tetris, Breakout, Flappy, 2048, Minesweeper, Sudoku and Gomoku share one arcade…",
+      "author": "Minjia Hu",
+      "published": "Sat, 19 Sep 2026 05:50:26 +0000",
       "tags": [
-        "iot",
+        "typescript",
+        "webdev",
+        "opensource",
+        "gamedev"
+      ]
+    },
+    {
+      "id": "9394294acb65",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Designing Real-Time Bi-Directional APIs: WebSockets vs. SSE vs. gRPC-Web",
+      "url": "https://dev.to/wantsvibes/designing-real-time-bi-directional-apis-websockets-vs-sse-vs-grpc-web-48d8",
+      "summary": "Designing Real-Time Bi-Directional APIs: WebSockets vs. SSE vs. gRPC-Web Fundamental Constraints & Invalidation of Traditional Models The classic Request-Response model over HTTP/1.1—governed by strict client-initiated semantics—is fundamentally at odds with low-latency, real-ti…",
+      "author": "wantsvibes",
+      "published": "Sat, 19 Sep 2026 05:43:15 +0000",
+      "tags": [
+        "programming",
+        "softwareengineering",
         "architecture",
-        "webdev",
-        "performance"
+        "webdev"
       ]
     },
     {
-      "id": "917f030bb30b",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Buy Verified ByBit Account – Fully Certified Crypto Trading Profiles for Unrestricted Access",
-      "url": "https://dev.to/localpvashop028/buy-verified-bybit-account-fully-certified-crypto-trading-profiles-for-unrestricted-access-4l1b",
-      "summary": "Introduction Navigating the global cryptocurrency markets requires access to exchanges that offer deep liquidity, low latency execution, and advanced derivatives products. ByBit stands out as one of the world's leading platforms for spot trading, perpetual contracts, and Peer-to…",
-      "author": "Buy Old Gmail Accounts",
-      "published": "Fri, 18 Sep 2026 05:51:04 +0000",
-      "tags": [
-        "ai",
-        "webdev",
-        "business",
-        "marketing"
-      ]
-    },
-    {
-      "id": "b2d76a105662",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Buy Verified Transferwise Account – Fully Certified Multi-Currency Banking Solutions for Global Commerce",
-      "url": "https://dev.to/localpvashop028/buy-verified-transferwise-account-fully-certified-multi-currency-banking-solutions-for-global-3374",
-      "summary": "Introduction Managing cross-border commerce requires an efficient payment setup. Legacy banking networks rely on traditional wire systems that charge substantial conversion fees and delay transaction speeds. For digital marketers, e-commerce sellers, and remote agencies operatin…",
-      "author": "Buy Old Gmail Accounts",
-      "published": "Fri, 18 Sep 2026 05:48:08 +0000",
-      "tags": [
-        "ai",
-        "webdev",
-        "business",
-        "marketing"
-      ]
-    },
-    {
-      "id": "78f292ab6e13",
+      "id": "dc59fa8c968f",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Noemvriana",
-      "url": "https://en.wikipedia.org/wiki/Noemvriana",
-      "summary": "The Noemvriana was an armed confrontation in Athens in December [O.S. November] 1916 between the Kingdom of Greece and the Allied Powers, arising from a dispute over Greece's neutrality in World War I, followed by reprisals and riots against Greek supporters of the Allies.",
+      "title": "Ashton-under-Lyne",
+      "url": "https://en.wikipedia.org/wiki/Ashton-under-Lyne",
+      "summary": "Ashton-under-Lyne, also known simply as Ashton, is a market town in Tameside, Greater Manchester, United Kingdom. The population was 48,604 at the 2021 census. Historically a part of Lancashire, it is on the north bank of the River Tame, in the foothills of the Pennines, six mil…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "01f384c10a4c",
+      "id": "7ffe8b5c7454",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Canada welcomes EU proposal to become 'associate member'",
-      "url": "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Canadian Prime Minister Mark Carney said a Canada-EU alliance would create a \"beacon for other democracies\".",
-      "published": "Thu, 17 Sep 2026 12:27:18 GMT",
+      "title": "US and Denmark reach deal over Greenland after Trump annexation threats",
+      "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Trump says the agreement will give the US \"permanent control over security, and all other needs, in Greenland\", though specifics have not been confirmed by Danish officials.",
+      "published": "Fri, 18 Sep 2026 22:58:55 GMT",
       "tags": []
     },
     {
-      "id": "ad5a5678babb",
+      "id": "d966c1faf1fe",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Ninth woman's body found as South African police investigate string of deaths",
-      "url": "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo?at_medium=RSS&at_campaign=rss",
-      "summary": "South Africa police have cautioned against assuming that all the killings are linked but many women are afraid.",
-      "published": "Thu, 17 Sep 2026 13:44:07 GMT",
+      "title": "Trump says he is banning CNN and Politico from White House",
+      "url": "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss",
+      "summary": "The US president has had a tense and fiery relationship with the US media throughout his political career.",
+      "published": "Sat, 19 Sep 2026 05:36:36 GMT",
       "tags": []
     },
     {
-      "id": "e0d2ddbae9a5",
+      "id": "9eee1724b36d",
       "category": "news",
       "source": "BBC 世界",
-      "title": "UN experts say grounds to believe US committed war crimes in Iran strikes",
-      "url": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss",
-      "summary": "The US has not acknowledged carrying out February's deadly strikes on a primary school in Minab and a sports complex in Lamerd.",
-      "published": "Thu, 17 Sep 2026 20:34:30 GMT",
+      "title": "Google's Gemini AI hacked three companies in security test",
+      "url": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo?at_medium=RSS&at_campaign=rss",
+      "summary": "The AI model accessed the internet and guessed credentials to three websites, a Google official told the BBC.",
+      "published": "Sat, 19 Sep 2026 04:27:11 GMT",
       "tags": []
     },
     {
-      "id": "f2796f02c79a",
+      "id": "414306ef7f15",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark",
-      "url": "https://www.bbc.co.uk/news/articles/c6n8m72r13ngo?at_medium=RSS&at_campaign=rss",
-      "summary": "The BBC understands Iranian President Masoud Pezeshkian and Foreign Minister Abbas Araghchi are among the delegates allowed to enter the US.",
-      "published": "Thu, 17 Sep 2026 21:41:19 GMT",
+      "title": "Trump signs sweeping Russia sanctions bill",
+      "url": "https://www.bbc.co.uk/news/articles/cqvgy34ndj4eo?at_medium=RSS&at_campaign=rss",
+      "summary": "The bill is named after the late Senator Lindsey Graham, a staunch advocate of aid for Ukraine.",
+      "published": "Fri, 18 Sep 2026 22:05:47 GMT",
       "tags": []
     },
     {
-      "id": "f5dbcedb0e59",
+      "id": "6b844761c122",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "RFK Jr. names 8 new members to influential preventive medicine task force",
-      "url": "https://arstechnica.com/health/2026/09/rfk-jr-stacks-another-influential-federal-panel-with-questionable-picks/",
-      "summary": "The USPSTF sets insurance coverage from preventive services, like colonoscopies.",
-      "author": "Beth Mole",
-      "published": "Thu, 17 Sep 2026 22:31:28 +0000",
+      "title": "AI hallucination of Chinese nuclear components almost led to US military attack",
+      "url": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
+      "summary": "But the military's overall use of AI seems to be accelerating.",
+      "author": "Kyle Orland",
+      "published": "Fri, 18 Sep 2026 20:26:33 +0000",
       "tags": [
-        "Health",
-        "preventive medicine",
-        "robert f kennedy jr",
-        "USPSTF"
+        "AI",
+        "china",
+        "Department of Defense",
+        "DoD"
       ]
     },
     {
-      "id": "289b2cb14f50",
+      "id": "8a86701f25e4",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Small AI models let drones autonomously identify and attack battlefield targets",
-      "url": "https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions/",
-      "summary": "Scaleout deploys decentralized AI-driven learning to military bases and drones.",
+      "title": "FAA tees up $875M AI tool to help manage air traffic congestion",
+      "url": "https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion/",
+      "summary": "FAA plans for AI tool to help manage DC air traffic before a nationwide rollout.",
       "author": "Jeremy Hsu",
-      "published": "Thu, 17 Sep 2026 22:12:58 +0000",
+      "published": "Fri, 18 Sep 2026 19:20:50 +0000",
       "tags": [
         "AI",
-        "AI drones",
-        "AI models",
-        "computer vision"
+        "AI tools",
+        "air traffic control",
+        "air traffic controllers"
       ]
     },
     {
-      "id": "beb9711acac3",
+      "id": "20fc0c317b9e",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Google announces new experimental \"CC\" AI agent for families",
-      "url": "https://arstechnica.com/google/2026/09/google-announces-new-experimental-cc-ai-agent-for-families/",
-      "summary": "Multiple family members can share data to help the agent make plans and complete tasks.",
-      "author": "Ryan Whitwam",
-      "published": "Thu, 17 Sep 2026 20:24:34 +0000",
+      "title": "FCC lets Paramount sell 49.5% equity stake to Saudi Arabia, UAE, and Qatar",
+      "url": "https://arstechnica.com/tech-policy/2026/09/fcc-lets-paramount-sell-49-5-equity-stake-to-saudi-arabia-uae-and-qatar/",
+      "summary": "FCC rejects concerns about repressive governments buying influence over CBS owner.",
+      "author": "Jon Brodkin",
+      "published": "Fri, 18 Sep 2026 17:57:41 +0000",
       "tags": [
-        "AI",
-        "Google",
-        "Artificial Intelligence",
-        "gemini"
+        "Policy",
+        "CBS",
+        "Paramount Skydance",
+        "warner bros. discovery"
       ]
     },
     {
-      "id": "9fb9d15bf0d2",
+      "id": "d521adb48134",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.",
-      "url": "https://www.marketwatch.com/story/the-bond-market-is-seeing-trouble-why-investors-are-buying-now-anyway-065a2f9f?mod=mw_rss_topstories",
-      "summary": "“The higher that yields go — for at least new money — it becomes more enticing to think about putting money into bonds,” one strategist notes.",
-      "author": "Joy Wiltermuth",
-      "published": "Thu, 17 Sep 2026 21:22:00 GMT",
+      "title": "I’m in my 50s. My mother died from Alzheimer’s. Do I need long-term-care insurance?",
+      "url": "https://www.marketwatch.com/story/im-in-my-50s-my-mother-died-from-alzheimers-do-i-need-long-term-insurance-14d58069?mod=mw_rss_topstories",
+      "summary": "“By the time my mother died, the insurance company had paid out almost $600,000.”",
+      "author": "Quentin Fottrell",
+      "published": "Fri, 18 Sep 2026 23:30:00 GMT",
       "tags": []
     },
     {
-      "id": "c15091685fb0",
+      "id": "860ea1fb7c99",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Micron, Intel and other chip stocks are furthering their strong comebacks",
-      "url": "https://www.marketwatch.com/story/micron-intel-and-other-chip-stocks-are-furthering-their-strong-comebacks-14b1ecac?mod=mw_rss_topstories",
-      "summary": "Investor fears about an AI spending slowdown and the impact of interest-rate hikes are subsiding.",
-      "author": "Britney Nguyen",
-      "published": "Thu, 17 Sep 2026 21:22:00 GMT",
+      "title": "‘I’m burned out’: I’m constantly helping my cousin who is running out of money. Is it too much to expect his sister to help?",
+      "url": "https://www.marketwatch.com/story/im-burned-out-im-constantly-helping-my-cousin-who-is-running-out-of-money-is-it-too-much-to-expect-his-sister-to-help-540def9a?mod=mw_rss_topstories",
+      "summary": "“I spend a lot of time away from my family and spend money on gas, taking him out to eat.”",
+      "author": "Quentin Fottrell",
+      "published": "Fri, 18 Sep 2026 23:00:00 GMT",
       "tags": []
     },
     {
-      "id": "8b9bc1bc1c95",
+      "id": "49ff5fb8d2e0",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Wall Street is betting Trump backs down on Iran — but what if the ‘TACO’ trade fails this time?",
-      "url": "https://www.marketwatch.com/story/wall-street-is-betting-trump-backs-down-on-iran-but-what-if-the-taco-trade-fails-this-time-53845c77?mod=mw_rss_topstories",
-      "summary": "For six months, investors had a playbook: when Trump threatens Iran, buy the dip, because he always backs down. But in September, the playbook stopped working.",
-      "author": "Isabel Wang,Joseph Adinolfi",
-      "published": "Thu, 17 Sep 2026 21:09:00 GMT",
+      "title": "‘My total balance should be $20 million’: I invested $1.1 million in a crypto platform. Have I lost it all?",
+      "url": "https://www.marketwatch.com/story/my-total-balance-should-be-worth-20-million-i-invested-1-1-million-in-a-crypto-platform-have-i-lost-it-all-d22da562?mod=mw_rss_topstories",
+      "summary": "“I invested on the recommendation of an executive vice president of a major New York investment bank.”",
+      "author": "Quentin Fottrell",
+      "published": "Fri, 18 Sep 2026 22:45:00 GMT",
       "tags": []
     }
   ],
