@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-20",
+  "date": "2026-09-21",
   "items": [
     {
       "id": "0c3e7fe15b24",
@@ -43,28 +43,6 @@
       "url": "https://www.youtube.com/watch?v=x-DIGi8Sc9E",
       "thumb": "https://i1.ytimg.com/vi/x-DIGi8Sc9E/hqdefault.jpg",
       "published": "2026-01-30",
-      "category": "图形学"
-    },
-    {
-      "id": "4a8d4af7a842",
-      "platform": "bilibili",
-      "videoId": "BV1Toe36YE4z",
-      "title": "GAMES Webinar 415-具身智能专题-窦志扬-NeuralActuator",
-      "channel": "GAMES-Webinar",
-      "url": "https://www.bilibili.com/video/BV1Toe36YE4z",
-      "thumb": "https://i1.hdslb.com/bfs/archive/dcee9e187b03d0fd8a90f98b826059c2e322816b.jpg",
-      "published": "2026-09-17",
-      "category": "图形学"
-    },
-    {
-      "id": "b6a8c1757788",
-      "platform": "bilibili",
-      "videoId": "BV14oe36YE6P",
-      "title": "GAMES Webinar 415-具身智能专题-杨理欣-面向机器人操作的4D世界-动作表征",
-      "channel": "GAMES-Webinar",
-      "url": "https://www.bilibili.com/video/BV14oe36YE6P",
-      "thumb": "https://i0.hdslb.com/bfs/archive/646fb0bc1c52b4f122ac5fed7369e00f31ddb649.jpg",
-      "published": "2026-09-17",
       "category": "图形学"
     },
     {
@@ -156,6 +134,28 @@
       "category": "CS"
     },
     {
+      "id": "e1c561b80891",
+      "platform": "bilibili",
+      "videoId": "BV1Nyeq6qEt8",
+      "title": "软件工程的来龙去脉 [05-Raw/26生成式软件工程/NJU]",
+      "channel": "绿导师原谅你了",
+      "url": "https://www.bilibili.com/video/BV1Nyeq6qEt8",
+      "thumb": "https://i0.hdslb.com/bfs/archive/c75d365bb65abad0975bb1e8ca11ad5b67b68861.jpg",
+      "published": "2026-09-20",
+      "category": "CS"
+    },
+    {
+      "id": "c9180e751184",
+      "platform": "bilibili",
+      "videoId": "BV1Q6en6NEUo",
+      "title": "软件仓库管理 (2) [04-Raw/26生成式软件工程/NJU]",
+      "channel": "绿导师原谅你了",
+      "url": "https://www.bilibili.com/video/BV1Q6en6NEUo",
+      "thumb": "https://i2.hdslb.com/bfs/archive/168d8b60cc63f056d15486450260509004e0b559.jpg",
+      "published": "2026-09-15",
+      "category": "CS"
+    },
+    {
       "id": "f10fd44d83bb",
       "platform": "youtube",
       "videoId": "v824SHV6COE",
@@ -175,28 +175,6 @@
       "url": "https://www.youtube.com/watch?v=-VWZ3pDm94c",
       "thumb": "https://i2.ytimg.com/vi/-VWZ3pDm94c/hqdefault.jpg",
       "published": "2026-08-28",
-      "category": "金融"
-    },
-    {
-      "id": "d91da4d86f21",
-      "platform": "bilibili",
-      "videoId": "BV1zTYs6nEkk",
-      "title": "特朗普关税被判违法，这一整年白忙了? 现在关税什么情况?",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV1zTYs6nEkk",
-      "thumb": "https://i2.hdslb.com/bfs/archive/3dbf4edfbeb1d568030c431d47fa58681c923ea7.jpg",
-      "published": "2026-09-09",
-      "category": "金融"
-    },
-    {
-      "id": "968783204fa7",
-      "platform": "bilibili",
-      "videoId": "BV1HGta6aEf8",
-      "title": "沙特2030愿景，现在怎么样了？",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV1HGta6aEf8",
-      "thumb": "https://i1.hdslb.com/bfs/archive/68912c6c7b8fff18e6a98b643bb8298a2a29771f.jpg",
-      "published": "2026-09-01",
       "category": "金融"
     },
     {
@@ -291,21 +269,23 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "图形学 · 512313464: 2 条",
+    "Bilibili 512313464: code=-352 风控校验失败",
+    "图形学 · 512313464: 0 条",
     "引擎 · @TheCherno: 2 条",
     "引擎 · 437860379: 2 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
     "Bilibili 1567748478: code=-352 风控校验失败",
     "CS · 1567748478: 0 条",
-    "Bilibili 202224425: code=-352 风控校验失败",
-    "CS · 202224425: 0 条",
+    "CS · 202224425: 2 条",
     "金融 · @ThePlainBagel: 2 条",
-    "金融 · 520819684: 2 条",
+    "Bilibili 520819684: code=-352 风控校验失败",
+    "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
     "Bilibili 11646119: code=-352 风控校验失败",
     "历史 · 11646119: 0 条",
+    "Bilibili 23947287: code=-352 风控校验失败",
     "历史 · 23947287: 0 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
