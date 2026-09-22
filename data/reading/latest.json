@@ -1,302 +1,301 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "items": [
     {
-      "id": "bb92108b1730",
+      "id": "e1bc5037774c",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Paray-Vieille-Poste",
-      "url": "https://simple.wikipedia.org/wiki/Paray-Vieille-Poste",
-      "summary": "Paray-Vieille-Poste is a commune. It is in Île-de-France in the Essonne department in north France.",
+      "title": "Tara Reid",
+      "url": "https://simple.wikipedia.org/wiki/Tara_Reid",
+      "summary": "Tara Donna Reid is an American actress. She made her movie debut in the 1987 horror movie A Return to Salem's Lot. She had a recurring role on the television show, Scrubs as Danni Sullivan. She is best known for her role as Victoria 'Vicky' Lathum in the American Pie movie serie…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "7714da5e67ec",
+      "id": "a10f7beee40a",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Thun-l'Évêque",
-      "url": "https://simple.wikipedia.org/wiki/Thun-l'%C3%89v%C3%AAque",
-      "summary": "Thun-l'Évêque is a commune in Nord in north France. In 2019, 751 people lived there.",
+      "title": "Argyrosomus japonicus",
+      "url": "https://simple.wikipedia.org/wiki/Argyrosomus_japonicus",
+      "summary": "Argyrosomus japonicus, also known as the Japanese meagre or mulloway, is a species of meagre in the family Sciaenidae. Its otoliths are prized as \"jewels\" by some fishers.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "3b45c2112693",
+      "id": "d05f573d899c",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Grim Fandango Puzzle Document (1996) [pdf]",
-      "url": "http://gameshelf.jmac.org/2008/11/13/GrimPuzzleDoc_small.pdf",
+      "title": "Apple Music to open concert venue in Battersea Power Station",
+      "url": "https://www.bbc.com/news/articles/c607l2j2rj8ro",
       "summary": "",
-      "author": "kelseyfrog",
+      "author": "dabinat",
+      "published": "2026-09-22",
+      "tags": [
+        "▲ 26"
+      ]
+    },
+    {
+      "id": "65539846fc8f",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "MiMo v2.6",
+      "url": "https://mimo.xiaomi.com/mimo-v2-6",
+      "summary": "",
+      "author": "volf_",
       "published": "2026-09-21",
       "tags": [
-        "▲ 24"
+        "▲ 758"
       ]
     },
     {
-      "id": "ea087dc9487c",
+      "id": "d6f8e7e98973",
       "category": "tech",
       "source": "Hacker News",
-      "title": "AX – Google’s Open Agentic Orchestrator",
-      "url": "https://agentexecutor.io",
+      "title": "Spymarks, Not Watermarks",
+      "url": "https://brand.io/article/spymarks/",
       "summary": "",
-      "author": "blazarquasar",
-      "published": "2026-09-20",
-      "tags": [
-        "▲ 401"
-      ]
-    },
-    {
-      "id": "f17b71af291a",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Winning the Visa Lottery",
-      "url": "https://www.aeaweb.org/research/immigration-restrictions-firms-workers",
-      "summary": "",
-      "author": "neehao",
+      "author": "possibilistic",
       "published": "2026-09-21",
       "tags": [
-        "▲ 44"
+        "▲ 301"
       ]
     },
     {
-      "id": "54422eea0235",
+      "id": "044ae0d836d8",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
-      "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+      "title": "Transformers Explained Visually",
+      "url": "https://poloclub.github.io/transformer-explainer/",
       "summary": "",
-      "author": "giuliomagnifico",
-      "published": "2026-09-20",
+      "author": "aray07",
+      "published": "2026-09-21",
       "tags": [
-        "▲ 424"
+        "▲ 319"
       ]
     },
     {
-      "id": "8db79723e7ad",
+      "id": "0857775ad415",
       "category": "tech",
       "source": "Hacker News",
-      "title": "What happened to the Snowden archive",
-      "url": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
+      "title": "Firmware Freedom",
+      "url": "https://playtaurus.com/blog/firmware-freedom",
       "summary": "",
-      "author": "EXHades",
-      "published": "2026-09-20",
+      "author": "arbayi",
+      "published": "2026-09-22",
       "tags": [
-        "▲ 321"
+        "▲ 7"
       ]
     },
     {
-      "id": "fc9a8f12e485",
+      "id": "dfd00f6ab151",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Qwen Image 2.1",
-      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "title": "Attention is all you have",
+      "url": "https://alicegg.tech/2026/09/21/attention",
       "summary": "",
-      "author": "jmillikin",
-      "published": "2026-09-20",
+      "author": "zer0tonin",
+      "published": "2026-09-21",
       "tags": [
-        "▲ 586"
+        "▲ 703"
       ]
     },
     {
-      "id": "86521dd40d88",
+      "id": "b082e40c1d29",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Personal Loan & Bad Debt Collection in Mumbai: A Practical Guide for Creditors",
-      "url": "https://dev.to/baadshahrecovery/personal-loan-bad-debt-collection-in-mumbai-a-practical-guide-for-creditors-1j3k",
-      "summary": "Personal Loan & Bad Debt Collection in Mumbai requires experience, effective communication, proper documentation, systematic follow-ups, and, when appropriate, legal support. Professional recovery agencies can help creditors manage overdue accounts and improve the chances of rec…",
-      "author": "Baadshah Recovery Agency",
-      "published": "Mon, 21 Sep 2026 06:33:38 +0000",
+      "title": "How to Configure Standalone TON Connect Mode in the Omniston Widget",
+      "url": "https://dev.to/ivan_cryptovazimazima/how-to-configure-standalone-ton-connect-mode-in-the-omniston-widget-1kd7",
+      "summary": "Use the STON.fi swap widget with wallet connectivity built in, without creating or managing a separate TON Connect instance. Standalone TON Connect mode is the simplest way to give an embedded Omniston Widget its own wallet connection flow. You provide the widget with the URL of…",
+      "author": "Ivan “Crypto Vazima” Zimanov",
+      "published": "Tue, 22 Sep 2026 06:20:43 +0000",
+      "tags": [
+        "frontend",
+        "web3",
+        "webdev"
+      ]
+    },
+    {
+      "id": "641b382dd92f",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Char Dham Yatra Package by Helicopter Price: A Complete 2026 Guide",
+      "url": "https://dev.to/mndtravels76/char-dham-yatra-package-by-helicopter-price-a-complete-2026-guide-5fa3",
+      "summary": "Char Dham Yatra Package by Helicopter Price: A Complete 2026 Guide The Char Dham Yatra is one of the most significant pilgrimage journeys in Uttarakhand, covering Yamunotri, Gangotri, Kedarnath, and Badrinath. For travellers who want to complete the journey in less time and with…",
+      "author": "MND TRAVELS",
+      "published": "Tue, 22 Sep 2026 06:18:59 +0000",
       "tags": [
         "ai",
         "webdev",
         "programming",
-        "productivity"
+        "chardhaam"
       ]
     },
     {
-      "id": "746c51d8f4bd",
+      "id": "b82f9f7115a5",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Detect Website and Email Failures Before Someone Tells Your Client",
-      "url": "https://dev.to/dnsnotify/the-worst-way-to-discover-an-outage-your-clients-customer-finds-it-first-3nap",
-      "summary": "Imagine the message arriving in the middle of an ordinary working day: One of our customers just sent us this screenshot. Why does our website say it is unsafe? The screenshot is the browser warning everybody recognises: Your connection is not private. The customer saw it first.…",
-      "author": "Mira John",
-      "published": "Mon, 21 Sep 2026 06:30:00 +0000",
+      "title": "Mistakes I Made Building My First Full- Stack AI App",
+      "url": "https://dev.to/hizba_cloud/mistakes-i-made-building-my-first-full-stack-ai-app-4o3j",
+      "summary": "A brutally honest reflection of my experience with rate limits, hallucinating prompts, and deployment horror stories for building my first end-to-end AI application \"Building applications with AI is so easy, just plug in an API key and write a 10 line prompt!\" Famous phrase. 🤡 …",
+      "author": "ℋℐ𝒵ℬ𝒜 (✿◠‿◠)⭐",
+      "published": "Tue, 22 Sep 2026 06:18:52 +0000",
       "tags": [
-        "devops",
+        "discuss",
+        "beginners",
         "webdev",
-        "monitoring",
-        "dns"
+        "ai"
       ]
     },
     {
-      "id": "bb92c2746ccc",
+      "id": "49ffa5f7d2ef",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Recording is the rule: a different architecture for browser data collection",
-      "url": "https://dev.to/scrapewright/recording-is-the-rule-a-different-architecture-for-browser-data-collection-3cio",
-      "summary": "Web scraping has two failure modes, and the industry keeps fixing the wrong one. The first failure is writing the scraper . That got 100x easier: record with Playwright codegen, or just ask an LLM. The second failure is the eighteen months after writing it — the selector that qu…",
-      "author": "scrapewright",
-      "published": "Mon, 21 Sep 2026 06:25:36 +0000",
+      "title": "Library vs. Framework",
+      "url": "https://dev.to/ragul_kannadasan/library-vs-framework-lep",
+      "summary": "Library and Framework are two terms used in software engineering to describe reusable code that developers incorporate into their own projects. Although often used interchangeably in casual conversation, the two refer to distinct architectural relationships between the reusable …",
+      "author": "Ragul",
+      "published": "Tue, 22 Sep 2026 06:18:22 +0000",
       "tags": [
-        "webdev",
-        "opensource",
-        "scraping",
-        "go"
-      ]
-    },
-    {
-      "id": "7aa528fc92ef",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "AI Can Write Frontend Code — What Should Developers Still Know?",
-      "url": "https://dev.to/gd_ganesh_deshmukh/ai-can-write-frontend-code-what-should-developers-still-know-i2f",
-      "summary": "A few years ago, writing frontend code meant spending a lot of time typing HTML, CSS, and JavaScript yourself. Today, AI can generate a complete component in seconds. You can ask: \"Create a responsive navbar in React with a mobile menu.\" And you may get working code almost immed…",
-      "author": "Ganesh Deshmukh",
-      "published": "Mon, 21 Sep 2026 06:21:03 +0000",
-      "tags": [
-        "ai",
+        "react",
         "webdev",
         "programming",
-        "humanthinking"
+        "web3"
       ]
     },
     {
-      "id": "218908f668bb",
+      "id": "6ee31772f603",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Early Netherlandish painting",
-      "url": "https://en.wikipedia.org/wiki/Early_Netherlandish_painting",
-      "summary": "Early Netherlandish painting is the body of work by artists active in the Burgundian and Habsburg Netherlands during the 15th- and 16th-century Northern Renaissance period, once known as the Flemish Primitives. It flourished especially in the cities of Bruges, Ghent, Mechelen, L…",
+      "title": "Alison Frantz",
+      "url": "https://en.wikipedia.org/wiki/Alison_Frantz",
+      "summary": "Mary Alison Frantz was an American archaeological photographer and Byzantine scholar. She was the official photographer of the excavations of the Agora of Athens, and a prolific photographer of ancient Greek sculpture, including the Parthenon frieze and works from the Temple of …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "c346ef593f3e",
+      "id": "a749271e35d0",
       "category": "news",
       "source": "BBC 世界",
-      "title": "German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on",
-      "url": "https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o?at_medium=RSS&at_campaign=rss",
-      "summary": "Exit polls show damaging losses for Merz's centre-right CDU party in the state of Mecklenburg-Vorpommern and Berlin.",
-      "published": "Mon, 21 Sep 2026 03:22:44 GMT",
+      "title": "Lithuania ready to 'fight back' but has evacuation plans in face of Russia threats, PM tells BBC",
+      "url": "https://www.bbc.co.uk/news/articles/ck5yw8npxzrlo?at_medium=RSS&at_campaign=rss",
+      "summary": "Sinkevičius told BBC Newsnight Lithuanians feel \"constantly threatened\" by Moscow, but the nation was prepared to \"fight back\" if attacked.",
+      "published": "Tue, 22 Sep 2026 01:04:16 GMT",
       "tags": []
     },
     {
-      "id": "69290ccbb191",
+      "id": "24954571025c",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says",
-      "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss",
-      "summary": "Moscow's mayor says 450 drones were downed during the overnight barrage, in which two people died.",
-      "published": "Sun, 20 Sep 2026 10:45:39 GMT",
+      "title": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
+      "url": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss",
+      "summary": "The BBC's Frank Gardner speaks to some of those who have fled the war by crossing the Red Sea to Djibouti.",
+      "published": "Mon, 21 Sep 2026 14:14:16 GMT",
       "tags": []
     },
     {
-      "id": "b3c7a8b5670d",
+      "id": "147ec0dad904",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Ed Sheeran admits 'mistakes' at first show since Macklemore controversy",
-      "url": "https://www.bbc.co.uk/news/articles/cm780ll1de18o?at_medium=RSS&at_campaign=rss",
-      "summary": "The singer spoke about Israel and Gaza after Macklemore was dropped from his tour for making pro-Palestinian remarks on stage.",
-      "published": "Sun, 20 Sep 2026 04:49:11 GMT",
+      "title": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
+      "url": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
+      "summary": "The G7 also condemns \"in the strongest terms\" Houthi attacks on Saudi Arabia, saying that the escalation in fighting in Yemen jeopardises global energy security.",
+      "published": "Tue, 22 Sep 2026 05:16:07 GMT",
       "tags": []
     },
     {
-      "id": "9b7cadaecbe9",
+      "id": "ea16baaac907",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump says triumphal arch will be military complex with drones and snipers",
-      "url": "https://www.bbc.co.uk/news/articles/cqdj4pez00dzo?at_medium=RSS&at_campaign=rss",
-      "summary": "Trump said the updated plans were at the request of the US military and for national security purposes.",
-      "published": "Sun, 20 Sep 2026 16:36:43 GMT",
+      "title": "CNN, MS NOW and Politico file lawsuit against Trump's White House ban",
+      "url": "https://www.bbc.co.uk/news/articles/cm0e32rwvrryo?at_medium=RSS&at_campaign=rss",
+      "summary": "Major US networks later suspended White House TV coverage of Trump as he headed to New York for a UN summit.",
+      "published": "Tue, 22 Sep 2026 00:16:06 GMT",
       "tags": []
     },
     {
-      "id": "2fab1312f6e2",
+      "id": "b2c543ac59e1",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
-      "url": "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/",
-      "summary": "Google’s threat intelligence group said it had a mole inside TeamPCP's inner circle.",
-      "author": "Andy Greenberg, WIRED.com",
-      "published": "Sun, 20 Sep 2026 11:07:00 +0000",
+      "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+      "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+      "summary": "A simple ClickFix attack is only one way to completely hijack the new agent.",
+      "author": "Dan Goodin",
+      "published": "Mon, 21 Sep 2026 22:24:38 +0000",
       "tags": [
+        "AI",
         "Biz & IT",
-        "Google",
         "Security",
-        "Mole"
+        "AI assistants"
       ]
     },
     {
-      "id": "6449f8efc30e",
+      "id": "e24108f386b0",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Don't call it an SUV: The Ferrari Purosangue review",
-      "url": "https://arstechnica.com/cars/2026/09/dont-call-it-an-suv-the-ferrari-purosangue-review/",
-      "summary": "Unlike previous Ferrari four-seaters, this one is better for humans than cargo.",
-      "author": "Jonathan M. Gitlin",
-      "published": "Sun, 20 Sep 2026 10:00:02 +0000",
+      "title": "Military milestone: Ukrainian naval drone sinks Russian kamikaze drone boat",
+      "url": "https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/",
+      "summary": "Drone boat battle occurs as Ukraine and Russia target Black Sea ports and ships.",
+      "author": "Jeremy Hsu",
+      "published": "Mon, 21 Sep 2026 21:07:05 +0000",
+      "tags": [
+        "Tech",
+        "drone boats",
+        "military drones",
+        "Russia invasion of Ukraine"
+      ]
+    },
+    {
+      "id": "6c3e192ba371",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Saudi Arabia wants a car industry, launches Ceer with two EVs",
+      "url": "https://arstechnica.com/cars/2026/09/saudi-arabia-wants-a-car-industry-launches-ceer-with-two-evs/",
+      "summary": "The new carmaker is a joint venture between the Saudi PIF and Foxconn.",
+      "author": "Chad Kirchner",
+      "published": "Mon, 21 Sep 2026 20:55:36 +0000",
       "tags": [
         "Cars",
-        "car review",
-        "Ferrari Purosangue"
+        "Foxconn",
+        "Saudi Arabia"
       ]
     },
     {
-      "id": "130f9eb67838",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "T. rex teeth indicate it ran as warm as an elephant",
-      "url": "https://arstechnica.com/science/2026/09/t-rex-teeth-indicate-it-ran-as-warm-as-an-elephant/",
-      "summary": "Isotope ratios provide a hint that the giants were actively managing temperatures.",
-      "author": "Jacek Krywko",
-      "published": "Sun, 20 Sep 2026 09:00:11 +0000",
-      "tags": [
-        "Science",
-        "Biology",
-        "dinosaurs",
-        "paleontology"
-      ]
-    },
-    {
-      "id": "49ff5fb8d2e0",
+      "id": "e74391fb7653",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘My total balance should be $20 million’: I invested $1.1 million in a crypto platform. Have I lost it all?",
-      "url": "https://www.marketwatch.com/story/my-total-balance-should-be-worth-20-million-i-invested-1-1-million-in-a-crypto-platform-have-i-lost-it-all-d22da562?mod=mw_rss_topstories",
-      "summary": "“I invested on the recommendation of an executive vice president of a major New York investment bank.”",
-      "author": "Quentin Fottrell",
-      "published": "Mon, 21 Sep 2026 02:40:00 GMT",
+      "title": "Princeton’s 15-year run as the nation’s top college is over. MIT is now No. 1.",
+      "url": "https://www.marketwatch.com/story/princetons-15-year-run-as-the-nations-top-college-is-over-mit-is-now-no-1-e9f17169?mod=mw_rss_topstories",
+      "summary": "A change in methodology in the U.S. News rankings helped boost schools where students have high earnings",
+      "author": "Jillian Berman",
+      "published": "Tue, 22 Sep 2026 04:02:00 GMT",
       "tags": []
     },
     {
-      "id": "46c363be9f80",
+      "id": "9efb13952ada",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "I have $125,000 in credit-card debt. Will $17,000 a month in income, including disability, affect my bankruptcy?",
-      "url": "https://www.marketwatch.com/story/i-am-drowning-in-debt-i-have-125-000-in-credit-card-debt-will-9-000-in-disability-income-affect-my-bankruptcy-f897c131?mod=mw_rss_topstories",
-      "summary": "“I racked up this debt to cover my living expenses for two years without an income stream.”",
-      "author": "Quentin Fottrell",
-      "published": "Sun, 20 Sep 2026 17:30:00 GMT",
+      "title": "Meta’s stock is enjoying its best month in 13 years thanks to the company’s hot new AI assistant",
+      "url": "https://www.marketwatch.com/story/metas-stock-is-enjoying-its-best-month-in-more-than-two-years-thanks-to-the-companys-hot-new-ai-assistant-bf106291?mod=mw_rss_topstories",
+      "summary": "Muse is gaining popularity and helping convince investors that Meta’s AI bets are paying off.",
+      "author": "Christine Ji",
+      "published": "Mon, 21 Sep 2026 22:01:00 GMT",
       "tags": []
     },
     {
-      "id": "c8e68b19219d",
+      "id": "1fb7d9e9995c",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
-      "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
-      "summary": "“I also own my home and an SUV outright, with no outstanding debt.”",
-      "author": "Quentin Fottrell",
-      "published": "Sun, 20 Sep 2026 16:30:00 GMT",
+      "title": "AT&T’s stock looks like the smartest bet in the wireless sector, analyst says",
+      "url": "https://www.marketwatch.com/story/at-ts-stock-looks-like-the-smartest-bet-in-the-wireless-sector-analyst-says-6e773d63?mod=mw_rss_topstories",
+      "summary": "An analyst at BNP has taken a positive view of AT&T’s stock, writing that investors should have “little to quibble with on the mobile side.”",
+      "author": "Emily Bary",
+      "published": "Mon, 21 Sep 2026 21:57:00 GMT",
       "tags": []
     }
   ],
