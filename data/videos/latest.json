@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "items": [
     {
       "id": "0c3e7fe15b24",
@@ -222,25 +222,47 @@
       "category": "历史"
     },
     {
-      "id": "c5a702f8eab5",
+      "id": "9c7859f9a6d8",
+      "platform": "bilibili",
+      "videoId": "BV1w8YX6uEvL",
+      "title": "才女·黄媛介：拒绝顶流告白，只为逃婚丈夫，回心转意？【大明风华】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1w8YX6uEvL",
+      "thumb": "https://i0.hdslb.com/bfs/archive/3469211773b26d6bf12e4ebb6ad9e413971afccc.jpg",
+      "published": "2026-09-12",
+      "category": "历史"
+    },
+    {
+      "id": "ad62a1790b36",
+      "platform": "bilibili",
+      "videoId": "BV1zLta68EQq",
+      "title": "大学士·图海：配享太庙，到底有多难？【康熙王朝】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1zLta68EQq",
+      "thumb": "https://i1.hdslb.com/bfs/archive/0746add8e947478cac56dacb70505bf5f2c0ebe6.jpg",
+      "published": "2026-08-31",
+      "category": "历史"
+    },
+    {
+      "id": "4697fcf447e1",
       "platform": "youtube",
-      "videoId": "xLsCqoYmF4o",
-      "title": "How to count uncountable nouns #shorts #english",
+      "videoId": "u0s2wCtqCGs",
+      "title": "Don't take it to heart💖!  #podcast #learningenglish",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/shorts/xLsCqoYmF4o",
-      "thumb": "https://i1.ytimg.com/vi/xLsCqoYmF4o/hqdefault.jpg",
-      "published": "2026-09-18",
+      "url": "https://www.youtube.com/shorts/u0s2wCtqCGs",
+      "thumb": "https://i2.ytimg.com/vi/u0s2wCtqCGs/hqdefault.jpg",
+      "published": "2026-09-21",
       "category": "英语"
     },
     {
-      "id": "61a65e583223",
+      "id": "81a344d02b8b",
       "platform": "youtube",
-      "videoId": "6xr8-U8fFs4",
-      "title": "🔨 DIY and home improvement vocabulary | Live English Class with George",
+      "videoId": "HHLfkHkUc14",
+      "title": "Neil's difficult summer job in Canada 🫛 | Practise your listening with Real Easy English",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=6xr8-U8fFs4",
-      "thumb": "https://i3.ytimg.com/vi/6xr8-U8fFs4/hqdefault.jpg",
-      "published": "2026-09-17",
+      "url": "https://www.youtube.com/watch?v=HHLfkHkUc14",
+      "thumb": "https://i1.ytimg.com/vi/HHLfkHkUc14/hqdefault.jpg",
+      "published": "2026-09-21",
       "category": "英语"
     },
     {
@@ -269,13 +291,11 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "Bilibili 512313464: code=-352 风控校验失败",
     "图形学 · 512313464: 0 条",
     "引擎 · @TheCherno: 2 条",
     "引擎 · 437860379: 2 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
-    "Bilibili 1567748478: code=-352 风控校验失败",
     "CS · 1567748478: 0 条",
     "CS · 202224425: 2 条",
     "金融 · @ThePlainBagel: 2 条",
@@ -283,9 +303,7 @@
     "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
-    "Bilibili 11646119: code=-352 风控校验失败",
-    "历史 · 11646119: 0 条",
-    "Bilibili 23947287: code=-352 风控校验失败",
+    "历史 · 11646119: 2 条",
     "历史 · 23947287: 0 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
