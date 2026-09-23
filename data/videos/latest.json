@@ -1,6 +1,17 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "items": [
+    {
+      "id": "762e86c2a7ce",
+      "platform": "youtube",
+      "videoId": "qBBRRsH0rQc",
+      "title": "Yes, Jev Is Insane, But There's A Catch",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=qBBRRsH0rQc",
+      "thumb": "https://i2.ytimg.com/vi/qBBRRsH0rQc/hqdefault.jpg",
+      "published": "2026-09-22",
+      "category": "图形学"
+    },
     {
       "id": "0c3e7fe15b24",
       "platform": "youtube",
@@ -10,17 +21,6 @@
       "url": "https://www.youtube.com/watch?v=vIHw_2VjSUw",
       "thumb": "https://i3.ytimg.com/vi/vIHw_2VjSUw/hqdefault.jpg",
       "published": "2026-09-18",
-      "category": "图形学"
-    },
-    {
-      "id": "281ff94730f2",
-      "platform": "youtube",
-      "videoId": "YoEWjZSwoys",
-      "title": "Claude Is Now Leaving Invisible Fingerprints In Its Text",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=YoEWjZSwoys",
-      "thumb": "https://i2.ytimg.com/vi/YoEWjZSwoys/hqdefault.jpg",
-      "published": "2026-09-15",
       "category": "图形学"
     },
     {
@@ -68,26 +68,15 @@
       "category": "引擎"
     },
     {
-      "id": "74d5969623e3",
-      "platform": "bilibili",
-      "videoId": "BV1BTnxzKEVv",
-      "title": "2025.9月编程语言排行榜 C++、C、JAVA亚军之争异常激烈 Perl的火爆与人工智能无关",
-      "channel": "原子之音",
-      "url": "https://www.bilibili.com/video/BV1BTnxzKEVv",
-      "thumb": "https://i0.hdslb.com/bfs/archive/57a35f617d5a79a0ce357179e98382a0c2786185.jpg",
-      "published": "2025-09-26",
-      "category": "引擎"
-    },
-    {
-      "id": "20c78ca36141",
-      "platform": "bilibili",
-      "videoId": "BV1TXWVzZEx4",
-      "title": "虚幻中的C++: 输入系统(Input与Enhanced Input)",
-      "channel": "原子之音",
-      "url": "https://www.bilibili.com/video/BV1TXWVzZEx4",
-      "thumb": "https://i0.hdslb.com/bfs/archive/56b88c2f99c47fd48d8dd518d296fa8697902d72.jpg",
-      "published": "2025-09-20",
-      "category": "引擎"
+      "id": "647478e6bc7f",
+      "platform": "youtube",
+      "videoId": "UmuMgA_RxnU",
+      "title": "Blind Ranking Numbers (James Grime)",
+      "channel": "Numberphile",
+      "url": "https://www.youtube.com/shorts/UmuMgA_RxnU",
+      "thumb": "https://i2.ytimg.com/vi/UmuMgA_RxnU/hqdefault.jpg",
+      "published": "2026-09-22",
+      "category": "CS"
     },
     {
       "id": "2751c99a1d38",
@@ -98,17 +87,6 @@
       "url": "https://www.youtube.com/watch?v=3geDF-DAwpg",
       "thumb": "https://i4.ytimg.com/vi/3geDF-DAwpg/hqdefault.jpg",
       "published": "2026-09-18",
-      "category": "CS"
-    },
-    {
-      "id": "30638ded7aa3",
-      "platform": "youtube",
-      "videoId": "oax6t6Of2WY",
-      "title": "The Biggest Gaps Between Primes - Numberphile",
-      "channel": "Numberphile",
-      "url": "https://www.youtube.com/watch?v=oax6t6Of2WY",
-      "thumb": "https://i4.ytimg.com/vi/oax6t6Of2WY/hqdefault.jpg",
-      "published": "2026-09-16",
       "category": "CS"
     },
     {
@@ -134,6 +112,17 @@
       "category": "CS"
     },
     {
+      "id": "9654c0a73770",
+      "platform": "bilibili",
+      "videoId": "BV1Rch76WEfQ",
+      "title": "需求和架构 (1) [06-Raw/26生成式软件工程/NJU]",
+      "channel": "绿导师原谅你了",
+      "url": "https://www.bilibili.com/video/BV1Rch76WEfQ",
+      "thumb": "https://i1.hdslb.com/bfs/archive/e2606ba4314ef35e144efa4436ab30e3c3bbea63.jpg",
+      "published": "2026-09-22",
+      "category": "CS"
+    },
+    {
       "id": "e1c561b80891",
       "platform": "bilibili",
       "videoId": "BV1Nyeq6qEt8",
@@ -142,17 +131,6 @@
       "url": "https://www.bilibili.com/video/BV1Nyeq6qEt8",
       "thumb": "https://i0.hdslb.com/bfs/archive/c75d365bb65abad0975bb1e8ca11ad5b67b68861.jpg",
       "published": "2026-09-20",
-      "category": "CS"
-    },
-    {
-      "id": "c9180e751184",
-      "platform": "bilibili",
-      "videoId": "BV1Q6en6NEUo",
-      "title": "软件仓库管理 (2) [04-Raw/26生成式软件工程/NJU]",
-      "channel": "绿导师原谅你了",
-      "url": "https://www.bilibili.com/video/BV1Q6en6NEUo",
-      "thumb": "https://i2.hdslb.com/bfs/archive/168d8b60cc63f056d15486450260509004e0b559.jpg",
-      "published": "2026-09-15",
       "category": "CS"
     },
     {
@@ -178,6 +156,17 @@
       "category": "金融"
     },
     {
+      "id": "f3c8091c05f7",
+      "platform": "youtube",
+      "videoId": "dsGoS_M7AW8",
+      "title": "Why Are US Politics Today So Divisive?: Crash Course US Government #1",
+      "channel": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=dsGoS_M7AW8",
+      "thumb": "https://i1.ytimg.com/vi/dsGoS_M7AW8/hqdefault.jpg",
+      "published": "2026-09-22",
+      "category": "历史"
+    },
+    {
       "id": "c93741ae59a2",
       "platform": "youtube",
       "videoId": "HICDzXfCAs4",
@@ -186,17 +175,6 @@
       "url": "https://www.youtube.com/watch?v=HICDzXfCAs4",
       "thumb": "https://i1.ytimg.com/vi/HICDzXfCAs4/hqdefault.jpg",
       "published": "2026-09-17",
-      "category": "历史"
-    },
-    {
-      "id": "089da44bc50e",
-      "platform": "youtube",
-      "videoId": "KibgDxh68I8",
-      "title": "Crash Course Big Questions on U.S. Government Preview",
-      "channel": "CrashCourse",
-      "url": "https://www.youtube.com/watch?v=KibgDxh68I8",
-      "thumb": "https://i4.ytimg.com/vi/KibgDxh68I8/hqdefault.jpg",
-      "published": "2026-09-15",
       "category": "历史"
     },
     {
@@ -222,47 +200,47 @@
       "category": "历史"
     },
     {
-      "id": "9c7859f9a6d8",
+      "id": "b806d6653432",
       "platform": "bilibili",
-      "videoId": "BV1w8YX6uEvL",
-      "title": "才女·黄媛介：拒绝顶流告白，只为逃婚丈夫，回心转意？【大明风华】",
-      "channel": "正直讲史-李正Str",
-      "url": "https://www.bilibili.com/video/BV1w8YX6uEvL",
-      "thumb": "https://i0.hdslb.com/bfs/archive/3469211773b26d6bf12e4ebb6ad9e413971afccc.jpg",
-      "published": "2026-09-12",
+      "videoId": "BV12RYx6TE9r",
+      "title": "告别伊玛目  伊朗篇（终）",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV12RYx6TE9r",
+      "thumb": "https://i1.hdslb.com/bfs/archive/78b3aa4466a8e541c8191498d2e7dfa3bd6833fb.jpg",
+      "published": "2026-09-11",
       "category": "历史"
     },
     {
-      "id": "ad62a1790b36",
+      "id": "6b536c03812b",
       "platform": "bilibili",
-      "videoId": "BV1zLta68EQq",
-      "title": "大学士·图海：配享太庙，到底有多难？【康熙王朝】",
-      "channel": "正直讲史-李正Str",
-      "url": "https://www.bilibili.com/video/BV1zLta68EQq",
-      "thumb": "https://i1.hdslb.com/bfs/archive/0746add8e947478cac56dacb70505bf5f2c0ebe6.jpg",
-      "published": "2026-08-31",
+      "videoId": "BV1bHtd6CESR",
+      "title": "天 雷 滚 滚 纽 约 城【神奇组织53】",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV1bHtd6CESR",
+      "thumb": "https://i2.hdslb.com/bfs/archive/8136c66675bf9b68ac93c4473d9c34b801d005dd.jpg",
+      "published": "2026-09-04",
       "category": "历史"
     },
     {
-      "id": "4697fcf447e1",
+      "id": "04d94cbd3d9f",
       "platform": "youtube",
-      "videoId": "u0s2wCtqCGs",
-      "title": "Don't take it to heart💖!  #podcast #learningenglish",
+      "videoId": "8HzpJcsfmK4",
+      "title": "🗣️🇬🇧 How do we say ‘a bottle of water’? #shorts",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/shorts/u0s2wCtqCGs",
-      "thumb": "https://i2.ytimg.com/vi/u0s2wCtqCGs/hqdefault.jpg",
-      "published": "2026-09-21",
+      "url": "https://www.youtube.com/shorts/8HzpJcsfmK4",
+      "thumb": "https://i1.ytimg.com/vi/8HzpJcsfmK4/hqdefault.jpg",
+      "published": "2026-09-22",
       "category": "英语"
     },
     {
-      "id": "81a344d02b8b",
+      "id": "42800af9763e",
       "platform": "youtube",
-      "videoId": "HHLfkHkUc14",
-      "title": "Neil's difficult summer job in Canada 🫛 | Practise your listening with Real Easy English",
+      "videoId": "tjaLn7URdlA",
+      "title": "👄 What is 'shadowing'? Pronunciation Shadowing Tutorial",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=HHLfkHkUc14",
-      "thumb": "https://i1.ytimg.com/vi/HHLfkHkUc14/hqdefault.jpg",
-      "published": "2026-09-21",
+      "url": "https://www.youtube.com/watch?v=tjaLn7URdlA",
+      "thumb": "https://i1.ytimg.com/vi/tjaLn7URdlA/hqdefault.jpg",
+      "published": "2026-09-22",
       "category": "英语"
     },
     {
@@ -293,18 +271,17 @@
     "图形学 · @Acerola_t: 2 条",
     "图形学 · 512313464: 0 条",
     "引擎 · @TheCherno: 2 条",
-    "引擎 · 437860379: 2 条",
+    "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
     "CS · 1567748478: 0 条",
     "CS · 202224425: 2 条",
     "金融 · @ThePlainBagel: 2 条",
-    "Bilibili 520819684: code=-352 风控校验失败",
     "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
-    "历史 · 11646119: 2 条",
-    "历史 · 23947287: 0 条",
+    "历史 · 11646119: 0 条",
+    "历史 · 23947287: 2 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
   ]
