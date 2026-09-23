@@ -1,301 +1,299 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "items": [
     {
-      "id": "e1bc5037774c",
+      "id": "dde80a7a5522",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Tara Reid",
-      "url": "https://simple.wikipedia.org/wiki/Tara_Reid",
-      "summary": "Tara Donna Reid is an American actress. She made her movie debut in the 1987 horror movie A Return to Salem's Lot. She had a recurring role on the television show, Scrubs as Danni Sullivan. She is best known for her role as Victoria 'Vicky' Lathum in the American Pie movie serie…",
+      "title": "Zack Wheeler",
+      "url": "https://simple.wikipedia.org/wiki/Zack_Wheeler",
+      "summary": "Zachary Harrison Wheeler is an American professional baseball pitcher for the Philadelphia Phillies of Major League Baseball (MLB). He has also played in MLB for the New York Mets.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "a10f7beee40a",
+      "id": "3a2ec6df8e5a",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Argyrosomus japonicus",
-      "url": "https://simple.wikipedia.org/wiki/Argyrosomus_japonicus",
-      "summary": "Argyrosomus japonicus, also known as the Japanese meagre or mulloway, is a species of meagre in the family Sciaenidae. Its otoliths are prized as \"jewels\" by some fishers.",
+      "title": "Wikimania",
+      "url": "https://simple.wikipedia.org/wiki/Wikimania",
+      "summary": "Wikimania is an international conference on wikis like Wikipedia. It is organized by the Wikimedia Foundation and brings together authors, programmers, and researchers. It was started in 2005.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "d05f573d899c",
+      "id": "dfc615803e71",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Apple Music to open concert venue in Battersea Power Station",
-      "url": "https://www.bbc.com/news/articles/c607l2j2rj8ro",
+      "title": "GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
       "summary": "",
-      "author": "dabinat",
+      "author": "OfficialTurkey",
       "published": "2026-09-22",
       "tags": [
-        "▲ 26"
+        "▲ 1389"
       ]
     },
     {
-      "id": "65539846fc8f",
+      "id": "0c90c73c08cf",
       "category": "tech",
       "source": "Hacker News",
-      "title": "MiMo v2.6",
-      "url": "https://mimo.xiaomi.com/mimo-v2-6",
+      "title": "Claude Opus 5.5",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
       "summary": "",
-      "author": "volf_",
-      "published": "2026-09-21",
-      "tags": [
-        "▲ 758"
-      ]
-    },
-    {
-      "id": "d6f8e7e98973",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Spymarks, Not Watermarks",
-      "url": "https://brand.io/article/spymarks/",
-      "summary": "",
-      "author": "possibilistic",
-      "published": "2026-09-21",
-      "tags": [
-        "▲ 301"
-      ]
-    },
-    {
-      "id": "044ae0d836d8",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Transformers Explained Visually",
-      "url": "https://poloclub.github.io/transformer-explainer/",
-      "summary": "",
-      "author": "aray07",
-      "published": "2026-09-21",
-      "tags": [
-        "▲ 319"
-      ]
-    },
-    {
-      "id": "0857775ad415",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Firmware Freedom",
-      "url": "https://playtaurus.com/blog/firmware-freedom",
-      "summary": "",
-      "author": "arbayi",
+      "author": "km144",
       "published": "2026-09-22",
       "tags": [
-        "▲ 7"
+        "▲ 1405"
       ]
     },
     {
-      "id": "dfd00f6ab151",
+      "id": "15a959b26c4a",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Attention is all you have",
-      "url": "https://alicegg.tech/2026/09/21/attention",
+      "title": "Transit rewards (Waymo pays you to take the train)",
+      "url": "https://waymo.com/blog/2026/09/transit-rewards/",
       "summary": "",
-      "author": "zer0tonin",
-      "published": "2026-09-21",
+      "author": "raybb",
+      "published": "2026-09-23",
       "tags": [
-        "▲ 703"
+        "▲ 93"
       ]
     },
     {
-      "id": "b082e40c1d29",
+      "id": "0f1ff99a4515",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "summary": "",
+      "author": "sohkamyung",
+      "published": "2026-09-22",
+      "tags": [
+        "▲ 624"
+      ]
+    },
+    {
+      "id": "f2b74919d5f6",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Data-only attacks are easier than you think (2024)",
+      "url": "https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think",
+      "summary": "",
+      "author": "segfaultbuserr",
+      "published": "2026-09-23",
+      "tags": [
+        "▲ 18"
+      ]
+    },
+    {
+      "id": "ee8f28d7bbe3",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+      "url": "https://foxscript.org/",
+      "summary": "Visual FoxPro stopped at version 9 in 2007. A surprising amount of it is still running, in 32 bits, because rewriting a 20-year-old business app is how you lose the business. A customer wanted to keep milking their app for the foreseeable future, so here it is: the same language…",
+      "author": "boredjohnny",
+      "published": "2026-09-22",
+      "tags": [
+        "▲ 265"
+      ]
+    },
+    {
+      "id": "5fd8cb1758f9",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How to Configure Standalone TON Connect Mode in the Omniston Widget",
-      "url": "https://dev.to/ivan_cryptovazimazima/how-to-configure-standalone-ton-connect-mode-in-the-omniston-widget-1kd7",
-      "summary": "Use the STON.fi swap widget with wallet connectivity built in, without creating or managing a separate TON Connect instance. Standalone TON Connect mode is the simplest way to give an embedded Omniston Widget its own wallet connection flow. You provide the widget with the URL of…",
-      "author": "Ivan “Crypto Vazima” Zimanov",
-      "published": "Tue, 22 Sep 2026 06:20:43 +0000",
+      "title": "How to Develop a Doctor Appointment App for Your Clinic or Hospital",
+      "url": "https://dev.to/seo_lilac_/how-to-develop-a-doctor-appointment-app-for-your-clinic-or-hospital-1cna",
+      "summary": "Healthcare is becoming increasingly digital, and patients now expect convenient ways to find doctors, check availability, and book appointments online. A doctor appointment app can help clinics and hospitals simplify appointment scheduling, improve patient communication, and man…",
+      "author": "Lilac infotech",
+      "published": "Wed, 23 Sep 2026 06:06:00 +0000",
       "tags": [
-        "frontend",
-        "web3",
+        "devops",
+        "mobile",
+        "webdev",
+        "productivity"
+      ]
+    },
+    {
+      "id": "02062b09e06c",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Building a Localization Pipeline for HR Policy Documents (Without Breaking Compliance)",
+      "url": "https://dev.to/diogoheleno/building-a-localization-pipeline-for-hr-policy-documents-without-breaking-compliance-5d14",
+      "summary": "Most i18n discussions focus on UI strings, date formats, and pluralization rules. Almost nobody talks about the internal documents that HR and legal teams push out to multinational teams: codes of conduct, harassment policies, D&I frameworks. These get treated as an afterthought…",
+      "author": "Diogo Heleno",
+      "published": "Wed, 23 Sep 2026 06:05:48 +0000",
+      "tags": [
+        "i18n",
+        "webdev",
+        "productivity",
+        "devops"
+      ]
+    },
+    {
+      "id": "f6e47fe2f069",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "SpaceX Grok 4.7 Launch and Its…",
+      "url": "https://dev.to/norviktech/spacex-grok-47-launch-and-its-10h3",
+      "summary": "Originally published at norvik.tech Introduction Dive deep into the technical aspects of SpaceX's Grok 4.7 launch and explore its significance for technology and business. Understanding Grok 4.7: What Is It? The Grok 4.7 launch by SpaceX signifies a crucial advancement in proces…",
+      "author": "Norvik Tech",
+      "published": "Wed, 23 Sep 2026 06:05:35 +0000",
+      "tags": [
+        "webdev",
+        "grok47",
+        "spacex",
+        "longhorizonprocessin"
+      ]
+    },
+    {
+      "id": "0e43d9d0129c",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "A timeout is not a failed job: handling daily quotas for an AI image generator",
+      "url": "https://dev.to/yulingg_zhang_dfbce7a345a/a-timeout-is-not-a-failed-job-handling-daily-quotas-for-an-ai-image-generator-213c",
+      "summary": "An image-generation request can disappear from the browser while the provider is still working. That makes a daily allowance a small accounting problem, not just a counter on a button. This note comes from the quota implementation in RetroPrompt, a portrait project I maintain. T…",
+      "author": "yulingg zhang",
+      "published": "Wed, 23 Sep 2026 06:05:30 +0000",
+      "tags": [
         "webdev"
       ]
     },
     {
-      "id": "641b382dd92f",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Char Dham Yatra Package by Helicopter Price: A Complete 2026 Guide",
-      "url": "https://dev.to/mndtravels76/char-dham-yatra-package-by-helicopter-price-a-complete-2026-guide-5fa3",
-      "summary": "Char Dham Yatra Package by Helicopter Price: A Complete 2026 Guide The Char Dham Yatra is one of the most significant pilgrimage journeys in Uttarakhand, covering Yamunotri, Gangotri, Kedarnath, and Badrinath. For travellers who want to complete the journey in less time and with…",
-      "author": "MND TRAVELS",
-      "published": "Tue, 22 Sep 2026 06:18:59 +0000",
-      "tags": [
-        "ai",
-        "webdev",
-        "programming",
-        "chardhaam"
-      ]
-    },
-    {
-      "id": "b82f9f7115a5",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Mistakes I Made Building My First Full- Stack AI App",
-      "url": "https://dev.to/hizba_cloud/mistakes-i-made-building-my-first-full-stack-ai-app-4o3j",
-      "summary": "A brutally honest reflection of my experience with rate limits, hallucinating prompts, and deployment horror stories for building my first end-to-end AI application \"Building applications with AI is so easy, just plug in an API key and write a 10 line prompt!\" Famous phrase. 🤡 …",
-      "author": "ℋℐ𝒵ℬ𝒜 (✿◠‿◠)⭐",
-      "published": "Tue, 22 Sep 2026 06:18:52 +0000",
-      "tags": [
-        "discuss",
-        "beginners",
-        "webdev",
-        "ai"
-      ]
-    },
-    {
-      "id": "49ffa5f7d2ef",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Library vs. Framework",
-      "url": "https://dev.to/ragul_kannadasan/library-vs-framework-lep",
-      "summary": "Library and Framework are two terms used in software engineering to describe reusable code that developers incorporate into their own projects. Although often used interchangeably in casual conversation, the two refer to distinct architectural relationships between the reusable …",
-      "author": "Ragul",
-      "published": "Tue, 22 Sep 2026 06:18:22 +0000",
-      "tags": [
-        "react",
-        "webdev",
-        "programming",
-        "web3"
-      ]
-    },
-    {
-      "id": "6ee31772f603",
+      "id": "0ce0bff11e5d",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Alison Frantz",
-      "url": "https://en.wikipedia.org/wiki/Alison_Frantz",
-      "summary": "Mary Alison Frantz was an American archaeological photographer and Byzantine scholar. She was the official photographer of the excavations of the Agora of Athens, and a prolific photographer of ancient Greek sculpture, including the Parthenon frieze and works from the Temple of …",
+      "title": "Mary Mallon",
+      "url": "https://en.wikipedia.org/wiki/Mary_Mallon",
+      "summary": "Mary Mallon, commonly known as Typhoid Mary, was an Irish-born cook who lived in the United States from a young age and is believed to have infected up to fifty-seven people with the bacteria that cause typhoid fever. The infections caused three confirmed deaths. She was the fir…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "a749271e35d0",
+      "id": "67154007daef",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Lithuania ready to 'fight back' but has evacuation plans in face of Russia threats, PM tells BBC",
-      "url": "https://www.bbc.co.uk/news/articles/ck5yw8npxzrlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Sinkevičius told BBC Newsnight Lithuanians feel \"constantly threatened\" by Moscow, but the nation was prepared to \"fight back\" if attacked.",
-      "published": "Tue, 22 Sep 2026 01:04:16 GMT",
+      "title": "Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines",
+      "url": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss",
+      "summary": "In his address, the US president pondered whether a peace deal would be agreed or whether he would have to take extreme action against Iran.",
+      "published": "Wed, 23 Sep 2026 02:57:00 GMT",
       "tags": []
     },
     {
-      "id": "24954571025c",
+      "id": "90bc39ceb74f",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
-      "url": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss",
-      "summary": "The BBC's Frank Gardner speaks to some of those who have fled the war by crossing the Red Sea to Djibouti.",
-      "published": "Mon, 21 Sep 2026 14:14:16 GMT",
+      "title": "Burnham expects to find 'common ground' with Trump in first meeting",
+      "url": "https://www.bbc.co.uk/news/articles/cqevwpmvpekeo?at_medium=RSS&at_campaign=rss",
+      "summary": "In New York, the prime minister will also deliver a speech to the UN General Assembly expected to be focused on AI.",
+      "published": "Tue, 22 Sep 2026 06:03:22 GMT",
       "tags": []
     },
     {
-      "id": "147ec0dad904",
+      "id": "f1e92339a97d",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
-      "url": "https://www.bbc.co.uk/news/articles/cwm2qpmepmlzo?at_medium=RSS&at_campaign=rss",
-      "summary": "The G7 also condemns \"in the strongest terms\" Houthi attacks on Saudi Arabia, saying that the escalation in fighting in Yemen jeopardises global energy security.",
-      "published": "Tue, 22 Sep 2026 05:16:07 GMT",
+      "title": "US to build two military bases in Greenland under new deal with Denmark",
+      "url": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
+      "summary": "The defence deal signed at the UN General Assembly also re-affirms Denmark's sovereignty over its semi-autonomous Arctic territory.",
+      "published": "Tue, 22 Sep 2026 21:36:55 GMT",
       "tags": []
     },
     {
-      "id": "ea16baaac907",
+      "id": "e6381dd067b3",
       "category": "news",
       "source": "BBC 世界",
-      "title": "CNN, MS NOW and Politico file lawsuit against Trump's White House ban",
-      "url": "https://www.bbc.co.uk/news/articles/cm0e32rwvrryo?at_medium=RSS&at_campaign=rss",
-      "summary": "Major US networks later suspended White House TV coverage of Trump as he headed to New York for a UN summit.",
-      "published": "Tue, 22 Sep 2026 00:16:06 GMT",
+      "title": "How Ceuta, football and Israel are shaping Morocco's election",
+      "url": "https://www.bbc.co.uk/news/articles/c8r4v7n6py97o?at_medium=RSS&at_campaign=rss",
+      "summary": "Young voters are being courted with football slogans, promises of jobs and anti-Israel rallying calls.",
+      "published": "Tue, 22 Sep 2026 20:59:00 GMT",
       "tags": []
     },
     {
-      "id": "b2c543ac59e1",
+      "id": "664a00c8e11e",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
-      "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
-      "summary": "A simple ClickFix attack is only one way to completely hijack the new agent.",
-      "author": "Dan Goodin",
-      "published": "Mon, 21 Sep 2026 22:24:38 +0000",
+      "title": "Woman's brain worm infection confirmed after eggs grow tails in lab test",
+      "url": "https://arstechnica.com/health/2026/09/womans-brain-worm-infection-confirmed-after-eggs-grow-tails-in-lab-test/",
+      "summary": "There is no single definitive test for these worms, but the tail is fairly convincing.",
+      "author": "Beth Mole",
+      "published": "Tue, 22 Sep 2026 21:42:14 +0000",
+      "tags": [
+        "Health",
+        "brain worms",
+        "case report",
+        "S. japonicum"
+      ]
+    },
+    {
+      "id": "5618ffbe19d5",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
+      "url": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
+      "summary": "The frontier AI model race has entered its comparison shopping phase.",
+      "author": "Samuel Axon",
+      "published": "Tue, 22 Sep 2026 21:25:18 +0000",
       "tags": [
         "AI",
-        "Biz & IT",
-        "Security",
-        "AI assistants"
+        "Agentic workflows",
+        "Anthropic",
+        "frontier models"
       ]
     },
     {
-      "id": "e24108f386b0",
+      "id": "ac5d72a77c3d",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Military milestone: Ukrainian naval drone sinks Russian kamikaze drone boat",
-      "url": "https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/",
-      "summary": "Drone boat battle occurs as Ukraine and Russia target Black Sea ports and ships.",
-      "author": "Jeremy Hsu",
-      "published": "Mon, 21 Sep 2026 21:07:05 +0000",
+      "title": "Cities across US oppose Trump FCC plan to preempt local broadband rules",
+      "url": "https://arstechnica.com/tech-policy/2026/09/cities-across-us-oppose-trump-fcc-plan-to-preempt-local-broadband-rules/",
+      "summary": "Cities defend permit requirements, say ISPs aren't building networks fast enough.",
+      "author": "Jon Brodkin",
+      "published": "Tue, 22 Sep 2026 20:38:30 +0000",
       "tags": [
-        "Tech",
-        "drone boats",
-        "military drones",
-        "Russia invasion of Ukraine"
+        "Policy",
+        "broadband",
+        "FCC"
       ]
     },
     {
-      "id": "6c3e192ba371",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Saudi Arabia wants a car industry, launches Ceer with two EVs",
-      "url": "https://arstechnica.com/cars/2026/09/saudi-arabia-wants-a-car-industry-launches-ceer-with-two-evs/",
-      "summary": "The new carmaker is a joint venture between the Saudi PIF and Foxconn.",
-      "author": "Chad Kirchner",
-      "published": "Mon, 21 Sep 2026 20:55:36 +0000",
-      "tags": [
-        "Cars",
-        "Foxconn",
-        "Saudi Arabia"
-      ]
-    },
-    {
-      "id": "e74391fb7653",
+      "id": "1dd691d2549e",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Princeton’s 15-year run as the nation’s top college is over. MIT is now No. 1.",
-      "url": "https://www.marketwatch.com/story/princetons-15-year-run-as-the-nations-top-college-is-over-mit-is-now-no-1-e9f17169?mod=mw_rss_topstories",
-      "summary": "A change in methodology in the U.S. News rankings helped boost schools where students have high earnings",
-      "author": "Jillian Berman",
-      "published": "Tue, 22 Sep 2026 04:02:00 GMT",
+      "title": "‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?",
+      "url": "https://www.marketwatch.com/story/it-doesnt-seem-fair-im-retired-and-have-plenty-of-money-why-cant-i-qualify-for-a-retail-credit-card-8a58eda3?mod=mw_rss_topstories",
+      "summary": "“I draw from my IRA as needed for household repairs, trips and other larger expenses.”",
+      "author": "Quentin Fottrell",
+      "published": "Wed, 23 Sep 2026 02:15:00 GMT",
       "tags": []
     },
     {
-      "id": "9efb13952ada",
+      "id": "76fee30d47f1",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Meta’s stock is enjoying its best month in 13 years thanks to the company’s hot new AI assistant",
-      "url": "https://www.marketwatch.com/story/metas-stock-is-enjoying-its-best-month-in-more-than-two-years-thanks-to-the-companys-hot-new-ai-assistant-bf106291?mod=mw_rss_topstories",
-      "summary": "Muse is gaining popularity and helping convince investors that Meta’s AI bets are paying off.",
-      "author": "Christine Ji",
-      "published": "Mon, 21 Sep 2026 22:01:00 GMT",
+      "title": "‘She gave a neighbor $2,000’: Social Security overpaid my mother, 82, by $20,000. What else is hiding in her finances?",
+      "url": "https://www.marketwatch.com/story/she-gave-a-neighbor-2-000-social-security-overpaid-my-mother-82-by-20-000-what-else-is-hiding-in-her-finances-1b54977f?mod=mw_rss_topstories",
+      "summary": "“My mother has a pension, Social Security, investments and a house probably worth over $1 million.”",
+      "author": "Quentin Fottrell",
+      "published": "Wed, 23 Sep 2026 02:00:00 GMT",
       "tags": []
     },
     {
-      "id": "1fb7d9e9995c",
+      "id": "9f514cb221dc",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "AT&T’s stock looks like the smartest bet in the wireless sector, analyst says",
-      "url": "https://www.marketwatch.com/story/at-ts-stock-looks-like-the-smartest-bet-in-the-wireless-sector-analyst-says-6e773d63?mod=mw_rss_topstories",
-      "summary": "An analyst at BNP has taken a positive view of AT&T’s stock, writing that investors should have “little to quibble with on the mobile side.”",
-      "author": "Emily Bary",
-      "published": "Mon, 21 Sep 2026 21:57:00 GMT",
+      "title": "The Nasdaq’s rapid rise to a record is sending a message to investors: Don’t wait for a pullback to buy",
+      "url": "https://www.marketwatch.com/story/the-nasdaqs-rapid-rise-to-a-record-is-sending-a-message-to-investors-dont-wait-for-a-pullback-to-buy-5f533ed8?mod=mw_rss_topstories",
+      "summary": "Some analysts say the upbeat data on the Nasdaq’s outlook is backed up by improving fundamentals.",
+      "author": "Christine Idzelis",
+      "published": "Tue, 22 Sep 2026 21:44:00 GMT",
       "tags": []
     }
   ],
