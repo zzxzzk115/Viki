@@ -1,133 +1,165 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "items": [
     {
-      "id": "dde80a7a5522",
+      "id": "a16668871e44",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Zack Wheeler",
-      "url": "https://simple.wikipedia.org/wiki/Zack_Wheeler",
-      "summary": "Zachary Harrison Wheeler is an American professional baseball pitcher for the Philadelphia Phillies of Major League Baseball (MLB). He has also played in MLB for the New York Mets.",
+      "title": "Petitefontaine",
+      "url": "https://simple.wikipedia.org/wiki/Petitefontaine",
+      "summary": "Petitefontaine is a commune. It is in Bourgogne-Franche-Comté in the Territoire de Belfort department in northeast France.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "3a2ec6df8e5a",
+      "id": "a32295e44b8f",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Wikimania",
-      "url": "https://simple.wikipedia.org/wiki/Wikimania",
-      "summary": "Wikimania is an international conference on wikis like Wikipedia. It is organized by the Wikimedia Foundation and brings together authors, programmers, and researchers. It was started in 2005.",
+      "title": "Keighley",
+      "url": "https://simple.wikipedia.org/wiki/Keighley",
+      "summary": "Keighley is a town and civil parish in Bradford, West Yorkshire, England. In 2001, there were 51,429 people living in Keighley.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "dfc615803e71",
+      "id": "4de1641fc6e4",
       "category": "tech",
       "source": "Hacker News",
-      "title": "GPT-6 Sol and Luna",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "title": "Linux support is coming to Snapdragon X2 Series",
+      "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
       "summary": "",
-      "author": "OfficialTurkey",
-      "published": "2026-09-22",
-      "tags": [
-        "▲ 1389"
-      ]
-    },
-    {
-      "id": "0c90c73c08cf",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Claude Opus 5.5",
-      "url": "https://www.anthropic.com/claude-opus-5-5",
-      "summary": "",
-      "author": "km144",
-      "published": "2026-09-22",
-      "tags": [
-        "▲ 1405"
-      ]
-    },
-    {
-      "id": "15a959b26c4a",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Transit rewards (Waymo pays you to take the train)",
-      "url": "https://waymo.com/blog/2026/09/transit-rewards/",
-      "summary": "",
-      "author": "raybb",
+      "author": "aaronday",
       "published": "2026-09-23",
       "tags": [
-        "▲ 93"
+        "▲ 299"
       ]
     },
     {
-      "id": "0f1ff99a4515",
+      "id": "f82afb648776",
       "category": "tech",
       "source": "Hacker News",
-      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
-      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
       "summary": "",
-      "author": "sohkamyung",
-      "published": "2026-09-22",
-      "tags": [
-        "▲ 624"
-      ]
-    },
-    {
-      "id": "f2b74919d5f6",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Data-only attacks are easier than you think (2024)",
-      "url": "https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think",
-      "summary": "",
-      "author": "segfaultbuserr",
+      "author": "raahelb",
       "published": "2026-09-23",
       "tags": [
-        "▲ 18"
+        "▲ 591"
       ]
     },
     {
-      "id": "ee8f28d7bbe3",
+      "id": "2886d8572f92",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
-      "url": "https://foxscript.org/",
-      "summary": "Visual FoxPro stopped at version 9 in 2007. A surprising amount of it is still running, in 32 bits, because rewriting a 20-year-old business app is how you lose the business. A customer wanted to keep milking their app for the foreseeable future, so here it is: the same language…",
-      "author": "boredjohnny",
-      "published": "2026-09-22",
+      "title": "Feds Target AI Critics as \"Foreign Agents\"",
+      "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
+      "summary": "",
+      "author": "nmeagent",
+      "published": "2026-09-24",
       "tags": [
-        "▲ 265"
+        "▲ 210"
       ]
     },
     {
-      "id": "5fd8cb1758f9",
+      "id": "b8a00fb73adf",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
+      "url": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/",
+      "summary": "",
+      "author": "JohnHammersley",
+      "published": "2026-09-23",
+      "tags": [
+        "▲ 127"
+      ]
+    },
+    {
+      "id": "0a91ea75e51b",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Making portable my unportable transputer C compiler",
+      "url": "https://nanochess.org/transputer_c_compiler.html",
+      "summary": "",
+      "author": "nanochess",
+      "published": "2026-09-22",
+      "tags": [
+        "▲ 28"
+      ]
+    },
+    {
+      "id": "522af5193d62",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "VSCode's SSH Agent Is Bananas (2025)",
+      "url": "https://fly.io/blog/vscode-ssh-wtf/",
+      "summary": "",
+      "author": "Rapzid",
+      "published": "2026-09-23",
+      "tags": [
+        "▲ 187"
+      ]
+    },
+    {
+      "id": "bb1ef29de6ea",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How to Develop a Doctor Appointment App for Your Clinic or Hospital",
-      "url": "https://dev.to/seo_lilac_/how-to-develop-a-doctor-appointment-app-for-your-clinic-or-hospital-1cna",
-      "summary": "Healthcare is becoming increasingly digital, and patients now expect convenient ways to find doctors, check availability, and book appointments online. A doctor appointment app can help clinics and hospitals simplify appointment scheduling, improve patient communication, and man…",
-      "author": "Lilac infotech",
-      "published": "Wed, 23 Sep 2026 06:06:00 +0000",
+      "title": "ERP Consulting Services: Fix ERP API Sync Failures",
+      "url": "https://dev.to/sanya_mittal_a509a2c50a2d/erp-consulting-services-fix-erp-api-sync-failures-406",
+      "summary": "A sync job can look healthy while quietly creating duplicate ERP records. We have seen this class of problem when an external system retries an ERP consulting services request after a timeout. The client sees a failed request, retries it, and the ERP receives both requests. The …",
+      "author": "Sanya Mittal",
+      "published": "Thu, 24 Sep 2026 06:15:18 +0000",
       "tags": [
-        "devops",
-        "mobile",
+        "erp",
+        "consultation",
         "webdev",
         "productivity"
       ]
     },
     {
-      "id": "02062b09e06c",
+      "id": "5fc89ec5cfc8",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Building a Localization Pipeline for HR Policy Documents (Without Breaking Compliance)",
-      "url": "https://dev.to/diogoheleno/building-a-localization-pipeline-for-hr-policy-documents-without-breaking-compliance-5d14",
-      "summary": "Most i18n discussions focus on UI strings, date formats, and pluralization rules. Almost nobody talks about the internal documents that HR and legal teams push out to multinational teams: codes of conduct, harassment policies, D&I frameworks. These get treated as an afterthought…",
+      "title": "Make AI Coding Agents Ship Review-Ready, Tested Code",
+      "url": "https://dev.to/devconnect/make-ai-coding-agents-ship-review-ready-tested-code-4moe",
+      "summary": "Short answer: Give the agent a small, explicit task, require baseline tests first, and force a run of the changed test path before review. Keep implementation, tests, and summary separate. Give the agent a narrow task, require it to inspect the existing test setup first, and mak…",
+      "author": "Dev Connect",
+      "published": "Thu, 24 Sep 2026 06:15:03 +0000",
+      "tags": [
+        "ai",
+        "programming",
+        "codequality",
+        "webdev"
+      ]
+    },
+    {
+      "id": "671d18669612",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Stop Passing Big Files Through Your Workflow. Here's What to Do Instead.",
+      "url": "https://dev.to/unmeshed/stop-passing-big-files-through-your-workflow-heres-what-to-do-instead-42hi",
+      "summary": "You've built the workflow, tested it with a sample file, and everything works. Then someone uploads a real spreadsheet, the kind with 40,000 rows instead of 10, and suddenly your \"simple\" step is dragging the whole process down. Here's what usually causes it: the workflow is car…",
+      "author": "The Unmeshed Team",
+      "published": "Thu, 24 Sep 2026 06:10:32 +0000",
+      "tags": [
+        "webdev",
+        "backend",
+        "python",
+        "automation"
+      ]
+    },
+    {
+      "id": "42ad15a8e7c2",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Building a Multilingual Content Pipeline for High-Stakes Announcements (M&A, Layoffs, Policy Changes)",
+      "url": "https://dev.to/diogoheleno/building-a-multilingual-content-pipeline-for-high-stakes-announcements-ma-layoffs-policy-27fn",
+      "summary": "Merger announcements, layoff notices, and policy changes share a technical problem that most CMS and content workflows are not built for: simultaneous multi-language publishing with zero tolerance for drift . A typo in a blog post gets fixed in the next deploy. A mistranslated s…",
       "author": "Diogo Heleno",
-      "published": "Wed, 23 Sep 2026 06:05:48 +0000",
+      "published": "Thu, 24 Sep 2026 06:06:38 +0000",
       "tags": [
         "i18n",
         "webdev",
@@ -136,131 +168,103 @@
       ]
     },
     {
-      "id": "f6e47fe2f069",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "SpaceX Grok 4.7 Launch and Its…",
-      "url": "https://dev.to/norviktech/spacex-grok-47-launch-and-its-10h3",
-      "summary": "Originally published at norvik.tech Introduction Dive deep into the technical aspects of SpaceX's Grok 4.7 launch and explore its significance for technology and business. Understanding Grok 4.7: What Is It? The Grok 4.7 launch by SpaceX signifies a crucial advancement in proces…",
-      "author": "Norvik Tech",
-      "published": "Wed, 23 Sep 2026 06:05:35 +0000",
-      "tags": [
-        "webdev",
-        "grok47",
-        "spacex",
-        "longhorizonprocessin"
-      ]
-    },
-    {
-      "id": "0e43d9d0129c",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "A timeout is not a failed job: handling daily quotas for an AI image generator",
-      "url": "https://dev.to/yulingg_zhang_dfbce7a345a/a-timeout-is-not-a-failed-job-handling-daily-quotas-for-an-ai-image-generator-213c",
-      "summary": "An image-generation request can disappear from the browser while the provider is still working. That makes a daily allowance a small accounting problem, not just a counter on a button. This note comes from the quota implementation in RetroPrompt, a portrait project I maintain. T…",
-      "author": "yulingg zhang",
-      "published": "Wed, 23 Sep 2026 06:05:30 +0000",
-      "tags": [
-        "webdev"
-      ]
-    },
-    {
-      "id": "0ce0bff11e5d",
+      "id": "2a055d991c5e",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Mary Mallon",
-      "url": "https://en.wikipedia.org/wiki/Mary_Mallon",
-      "summary": "Mary Mallon, commonly known as Typhoid Mary, was an Irish-born cook who lived in the United States from a young age and is believed to have infected up to fifty-seven people with the bacteria that cause typhoid fever. The infections caused three confirmed deaths. She was the fir…",
+      "title": "Persona (series)",
+      "url": "https://en.wikipedia.org/wiki/Persona_(series)",
+      "summary": "Persona, previously marketed as Shin Megami Tensei: Persona outside of Japan, is a Japanese video game series and media franchise developed by Atlus and owned by Sega. Centered around a series of Japanese role-playing video games, Persona is a spin-off from Atlus' Megami Tensei …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "67154007daef",
+      "id": "a23f76d1ffbb",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines",
-      "url": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss",
-      "summary": "In his address, the US president pondered whether a peace deal would be agreed or whether he would have to take extreme action against Iran.",
-      "published": "Wed, 23 Sep 2026 02:57:00 GMT",
+      "title": "OpenAI agent 'infiltrated' Australian government website, PM says",
+      "url": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss",
+      "summary": "Albanese said he expressed \"concern\" to OpenAI founder Sam Altman, after authorities were informed three months after the breach in June.",
+      "published": "Thu, 24 Sep 2026 03:22:54 GMT",
       "tags": []
     },
     {
-      "id": "90bc39ceb74f",
+      "id": "29e781823534",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Burnham expects to find 'common ground' with Trump in first meeting",
-      "url": "https://www.bbc.co.uk/news/articles/cqevwpmvpekeo?at_medium=RSS&at_campaign=rss",
-      "summary": "In New York, the prime minister will also deliver a speech to the UN General Assembly expected to be focused on AI.",
-      "published": "Tue, 22 Sep 2026 06:03:22 GMT",
+      "title": "AI superpower ambitions take centre stage as Trump and Xi meet",
+      "url": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss",
+      "summary": "The US and China are vying for AI supremacy while seeking to keep it under human control.",
+      "published": "Wed, 23 Sep 2026 22:01:17 GMT",
       "tags": []
     },
     {
-      "id": "f1e92339a97d",
+      "id": "23f46cfeab21",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US to build two military bases in Greenland under new deal with Denmark",
-      "url": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
-      "summary": "The defence deal signed at the UN General Assembly also re-affirms Denmark's sovereignty over its semi-autonomous Arctic territory.",
-      "published": "Tue, 22 Sep 2026 21:36:55 GMT",
+      "title": "Iran's president tells Trump it will never 'bend the knee'",
+      "url": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss",
+      "summary": "Masoud Pezeshkian's defiant speech to the UN comes after the US president threatened to \"annihilate\" Iran if a peace deal is not agreed soon.",
+      "published": "Wed, 23 Sep 2026 18:15:31 GMT",
       "tags": []
     },
     {
-      "id": "e6381dd067b3",
+      "id": "afdbac57395c",
       "category": "news",
       "source": "BBC 世界",
-      "title": "How Ceuta, football and Israel are shaping Morocco's election",
-      "url": "https://www.bbc.co.uk/news/articles/c8r4v7n6py97o?at_medium=RSS&at_campaign=rss",
-      "summary": "Young voters are being courted with football slogans, promises of jobs and anti-Israel rallying calls.",
-      "published": "Tue, 22 Sep 2026 20:59:00 GMT",
+      "title": "Ethiopia and Tigray accuse each of launching offensives, fuelling fears of new war",
+      "url": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss",
+      "summary": "The local authorities reportedly seize Tigray's airports following reports of recent drone strikes.",
+      "published": "Thu, 24 Sep 2026 04:37:47 GMT",
       "tags": []
     },
     {
-      "id": "664a00c8e11e",
+      "id": "a287d2f2414c",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Woman's brain worm infection confirmed after eggs grow tails in lab test",
-      "url": "https://arstechnica.com/health/2026/09/womans-brain-worm-infection-confirmed-after-eggs-grow-tails-in-lab-test/",
-      "summary": "There is no single definitive test for these worms, but the tail is fairly convincing.",
+      "title": "RFK Jr.'s CDC isn’t letting states order COVID-19 shots for kids, blocking access",
+      "url": "https://arstechnica.com/health/2026/09/rfk-jr-s-cdc-isnt-letting-states-order-covid-19-shots-for-kids-blocking-access/",
+      "summary": "US health deptartment said it wants to ensure the vaccine orders are \"appropriate.\"",
       "author": "Beth Mole",
-      "published": "Tue, 22 Sep 2026 21:42:14 +0000",
+      "published": "Wed, 23 Sep 2026 22:17:25 +0000",
       "tags": [
         "Health",
-        "brain worms",
-        "case report",
-        "S. japonicum"
+        "anti-vaccine",
+        "CDC",
+        "COVID-19"
       ]
     },
     {
-      "id": "5618ffbe19d5",
+      "id": "a2eaff1a41c2",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
-      "url": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
-      "summary": "The frontier AI model race has entered its comparison shopping phase.",
-      "author": "Samuel Axon",
-      "published": "Tue, 22 Sep 2026 21:25:18 +0000",
-      "tags": [
-        "AI",
-        "Agentic workflows",
-        "Anthropic",
-        "frontier models"
-      ]
-    },
-    {
-      "id": "ac5d72a77c3d",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Cities across US oppose Trump FCC plan to preempt local broadband rules",
-      "url": "https://arstechnica.com/tech-policy/2026/09/cities-across-us-oppose-trump-fcc-plan-to-preempt-local-broadband-rules/",
-      "summary": "Cities defend permit requirements, say ISPs aren't building networks fast enough.",
-      "author": "Jon Brodkin",
-      "published": "Tue, 22 Sep 2026 20:38:30 +0000",
+      "title": "FBI rushes to investigate if ShinyHunters hack of thousands of employees is real",
+      "url": "https://arstechnica.com/tech-policy/2026/09/fbi-rushes-to-investigate-if-shinyhunters-hack-of-thousands-of-employees-is-real/",
+      "summary": "It's unclear what will happen if FBI misses ShinyHunters' deadline.",
+      "author": "Ashley Belanger",
+      "published": "Wed, 23 Sep 2026 21:46:36 +0000",
       "tags": [
         "Policy",
-        "broadband",
-        "FCC"
+        "Security",
+        "fbi",
+        "hackers"
+      ]
+    },
+    {
+      "id": "8e11d07f60a9",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Disney+ and Hulu raise prices by up to 13 percent after doubling profits",
+      "url": "https://arstechnica.com/gadgets/2026/09/disney-and-hulu-raise-prices-by-up-to-13-percent-after-doubling-profits/",
+      "summary": "The Disney+ ad-free plan is now more expensive than Netflix's.",
+      "author": "Scharon Harding",
+      "published": "Wed, 23 Sep 2026 21:18:53 +0000",
+      "tags": [
+        "Tech",
+        "Disney",
+        "disney plus",
+        "Hulu"
       ]
     },
     {
@@ -271,29 +275,29 @@
       "url": "https://www.marketwatch.com/story/it-doesnt-seem-fair-im-retired-and-have-plenty-of-money-why-cant-i-qualify-for-a-retail-credit-card-8a58eda3?mod=mw_rss_topstories",
       "summary": "“I draw from my IRA as needed for household repairs, trips and other larger expenses.”",
       "author": "Quentin Fottrell",
-      "published": "Wed, 23 Sep 2026 02:15:00 GMT",
+      "published": "Wed, 23 Sep 2026 23:15:00 GMT",
       "tags": []
     },
     {
       "id": "76fee30d47f1",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘She gave a neighbor $2,000’: Social Security overpaid my mother, 82, by $20,000. What else is hiding in her finances?",
+      "title": "Social Security overpaid my 82-year-old mother by $20,000. What else is hiding in her finances?",
       "url": "https://www.marketwatch.com/story/she-gave-a-neighbor-2-000-social-security-overpaid-my-mother-82-by-20-000-what-else-is-hiding-in-her-finances-1b54977f?mod=mw_rss_topstories",
       "summary": "“My mother has a pension, Social Security, investments and a house probably worth over $1 million.”",
       "author": "Quentin Fottrell",
-      "published": "Wed, 23 Sep 2026 02:00:00 GMT",
+      "published": "Wed, 23 Sep 2026 22:15:00 GMT",
       "tags": []
     },
     {
-      "id": "9f514cb221dc",
+      "id": "f2685a2add14",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "The Nasdaq’s rapid rise to a record is sending a message to investors: Don’t wait for a pullback to buy",
-      "url": "https://www.marketwatch.com/story/the-nasdaqs-rapid-rise-to-a-record-is-sending-a-message-to-investors-dont-wait-for-a-pullback-to-buy-5f533ed8?mod=mw_rss_topstories",
-      "summary": "Some analysts say the upbeat data on the Nasdaq’s outlook is backed up by improving fundamentals.",
-      "author": "Christine Idzelis",
-      "published": "Tue, 22 Sep 2026 21:44:00 GMT",
+      "title": "‘I don’t begrudge them their money’: My husband and I have friends who spend, spend, spend. How do we keep up?",
+      "url": "https://www.marketwatch.com/story/i-dont-begrudge-them-their-money-my-husband-and-i-have-friends-who-spend-spend-spend-how-do-we-keep-up-e10164dc?mod=mw_rss_topstories",
+      "summary": "“A weekend away isn’t a weekend away. It’s a luxury hotel, expensive meals and a last-minute upgrade.”",
+      "author": "Quentin Fottrell",
+      "published": "Wed, 23 Sep 2026 22:00:00 GMT",
       "tags": []
     }
   ],

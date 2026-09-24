@@ -1,13 +1,13 @@
 {
-  "date": "2026-09-23",
-  "word": "obsolete",
-  "ipa": "ˌɒb.s",
-  "ipaUs": "ˌɑːb.s",
+  "date": "2026-09-24",
+  "word": "ostensible",
+  "ipa": "ɒsˈten.sə.b",
+  "ipaUs": "ɑːˈsten.sə.b",
   "pos": "adjective",
-  "definition": "not in use any more, having been replaced by something newer and better or more fashionable",
-  "definitionZh": "废弃的",
-  "example": "Gas lamps became obsolete when electric lighting was invented.",
-  "exampleZh": "电灯发明以后煤气灯就被淘汰了。",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uko/ukobs/ukobsce024.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/o/obs/obsol/obsolete.mp3"
+  "definition": "appearing or claiming to be one thing when it is really something else",
+  "definitionZh": "表面上的",
+  "example": "Their ostensible goal was to clean up government corruption, but their real aim was to unseat the government.",
+  "exampleZh": "他们假托要清除政府腐败，可真正目的却是要颠覆政府。",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uko/ukosc/ukoscil009.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/eus/eus75/eus75315.mp3"
 }
