@@ -1,6 +1,17 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "items": [
+    {
+      "id": "b7d9300382c5",
+      "platform": "youtube",
+      "videoId": "SA9kdAX2Zj0",
+      "title": "Claude Opus 5.5 AI: An Incredible Leap Forward",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=SA9kdAX2Zj0",
+      "thumb": "https://i4.ytimg.com/vi/SA9kdAX2Zj0/hqdefault.jpg",
+      "published": "2026-09-24",
+      "category": "图形学"
+    },
     {
       "id": "762e86c2a7ce",
       "platform": "youtube",
@@ -13,14 +24,14 @@
       "category": "图形学"
     },
     {
-      "id": "0c3e7fe15b24",
+      "id": "7d94dff0538b",
       "platform": "youtube",
-      "videoId": "vIHw_2VjSUw",
-      "title": "DeepSeek’s Insane New Architecture",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=vIHw_2VjSUw",
-      "thumb": "https://i3.ytimg.com/vi/vIHw_2VjSUw/hqdefault.jpg",
-      "published": "2026-09-18",
+      "videoId": "YJVYX8tllj4",
+      "title": "How to blur images at 20,000 FPS (or 50 microseconds)",
+      "channel": "Acerola",
+      "url": "https://www.youtube.com/watch?v=YJVYX8tllj4",
+      "thumb": "https://i2.ytimg.com/vi/YJVYX8tllj4/hqdefault.jpg",
+      "published": "2026-09-24",
       "category": "图形学"
     },
     {
@@ -35,14 +46,25 @@
       "category": "图形学"
     },
     {
-      "id": "b9ac62c4aa65",
-      "platform": "youtube",
-      "videoId": "x-DIGi8Sc9E",
-      "title": "\"Indie\" doesn't mean what you think it means",
-      "channel": "Acerola",
-      "url": "https://www.youtube.com/watch?v=x-DIGi8Sc9E",
-      "thumb": "https://i1.ytimg.com/vi/x-DIGi8Sc9E/hqdefault.jpg",
-      "published": "2026-01-30",
+      "id": "4a8d4af7a842",
+      "platform": "bilibili",
+      "videoId": "BV1Toe36YE4z",
+      "title": "GAMES Webinar 415-具身智能专题-窦志扬-NeuralActuator",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV1Toe36YE4z",
+      "thumb": "https://i1.hdslb.com/bfs/archive/dcee9e187b03d0fd8a90f98b826059c2e322816b.jpg",
+      "published": "2026-09-17",
+      "category": "图形学"
+    },
+    {
+      "id": "b6a8c1757788",
+      "platform": "bilibili",
+      "videoId": "BV14oe36YE6P",
+      "title": "GAMES Webinar 415-具身智能专题-杨理欣-面向机器人操作的4D世界-动作表征",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV14oe36YE6P",
+      "thumb": "https://i0.hdslb.com/bfs/archive/646fb0bc1c52b4f122ac5fed7369e00f31ddb649.jpg",
+      "published": "2026-09-17",
       "category": "图形学"
     },
     {
@@ -65,28 +87,6 @@
       "url": "https://www.youtube.com/watch?v=sY_U3-ih4Bs",
       "thumb": "https://i4.ytimg.com/vi/sY_U3-ih4Bs/hqdefault.jpg",
       "published": "2022-05-05",
-      "category": "引擎"
-    },
-    {
-      "id": "74d5969623e3",
-      "platform": "bilibili",
-      "videoId": "BV1BTnxzKEVv",
-      "title": "2025.9月编程语言排行榜 C++、C、JAVA亚军之争异常激烈 Perl的火爆与人工智能无关",
-      "channel": "原子之音",
-      "url": "https://www.bilibili.com/video/BV1BTnxzKEVv",
-      "thumb": "https://i0.hdslb.com/bfs/archive/57a35f617d5a79a0ce357179e98382a0c2786185.jpg",
-      "published": "2025-09-26",
-      "category": "引擎"
-    },
-    {
-      "id": "20c78ca36141",
-      "platform": "bilibili",
-      "videoId": "BV1TXWVzZEx4",
-      "title": "虚幻中的C++: 输入系统(Input与Enhanced Input)",
-      "channel": "原子之音",
-      "url": "https://www.bilibili.com/video/BV1TXWVzZEx4",
-      "thumb": "https://i0.hdslb.com/bfs/archive/56b88c2f99c47fd48d8dd518d296fa8697902d72.jpg",
-      "published": "2025-09-20",
       "category": "引擎"
     },
     {
@@ -156,6 +156,17 @@
       "category": "金融"
     },
     {
+      "id": "73e13955f903",
+      "platform": "youtube",
+      "videoId": "OgYSITk0fSM",
+      "title": "How Fast Can a Glacier Move: Crash Course Geology #19",
+      "channel": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=OgYSITk0fSM",
+      "thumb": "https://i4.ytimg.com/vi/OgYSITk0fSM/hqdefault.jpg",
+      "published": "2026-09-24",
+      "category": "历史"
+    },
+    {
       "id": "f3c8091c05f7",
       "platform": "youtube",
       "videoId": "dsGoS_M7AW8",
@@ -164,17 +175,6 @@
       "url": "https://www.youtube.com/watch?v=dsGoS_M7AW8",
       "thumb": "https://i1.ytimg.com/vi/dsGoS_M7AW8/hqdefault.jpg",
       "published": "2026-09-22",
-      "category": "历史"
-    },
-    {
-      "id": "c93741ae59a2",
-      "platform": "youtube",
-      "videoId": "HICDzXfCAs4",
-      "title": "Crash Course Astronomy Marathon • Full Series",
-      "channel": "CrashCourse",
-      "url": "https://www.youtube.com/watch?v=HICDzXfCAs4",
-      "thumb": "https://i1.ytimg.com/vi/HICDzXfCAs4/hqdefault.jpg",
-      "published": "2026-09-17",
       "category": "历史"
     },
     {
@@ -222,25 +222,47 @@
       "category": "历史"
     },
     {
+      "id": "63cee07f2023",
+      "platform": "bilibili",
+      "videoId": "BV1WhaA6hE7s",
+      "title": "糟糕！我的粮食被勋宗抢走了！【神奇组织54】",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV1WhaA6hE7s",
+      "thumb": "https://i2.hdslb.com/bfs/archive/226f434fef1c833057d85dc5faf20c2862e988e9.jpg",
+      "published": "2026-09-25",
+      "category": "历史"
+    },
+    {
+      "id": "b806d6653432",
+      "platform": "bilibili",
+      "videoId": "BV12RYx6TE9r",
+      "title": "告别伊玛目  伊朗篇（终）",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV12RYx6TE9r",
+      "thumb": "https://i1.hdslb.com/bfs/archive/78b3aa4466a8e541c8191498d2e7dfa3bd6833fb.jpg",
+      "published": "2026-09-11",
+      "category": "历史"
+    },
+    {
       "id": "55d1a16c8a55",
       "platform": "youtube",
       "videoId": "sZUprwBnpiw",
-      "title": "How to talk about housework: Live English Class",
+      "title": "🧹 How to talk about housework in English | Live English Class",
       "channel": "BBC Learning English",
       "url": "https://www.youtube.com/watch?v=sZUprwBnpiw",
       "thumb": "https://i4.ytimg.com/vi/sZUprwBnpiw/hqdefault.jpg",
-      "published": "2026-09-23",
+      "published": "2026-09-24",
       "category": "英语"
     },
     {
-      "id": "9a9aeac8bf73",
+      "id": "4888fc5ec334",
       "platform": "youtube",
-      "videoId": "M6gAF_YCzGY",
-      "title": "Trump and Xi to meet in Washington summit | BBC Learning English from the News",
+      "videoId": "1VQNMDSzWpE",
+      "title": "What is that unpleasant feeling on our skin and is scratching good for us? ⏲️ 6 Minute English",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=M6gAF_YCzGY",
-      "thumb": "https://i2.ytimg.com/vi/M6gAF_YCzGY/hqdefault.jpg",
-      "published": "2026-09-23",
+      "url": "https://www.youtube.com/watch?v=1VQNMDSzWpE",
+      "thumb": "https://i2.ytimg.com/vi/1VQNMDSzWpE/hqdefault.jpg",
+      "published": "2026-09-24",
       "category": "英语"
     },
     {
@@ -269,21 +291,20 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "Bilibili 512313464: code=-352 风控校验失败",
-    "图形学 · 512313464: 0 条",
+    "图形学 · 512313464: 2 条",
     "引擎 · @TheCherno: 2 条",
-    "引擎 · 437860379: 2 条",
+    "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
+    "Bilibili 1567748478: code=-352 风控校验失败",
     "CS · 1567748478: 0 条",
-    "Bilibili 202224425: code=-352 风控校验失败",
     "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 2 条",
     "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
     "历史 · 11646119: 2 条",
-    "历史 · 23947287: 0 条",
+    "历史 · 23947287: 2 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
   ]
