@@ -1,303 +1,299 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "items": [
     {
-      "id": "a16668871e44",
+      "id": "c2808c796247",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Petitefontaine",
-      "url": "https://simple.wikipedia.org/wiki/Petitefontaine",
-      "summary": "Petitefontaine is a commune. It is in Bourgogne-Franche-Comté in the Territoire de Belfort department in northeast France.",
+      "title": "Follicle-stimulating hormone",
+      "url": "https://simple.wikipedia.org/wiki/Follicle-stimulating_hormone",
+      "summary": "Follicle-stimulating hormone is a glycoprotein and hormone.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "a32295e44b8f",
+      "id": "3d01379f0f67",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Keighley",
-      "url": "https://simple.wikipedia.org/wiki/Keighley",
-      "summary": "Keighley is a town and civil parish in Bradford, West Yorkshire, England. In 2001, there were 51,429 people living in Keighley.",
+      "title": "Britt Herbots",
+      "url": "https://simple.wikipedia.org/wiki/Britt_Herbots",
+      "summary": "Britt Herbots is a Belgian volleyball player. She was a member of the Belgium women's national volleyball team.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "4de1641fc6e4",
+      "id": "5a411421e2d8",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Linux support is coming to Snapdragon X2 Series",
-      "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+      "title": "Goodbye Google",
+      "url": "https://robert.ocallahan.org/2026/09/goodbye-google.html",
       "summary": "",
-      "author": "aaronday",
-      "published": "2026-09-23",
+      "author": "Murmuring9087",
+      "published": "2026-09-25",
       "tags": [
-        "▲ 299"
+        "▲ 88"
       ]
     },
     {
-      "id": "f82afb648776",
+      "id": "50c0b912a0ed",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "title": "F-Droid 2.0",
+      "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
       "summary": "",
-      "author": "raahelb",
-      "published": "2026-09-23",
-      "tags": [
-        "▲ 591"
-      ]
-    },
-    {
-      "id": "2886d8572f92",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Feds Target AI Critics as \"Foreign Agents\"",
-      "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
-      "summary": "",
-      "author": "nmeagent",
+      "author": "daveoc64",
       "published": "2026-09-24",
       "tags": [
-        "▲ 210"
+        "▲ 1103"
       ]
     },
     {
-      "id": "b8a00fb73adf",
+      "id": "2e8aa166044b",
       "category": "tech",
       "source": "Hacker News",
-      "title": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
-      "url": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/",
-      "summary": "",
-      "author": "JohnHammersley",
+      "title": "Show HN: Make cursed fonts like Times New Bastard",
+      "url": "https://bastardica.mitpit.com",
+      "summary": "A joke tool that abuses OpenType's ligature feature to mix fonts. It works pretty fast on client-side by loading Python in WASM.",
+      "author": "MitPitt",
       "published": "2026-09-23",
       "tags": [
-        "▲ 127"
+        "▲ 588"
       ]
     },
     {
-      "id": "0a91ea75e51b",
+      "id": "185ddb0abcfc",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Making portable my unportable transputer C compiler",
-      "url": "https://nanochess.org/transputer_c_compiler.html",
+      "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+      "url": "https://github.com/devdotfast/whiteboard",
+      "summary": "Hello! We’re Sid, Alex, Ketan, and Milan. We’re building Whiteboard ( https://whiteboard.dev.fast/ ), an open-source desktop app where humans and agents can architect software together in a common workspace. Here’s our repo: https://github.com/devdotfast/whiteboard . We were mis…",
+      "author": "sidharthkmenon",
+      "published": "2026-09-24",
+      "tags": [
+        "▲ 260"
+      ]
+    },
+    {
+      "id": "6e8691490283",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Why is the liver so weirdly regenerative?",
+      "url": "https://dynomight.substack.com/p/liver",
       "summary": "",
-      "author": "nanochess",
+      "author": "jbotz",
+      "published": "2026-09-24",
+      "tags": [
+        "▲ 350"
+      ]
+    },
+    {
+      "id": "ef1eb626aa37",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "2DWillNeverDie",
+      "url": "https://2dwillneverdie.com/",
+      "summary": "",
+      "author": "surprisetalk",
       "published": "2026-09-22",
       "tags": [
-        "▲ 28"
+        "▲ 186"
       ]
     },
     {
-      "id": "522af5193d62",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "VSCode's SSH Agent Is Bananas (2025)",
-      "url": "https://fly.io/blog/vscode-ssh-wtf/",
-      "summary": "",
-      "author": "Rapzid",
-      "published": "2026-09-23",
-      "tags": [
-        "▲ 187"
-      ]
-    },
-    {
-      "id": "bb1ef29de6ea",
+      "id": "1af203e297b1",
       "category": "tech",
       "source": "DEV Community",
-      "title": "ERP Consulting Services: Fix ERP API Sync Failures",
-      "url": "https://dev.to/sanya_mittal_a509a2c50a2d/erp-consulting-services-fix-erp-api-sync-failures-406",
-      "summary": "A sync job can look healthy while quietly creating duplicate ERP records. We have seen this class of problem when an external system retries an ERP consulting services request after a timeout. The client sees a failed request, retries it, and the ERP receives both requests. The …",
-      "author": "Sanya Mittal",
-      "published": "Thu, 24 Sep 2026 06:15:18 +0000",
+      "title": "Free browser tool — Uuid Generator",
+      "url": "https://dev.to/codepackr/free-browser-tool-uuid-generator-4f78",
+      "summary": "I keep a short list of browser utilities for moments when a full project scaffold is overkill. Uuid Generator is one of them on CodePackr: Auth/security check without spinning up a project. Why a browser tool Faster than writing a throwaway script Easy to paste a sample and shar…",
+      "author": "Codepackr",
+      "published": "Fri, 25 Sep 2026 06:08:13 +0000",
       "tags": [
-        "erp",
-        "consultation",
+        "webdev",
+        "productivity",
+        "opensource"
+      ]
+    },
+    {
+      "id": "06b1db1608e5",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Building CouponLab: Finding Coupon Codes That Actually Work",
+      "url": "https://dev.to/hawaii_tech_7ff334e305416/building-couponlab-finding-coupon-codes-that-actually-work-363e",
+      "summary": "When someone searches for a coupon, they want a discount they can actually use. That’s the problem I’m working on with CouponLab. Finding codes is part of the work. Trying them and figuring out whether they’re useful is the part I care about most. A page full of offers can look …",
+      "author": "GooddayStack",
+      "published": "Fri, 25 Sep 2026 06:06:52 +0000",
+      "tags": [
+        "webdev",
+        "discuss",
+        "ai",
+        "buildinpublic"
+      ]
+    },
+    {
+      "id": "a5b0ff347434",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Free browser tool — Url Encode",
+      "url": "https://dev.to/codepackr/free-browser-tool-url-encode-11ci",
+      "summary": "I keep a short list of browser utilities for moments when a full project scaffold is overkill. Url Encode is one of them on CodePackr: Encode/decode safely in one paste. Why a browser tool Faster than writing a throwaway script Easy to paste a sample and share the link No instal…",
+      "author": "Codepackr",
+      "published": "Fri, 25 Sep 2026 06:06:06 +0000",
+      "tags": [
         "webdev",
         "productivity"
       ]
     },
     {
-      "id": "5fc89ec5cfc8",
+      "id": "4cb866ae8fb7",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Make AI Coding Agents Ship Review-Ready, Tested Code",
-      "url": "https://dev.to/devconnect/make-ai-coding-agents-ship-review-ready-tested-code-4moe",
-      "summary": "Short answer: Give the agent a small, explicit task, require baseline tests first, and force a run of the changed test path before review. Keep implementation, tests, and summary separate. Give the agent a narrow task, require it to inspect the existing test setup first, and mak…",
-      "author": "Dev Connect",
-      "published": "Thu, 24 Sep 2026 06:15:03 +0000",
-      "tags": [
-        "ai",
-        "programming",
-        "codequality",
-        "webdev"
-      ]
-    },
-    {
-      "id": "671d18669612",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Stop Passing Big Files Through Your Workflow. Here's What to Do Instead.",
-      "url": "https://dev.to/unmeshed/stop-passing-big-files-through-your-workflow-heres-what-to-do-instead-42hi",
-      "summary": "You've built the workflow, tested it with a sample file, and everything works. Then someone uploads a real spreadsheet, the kind with 40,000 rows instead of 10, and suddenly your \"simple\" step is dragging the whole process down. Here's what usually causes it: the workflow is car…",
-      "author": "The Unmeshed Team",
-      "published": "Thu, 24 Sep 2026 06:10:32 +0000",
+      "title": "Why I Built a Code-Native Visual Studio for My Developer Posts",
+      "url": "https://dev.to/janarthanan_soundararajan/why-i-built-a-code-native-visual-studio-for-my-developer-posts-9f0",
+      "summary": "Over the past year, AI image tools have become amazing. Being able to type a prompt and get a detailed picture in seconds feels like magic. Like a lot of developers who post on LinkedIn, X, and Dev.to, I started using AI to create header images and diagrams for my technical writ…",
+      "author": "Janarthanan Soundararajan (Jana)",
+      "published": "Fri, 25 Sep 2026 06:05:33 +0000",
       "tags": [
         "webdev",
-        "backend",
-        "python",
-        "automation"
+        "javascript",
+        "opensource",
+        "tailwindcss"
       ]
     },
     {
-      "id": "42ad15a8e7c2",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Building a Multilingual Content Pipeline for High-Stakes Announcements (M&A, Layoffs, Policy Changes)",
-      "url": "https://dev.to/diogoheleno/building-a-multilingual-content-pipeline-for-high-stakes-announcements-ma-layoffs-policy-27fn",
-      "summary": "Merger announcements, layoff notices, and policy changes share a technical problem that most CMS and content workflows are not built for: simultaneous multi-language publishing with zero tolerance for drift . A typo in a blog post gets fixed in the next deploy. A mistranslated s…",
-      "author": "Diogo Heleno",
-      "published": "Thu, 24 Sep 2026 06:06:38 +0000",
-      "tags": [
-        "i18n",
-        "webdev",
-        "productivity",
-        "devops"
-      ]
-    },
-    {
-      "id": "2a055d991c5e",
+      "id": "808838fd8128",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Persona (series)",
-      "url": "https://en.wikipedia.org/wiki/Persona_(series)",
-      "summary": "Persona, previously marketed as Shin Megami Tensei: Persona outside of Japan, is a Japanese video game series and media franchise developed by Atlus and owned by Sega. Centered around a series of Japanese role-playing video games, Persona is a spin-off from Atlus' Megami Tensei …",
+      "title": "2024 East–West Line disruption",
+      "url": "https://en.wikipedia.org/wiki/2024_East%E2%80%93West_Line_disruption",
+      "summary": "On 25 September 2024, train services on the East–West Line (EWL) of the Singapore Mass Rapid Transit (MRT) system were disrupted when an axle box on a Kawasaki C151 train dislodged, derailing the train and damaging the track and equipment between Clementi and Dover stations. Thi…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "a23f76d1ffbb",
+      "id": "262b590f746f",
       "category": "news",
       "source": "BBC 世界",
-      "title": "OpenAI agent 'infiltrated' Australian government website, PM says",
-      "url": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss",
-      "summary": "Albanese said he expressed \"concern\" to OpenAI founder Sam Altman, after authorities were informed three months after the breach in June.",
-      "published": "Thu, 24 Sep 2026 03:22:54 GMT",
+      "title": "Trump and Xi toast new chapter in friendship at White House state dinner",
+      "url": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss",
+      "summary": "The lavish state dinner included tech billionaires, red tablecloths, bok choy and festive toasts.",
+      "published": "Fri, 25 Sep 2026 05:42:45 GMT",
       "tags": []
     },
     {
-      "id": "29e781823534",
+      "id": "3c02b4c764c9",
       "category": "news",
       "source": "BBC 世界",
-      "title": "AI superpower ambitions take centre stage as Trump and Xi meet",
-      "url": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss",
-      "summary": "The US and China are vying for AI supremacy while seeking to keep it under human control.",
-      "published": "Wed, 23 Sep 2026 22:01:17 GMT",
+      "title": "Xi got Trump's red carpet welcome - but not everything he wanted",
+      "url": "https://www.bbc.co.uk/news/articles/cr93e4x7kdjjo?at_medium=RSS&at_campaign=rss",
+      "summary": "China wanted progress on trade, technology and Taiwan - but hasn't got as much as it would have hoped for.",
+      "published": "Fri, 25 Sep 2026 03:57:09 GMT",
       "tags": []
     },
     {
-      "id": "23f46cfeab21",
+      "id": "99e5b53ebc29",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Iran's president tells Trump it will never 'bend the knee'",
-      "url": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss",
-      "summary": "Masoud Pezeshkian's defiant speech to the UN comes after the US president threatened to \"annihilate\" Iran if a peace deal is not agreed soon.",
-      "published": "Wed, 23 Sep 2026 18:15:31 GMT",
+      "title": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
+      "url": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
+      "published": "Fri, 25 Sep 2026 00:44:04 GMT",
       "tags": []
     },
     {
-      "id": "afdbac57395c",
+      "id": "3f96308a9884",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Ethiopia and Tigray accuse each of launching offensives, fuelling fears of new war",
-      "url": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss",
-      "summary": "The local authorities reportedly seize Tigray's airports following reports of recent drone strikes.",
-      "published": "Thu, 24 Sep 2026 04:37:47 GMT",
+      "title": "Media outlets banned by Trump denied access to White House dinner despite judge's order",
+      "url": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss",
+      "summary": "CNN and MS NOW reporters say they were barred from covering a state dinner after a judge ruled their passes should be restored.",
+      "published": "Fri, 25 Sep 2026 01:10:35 GMT",
       "tags": []
     },
     {
-      "id": "a287d2f2414c",
+      "id": "ad80816fdafe",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "RFK Jr.'s CDC isn’t letting states order COVID-19 shots for kids, blocking access",
-      "url": "https://arstechnica.com/health/2026/09/rfk-jr-s-cdc-isnt-letting-states-order-covid-19-shots-for-kids-blocking-access/",
-      "summary": "US health deptartment said it wants to ensure the vaccine orders are \"appropriate.\"",
+      "title": "CDC opens state ordering for COVID-19 vaccines after unexplained delay",
+      "url": "https://arstechnica.com/health/2026/09/cdc-opens-state-ordering-for-covid-19-vaccines-after-unexplained-delay/",
+      "summary": "Health department previously blamed delay on \"not yet finalized procurement decisions.\"",
       "author": "Beth Mole",
-      "published": "Wed, 23 Sep 2026 22:17:25 +0000",
+      "published": "Thu, 24 Sep 2026 22:29:48 +0000",
       "tags": [
         "Health",
-        "anti-vaccine",
         "CDC",
         "COVID-19"
       ]
     },
     {
-      "id": "a2eaff1a41c2",
+      "id": "34a130701c60",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "FBI rushes to investigate if ShinyHunters hack of thousands of employees is real",
-      "url": "https://arstechnica.com/tech-policy/2026/09/fbi-rushes-to-investigate-if-shinyhunters-hack-of-thousands-of-employees-is-real/",
-      "summary": "It's unclear what will happen if FBI misses ShinyHunters' deadline.",
-      "author": "Ashley Belanger",
-      "published": "Wed, 23 Sep 2026 21:46:36 +0000",
+      "title": "Donald Duck's uncle was partly based on Wernher von Braun",
+      "url": "https://arstechnica.com/space/2026/09/disneys-ludwig-von-drake-was-inspired-by-rocket-scientists-65-years-ago/",
+      "summary": "Introducing the \"world-famous authority on outer space...\"",
+      "author": "Robert Pearlman",
+      "published": "Thu, 24 Sep 2026 21:40:07 +0000",
       "tags": [
-        "Policy",
-        "Security",
-        "fbi",
-        "hackers"
+        "Space",
+        "animation",
+        "Bill Berg",
+        "Disneyland TV series"
       ]
     },
     {
-      "id": "8e11d07f60a9",
+      "id": "9644cdd3b557",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Disney+ and Hulu raise prices by up to 13 percent after doubling profits",
-      "url": "https://arstechnica.com/gadgets/2026/09/disney-and-hulu-raise-prices-by-up-to-13-percent-after-doubling-profits/",
-      "summary": "The Disney+ ad-free plan is now more expensive than Netflix's.",
-      "author": "Scharon Harding",
-      "published": "Wed, 23 Sep 2026 21:18:53 +0000",
+      "title": "F-Droid gets its biggest update in a decade with new UI and smoother app installs",
+      "url": "https://arstechnica.com/gadgets/2026/09/f-droid-gets-its-biggest-update-in-a-decade-with-new-ui-and-smoother-app-installs/",
+      "summary": "F-Droid's Android app store has been rebuilt from the ground up.",
+      "author": "Ryan Whitwam",
+      "published": "Thu, 24 Sep 2026 19:30:42 +0000",
       "tags": [
+        "Google",
         "Tech",
-        "Disney",
-        "disney plus",
-        "Hulu"
+        "app stores",
+        "apps"
       ]
     },
     {
-      "id": "1dd691d2549e",
+      "id": "181477aa4446",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?",
-      "url": "https://www.marketwatch.com/story/it-doesnt-seem-fair-im-retired-and-have-plenty-of-money-why-cant-i-qualify-for-a-retail-credit-card-8a58eda3?mod=mw_rss_topstories",
-      "summary": "“I draw from my IRA as needed for household repairs, trips and other larger expenses.”",
+      "title": "My friend grosses $300,000 a year with her pet-sitting business. She pays herself $50,000. Should I do the same?",
+      "url": "https://www.marketwatch.com/story/my-friend-grosses-300-000-a-year-with-her-pet-sitting-business-she-pays-herself-50-000-should-i-do-the-same-8ab5cba3?mod=mw_rss_topstories",
+      "summary": "“She currently has about 15 sitters, all independent contractors.”",
       "author": "Quentin Fottrell",
-      "published": "Wed, 23 Sep 2026 23:15:00 GMT",
+      "published": "Thu, 24 Sep 2026 23:35:00 GMT",
       "tags": []
     },
     {
-      "id": "76fee30d47f1",
+      "id": "9b365ac0d896",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Social Security overpaid my 82-year-old mother by $20,000. What else is hiding in her finances?",
-      "url": "https://www.marketwatch.com/story/she-gave-a-neighbor-2-000-social-security-overpaid-my-mother-82-by-20-000-what-else-is-hiding-in-her-finances-1b54977f?mod=mw_rss_topstories",
-      "summary": "“My mother has a pension, Social Security, investments and a house probably worth over $1 million.”",
-      "author": "Quentin Fottrell",
-      "published": "Wed, 23 Sep 2026 22:15:00 GMT",
+      "title": "3 things Micron investors need to watch as the stakes get higher",
+      "url": "https://www.marketwatch.com/story/3-things-micron-investors-need-to-watch-as-the-stakes-get-higher-e53fde7e?mod=mw_rss_topstories",
+      "summary": "When Micron reports earnings next week, a Rosenblatt analyst expects to hear about additional customer agreements, rising prices and stock buybacks.",
+      "author": "Britney Nguyen",
+      "published": "Thu, 24 Sep 2026 23:28:00 GMT",
       "tags": []
     },
     {
-      "id": "f2685a2add14",
+      "id": "1aac6d5acd31",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘I don’t begrudge them their money’: My husband and I have friends who spend, spend, spend. How do we keep up?",
-      "url": "https://www.marketwatch.com/story/i-dont-begrudge-them-their-money-my-husband-and-i-have-friends-who-spend-spend-spend-how-do-we-keep-up-e10164dc?mod=mw_rss_topstories",
-      "summary": "“A weekend away isn’t a weekend away. It’s a luxury hotel, expensive meals and a last-minute upgrade.”",
-      "author": "Quentin Fottrell",
-      "published": "Wed, 23 Sep 2026 22:00:00 GMT",
+      "title": "The S&P 500’s newest tech stock is now its best performer",
+      "url": "https://www.marketwatch.com/story/the-s-p-500s-newest-tech-stock-is-now-its-best-performer-5bfeb6e2?mod=mw_rss_topstories",
+      "summary": "Shares of data-storage company Everpure were leading S&P 500 gainers on Thursday.",
+      "author": "Emily Bary",
+      "published": "Thu, 24 Sep 2026 23:26:00 GMT",
       "tags": []
     }
   ],
