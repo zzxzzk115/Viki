@@ -1,299 +1,301 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "items": [
     {
-      "id": "c2808c796247",
+      "id": "33be05c8e286",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Follicle-stimulating hormone",
-      "url": "https://simple.wikipedia.org/wiki/Follicle-stimulating_hormone",
-      "summary": "Follicle-stimulating hormone is a glycoprotein and hormone.",
+      "title": "Linsang",
+      "url": "https://simple.wikipedia.org/wiki/Linsang",
+      "summary": "The linsangs are four feliform species, two in Asia and two in Africa. The whole group was put in the Viverridae in a subfamily. The two pairs are:",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "3d01379f0f67",
+      "id": "0d89cf2bf47a",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Britt Herbots",
-      "url": "https://simple.wikipedia.org/wiki/Britt_Herbots",
-      "summary": "Britt Herbots is a Belgian volleyball player. She was a member of the Belgium women's national volleyball team.",
+      "title": "President of Mongolia",
+      "url": "https://simple.wikipedia.org/wiki/President_of_Mongolia",
+      "summary": "The President of Mongolia is the Executive Head of state of Mongolia.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "5a411421e2d8",
+      "id": "893cb7d78a9c",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Goodbye Google",
-      "url": "https://robert.ocallahan.org/2026/09/goodbye-google.html",
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "url": "https://swarmtraces.org/",
       "summary": "",
-      "author": "Murmuring9087",
+      "author": "specked-citrus",
       "published": "2026-09-25",
       "tags": [
-        "▲ 88"
+        "▲ 367"
       ]
     },
     {
-      "id": "50c0b912a0ed",
+      "id": "413244550b59",
       "category": "tech",
       "source": "Hacker News",
-      "title": "F-Droid 2.0",
-      "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
+      "title": "A single function Jev-like wrapper for LLMs, including vision models",
+      "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
       "summary": "",
-      "author": "daveoc64",
-      "published": "2026-09-24",
+      "author": "allanrbo",
+      "published": "2026-09-26",
       "tags": [
-        "▲ 1103"
+        "▲ 24"
       ]
     },
     {
-      "id": "2e8aa166044b",
+      "id": "d1defbaf4de8",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Show HN: Make cursed fonts like Times New Bastard",
-      "url": "https://bastardica.mitpit.com",
-      "summary": "A joke tool that abuses OpenType's ligature feature to mix fonts. It works pretty fast on client-side by loading Python in WASM.",
-      "author": "MitPitt",
-      "published": "2026-09-23",
-      "tags": [
-        "▲ 588"
-      ]
-    },
-    {
-      "id": "185ddb0abcfc",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
-      "url": "https://github.com/devdotfast/whiteboard",
-      "summary": "Hello! We’re Sid, Alex, Ketan, and Milan. We’re building Whiteboard ( https://whiteboard.dev.fast/ ), an open-source desktop app where humans and agents can architect software together in a common workspace. Here’s our repo: https://github.com/devdotfast/whiteboard . We were mis…",
-      "author": "sidharthkmenon",
-      "published": "2026-09-24",
-      "tags": [
-        "▲ 260"
-      ]
-    },
-    {
-      "id": "6e8691490283",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Why is the liver so weirdly regenerative?",
-      "url": "https://dynomight.substack.com/p/liver",
+      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+      "url": "https://ollaya.dev/",
       "summary": "",
-      "author": "jbotz",
-      "published": "2026-09-24",
+      "author": "Ardakilic",
+      "published": "2026-09-25",
       "tags": [
-        "▲ 350"
+        "▲ 396"
       ]
     },
     {
-      "id": "ef1eb626aa37",
+      "id": "4ff7eba120a6",
       "category": "tech",
       "source": "Hacker News",
-      "title": "2DWillNeverDie",
-      "url": "https://2dwillneverdie.com/",
+      "title": "Plan mode is dead",
+      "url": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
       "summary": "",
-      "author": "surprisetalk",
-      "published": "2026-09-22",
+      "author": "jmvldz",
+      "published": "2026-09-25",
       "tags": [
-        "▲ 186"
+        "▲ 222"
       ]
     },
     {
-      "id": "1af203e297b1",
+      "id": "88351a4a7db5",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Show HN: Jev Plays Pokémon Red",
+      "url": "https://jev-pokemon.vercel.app/",
+      "summary": "Hey HN! Wanted to share a fun project I've been hacking on. Given Jev can make decisions really fast (but not fast enough to play Doom yet sadly), I wanted to try and push it to play a more complex game than Tetris. So I went with Pokémon. I've spent endless hours playing this g…",
+      "author": "pancomplex",
+      "published": "2026-09-25",
+      "tags": [
+        "▲ 182"
+      ]
+    },
+    {
+      "id": "d61607857077",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "What even is an OS now?",
+      "url": "https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/",
+      "summary": "",
+      "author": "fratellobigio",
+      "published": "2026-09-25",
+      "tags": [
+        "▲ 147"
+      ]
+    },
+    {
+      "id": "63693b86d735",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Free browser tool — Uuid Generator",
-      "url": "https://dev.to/codepackr/free-browser-tool-uuid-generator-4f78",
-      "summary": "I keep a short list of browser utilities for moments when a full project scaffold is overkill. Uuid Generator is one of them on CodePackr: Auth/security check without spinning up a project. Why a browser tool Faster than writing a throwaway script Easy to paste a sample and shar…",
-      "author": "Codepackr",
-      "published": "Fri, 25 Sep 2026 06:08:13 +0000",
+      "title": "Meta's Attorney-Client Privilege Hats: Implication…",
+      "url": "https://dev.to/norviktech/metas-attorney-client-privilege-hats-implication-41mi",
+      "summary": "Originally published at norvik.tech Introduction An in-depth analysis of Meta's recent actions regarding child safety disclosures and its impact on technology development. Understanding the Context: What Happened at Meta? Recently, reports surfaced about Meta employees wearing ‘…",
+      "author": "Norvik Tech",
+      "published": "Sat, 26 Sep 2026 06:05:33 +0000",
       "tags": [
         "webdev",
-        "productivity",
-        "opensource"
+        "meta",
+        "attorneyclientprivil",
+        "childsafety"
       ]
     },
     {
-      "id": "06b1db1608e5",
+      "id": "86996fd4cb3a",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Building CouponLab: Finding Coupon Codes That Actually Work",
-      "url": "https://dev.to/hawaii_tech_7ff334e305416/building-couponlab-finding-coupon-codes-that-actually-work-363e",
-      "summary": "When someone searches for a coupon, they want a discount they can actually use. That’s the problem I’m working on with CouponLab. Finding codes is part of the work. Trying them and figuring out whether they’re useful is the part I care about most. A page full of offers can look …",
-      "author": "GooddayStack",
-      "published": "Fri, 25 Sep 2026 06:06:52 +0000",
+      "title": "26 Free Cloud & DevOps Tools for Docker, Kubernetes, Git, Linux and CI/CD",
+      "url": "https://dev.to/krypt_a46eccca1b8488/26-free-cloud-devops-tools-for-docker-kubernetes-git-linux-and-cicd-3pn0",
+      "summary": "DevOps involves a surprising amount of configuration. Even when the application itself is straightforward, developers may still need to work with Dockerfiles, Docker Compose, Kubernetes YAML, Git configuration, Linux permissions, CI/CD pipelines, networking and server configurat…",
+      "author": "Krypton",
+      "published": "Sat, 26 Sep 2026 06:04:23 +0000",
       "tags": [
-        "webdev",
-        "discuss",
+        "devops",
+        "docker",
+        "kubernetes",
+        "webdev"
+      ]
+    },
+    {
+      "id": "3e93a174b80c",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "DeepSeek's annualized revenue run-rate has reached $1B",
+      "url": "https://dev.to/976905690/deepseeks-annualized-revenue-run-rate-has-reached-1b-4o5p",
+      "summary": "DeepSeek's annualized revenue run-rate has reached $1B, per The Information, with CITIC Securities hired to prepare a potential STAR Market IPO and a ~$7.45B raise targeted by late October. CEO Liang Wenfeng called the shift to training on Huawei's domestic chips one of the firm…",
+      "author": "FreyaLi",
+      "published": "Sat, 26 Sep 2026 05:55:15 +0000",
+      "tags": [
         "ai",
-        "buildinpublic"
+        "programming",
+        "webdev"
       ]
     },
     {
-      "id": "a5b0ff347434",
+      "id": "a4d40edd01ea",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Free browser tool — Url Encode",
-      "url": "https://dev.to/codepackr/free-browser-tool-url-encode-11ci",
-      "summary": "I keep a short list of browser utilities for moments when a full project scaffold is overkill. Url Encode is one of them on CodePackr: Encode/decode safely in one paste. Why a browser tool Faster than writing a throwaway script Easy to paste a sample and share the link No instal…",
-      "author": "Codepackr",
-      "published": "Fri, 25 Sep 2026 06:06:06 +0000",
+      "title": "Create in conversation Images & videos, right in chat",
+      "url": "https://dev.to/976905690/create-in-conversation-images-videos-right-in-chat-5ne",
+      "summary": "Create in conversation Images & videos, right in chat Deepseek Harness for Threerouter registers two tools — generate_image / generate_video — for the model. The model calls them on its own mid-conversation; results land in local outputs/ and images render inline — no leaving th…",
+      "author": "FreyaLi",
+      "published": "Sat, 26 Sep 2026 05:53:51 +0000",
       "tags": [
-        "webdev",
-        "productivity"
+        "ai",
+        "programming",
+        "webdev"
       ]
     },
     {
-      "id": "4cb866ae8fb7",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Why I Built a Code-Native Visual Studio for My Developer Posts",
-      "url": "https://dev.to/janarthanan_soundararajan/why-i-built-a-code-native-visual-studio-for-my-developer-posts-9f0",
-      "summary": "Over the past year, AI image tools have become amazing. Being able to type a prompt and get a detailed picture in seconds feels like magic. Like a lot of developers who post on LinkedIn, X, and Dev.to, I started using AI to create header images and diagrams for my technical writ…",
-      "author": "Janarthanan Soundararajan (Jana)",
-      "published": "Fri, 25 Sep 2026 06:05:33 +0000",
-      "tags": [
-        "webdev",
-        "javascript",
-        "opensource",
-        "tailwindcss"
-      ]
-    },
-    {
-      "id": "808838fd8128",
+      "id": "cc9ddc0cc6ea",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "2024 East–West Line disruption",
-      "url": "https://en.wikipedia.org/wiki/2024_East%E2%80%93West_Line_disruption",
-      "summary": "On 25 September 2024, train services on the East–West Line (EWL) of the Singapore Mass Rapid Transit (MRT) system were disrupted when an axle box on a Kawasaki C151 train dislodged, derailing the train and damaging the track and equipment between Clementi and Dover stations. Thi…",
+      "title": "Kevin O'Halloran",
+      "url": "https://en.wikipedia.org/wiki/Kevin_O'Halloran",
+      "summary": "Kevin O'Halloran was an Australian freestyle swimmer of the 1950s who won a gold medal in the 4×200-metre freestyle relay at the 1956 Summer Olympics in Melbourne. The first Western Australian to win Olympic gold, O'Halloran learnt to swim in his home town of Katanning. He moved…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "262b590f746f",
+      "id": "d22a199399a3",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump and Xi toast new chapter in friendship at White House state dinner",
-      "url": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss",
-      "summary": "The lavish state dinner included tech billionaires, red tablecloths, bok choy and festive toasts.",
-      "published": "Fri, 25 Sep 2026 05:42:45 GMT",
+      "title": "OpenAI bots meddled with multiple US government agency sites",
+      "url": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
+      "summary": "OpenAI said its bots accessed public data from a range of institutions during test exercises.",
+      "published": "Sat, 26 Sep 2026 02:50:56 GMT",
       "tags": []
     },
     {
-      "id": "3c02b4c764c9",
+      "id": "3808196cf27c",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Xi got Trump's red carpet welcome - but not everything he wanted",
-      "url": "https://www.bbc.co.uk/news/articles/cr93e4x7kdjjo?at_medium=RSS&at_campaign=rss",
-      "summary": "China wanted progress on trade, technology and Taiwan - but hasn't got as much as it would have hoped for.",
-      "published": "Fri, 25 Sep 2026 03:57:09 GMT",
+      "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
+      "url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
+      "summary": "Asked about the Iranian proposal, a US official told the BBC \"constructive discussions\" were taking place through mediators.",
+      "published": "Sat, 26 Sep 2026 05:03:09 GMT",
       "tags": []
     },
     {
-      "id": "99e5b53ebc29",
+      "id": "86dcec1b5d5d",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
-      "url": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
-      "published": "Fri, 25 Sep 2026 00:44:04 GMT",
+      "title": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
+      "url": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss",
+      "summary": "Such strikes aim to disrupt \"people's ability to stay connected, study, work\", says Ukraine's president.",
+      "published": "Fri, 25 Sep 2026 20:47:49 GMT",
       "tags": []
     },
     {
-      "id": "3f96308a9884",
+      "id": "b354d7719277",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Media outlets banned by Trump denied access to White House dinner despite judge's order",
-      "url": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss",
-      "summary": "CNN and MS NOW reporters say they were barred from covering a state dinner after a judge ruled their passes should be restored.",
-      "published": "Fri, 25 Sep 2026 01:10:35 GMT",
+      "title": "South African white genocide does not exist, new ambassador to US tells BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cm2l8qv7zppko?at_medium=RSS&at_campaign=rss",
+      "summary": "Roelf Meyer tells the BBC that being a white Afrikaner gives him legitimacy to challenge Trump's claim of a genocide.",
+      "published": "Fri, 25 Sep 2026 23:20:48 GMT",
       "tags": []
     },
     {
-      "id": "ad80816fdafe",
+      "id": "13df8a7ee8b3",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "CDC opens state ordering for COVID-19 vaccines after unexplained delay",
-      "url": "https://arstechnica.com/health/2026/09/cdc-opens-state-ordering-for-covid-19-vaccines-after-unexplained-delay/",
-      "summary": "Health department previously blamed delay on \"not yet finalized procurement decisions.\"",
+      "title": "Can Trump ever be wrong? His pick to lead FDA refused to say.",
+      "url": "https://arstechnica.com/health/2026/09/can-trump-ever-be-wrong-his-pick-to-lead-fda-refused-to-say/",
+      "summary": "Heidi Overton faced questions focused on vaccines, birth control, and vapes.",
       "author": "Beth Mole",
-      "published": "Thu, 24 Sep 2026 22:29:48 +0000",
+      "published": "Fri, 25 Sep 2026 23:00:26 +0000",
       "tags": [
         "Health",
-        "CDC",
-        "COVID-19"
+        "fda",
+        "hearing",
+        "Heidi Overton"
       ]
     },
     {
-      "id": "34a130701c60",
+      "id": "4a19c9abdcc1",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Donald Duck's uncle was partly based on Wernher von Braun",
-      "url": "https://arstechnica.com/space/2026/09/disneys-ludwig-von-drake-was-inspired-by-rocket-scientists-65-years-ago/",
-      "summary": "Introducing the \"world-famous authority on outer space...\"",
-      "author": "Robert Pearlman",
-      "published": "Thu, 24 Sep 2026 21:40:07 +0000",
+      "title": "Court rules Trump can blacklist Anthropic for refusing to enable Claude features",
+      "url": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
+      "summary": "\"Overly constrained AI models\" could cause military operations to fail, judges say.",
+      "author": "Jon Brodkin",
+      "published": "Fri, 25 Sep 2026 21:36:20 +0000",
       "tags": [
-        "Space",
-        "animation",
-        "Bill Berg",
-        "Disneyland TV series"
+        "AI",
+        "Policy",
+        "Anthropic",
+        "trump administration"
       ]
     },
     {
-      "id": "9644cdd3b557",
+      "id": "de7583d0d2e5",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "F-Droid gets its biggest update in a decade with new UI and smoother app installs",
-      "url": "https://arstechnica.com/gadgets/2026/09/f-droid-gets-its-biggest-update-in-a-decade-with-new-ui-and-smoother-app-installs/",
-      "summary": "F-Droid's Android app store has been rebuilt from the ground up.",
-      "author": "Ryan Whitwam",
-      "published": "Thu, 24 Sep 2026 19:30:42 +0000",
+      "title": "Tesla workers balk at training Optimus humanoid robots as replacements",
+      "url": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/",
+      "summary": "Despite challenges, Tesla aims for 1,000 Optimus robots per week by end of 2026.",
+      "author": "Jeremy Hsu",
+      "published": "Fri, 25 Sep 2026 21:10:51 +0000",
       "tags": [
-        "Google",
-        "Tech",
-        "app stores",
-        "apps"
+        "AI",
+        "autonomous",
+        "autonomous AI",
+        "humanoid robots"
       ]
     },
     {
-      "id": "181477aa4446",
+      "id": "7393b1b65e06",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "My friend grosses $300,000 a year with her pet-sitting business. She pays herself $50,000. Should I do the same?",
-      "url": "https://www.marketwatch.com/story/my-friend-grosses-300-000-a-year-with-her-pet-sitting-business-she-pays-herself-50-000-should-i-do-the-same-8ab5cba3?mod=mw_rss_topstories",
-      "summary": "“She currently has about 15 sitters, all independent contractors.”",
+      "title": "I’m 77, pay rent and live off Social Security, but I help homeless people. Why are so many people going hungry?",
+      "url": "https://www.marketwatch.com/story/im-77-pay-rent-and-live-off-social-security-but-i-help-homeless-people-why-are-so-many-people-going-hungry-5818465f?mod=mw_rss_topstories",
+      "summary": "“I am a retired senior citizen living check-to-check.”",
       "author": "Quentin Fottrell",
-      "published": "Thu, 24 Sep 2026 23:35:00 GMT",
+      "published": "Sat, 26 Sep 2026 00:00:00 GMT",
       "tags": []
     },
     {
-      "id": "9b365ac0d896",
+      "id": "3f804ce368bf",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "3 things Micron investors need to watch as the stakes get higher",
-      "url": "https://www.marketwatch.com/story/3-things-micron-investors-need-to-watch-as-the-stakes-get-higher-e53fde7e?mod=mw_rss_topstories",
-      "summary": "When Micron reports earnings next week, a Rosenblatt analyst expects to hear about additional customer agreements, rising prices and stock buybacks.",
-      "author": "Britney Nguyen",
-      "published": "Thu, 24 Sep 2026 23:28:00 GMT",
+      "title": "My friend is terminally ill. Should she sell her rental home and pay $100,000 in capital gains?",
+      "url": "https://www.marketwatch.com/story/my-friend-is-terminally-ill-should-she-sell-her-rental-home-and-pay-100-000-in-capital-gains-8568aada?mod=mw_rss_topstories",
+      "summary": "“Her younger son lives in the condo, but wants to move elsewhere with friends.”",
+      "author": "Quentin Fottrell",
+      "published": "Fri, 25 Sep 2026 23:30:00 GMT",
       "tags": []
     },
     {
-      "id": "1aac6d5acd31",
+      "id": "17f087e0adca",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "The S&P 500’s newest tech stock is now its best performer",
-      "url": "https://www.marketwatch.com/story/the-s-p-500s-newest-tech-stock-is-now-its-best-performer-5bfeb6e2?mod=mw_rss_topstories",
-      "summary": "Shares of data-storage company Everpure were leading S&P 500 gainers on Thursday.",
-      "author": "Emily Bary",
-      "published": "Thu, 24 Sep 2026 23:26:00 GMT",
+      "title": "‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.",
+      "url": "https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories",
+      "summary": "“On each of these weekends away, she’s probably spending $500.”",
+      "author": "Quentin Fottrell",
+      "published": "Fri, 25 Sep 2026 22:00:00 GMT",
       "tags": []
     }
   ],

@@ -1,13 +1,13 @@
 {
-  "date": "2026-09-25",
-  "word": "paradigm",
-  "ipa": "ˈpær.ə.daɪm",
-  "ipaUs": "ˈper.ə.daɪm",
+  "date": "2026-09-26",
+  "word": "paradox",
+  "ipa": "ˈpær.ə.dɒks",
+  "ipaUs": "ˈper.ə.dɑːks",
   "pos": "noun",
-  "definition": "a model of something, or a very clear and typical example of something",
-  "definitionZh": "范例",
-  "example": "Some of these educators are hoping to produce a change in the current cultural paradigm.",
-  "exampleZh": "这些教育家中有些希望改变当今的文化模式。",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/ukp/ukpap/ukpaper021.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/p/par/parad/paradigm.mp3"
+  "definition": "a situation or statement that seems impossible or is difficult to understand because it contains two opposite facts or characteristics",
+  "definitionZh": "自相矛盾的情况",
+  "example": "It's a curious paradox that",
+  "exampleZh": "大量喝水经常会让人感觉口渴，这是看似矛盾而正确的奇怪说法。",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/ukp/ukpap/ukpaper024.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/p/par/parad/paradox.mp3"
 }
