@@ -1,221 +1,238 @@
 {
-  "date": "2026-09-26",
+  "date": "2026-09-27",
   "items": [
     {
-      "id": "33be05c8e286",
+      "id": "fc0d11bdd7d2",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Linsang",
-      "url": "https://simple.wikipedia.org/wiki/Linsang",
-      "summary": "The linsangs are four feliform species, two in Asia and two in Africa. The whole group was put in the Viverridae in a subfamily. The two pairs are:",
+      "title": "Clarksville, Arkansas",
+      "url": "https://simple.wikipedia.org/wiki/Clarksville%2C_Arkansas",
+      "summary": "Clarksville is a city in the US state of Arkansas.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "0d89cf2bf47a",
+      "id": "871d149d4d58",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "President of Mongolia",
-      "url": "https://simple.wikipedia.org/wiki/President_of_Mongolia",
-      "summary": "The President of Mongolia is the Executive Head of state of Mongolia.",
+      "title": "Jerry Van Dyke",
+      "url": "https://simple.wikipedia.org/wiki/Jerry_Van_Dyke",
+      "summary": "Jerry McCord Van Dyke was an American actor and comedian. He performed in many television sitcoms and Big Lots commercials. His comedic acting goes back to the 1960s. He was the younger brother of Dick Van Dyke.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "893cb7d78a9c",
+      "id": "6ea691e13aab",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
-      "url": "https://swarmtraces.org/",
+      "title": "Go Concurrency Distilled",
+      "url": "https://antonz.org/go-concurrency-distilled/",
       "summary": "",
-      "author": "specked-citrus",
-      "published": "2026-09-25",
-      "tags": [
-        "▲ 367"
-      ]
-    },
-    {
-      "id": "413244550b59",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "A single function Jev-like wrapper for LLMs, including vision models",
-      "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
-      "summary": "",
-      "author": "allanrbo",
+      "author": "chmaynard",
       "published": "2026-09-26",
       "tags": [
-        "▲ 24"
+        "▲ 160"
       ]
     },
     {
-      "id": "d1defbaf4de8",
+      "id": "14d6d1760fcc",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
-      "url": "https://ollaya.dev/",
+      "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
+      "url": "https://github.com/InfinityLoop1308/PipePipe",
       "summary": "",
-      "author": "Ardakilic",
+      "author": "Qision",
       "published": "2026-09-25",
       "tags": [
-        "▲ 396"
+        "▲ 380"
       ]
     },
     {
-      "id": "4ff7eba120a6",
+      "id": "755e3dc914b2",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Plan mode is dead",
-      "url": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
+      "title": "DeepSeek Elastic Compute (DSec)",
+      "url": "https://arxiv.org/abs/2609.22978",
       "summary": "",
-      "author": "jmvldz",
-      "published": "2026-09-25",
+      "author": "shenli3514",
+      "published": "2026-09-26",
       "tags": [
-        "▲ 222"
+        "▲ 225"
       ]
     },
     {
-      "id": "88351a4a7db5",
+      "id": "36075cbc8c0c",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Show HN: Jev Plays Pokémon Red",
-      "url": "https://jev-pokemon.vercel.app/",
-      "summary": "Hey HN! Wanted to share a fun project I've been hacking on. Given Jev can make decisions really fast (but not fast enough to play Doom yet sadly), I wanted to try and push it to play a more complex game than Tetris. So I went with Pokémon. I've spent endless hours playing this g…",
-      "author": "pancomplex",
-      "published": "2026-09-25",
+      "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+      "url": "https://github.com/reladraw/reladraw",
+      "summary": "I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement languages like Mermaid or Graphviz (which don't let me decide how the diagram looks), or (B) software like Draw.io which are powerful but are very time consuming (and inefficient fo…",
+      "author": "jpwalsh234",
+      "published": "2026-09-26",
       "tags": [
-        "▲ 182"
+        "▲ 259"
       ]
     },
     {
-      "id": "d61607857077",
+      "id": "4cc932e36cc0",
       "category": "tech",
       "source": "Hacker News",
-      "title": "What even is an OS now?",
-      "url": "https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/",
+      "title": "What is the size of Yemen? (2024)",
+      "url": "https://theborys.substack.com/p/what-is-the-size-of-yemen",
       "summary": "",
-      "author": "fratellobigio",
-      "published": "2026-09-25",
+      "author": "kspacewalk2",
+      "published": "2026-09-27",
       "tags": [
-        "▲ 147"
+        "▲ 105"
       ]
     },
     {
-      "id": "63693b86d735",
+      "id": "b3533141ffb0",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "A searchable library of forgotten public-domain film clips from 1915 onward",
+      "url": "https://www.movingimagearchive.com/",
+      "summary": "",
+      "author": "momentmaker",
+      "published": "2026-09-24",
+      "tags": [
+        "▲ 150"
+      ]
+    },
+    {
+      "id": "e0af57a9af33",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Meta's Attorney-Client Privilege Hats: Implication…",
-      "url": "https://dev.to/norviktech/metas-attorney-client-privilege-hats-implication-41mi",
-      "summary": "Originally published at norvik.tech Introduction An in-depth analysis of Meta's recent actions regarding child safety disclosures and its impact on technology development. Understanding the Context: What Happened at Meta? Recently, reports surfaced about Meta employees wearing ‘…",
-      "author": "Norvik Tech",
-      "published": "Sat, 26 Sep 2026 06:05:33 +0000",
+      "title": "How to Stand Out on LinkedIn: Mastering Your Personal Brand in 2026",
+      "url": "https://dev.to/themez_world_dc53aea53896/how-to-stand-out-on-linkedin-mastering-your-personal-brand-in-2026-57l9",
+      "summary": "Building Your Personal Brand on LinkedIn in 2026 In the ever-evolving landscape of job searching and professional networking, one thing is clear: your personal brand may matter more than your experience . This trend is evident in recent insights from sources like Style Rave and …",
+      "author": "Themez World",
+      "published": "Sun, 27 Sep 2026 06:34:35 +0000",
+      "tags": [
+        "ai",
+        "productivity",
+        "tools",
+        "webdev"
+      ]
+    },
+    {
+      "id": "4834e5aca15d",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Alicate para Eletricista: Como Escolher a Ferramenta Certa",
+      "url": "https://dev.to/muhammad_yousaf/alicate-para-eletricista-como-escolher-a-ferramenta-certa-36mf",
+      "summary": "O trabalho com instalações elétricas exige atenção, conhecimento técnico e ferramentas adequadas. Entre os acessórios mais importantes para profissionais da área está o alicate para eletricista, uma ferramenta desenvolvida para facilitar diferentes tarefas durante instalações, m…",
+      "author": "Muhammad",
+      "published": "Sun, 27 Sep 2026 06:32:08 +0000",
       "tags": [
         "webdev",
-        "meta",
-        "attorneyclientprivil",
-        "childsafety"
-      ]
-    },
-    {
-      "id": "86996fd4cb3a",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "26 Free Cloud & DevOps Tools for Docker, Kubernetes, Git, Linux and CI/CD",
-      "url": "https://dev.to/krypt_a46eccca1b8488/26-free-cloud-devops-tools-for-docker-kubernetes-git-linux-and-cicd-3pn0",
-      "summary": "DevOps involves a surprising amount of configuration. Even when the application itself is straightforward, developers may still need to work with Dockerfiles, Docker Compose, Kubernetes YAML, Git configuration, Linux permissions, CI/CD pipelines, networking and server configurat…",
-      "author": "Krypton",
-      "published": "Sat, 26 Sep 2026 06:04:23 +0000",
-      "tags": [
-        "devops",
-        "docker",
-        "kubernetes",
-        "webdev"
-      ]
-    },
-    {
-      "id": "3e93a174b80c",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "DeepSeek's annualized revenue run-rate has reached $1B",
-      "url": "https://dev.to/976905690/deepseeks-annualized-revenue-run-rate-has-reached-1b-4o5p",
-      "summary": "DeepSeek's annualized revenue run-rate has reached $1B, per The Information, with CITIC Securities hired to prepare a potential STAR Market IPO and a ~$7.45B raise targeted by late October. CEO Liang Wenfeng called the shift to training on Huawei's domestic chips one of the firm…",
-      "author": "FreyaLi",
-      "published": "Sat, 26 Sep 2026 05:55:15 +0000",
-      "tags": [
-        "ai",
         "programming",
-        "webdev"
+        "tutorial",
+        "opensource"
       ]
     },
     {
-      "id": "a4d40edd01ea",
+      "id": "650e938ca48d",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Create in conversation Images & videos, right in chat",
-      "url": "https://dev.to/976905690/create-in-conversation-images-videos-right-in-chat-5ne",
-      "summary": "Create in conversation Images & videos, right in chat Deepseek Harness for Threerouter registers two tools — generate_image / generate_video — for the model. The model calls them on its own mid-conversation; results land in local outputs/ and images render inline — no leaving th…",
-      "author": "FreyaLi",
-      "published": "Sat, 26 Sep 2026 05:53:51 +0000",
+      "title": "Optimization of Mycological Extraction and Lipid-Matrix Homogonezation in Functional Confectionery Engineering",
+      "url": "https://dev.to/daveshop34/optimization-of-mycological-extraction-and-lipid-matrix-homogonezation-in-functional-confectionery-1lj6",
+      "summary": "automation and thermodynamic control. If the extraction powder is simply dropped into a standard mixing vat, the dense particles will rapidly settle to the bottom, resulting in highly erratic dosing profiles across a single production run.To prevent this, automated confectionery…",
+      "author": "Dave",
+      "published": "Sun, 27 Sep 2026 06:24:58 +0000",
       "tags": [
-        "ai",
+        "webdev",
         "programming",
-        "webdev"
+        "security"
       ]
     },
     {
-      "id": "cc9ddc0cc6ea",
+      "id": "db72ff802373",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Best Books to Learn Penetration testing",
+      "url": "https://dev.to/devbookreader/best-books-to-learn-penetration-testing-30i",
+      "summary": "Penetration testing is the offensive side of security—what separates theory from real‑world risk. As developers, we’re often asked to write secure code, review third‑party libraries, or even help the security team validate a new feature. Knowing how attackers think, the tools th…",
+      "author": "Best Developer Books",
+      "published": "Sun, 27 Sep 2026 06:15:53 +0000",
+      "tags": [
+        "programming",
+        "tutorial",
+        "webdev",
+        "productivity"
+      ]
+    },
+    {
+      "id": "76e2d22393a7",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Kevin O'Halloran",
-      "url": "https://en.wikipedia.org/wiki/Kevin_O'Halloran",
-      "summary": "Kevin O'Halloran was an Australian freestyle swimmer of the 1950s who won a gold medal in the 4×200-metre freestyle relay at the 1956 Summer Olympics in Melbourne. The first Western Australian to win Olympic gold, O'Halloran learnt to swim in his home town of Katanning. He moved…",
+      "title": "Valley Parade",
+      "url": "https://en.wikipedia.org/wiki/Valley_Parade",
+      "summary": "Valley Parade, currently known as Mbanq Valley Parade for sponsorship reasons, is an all-seater football stadium in Bradford, West Yorkshire, England. The stadium was built in 1886 as the home of Manningham Rugby Football Club; it remained so until 1903, when the club changed co…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "d22a199399a3",
+      "id": "f453a8e0ddb5",
       "category": "news",
       "source": "BBC 世界",
-      "title": "OpenAI bots meddled with multiple US government agency sites",
-      "url": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
-      "summary": "OpenAI said its bots accessed public data from a range of institutions during test exercises.",
-      "published": "Sat, 26 Sep 2026 02:50:56 GMT",
+      "title": "Iran says it will wait for official US response after Trump rejects Strait of Hormuz proposal",
+      "url": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&at_campaign=rss",
+      "summary": "The US president earlier said that Tehran only made the proposal to open the strait within seven days because \"they're losing so badly\".",
+      "published": "Sun, 27 Sep 2026 02:16:52 GMT",
       "tags": []
     },
     {
-      "id": "3808196cf27c",
+      "id": "310ab98e9db8",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
-      "url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
-      "summary": "Asked about the Iranian proposal, a US official told the BBC \"constructive discussions\" were taking place through mediators.",
-      "published": "Sat, 26 Sep 2026 05:03:09 GMT",
+      "title": "Christa Pike to be first woman executed in Tennessee in 200 years - but her defence say she's a victim too",
+      "url": "https://www.bbc.co.uk/news/articles/c6pwl9g9ne1lo?at_medium=RSS&at_campaign=rss",
+      "summary": "Lawyers for Pike, who killed a fellow student in 1995, say she should get clemency and would not be sentenced to death if the crime happened today.",
+      "published": "Sat, 26 Sep 2026 23:04:08 GMT",
       "tags": []
     },
     {
-      "id": "86dcec1b5d5d",
+      "id": "dc48422dcce4",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
-      "url": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss",
-      "summary": "Such strikes aim to disrupt \"people's ability to stay connected, study, work\", says Ukraine's president.",
-      "published": "Fri, 25 Sep 2026 20:47:49 GMT",
+      "title": "Four killed in helicopter crash near Montreal",
+      "url": "https://www.bbc.co.uk/news/articles/c3grvv7p81lqo?at_medium=RSS&at_campaign=rss",
+      "summary": "The victims of the crash have not yet been identified, Quebec provincial police told the BBC.",
+      "published": "Sun, 27 Sep 2026 02:43:10 GMT",
       "tags": []
     },
     {
-      "id": "b354d7719277",
+      "id": "9e39130e88dd",
       "category": "news",
       "source": "BBC 世界",
-      "title": "South African white genocide does not exist, new ambassador to US tells BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cm2l8qv7zppko?at_medium=RSS&at_campaign=rss",
-      "summary": "Roelf Meyer tells the BBC that being a white Afrikaner gives him legitimacy to challenge Trump's claim of a genocide.",
-      "published": "Fri, 25 Sep 2026 23:20:48 GMT",
+      "title": "Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris",
+      "url": "https://www.bbc.co.uk/news/articles/cm4gjjwvvlzro?at_medium=RSS&at_campaign=rss",
+      "summary": "Around 700,000 people gathered in central Paris to hear the Catholic leader speak and offer prayer.",
+      "published": "Sat, 26 Sep 2026 19:48:06 GMT",
       "tags": []
+    },
+    {
+      "id": "e899f09f9f93",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Tesla’s big electric truck faces an even bigger infrastructure challenge",
+      "url": "https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/",
+      "summary": "The 500-mile Semi arrives as charging gaps still limit electric trucking.",
+      "author": "Aarian Marshall, wired.com",
+      "published": "Sat, 26 Sep 2026 10:45:09 +0000",
+      "tags": [
+        "Cars",
+        "Electric vehicles",
+        "Tesla",
+        "Tesla Semi"
+      ]
     },
     {
       "id": "13df8a7ee8b3",
@@ -237,7 +254,7 @@
       "id": "4a19c9abdcc1",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Court rules Trump can blacklist Anthropic for refusing to enable Claude features",
+      "title": "Court rules Pentagon can blacklist Anthropic for refusing to enable Claude features",
       "url": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
       "summary": "\"Overly constrained AI models\" could cause military operations to fail, judges say.",
       "author": "Jon Brodkin",
@@ -250,52 +267,36 @@
       ]
     },
     {
-      "id": "de7583d0d2e5",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Tesla workers balk at training Optimus humanoid robots as replacements",
-      "url": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/",
-      "summary": "Despite challenges, Tesla aims for 1,000 Optimus robots per week by end of 2026.",
-      "author": "Jeremy Hsu",
-      "published": "Fri, 25 Sep 2026 21:10:51 +0000",
-      "tags": [
-        "AI",
-        "autonomous",
-        "autonomous AI",
-        "humanoid robots"
-      ]
-    },
-    {
-      "id": "7393b1b65e06",
+      "id": "181477aa4446",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "I’m 77, pay rent and live off Social Security, but I help homeless people. Why are so many people going hungry?",
-      "url": "https://www.marketwatch.com/story/im-77-pay-rent-and-live-off-social-security-but-i-help-homeless-people-why-are-so-many-people-going-hungry-5818465f?mod=mw_rss_topstories",
-      "summary": "“I am a retired senior citizen living check-to-check.”",
+      "title": "My friend grosses $300,000 a year with her pet-sitting business. She pays herself $50,000. Should I do the same?",
+      "url": "https://www.marketwatch.com/story/my-friend-grosses-300-000-a-year-with-her-pet-sitting-business-she-pays-herself-50-000-should-i-do-the-same-8ab5cba3?mod=mw_rss_topstories",
+      "summary": "“She currently has about 15 sitters, all independent contractors.”",
       "author": "Quentin Fottrell",
-      "published": "Sat, 26 Sep 2026 00:00:00 GMT",
+      "published": "Sat, 26 Sep 2026 20:00:00 GMT",
       "tags": []
     },
     {
-      "id": "3f804ce368bf",
+      "id": "2b0a89bd386a",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "My friend is terminally ill. Should she sell her rental home and pay $100,000 in capital gains?",
-      "url": "https://www.marketwatch.com/story/my-friend-is-terminally-ill-should-she-sell-her-rental-home-and-pay-100-000-in-capital-gains-8568aada?mod=mw_rss_topstories",
-      "summary": "“Her younger son lives in the condo, but wants to move elsewhere with friends.”",
+      "title": "‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that?",
+      "url": "https://www.marketwatch.com/story/we-lived-within-our-means-i-earned-30-000-as-a-pastor-and-still-retired-comfortably-why-dont-you-tell-people-that-6b9f231e?mod=mw_rss_topstories",
+      "summary": "“As a country, we have grown dangerously comfortable.”",
       "author": "Quentin Fottrell",
-      "published": "Fri, 25 Sep 2026 23:30:00 GMT",
+      "published": "Sat, 26 Sep 2026 19:00:00 GMT",
       "tags": []
     },
     {
-      "id": "17f087e0adca",
+      "id": "0adc94c225b0",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.",
-      "url": "https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories",
-      "summary": "“On each of these weekends away, she’s probably spending $500.”",
-      "author": "Quentin Fottrell",
-      "published": "Fri, 25 Sep 2026 22:00:00 GMT",
+      "title": "From $6 eggs to $50,000 cars, these charts show how inflation has defined the past 5 years",
+      "url": "https://www.marketwatch.com/story/from-6-eggs-to-50-000-cars-these-charts-show-how-inflation-has-defined-the-past-5-years-3c7b9ab9?mod=mw_rss_topstories",
+      "summary": "Rising prices have been crushing consumer confidence and biting at Americans’ wallets for more than five years now.",
+      "author": "Genna Contino",
+      "published": "Sat, 26 Sep 2026 17:54:00 GMT",
       "tags": []
     }
   ],
