@@ -1,222 +1,222 @@
 {
-  "date": "2026-09-27",
+  "date": "2026-09-28",
   "items": [
     {
-      "id": "fc0d11bdd7d2",
+      "id": "020ae24d52c2",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Clarksville, Arkansas",
-      "url": "https://simple.wikipedia.org/wiki/Clarksville%2C_Arkansas",
-      "summary": "Clarksville is a city in the US state of Arkansas.",
+      "title": "Jayhawker",
+      "url": "https://simple.wikipedia.org/wiki/Jayhawker",
+      "summary": "Jayhawkers is a term that came into use just before the American Civil War in Bleeding Kansas. It was adopted by militant bands of Free-Staters. These bands, known as \"Jayhawkers\", were guerrilla fighters who often clashed with pro-slavery groups from Missouri known at the time …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "871d149d4d58",
+      "id": "bdbf1d963126",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Jerry Van Dyke",
-      "url": "https://simple.wikipedia.org/wiki/Jerry_Van_Dyke",
-      "summary": "Jerry McCord Van Dyke was an American actor and comedian. He performed in many television sitcoms and Big Lots commercials. His comedic acting goes back to the 1960s. He was the younger brother of Dick Van Dyke.",
+      "title": "Ryuzo Sasaki",
+      "url": "https://simple.wikipedia.org/wiki/Ryuzo_Sasaki",
+      "summary": "Ryuzo Sasaki was a Japanese politician of the Democratic Party of Japan. He was a member of the House of Representatives in the Diet from 1993 to 2000 and again from 2005 to 2012. He was born in Fukui, Japan.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "6ea691e13aab",
+      "id": "0dc955c86c2b",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Go Concurrency Distilled",
-      "url": "https://antonz.org/go-concurrency-distilled/",
+      "title": "Owed a billion dollars in Nvidia stock",
+      "url": "https://colo.to/nvidia-stock-narrative.html",
       "summary": "",
-      "author": "chmaynard",
-      "published": "2026-09-26",
+      "author": "Eric_Gullichsen",
+      "published": "2026-09-28",
       "tags": [
-        "▲ 160"
+        "▲ 471"
       ]
     },
     {
-      "id": "14d6d1760fcc",
+      "id": "f1d69bd4c806",
       "category": "tech",
       "source": "Hacker News",
-      "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
-      "url": "https://github.com/InfinityLoop1308/PipePipe",
+      "title": "Thinking fast and slow in AI: The role of metacognition (2021)",
+      "url": "https://arxiv.org/abs/2110.01834",
       "summary": "",
-      "author": "Qision",
-      "published": "2026-09-25",
+      "author": "teleforce",
+      "published": "2026-09-28",
       "tags": [
-        "▲ 380"
+        "▲ 64"
       ]
     },
     {
-      "id": "755e3dc914b2",
+      "id": "a365d26f319b",
       "category": "tech",
       "source": "Hacker News",
-      "title": "DeepSeek Elastic Compute (DSec)",
-      "url": "https://arxiv.org/abs/2609.22978",
+      "title": "Ember-1",
+      "url": "https://fireworks.ai/blog/ember-1",
       "summary": "",
-      "author": "shenli3514",
-      "published": "2026-09-26",
-      "tags": [
-        "▲ 225"
-      ]
-    },
-    {
-      "id": "36075cbc8c0c",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
-      "url": "https://github.com/reladraw/reladraw",
-      "summary": "I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement languages like Mermaid or Graphviz (which don't let me decide how the diagram looks), or (B) software like Draw.io which are powerful but are very time consuming (and inefficient fo…",
-      "author": "jpwalsh234",
-      "published": "2026-09-26",
-      "tags": [
-        "▲ 259"
-      ]
-    },
-    {
-      "id": "4cc932e36cc0",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "What is the size of Yemen? (2024)",
-      "url": "https://theborys.substack.com/p/what-is-the-size-of-yemen",
-      "summary": "",
-      "author": "kspacewalk2",
+      "author": "gmays",
       "published": "2026-09-27",
       "tags": [
-        "▲ 105"
+        "▲ 432"
       ]
     },
     {
-      "id": "b3533141ffb0",
+      "id": "c90beaa345be",
       "category": "tech",
       "source": "Hacker News",
-      "title": "A searchable library of forgotten public-domain film clips from 1915 onward",
-      "url": "https://www.movingimagearchive.com/",
+      "title": "When did Google get so weird?",
+      "url": "https://sancho.bearblog.dev/google-weird/",
       "summary": "",
-      "author": "momentmaker",
-      "published": "2026-09-24",
+      "author": "sancho-panza",
+      "published": "2026-09-27",
       "tags": [
-        "▲ 150"
+        "▲ 1114"
       ]
     },
     {
-      "id": "e0af57a9af33",
+      "id": "0eea3678f074",
       "category": "tech",
-      "source": "DEV Community",
-      "title": "How to Stand Out on LinkedIn: Mastering Your Personal Brand in 2026",
-      "url": "https://dev.to/themez_world_dc53aea53896/how-to-stand-out-on-linkedin-mastering-your-personal-brand-in-2026-57l9",
-      "summary": "Building Your Personal Brand on LinkedIn in 2026 In the ever-evolving landscape of job searching and professional networking, one thing is clear: your personal brand may matter more than your experience . This trend is evident in recent insights from sources like Style Rave and …",
-      "author": "Themez World",
-      "published": "Sun, 27 Sep 2026 06:34:35 +0000",
+      "source": "Hacker News",
+      "title": "Malleable software: Restoring user agency in a world of locked-down apps (2025)",
+      "url": "https://www.inkandswitch.com/essay/malleable-software/",
+      "summary": "",
+      "author": "evakhoury",
+      "published": "2026-09-27",
       "tags": [
-        "ai",
-        "productivity",
-        "tools",
-        "webdev"
+        "▲ 49"
       ]
     },
     {
-      "id": "4834e5aca15d",
+      "id": "08749a2165eb",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Alan Kay's answer to “Did the ENIAC have a BIOS”?",
+      "url": "https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11",
+      "summary": "",
+      "author": "midnightfish",
+      "published": "2026-09-27",
+      "tags": [
+        "▲ 110"
+      ]
+    },
+    {
+      "id": "9d251fcb4e6f",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Alicate para Eletricista: Como Escolher a Ferramenta Certa",
-      "url": "https://dev.to/muhammad_yousaf/alicate-para-eletricista-como-escolher-a-ferramenta-certa-36mf",
-      "summary": "O trabalho com instalações elétricas exige atenção, conhecimento técnico e ferramentas adequadas. Entre os acessórios mais importantes para profissionais da área está o alicate para eletricista, uma ferramenta desenvolvida para facilitar diferentes tarefas durante instalações, m…",
-      "author": "Muhammad",
-      "published": "Sun, 27 Sep 2026 06:32:08 +0000",
+      "title": "Free browser developer utility: Case Converter",
+      "url": "https://dev.to/codepackr/free-browser-developer-utility-case-converter-1ii8",
+      "summary": "Case Converter is a free browser-based developer utility from CodePackr. No install. No signup. Try it: https://codepackr.com/case-converter webdev #productivity #tools",
+      "author": "Codepackr",
+      "published": "Mon, 28 Sep 2026 07:05:02 +0000",
       "tags": [
         "webdev",
-        "programming",
-        "tutorial",
+        "productivity",
+        "tooling",
         "opensource"
       ]
     },
     {
-      "id": "650e938ca48d",
+      "id": "0e183925d267",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Optimization of Mycological Extraction and Lipid-Matrix Homogonezation in Functional Confectionery Engineering",
-      "url": "https://dev.to/daveshop34/optimization-of-mycological-extraction-and-lipid-matrix-homogonezation-in-functional-confectionery-1lj6",
-      "summary": "automation and thermodynamic control. If the extraction powder is simply dropped into a standard mixing vat, the dense particles will rapidly settle to the bottom, resulting in highly erratic dosing profiles across a single production run.To prevent this, automated confectionery…",
-      "author": "Dave",
-      "published": "Sun, 27 Sep 2026 06:24:58 +0000",
+      "title": "Free browser developer utility: Base64 Image",
+      "url": "https://dev.to/codepackr/free-browser-developer-utility-base64-image-26a3",
+      "summary": "Base64 Image is a free browser-based developer utility from CodePackr. No install. No signup. Try it: https://codepackr.com/base64-image webdev #productivity #tools",
+      "author": "Codepackr",
+      "published": "Mon, 28 Sep 2026 07:03:36 +0000",
       "tags": [
         "webdev",
-        "programming",
-        "security"
+        "productivity",
+        "tooling",
+        "opensource"
       ]
     },
     {
-      "id": "db72ff802373",
+      "id": "6cc67f87cb20",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Best Books to Learn Penetration testing",
-      "url": "https://dev.to/devbookreader/best-books-to-learn-penetration-testing-30i",
-      "summary": "Penetration testing is the offensive side of security—what separates theory from real‑world risk. As developers, we’re often asked to write secure code, review third‑party libraries, or even help the security team validate a new feature. Knowing how attackers think, the tools th…",
-      "author": "Best Developer Books",
-      "published": "Sun, 27 Sep 2026 06:15:53 +0000",
+      "title": "How Website Design Influences Customer Trust",
+      "url": "https://dev.to/atumcode_solution_41b16e8/how-website-design-influences-customer-trust-4432",
+      "summary": "A website is often the first place where customers learn about a business. Before contacting a company or buying a product, people usually visit its website to understand what the business offers. This means website design can have a strong impact on how customers see a brand. A…",
+      "author": "ATUMCODE SOLUTION",
+      "published": "Mon, 28 Sep 2026 07:03:11 +0000",
       "tags": [
-        "programming",
-        "tutorial",
         "webdev",
-        "productivity"
+        "websitedesign",
+        "customertrust"
       ]
     },
     {
-      "id": "76e2d22393a7",
+      "id": "fef2d44994e3",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Valley Parade",
-      "url": "https://en.wikipedia.org/wiki/Valley_Parade",
-      "summary": "Valley Parade, currently known as Mbanq Valley Parade for sponsorship reasons, is an all-seater football stadium in Bradford, West Yorkshire, England. The stadium was built in 1886 as the home of Manningham Rugby Football Club; it remained so until 1903, when the club changed co…",
+      "title": "Genshin Impact",
+      "url": "https://en.wikipedia.org/wiki/Genshin_Impact",
+      "summary": "Genshin Impact is a 2020 action role-playing video game developed and published by miHoYo. It is distributed outside China by miHoYo's international subsidiary Cognosphere, also known as HoYoverse. At its core, the game features an anime-style open-world environment, an action-f…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "f453a8e0ddb5",
+      "id": "70b346dbdb24",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Iran says it will wait for official US response after Trump rejects Strait of Hormuz proposal",
-      "url": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&at_campaign=rss",
-      "summary": "The US president earlier said that Tehran only made the proposal to open the strait within seven days because \"they're losing so badly\".",
-      "published": "Sun, 27 Sep 2026 02:16:52 GMT",
+      "title": "Inside Yemen's front-line city as Houthis battle for control",
+      "url": "https://www.bbc.co.uk/news/articles/cw98005ndz7no?at_medium=RSS&at_campaign=rss",
+      "summary": "In rare access to Yemen's conflict zone the BBC travels to the front line with pro-government soldiers.",
+      "published": "Sun, 27 Sep 2026 21:16:31 GMT",
       "tags": []
     },
     {
-      "id": "310ab98e9db8",
+      "id": "dd7f9186901b",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Christa Pike to be first woman executed in Tennessee in 200 years - but her defence say she's a victim too",
-      "url": "https://www.bbc.co.uk/news/articles/c6pwl9g9ne1lo?at_medium=RSS&at_campaign=rss",
-      "summary": "Lawyers for Pike, who killed a fellow student in 1995, say she should get clemency and would not be sentenced to death if the crime happened today.",
-      "published": "Sat, 26 Sep 2026 23:04:08 GMT",
+      "title": "Embattled Serbian president resigns, paving way for early elections",
+      "url": "https://www.bbc.co.uk/news/articles/ckpq0g7z5pjjo?at_medium=RSS&at_campaign=rss",
+      "summary": "Aleksandar Vučić's administration has been dogged by prolonged protests over allegations of corruption.",
+      "published": "Sun, 27 Sep 2026 20:04:21 GMT",
       "tags": []
     },
     {
-      "id": "dc48422dcce4",
+      "id": "4380743d7c15",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Four killed in helicopter crash near Montreal",
-      "url": "https://www.bbc.co.uk/news/articles/c3grvv7p81lqo?at_medium=RSS&at_campaign=rss",
-      "summary": "The victims of the crash have not yet been identified, Quebec provincial police told the BBC.",
-      "published": "Sun, 27 Sep 2026 02:43:10 GMT",
+      "title": "Two bodies found after avalanche hits Himalayan climbing group",
+      "url": "https://www.bbc.co.uk/news/articles/cwjdvml9e897o?at_medium=RSS&at_campaign=rss",
+      "summary": "Rescuers are looking for at least 10 Nepalese people who were preparing to take climbers up the Himlung Himal peak.",
+      "published": "Sun, 27 Sep 2026 17:05:26 GMT",
       "tags": []
     },
     {
-      "id": "9e39130e88dd",
+      "id": "fa9c2e8e5738",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris",
-      "url": "https://www.bbc.co.uk/news/articles/cm4gjjwvvlzro?at_medium=RSS&at_campaign=rss",
-      "summary": "Around 700,000 people gathered in central Paris to hear the Catholic leader speak and offer prayer.",
-      "published": "Sat, 26 Sep 2026 19:48:06 GMT",
+      "title": "Two mass shootings in South Africa leave 28 dead",
+      "url": "https://www.bbc.co.uk/news/articles/ck5ywnp075d1o?at_medium=RSS&at_campaign=rss",
+      "summary": "The two attacks hours apart come as the country struggles to stop high levels of gang-related armed violence.",
+      "published": "Mon, 28 Sep 2026 06:46:03 GMT",
       "tags": []
+    },
+    {
+      "id": "44b4d18a9ef3",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "How the Smithsonian became the latest front in Trump’s culture war",
+      "url": "https://arstechnica.com/tech-policy/2026/09/how-the-smithsonian-became-the-latest-front-in-trumps-culture-war/",
+      "summary": "The Smithsonian has faced withering pressure from the Trump administration.",
+      "author": "Alec MacGillis, ProPublica",
+      "published": "Sun, 27 Sep 2026 11:00:12 +0000",
+      "tags": [
+        "Policy",
+        "culture wars",
+        "Smithsonian",
+        "syndication"
+      ]
     },
     {
       "id": "e899f09f9f93",
@@ -251,30 +251,14 @@
       ]
     },
     {
-      "id": "4a19c9abdcc1",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Court rules Pentagon can blacklist Anthropic for refusing to enable Claude features",
-      "url": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
-      "summary": "\"Overly constrained AI models\" could cause military operations to fail, judges say.",
-      "author": "Jon Brodkin",
-      "published": "Fri, 25 Sep 2026 21:36:20 +0000",
-      "tags": [
-        "AI",
-        "Policy",
-        "Anthropic",
-        "trump administration"
-      ]
-    },
-    {
-      "id": "181477aa4446",
+      "id": "5a85b96500f0",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "My friend grosses $300,000 a year with her pet-sitting business. She pays herself $50,000. Should I do the same?",
-      "url": "https://www.marketwatch.com/story/my-friend-grosses-300-000-a-year-with-her-pet-sitting-business-she-pays-herself-50-000-should-i-do-the-same-8ab5cba3?mod=mw_rss_topstories",
-      "summary": "“She currently has about 15 sitters, all independent contractors.”",
+      "title": "‘I want to make her proud’: My mother, a divorcée, died and I’m her executor. Do I need to file for probate?",
+      "url": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
+      "summary": "“The only debts were utility and credit-card bills, which we will pay off.”",
       "author": "Quentin Fottrell",
-      "published": "Sat, 26 Sep 2026 20:00:00 GMT",
+      "published": "Sun, 27 Sep 2026 22:00:00 GMT",
       "tags": []
     },
     {
@@ -285,25 +269,25 @@
       "url": "https://www.marketwatch.com/story/we-lived-within-our-means-i-earned-30-000-as-a-pastor-and-still-retired-comfortably-why-dont-you-tell-people-that-6b9f231e?mod=mw_rss_topstories",
       "summary": "“As a country, we have grown dangerously comfortable.”",
       "author": "Quentin Fottrell",
-      "published": "Sat, 26 Sep 2026 19:00:00 GMT",
+      "published": "Sun, 27 Sep 2026 21:45:00 GMT",
       "tags": []
     },
     {
-      "id": "0adc94c225b0",
+      "id": "e5349dfe39c6",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "From $6 eggs to $50,000 cars, these charts show how inflation has defined the past 5 years",
-      "url": "https://www.marketwatch.com/story/from-6-eggs-to-50-000-cars-these-charts-show-how-inflation-has-defined-the-past-5-years-3c7b9ab9?mod=mw_rss_topstories",
-      "summary": "Rising prices have been crushing consumer confidence and biting at Americans’ wallets for more than five years now.",
-      "author": "Genna Contino",
-      "published": "Sat, 26 Sep 2026 17:54:00 GMT",
+      "title": "A ‘death cross’ is coming for the dollar. Why Trump will be happy.",
+      "url": "https://www.marketwatch.com/story/a-death-cross-is-coming-for-the-dollar-why-trump-will-be-happy-0766303d?mod=mw_rss_topstories",
+      "summary": "Don’t look now, but there are some technical reasons to believe that U.S. Treasury Secretary Scott Bessent was right when he declared to the financial markets that “I am the house now.”",
+      "author": "Tomi Kilgore",
+      "published": "Sun, 27 Sep 2026 19:21:00 GMT",
       "tags": []
     }
   ],
   "notes": [
     "Simple English Wikipedia: 2 条",
     "Hacker News: 6 条",
-    "DEV Community: 4 条",
+    "DEV Community: 3 条（跳过 1 条非中英内容）",
     "Wikipedia: 1 条",
     "BBC 世界: 4 条",
     "Ars Technica: 3 条",
