@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-27",
+  "date": "2026-09-28",
   "items": [
     {
       "id": "b7d9300382c5",
@@ -178,28 +178,6 @@
       "category": "金融"
     },
     {
-      "id": "09f26dc16757",
-      "platform": "bilibili",
-      "videoId": "BV1ssac6oEL3",
-      "title": "国产医疗设备，怎么样了？",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV1ssac6oEL3",
-      "thumb": "https://i0.hdslb.com/bfs/archive/6920ec9dbfe2032e21d9f2b0375bca002aabf89a.jpg",
-      "published": "2026-09-26",
-      "category": "金融"
-    },
-    {
-      "id": "c5e950b83019",
-      "platform": "bilibili",
-      "videoId": "BV1SUhe6xEM2",
-      "title": "【硬核】俄乌打了四年多，到底谁在买单？",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV1SUhe6xEM2",
-      "thumb": "https://i1.hdslb.com/bfs/archive/59630832faa05aa7034139342d216208749d56d9.jpg",
-      "published": "2026-09-22",
-      "category": "金融"
-    },
-    {
       "id": "73e13955f903",
       "platform": "youtube",
       "videoId": "OgYSITk0fSM",
@@ -244,25 +222,25 @@
       "category": "历史"
     },
     {
-      "id": "9c7859f9a6d8",
+      "id": "63cee07f2023",
       "platform": "bilibili",
-      "videoId": "BV1w8YX6uEvL",
-      "title": "才女·黄媛介：拒绝顶流告白，只为逃婚丈夫，回心转意？【大明风华】",
-      "channel": "正直讲史-李正Str",
-      "url": "https://www.bilibili.com/video/BV1w8YX6uEvL",
-      "thumb": "https://i0.hdslb.com/bfs/archive/3469211773b26d6bf12e4ebb6ad9e413971afccc.jpg",
-      "published": "2026-09-12",
+      "videoId": "BV1WhaA6hE7s",
+      "title": "糟糕！我的粮食被勋宗抢走了！【神奇组织54】",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV1WhaA6hE7s",
+      "thumb": "https://i2.hdslb.com/bfs/archive/226f434fef1c833057d85dc5faf20c2862e988e9.jpg",
+      "published": "2026-09-25",
       "category": "历史"
     },
     {
-      "id": "ad62a1790b36",
+      "id": "b806d6653432",
       "platform": "bilibili",
-      "videoId": "BV1zLta68EQq",
-      "title": "大学士·图海：配享太庙，到底有多难？【康熙王朝】",
-      "channel": "正直讲史-李正Str",
-      "url": "https://www.bilibili.com/video/BV1zLta68EQq",
-      "thumb": "https://i1.hdslb.com/bfs/archive/0746add8e947478cac56dacb70505bf5f2c0ebe6.jpg",
-      "published": "2026-08-31",
+      "videoId": "BV12RYx6TE9r",
+      "title": "告别伊玛目  伊朗篇（终）",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV12RYx6TE9r",
+      "thumb": "https://i1.hdslb.com/bfs/archive/78b3aa4466a8e541c8191498d2e7dfa3bd6833fb.jpg",
+      "published": "2026-09-11",
       "category": "历史"
     },
     {
@@ -315,19 +293,19 @@
     "图形学 · @Acerola_t: 2 条",
     "图形学 · 512313464: 2 条",
     "引擎 · @TheCherno: 2 条",
-    "Bilibili 437860379: code=-352 风控校验失败",
     "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
+    "Bilibili 1567748478: code=-352 风控校验失败",
     "CS · 1567748478: 0 条",
     "CS · 202224425: 2 条",
     "金融 · @ThePlainBagel: 2 条",
-    "金融 · 520819684: 2 条",
+    "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
-    "历史 · 11646119: 2 条",
-    "Bilibili 23947287: code=-352 风控校验失败",
-    "历史 · 23947287: 0 条",
+    "Bilibili 11646119: code=-352 风控校验失败",
+    "历史 · 11646119: 0 条",
+    "历史 · 23947287: 2 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
   ]
