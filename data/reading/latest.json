@@ -1,264 +1,292 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "items": [
     {
-      "id": "020ae24d52c2",
+      "id": "fc65b5583e3f",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Jayhawker",
-      "url": "https://simple.wikipedia.org/wiki/Jayhawker",
-      "summary": "Jayhawkers is a term that came into use just before the American Civil War in Bleeding Kansas. It was adopted by militant bands of Free-Staters. These bands, known as \"Jayhawkers\", were guerrilla fighters who often clashed with pro-slavery groups from Missouri known at the time …",
+      "title": "Juab County, Utah",
+      "url": "https://simple.wikipedia.org/wiki/Juab_County%2C_Utah",
+      "summary": "Juab County is a county in the U.S. state of Utah. As of the 2020 census, the county had a population of 11,786. The county seat is Nephi.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "bdbf1d963126",
+      "id": "a6a3d2e47743",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Ryuzo Sasaki",
-      "url": "https://simple.wikipedia.org/wiki/Ryuzo_Sasaki",
-      "summary": "Ryuzo Sasaki was a Japanese politician of the Democratic Party of Japan. He was a member of the House of Representatives in the Diet from 1993 to 2000 and again from 2005 to 2012. He was born in Fukui, Japan.",
+      "title": "Anette Olzon",
+      "url": "https://simple.wikipedia.org/wiki/Anette_Olzon",
+      "summary": "Anette Ingegerd Olsson better known as Anette Olzon is a Swedish singer. She is the current lead singer of the Finnish symphonic metal group Nightwish. She used to be the lead singer of Aylson Avenue.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "0dc955c86c2b",
+      "id": "8842fa6ccc3b",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Owed a billion dollars in Nvidia stock",
-      "url": "https://colo.to/nvidia-stock-narrative.html",
-      "summary": "",
-      "author": "Eric_Gullichsen",
-      "published": "2026-09-28",
-      "tags": [
-        "▲ 471"
-      ]
-    },
-    {
-      "id": "f1d69bd4c806",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Thinking fast and slow in AI: The role of metacognition (2021)",
-      "url": "https://arxiv.org/abs/2110.01834",
-      "summary": "",
-      "author": "teleforce",
-      "published": "2026-09-28",
-      "tags": [
-        "▲ 64"
-      ]
-    },
-    {
-      "id": "a365d26f319b",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Ember-1",
-      "url": "https://fireworks.ai/blog/ember-1",
-      "summary": "",
-      "author": "gmays",
-      "published": "2026-09-27",
-      "tags": [
-        "▲ 432"
-      ]
-    },
-    {
-      "id": "c90beaa345be",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "When did Google get so weird?",
-      "url": "https://sancho.bearblog.dev/google-weird/",
-      "summary": "",
-      "author": "sancho-panza",
-      "published": "2026-09-27",
-      "tags": [
-        "▲ 1114"
-      ]
-    },
-    {
-      "id": "0eea3678f074",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Malleable software: Restoring user agency in a world of locked-down apps (2025)",
-      "url": "https://www.inkandswitch.com/essay/malleable-software/",
+      "title": "Phyllotaxis: An audio-reactive LED display",
+      "url": "https://jagi.studio/posts/phyllotaxis/",
       "summary": "",
       "author": "evakhoury",
-      "published": "2026-09-27",
+      "published": "2026-09-28",
       "tags": [
-        "▲ 49"
+        "▲ 85"
       ]
     },
     {
-      "id": "08749a2165eb",
+      "id": "bdabdf1d6ed6",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Alan Kay's answer to “Did the ENIAC have a BIOS”?",
-      "url": "https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11",
+      "title": "The systems that no one will test",
+      "url": "https://blog.christianperone.com/2026/09/the-systems-that-no-one-will-test/",
       "summary": "",
-      "author": "midnightfish",
-      "published": "2026-09-27",
+      "author": "perone",
+      "published": "2026-09-28",
       "tags": [
-        "▲ 110"
+        "▲ 7"
       ]
     },
     {
-      "id": "9d251fcb4e6f",
+      "id": "cf35c5927732",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Pirating the Pirates",
+      "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
+      "summary": "",
+      "author": "piotrgrabowski",
+      "published": "2026-09-28",
+      "tags": [
+        "▲ 523"
+      ]
+    },
+    {
+      "id": "dd4ff024e415",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "California farmers are struggling to sell grapes as demand for wine drops",
+      "url": "https://www.kqed.org/news/12101534/california-farmers-are-struggling-to-sell-grapes-as-demand-for-wine-drops",
+      "summary": "",
+      "author": "randycupertino",
+      "published": "2026-09-28",
+      "tags": [
+        "▲ 179"
+      ]
+    },
+    {
+      "id": "09231f3d34fb",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+      "url": "https://stateofutopia.com/experiments/microllmlab/",
+      "summary": "",
+      "author": "logicallee",
+      "published": "2026-09-28",
+      "tags": [
+        "▲ 214"
+      ]
+    },
+    {
+      "id": "a560b1cffb14",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Show HN: Pac-Bench – How well can models one-shot a Pac-Man game?",
+      "url": "https://jonclegg.github.io/pacman-bakeoff/",
+      "summary": "Benchmarks how well Harness+models can create a Pac-Man game from a single prompt: “Create a Pac-Man game in a single HTML page” Each model gets one shot — no follow-up prompts or fixes.",
+      "author": "thefourthchime",
+      "published": "2026-09-28",
+      "tags": [
+        "▲ 40"
+      ]
+    },
+    {
+      "id": "b59b9c7178c4",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Free browser developer utility: Case Converter",
-      "url": "https://dev.to/codepackr/free-browser-developer-utility-case-converter-1ii8",
-      "summary": "Case Converter is a free browser-based developer utility from CodePackr. No install. No signup. Try it: https://codepackr.com/case-converter webdev #productivity #tools",
-      "author": "Codepackr",
-      "published": "Mon, 28 Sep 2026 07:05:02 +0000",
+      "title": "Law Colleges in Nainital: Academic Planning, Legal Research and Professional Development",
+      "url": "https://dev.to/aanika_bisht_161dfbac231c/law-colleges-in-nainital-academic-planning-legal-research-and-professional-development-1pan",
+      "summary": "Choosing a law programme is an important decision for students who want to develop a career in the legal field. While selecting an institution, students should consider more than the course name or location. Academic support, practical exposure, research opportunities, internshi…",
+      "author": "aanika bisht",
+      "published": "Tue, 29 Sep 2026 07:02:38 +0000",
       "tags": [
+        "ai",
+        "webdev",
+        "programming",
+        "tutorial"
+      ]
+    },
+    {
+      "id": "ad39c9f85c61",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "# Week 06 Task 02: Strategy and Adapter Patterns in JavaScript",
+      "url": "https://dev.to/koushikmaya/-week-06-task-02-strategy-and-adapter-patterns-in-javascript-3mlk",
+      "summary": "Introduction In Week 06 Task 02, I continued learning Design Patterns in JavaScript . For this task, I implemented two important design patterns: Strategy Pattern Adapter Pattern The goal was to understand how design patterns can help make code more flexible, reusable, and easie…",
+      "author": "koushikmaya",
+      "published": "Tue, 29 Sep 2026 07:01:33 +0000",
+      "tags": [
+        "webdev",
+        "programming",
+        "beginners",
+        "learning"
+      ]
+    },
+    {
+      "id": "b9edaef5f339",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "How to Increase Ecommerce Sales in 2027: AI-Powered Strategies That Actually Drive Revenue",
+      "url": "https://dev.to/thirdessential/how-to-increase-ecommerce-sales-in-2027-ai-powered-strategies-that-actually-drive-revenue-1gk4",
+      "summary": "Ecommerce is changing faster than ever. Increasing online sales in the past was about running more Google ads, posting more on social media, sending more promotional emails, or giving discounts. Those strategies will still help to grow, but the scope of ecommerce in 2027 is sign…",
+      "author": "Thirdessential",
+      "published": "Tue, 29 Sep 2026 07:01:10 +0000",
+      "tags": [
+        "ai",
         "webdev",
         "productivity",
-        "tooling",
-        "opensource"
+        "tutorial"
       ]
     },
     {
-      "id": "0e183925d267",
+      "id": "e2879a4e9a22",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Free browser developer utility: Base64 Image",
-      "url": "https://dev.to/codepackr/free-browser-developer-utility-base64-image-26a3",
-      "summary": "Base64 Image is a free browser-based developer utility from CodePackr. No install. No signup. Try it: https://codepackr.com/base64-image webdev #productivity #tools",
-      "author": "Codepackr",
-      "published": "Mon, 28 Sep 2026 07:03:36 +0000",
+      "title": "Under the Hood of JavaScript: Demystifying Hoisting, Objects, 'this', and the 'new' Keyword",
+      "url": "https://dev.to/surya_kanth_666/under-the-hood-of-javascript-demystifying-hoisting-objects-this-and-the-new-keyword-25pa",
+      "summary": "You know that moment when JavaScript does something so weird you start suspecting your laptop is haunted? console . log ( name ); // undefined... not an error?! var name = \" Ada \" ; Or when this is your object in one line and undefined in the next, and you didn't change anything…",
+      "author": "Surya Kanth",
+      "published": "Tue, 29 Sep 2026 07:01:09 +0000",
       "tags": [
+        "javascript",
         "webdev",
-        "productivity",
-        "tooling",
-        "opensource"
+        "beginners",
+        "interview"
       ]
     },
     {
-      "id": "6cc67f87cb20",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "How Website Design Influences Customer Trust",
-      "url": "https://dev.to/atumcode_solution_41b16e8/how-website-design-influences-customer-trust-4432",
-      "summary": "A website is often the first place where customers learn about a business. Before contacting a company or buying a product, people usually visit its website to understand what the business offers. This means website design can have a strong impact on how customers see a brand. A…",
-      "author": "ATUMCODE SOLUTION",
-      "published": "Mon, 28 Sep 2026 07:03:11 +0000",
-      "tags": [
-        "webdev",
-        "websitedesign",
-        "customertrust"
-      ]
-    },
-    {
-      "id": "fef2d44994e3",
+      "id": "0fe22cfb3d53",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Genshin Impact",
-      "url": "https://en.wikipedia.org/wiki/Genshin_Impact",
-      "summary": "Genshin Impact is a 2020 action role-playing video game developed and published by miHoYo. It is distributed outside China by miHoYo's international subsidiary Cognosphere, also known as HoYoverse. At its core, the game features an anime-style open-world environment, an action-f…",
+      "title": "The Long and Winding Road",
+      "url": "https://en.wikipedia.org/wiki/The_Long_and_Winding_Road",
+      "summary": "\"The Long and Winding Road\" is a song by the English rock band the Beatles from their 1970 album Let It Be. A piano ballad, Paul McCartney composed it at his Scottish farm in 1968, driven by the Beatles' increasing bitterness towards each other. As he did so, he \"imagined it was…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "70b346dbdb24",
+      "id": "fb9c5ac6a0fc",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Inside Yemen's front-line city as Houthis battle for control",
-      "url": "https://www.bbc.co.uk/news/articles/cw98005ndz7no?at_medium=RSS&at_campaign=rss",
-      "summary": "In rare access to Yemen's conflict zone the BBC travels to the front line with pro-government soldiers.",
-      "published": "Sun, 27 Sep 2026 21:16:31 GMT",
+      "title": "OpenAI scraps rollout of new model over safety concerns",
+      "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
+      "summary": "The firm also issued an update on incidents in which its models accessed Australian government systems.",
+      "published": "Tue, 29 Sep 2026 04:30:13 GMT",
       "tags": []
     },
     {
-      "id": "dd7f9186901b",
+      "id": "559cbc7382d0",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Embattled Serbian president resigns, paving way for early elections",
-      "url": "https://www.bbc.co.uk/news/articles/ckpq0g7z5pjjo?at_medium=RSS&at_campaign=rss",
-      "summary": "Aleksandar Vučić's administration has been dogged by prolonged protests over allegations of corruption.",
-      "published": "Sun, 27 Sep 2026 20:04:21 GMT",
+      "title": "Evicted Spanish pensioner can move back home, lawyer says",
+      "url": "https://www.bbc.co.uk/news/articles/cmkg8qgy9d9lo?at_medium=RSS&at_campaign=rss",
+      "summary": "The eviction of Maricarmen Abascal, 87, prompted large-scale protests across Spain.",
+      "published": "Tue, 29 Sep 2026 01:28:57 GMT",
       "tags": []
     },
     {
-      "id": "4380743d7c15",
+      "id": "10b405488c11",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Two bodies found after avalanche hits Himalayan climbing group",
-      "url": "https://www.bbc.co.uk/news/articles/cwjdvml9e897o?at_medium=RSS&at_campaign=rss",
-      "summary": "Rescuers are looking for at least 10 Nepalese people who were preparing to take climbers up the Himlung Himal peak.",
-      "published": "Sun, 27 Sep 2026 17:05:26 GMT",
+      "title": "Argentina threatens legal action against UK over Falkland Islands oil exploration",
+      "url": "https://www.bbc.co.uk/news/articles/cq5yj1835y1wo?at_medium=RSS&at_campaign=rss",
+      "summary": "President Javier Milei set a two-week deadline for the Sea Lion oilfield project to be scrapped.",
+      "published": "Tue, 29 Sep 2026 03:50:40 GMT",
       "tags": []
     },
     {
-      "id": "fa9c2e8e5738",
+      "id": "2354848b838a",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Two mass shootings in South Africa leave 28 dead",
-      "url": "https://www.bbc.co.uk/news/articles/ck5ywnp075d1o?at_medium=RSS&at_campaign=rss",
-      "summary": "The two attacks hours apart come as the country struggles to stop high levels of gang-related armed violence.",
-      "published": "Mon, 28 Sep 2026 06:46:03 GMT",
+      "title": "New York Times executive fatally shot by elderly in-laws, police say",
+      "url": "https://www.bbc.co.uk/news/articles/cred737qdv2no?at_medium=RSS&at_campaign=rss",
+      "summary": "Jonathan McKinsey's in-laws, who are both 77 years old, face multiple charges including first-degree murder.",
+      "published": "Tue, 29 Sep 2026 04:06:43 GMT",
       "tags": []
     },
     {
-      "id": "44b4d18a9ef3",
+      "id": "be8dc0eb7d5e",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "How the Smithsonian became the latest front in Trump’s culture war",
-      "url": "https://arstechnica.com/tech-policy/2026/09/how-the-smithsonian-became-the-latest-front-in-trumps-culture-war/",
-      "summary": "The Smithsonian has faced withering pressure from the Trump administration.",
-      "author": "Alec MacGillis, ProPublica",
-      "published": "Sun, 27 Sep 2026 11:00:12 +0000",
+      "title": "Boeing \"incredibly excited\" to serve as nation's only astronaut transportation",
+      "url": "https://arstechnica.com/space/2026/09/boeing-incredibly-excited-to-serve-as-nations-only-astronaut-transportation/",
+      "summary": "\"We couldn't provide detailed pricing to the CLD suppliers.\"",
+      "author": "Eric Berger",
+      "published": "Mon, 28 Sep 2026 22:24:33 +0000",
       "tags": [
+        "Space",
+        "Boeing",
+        "dragon",
+        "NASA"
+      ]
+    },
+    {
+      "id": "ce7b13e0f7aa",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Experts worry about Nvidia's AI chip sales in China and influence over Trump",
+      "url": "https://arstechnica.com/tech-policy/2026/09/nvidia-may-sell-more-chips-in-china-as-jensen-huangs-influence-over-trump-grows/",
+      "summary": "China is reportedly mulling letting ByteDance, Alibaba buy banned Nvidia chips.",
+      "author": "Ashley Belanger",
+      "published": "Mon, 28 Sep 2026 21:49:10 +0000",
+      "tags": [
+        "AI",
         "Policy",
-        "culture wars",
-        "Smithsonian",
-        "syndication"
+        "AI chips",
+        "chip export controls"
       ]
     },
     {
-      "id": "e899f09f9f93",
+      "id": "efaa436d2d89",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Tesla’s big electric truck faces an even bigger infrastructure challenge",
-      "url": "https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/",
-      "summary": "The 500-mile Semi arrives as charging gaps still limit electric trucking.",
-      "author": "Aarian Marshall, wired.com",
-      "published": "Sat, 26 Sep 2026 10:45:09 +0000",
+      "title": "SpaceX's Starship goes orbital, deploying first next-gen Starlinks",
+      "url": "https://arstechnica.com/space/2026/09/starships-first-orbital-launch-gives-lift-to-spacexs-next-gen-starlinks/",
+      "summary": "Starship had already flown 99 percent of the way to low-Earth orbit. Monday's flight added the last bit.",
+      "author": "Stephen Clark",
+      "published": "Mon, 28 Sep 2026 21:26:19 +0000",
       "tags": [
-        "Cars",
-        "Electric vehicles",
-        "Tesla",
-        "Tesla Semi"
+        "Space",
+        "Commercial space",
+        "launch",
+        "spacex"
       ]
     },
     {
-      "id": "13df8a7ee8b3",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Can Trump ever be wrong? His pick to lead FDA refused to say.",
-      "url": "https://arstechnica.com/health/2026/09/can-trump-ever-be-wrong-his-pick-to-lead-fda-refused-to-say/",
-      "summary": "Heidi Overton faced questions focused on vaccines, birth control, and vapes.",
-      "author": "Beth Mole",
-      "published": "Fri, 25 Sep 2026 23:00:26 +0000",
-      "tags": [
-        "Health",
-        "fda",
-        "hearing",
-        "Heidi Overton"
-      ]
-    },
-    {
-      "id": "5a85b96500f0",
+      "id": "d3087d8d05c7",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘I want to make her proud’: My mother, a divorcée, died and I’m her executor. Do I need to file for probate?",
-      "url": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
-      "summary": "“The only debts were utility and credit-card bills, which we will pay off.”",
-      "author": "Quentin Fottrell",
-      "published": "Sun, 27 Sep 2026 22:00:00 GMT",
+      "title": "Anthropic’s potential $2 trillion IPO comes with the following fine print",
+      "url": "https://www.marketwatch.com/story/anthropics-potential-2-trillion-ipo-comes-with-the-following-fine-print-99d3cb90?mod=mw_rss_topstories",
+      "summary": "Anthropic’s revenue grew over 10-fold in 2025, but the cost of training and serving its models is also climbing.",
+      "author": "Christine Ji",
+      "published": "Tue, 29 Sep 2026 01:31:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "c9fc18b7476a",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "AMD makes a big bet on the next era of AI with World Labs acquisition",
+      "url": "https://www.marketwatch.com/story/amd-makes-a-big-bet-on-the-next-era-of-ai-7f8a3b3c?mod=mw_rss_topstories",
+      "summary": "The chip maker is buying the startup and adding AI pioneer Fei-Fei Li as its chief scientist.",
+      "author": "Britney Nguyen",
+      "published": "Tue, 29 Sep 2026 00:03:00 GMT",
       "tags": []
     },
     {
@@ -269,25 +297,14 @@
       "url": "https://www.marketwatch.com/story/we-lived-within-our-means-i-earned-30-000-as-a-pastor-and-still-retired-comfortably-why-dont-you-tell-people-that-6b9f231e?mod=mw_rss_topstories",
       "summary": "“As a country, we have grown dangerously comfortable.”",
       "author": "Quentin Fottrell",
-      "published": "Sun, 27 Sep 2026 21:45:00 GMT",
-      "tags": []
-    },
-    {
-      "id": "e5349dfe39c6",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "A ‘death cross’ is coming for the dollar. Why Trump will be happy.",
-      "url": "https://www.marketwatch.com/story/a-death-cross-is-coming-for-the-dollar-why-trump-will-be-happy-0766303d?mod=mw_rss_topstories",
-      "summary": "Don’t look now, but there are some technical reasons to believe that U.S. Treasury Secretary Scott Bessent was right when he declared to the financial markets that “I am the house now.”",
-      "author": "Tomi Kilgore",
-      "published": "Sun, 27 Sep 2026 19:21:00 GMT",
+      "published": "Mon, 28 Sep 2026 23:00:00 GMT",
       "tags": []
     }
   ],
   "notes": [
     "Simple English Wikipedia: 2 条",
     "Hacker News: 6 条",
-    "DEV Community: 3 条（跳过 1 条非中英内容）",
+    "DEV Community: 4 条",
     "Wikipedia: 1 条",
     "BBC 世界: 4 条",
     "Ars Technica: 3 条",
