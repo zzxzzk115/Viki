@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "items": [
     {
       "id": "b7d9300382c5",
@@ -43,6 +43,28 @@
       "url": "https://www.youtube.com/watch?v=mGuYUEuVDYc",
       "thumb": "https://i2.ytimg.com/vi/mGuYUEuVDYc/hqdefault.jpg",
       "published": "2026-07-12",
+      "category": "图形学"
+    },
+    {
+      "id": "63dfc2ba201c",
+      "platform": "bilibili",
+      "videoId": "BV17aho6iE7k",
+      "title": "GAMES Webinar 416-具身智能专题：从灵巧操作到真机数据闭环-徐志轩-接触驱动的灵巧操作学习",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV17aho6iE7k",
+      "thumb": "https://i1.hdslb.com/bfs/archive/ebfd966d9908172eb5fc2a50a8d026962497333c.jpg",
+      "published": "2026-09-26",
+      "category": "图形学"
+    },
+    {
+      "id": "ee2476518bc0",
+      "platform": "bilibili",
+      "videoId": "BV17aho6iEkh",
+      "title": "GAMES Webinar 416-具身智能专题：从灵巧操作到真机数据闭环-李永露-具身模型的真机评测与数据配方",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV17aho6iEkh",
+      "thumb": "https://i0.hdslb.com/bfs/archive/67607bbf0a01c26a17497ea0c55aa920bad2986a.jpg",
+      "published": "2026-09-26",
       "category": "图形学"
     },
     {
@@ -90,6 +112,17 @@
       "category": "引擎"
     },
     {
+      "id": "38c4e3a0ea1d",
+      "platform": "youtube",
+      "videoId": "Mzbtj5nkMXI",
+      "title": "The Buckmaster Interview (Navier-Stokes) - Numberphile",
+      "channel": "Numberphile",
+      "url": "https://www.youtube.com/watch?v=Mzbtj5nkMXI",
+      "thumb": "https://i2.ytimg.com/vi/Mzbtj5nkMXI/hqdefault.jpg",
+      "published": "2026-09-29",
+      "category": "CS"
+    },
+    {
       "id": "57c66c698bba",
       "platform": "youtube",
       "videoId": "9HlIuxnuTKQ",
@@ -98,17 +131,6 @@
       "url": "https://www.youtube.com/watch?v=9HlIuxnuTKQ",
       "thumb": "https://i2.ytimg.com/vi/9HlIuxnuTKQ/hqdefault.jpg",
       "published": "2026-09-28",
-      "category": "CS"
-    },
-    {
-      "id": "647478e6bc7f",
-      "platform": "youtube",
-      "videoId": "UmuMgA_RxnU",
-      "title": "Blind Ranking Numbers (James Grime)",
-      "channel": "Numberphile",
-      "url": "https://www.youtube.com/shorts/UmuMgA_RxnU",
-      "thumb": "https://i2.ytimg.com/vi/UmuMgA_RxnU/hqdefault.jpg",
-      "published": "2026-09-22",
       "category": "CS"
     },
     {
@@ -134,25 +156,25 @@
       "category": "CS"
     },
     {
-      "id": "9654c0a73770",
+      "id": "9018e970ca98",
       "platform": "bilibili",
-      "videoId": "BV1Rch76WEfQ",
-      "title": "需求和架构 (1) [06-Raw/26生成式软件工程/NJU]",
-      "channel": "绿导师原谅你了",
-      "url": "https://www.bilibili.com/video/BV1Rch76WEfQ",
-      "thumb": "https://i1.hdslb.com/bfs/archive/e2606ba4314ef35e144efa4436ab30e3c3bbea63.jpg",
-      "published": "2026-09-22",
+      "videoId": "BV1ScKR6QEQF",
+      "title": "古法做视频里加一点点科技",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1ScKR6QEQF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/b9d2e88f8d41fe24cecddcf715756265ff68b9d2.jpg",
+      "published": "2026-06-29",
       "category": "CS"
     },
     {
-      "id": "e1c561b80891",
+      "id": "4001551d4ad2",
       "platform": "bilibili",
-      "videoId": "BV1Nyeq6qEt8",
-      "title": "软件工程的来龙去脉 [05-Raw/26生成式软件工程/NJU]",
-      "channel": "绿导师原谅你了",
-      "url": "https://www.bilibili.com/video/BV1Nyeq6qEt8",
-      "thumb": "https://i0.hdslb.com/bfs/archive/c75d365bb65abad0975bb1e8ca11ad5b67b68861.jpg",
-      "published": "2026-09-20",
+      "videoId": "BV1RfEw6LEfF",
+      "title": "能跟你对话的TTS【开源】",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1RfEw6LEfF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/414b79823c78f30b3e60d27f14c0f44111f0234f.jpg",
+      "published": "2026-06-04",
       "category": "CS"
     },
     {
@@ -178,6 +200,17 @@
       "category": "金融"
     },
     {
+      "id": "9f5166600f53",
+      "platform": "youtube",
+      "videoId": "HT8ikFog_pQ",
+      "title": "Why Does the US Only Have Two Major Parties?: Crash Course US Government #2",
+      "channel": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=HT8ikFog_pQ",
+      "thumb": "https://i1.ytimg.com/vi/HT8ikFog_pQ/hqdefault.jpg",
+      "published": "2026-09-29",
+      "category": "历史"
+    },
+    {
       "id": "73e13955f903",
       "platform": "youtube",
       "videoId": "OgYSITk0fSM",
@@ -186,17 +219,6 @@
       "url": "https://www.youtube.com/watch?v=OgYSITk0fSM",
       "thumb": "https://i4.ytimg.com/vi/OgYSITk0fSM/hqdefault.jpg",
       "published": "2026-09-24",
-      "category": "历史"
-    },
-    {
-      "id": "f3c8091c05f7",
-      "platform": "youtube",
-      "videoId": "dsGoS_M7AW8",
-      "title": "Why Are US Politics Today So Divisive?: Crash Course US Government #1",
-      "channel": "CrashCourse",
-      "url": "https://www.youtube.com/watch?v=dsGoS_M7AW8",
-      "thumb": "https://i1.ytimg.com/vi/dsGoS_M7AW8/hqdefault.jpg",
-      "published": "2026-09-22",
       "category": "历史"
     },
     {
@@ -222,6 +244,39 @@
       "category": "历史"
     },
     {
+      "id": "9c7859f9a6d8",
+      "platform": "bilibili",
+      "videoId": "BV1w8YX6uEvL",
+      "title": "才女·黄媛介：拒绝顶流告白，只为逃婚丈夫，回心转意？【大明风华】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1w8YX6uEvL",
+      "thumb": "https://i0.hdslb.com/bfs/archive/3469211773b26d6bf12e4ebb6ad9e413971afccc.jpg",
+      "published": "2026-09-12",
+      "category": "历史"
+    },
+    {
+      "id": "ad62a1790b36",
+      "platform": "bilibili",
+      "videoId": "BV1zLta68EQq",
+      "title": "大学士·图海：配享太庙，到底有多难？【康熙王朝】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1zLta68EQq",
+      "thumb": "https://i1.hdslb.com/bfs/archive/0746add8e947478cac56dacb70505bf5f2c0ebe6.jpg",
+      "published": "2026-08-31",
+      "category": "历史"
+    },
+    {
+      "id": "ff01e524fd39",
+      "platform": "youtube",
+      "videoId": "RI4cxw5xecs",
+      "title": "👄 Who stole my crisps?! Pronunciation Shadowing",
+      "channel": "BBC Learning English",
+      "url": "https://www.youtube.com/watch?v=RI4cxw5xecs",
+      "thumb": "https://i3.ytimg.com/vi/RI4cxw5xecs/hqdefault.jpg",
+      "published": "2026-09-29",
+      "category": "英语"
+    },
+    {
       "id": "b9a5f0ec9d9c",
       "platform": "youtube",
       "videoId": "WCGPLN4u53Y",
@@ -229,17 +284,6 @@
       "channel": "BBC Learning English",
       "url": "https://www.youtube.com/shorts/WCGPLN4u53Y",
       "thumb": "https://i4.ytimg.com/vi/WCGPLN4u53Y/hqdefault.jpg",
-      "published": "2026-09-28",
-      "category": "英语"
-    },
-    {
-      "id": "7bddad0847c3",
-      "platform": "youtube",
-      "videoId": "UcfT3qOhyF0",
-      "title": "🍁 The best things about autumn in the UK 🇬🇧 | Improve your listening with Real Easy English",
-      "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=UcfT3qOhyF0",
-      "thumb": "https://i2.ytimg.com/vi/UcfT3qOhyF0/hqdefault.jpg",
       "published": "2026-09-28",
       "category": "英语"
     },
@@ -269,18 +313,20 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "图形学 · 512313464: 0 条",
+    "图形学 · 512313464: 2 条",
     "引擎 · @TheCherno: 2 条",
     "引擎 · 437860379: 2 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
-    "CS · 1567748478: 0 条",
-    "CS · 202224425: 2 条",
+    "CS · 1567748478: 2 条",
+    "Bilibili 202224425: code=-352 风控校验失败",
+    "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 2 条",
     "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
-    "历史 · 11646119: 0 条",
+    "历史 · 11646119: 2 条",
+    "Bilibili 23947287: code=-352 风控校验失败",
     "历史 · 23947287: 0 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
