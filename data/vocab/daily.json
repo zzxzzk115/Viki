@@ -1,13 +1,13 @@
 {
-  "date": "2026-09-29",
-  "word": "plausible",
-  "ipa": "ˈplɔː.zə.b",
-  "ipaUs": "ˈplɑː.zə.b",
+  "date": "2026-09-30",
+  "word": "spontaneous",
+  "ipa": "spɒnˈteɪ.ni.əs",
+  "ipaUs": "spɑːnˈteɪ.ni.əs",
   "pos": "adjective",
-  "definition": "seeming likely to be true, or able to be believed",
-  "definitionZh": "貌似真实",
-  "example": "a plausible explanation / excuse",
-  "exampleZh": "貌似有理的解释／借口",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/ukp/ukpla/ukplate017.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/p/pla/plaus/plausible.mp3"
+  "definition": "happening or done in a natural, often sudden way, without any planning or without being forced",
+  "definitionZh": "自发的",
+  "example": "His jokes seemed spontaneous, but were in fact carefully prepared beforehand.",
+  "exampleZh": "他讲的笑话似乎是即兴的，但实际上是事先精心准备好的。",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uks/ukspo/ukspong005.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/s/spo/spont/spontaneous.mp3"
 }
