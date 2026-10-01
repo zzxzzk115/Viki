@@ -1,279 +1,280 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "items": [
     {
-      "id": "975370b9d345",
+      "id": "d35cfbb5722b",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Western Michigan University",
-      "url": "https://simple.wikipedia.org/wiki/Western_Michigan_University",
-      "summary": "Western Michigan University is a public university in Kalamazoo, Michigan. The university has about 25,045 students. It was founded in 1903. Since 2017, the president of the university has been Edward B. Montgomery.",
+      "title": "Vaughn O. Lang",
+      "url": "https://simple.wikipedia.org/wiki/Vaughn_O._Lang",
+      "summary": "Vaughn Olin Lang was an American lieutenant general in the United States Army. Lang began his service as 2LT at the Officers’ Basic Course at Ft. Monmouth, New Jersey in 1952. He served in the Radio-Radar Procurement Branch and in the European Trans-Atlantic Project. Lang was a …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "937c143112d2",
+      "id": "4a9b95085add",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Khat",
-      "url": "https://simple.wikipedia.org/wiki/Khat",
-      "summary": "Khat is a flowering plant native to tropical East Africa and the Arabian Peninsula. It is also known as qat, qaat, quat, gat, jaad, chat, chad, chaad, miraa and jimaa. The plant is grown commercially in Kenya, Ethiopia, Oman, and Yemen.",
+      "title": "Elias James Corey",
+      "url": "https://simple.wikipedia.org/wiki/Elias_James_Corey",
+      "summary": "Elias James \"E.J.\" Corey is an American chemist. He won the Nobel Prize in Chemistry for his theory of organic synthesis.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "bf2e738d2e1a",
+      "id": "975f57653267",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
-      "url": "https://github.com/ninjahawk/livenerf",
-      "summary": "",
-      "author": "bryan0",
-      "published": "2026-09-29",
-      "tags": [
-        "▲ 487"
-      ]
-    },
-    {
-      "id": "836f2086a095",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "PSSA: A non-transformer language model written from scratch in Rust",
-      "url": "https://github.com/Sparticle62ops/pssa",
-      "summary": "",
-      "author": "sparticle62",
+      "title": "Gemini 4 Argon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "summary": "See also: Gemini 4 Argon (High): Intelligence, Performance and Price Analysis - https://news.ycombinator.com/item?id=49914236",
+      "author": "bradleyg223",
       "published": "2026-09-30",
       "tags": [
-        "▲ 66"
+        "▲ 1283"
       ]
     },
     {
-      "id": "443642623d57",
+      "id": "aa61e9fcbdd3",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Dots: Always-on agents",
-      "url": "https://openai.com/index/introducing-dots/",
+      "title": "The top secret URSALA, RAQUEL, and FARRAH satellites (2025)",
+      "url": "https://www.thespacereview.com/article/4951/1",
       "summary": "",
-      "author": "alvis",
-      "published": "2026-09-29",
-      "tags": [
-        "▲ 551"
-      ]
-    },
-    {
-      "id": "17786617b1ed",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Responsible Release of AI-Generated Mathematics",
-      "url": "https://agmai.org/general-sep29/",
-      "summary": "",
-      "author": "aureianimus",
+      "author": "Bluestein",
       "published": "2026-09-30",
       "tags": [
-        "▲ 33"
+        "▲ 198"
       ]
     },
     {
-      "id": "9448793ea837",
+      "id": "f21695c0f35a",
       "category": "tech",
       "source": "Hacker News",
-      "title": "U.S. postal inspectors shut down website selling counterfeit postage labels",
-      "url": "https://postalemployeenetwork.com/news/2026/09/26/u-s-postal-inspectors-shut-down-website-selling-millions-of-counterfeit-postage-labels/",
+      "title": "Fuck Android Developer Verification Program",
+      "url": "https://twitter.com/0xcrypto/status/2105515822643114182",
       "summary": "",
-      "author": "ilamont",
-      "published": "2026-09-29",
+      "author": "0xcrypto",
+      "published": "2026-10-01",
       "tags": [
-        "▲ 207"
+        "▲ 174"
       ]
     },
     {
-      "id": "a7b61b652d1e",
+      "id": "7d1c6901e5ff",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Vermont replacing power plants with home batteries",
-      "url": "https://www.bbc.com/future/article/20260928-a-virtual-power-plant-hidden-in-vermont-homes-is-keeping-the-lights-on-during-storms",
-      "summary": "See also https://electrek.co/2026/07/28/vermonts-largest-energy-sourc...",
-      "author": "devonnull",
+      "title": "Why the Bronze Age Collapsed",
+      "url": "https://www.worksinprogress.news/p/why-really-caused-the-bronze-age",
+      "summary": "",
+      "author": "AnodicElegy",
       "published": "2026-09-29",
       "tags": [
-        "▲ 149"
+        "▲ 180"
       ]
     },
     {
-      "id": "c7938e5f322c",
+      "id": "f41f56016b4e",
       "category": "tech",
-      "source": "DEV Community",
-      "title": "Multilingual Ghost CMS Blog: 3. Adding a Language Selector",
-      "url": "https://dev.to/sanghunkang/multilingual-ghost-cms-blog-3-adding-a-language-selector-22fo",
-      "summary": "I finished the basic setup for a multilingual blog. I used the / and /ko/ paths to separate posts by language. Right now, you can only move from the English page to the Korean page, or vice versa, by manually entering the URL. For user convenience, let's add a UI for selecting t…",
-      "author": "Sanghun Kang",
-      "published": "Wed, 30 Sep 2026 06:53:54 +0000",
+      "source": "Hacker News",
+      "title": "Surprisingly complex waves reveal the brain's inner workings",
+      "url": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/",
+      "summary": "",
+      "author": "ibobev",
+      "published": "2026-09-30",
       "tags": [
-        "software",
-        "tutorial",
-        "webdev"
+        "▲ 169"
       ]
     },
     {
-      "id": "63d051a3d34c",
+      "id": "20b52029e360",
       "category": "tech",
-      "source": "DEV Community",
-      "title": "Which Desert Safari is Best in Dubai? Complete Guide 2026",
-      "url": "https://dev.to/recoverseedphrase/which-desert-safari-is-best-in-dubai-complete-guide-2026-2j37",
-      "summary": "Dubai is famous for its golden desert landscapes and exciting outdoor experiences. A Dubai desert safari is one of the most popular ways to explore the desert while enjoying activities, scenic views, and traditional Arabian experiences. With different safari timings available, c…",
-      "author": "Nikhil Dexquad",
-      "published": "Wed, 30 Sep 2026 06:53:53 +0000",
+      "source": "Hacker News",
+      "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "summary": "Hey HN, Anders and Tom here. We're building Magnitude, an inference engine for agents that optimizes itself to run as fast as possible on your hardware. It works on Mac, Linux, and Windows on any hardware and is up to 2x faster than llama.cpp. We're both software engineers and p…",
+      "author": "anerli",
+      "published": "2026-09-30",
       "tags": [
-        "ai",
-        "webdev",
-        "productivity",
-        "programming"
+        "▲ 150"
       ]
     },
     {
-      "id": "0336691dc68b",
+      "id": "c0ee22c9f337",
       "category": "tech",
       "source": "DEV Community",
-      "title": "The copy had an age. My reading did not.",
-      "url": "https://dev.to/howcani_howcani_77e786a89/the-copy-had-an-age-my-reading-did-not-1m1g",
-      "summary": "The disagreement `GET /api/comments/ returns one comment as JSON. I was counting its top-level keys. I got eight: type_of</B>, id_code, created_at</B>, body_html, user</B>, children, ai_disclosure_level</B>, ai_disclosure_label. Another reader in the same thread got six, missing…",
-      "author": "howcani howcani",
-      "published": "Wed, 30 Sep 2026 06:53:30 +0000",
-      "tags": [
-        "testing",
-        "webdev",
-        "devtools",
-        "programming"
-      ]
-    },
-    {
-      "id": "b6bb8593b2ac",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "How Hindsight Helped Our Backend Recall Past Incidents",
-      "url": "https://dev.to/sahasra_k/how-hindsight-helped-our-backend-recall-past-incidents-474k",
-      "summary": "* How We Built the Backend for WorkMemory AI * An engineering incident may be solved in a few hours, but the useful knowledge from that incident can easily disappear afterward. While working on WorkMemory AI, I focused on the backend that connects the incident dashboard with the…",
-      "author": "Sahasra Kondapuram",
-      "published": "Wed, 30 Sep 2026 06:52:20 +0000",
+      "title": "BA LLB Colleges in Uttarakhand: Legal Research, Practical Training and Career Development",
+      "url": "https://dev.to/aanika_bisht_161dfbac231c/ba-llb-colleges-in-uttarakhand-legal-research-practical-training-and-career-development-28eo",
+      "summary": "Choosing a BA LL.B. programme is an important decision for students who want to build a foundation in both legal studies and professional skills. Along with understanding subjects such as constitutional law, contracts, criminal law, family law, and jurisprudence, students can be…",
+      "author": "aanika bisht",
+      "published": "Thu, 01 Oct 2026 06:59:43 +0000",
       "tags": [
         "ai",
         "webdev",
         "programming",
-        "javascript"
+        "productivity"
       ]
     },
     {
-      "id": "271c38a56436",
+      "id": "349eb7287848",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Production AI & LLM Task Pipelines: Managing Token Budgets, Backpressure, and Asynchronous Queue Architecture",
+      "url": "https://dev.to/usman_khan_io/production-ai-llm-task-pipelines-managing-token-budgets-backpressure-and-asynchronous-queue-36l1",
+      "summary": "Production AI & LLM Task Pipelines: Managing Token Budgets, Backpressure, and Asynchronous Queue Architecture Originally published at ctousman.com . Integrating LLM capabilities into enterprise SaaS requires moving beyond simple synchronous HTTP calls. When hit with spikes in de…",
+      "author": "Usman Khan",
+      "published": "Thu, 01 Oct 2026 06:59:17 +0000",
+      "tags": [
+        "ai",
+        "webdev",
+        "architecture",
+        "node"
+      ]
+    },
+    {
+      "id": "d365b094decf",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Your System Design Interview Ends Before You Draw a Single Box",
+      "url": "https://dev.to/nurrehman/your-system-design-interview-ends-before-you-draw-a-single-box-46ic",
+      "summary": "You did not lose your system design interview at minute thirty. You lost it at second sixty, when the interviewer said \"design a photo app\" and you reached for a box. Watch the 40-second version first: The 30-Second Script That Saves Your System Design Interview The first sixty …",
+      "author": "Nadeem Ur-Rehman",
+      "published": "Thu, 01 Oct 2026 06:57:41 +0000",
+      "tags": [
+        "architecture",
+        "programming",
+        "webdev"
+      ]
+    },
+    {
+      "id": "fa12332a7e9e",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Every vector in your Word document just became a hat",
+      "url": "https://dev.to/smrifat1411/every-vector-in-your-word-document-just-became-a-hat-1nbp",
+      "summary": "I maintain a small library that cleans up Microsoft Word paste in rich-text editors. Part of that job is converting Word's equations to LaTeX, so they stay editable instead of turning into screenshots. For months it had a bug that never threw, never logged, and never produced in…",
+      "author": "smrifat1411",
+      "published": "Thu, 01 Oct 2026 06:52:04 +0000",
+      "tags": [
+        "javascript",
+        "latex",
+        "webdev",
+        "showdev"
+      ]
+    },
+    {
+      "id": "a159efbdc910",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Dam",
-      "url": "https://en.wikipedia.org/wiki/Dam",
-      "summary": "A dam is a structure that impounds water or restricts its flow. Dams are classified into four basic types: gravity dams are massive structures made of concrete or masonry that rely on their weight to resist the force of impounded water; embankment dams are large earthworks consi…",
+      "title": "Independence Day (Nigeria)",
+      "url": "https://en.wikipedia.org/wiki/Independence_Day_(Nigeria)",
+      "summary": "Independence Day is an annual public holiday in Nigeria observed on 1 October to commemorate the country's independence from the United Kingdom in 1960. It is celebrated nationwide with official ceremonies, military parades, cultural displays, and other public events. The holida…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "a2a851085959",
+      "id": "4cb6451c6afd",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Chinese AI tool told researchers how to make bioweapons",
-      "url": "https://www.bbc.co.uk/news/articles/cmrergq3j7lgo?at_medium=RSS&at_campaign=rss",
-      "summary": "Mindgard said it discovered in July that Kimi models K2.6 and K3 Swarm could evade developer's safety limits.",
-      "published": "Tue, 29 Sep 2026 23:15:29 GMT",
+      "title": "US death row inmate survives execution attempt after two lethal injections",
+      "url": "https://www.bbc.co.uk/news/articles/cq8r6rjdvlx6o?at_medium=RSS&at_campaign=rss",
+      "summary": "Killer Christa Pike's lawyer says she is being given \"life-saving measures\" in hospital after two syringes of pentobarbital.",
+      "published": "Thu, 01 Oct 2026 07:01:16 GMT",
       "tags": []
     },
     {
-      "id": "b4989f4ae871",
+      "id": "58fca97d859e",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Three takeaways from Trump's 'Super Intelligence' summit",
-      "url": "https://www.bbc.co.uk/news/articles/cme30dz5vkzko?at_medium=RSS&at_campaign=rss",
-      "summary": "The meeting at the White House came as some tech bosses and experts have called for tighter rules around AI.",
-      "published": "Wed, 30 Sep 2026 04:01:52 GMT",
+      "title": "Too early to say what motive for Dubai-Tel Aviv flight attack was, Israeli PM says",
+      "url": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss",
+      "summary": "A pilot who stabbed another pilot on an Israel-bound plane is under investigation in Saudi Arabia, Benjamin Netanyahu says.",
+      "published": "Thu, 01 Oct 2026 06:42:43 GMT",
       "tags": []
     },
     {
-      "id": "1249c0ae906f",
+      "id": "e16fa8268a8f",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Girl has multiple surgeries to control infections after strike in Gaza",
-      "url": "https://www.bbc.co.uk/news/videos/c8n5d0e0n6wdo?at_medium=RSS&at_campaign=rss",
-      "summary": "Witnesses say Raseel's tent was hit by an Israeli helicopter strike. Israel’s military says it has no record of the attack.",
-      "published": "Wed, 30 Sep 2026 05:02:50 GMT",
+      "title": "What we know about stabbing on Flydubai flight to Israel",
+      "url": "https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno?at_medium=RSS&at_campaign=rss",
+      "summary": "A pilot has been arrested and is being questioned after another pilot was stabbed, officials say.",
+      "published": "Thu, 01 Oct 2026 02:31:24 GMT",
       "tags": []
     },
     {
-      "id": "1afaed8adc57",
+      "id": "0073ff5f9ff9",
       "category": "news",
       "source": "BBC 世界",
-      "title": "South Korea demands apology from Pyongyang for landmine blasts that injured three",
-      "url": "https://www.bbc.co.uk/news/articles/cwj3dkvpm4e7o?at_medium=RSS&at_campaign=rss",
-      "summary": "Blasts in the Demilitarised Zone (DMZ) injured three South Korean personnel earlier this month.",
-      "published": "Wed, 30 Sep 2026 05:24:52 GMT",
+      "title": "Rosenberg: Putin shows no sign of stopping the war as Russia doubles down on Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_medium=RSS&at_campaign=rss",
+      "summary": "A foreign policy speech by the Russian president will be keenly watched, but all signs point to the full-scale invasion continuing.",
+      "published": "Wed, 30 Sep 2026 23:10:06 GMT",
       "tags": []
     },
     {
-      "id": "0205a3f4941d",
+      "id": "f5761dd4a43b",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Most powerful obesity drug yet: People lost up to 25% of weight in trial",
-      "url": "https://arstechnica.com/health/2026/09/most-powerful-obesity-drug-yet-people-lost-up-to-25-of-weight-in-trial/",
-      "summary": "Retatrutide is a triple-hormone obesity drug simulating GLP-1, GIP, and glucagon.",
+      "title": "Dinosaur-killing impact crater might have been teeming with life",
+      "url": "https://arstechnica.com/science/2026/09/dinosaur-killing-impact-crater-might-have-been-teeming-with-life/",
+      "summary": "Hot, nutrient water might have lasted for over 5 million years after the impact.",
+      "author": "Elizabeth Rayne",
+      "published": "Wed, 30 Sep 2026 21:54:12 +0000",
+      "tags": [
+        "Science",
+        "Chixculub",
+        "Earth science",
+        "geology"
+      ]
+    },
+    {
+      "id": "2a42eb1542bc",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Fifth unvaccinated person dies of measles; CDC still not counting all deaths",
+      "url": "https://arstechnica.com/health/2026/09/fifth-unvaccinated-person-dies-of-measles-cdc-still-not-counting-all-deaths/",
+      "summary": "State health officials race to vaccinate residents by giving over 8,500 doses.",
       "author": "Beth Mole",
-      "published": "Tue, 29 Sep 2026 22:30:37 +0000",
+      "published": "Wed, 30 Sep 2026 21:37:54 +0000",
       "tags": [
         "Health",
-        "clinical trial",
-        "eli lilly",
-        "GIP"
+        "anti-vaccine",
+        "death",
+        "Infectious disease"
       ]
     },
     {
-      "id": "f8e7c3348cfc",
+      "id": "042e190492d6",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Protests against OpenAI get increasingly creative",
-      "url": "https://arstechnica.com/ai/2026/09/what-iceberg-bay-area-artists-target-openai-with-titanic-themed-protest-art/",
-      "summary": "New sculpture depicts AI leaders escaping a sinking ship.",
+      "title": "Returning from vacation? The government can search your phone without a warrant.",
+      "url": "https://arstechnica.com/tech-policy/2026/09/immigration-advocate-sues-border-agents-for-demanding-his-cell-phone/",
+      "summary": "Reminder: The \"border exemption\" to your rights is real.",
       "author": "Cyrus Farivar",
-      "published": "Tue, 29 Sep 2026 21:52:58 +0000",
+      "published": "Wed, 30 Sep 2026 21:19:56 +0000",
       "tags": [
-        "AI",
-        "art",
-        "openai"
+        "Policy",
+        "cbp",
+        "phone",
+        "searches"
       ]
     },
     {
-      "id": "088b2b332c11",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "AMD acquires World Labs AI startup, upping the ante against Nvidia",
-      "url": "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/",
-      "summary": "The deal, which is expected to close by year's end, is worth $8.2 billion.",
-      "author": "Samuel Axon",
-      "published": "Tue, 29 Sep 2026 21:14:49 +0000",
-      "tags": [
-        "AI",
-        "acquisition",
-        "AMD",
-        "Fei-Fei Li"
-      ]
-    },
-    {
-      "id": "20a100f5c90c",
+      "id": "795dee37c0bd",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘I have $400,000 in equity’: I’m 80. Should I sell my house because of dangerous stairs — or spend thousands renovating?",
-      "url": "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories",
-      "summary": "“Generally, the advice I’ve read says not to sell because I have a low-interest-rate mortgage.”",
-      "author": "Quentin Fottrell",
-      "published": "Wed, 30 Sep 2026 01:00:00 GMT",
+      "title": "Cars have become unaffordable for many Americans. Here’s what the numbers show.",
+      "url": "https://www.marketwatch.com/story/heres-the-most-you-should-be-spending-on-your-car-payment-whether-you-make-60-000-or-over-150-000-ee1c228c?mod=mw_rss_topstories",
+      "summary": "At today’s prices and rates, even the average used vehicle can exceed some commonly used affordability measures.",
+      "author": "Venessa Wong",
+      "published": "Thu, 01 Oct 2026 02:35:00 GMT",
       "tags": []
     },
     {
@@ -284,18 +285,18 @@
       "url": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories",
       "summary": "“When my paycheck lands, it takes a detour through bitcoin.”",
       "author": "Quentin Fottrell",
-      "published": "Wed, 30 Sep 2026 00:30:00 GMT",
+      "published": "Thu, 01 Oct 2026 00:45:00 GMT",
       "tags": []
     },
     {
-      "id": "7393b1b65e06",
+      "id": "20a100f5c90c",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "I’m 77, pay rent and live off Social Security, but I help homeless people. Why are so many people going hungry?",
-      "url": "https://www.marketwatch.com/story/im-77-pay-rent-and-live-off-social-security-but-i-help-homeless-people-why-are-so-many-people-going-hungry-5818465f?mod=mw_rss_topstories",
-      "summary": "“I am a retired senior citizen living check-to-check.”",
+      "title": "‘I have $400,000 in equity’: I’m 80. Should I sell my house because of dangerous stairs — or spend thousands renovating?",
+      "url": "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories",
+      "summary": "“Generally, the advice I’ve read says not to sell because I have a low-interest-rate mortgage.”",
       "author": "Quentin Fottrell",
-      "published": "Tue, 29 Sep 2026 23:30:00 GMT",
+      "published": "Thu, 01 Oct 2026 00:20:00 GMT",
       "tags": []
     }
   ],
