@@ -1,13 +1,13 @@
 {
-  "date": "2026-09-30",
-  "word": "spontaneous",
-  "ipa": "spɒnˈteɪ.ni.əs",
-  "ipaUs": "spɑːnˈteɪ.ni.əs",
+  "date": "2026-10-02",
+  "word": "eloquent",
+  "ipa": "ˈel.ə.kw",
+  "ipaUs": "ˈel.ə.kw",
   "pos": "adjective",
-  "definition": "happening or done in a natural, often sudden way, without any planning or without being forced",
-  "definitionZh": "自发的",
-  "example": "His jokes seemed spontaneous, but were in fact carefully prepared beforehand.",
-  "exampleZh": "他讲的笑话似乎是即兴的，但实际上是事先精心准备好的。",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uks/ukspo/ukspong005.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/s/spo/spont/spontaneous.mp3"
+  "definition": "giving a clear, strong message",
+  "definitionZh": "雄辩的",
+  "example": "She made an eloquent appeal for action.",
+  "exampleZh": "她发表了富有说服力的演讲，呼吁采取行动。",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/uke/ukeli/ukelimi026.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/elo/eloqu/eloquent.mp3"
 }
