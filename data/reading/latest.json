@@ -1,303 +1,302 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "items": [
     {
-      "id": "82ef6c3cb943",
+      "id": "662783eceb22",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Mary Healy",
-      "url": "https://simple.wikipedia.org/wiki/Mary_Healy",
-      "summary": "Mary Healy was an American actress and singer. She was known for her roles in Second Fiddle, Star Dust, and in The 5,000 Fingers of Dr. T. Healy was born in New Orleans, Louisiana.",
+      "title": "Medical Lake, Washington",
+      "url": "https://simple.wikipedia.org/wiki/Medical_Lake%2C_Washington",
+      "summary": "Medical Lake is a city in Spokane County, Washington. The population was 4,874 at the 2020 census. Medical Lake has a psychiatric hospital named Eastern State Hospital.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "6286fae8882b",
+      "id": "147c3739aea9",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Stade de Genève",
-      "url": "https://simple.wikipedia.org/wiki/Stade_de_Gen%C3%A8ve",
-      "summary": "Stade de Genève, also called Stade de la Praille, is a football stadium in Lancy, Switzerland and is the home stadium of Servette FC. It was used for the UEFA Euro 2008. It has a capacity of 30,084. The stadium was opened on 30 April 2003.",
+      "title": "Formiguères",
+      "url": "https://simple.wikipedia.org/wiki/Formigu%C3%A8res",
+      "summary": "Formiguères is a commune in the Pyrénées-Orientales department. It is in southern France.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "ef05aea17ef0",
+      "id": "37ad16bccc5b",
       "category": "tech",
       "source": "Hacker News",
-      "title": "DeepSeek Harness",
-      "url": "https://www.deepseek.com/en/harness/",
+      "title": "Newgrounds.com – A community of games, music, and art",
+      "url": "https://www.newgrounds.com/",
       "summary": "",
-      "author": "Kuyawa",
-      "published": "2026-10-02",
+      "author": "azhenley",
+      "published": "2026-10-03",
       "tags": [
-        "▲ 171"
+        "▲ 151"
       ]
     },
     {
-      "id": "1d001431f657",
+      "id": "101e89adb123",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Pi 1.0",
-      "url": "https://earendil.com/posts/pi-1-0/",
-      "summary": "Related: Pi Durable - https://news.ycombinator.com/item?id=49925969",
-      "author": "sergiotapia",
+      "title": "Extra Big Ass Intelligence",
+      "url": "https://www.extrabigassintelligence.com/",
+      "summary": "",
+      "author": "34679",
+      "published": "2026-10-03",
+      "tags": [
+        "▲ 107"
+      ]
+    },
+    {
+      "id": "3ac5b3360665",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
+      "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
+      "summary": "",
+      "author": "hn_acker",
       "published": "2026-10-01",
       "tags": [
-        "▲ 1095"
+        "▲ 590"
       ]
     },
     {
-      "id": "04514bbe0c59",
+      "id": "47992b567ab4",
       "category": "tech",
       "source": "Hacker News",
-      "title": "How Singapore's government-run dating service works",
-      "url": "https://www.singapore-samizdat.com/p/how-singapores-government-run-dating-service-firstdate-works",
+      "title": "The Forgetful CPU (Linux on M4)",
+      "url": "https://yuka.dev/blog-2026-10-02-linux-m4.html",
       "summary": "",
-      "author": "danielfoster",
+      "author": "signa11",
       "published": "2026-10-02",
       "tags": [
-        "▲ 93"
+        "▲ 181"
       ]
     },
     {
-      "id": "ecfcfba62a4d",
+      "id": "51876bf7e69f",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Shimano Bicycle Museum Review",
-      "url": "https://inrng.com/2026/10/shimano-bicycle-museum/",
+      "title": "Mike Tomlin spent 12 years building a Minecraft city",
+      "url": "https://www.nytimes.com/athletic/7648198/2026/10/01/mike-tomlin-minecraft-nfl-coach/",
+      "summary": "https://archive.ph/Kv6yS https://www.youtube.com/watch?v=_h_pQ1-5iQg https://www.theguardian.com/sport/2026/oct/01/mike-tomlin-mi...",
+      "author": "CoryOndrejka",
+      "published": "2026-10-01",
+      "tags": [
+        "▲ 408"
+      ]
+    },
+    {
+      "id": "8e1e4264e3c3",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Make Tmux the OS",
+      "url": "https://matduggan.com/what-does-my-dream-os-ui-look-like/",
       "summary": "",
-      "author": "pietroppeter",
+      "author": "weaksauce",
       "published": "2026-10-02",
       "tags": [
-        "▲ 33"
+        "▲ 14"
       ]
     },
     {
-      "id": "ebb2d7850d0e",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
-      "url": "https://blog.cloudflare.com/clef-decision-models/",
-      "summary": "",
-      "author": "jasondavies",
-      "published": "2026-10-01",
-      "tags": [
-        "▲ 483"
-      ]
-    },
-    {
-      "id": "5d7cb0335041",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "SvelteKit 3",
-      "url": "https://svelte.dev/blog/sveltekit-3-is-here",
-      "summary": "",
-      "author": "sampsn",
-      "published": "2026-10-01",
-      "tags": [
-        "▲ 224"
-      ]
-    },
-    {
-      "id": "f5593e56013c",
+      "id": "e351f0902660",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Your Frontend Does Not Need Micro Frontends. It Needs a Modular Monolith.",
-      "url": "https://dev.to/nurrehman/your-frontend-does-not-need-micro-frontends-it-needs-a-modular-monolith-1022",
-      "summary": "Walk into any frontend interview and say the words \"how would you architect this,\" and some candidate will reach for micro frontends before they have finished breathing. It sounds ambitious. It sounds like scale. It is also, most of the time, a very expensive way to discover you…",
-      "author": "Nadeem Ur-Rehman",
-      "published": "Fri, 02 Oct 2026 06:57:45 +0000",
+      "title": "Three AI API changes from the last two weeks that break your code quietly",
+      "url": "https://dev.to/kirocrackreport/three-ai-api-changes-from-the-last-two-weeks-that-break-your-code-quietly-44i9",
+      "summary": "I keep a weekly log of where the AI tooling landscape gives way: the release notes that quietly invalidate code people already shipped. Three from the last two weeks, each with the seam nobody emails teams about. 1. Anthropic: Sonnet 4.5 is deprecated, and non-default sampling n…",
+      "author": "Kiro",
+      "published": "Sat, 03 Oct 2026 06:34:41 +0000",
       "tags": [
         "ai",
+        "api",
         "programming",
-        "architecture",
         "webdev"
       ]
     },
     {
-      "id": "a50da4c067cd",
+      "id": "5d1190991af0",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Building CouponLab: Finding Coupon Codes That Actually Work",
-      "url": "https://dev.to/gooddaystack/building-couponlab-finding-coupon-codes-that-actually-work-23h0",
-      "summary": "When someone searches for a coupon, they want a discount they can actually use. That’s the problem I’m working on with CouponLab . Finding codes is part of the work. Trying them and figuring out whether they’re useful is the part I care about most. A page full of offers can look…",
-      "author": "gooddaystack",
-      "published": "Fri, 02 Oct 2026 06:55:37 +0000",
-      "tags": [
-        "ai",
-        "webdev",
-        "buildinpublic",
-        "discuss"
-      ]
-    },
-    {
-      "id": "28afebf6f8bd",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Every tag was correct, and together they leaked data",
-      "url": "https://dev.to/adab/every-tag-was-correct-and-together-they-leaked-data-4cmg",
-      "summary": "Anna leads the under-twelves and plays for the under-fourteens. The system knows both things. Her customer record carries role:leader, team:u12 and team:u14 — accurate in every particular. On Monday she opens the leader report to see how her team's fundraising went, and it shows…",
-      "author": "Adab ul Qayyum",
-      "published": "Fri, 02 Oct 2026 06:51:04 +0000",
-      "tags": [
-        "webdev",
-        "shopify",
-        "productivity",
-        "programming"
-      ]
-    },
-    {
-      "id": "ffab88c26480",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Why I ditched complex tech stacks and built a zero-overhead Micro-SaaS in a single HTML file",
-      "url": "https://dev.to/danielenglish1996/why-i-ditched-complex-tech-stacks-and-built-a-zero-overhead-micro-saas-in-a-single-html-file-5bca",
-      "summary": "As developers, we love building complex architectures. We reach for React, TypeScript, complex state managers, Docker containers, and robust PostgreSQL databases even for the smallest side projects. Recently, I caught myself falling into that exact trap. I wanted to build a simp…",
-      "author": "Daniel Yang",
-      "published": "Fri, 02 Oct 2026 06:49:59 +0000",
+      "title": "Cool Whip Fresh Whip | Dessert Whipped Cream for Cakes & Toppings | Buy Online",
+      "url": "https://dev.to/swhipwhip_cream_5a31b95b2/cool-whip-fresh-whip-dessert-whipped-cream-for-cakes-toppings-buy-online-3ogm",
+      "summary": "When you want an easy way to make desserts look and taste more enjoyable, a creamy topping can make a noticeable difference. Cool Whip Fresh Whip is a convenient choice for adding a light, creamy topping to cakes, pies, fruit, puddings, frozen desserts and other sweet treats. Wh…",
+      "author": "swhipwhip cream",
+      "published": "Sat, 03 Oct 2026 06:33:45 +0000",
       "tags": [
         "ai",
         "webdev",
         "productivity",
-        "programming"
+        "tutorial"
       ]
     },
     {
-      "id": "c9610bd1635b",
+      "id": "b86daf1ede9c",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Figma Dev Mode: 7 Proven Fixes for a Painful Dev Handoff",
+      "url": "https://dev.to/siddhesh_kabra_690ef37451/figma-dev-mode-7-proven-fixes-for-a-painful-dev-handoff-4hkb",
+      "summary": "Published: 2026-10-02 Author: Siddhesh Kabra Category: UI/UX & Design Horizontal bar chart showing minutes saved per day using Figma Dev Mode features, from section statuses at 22 min to MCP server at 6 min Table of contents What is Figma Dev Mode and Why Does It Matter in 2025?…",
+      "author": "siddhesh kabra",
+      "published": "Sat, 03 Oct 2026 06:30:06 +0000",
+      "tags": [
+        "uxdesign",
+        "frontend",
+        "webdev"
+      ]
+    },
+    {
+      "id": "dcbdd4b12afe",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "ES2026 Features Overview: Modern JavaScript for Developers",
+      "url": "https://dev.to/ansh_sheladiya/es2026-features-overview-modern-javascript-for-developers-4n13",
+      "summary": "JavaScript continues to evolve through the ECMAScript standard, adding features that make everyday development safer, clearer, and more expressive. ES2026 builds on the language improvements introduced in recent editions while continuing the broader trend toward better developer…",
+      "author": "Ansh Sheladiya",
+      "published": "Sat, 03 Oct 2026 06:30:00 +0000",
+      "tags": [
+        "javascript",
+        "ecmascript",
+        "node",
+        "webdev"
+      ]
+    },
+    {
+      "id": "3cf0b5be06cc",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Kaiser-class battleship",
-      "url": "https://en.wikipedia.org/wiki/Kaiser-class_battleship",
-      "summary": "The Kaiser class were five dreadnought battleships that were built for the German Kaiserliche Marine in the 1910s: Kaiser, Friedrich der Grosse, Kaiserin, Prinzregent Luitpold, and König Albert. They entered service shortly before World War I, and saw significant combat during t…",
+      "title": "Blindfold Me",
+      "url": "https://en.wikipedia.org/wiki/Blindfold_Me",
+      "summary": "\"Blindfold Me\" is a hip hop song by American singer Kelis from her fourth studio album, Kelis Was Here (2006). It was written and produced by Sean Garrett and Polow da Don. A remix, featuring American rapper Nas, was released as the album's second single in the United States on …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "b284a09678ed",
+      "id": "5f92289cd5a4",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US pressures Europe to release diesel reserves as Trump threatens export ban",
-      "url": "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss",
-      "summary": "President Donald Trump has threatened to ban diesel exports in a bid to ease prices in the US ahead of the November elections.",
-      "published": "Fri, 02 Oct 2026 06:59:30 GMT",
+      "title": "Russia strikes second major bridge in Kyiv, mayor says",
+      "url": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
+      "summary": "The attack on Northern Bridge comes after repeat attacks on another major bridge in recent days.",
+      "published": "Sat, 03 Oct 2026 06:27:15 GMT",
       "tags": []
     },
     {
-      "id": "de456bb36fbd",
+      "id": "55bcc6863564",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Christa Pike in critical condition after surviving two lethal injections, lawyer says",
-      "url": "https://www.bbc.co.uk/news/articles/cmn4540d4z87o?at_medium=RSS&at_campaign=rss",
-      "summary": "Pike’s lawyers have asked for her death sentence to be commuted following the botched execution.",
-      "published": "Thu, 01 Oct 2026 22:28:45 GMT",
+      "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
+      "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+      "summary": "The co-ordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports.",
+      "published": "Sat, 03 Oct 2026 04:38:31 GMT",
       "tags": []
     },
     {
-      "id": "381cf30bd5ec",
+      "id": "69e326080f67",
       "category": "news",
       "source": "BBC 世界",
-      "title": "NY's governor appoints special prosecutor in Cornell frat rape investigation",
-      "url": "https://www.bbc.co.uk/news/articles/cr1585y0y90go?at_medium=RSS&at_campaign=rss",
-      "summary": "The governor said she'd lost faith in prosecutors overseeing the case and handed it over to New York Attorney General Letitia James.",
-      "published": "Fri, 02 Oct 2026 02:49:44 GMT",
+      "title": "US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say",
+      "url": "https://www.bbc.co.uk/news/articles/c3kgqw7zvz47o?at_medium=RSS&at_campaign=rss",
+      "summary": "As of Thursday night, Pike remained critically ill and is being treated at a hospital in Nashville, Tennessee.",
+      "published": "Fri, 02 Oct 2026 20:32:07 GMT",
       "tags": []
     },
     {
-      "id": "39e41a2ade6f",
+      "id": "dec0176999bd",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Seoul warns 'further action' if Ukraine does not apologise over prisoner-of-war row",
-      "url": "https://www.bbc.co.uk/news/articles/cm1dld14weero?at_medium=RSS&at_campaign=rss",
-      "summary": "President Lee Jae Myung also accused Kyiv of \"attempting to provoke a war on the Korean Peninsula\".",
-      "published": "Fri, 02 Oct 2026 03:09:13 GMT",
+      "title": "Cornell frat house rape accuser 'under siege' online, says lawyer",
+      "url": "https://www.bbc.co.uk/news/articles/c6ly0ljypzrdo?at_medium=RSS&at_campaign=rss",
+      "summary": "A lawyer for Jane Doe says she is \"not doing well\" amid attempts to uncover her identity.",
+      "published": "Sat, 03 Oct 2026 02:23:07 GMT",
       "tags": []
     },
     {
-      "id": "cdd52eb3f6e4",
+      "id": "6ee8ae0821d3",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Venus' mysterious haze is actually cosmic dust",
-      "url": "https://arstechnica.com/science/2026/10/venus-mysterious-haze-is-actually-cosmic-dust/",
-      "summary": "A physical model show that iron dust and sulfuric acid create the right properties.",
-      "author": "Elizabeth Rayne",
-      "published": "Thu, 01 Oct 2026 22:27:04 +0000",
-      "tags": [
-        "Science",
-        "astronomy",
-        "atmospheric science",
-        "Haze"
-      ]
-    },
-    {
-      "id": "b14278871de7",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "SpaceX describes surgical intervention before launch of latest crew mission",
-      "url": "https://arstechnica.com/space/2026/10/spacex-describes-surgical-intervention-before-launch-of-latest-crew-mission/",
-      "summary": "With Crew-13, Jessica Watkins became the first Black woman to lead a mission into space.",
-      "author": "Stephen Clark",
-      "published": "Thu, 01 Oct 2026 22:07:33 +0000",
-      "tags": [
-        "Science",
-        "Space",
-        "commercial crew",
-        "Commercial space"
-      ]
-    },
-    {
-      "id": "898d664fff94",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data",
-      "url": "https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/",
-      "summary": "It has been a bad month for federal government cybersecurity.",
+      "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+      "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+      "summary": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
       "author": "Dan Goodin",
-      "published": "Thu, 01 Oct 2026 20:28:45 +0000",
+      "published": "Fri, 02 Oct 2026 23:03:16 +0000",
       "tags": [
+        "AI",
+        "Apple",
         "Biz & IT",
-        "Security",
-        "breaches",
-        "Department of Defense"
+        "Security"
       ]
     },
     {
-      "id": "20a100f5c90c",
+      "id": "58571d5add74",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Someone got Doom in an SQL database",
+      "url": "https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/",
+      "summary": "1,300 lines of SQL querying renders accurate bitmapped views of Hell at 35 fps.",
+      "author": "Kyle Orland",
+      "published": "Fri, 02 Oct 2026 21:19:05 +0000",
+      "tags": [
+        "Gaming",
+        "database",
+        "Doom",
+        "first-person shooter"
+      ]
+    },
+    {
+      "id": "f10ac2fa6ec2",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Amazon’s $1B plan to combat data center backlash draws more backlash",
+      "url": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
+      "summary": "Amazon praised for ending NDAs but slammed for downplaying data center pollution.",
+      "author": "Ashley Belanger",
+      "published": "Fri, 02 Oct 2026 20:30:27 +0000",
+      "tags": [
+        "AI",
+        "Policy",
+        "ai data center",
+        "Amazon"
+      ]
+    },
+    {
+      "id": "2b4585a5cb9d",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘I have $400,000 in equity’: I’m 80. Should I sell my house because of dangerous stairs — or spend thousands renovating?",
-      "url": "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories",
-      "summary": "“Generally, the advice I’ve read says not to sell because I have a low-interest-rate mortgage.”",
+      "title": "‘I don’t want to die on the sales floor’: I’m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?",
+      "url": "https://www.marketwatch.com/story/i-dont-want-to-die-on-the-sales-floor-im-67-and-earn-19-50-an-hour-at-a-big-box-store-when-can-i-finally-retire-369abcf9?mod=mw_rss_topstories",
+      "summary": "“I started taking Social Security at 66 and receive $2,410 a month. I have $214,000 in my 401(k).”",
       "author": "Quentin Fottrell",
-      "published": "Fri, 02 Oct 2026 01:00:00 GMT",
+      "published": "Sat, 03 Oct 2026 02:16:00 GMT",
       "tags": []
     },
     {
-      "id": "aabef0343d74",
+      "id": "4464199b0f7b",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?",
-      "url": "https://www.marketwatch.com/story/im-71-and-still-working-i-earn-108-000-a-year-am-i-doing-the-right-thing-aaedcaa4?mod=mw_rss_topstories",
-      "summary": "“I have $152,000 in my IRA and Roth accounts.”",
-      "author": "Quentin Fottrell",
-      "published": "Fri, 02 Oct 2026 00:30:00 GMT",
+      "title": "Why Western Digital and Seagate are seeing big stock drops today",
+      "url": "https://www.marketwatch.com/story/why-western-digital-and-seagate-are-seeing-big-stock-drops-today-6b16d95e?mod=mw_rss_topstories",
+      "summary": "Investors are worried that Toshiba will boost its production of a key AI storage product, potentially hurting the strong pricing power that Western Digital and Seagate currently enjoy.",
+      "author": "Emily Bary,Britney Nguyen",
+      "published": "Fri, 02 Oct 2026 22:42:00 GMT",
       "tags": []
     },
     {
-      "id": "77e04e2e894a",
+      "id": "6059a124b42e",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
-      "url": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
-      "summary": "“For 14 years I have gotten up every morning and gone to work while she has been free to pursue whatever interested her.”",
-      "author": "Quentin Fottrell",
-      "published": "Fri, 02 Oct 2026 00:15:00 GMT",
+      "title": "Tesla sold a lot more EVs than Wall Street expected, and the stock is surging",
+      "url": "https://www.marketwatch.com/story/tesla-ev-sales-beat-wall-streets-expectations-again-and-the-stock-jumps-294a4f53?mod=mw_rss_topstories",
+      "summary": "EV giant Tesla had the best three-month period for vehicle sales this year, but it was less than a year ago.",
+      "author": "William Gavin",
+      "published": "Fri, 02 Oct 2026 22:29:00 GMT",
       "tags": []
     }
   ],
