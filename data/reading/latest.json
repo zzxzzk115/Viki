@@ -1,222 +1,254 @@
 {
-  "date": "2026-10-03",
+  "date": "2026-10-04",
   "items": [
     {
-      "id": "662783eceb22",
+      "id": "446021258871",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Medical Lake, Washington",
-      "url": "https://simple.wikipedia.org/wiki/Medical_Lake%2C_Washington",
-      "summary": "Medical Lake is a city in Spokane County, Washington. The population was 4,874 at the 2020 census. Medical Lake has a psychiatric hospital named Eastern State Hospital.",
+      "title": "Lawson Crouse",
+      "url": "https://simple.wikipedia.org/wiki/Lawson_Crouse",
+      "summary": "Lawson Crouse is a Canadian professional ice hockey winger. He currently plays for the Utah Mammoth of the National Hockey League (NHL) and serves as an alternate captain. He has also played for the Arizona Coyotes. He is known for his physical play which earned him the nickname…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "147c3739aea9",
+      "id": "c47727ff2cd8",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Formiguères",
-      "url": "https://simple.wikipedia.org/wiki/Formigu%C3%A8res",
-      "summary": "Formiguères is a commune in the Pyrénées-Orientales department. It is in southern France.",
+      "title": "Seymour Benzer",
+      "url": "https://simple.wikipedia.org/wiki/Seymour_Benzer",
+      "summary": "Seymour Benzer was an American physicist, biologist and geneticist. He was of Jewish descent.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "37ad16bccc5b",
+      "id": "6419cdc1f601",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Newgrounds.com – A community of games, music, and art",
-      "url": "https://www.newgrounds.com/",
+      "title": "Why don't more developers \"use the platform\"?",
+      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
       "summary": "",
-      "author": "azhenley",
+      "author": "vinhnx",
+      "published": "2026-10-04",
+      "tags": [
+        "▲ 71"
+      ]
+    },
+    {
+      "id": "407d011a20b0",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "So you think you could be an electrician?",
+      "url": "https://asteriskmag.com/issues/15/so-you-think-you-could-be-an-electrician",
+      "summary": "",
+      "author": "zdw",
+      "published": "2026-09-30",
+      "tags": [
+        "▲ 152"
+      ]
+    },
+    {
+      "id": "016ae4161352",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+      "summary": "",
+      "author": "speckx",
+      "published": "2026-10-03",
+      "tags": [
+        "▲ 233"
+      ]
+    },
+    {
+      "id": "5a3f1f4a82c5",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "We're going to need default hard budget caps on pretty much everything",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "summary": "",
+      "author": "elffjs",
+      "published": "2026-10-04",
+      "tags": [
+        "▲ 372"
+      ]
+    },
+    {
+      "id": "549bdd288f9a",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Treachery in the Rodin Museum 3D scan verdict",
+      "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
+      "summary": "",
+      "author": "CosmoWenman",
       "published": "2026-10-03",
       "tags": [
         "▲ 151"
       ]
     },
     {
-      "id": "101e89adb123",
+      "id": "49f39eb86655",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Extra Big Ass Intelligence",
-      "url": "https://www.extrabigassintelligence.com/",
+      "title": "Hole Punch: Sling your spaceship around gravitational fields",
+      "url": "https://notoriousbfg.com/hole-punch/",
       "summary": "",
-      "author": "34679",
+      "author": "trwhite",
       "published": "2026-10-03",
       "tags": [
-        "▲ 107"
+        "▲ 276"
       ]
     },
     {
-      "id": "3ac5b3360665",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
-      "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
-      "summary": "",
-      "author": "hn_acker",
-      "published": "2026-10-01",
-      "tags": [
-        "▲ 590"
-      ]
-    },
-    {
-      "id": "47992b567ab4",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "The Forgetful CPU (Linux on M4)",
-      "url": "https://yuka.dev/blog-2026-10-02-linux-m4.html",
-      "summary": "",
-      "author": "signa11",
-      "published": "2026-10-02",
-      "tags": [
-        "▲ 181"
-      ]
-    },
-    {
-      "id": "51876bf7e69f",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Mike Tomlin spent 12 years building a Minecraft city",
-      "url": "https://www.nytimes.com/athletic/7648198/2026/10/01/mike-tomlin-minecraft-nfl-coach/",
-      "summary": "https://archive.ph/Kv6yS https://www.youtube.com/watch?v=_h_pQ1-5iQg https://www.theguardian.com/sport/2026/oct/01/mike-tomlin-mi...",
-      "author": "CoryOndrejka",
-      "published": "2026-10-01",
-      "tags": [
-        "▲ 408"
-      ]
-    },
-    {
-      "id": "8e1e4264e3c3",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Make Tmux the OS",
-      "url": "https://matduggan.com/what-does-my-dream-os-ui-look-like/",
-      "summary": "",
-      "author": "weaksauce",
-      "published": "2026-10-02",
-      "tags": [
-        "▲ 14"
-      ]
-    },
-    {
-      "id": "e351f0902660",
+      "id": "2169891573c2",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Three AI API changes from the last two weeks that break your code quietly",
-      "url": "https://dev.to/kirocrackreport/three-ai-api-changes-from-the-last-two-weeks-that-break-your-code-quietly-44i9",
-      "summary": "I keep a weekly log of where the AI tooling landscape gives way: the release notes that quietly invalidate code people already shipped. Three from the last two weeks, each with the seam nobody emails teams about. 1. Anthropic: Sonnet 4.5 is deprecated, and non-default sampling n…",
-      "author": "Kiro",
-      "published": "Sat, 03 Oct 2026 06:34:41 +0000",
+      "title": "A developer toolkit for UUID & GUID tasks",
+      "url": "https://dev.to/sayeed_alam_8821ad86e1526/a-developer-toolkit-for-uuid-guid-tasks-j6e",
+      "summary": "UUIDs are everywhere — databases, APIs, microservices, distributed systems and testing. But developers often need small utilities for different UUID-related tasks. So I’ve been building a collection of browser-based UUID & GUID tools covering: UUID generation Random UUID v4 UUID…",
+      "author": "Sayeed Alam",
+      "published": "Sun, 04 Oct 2026 07:02:15 +0000",
       "tags": [
         "ai",
-        "api",
         "programming",
         "webdev"
       ]
     },
     {
-      "id": "5d1190991af0",
+      "id": "b66f2e68c75d",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Cool Whip Fresh Whip | Dessert Whipped Cream for Cakes & Toppings | Buy Online",
-      "url": "https://dev.to/swhipwhip_cream_5a31b95b2/cool-whip-fresh-whip-dessert-whipped-cream-for-cakes-toppings-buy-online-3ogm",
-      "summary": "When you want an easy way to make desserts look and taste more enjoyable, a creamy topping can make a noticeable difference. Cool Whip Fresh Whip is a convenient choice for adding a light, creamy topping to cakes, pies, fruit, puddings, frozen desserts and other sweet treats. Wh…",
-      "author": "swhipwhip cream",
-      "published": "Sat, 03 Oct 2026 06:33:45 +0000",
+      "title": "If You Can't Draw the Boundary, You Don't Have an Architecture",
+      "url": "https://dev.to/nurrehman/if-you-cant-draw-the-boundary-you-dont-have-an-architecture-ln1",
+      "summary": "The boundary question ended my whiteboard round before it started. The interviewer asked where my system ended. I listed components. He said I had just described the whole company. He was right. Watch the 40-second version first: Q2: System Design Interviews Start With the Bound…",
+      "author": "Nadeem Ur-Rehman",
+      "published": "Sun, 04 Oct 2026 06:58:08 +0000",
       "tags": [
-        "ai",
+        "architecture",
         "webdev",
-        "productivity",
-        "tutorial"
+        "programming",
+        "javascript"
       ]
     },
     {
-      "id": "b86daf1ede9c",
+      "id": "2e768753ccae",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Figma Dev Mode: 7 Proven Fixes for a Painful Dev Handoff",
-      "url": "https://dev.to/siddhesh_kabra_690ef37451/figma-dev-mode-7-proven-fixes-for-a-painful-dev-handoff-4hkb",
-      "summary": "Published: 2026-10-02 Author: Siddhesh Kabra Category: UI/UX & Design Horizontal bar chart showing minutes saved per day using Figma Dev Mode features, from section statuses at 22 min to MCP server at 6 min Table of contents What is Figma Dev Mode and Why Does It Matter in 2025?…",
-      "author": "siddhesh kabra",
-      "published": "Sat, 03 Oct 2026 06:30:06 +0000",
-      "tags": [
-        "uxdesign",
-        "frontend",
-        "webdev"
-      ]
-    },
-    {
-      "id": "dcbdd4b12afe",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "ES2026 Features Overview: Modern JavaScript for Developers",
-      "url": "https://dev.to/ansh_sheladiya/es2026-features-overview-modern-javascript-for-developers-4n13",
-      "summary": "JavaScript continues to evolve through the ECMAScript standard, adding features that make everyday development safer, clearer, and more expressive. ES2026 builds on the language improvements introduced in recent editions while continuing the broader trend toward better developer…",
-      "author": "Ansh Sheladiya",
-      "published": "Sat, 03 Oct 2026 06:30:00 +0000",
+      "title": "Why You Should Use crypto.randomUUID() Instead of Math.random() for IDs",
+      "url": "https://dev.to/toolzip/why-you-should-use-cryptorandomuuid-instead-of-mathrandom-for-ids-4cjj",
+      "summary": "Why You Should Use crypto.randomUUID() Instead of Math.random() for IDs Math.random() is not random enough for IDs. Here's why — and what to use instead. The Problem with Math.random() Math.random() is a pseudo-random number generator (PRNG). It's deterministic: given the same s…",
+      "author": "toolzip",
+      "published": "Sun, 04 Oct 2026 06:57:30 +0000",
       "tags": [
         "javascript",
-        "ecmascript",
-        "node",
-        "webdev"
+        "security",
+        "webdev",
+        "toolzip"
       ]
     },
     {
-      "id": "3cf0b5be06cc",
+      "id": "011104f0edc9",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Semantic HTML and Accessibility:What I Learned",
+      "url": "https://dev.to/gracesaigilu/semantic-html-and-accessibilitywhat-i-learned-1phe",
+      "summary": "Introduction When I started learning web development, I focused mainly on making a webpage look good. However, I learned that a good website should also be easy for people to understand and use. Semantic HTML and accessibility help make websites more meaningful and usable for ev…",
+      "author": "GRACE KAISAI SAIGILU",
+      "published": "Sun, 04 Oct 2026 06:54:24 +0000",
+      "tags": [
+        "webdev",
+        "html",
+        "bigginers",
+        "accessibilty"
+      ]
+    },
+    {
+      "id": "16ee42742964",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Blindfold Me",
-      "url": "https://en.wikipedia.org/wiki/Blindfold_Me",
-      "summary": "\"Blindfold Me\" is a hip hop song by American singer Kelis from her fourth studio album, Kelis Was Here (2006). It was written and produced by Sean Garrett and Polow da Don. A remix, featuring American rapper Nas, was released as the album's second single in the United States on …",
+      "title": "Pennsylvania State Capitol",
+      "url": "https://en.wikipedia.org/wiki/Pennsylvania_State_Capitol",
+      "summary": "The Pennsylvania State Capitol is the seat of government for the U.S. state of Pennsylvania located in downtown Harrisburg. The building was designed by architect Joseph Miller Huston in 1902 and completed in 1906 in a Beaux-Arts style with decorative Renaissance themes througho…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
+      "id": "47b6a9535269",
+      "category": "news",
+      "source": "BBC 世界",
+      "title": "Tennessee prison chief to resign after Christa Pike's failed execution",
+      "url": "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss",
+      "summary": "Pike's lawyers said the failure \"goes far beyond any one person\". Pike is in critical condition after surviving two lethal injections.",
+      "published": "Sat, 03 Oct 2026 17:48:42 GMT",
+      "tags": []
+    },
+    {
+      "id": "d1b9ca0187b0",
+      "category": "news",
+      "source": "BBC 世界",
+      "title": "Australia investigating Flydubai co-pilot's links to country",
+      "url": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
+      "summary": "State police and the country's security agency are looking into the co-pilot, who attempted to take control of a Flydubai plane travelling to Israel.",
+      "published": "Sun, 04 Oct 2026 06:19:17 GMT",
+      "tags": []
+    },
+    {
+      "id": "19da8019050a",
+      "category": "news",
+      "source": "BBC 世界",
+      "title": "Cornell president says university 'must do better' after frat house rape allegations",
+      "url": "https://www.bbc.co.uk/news/articles/ckly0leelnz4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Michael Kotlikoff described the allegations of a woman who says she was drugged and gang raped as \"deeply disturbing\".",
+      "published": "Sun, 04 Oct 2026 00:11:25 GMT",
+      "tags": []
+    },
+    {
       "id": "5f92289cd5a4",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Russia strikes second major bridge in Kyiv, mayor says",
+      "title": "Russia hits second major bridge in Ukraine's capital Kyiv",
       "url": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
-      "summary": "The attack on Northern Bridge comes after repeat attacks on another major bridge in recent days.",
-      "published": "Sat, 03 Oct 2026 06:27:15 GMT",
+      "summary": "The strike on the Pivnichnyi (Northern) Bridge comes after repeat attacks on another major bridge in Ukraine's capital.",
+      "published": "Sat, 03 Oct 2026 16:16:49 GMT",
       "tags": []
     },
     {
-      "id": "55bcc6863564",
-      "category": "news",
-      "source": "BBC 世界",
-      "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
-      "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
-      "summary": "The co-ordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports.",
-      "published": "Sat, 03 Oct 2026 04:38:31 GMT",
-      "tags": []
+      "id": "8e9e87a9e351",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Milt Windler, NASA flight director who helped save Apollo 13, dies at 94",
+      "url": "https://arstechnica.com/space/2026/10/milt-windler-nasa-flight-director-who-helped-save-apollo-13-dies-at-94/",
+      "summary": "\"...we were making history.\"",
+      "author": "Robert Pearlman",
+      "published": "Sat, 03 Oct 2026 19:45:17 +0000",
+      "tags": [
+        "Space",
+        "apollo 10",
+        "Apollo 12",
+        "apollo 13"
+      ]
     },
     {
-      "id": "69e326080f67",
-      "category": "news",
-      "source": "BBC 世界",
-      "title": "US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say",
-      "url": "https://www.bbc.co.uk/news/articles/c3kgqw7zvz47o?at_medium=RSS&at_campaign=rss",
-      "summary": "As of Thursday night, Pike remained critically ill and is being treated at a hospital in Nashville, Tennessee.",
-      "published": "Fri, 02 Oct 2026 20:32:07 GMT",
-      "tags": []
-    },
-    {
-      "id": "dec0176999bd",
-      "category": "news",
-      "source": "BBC 世界",
-      "title": "Cornell frat house rape accuser 'under siege' online, says lawyer",
-      "url": "https://www.bbc.co.uk/news/articles/c6ly0ljypzrdo?at_medium=RSS&at_campaign=rss",
-      "summary": "A lawyer for Jane Doe says she is \"not doing well\" amid attempts to uncover her identity.",
-      "published": "Sat, 03 Oct 2026 02:23:07 GMT",
-      "tags": []
+      "id": "f42f54107540",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "The dawn of the age of the exoskeleton",
+      "url": "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/",
+      "summary": "The devices continue to show noticeable benefits for users in various real-world tasks.",
+      "author": "Ildar Farkhatdinov, The Conversation",
+      "published": "Sat, 03 Oct 2026 11:15:33 +0000",
+      "tags": [
+        "Science",
+        "Tech",
+        "exoskeleton",
+        "robotic exoskeleton"
+      ]
     },
     {
       "id": "6ee8ae0821d3",
@@ -235,68 +267,36 @@
       ]
     },
     {
-      "id": "58571d5add74",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Someone got Doom in an SQL database",
-      "url": "https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/",
-      "summary": "1,300 lines of SQL querying renders accurate bitmapped views of Hell at 35 fps.",
-      "author": "Kyle Orland",
-      "published": "Fri, 02 Oct 2026 21:19:05 +0000",
-      "tags": [
-        "Gaming",
-        "database",
-        "Doom",
-        "first-person shooter"
-      ]
-    },
-    {
-      "id": "f10ac2fa6ec2",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Amazon’s $1B plan to combat data center backlash draws more backlash",
-      "url": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
-      "summary": "Amazon praised for ending NDAs but slammed for downplaying data center pollution.",
-      "author": "Ashley Belanger",
-      "published": "Fri, 02 Oct 2026 20:30:27 +0000",
-      "tags": [
-        "AI",
-        "Policy",
-        "ai data center",
-        "Amazon"
-      ]
-    },
-    {
-      "id": "2b4585a5cb9d",
+      "id": "6d1b45c96fcc",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘I don’t want to die on the sales floor’: I’m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?",
-      "url": "https://www.marketwatch.com/story/i-dont-want-to-die-on-the-sales-floor-im-67-and-earn-19-50-an-hour-at-a-big-box-store-when-can-i-finally-retire-369abcf9?mod=mw_rss_topstories",
-      "summary": "“I started taking Social Security at 66 and receive $2,410 a month. I have $214,000 in my 401(k).”",
+      "title": "The government can take 15% of Social Security benefits to repay student loans. These proposals seek to stop it.",
+      "url": "https://www.marketwatch.com/story/the-government-can-take-15-of-social-security-benefits-to-repay-student-loans-these-proposals-seek-to-stop-it-102622fa?mod=mw_rss_topstories",
+      "summary": "Debt among older Americans is rising, both in terms of the number of older households carrying debt and the amount borrowed.",
+      "author": "Jessica Hall",
+      "published": "Sun, 04 Oct 2026 00:02:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "cd0ab8639c7a",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "Falling wages, soaring energy prices and inflation: It’s beginning to look a lot like the 1970s",
+      "url": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories",
+      "summary": "Is it time to dust off the financial playbook from that dismal decade?",
+      "author": "Brett Arends",
+      "published": "Sat, 03 Oct 2026 23:58:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "77e04e2e894a",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
+      "url": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
+      "summary": "“For 14 years I have gotten up every morning and gone to work while she has been free to pursue whatever interested her.”",
       "author": "Quentin Fottrell",
-      "published": "Sat, 03 Oct 2026 02:16:00 GMT",
-      "tags": []
-    },
-    {
-      "id": "4464199b0f7b",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "Why Western Digital and Seagate are seeing big stock drops today",
-      "url": "https://www.marketwatch.com/story/why-western-digital-and-seagate-are-seeing-big-stock-drops-today-6b16d95e?mod=mw_rss_topstories",
-      "summary": "Investors are worried that Toshiba will boost its production of a key AI storage product, potentially hurting the strong pricing power that Western Digital and Seagate currently enjoy.",
-      "author": "Emily Bary,Britney Nguyen",
-      "published": "Fri, 02 Oct 2026 22:42:00 GMT",
-      "tags": []
-    },
-    {
-      "id": "6059a124b42e",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "Tesla sold a lot more EVs than Wall Street expected, and the stock is surging",
-      "url": "https://www.marketwatch.com/story/tesla-ev-sales-beat-wall-streets-expectations-again-and-the-stock-jumps-294a4f53?mod=mw_rss_topstories",
-      "summary": "EV giant Tesla had the best three-month period for vehicle sales this year, but it was less than a year ago.",
-      "author": "William Gavin",
-      "published": "Fri, 02 Oct 2026 22:29:00 GMT",
+      "published": "Sat, 03 Oct 2026 20:00:00 GMT",
       "tags": []
     }
   ],
