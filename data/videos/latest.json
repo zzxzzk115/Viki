@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-03",
+  "date": "2026-10-04",
   "items": [
     {
       "id": "b7d9300382c5",
@@ -112,6 +112,17 @@
       "category": "引擎"
     },
     {
+      "id": "51335bf22feb",
+      "platform": "youtube",
+      "videoId": "VydHKLBXdVQ",
+      "title": "All the Noble Polyhedra #maths #math #animation",
+      "channel": "Numberphile",
+      "url": "https://www.youtube.com/shorts/VydHKLBXdVQ",
+      "thumb": "https://i3.ytimg.com/vi/VydHKLBXdVQ/hqdefault.jpg",
+      "published": "2026-10-03",
+      "category": "CS"
+    },
+    {
       "id": "5e8e920cb754",
       "platform": "youtube",
       "videoId": "95335U-cUh8",
@@ -120,17 +131,6 @@
       "url": "https://www.youtube.com/watch?v=95335U-cUh8",
       "thumb": "https://i2.ytimg.com/vi/95335U-cUh8/hqdefault.jpg",
       "published": "2026-10-02",
-      "category": "CS"
-    },
-    {
-      "id": "38c4e3a0ea1d",
-      "platform": "youtube",
-      "videoId": "Mzbtj5nkMXI",
-      "title": "The Buckmaster Interview (Navier-Stokes) - Numberphile",
-      "channel": "Numberphile",
-      "url": "https://www.youtube.com/watch?v=Mzbtj5nkMXI",
-      "thumb": "https://i2.ytimg.com/vi/Mzbtj5nkMXI/hqdefault.jpg",
-      "published": "2026-09-29",
       "category": "CS"
     },
     {
@@ -178,28 +178,6 @@
       "category": "金融"
     },
     {
-      "id": "09f26dc16757",
-      "platform": "bilibili",
-      "videoId": "BV1ssac6oEL3",
-      "title": "国产医疗设备，怎么样了？",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV1ssac6oEL3",
-      "thumb": "https://i0.hdslb.com/bfs/archive/6920ec9dbfe2032e21d9f2b0375bca002aabf89a.jpg",
-      "published": "2026-09-26",
-      "category": "金融"
-    },
-    {
-      "id": "c5e950b83019",
-      "platform": "bilibili",
-      "videoId": "BV1SUhe6xEM2",
-      "title": "【硬核】俄乌打了四年多，到底谁在买单？",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV1SUhe6xEM2",
-      "thumb": "https://i1.hdslb.com/bfs/archive/59630832faa05aa7034139342d216208749d56d9.jpg",
-      "published": "2026-09-22",
-      "category": "金融"
-    },
-    {
       "id": "eae207bb2346",
       "platform": "youtube",
       "videoId": "0GGPe_Oum6c",
@@ -241,6 +219,50 @@
       "url": "https://www.youtube.com/watch?v=h6E4_Bcmscg",
       "thumb": "https://i1.ytimg.com/vi/h6E4_Bcmscg/hqdefault.jpg",
       "published": "2025-08-30",
+      "category": "历史"
+    },
+    {
+      "id": "aa478a918252",
+      "platform": "bilibili",
+      "videoId": "BV1bzaf6YEhk",
+      "title": "富德·平准前奏：基层兵丁，如何十五年，官居二品？【乾隆往事】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1bzaf6YEhk",
+      "thumb": "https://i1.hdslb.com/bfs/archive/c881023880c610091ce90a386137624466a50239.jpg",
+      "published": "2026-09-30",
+      "category": "历史"
+    },
+    {
+      "id": "9c7859f9a6d8",
+      "platform": "bilibili",
+      "videoId": "BV1w8YX6uEvL",
+      "title": "才女·黄媛介：拒绝顶流告白，只为逃婚丈夫，回心转意？【大明风华】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1w8YX6uEvL",
+      "thumb": "https://i0.hdslb.com/bfs/archive/3469211773b26d6bf12e4ebb6ad9e413971afccc.jpg",
+      "published": "2026-09-12",
+      "category": "历史"
+    },
+    {
+      "id": "63cee07f2023",
+      "platform": "bilibili",
+      "videoId": "BV1WhaA6hE7s",
+      "title": "糟糕！我的粮食被勋宗抢走了！【神奇组织54】",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV1WhaA6hE7s",
+      "thumb": "https://i2.hdslb.com/bfs/archive/226f434fef1c833057d85dc5faf20c2862e988e9.jpg",
+      "published": "2026-09-25",
+      "category": "历史"
+    },
+    {
+      "id": "b806d6653432",
+      "platform": "bilibili",
+      "videoId": "BV12RYx6TE9r",
+      "title": "告别伊玛目  伊朗篇（终）",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV12RYx6TE9r",
+      "thumb": "https://i1.hdslb.com/bfs/archive/78b3aa4466a8e541c8191498d2e7dfa3bd6833fb.jpg",
+      "published": "2026-09-11",
       "category": "历史"
     },
     {
@@ -299,12 +321,12 @@
     "CS · 1567748478: 0 条",
     "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 2 条",
-    "金融 · 520819684: 2 条",
+    "Bilibili 520819684: code=-352 风控校验失败",
+    "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
-    "Bilibili 11646119: code=-352 风控校验失败",
-    "历史 · 11646119: 0 条",
-    "历史 · 23947287: 0 条",
+    "历史 · 11646119: 2 条",
+    "历史 · 23947287: 2 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
   ]
