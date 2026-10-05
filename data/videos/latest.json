@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "items": [
     {
       "id": "b7d9300382c5",
@@ -46,28 +46,6 @@
       "category": "图形学"
     },
     {
-      "id": "63dfc2ba201c",
-      "platform": "bilibili",
-      "videoId": "BV17aho6iE7k",
-      "title": "GAMES Webinar 416-具身智能专题：从灵巧操作到真机数据闭环-徐志轩-接触驱动的灵巧操作学习",
-      "channel": "GAMES-Webinar",
-      "url": "https://www.bilibili.com/video/BV17aho6iE7k",
-      "thumb": "https://i1.hdslb.com/bfs/archive/ebfd966d9908172eb5fc2a50a8d026962497333c.jpg",
-      "published": "2026-09-26",
-      "category": "图形学"
-    },
-    {
-      "id": "ee2476518bc0",
-      "platform": "bilibili",
-      "videoId": "BV17aho6iEkh",
-      "title": "GAMES Webinar 416-具身智能专题：从灵巧操作到真机数据闭环-李永露-具身模型的真机评测与数据配方",
-      "channel": "GAMES-Webinar",
-      "url": "https://www.bilibili.com/video/BV17aho6iEkh",
-      "thumb": "https://i0.hdslb.com/bfs/archive/67607bbf0a01c26a17497ea0c55aa920bad2986a.jpg",
-      "published": "2026-09-26",
-      "category": "图形学"
-    },
-    {
       "id": "9fa31e74074c",
       "platform": "youtube",
       "videoId": "YRwtopFzRZ0",
@@ -87,28 +65,6 @@
       "url": "https://www.youtube.com/watch?v=sY_U3-ih4Bs",
       "thumb": "https://i4.ytimg.com/vi/sY_U3-ih4Bs/hqdefault.jpg",
       "published": "2022-05-05",
-      "category": "引擎"
-    },
-    {
-      "id": "74d5969623e3",
-      "platform": "bilibili",
-      "videoId": "BV1BTnxzKEVv",
-      "title": "2025.9月编程语言排行榜 C++、C、JAVA亚军之争异常激烈 Perl的火爆与人工智能无关",
-      "channel": "原子之音",
-      "url": "https://www.bilibili.com/video/BV1BTnxzKEVv",
-      "thumb": "https://i0.hdslb.com/bfs/archive/57a35f617d5a79a0ce357179e98382a0c2786185.jpg",
-      "published": "2025-09-26",
-      "category": "引擎"
-    },
-    {
-      "id": "20c78ca36141",
-      "platform": "bilibili",
-      "videoId": "BV1TXWVzZEx4",
-      "title": "虚幻中的C++: 输入系统(Input与Enhanced Input)",
-      "channel": "原子之音",
-      "url": "https://www.bilibili.com/video/BV1TXWVzZEx4",
-      "thumb": "https://i0.hdslb.com/bfs/archive/56b88c2f99c47fd48d8dd518d296fa8697902d72.jpg",
-      "published": "2025-09-20",
       "category": "引擎"
     },
     {
@@ -153,6 +109,28 @@
       "url": "https://www.youtube.com/watch?v=3dsilDca9DA",
       "thumb": "https://i4.ytimg.com/vi/3dsilDca9DA/hqdefault.jpg",
       "published": "2025-02-06",
+      "category": "CS"
+    },
+    {
+      "id": "cdb4fb8040a2",
+      "platform": "bilibili",
+      "videoId": "BV1JGap6LE74",
+      "title": "需求和架构 (2) [07-Raw/26生成式软件工程/NJU]",
+      "channel": "绿导师原谅你了",
+      "url": "https://www.bilibili.com/video/BV1JGap6LE74",
+      "thumb": "https://i2.hdslb.com/bfs/archive/83c1f57d146cd404c922cef190d2c4646dca654b.jpg",
+      "published": "2026-09-29",
+      "category": "CS"
+    },
+    {
+      "id": "9654c0a73770",
+      "platform": "bilibili",
+      "videoId": "BV1Rch76WEfQ",
+      "title": "需求和架构 (1) [06-Raw/26生成式软件工程/NJU]",
+      "channel": "绿导师原谅你了",
+      "url": "https://www.bilibili.com/video/BV1Rch76WEfQ",
+      "thumb": "https://i1.hdslb.com/bfs/archive/e2606ba4314ef35e144efa4436ab30e3c3bbea63.jpg",
+      "published": "2026-09-22",
       "category": "CS"
     },
     {
@@ -244,28 +222,6 @@
       "category": "历史"
     },
     {
-      "id": "63cee07f2023",
-      "platform": "bilibili",
-      "videoId": "BV1WhaA6hE7s",
-      "title": "糟糕！我的粮食被勋宗抢走了！【神奇组织54】",
-      "channel": "小约翰可汗",
-      "url": "https://www.bilibili.com/video/BV1WhaA6hE7s",
-      "thumb": "https://i2.hdslb.com/bfs/archive/226f434fef1c833057d85dc5faf20c2862e988e9.jpg",
-      "published": "2026-09-25",
-      "category": "历史"
-    },
-    {
-      "id": "b806d6653432",
-      "platform": "bilibili",
-      "videoId": "BV12RYx6TE9r",
-      "title": "告别伊玛目  伊朗篇（终）",
-      "channel": "小约翰可汗",
-      "url": "https://www.bilibili.com/video/BV12RYx6TE9r",
-      "thumb": "https://i1.hdslb.com/bfs/archive/78b3aa4466a8e541c8191498d2e7dfa3bd6833fb.jpg",
-      "published": "2026-09-11",
-      "category": "历史"
-    },
-    {
       "id": "4325104540de",
       "platform": "youtube",
       "videoId": "0Mei6O6ytDM",
@@ -313,20 +269,21 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "图形学 · 512313464: 2 条",
+    "Bilibili 512313464: code=-352 风控校验失败",
+    "图形学 · 512313464: 0 条",
     "引擎 · @TheCherno: 2 条",
-    "引擎 · 437860379: 2 条",
+    "Bilibili 437860379: code=-352 风控校验失败",
+    "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
     "CS · 1567748478: 0 条",
-    "CS · 202224425: 0 条",
+    "CS · 202224425: 2 条",
     "金融 · @ThePlainBagel: 2 条",
-    "Bilibili 520819684: code=-352 风控校验失败",
     "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
     "历史 · 11646119: 2 条",
-    "历史 · 23947287: 2 条",
+    "历史 · 23947287: 0 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
   ]
