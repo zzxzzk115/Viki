@@ -1,291 +1,291 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "items": [
     {
-      "id": "446021258871",
+      "id": "fd83b0ea3412",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Lawson Crouse",
-      "url": "https://simple.wikipedia.org/wiki/Lawson_Crouse",
-      "summary": "Lawson Crouse is a Canadian professional ice hockey winger. He currently plays for the Utah Mammoth of the National Hockey League (NHL) and serves as an alternate captain. He has also played for the Arizona Coyotes. He is known for his physical play which earned him the nickname…",
+      "title": "Professional wrestling holds",
+      "url": "https://simple.wikipedia.org/wiki/Professional_wrestling_holds",
+      "summary": "In professional wrestling, a hold is any kind of move used by a performer to stop their opponent from being able to move. The hold may lead to a submission from the opponent. Some examples of holds are the cloverleaf, the keylock, and the guillotine choke.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "c47727ff2cd8",
+      "id": "5d6057422016",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Seymour Benzer",
-      "url": "https://simple.wikipedia.org/wiki/Seymour_Benzer",
-      "summary": "Seymour Benzer was an American physicist, biologist and geneticist. He was of Jewish descent.",
+      "title": "Margaret Fulton",
+      "url": "https://simple.wikipedia.org/wiki/Margaret_Fulton",
+      "summary": "Margaret Isobel Fulton OAM was a Scottish-born Australian food and cooking 'guru', writer, journalist, author, and commentator. She was the first of this genre of writers in Australia. She was born in Nairn, Scotland. Fulton's best known work was writing The Margaret Fulton Cook…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "6419cdc1f601",
+      "id": "da328f137f92",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Why don't more developers \"use the platform\"?",
-      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "title": "Replacement of petroleum based products with plant-based materials (2025)",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/eng2.70108",
       "summary": "",
-      "author": "vinhnx",
+      "author": "thelastgallon",
+      "published": "2026-10-05",
+      "tags": [
+        "▲ 39"
+      ]
+    },
+    {
+      "id": "bca476fd3463",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "url": "https://github.com/Niko1221/Strata",
+      "summary": "",
+      "author": "snehesht",
       "published": "2026-10-04",
       "tags": [
-        "▲ 71"
+        "▲ 742"
       ]
     },
     {
-      "id": "407d011a20b0",
+      "id": "5565bae6fe80",
       "category": "tech",
       "source": "Hacker News",
-      "title": "So you think you could be an electrician?",
-      "url": "https://asteriskmag.com/issues/15/so-you-think-you-could-be-an-electrician",
+      "title": "We ported the original Doom to SQL",
+      "url": "https://cedardb.com/blog/sqldoom/",
       "summary": "",
-      "author": "zdw",
-      "published": "2026-09-30",
-      "tags": [
-        "▲ 152"
-      ]
-    },
-    {
-      "id": "016ae4161352",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
-      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
-      "summary": "",
-      "author": "speckx",
+      "author": "Vaslo",
       "published": "2026-10-03",
       "tags": [
-        "▲ 233"
+        "▲ 43"
       ]
     },
     {
-      "id": "5a3f1f4a82c5",
+      "id": "eef8eba23963",
       "category": "tech",
       "source": "Hacker News",
-      "title": "We're going to need default hard budget caps on pretty much everything",
-      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-      "summary": "",
-      "author": "elffjs",
+      "title": "In the wake of closure, a digital archive of animated materials appears online",
+      "url": "https://filmstories.co.uk/news/tippett-studios-in-the-wake-of-its-closure-a-digital-archive-of-animated-materials-appears-online/",
+      "summary": "https://archive.org/details/tippett-archive/",
+      "author": "rdmuser",
       "published": "2026-10-04",
       "tags": [
-        "▲ 372"
+        "▲ 109"
       ]
     },
     {
-      "id": "549bdd288f9a",
+      "id": "1cf5e38d2159",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Treachery in the Rodin Museum 3D scan verdict",
-      "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
+      "title": "A 40ms Go garbage collector pause caused by swap",
+      "url": "https://frn.sh/go-gc/",
       "summary": "",
-      "author": "CosmoWenman",
-      "published": "2026-10-03",
+      "author": "shellpipe",
+      "published": "2026-10-05",
       "tags": [
-        "▲ 151"
+        "▲ 66"
       ]
     },
     {
-      "id": "49f39eb86655",
+      "id": "daaa1657e30f",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Hole Punch: Sling your spaceship around gravitational fields",
-      "url": "https://notoriousbfg.com/hole-punch/",
+      "title": "Infidel goes wild",
+      "url": "https://blog.zarfhome.com/2026/10/infidel-goes-wild",
       "summary": "",
-      "author": "trwhite",
+      "author": "tobr",
       "published": "2026-10-03",
       "tags": [
-        "▲ 276"
+        "▲ 122"
       ]
     },
     {
-      "id": "2169891573c2",
+      "id": "9cbd5f53c78c",
       "category": "tech",
       "source": "DEV Community",
-      "title": "A developer toolkit for UUID & GUID tasks",
-      "url": "https://dev.to/sayeed_alam_8821ad86e1526/a-developer-toolkit-for-uuid-guid-tasks-j6e",
-      "summary": "UUIDs are everywhere — databases, APIs, microservices, distributed systems and testing. But developers often need small utilities for different UUID-related tasks. So I’ve been building a collection of browser-based UUID & GUID tools covering: UUID generation Random UUID v4 UUID…",
-      "author": "Sayeed Alam",
-      "published": "Sun, 04 Oct 2026 07:02:15 +0000",
+      "title": "Server Room Monitoring System: Real-Time Infrastructure Monitoring with SCADA and IoT",
+      "url": "https://dev.to/akashiphuc/server-room-monitoring-system-real-time-infrastructure-monitoring-with-scada-and-iot-4k90",
+      "summary": "Modern server rooms require more than physical security. Temperature fluctuations, excessive humidity, water leakage, power problems, smoke, fire, or unauthorized access can affect critical IT equipment and lead to unexpected downtime. A Server Room Monitoring System provides a …",
+      "author": "AkashiPhuc",
+      "published": "Mon, 05 Oct 2026 07:10:17 +0000",
       "tags": [
-        "ai",
+        "iot",
+        "productivity",
         "programming",
         "webdev"
       ]
     },
     {
-      "id": "b66f2e68c75d",
+      "id": "f81e5b278f2b",
       "category": "tech",
       "source": "DEV Community",
-      "title": "If You Can't Draw the Boundary, You Don't Have an Architecture",
-      "url": "https://dev.to/nurrehman/if-you-cant-draw-the-boundary-you-dont-have-an-architecture-ln1",
-      "summary": "The boundary question ended my whiteboard round before it started. The interviewer asked where my system ended. I listed components. He said I had just described the whole company. He was right. Watch the 40-second version first: Q2: System Design Interviews Start With the Bound…",
-      "author": "Nadeem Ur-Rehman",
-      "published": "Sun, 04 Oct 2026 06:58:08 +0000",
+      "title": "Deterministic Video Rendering from HTML Streams: Integrating HyperFrames into Agentic UI Pipelines",
+      "url": "https://dev.to/ken_2234/deterministic-video-rendering-from-html-streams-integrating-hyperframes-into-agentic-ui-pipelines-2p52",
+      "summary": "It is 3:14 AM, and the on-call pager starts screaming because automated marketing videos rendered for downstream enterprise clients are drifting out of sync. Titles pop three frames before background video assets initialize, kinetic captions overlap lower-third banners, and the …",
+      "author": "Ken",
+      "published": "Mon, 05 Oct 2026 07:07:42 +0000",
       "tags": [
-        "architecture",
-        "webdev",
-        "programming",
-        "javascript"
+        "typescript",
+        "react",
+        "ai",
+        "webdev"
       ]
     },
     {
-      "id": "2e768753ccae",
+      "id": "7ec5ae5f5070",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Why You Should Use crypto.randomUUID() Instead of Math.random() for IDs",
-      "url": "https://dev.to/toolzip/why-you-should-use-cryptorandomuuid-instead-of-mathrandom-for-ids-4cjj",
-      "summary": "Why You Should Use crypto.randomUUID() Instead of Math.random() for IDs Math.random() is not random enough for IDs. Here's why — and what to use instead. The Problem with Math.random() Math.random() is a pseudo-random number generator (PRNG). It's deterministic: given the same s…",
-      "author": "toolzip",
-      "published": "Sun, 04 Oct 2026 06:57:30 +0000",
+      "title": "Orderly: An AI WhatsApp Order-Taker That Refuses to Guess",
+      "url": "https://dev.to/noor_ulhuda_67fbcf3d4b66/orderly-an-ai-whatsapp-order-taker-that-refuses-to-guess-588b",
+      "summary": "Orderly: An AI WhatsApp Order-Taker That Refuses to Guess Small shops often receive customer orders through WhatsApp like: “2 kg rice, 1 litre oil, and 1 kg sugar.” But real messages can be much messier — Telugu + English, corrections, unclear quantities, or voice notes. The dif…",
+      "author": "Noor Ul Huda",
+      "published": "Mon, 05 Oct 2026 07:07:23 +0000",
       "tags": [
-        "javascript",
-        "security",
+        "ai",
         "webdev",
-        "toolzip"
+        "python"
       ]
     },
     {
-      "id": "011104f0edc9",
+      "id": "003651a13d0f",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Semantic HTML and Accessibility:What I Learned",
-      "url": "https://dev.to/gracesaigilu/semantic-html-and-accessibilitywhat-i-learned-1phe",
-      "summary": "Introduction When I started learning web development, I focused mainly on making a webpage look good. However, I learned that a good website should also be easy for people to understand and use. Semantic HTML and accessibility help make websites more meaningful and usable for ev…",
-      "author": "GRACE KAISAI SAIGILU",
-      "published": "Sun, 04 Oct 2026 06:54:24 +0000",
+      "title": "Which is the best interior VR walkthrough development company?",
+      "url": "https://dev.to/charuabhiwan001/which-is-the-best-interior-vr-walkthrough-development-company-2d0m",
+      "summary": "Abhiwan Technology delivers interior VR walkthrough development solutions to convert interior concepts into interactive digital spaces that can be experienced by users before construction or renovation. Combining the strength of 3D modeling, realistic materials, lighting, and VR…",
+      "author": "Charu Abhiwan",
+      "published": "Mon, 05 Oct 2026 07:04:53 +0000",
       "tags": [
+        "vr",
+        "ai",
         "webdev",
-        "html",
-        "bigginers",
-        "accessibilty"
+        "programming"
       ]
     },
     {
-      "id": "16ee42742964",
+      "id": "80eac9f05180",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Pennsylvania State Capitol",
-      "url": "https://en.wikipedia.org/wiki/Pennsylvania_State_Capitol",
-      "summary": "The Pennsylvania State Capitol is the seat of government for the U.S. state of Pennsylvania located in downtown Harrisburg. The building was designed by architect Joseph Miller Huston in 1902 and completed in 1906 in a Beaux-Arts style with decorative Renaissance themes througho…",
+      "title": "White-headed fruit dove",
+      "url": "https://en.wikipedia.org/wiki/White-headed_fruit_dove",
+      "summary": "The white-headed fruit dove is a species of bird in the pigeon family, Columbidae. It was described by the English ornithologist John Gould in 1856, and the specific name eugeniae honours the French empress Eugénie de Montijo. Adults of the species have white heads, a purplish-r…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "47b6a9535269",
+      "id": "271561d9eddf",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Tennessee prison chief to resign after Christa Pike's failed execution",
-      "url": "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Pike's lawyers said the failure \"goes far beyond any one person\". Pike is in critical condition after surviving two lethal injections.",
-      "published": "Sat, 03 Oct 2026 17:48:42 GMT",
+      "title": "US air force removes all bombers from British military base RAF Fairford",
+      "url": "https://www.bbc.co.uk/news/articles/cmwyve191dlko?at_medium=RSS&at_campaign=rss",
+      "summary": "No reason has been given for the withdrawal, but it follows a major incident last week when police were alerted to \"suspicious vehicles\" near the airbase.",
+      "published": "Mon, 05 Oct 2026 07:14:28 GMT",
       "tags": []
     },
     {
-      "id": "d1b9ca0187b0",
+      "id": "85ac007f42df",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Australia investigating Flydubai co-pilot's links to country",
-      "url": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
-      "summary": "State police and the country's security agency are looking into the co-pilot, who attempted to take control of a Flydubai plane travelling to Israel.",
-      "published": "Sun, 04 Oct 2026 06:19:17 GMT",
+      "title": "Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round",
+      "url": "https://www.bbc.co.uk/news/articles/ck1l34ed592no?at_medium=RSS&at_campaign=rss",
+      "summary": "With neither candidate getting more than 50% of the vote, the election will go to a run-off on 25 October.",
+      "published": "Mon, 05 Oct 2026 03:16:16 GMT",
       "tags": []
     },
     {
-      "id": "19da8019050a",
+      "id": "67da709ad46a",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Cornell president says university 'must do better' after frat house rape allegations",
-      "url": "https://www.bbc.co.uk/news/articles/ckly0leelnz4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Michael Kotlikoff described the allegations of a woman who says she was drugged and gang raped as \"deeply disturbing\".",
-      "published": "Sun, 04 Oct 2026 00:11:25 GMT",
+      "title": "Watch: How Brazil's dramatic election unfolded",
+      "url": "https://www.bbc.co.uk/news/videos/cwp9g54v9xjlo?at_medium=RSS&at_campaign=rss",
+      "summary": "Millions of Brazilians took to the polls on Sunday for the first round of the country's presidential elections.",
+      "published": "Mon, 05 Oct 2026 04:51:24 GMT",
       "tags": []
     },
     {
-      "id": "5f92289cd5a4",
+      "id": "e06269fd8cfc",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Russia hits second major bridge in Ukraine's capital Kyiv",
-      "url": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
-      "summary": "The strike on the Pivnichnyi (Northern) Bridge comes after repeat attacks on another major bridge in Ukraine's capital.",
-      "published": "Sat, 03 Oct 2026 16:16:49 GMT",
+      "title": "Trump unveils 'Super Intelligence Force' to oversee AI policy",
+      "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
+      "summary": "The president named his national intelligence chief as the taskforce's head as worries over AI grow.",
+      "published": "Mon, 05 Oct 2026 06:15:29 GMT",
       "tags": []
     },
     {
-      "id": "8e9e87a9e351",
+      "id": "3fa4d4d37383",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Milt Windler, NASA flight director who helped save Apollo 13, dies at 94",
-      "url": "https://arstechnica.com/space/2026/10/milt-windler-nasa-flight-director-who-helped-save-apollo-13-dies-at-94/",
-      "summary": "\"...we were making history.\"",
-      "author": "Robert Pearlman",
-      "published": "Sat, 03 Oct 2026 19:45:17 +0000",
-      "tags": [
-        "Space",
-        "apollo 10",
-        "Apollo 12",
-        "apollo 13"
-      ]
-    },
-    {
-      "id": "f42f54107540",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "The dawn of the age of the exoskeleton",
-      "url": "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/",
-      "summary": "The devices continue to show noticeable benefits for users in various real-world tasks.",
-      "author": "Ildar Farkhatdinov, The Conversation",
-      "published": "Sat, 03 Oct 2026 11:15:33 +0000",
+      "title": "New forensic evidence supports Egyptian \"retainer sacrifice\"",
+      "url": "https://arstechnica.com/science/2026/10/new-forensice-evidence-supports-egyptian-retainer-sacrifice/",
+      "summary": "Fresh analysis of First Dynasty mass burials finds signs of fatal blunt force trauma on 39 percent of skulls",
+      "author": "Jennifer Ouellette",
+      "published": "Mon, 05 Oct 2026 04:00:52 +0000",
       "tags": [
         "Science",
-        "Tech",
-        "exoskeleton",
-        "robotic exoskeleton"
+        "ancient egypt",
+        "Archaeology",
+        "bioarchaeology"
       ]
     },
     {
-      "id": "6ee8ae0821d3",
+      "id": "3116e977cb80",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
-      "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-      "summary": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
-      "author": "Dan Goodin",
-      "published": "Fri, 02 Oct 2026 23:03:16 +0000",
+      "title": "Lions and cheetahs and chimps, oh my: a spotlight on Africa's diverse wildlife",
+      "url": "https://arstechnica.com/science/2026/10/lions-and-cheetahs-and-chimps-oh-my-a-spotlight-on-africas-diverse-wildlife/",
+      "summary": "Wunmi Mosaku ( Sinners, Loki ) narrates NatGeo's new documentary Africa: Earth's Wild Home",
+      "author": "Jennifer Ouellette",
+      "published": "Sun, 04 Oct 2026 15:34:14 +0000",
       "tags": [
-        "AI",
-        "Apple",
-        "Biz & IT",
-        "Security"
+        "Culture",
+        "Science",
+        "disney plus",
+        "documentaries"
       ]
     },
     {
-      "id": "6d1b45c96fcc",
+      "id": "4594e1656659",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "All hail electrification. But let’s talk about the hard part.",
+      "url": "https://arstechnica.com/science/2026/10/all-hail-electrification-but-lets-talk-about-the-hard-part/",
+      "summary": "The IEA and climate negotiators want to set a target for shifting the economy to run on electricity.",
+      "author": "Dan Gearino, Inside Climate News",
+      "published": "Sun, 04 Oct 2026 11:05:53 +0000",
+      "tags": [
+        "Science",
+        "electrification",
+        "International Energy Agency",
+        "syndication"
+      ]
+    },
+    {
+      "id": "bf336c0afbd9",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "The government can take 15% of Social Security benefits to repay student loans. These proposals seek to stop it.",
-      "url": "https://www.marketwatch.com/story/the-government-can-take-15-of-social-security-benefits-to-repay-student-loans-these-proposals-seek-to-stop-it-102622fa?mod=mw_rss_topstories",
-      "summary": "Debt among older Americans is rising, both in terms of the number of older households carrying debt and the amount borrowed.",
-      "author": "Jessica Hall",
-      "published": "Sun, 04 Oct 2026 00:02:00 GMT",
+      "title": "‘I’d rather be on a beach in Bali’: My husband resents my $8 million net worth. Should I pay for his retirement?",
+      "url": "https://www.marketwatch.com/story/i-feel-like-hes-holding-me-back-i-have-8-million-my-husband-resents-my-success-should-i-pay-for-more-things-08a4221b?mod=mw_rss_topstories",
+      "summary": "“We have an ironclad prenup.”",
+      "author": "Quentin Fottrell",
+      "published": "Sun, 04 Oct 2026 20:31:00 GMT",
       "tags": []
     },
     {
-      "id": "cd0ab8639c7a",
+      "id": "aabef0343d74",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Falling wages, soaring energy prices and inflation: It’s beginning to look a lot like the 1970s",
-      "url": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories",
-      "summary": "Is it time to dust off the financial playbook from that dismal decade?",
-      "author": "Brett Arends",
-      "published": "Sat, 03 Oct 2026 23:58:00 GMT",
+      "title": "I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?",
+      "url": "https://www.marketwatch.com/story/im-71-and-still-working-i-earn-108-000-a-year-am-i-doing-the-right-thing-aaedcaa4?mod=mw_rss_topstories",
+      "summary": "“I have $152,000 in my IRA and Roth accounts.”",
+      "author": "Quentin Fottrell",
+      "published": "Sun, 04 Oct 2026 20:00:00 GMT",
       "tags": []
     },
     {
@@ -296,7 +296,7 @@
       "url": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
       "summary": "“For 14 years I have gotten up every morning and gone to work while she has been free to pursue whatever interested her.”",
       "author": "Quentin Fottrell",
-      "published": "Sat, 03 Oct 2026 20:00:00 GMT",
+      "published": "Sun, 04 Oct 2026 19:30:00 GMT",
       "tags": []
     }
   ],
