@@ -1,6 +1,17 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "items": [
+    {
+      "id": "bd6c6dc0e05f",
+      "platform": "youtube",
+      "videoId": "ZHVNTTKu9fU",
+      "title": "The Billion Dollar AI Advantage Is Disappearing",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=ZHVNTTKu9fU",
+      "thumb": "https://i3.ytimg.com/vi/ZHVNTTKu9fU/hqdefault.jpg",
+      "published": "2026-10-05",
+      "category": "图形学"
+    },
     {
       "id": "b7d9300382c5",
       "platform": "youtube",
@@ -10,17 +21,6 @@
       "url": "https://www.youtube.com/watch?v=SA9kdAX2Zj0",
       "thumb": "https://i4.ytimg.com/vi/SA9kdAX2Zj0/hqdefault.jpg",
       "published": "2026-09-24",
-      "category": "图形学"
-    },
-    {
-      "id": "762e86c2a7ce",
-      "platform": "youtube",
-      "videoId": "qBBRRsH0rQc",
-      "title": "Yes, Jev Is Insane, But There's A Catch",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=qBBRRsH0rQc",
-      "thumb": "https://i2.ytimg.com/vi/qBBRRsH0rQc/hqdefault.jpg",
-      "published": "2026-09-22",
       "category": "图形学"
     },
     {
@@ -43,6 +43,28 @@
       "url": "https://www.youtube.com/watch?v=mGuYUEuVDYc",
       "thumb": "https://i2.ytimg.com/vi/mGuYUEuVDYc/hqdefault.jpg",
       "published": "2026-07-12",
+      "category": "图形学"
+    },
+    {
+      "id": "63dfc2ba201c",
+      "platform": "bilibili",
+      "videoId": "BV17aho6iE7k",
+      "title": "GAMES Webinar 416-具身智能专题：从灵巧操作到真机数据闭环-徐志轩-接触驱动的灵巧操作学习",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV17aho6iE7k",
+      "thumb": "https://i1.hdslb.com/bfs/archive/ebfd966d9908172eb5fc2a50a8d026962497333c.jpg",
+      "published": "2026-09-26",
+      "category": "图形学"
+    },
+    {
+      "id": "ee2476518bc0",
+      "platform": "bilibili",
+      "videoId": "BV17aho6iEkh",
+      "title": "GAMES Webinar 416-具身智能专题：从灵巧操作到真机数据闭环-李永露-具身模型的真机评测与数据配方",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV17aho6iEkh",
+      "thumb": "https://i0.hdslb.com/bfs/archive/67607bbf0a01c26a17497ea0c55aa920bad2986a.jpg",
+      "published": "2026-09-26",
       "category": "图形学"
     },
     {
@@ -222,25 +244,25 @@
       "category": "历史"
     },
     {
-      "id": "4325104540de",
+      "id": "2c07e6275682",
       "platform": "youtube",
-      "videoId": "0Mei6O6ytDM",
-      "title": "What to say when you are running late #shorts",
+      "videoId": "6gbspCYd8PY",
+      "title": "English for airports ✈️🛄👩‍✈️ #englishpodcast #bbclearningenglish",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/shorts/0Mei6O6ytDM",
-      "thumb": "https://i1.ytimg.com/vi/0Mei6O6ytDM/hqdefault.jpg",
-      "published": "2026-10-02",
+      "url": "https://www.youtube.com/shorts/6gbspCYd8PY",
+      "thumb": "https://i3.ytimg.com/vi/6gbspCYd8PY/hqdefault.jpg",
+      "published": "2026-10-05",
       "category": "英语"
     },
     {
-      "id": "76a6a79a61ef",
+      "id": "a50c71bd13a4",
       "platform": "youtube",
-      "videoId": "H-DLA6AOJ6Q",
-      "title": "Learn from the experts at BBC Weather ☔☀️ in this English class with Georgie",
+      "videoId": "0W6PymVdXVw",
+      "title": "I enjoy flying ✈️ but airports are stressful 🛄 | Improve your listening with Real Easy English",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=H-DLA6AOJ6Q",
-      "thumb": "https://i1.ytimg.com/vi/H-DLA6AOJ6Q/hqdefault.jpg",
-      "published": "2026-10-01",
+      "url": "https://www.youtube.com/watch?v=0W6PymVdXVw",
+      "thumb": "https://i1.ytimg.com/vi/0W6PymVdXVw/hqdefault.jpg",
+      "published": "2026-10-05",
       "category": "英语"
     },
     {
@@ -269,13 +291,12 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "Bilibili 512313464: code=-352 风控校验失败",
-    "图形学 · 512313464: 0 条",
+    "图形学 · 512313464: 2 条",
     "引擎 · @TheCherno: 2 条",
-    "Bilibili 437860379: code=-352 风控校验失败",
     "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
+    "Bilibili 1567748478: code=-352 风控校验失败",
     "CS · 1567748478: 0 条",
     "CS · 202224425: 2 条",
     "金融 · @ThePlainBagel: 2 条",
