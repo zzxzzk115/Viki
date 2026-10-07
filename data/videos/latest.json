@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "items": [
     {
       "id": "bd6c6dc0e05f",
@@ -90,6 +90,17 @@
       "category": "引擎"
     },
     {
+      "id": "85302a4caf0b",
+      "platform": "youtube",
+      "videoId": "g9Exz_tR-nU",
+      "title": "Blind Ranking Numbers (Matt Parker)",
+      "channel": "Numberphile",
+      "url": "https://www.youtube.com/shorts/g9Exz_tR-nU",
+      "thumb": "https://i4.ytimg.com/vi/g9Exz_tR-nU/hqdefault.jpg",
+      "published": "2026-10-06",
+      "category": "CS"
+    },
+    {
       "id": "51335bf22feb",
       "platform": "youtube",
       "videoId": "VydHKLBXdVQ",
@@ -98,17 +109,6 @@
       "url": "https://www.youtube.com/shorts/VydHKLBXdVQ",
       "thumb": "https://i3.ytimg.com/vi/VydHKLBXdVQ/hqdefault.jpg",
       "published": "2026-10-03",
-      "category": "CS"
-    },
-    {
-      "id": "5e8e920cb754",
-      "platform": "youtube",
-      "videoId": "95335U-cUh8",
-      "title": "Big News in Polyhedra - Numberphile",
-      "channel": "Numberphile",
-      "url": "https://www.youtube.com/watch?v=95335U-cUh8",
-      "thumb": "https://i2.ytimg.com/vi/95335U-cUh8/hqdefault.jpg",
-      "published": "2026-10-02",
       "category": "CS"
     },
     {
@@ -134,28 +134,6 @@
       "category": "CS"
     },
     {
-      "id": "cdb4fb8040a2",
-      "platform": "bilibili",
-      "videoId": "BV1JGap6LE74",
-      "title": "需求和架构 (2) [07-Raw/26生成式软件工程/NJU]",
-      "channel": "绿导师原谅你了",
-      "url": "https://www.bilibili.com/video/BV1JGap6LE74",
-      "thumb": "https://i2.hdslb.com/bfs/archive/83c1f57d146cd404c922cef190d2c4646dca654b.jpg",
-      "published": "2026-09-29",
-      "category": "CS"
-    },
-    {
-      "id": "9654c0a73770",
-      "platform": "bilibili",
-      "videoId": "BV1Rch76WEfQ",
-      "title": "需求和架构 (1) [06-Raw/26生成式软件工程/NJU]",
-      "channel": "绿导师原谅你了",
-      "url": "https://www.bilibili.com/video/BV1Rch76WEfQ",
-      "thumb": "https://i1.hdslb.com/bfs/archive/e2606ba4314ef35e144efa4436ab30e3c3bbea63.jpg",
-      "published": "2026-09-22",
-      "category": "CS"
-    },
-    {
       "id": "a2aa5a223f66",
       "platform": "youtube",
       "videoId": "mzkdUnCThjc",
@@ -178,6 +156,17 @@
       "category": "金融"
     },
     {
+      "id": "8b9eed378704",
+      "platform": "youtube",
+      "videoId": "Y22FuMI7vXI",
+      "title": "Where Does Campaign Money Really Come From?: Crash Course US Government #3",
+      "channel": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=Y22FuMI7vXI",
+      "thumb": "https://i2.ytimg.com/vi/Y22FuMI7vXI/hqdefault.jpg",
+      "published": "2026-10-06",
+      "category": "历史"
+    },
+    {
       "id": "eae207bb2346",
       "platform": "youtube",
       "videoId": "0GGPe_Oum6c",
@@ -186,17 +175,6 @@
       "url": "https://www.youtube.com/watch?v=0GGPe_Oum6c",
       "thumb": "https://i1.ytimg.com/vi/0GGPe_Oum6c/hqdefault.jpg",
       "published": "2026-10-01",
-      "category": "历史"
-    },
-    {
-      "id": "9f5166600f53",
-      "platform": "youtube",
-      "videoId": "HT8ikFog_pQ",
-      "title": "Why Does the US Only Have Two Major Parties?: Crash Course US Government #2",
-      "channel": "CrashCourse",
-      "url": "https://www.youtube.com/watch?v=HT8ikFog_pQ",
-      "thumb": "https://i1.ytimg.com/vi/HT8ikFog_pQ/hqdefault.jpg",
-      "published": "2026-09-29",
       "category": "历史"
     },
     {
@@ -222,26 +200,37 @@
       "category": "历史"
     },
     {
-      "id": "aa478a918252",
+      "id": "63cee07f2023",
       "platform": "bilibili",
-      "videoId": "BV1bzaf6YEhk",
-      "title": "富德·平准前奏：基层兵丁，如何十五年，官居二品？【乾隆往事】",
-      "channel": "正直讲史-李正Str",
-      "url": "https://www.bilibili.com/video/BV1bzaf6YEhk",
-      "thumb": "https://i1.hdslb.com/bfs/archive/c881023880c610091ce90a386137624466a50239.jpg",
-      "published": "2026-09-30",
+      "videoId": "BV1WhaA6hE7s",
+      "title": "糟糕！我的粮食被勋宗抢走了！【神奇组织54】",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV1WhaA6hE7s",
+      "thumb": "https://i2.hdslb.com/bfs/archive/226f434fef1c833057d85dc5faf20c2862e988e9.jpg",
+      "published": "2026-09-25",
       "category": "历史"
     },
     {
-      "id": "9c7859f9a6d8",
+      "id": "b806d6653432",
       "platform": "bilibili",
-      "videoId": "BV1w8YX6uEvL",
-      "title": "才女·黄媛介：拒绝顶流告白，只为逃婚丈夫，回心转意？【大明风华】",
-      "channel": "正直讲史-李正Str",
-      "url": "https://www.bilibili.com/video/BV1w8YX6uEvL",
-      "thumb": "https://i0.hdslb.com/bfs/archive/3469211773b26d6bf12e4ebb6ad9e413971afccc.jpg",
-      "published": "2026-09-12",
+      "videoId": "BV12RYx6TE9r",
+      "title": "告别伊玛目  伊朗篇（终）",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV12RYx6TE9r",
+      "thumb": "https://i1.hdslb.com/bfs/archive/78b3aa4466a8e541c8191498d2e7dfa3bd6833fb.jpg",
+      "published": "2026-09-11",
       "category": "历史"
+    },
+    {
+      "id": "583ef57ea43b",
+      "platform": "youtube",
+      "videoId": "ywGo1GI9c2I",
+      "title": "👄 Coffee shop dialogue | Pronunciation Shadowing",
+      "channel": "BBC Learning English",
+      "url": "https://www.youtube.com/watch?v=ywGo1GI9c2I",
+      "thumb": "https://i2.ytimg.com/vi/ywGo1GI9c2I/hqdefault.jpg",
+      "published": "2026-10-06",
+      "category": "英语"
     },
     {
       "id": "2c07e6275682",
@@ -251,17 +240,6 @@
       "channel": "BBC Learning English",
       "url": "https://www.youtube.com/shorts/6gbspCYd8PY",
       "thumb": "https://i3.ytimg.com/vi/6gbspCYd8PY/hqdefault.jpg",
-      "published": "2026-10-05",
-      "category": "英语"
-    },
-    {
-      "id": "a50c71bd13a4",
-      "platform": "youtube",
-      "videoId": "0W6PymVdXVw",
-      "title": "I enjoy flying ✈️ but airports are stressful 🛄 | Improve your listening with Real Easy English",
-      "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=0W6PymVdXVw",
-      "thumb": "https://i1.ytimg.com/vi/0W6PymVdXVw/hqdefault.jpg",
       "published": "2026-10-05",
       "category": "英语"
     },
@@ -296,15 +274,15 @@
     "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
-    "Bilibili 1567748478: code=-352 风控校验失败",
     "CS · 1567748478: 0 条",
-    "CS · 202224425: 2 条",
+    "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 2 条",
+    "Bilibili 520819684: code=-352 风控校验失败",
     "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
-    "历史 · 11646119: 2 条",
-    "历史 · 23947287: 0 条",
+    "历史 · 11646119: 0 条",
+    "历史 · 23947287: 2 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
   ]
