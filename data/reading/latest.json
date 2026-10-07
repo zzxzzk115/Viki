@@ -1,302 +1,302 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-07",
   "items": [
     {
-      "id": "fd83b0ea3412",
+      "id": "0d807f86fdca",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Professional wrestling holds",
-      "url": "https://simple.wikipedia.org/wiki/Professional_wrestling_holds",
-      "summary": "In professional wrestling, a hold is any kind of move used by a performer to stop their opponent from being able to move. The hold may lead to a submission from the opponent. Some examples of holds are the cloverleaf, the keylock, and the guillotine choke.",
+      "title": "Port wine",
+      "url": "https://simple.wikipedia.org/wiki/Port_wine",
+      "summary": "Port wine is a Portuguese wine.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "5d6057422016",
+      "id": "6d1442b44aba",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Margaret Fulton",
-      "url": "https://simple.wikipedia.org/wiki/Margaret_Fulton",
-      "summary": "Margaret Isobel Fulton OAM was a Scottish-born Australian food and cooking 'guru', writer, journalist, author, and commentator. She was the first of this genre of writers in Australia. She was born in Nairn, Scotland. Fulton's best known work was writing The Margaret Fulton Cook…",
+      "title": "2017 Queensland state election",
+      "url": "https://simple.wikipedia.org/wiki/2017_Queensland_state_election",
+      "summary": "The 2017 Queensland state election was held on 25 November 2017 to elect all 93 members of the Queensland Legislative Assembly. It was conducted by the Electoral Commission of Queensland (ECQ).",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "da328f137f92",
+      "id": "6e2c593ea404",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Replacement of petroleum based products with plant-based materials (2025)",
-      "url": "https://onlinelibrary.wiley.com/doi/10.1002/eng2.70108",
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "summary": "https://github.com/openai/math https://github.com/openai/math/tree/main/preprints",
+      "author": "OfficialTurkey",
+      "published": "2026-10-06",
+      "tags": [
+        "▲ 790"
+      ]
+    },
+    {
+      "id": "1fa2f64dbfdc",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Strands Decider 2B: a small, open-source, decision model",
+      "url": "https://strandsagents.com/blog/introducing-strands-decider/",
       "summary": "",
-      "author": "thelastgallon",
-      "published": "2026-10-05",
+      "author": "gmays",
+      "published": "2026-10-07",
       "tags": [
-        "▲ 39"
+        "▲ 136"
       ]
     },
     {
-      "id": "bca476fd3463",
+      "id": "a585154abde8",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
-      "url": "https://github.com/Niko1221/Strata",
+      "title": "Decisions API is in public beta",
+      "url": "https://developers.openai.com/api/docs/guides/decisions",
       "summary": "",
-      "author": "snehesht",
-      "published": "2026-10-04",
+      "author": "chiefstorm",
+      "published": "2026-10-06",
       "tags": [
-        "▲ 742"
+        "▲ 252"
       ]
     },
     {
-      "id": "5565bae6fe80",
+      "id": "7abe34959799",
       "category": "tech",
       "source": "Hacker News",
-      "title": "We ported the original Doom to SQL",
-      "url": "https://cedardb.com/blog/sqldoom/",
+      "title": "ESP32-C3 Adblock",
+      "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
       "summary": "",
-      "author": "Vaslo",
-      "published": "2026-10-03",
+      "author": "jayhoon",
+      "published": "2026-10-07",
       "tags": [
-        "▲ 43"
+        "▲ 65"
       ]
     },
     {
-      "id": "eef8eba23963",
+      "id": "65b10d5e370b",
       "category": "tech",
       "source": "Hacker News",
-      "title": "In the wake of closure, a digital archive of animated materials appears online",
-      "url": "https://filmstories.co.uk/news/tippett-studios-in-the-wake-of-its-closure-a-digital-archive-of-animated-materials-appears-online/",
-      "summary": "https://archive.org/details/tippett-archive/",
-      "author": "rdmuser",
-      "published": "2026-10-04",
+      "title": "Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4/\\",
+      "summary": "https://docs.mistral.ai/models/mistral-large-4-0",
+      "author": "Philpax",
+      "published": "2026-10-06",
       "tags": [
-        "▲ 109"
+        "▲ 1734"
       ]
     },
     {
-      "id": "1cf5e38d2159",
+      "id": "87883c2d6e72",
       "category": "tech",
       "source": "Hacker News",
-      "title": "A 40ms Go garbage collector pause caused by swap",
-      "url": "https://frn.sh/go-gc/",
+      "title": "Shaders, WebGPU Components for React, Vue, Svelte, Solid, JavaScript and Framer",
+      "url": "https://github.com/shader-effects-inc/shaders",
       "summary": "",
-      "author": "shellpipe",
-      "published": "2026-10-05",
+      "author": "jinqueeny",
+      "published": "2026-10-07",
       "tags": [
-        "▲ 66"
+        "▲ 12"
       ]
     },
     {
-      "id": "daaa1657e30f",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Infidel goes wild",
-      "url": "https://blog.zarfhome.com/2026/10/infidel-goes-wild",
-      "summary": "",
-      "author": "tobr",
-      "published": "2026-10-03",
-      "tags": [
-        "▲ 122"
-      ]
-    },
-    {
-      "id": "9cbd5f53c78c",
+      "id": "595c1ad85cb8",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Server Room Monitoring System: Real-Time Infrastructure Monitoring with SCADA and IoT",
-      "url": "https://dev.to/akashiphuc/server-room-monitoring-system-real-time-infrastructure-monitoring-with-scada-and-iot-4k90",
-      "summary": "Modern server rooms require more than physical security. Temperature fluctuations, excessive humidity, water leakage, power problems, smoke, fire, or unauthorized access can affect critical IT equipment and lead to unexpected downtime. A Server Room Monitoring System provides a …",
-      "author": "AkashiPhuc",
-      "published": "Mon, 05 Oct 2026 07:10:17 +0000",
+      "title": "why your analytics silently stops working (and the 4 checks i run first)",
+      "url": "https://dev.to/omyvnss/why-your-analytics-silently-stops-working-and-the-4-checks-i-run-first-53ce",
+      "summary": "the worst analytics bug never shows up in your console. it shows up weeks later, as a gap in your dashboard you can't explain. i'm om yaduvanshi, 18, an applied ai developer. cloudline is my cookieless google analytics alternative , and this is day 12 of 90 building in public. t…",
+      "author": "Om Yaduvanshi",
+      "published": "Wed, 07 Oct 2026 07:12:18 +0000",
       "tags": [
-        "iot",
-        "productivity",
-        "programming",
-        "webdev"
+        "analytics",
+        "privacy",
+        "webdev",
+        "javascript"
       ]
     },
     {
-      "id": "f81e5b278f2b",
+      "id": "223985dcb849",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Deterministic Video Rendering from HTML Streams: Integrating HyperFrames into Agentic UI Pipelines",
-      "url": "https://dev.to/ken_2234/deterministic-video-rendering-from-html-streams-integrating-hyperframes-into-agentic-ui-pipelines-2p52",
-      "summary": "It is 3:14 AM, and the on-call pager starts screaming because automated marketing videos rendered for downstream enterprise clients are drifting out of sync. Titles pop three frames before background video assets initialize, kinetic captions overlap lower-third banners, and the …",
-      "author": "Ken",
-      "published": "Mon, 05 Oct 2026 07:07:42 +0000",
+      "title": "Stop Paying $240/yr to Rotate a PDF: Building an In-Browser Document Workstation with WASM",
+      "url": "https://dev.to/khaithisran/stop-paying-240yr-to-rotate-a-pdf-building-an-in-browser-document-workstation-with-wasm-4el",
+      "summary": "Every software engineer has experienced the indignity of needing to sign an NDA, rotate a tenancy agreement, or compress a 50MB PDF—only to hit an Adobe or DocuSign paywall: Adobe: $239.88 / year DocuSign: $480 / year Random online PDF tools: \"Upload your confidential tax audits…",
+      "author": "thisran",
+      "published": "Wed, 07 Oct 2026 07:09:38 +0000",
+      "tags": [
+        "webdev",
+        "webassembly",
+        "privacy",
+        "showdev"
+      ]
+    },
+    {
+      "id": "02a4ef525889",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Mapping VIN Model Year Codes in TypeScript Without Hard-Coding One Decade",
+      "url": "https://dev.to/vin_lookup_8dbd4710f77e9e/mapping-vin-model-year-codes-in-typescript-without-hard-coding-one-decade-30jc",
+      "summary": "Position 10 of a 17-character VIN encodes the model year. Many tutorials show a small lookup object covering 2010-2020 and stop there. That works until someone pastes a 1998 pickup or a 2032 EV into your form and your tool confidently prints the wrong year. This post builds a mo…",
+      "author": "Vin Lookup",
+      "published": "Wed, 07 Oct 2026 07:06:23 +0000",
       "tags": [
         "typescript",
+        "cars",
+        "webdev",
+        "beginners"
+      ]
+    },
+    {
+      "id": "b0305778bc6d",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Yet Another React Component Library",
+      "url": "https://dev.to/eugenioenko/yet-another-react-component-library-jlp",
+      "summary": "Back in February I wrote a post called Type-Level Library Dependency Injection . The short version: let the app own the config, and let the library derive its types from it. I ended the post with a list of honest limitations, closed the laptop, and moved on with my life. Seven m…",
+      "author": "Eugene Yakhnenko",
+      "published": "Wed, 07 Oct 2026 07:06:10 +0000",
+      "tags": [
         "react",
-        "ai",
+        "typescript",
         "webdev"
       ]
     },
     {
-      "id": "7ec5ae5f5070",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Orderly: An AI WhatsApp Order-Taker That Refuses to Guess",
-      "url": "https://dev.to/noor_ulhuda_67fbcf3d4b66/orderly-an-ai-whatsapp-order-taker-that-refuses-to-guess-588b",
-      "summary": "Orderly: An AI WhatsApp Order-Taker That Refuses to Guess Small shops often receive customer orders through WhatsApp like: “2 kg rice, 1 litre oil, and 1 kg sugar.” But real messages can be much messier — Telugu + English, corrections, unclear quantities, or voice notes. The dif…",
-      "author": "Noor Ul Huda",
-      "published": "Mon, 05 Oct 2026 07:07:23 +0000",
-      "tags": [
-        "ai",
-        "webdev",
-        "python"
-      ]
-    },
-    {
-      "id": "003651a13d0f",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Which is the best interior VR walkthrough development company?",
-      "url": "https://dev.to/charuabhiwan001/which-is-the-best-interior-vr-walkthrough-development-company-2d0m",
-      "summary": "Abhiwan Technology delivers interior VR walkthrough development solutions to convert interior concepts into interactive digital spaces that can be experienced by users before construction or renovation. Combining the strength of 3D modeling, realistic materials, lighting, and VR…",
-      "author": "Charu Abhiwan",
-      "published": "Mon, 05 Oct 2026 07:04:53 +0000",
-      "tags": [
-        "vr",
-        "ai",
-        "webdev",
-        "programming"
-      ]
-    },
-    {
-      "id": "80eac9f05180",
+      "id": "794e44cb1ab1",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "White-headed fruit dove",
-      "url": "https://en.wikipedia.org/wiki/White-headed_fruit_dove",
-      "summary": "The white-headed fruit dove is a species of bird in the pigeon family, Columbidae. It was described by the English ornithologist John Gould in 1856, and the specific name eugeniae honours the French empress Eugénie de Montijo. Adults of the species have white heads, a purplish-r…",
+      "title": "Mario Party: Star Rush",
+      "url": "https://en.wikipedia.org/wiki/Mario_Party%3A_Star_Rush",
+      "summary": "Mario Party: Star Rush is a 2016 party video game developed by NDcube and published by Nintendo for the Nintendo 3DS. It is the fourth handheld game in the Mario Party series, as well as the second installment in the series to be released for the 3DS. The game was released in Eu…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "271561d9eddf",
+      "id": "f17b197cdb6a",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US air force removes all bombers from British military base RAF Fairford",
-      "url": "https://www.bbc.co.uk/news/articles/cmwyve191dlko?at_medium=RSS&at_campaign=rss",
-      "summary": "No reason has been given for the withdrawal, but it follows a major incident last week when police were alerted to \"suspicious vehicles\" near the airbase.",
-      "published": "Mon, 05 Oct 2026 07:14:28 GMT",
+      "title": "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
+      "url": "https://www.bbc.co.uk/news/articles/c8kgezxn54qko?at_medium=RSS&at_campaign=rss",
+      "summary": "Experts and lawyers called the apparent recovery unprecedented, noting she is believed to be the only known person to survive a lethal injection.",
+      "published": "Wed, 07 Oct 2026 07:07:22 GMT",
       "tags": []
     },
     {
-      "id": "85ac007f42df",
+      "id": "a6842562217f",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round",
-      "url": "https://www.bbc.co.uk/news/articles/ck1l34ed592no?at_medium=RSS&at_campaign=rss",
-      "summary": "With neither candidate getting more than 50% of the vote, the election will go to a run-off on 25 October.",
-      "published": "Mon, 05 Oct 2026 03:16:16 GMT",
+      "title": "Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild",
+      "url": "https://www.bbc.co.uk/news/articles/cqrmyz4mdn94o?at_medium=RSS&at_campaign=rss",
+      "summary": "Three years on from the attack on Nir Oz, in which 47 people were killed and 76 taken hostage, some survivors have returned to live there.",
+      "published": "Wed, 07 Oct 2026 05:02:18 GMT",
       "tags": []
     },
     {
-      "id": "67da709ad46a",
+      "id": "fe50533add06",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Watch: How Brazil's dramatic election unfolded",
-      "url": "https://www.bbc.co.uk/news/videos/cwp9g54v9xjlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Millions of Brazilians took to the polls on Sunday for the first round of the country's presidential elections.",
-      "published": "Mon, 05 Oct 2026 04:51:24 GMT",
+      "title": "What is pneumonic plague and how does it spread?",
+      "url": "https://www.bbc.co.uk/news/articles/cxdd8035jzn3o?at_medium=RSS&at_campaign=rss",
+      "summary": "The death of a worker from a Russian lab that researches plague has prompted questions about the disease.",
+      "published": "Tue, 06 Oct 2026 15:35:22 GMT",
       "tags": []
     },
     {
-      "id": "e06269fd8cfc",
+      "id": "f486fb72608e",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump unveils 'Super Intelligence Force' to oversee AI policy",
-      "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
-      "summary": "The president named his national intelligence chief as the taskforce's head as worries over AI grow.",
-      "published": "Mon, 05 Oct 2026 06:15:29 GMT",
+      "title": "Ex-US spy who stashed gold bars in his home admits to $200m scam",
+      "url": "https://www.bbc.co.uk/news/articles/cr3wvq965dngo?at_medium=RSS&at_campaign=rss",
+      "summary": "David Rush, who also confessed to providing secrets to a foreign government, had revealed the existence of a \"clandestine human source\", prosecutors said.",
+      "published": "Tue, 06 Oct 2026 19:53:45 GMT",
       "tags": []
     },
     {
-      "id": "3fa4d4d37383",
+      "id": "c7efea1afae5",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "New forensic evidence supports Egyptian \"retainer sacrifice\"",
-      "url": "https://arstechnica.com/science/2026/10/new-forensice-evidence-supports-egyptian-retainer-sacrifice/",
-      "summary": "Fresh analysis of First Dynasty mass burials finds signs of fatal blunt force trauma on 39 percent of skulls",
-      "author": "Jennifer Ouellette",
-      "published": "Mon, 05 Oct 2026 04:00:52 +0000",
+      "title": "Drones sink ships near NATO countries in “unacceptable” attacks, EU says",
+      "url": "https://arstechnica.com/gadgets/2026/10/drone-strikes-likely-russian-sink-ships-in-nato-countries-economic-zones/",
+      "summary": "Two cargo ships have sunk, one ship was afire, and sailors are dead or missing.",
+      "author": "Jeremy Hsu",
+      "published": "Tue, 06 Oct 2026 21:31:10 +0000",
       "tags": [
-        "Science",
-        "ancient egypt",
-        "Archaeology",
-        "bioarchaeology"
+        "Tech",
+        "drones",
+        "military drones",
+        "Nato"
       ]
     },
     {
-      "id": "3116e977cb80",
+      "id": "11669444bfa3",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Lions and cheetahs and chimps, oh my: a spotlight on Africa's diverse wildlife",
-      "url": "https://arstechnica.com/science/2026/10/lions-and-cheetahs-and-chimps-oh-my-a-spotlight-on-africas-diverse-wildlife/",
-      "summary": "Wunmi Mosaku ( Sinners, Loki ) narrates NatGeo's new documentary Africa: Earth's Wild Home",
-      "author": "Jennifer Ouellette",
-      "published": "Sun, 04 Oct 2026 15:34:14 +0000",
+      "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
+      "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
+      "summary": "Like other solutions, it is not especially reliable, and it's easy to circumvent.",
+      "author": "Samuel Axon",
+      "published": "Tue, 06 Oct 2026 20:50:32 +0000",
       "tags": [
-        "Culture",
-        "Science",
-        "disney plus",
-        "documentaries"
+        "AI",
+        "ChatGPT",
+        "Codex",
+        "EU"
       ]
     },
     {
-      "id": "4594e1656659",
+      "id": "0bd4ec4ad100",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "All hail electrification. But let’s talk about the hard part.",
-      "url": "https://arstechnica.com/science/2026/10/all-hail-electrification-but-lets-talk-about-the-hard-part/",
-      "summary": "The IEA and climate negotiators want to set a target for shifting the economy to run on electricity.",
-      "author": "Dan Gearino, Inside Climate News",
-      "published": "Sun, 04 Oct 2026 11:05:53 +0000",
+      "title": "HBO Max, Paramount+, and Discovery+ \"will unify into a single service”",
+      "url": "https://arstechnica.com/gadgets/2026/10/hbo-max-paramount-and-discovery-will-unify-into-a-single-service/",
+      "summary": "A combined service could lead to higher prices.",
+      "author": "Scharon Harding",
+      "published": "Tue, 06 Oct 2026 20:32:12 +0000",
       "tags": [
-        "Science",
-        "electrification",
-        "International Energy Agency",
-        "syndication"
+        "Tech",
+        "acquisitions",
+        "Discovery Plus",
+        "hbo max"
       ]
     },
     {
-      "id": "bf336c0afbd9",
+      "id": "f06e88f92e43",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘I’d rather be on a beach in Bali’: My husband resents my $8 million net worth. Should I pay for his retirement?",
-      "url": "https://www.marketwatch.com/story/i-feel-like-hes-holding-me-back-i-have-8-million-my-husband-resents-my-success-should-i-pay-for-more-things-08a4221b?mod=mw_rss_topstories",
-      "summary": "“We have an ironclad prenup.”",
-      "author": "Quentin Fottrell",
-      "published": "Sun, 04 Oct 2026 20:31:00 GMT",
+      "title": "How one trend-following fund outperformed rivals by bringing humans back into the decision-making process",
+      "url": "https://www.marketwatch.com/story/how-one-trend-following-fund-outperformed-rivals-by-bringing-humans-back-into-the-decision-making-process-12285e18?mod=mw_rss_topstories",
+      "summary": "One trend-following fund has outperformed rivals this year by deciding to take profits.",
+      "author": "Jules Rimmer",
+      "published": "Wed, 07 Oct 2026 07:08:00 GMT",
       "tags": []
     },
     {
-      "id": "aabef0343d74",
+      "id": "2d06b60c94ae",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?",
-      "url": "https://www.marketwatch.com/story/im-71-and-still-working-i-earn-108-000-a-year-am-i-doing-the-right-thing-aaedcaa4?mod=mw_rss_topstories",
-      "summary": "“I have $152,000 in my IRA and Roth accounts.”",
+      "title": "My brother-in-law convinced his parents to sign over their home and life savings to buy a $3 million compound. Do I intervene?",
+      "url": "https://www.marketwatch.com/story/my-brother-in-law-convinced-his-parents-to-sign-over-their-home-and-savings-to-buy-a-3-million-compound-do-i-intervene-03fb96b7?mod=mw_rss_topstories",
+      "summary": "“Both properties will be solely in his name.”",
       "author": "Quentin Fottrell",
-      "published": "Sun, 04 Oct 2026 20:00:00 GMT",
+      "published": "Tue, 06 Oct 2026 22:54:00 GMT",
       "tags": []
     },
     {
-      "id": "77e04e2e894a",
+      "id": "9c2898b0514e",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
-      "url": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
-      "summary": "“For 14 years I have gotten up every morning and gone to work while she has been free to pursue whatever interested her.”",
-      "author": "Quentin Fottrell",
-      "published": "Sun, 04 Oct 2026 19:30:00 GMT",
+      "title": "The S&P 500 is back in record territory as the ‘Magnificent Seven’ ride to the rescue",
+      "url": "https://www.marketwatch.com/story/the-s-p-500-is-back-in-record-territory-as-the-magnificent-seven-ride-to-the-rescue-e062724d?mod=mw_rss_topstories",
+      "summary": "After trading sideways for much of the past year, the “Magnificent Seven” have been staging a comeback, helping to re-energize a bull market threatened by rising bond yields and stubbornly high crude-oil prices.",
+      "author": "Joseph Adinolfi",
+      "published": "Tue, 06 Oct 2026 21:52:00 GMT",
       "tags": []
     }
   ],
