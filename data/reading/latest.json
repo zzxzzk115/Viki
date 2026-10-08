@@ -1,281 +1,269 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "items": [
     {
-      "id": "0d807f86fdca",
+      "id": "a7f1cb6c5766",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Port wine",
-      "url": "https://simple.wikipedia.org/wiki/Port_wine",
-      "summary": "Port wine is a Portuguese wine.",
+      "title": "Joshua Fishman",
+      "url": "https://simple.wikipedia.org/wiki/Joshua_Fishman",
+      "summary": "Joshua Aaron Fishman was an American linguist. He specialized in the sociology of language, language planning, bilingual education, and language and ethnicity.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "6d1442b44aba",
+      "id": "21ace9ab3d59",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "2017 Queensland state election",
-      "url": "https://simple.wikipedia.org/wiki/2017_Queensland_state_election",
-      "summary": "The 2017 Queensland state election was held on 25 November 2017 to elect all 93 members of the Queensland Legislative Assembly. It was conducted by the Electoral Commission of Queensland (ECQ).",
+      "title": "Daytona Beach, Florida",
+      "url": "https://simple.wikipedia.org/wiki/Daytona_Beach%2C_Florida",
+      "summary": "Daytona Beach is a city of Florida in the United States.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "6e2c593ea404",
+      "id": "9366cdf883bc",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Sharing AI progress in mathematics",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-      "summary": "https://github.com/openai/math https://github.com/openai/math/tree/main/preprints",
-      "author": "OfficialTurkey",
-      "published": "2026-10-06",
+      "title": "“Math 2.0” will need to value mathematical progress more holistically",
+      "url": "https://mathstodon.xyz/@tao/117395269325940185",
+      "summary": "",
+      "author": "ent101",
+      "published": "2026-10-08",
       "tags": [
-        "▲ 790"
+        "▲ 214"
       ]
     },
     {
-      "id": "1fa2f64dbfdc",
+      "id": "4bb428a07b2a",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Strands Decider 2B: a small, open-source, decision model",
-      "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+      "title": "Claude Haiku 5.5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
       "summary": "",
-      "author": "gmays",
+      "author": "sfkgtbor",
       "published": "2026-10-07",
       "tags": [
-        "▲ 136"
+        "▲ 835"
       ]
     },
     {
-      "id": "a585154abde8",
+      "id": "b16959d0dd8e",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Decisions API is in public beta",
-      "url": "https://developers.openai.com/api/docs/guides/decisions",
+      "title": "Living off-grid: Hundred Rabbits",
+      "url": "https://100r.ca/site/home.html",
       "summary": "",
-      "author": "chiefstorm",
-      "published": "2026-10-06",
+      "author": "Muhammad523",
+      "published": "2026-10-05",
       "tags": [
-        "▲ 252"
+        "▲ 165"
       ]
     },
     {
-      "id": "7abe34959799",
+      "id": "ffaeefda6df4",
       "category": "tech",
       "source": "Hacker News",
-      "title": "ESP32-C3 Adblock",
-      "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
+      "title": "Margaret Hamilton has died",
+      "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
       "summary": "",
-      "author": "jayhoon",
+      "author": "muglug",
       "published": "2026-10-07",
       "tags": [
-        "▲ 65"
+        "▲ 1316"
       ]
     },
     {
-      "id": "65b10d5e370b",
+      "id": "67feed715e09",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Mistral Large 4",
-      "url": "https://mistral.ai/news/mistral-large-4/\\",
-      "summary": "https://docs.mistral.ai/models/mistral-large-4-0",
-      "author": "Philpax",
-      "published": "2026-10-06",
-      "tags": [
-        "▲ 1734"
-      ]
-    },
-    {
-      "id": "87883c2d6e72",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Shaders, WebGPU Components for React, Vue, Svelte, Solid, JavaScript and Framer",
-      "url": "https://github.com/shader-effects-inc/shaders",
+      "title": "GPT‑6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
       "summary": "",
-      "author": "jinqueeny",
+      "author": "joshuawright11",
       "published": "2026-10-07",
       "tags": [
-        "▲ 12"
+        "▲ 598"
       ]
     },
     {
-      "id": "595c1ad85cb8",
+      "id": "633170b86721",
       "category": "tech",
-      "source": "DEV Community",
-      "title": "why your analytics silently stops working (and the 4 checks i run first)",
-      "url": "https://dev.to/omyvnss/why-your-analytics-silently-stops-working-and-the-4-checks-i-run-first-53ce",
-      "summary": "the worst analytics bug never shows up in your console. it shows up weeks later, as a gap in your dashboard you can't explain. i'm om yaduvanshi, 18, an applied ai developer. cloudline is my cookieless google analytics alternative , and this is day 12 of 90 building in public. t…",
-      "author": "Om Yaduvanshi",
-      "published": "Wed, 07 Oct 2026 07:12:18 +0000",
+      "source": "Hacker News",
+      "title": "The 15-year search for a band that charted once and vanished",
+      "url": "https://shahidhussain.com/writing/search-for-salvage/",
+      "summary": "",
+      "author": "shahidhussain",
+      "published": "2026-10-05",
       "tags": [
-        "analytics",
-        "privacy",
-        "webdev",
-        "javascript"
+        "▲ 49"
       ]
     },
     {
-      "id": "223985dcb849",
+      "id": "84863c49a318",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Stop Paying $240/yr to Rotate a PDF: Building an In-Browser Document Workstation with WASM",
-      "url": "https://dev.to/khaithisran/stop-paying-240yr-to-rotate-a-pdf-building-an-in-browser-document-workstation-with-wasm-4el",
-      "summary": "Every software engineer has experienced the indignity of needing to sign an NDA, rotate a tenancy agreement, or compress a 50MB PDF—only to hit an Adobe or DocuSign paywall: Adobe: $239.88 / year DocuSign: $480 / year Random online PDF tools: \"Upload your confidential tax audits…",
-      "author": "thisran",
-      "published": "Wed, 07 Oct 2026 07:09:38 +0000",
+      "title": "Ordering, Receipts and Reconnects: The Chat Client Problems That Only Appear on a Bad Network",
+      "url": "https://dev.to/cometchat_official_account/ordering-receipts-and-reconnects-the-chat-client-problems-that-only-appear-on-a-bad-network-2oo3",
+      "summary": "Ordering, Receipts and Reconnects: The Chat Client Problems That Only Appear on a Bad Network A chat feature demoed on office wifi is a solved problem. The same feature on a train is a different piece of software. Messages arrive out of order, the same message arrives twice, a s…",
+      "author": "Vishal Singh",
+      "published": "Thu, 08 Oct 2026 07:25:31 +0000",
       "tags": [
         "webdev",
-        "webassembly",
-        "privacy",
-        "showdev"
+        "javascript",
+        "architecture",
+        "mobile"
       ]
     },
     {
-      "id": "02a4ef525889",
+      "id": "ab434a7f9844",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Mapping VIN Model Year Codes in TypeScript Without Hard-Coding One Decade",
-      "url": "https://dev.to/vin_lookup_8dbd4710f77e9e/mapping-vin-model-year-codes-in-typescript-without-hard-coding-one-decade-30jc",
-      "summary": "Position 10 of a 17-character VIN encodes the model year. Many tutorials show a small lookup object covering 2010-2020 and stop there. That works until someone pastes a 1998 pickup or a 2032 EV into your form and your tool confidently prints the wrong year. This post builds a mo…",
-      "author": "Vin Lookup",
-      "published": "Wed, 07 Oct 2026 07:06:23 +0000",
+      "title": "Theming a Drop-In UI Kit Without Forcing a Fork",
+      "url": "https://dev.to/cometchat_official_account/theming-a-drop-in-ui-kit-without-forcing-a-fork-2lda",
+      "summary": "Theming a Drop-In UI Kit Without Forcing a Fork Every prebuilt UI component library eventually meets a design system it was not built for. At that point the integrating developer makes one of three choices: accept the defaults, override with increasingly specific CSS, or copy th…",
+      "author": "Vishal Singh",
+      "published": "Thu, 08 Oct 2026 07:24:16 +0000",
       "tags": [
-        "typescript",
-        "cars",
         "webdev",
-        "beginners"
-      ]
-    },
-    {
-      "id": "b0305778bc6d",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Yet Another React Component Library",
-      "url": "https://dev.to/eugenioenko/yet-another-react-component-library-jlp",
-      "summary": "Back in February I wrote a post called Type-Level Library Dependency Injection . The short version: let the app own the config, and let the library derive its types from it. I ended the post with a list of honest limitations, closed the laptop, and moved on with my life. Seven m…",
-      "author": "Eugene Yakhnenko",
-      "published": "Wed, 07 Oct 2026 07:06:10 +0000",
-      "tags": [
+        "frontend",
         "react",
-        "typescript",
-        "webdev"
+        "css"
       ]
     },
     {
-      "id": "794e44cb1ab1",
+      "id": "f20bdd019d7a",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "How do you draw vector graphics? By hand, or by an AI that places real paths",
+      "url": "https://dev.to/usman_basheers/how-do-you-draw-vector-graphics-by-hand-or-by-an-ai-that-places-real-paths-4mio",
+      "summary": "A vector graphic is a list of points and curves, not a grid of pixels. To draw one you place anchor points with a pen tool, drag out Bezier handles where you want a curve, close the path and give it a fill. That is the whole trick, and it is the same in every editor. There is no…",
+      "author": "Usman Bashir",
+      "published": "Thu, 08 Oct 2026 07:23:16 +0000",
+      "tags": [
+        "svg",
+        "design",
+        "webdev",
+        "ai"
+      ]
+    },
+    {
+      "id": "29610f07467e",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "I generated 320 SEO pages with one command. Here's the full stack (and what broke).",
+      "url": "https://dev.to/alexcodebytes/i-generated-320-seo-pages-with-one-command-heres-the-full-stack-and-what-broke-5106",
+      "summary": "Three days ago I published a post about deploying 35 MCP servers in 10 days. It got some attention, but the honest takeaway was: 0 revenue, 0 users, 35 perfectly configured servers. Configuration is not distribution. This is the follow-up. Three days later, here's what actually …",
+      "author": "Oleksandr",
+      "published": "Thu, 08 Oct 2026 07:22:31 +0000",
+      "tags": [
+        "ai",
+        "webdev",
+        "seo",
+        "programming"
+      ]
+    },
+    {
+      "id": "e1ec46f5dcf0",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Mario Party: Star Rush",
-      "url": "https://en.wikipedia.org/wiki/Mario_Party%3A_Star_Rush",
-      "summary": "Mario Party: Star Rush is a 2016 party video game developed by NDcube and published by Nintendo for the Nintendo 3DS. It is the fourth handheld game in the Mario Party series, as well as the second installment in the series to be released for the 3DS. The game was released in Eu…",
+      "title": "2006 UAW-Ford 500",
+      "url": "https://en.wikipedia.org/wiki/2006_UAW-Ford_500",
+      "summary": "The 2006 UAW-Ford 500 was a stock car race that took place on October 8, 2006. The 38th annual running of the event, it was held at Talladega Superspeedway in Talladega, Alabama, United States, before 160,000 spectators. The 188-lap race was the 30th in the 2006 NASCAR Nextel Cu…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "f17b197cdb6a",
+      "id": "64542f3c2752",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
-      "url": "https://www.bbc.co.uk/news/articles/c8kgezxn54qko?at_medium=RSS&at_campaign=rss",
-      "summary": "Experts and lawyers called the apparent recovery unprecedented, noting she is believed to be the only known person to survive a lethal injection.",
-      "published": "Wed, 07 Oct 2026 07:07:22 GMT",
+      "title": "US and Lebanon protecting wanted Syrian general, BBC finds",
+      "url": "https://www.bbc.co.uk/news/articles/c81dldewl5gwo?at_medium=RSS&at_campaign=rss",
+      "summary": "Bassam al-Hassan, linked to reporter Austin Tice's abduction, is being sheltered in return for information.",
+      "published": "Thu, 08 Oct 2026 05:00:44 GMT",
       "tags": []
     },
     {
-      "id": "a6842562217f",
+      "id": "bd668b32f6e1",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild",
-      "url": "https://www.bbc.co.uk/news/articles/cqrmyz4mdn94o?at_medium=RSS&at_campaign=rss",
-      "summary": "Three years on from the attack on Nir Oz, in which 47 people were killed and 76 taken hostage, some survivors have returned to live there.",
-      "published": "Wed, 07 Oct 2026 05:02:18 GMT",
+      "title": "Most UK diplomats to leave East Jerusalem consulate, Israel says, as Miliband says 'vital services' to remain",
+      "url": "https://www.bbc.co.uk/news/articles/cw33xd6vegnno?at_medium=RSS&at_campaign=rss",
+      "summary": "Israel said in September it would act in response to UK sanctions on illegal Israeli settlements in the West Bank.",
+      "published": "Thu, 08 Oct 2026 07:06:15 GMT",
       "tags": []
     },
     {
-      "id": "fe50533add06",
+      "id": "8369764bb370",
       "category": "news",
       "source": "BBC 世界",
-      "title": "What is pneumonic plague and how does it spread?",
-      "url": "https://www.bbc.co.uk/news/articles/cxdd8035jzn3o?at_medium=RSS&at_campaign=rss",
-      "summary": "The death of a worker from a Russian lab that researches plague has prompted questions about the disease.",
-      "published": "Tue, 06 Oct 2026 15:35:22 GMT",
+      "title": "Texas carries out first US execution since Christa Pike's botched lethal injections",
+      "url": "https://www.bbc.co.uk/news/articles/cw4g1j2z5zvzo?at_medium=RSS&at_campaign=rss",
+      "summary": "Lawyers for Jamaal Howard had asked a judge to pause the execution after Christa Pike's botched lethal injections.",
+      "published": "Thu, 08 Oct 2026 03:02:06 GMT",
       "tags": []
     },
     {
-      "id": "f486fb72608e",
+      "id": "852aba6fb865",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Ex-US spy who stashed gold bars in his home admits to $200m scam",
-      "url": "https://www.bbc.co.uk/news/articles/cr3wvq965dngo?at_medium=RSS&at_campaign=rss",
-      "summary": "David Rush, who also confessed to providing secrets to a foreign government, had revealed the existence of a \"clandestine human source\", prosecutors said.",
-      "published": "Tue, 06 Oct 2026 19:53:45 GMT",
+      "title": "Spanish pensioner whose eviction sparked nationwide protests dies",
+      "url": "https://www.bbc.co.uk/news/articles/c6e3x21ev9wwo?at_medium=RSS&at_campaign=rss",
+      "summary": "Maricarmen Abascal, 87, was forcibly removed on a stretcher from her apartment of more than 70 years in September.",
+      "published": "Thu, 08 Oct 2026 07:15:45 GMT",
       "tags": []
     },
     {
-      "id": "c7efea1afae5",
+      "id": "3a0428350fd0",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Drones sink ships near NATO countries in “unacceptable” attacks, EU says",
-      "url": "https://arstechnica.com/gadgets/2026/10/drone-strikes-likely-russian-sink-ships-in-nato-countries-economic-zones/",
-      "summary": "Two cargo ships have sunk, one ship was afire, and sailors are dead or missing.",
-      "author": "Jeremy Hsu",
-      "published": "Tue, 06 Oct 2026 21:31:10 +0000",
-      "tags": [
-        "Tech",
-        "drones",
-        "military drones",
-        "Nato"
-      ]
-    },
-    {
-      "id": "11669444bfa3",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
-      "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
-      "summary": "Like other solutions, it is not especially reliable, and it's easy to circumvent.",
-      "author": "Samuel Axon",
-      "published": "Tue, 06 Oct 2026 20:50:32 +0000",
+      "title": "Microsoft event debuts new AI-friendly hardware and Windows changes",
+      "url": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
+      "summary": "Get ready for more AI in your Windows and more AI on the desktop.",
+      "author": "Nick Indge",
+      "published": "Thu, 08 Oct 2026 00:00:24 +0000",
       "tags": [
         "AI",
-        "ChatGPT",
-        "Codex",
-        "EU"
+        "Tech",
+        "hybrid intelligence",
+        "microsoft rtx spark dev box"
       ]
     },
     {
-      "id": "0bd4ec4ad100",
+      "id": "0598a3e5bb11",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "HBO Max, Paramount+, and Discovery+ \"will unify into a single service”",
-      "url": "https://arstechnica.com/gadgets/2026/10/hbo-max-paramount-and-discovery-will-unify-into-a-single-service/",
-      "summary": "A combined service could lead to higher prices.",
-      "author": "Scharon Harding",
-      "published": "Tue, 06 Oct 2026 20:32:12 +0000",
+      "title": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
+      "url": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
+      "summary": "Opus-built Creative Cloud alternatives are ambitious, free, and nowhere near finished.",
+      "author": "Kyle Orland",
+      "published": "Wed, 07 Oct 2026 21:56:42 +0000",
       "tags": [
-        "Tech",
-        "acquisitions",
-        "Discovery Plus",
-        "hbo max"
+        "AI",
+        "Adobe",
+        "Anthropic",
+        "clause"
       ]
     },
     {
-      "id": "f06e88f92e43",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "How one trend-following fund outperformed rivals by bringing humans back into the decision-making process",
-      "url": "https://www.marketwatch.com/story/how-one-trend-following-fund-outperformed-rivals-by-bringing-humans-back-into-the-decision-making-process-12285e18?mod=mw_rss_topstories",
-      "summary": "One trend-following fund has outperformed rivals this year by deciding to take profits.",
-      "author": "Jules Rimmer",
-      "published": "Wed, 07 Oct 2026 07:08:00 GMT",
-      "tags": []
+      "id": "dcf8c6406bc7",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "PA measles outbreak tops 1,000 cases, largest since disease was eliminated",
+      "url": "https://arstechnica.com/health/2026/10/pa-measles-outbreak-tops-1000-cases-largest-since-disease-was-eliminated/",
+      "summary": "Pennsylvania reported 1,066 outbreak-linked cases on Wednesday.",
+      "author": "Beth Mole",
+      "published": "Wed, 07 Oct 2026 20:01:14 +0000",
+      "tags": [
+        "Health",
+        "measles"
+      ]
     },
     {
       "id": "2d06b60c94ae",
@@ -285,18 +273,29 @@
       "url": "https://www.marketwatch.com/story/my-brother-in-law-convinced-his-parents-to-sign-over-their-home-and-savings-to-buy-a-3-million-compound-do-i-intervene-03fb96b7?mod=mw_rss_topstories",
       "summary": "“Both properties will be solely in his name.”",
       "author": "Quentin Fottrell",
-      "published": "Tue, 06 Oct 2026 22:54:00 GMT",
+      "published": "Thu, 08 Oct 2026 02:00:00 GMT",
       "tags": []
     },
     {
-      "id": "9c2898b0514e",
+      "id": "96721c2e8ff4",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "The S&P 500 is back in record territory as the ‘Magnificent Seven’ ride to the rescue",
-      "url": "https://www.marketwatch.com/story/the-s-p-500-is-back-in-record-territory-as-the-magnificent-seven-ride-to-the-rescue-e062724d?mod=mw_rss_topstories",
-      "summary": "After trading sideways for much of the past year, the “Magnificent Seven” have been staging a comeback, helping to re-energize a bull market threatened by rising bond yields and stubbornly high crude-oil prices.",
-      "author": "Joseph Adinolfi",
-      "published": "Tue, 06 Oct 2026 21:52:00 GMT",
+      "title": "‘He grew up wealthy’: My husband inherited $3 million. He wants a vacation home. I want to save for retirement. Who’s right?",
+      "url": "https://www.marketwatch.com/story/he-grew-up-wealthy-my-husband-inherited-3-million-he-wants-a-vacation-home-i-want-to-save-for-retirement-a240f0d8?mod=mw_rss_topstories",
+      "summary": "“I keep thinking about giving each child $750,000 toward a house.”",
+      "author": "Quentin Fottrell",
+      "published": "Thu, 08 Oct 2026 01:45:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "b3c3f2cc062c",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "Rising yields are quietly crashing the stock market’s earlier winners of 2026",
+      "url": "https://www.marketwatch.com/story/rising-yields-are-quietly-crashing-the-stock-markets-earlier-winners-of-2026-a29f2863?mod=mw_rss_topstories",
+      "summary": "Surging Treasury yields have begun to hammer parts of the stock market that might easily be overlooked, especially with the spotlight once again shining brightly on a small group of glamorous tech companies.",
+      "author": "Isabel Wang,Joy Wiltermuth",
+      "published": "Wed, 07 Oct 2026 22:32:00 GMT",
       "tags": []
     }
   ],
