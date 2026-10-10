@@ -1,301 +1,303 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "items": [
     {
-      "id": "2ab2ea1ad0a6",
+      "id": "d57993d1b8be",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Fernando Alonso",
-      "url": "https://simple.wikipedia.org/wiki/Fernando_Alonso",
-      "summary": "Fernando \"Rookie\" Alonso Díaz is a Formula One racing driver. He won his first F1 title in 2005 and then became the youngest ever Formula 1 World Champion at that time at 24 years old.",
+      "title": "Tongatapu",
+      "url": "https://simple.wikipedia.org/wiki/Tongatapu",
+      "summary": "Tongatapu is an island in the Pacific Ocean. It is the main island for the Kingdom of Tonga. The capital Nuku'alofa is located on this island.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "264f61cded84",
+      "id": "783f39fe29f8",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Saulxures-sur-Moselotte",
-      "url": "https://simple.wikipedia.org/wiki/Saulxures-sur-Moselotte",
-      "summary": "Saulxures-sur-Moselotte is a commune. It is in Grand Est in the Vosges department in northeast France.",
+      "title": "Virginia's 41st House of Delegates district",
+      "url": "https://simple.wikipedia.org/wiki/Virginia's_41st_House_of_Delegates_district",
+      "summary": "Virginia's 41st House of Delegates district is one of 100 seats in the Virginia House of Delegates, the lower house of the Virginia General Assembly. Current Speaker of the Virginia House of Delegates, Eileen Filler-Corn, is representing the district.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "4fdece8a748a",
+      "id": "8b699584fcc9",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
-      "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+      "title": "REA Reverse – Engineer Anything",
+      "url": "https://rea.tools/",
       "summary": "",
-      "author": "jonotime",
-      "published": "2026-10-08",
+      "author": "modinfo",
+      "published": "2026-10-10",
       "tags": [
-        "▲ 651"
+        "▲ 315"
       ]
     },
     {
-      "id": "f9a7f01f513e",
+      "id": "92aa8ae1261a",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Whistle: Speech to Text in 16.9 MB",
-      "url": "https://cactuscompute.com/blog/whistle",
+      "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
       "summary": "",
-      "author": "gmays",
-      "published": "2026-10-08",
-      "tags": [
-        "▲ 717"
-      ]
-    },
-    {
-      "id": "682176ab391e",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Keyboard differences between Windows and Macs",
-      "url": "https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/",
-      "summary": "",
-      "author": "sohkamyung",
-      "published": "2026-10-09",
+      "author": "g-b-r",
+      "published": "2026-10-10",
       "tags": [
         "▲ 88"
       ]
     },
     {
-      "id": "60f64453a1d6",
+      "id": "11660db67830",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
-      "url": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
-      "summary": "https://x.com/NomadsGalaxy/status/2107284088247689290",
-      "author": "ck2",
+      "title": "Cloudflare acquires Deno",
+      "url": "https://deno.com/blog/cloudflare",
+      "summary": "",
+      "author": "ilreb",
+      "published": "2026-10-09",
+      "tags": [
+        "▲ 1169"
+      ]
+    },
+    {
+      "id": "6b2cafd968c1",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Triple-A Minesweeper",
+      "url": "https://minesweeper.mikelacher.com/",
+      "summary": "",
+      "author": "robin_reala",
+      "published": "2026-10-09",
+      "tags": [
+        "▲ 871"
+      ]
+    },
+    {
+      "id": "653d884493f2",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Eye of Sauron: Long-Range Hidden Spy Camera Detection",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-qibo",
+      "summary": "",
+      "author": "ortusdux",
       "published": "2026-10-07",
       "tags": [
-        "▲ 628"
+        "▲ 110"
       ]
     },
     {
-      "id": "f60f4e33788d",
+      "id": "afabd576325d",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Theranos.world",
-      "url": "https://www.theranos.world/",
+      "title": "How to head into VR without wearing a headset",
+      "url": "https://www.kyushu-u.ac.jp/en/researches/view/414/",
       "summary": "",
-      "author": "kbyatnal",
-      "published": "2026-10-08",
+      "author": "Betelbuddy",
+      "published": "2026-10-06",
       "tags": [
-        "▲ 406"
+        "▲ 17"
       ]
     },
     {
-      "id": "34aeef37d4b4",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
-      "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
-      "summary": "",
-      "author": "soheilpro",
-      "published": "2026-10-07",
-      "tags": [
-        "▲ 560"
-      ]
-    },
-    {
-      "id": "12fd6475cd17",
+      "id": "4ec750197153",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Building Tech Communities: Insights from ReactPlay and Open-Source Leadership",
-      "url": "https://dev.to/saharaa/building-tech-communities-insights-from-reactplay-and-open-source-leadership-55hp",
-      "summary": "Community-driven tech events have evolved beyond simple networking opportunities; they are hubs for collaboration, product ideation, and developer growth. At a recent tech gathering, leaders from ReactPlay and product development studio GeekyAnts shared key takeaways on how open…",
-      "author": "Sahara Andrews",
-      "published": "Fri, 09 Oct 2026 07:28:01 +0000",
+      "title": "AI-generated content still needs to be discoverable",
+      "url": "https://dev.to/jones_chen_592558a62a5c44/ai-generated-content-still-needs-to-be-discoverable-3ihf",
+      "summary": "Creating content is only the first step. If a world updates every day but nobody can find it, the system is quietly computing for no one. When a public Cogweald world publishes a new chapter, it sends the chapter URL, story page, and homepage to IndexNow. When a world changes fr…",
+      "author": "Cogweald",
+      "published": "Sat, 10 Oct 2026 07:11:47 +0000",
       "tags": [
-        "ai",
-        "webdev",
-        "programming",
-        "productivity"
-      ]
-    },
-    {
-      "id": "08f29e603e58",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "ByBet: Why Live Odds And Scores Do Not Always Update Together",
-      "url": "https://dev.to/kennethatienza/bybet-why-live-odds-and-scores-do-not-always-update-together-9h7",
-      "summary": "Live betting screens can show odds changes before the score moves for several seconds. That short gap can puzzle bettors during fast shots, fouls, goals, or match reviews. The cause often comes from split data feeds and different update paths behind screens. The ByBet guide show…",
-      "author": "Kenneth Atienza",
-      "published": "Fri, 09 Oct 2026 07:24:17 +0000",
-      "tags": [
-        "webdev",
-        "javascript",
-        "programming",
-        "networking"
-      ]
-    },
-    {
-      "id": "c04edc1d2409",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "A Checkerboard Is Not Transparency: A Practical Alpha Test for Video",
-      "url": "https://dev.to/river_jiang_670cccce7d97d/a-checkerboard-is-not-transparency-a-practical-alpha-test-for-video-4dk2",
-      "summary": "You export a “background-free” video, put it on a web page, and see a black rectangle. Is the file broken? Perhaps. But the player might be ignoring a real alpha channel. Before running background removal again, separate three things: the preview background , the file's alpha ch…",
-      "author": "river",
-      "published": "Fri, 09 Oct 2026 07:24:06 +0000",
-      "tags": [
-        "webdev",
-        "css",
-        "showdev",
-        "tutorial"
-      ]
-    },
-    {
-      "id": "2ca3fbb9c16d",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Same proxy IP, lost login: which session expired?",
-      "url": "https://dev.to/proxydata/same-proxy-ip-lost-login-which-session-expired-2o0n",
-      "summary": "A browser automation job can keep the same proxy exit IP and still lose its login. Before changing the proxy settings, separate two kinds of state: the exit assignment managed by the proxy service and the website session maintained by your client. Two sessions with different job…",
-      "author": "Alex",
-      "published": "Fri, 09 Oct 2026 07:23:44 +0000",
-      "tags": [
-        "proxy",
-        "networking",
+        "seo",
+        "indexnow",
+        "contentplatforms",
         "webdev"
       ]
     },
     {
-      "id": "82d4beaec9d5",
+      "id": "2768fec00751",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "A Reviewable Voice-Selection Contract for TTS Interfaces",
+      "url": "https://dev.to/savielyamani_videoai/a-reviewable-voice-selection-contract-for-tts-interfaces-3geh",
+      "summary": "A Reviewable Voice-Selection Contract for TTS Interfaces Voice is often added after the edit, but it changes what a listener understands before the visuals have finished. A useful brief starts with the scene: who speaks, what must be clear, and what emotion belongs in the line. …",
+      "author": "Saviel Yamani",
+      "published": "Sat, 10 Oct 2026 07:11:34 +0000",
+      "tags": [
+        "ai",
+        "webdev",
+        "ux",
+        "testing"
+      ]
+    },
+    {
+      "id": "c6ffc208e08a",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Sixteen Articles in 24 Hours: What a Solo Dev's Content Ledger Taught Me",
+      "url": "https://dev.to/yuhehe/sixteen-articles-in-24-hours-what-a-solo-devs-content-ledger-taught-me-1kh4",
+      "summary": "I ship small digital products (a $5 data-collection recipe bundle, a pay-what-you-want sample). No audience, no ad budget, a datacenter IP that gets slapped by every signup form. So marketing is an engineering problem: inputs, cadence, failure modes, measurable output. Twenty-fo…",
+      "author": "Yuhe He",
+      "published": "Sat, 10 Oct 2026 07:11:31 +0000",
+      "tags": [
+        "indiehackers",
+        "marketing",
+        "webdev",
+        "automation"
+      ]
+    },
+    {
+      "id": "d5a23f8055d0",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Replaying earthquakes in the browser, and checking the waves against 3,933 real picks",
+      "url": "https://dev.to/arthur031221/replaying-earthquakes-in-the-browser-and-checking-the-waves-against-3933-real-picks-2h94",
+      "summary": "When an earthquake is in the news, you get a magnitude and a map. I wanted to see what the waves did and how many seconds I would've had. I built Rumbleback to replay a real earthquake. What you see The blue ring is the first P wave at the surface. The orange ring is the first S…",
+      "author": "Arthur031221",
+      "published": "Sat, 10 Oct 2026 07:07:01 +0000",
+      "tags": [
+        "javascript",
+        "opensource",
+        "webdev",
+        "showdev"
+      ]
+    },
+    {
+      "id": "d5c46cd898c6",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "The Man with the Golden Gun (novel)",
-      "url": "https://en.wikipedia.org/wiki/The_Man_with_the_Golden_Gun_(novel)",
-      "summary": "The Man with the Golden Gun is the twelfth and final novel in Ian Fleming's James Bond series and the thirteenth Bond book overall. It was first published by Jonathan Cape in the United Kingdom on 1 April 1965, eight months after the author's death, and was a best-seller. The no…",
+      "title": "Fridtjof Nansen",
+      "url": "https://en.wikipedia.org/wiki/Fridtjof_Nansen",
+      "summary": "Fridtjof Wedel-Jarlsberg Nansen was a Norwegian polymath and Nobel Peace Prize laureate. He gained prominence at various points in his life as an explorer, a scientist, a diplomat, a humanitarian, and the co-founder of the Fatherland League.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "7343e10e8dea",
+      "id": "2b3762f9568b",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Firing squad execution to be livestreamed, Pentagon says",
-      "url": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss",
-      "summary": "Pete Hegseth says the execution will be public, but a legal expert says the \"unprecedented\" decision is on \"uncertain legal terrain\".",
-      "published": "Fri, 09 Oct 2026 07:05:05 GMT",
+      "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+      "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+      "summary": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\".",
+      "published": "Sat, 10 Oct 2026 04:38:20 GMT",
       "tags": []
     },
     {
-      "id": "b63624d7ece6",
+      "id": "f9d9678cd800",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Suspect linked to Monaco bomb attack on millionaire speaks to BBC",
-      "url": "https://www.bbc.co.uk/news/articles/ckgel9044vqeo?at_medium=RSS&at_campaign=rss",
-      "summary": "Vitalii Zhykovych gives his own account of the attempted assassination of Ukrainian-born businessman Vadym Yermolayev.",
-      "published": "Thu, 08 Oct 2026 23:11:10 GMT",
+      "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
+      "url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
+      "summary": "The US president hopes to ease his party's pain before next month's midterm elections, writes the BBC's North America correspondent.",
+      "published": "Fri, 09 Oct 2026 22:30:22 GMT",
       "tags": []
     },
     {
-      "id": "4bdabecd8e9b",
+      "id": "c3ee09490263",
       "category": "news",
       "source": "BBC 世界",
-      "title": "ICE agent shoots man in New York City",
-      "url": "https://www.bbc.co.uk/news/articles/c59vzk9yypn3o?at_medium=RSS&at_campaign=rss",
-      "summary": "The mayor of New York expressed outrage at the shooting which the Department of Homeland Security said happened during the arrest of a \"criminal illegal alien\".",
-      "published": "Fri, 09 Oct 2026 04:26:19 GMT",
+      "title": "Three men found guilty of murdering Australian brothers and US friend in Mexico",
+      "url": "https://www.bbc.co.uk/news/articles/cj5ynwnye009o?at_medium=RSS&at_campaign=rss",
+      "summary": "Jake and Callum Robinson and their friend Carter Rhoad were on a surf trip when they were killed in an apparent botched robbery.",
+      "published": "Fri, 09 Oct 2026 21:55:51 GMT",
       "tags": []
     },
     {
-      "id": "16c67f2bd64e",
+      "id": "f94a21ce9616",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Russian strike on buses kills at least 30, say officials, as deadly attacks on Ukraine surge",
-      "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss",
-      "summary": "Ukraine accused Russia of targeting two crowded vehicles in the front line city of Kramatorsk to kill as many civilians as possible.",
-      "published": "Thu, 08 Oct 2026 16:31:29 GMT",
+      "title": "Flydubai attacker began a 'drift towards extremism and terrorism' in Australia, UAE says",
+      "url": "https://www.bbc.co.uk/news/articles/cw3dj5n538jpo?at_medium=RSS&at_campaign=rss",
+      "summary": "The United Arab Emirates' attorney-general also alleges the co-pilot was trying to crash the plane into Tel Aviv's airport.",
+      "published": "Sat, 10 Oct 2026 04:34:55 GMT",
       "tags": []
     },
     {
-      "id": "f1ae7b0e7583",
+      "id": "c16ef3765929",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "SpaceX calls for better coordination in orbit after near-misses with Starlink",
-      "url": "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/",
-      "summary": "\"These led to conjunctions of tens of meters to hundreds of meters. Way too close to comfort.\"",
-      "author": "Stephen Clark",
-      "published": "Thu, 08 Oct 2026 21:37:32 +0000",
+      "title": "Neanderthal wooden tools from Spain found preserved in stone",
+      "url": "https://arstechnica.com/science/2026/10/neanderthal-wooden-tools-from-spain-found-preserved-in-stone/",
+      "summary": "Dissolved rock precipitated around the tools, which then decayed.",
+      "author": "Jacek Krywko",
+      "published": "Fri, 09 Oct 2026 22:34:03 +0000",
       "tags": [
-        "Space",
-        "space debris",
-        "space traffic management",
-        "spacex"
+        "Science",
+        "Archeology",
+        "Neanderthals",
+        "woodworking"
       ]
     },
     {
-      "id": "d18c9e11ef57",
+      "id": "5df45c581313",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Judge weighs if Trump can charge $100K for early access to Truth Social posts",
-      "url": "https://arstechnica.com/tech-policy/2026/10/judge-weighs-if-trump-can-charge-100k-for-early-access-to-truth-social-posts/",
-      "summary": "Judge questioned if Trump delaying access to Truth Social posts by a second harms the press.",
-      "author": "Ashley Belanger",
-      "published": "Thu, 08 Oct 2026 20:53:01 +0000",
+      "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+      "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+      "summary": "One damaged data center has supercomputers used for training Yandex’s AI model.",
+      "author": "Jeremy Hsu",
+      "published": "Fri, 09 Oct 2026 22:04:07 +0000",
       "tags": [
-        "Policy",
-        "Donald Trump",
-        "Fifth Amendment",
-        "First Amendment"
+        "AI",
+        "Tech",
+        "ai data centers",
+        "data centers"
       ]
     },
     {
-      "id": "785366c28218",
+      "id": "8bf4a74a0b16",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Trump Mobile hack and apparent lack of FCC authorization raise security alarms",
-      "url": "https://arstechnica.com/tech-policy/2026/10/trump-mobile-doesnt-seem-to-have-fcc-authorization-for-phone-service-senator-says/",
-      "summary": "After hack and data breach, senator asks why Trump Mobile lacks some FCC filings.",
-      "author": "Jon Brodkin",
-      "published": "Thu, 08 Oct 2026 20:39:31 +0000",
+      "title": "A Cray-1 supercomputer replica from 30 \"obsolete\" Mac Minis",
+      "url": "https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/",
+      "summary": "Stylish upcycling, with a retro flare, at Spain's Museo de Historia de la Computación.",
+      "author": "Nick Indge",
+      "published": "Fri, 09 Oct 2026 21:51:12 +0000",
       "tags": [
-        "Policy",
-        "FCC",
-        "trump mobile"
+        "Tech",
+        "apple",
+        "Cray-1",
+        "Mac mini"
       ]
     },
     {
-      "id": "1ca53a6776c6",
+      "id": "7bb634f5f941",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "SpaceX’s Starlink Mobile plans are pressuring AT&T and Verizon shares",
-      "url": "https://www.marketwatch.com/story/spacexs-starlink-mobile-plans-are-pressuring-at-t-and-verizon-shares-7cb56764?mod=mw_rss_topstories",
-      "summary": "SpaceX plans to purchase Grain Management’s 800 MHz spectrum portfolio in a move to bolster its mobile ambitions. The news is lifting cell-tower stocks.",
-      "author": "Christine Ji",
-      "published": "Fri, 09 Oct 2026 00:52:00 GMT",
+      "title": "‘I feel like a loser’: My stock portfolio is swinging wildly. Should I be worried?",
+      "url": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
+      "summary": "“I presume these are sophisticated investors taking a profit.”",
+      "author": "Quentin Fottrell",
+      "published": "Sat, 10 Oct 2026 03:15:00 GMT",
       "tags": []
     },
     {
-      "id": "ce454a00f52f",
+      "id": "4e18150c9776",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "How to downsize like a pro — and free yourself from being a ‘prisoner of your possessions’",
-      "url": "https://www.marketwatch.com/story/how-to-downsize-like-a-pro-and-free-yourself-from-being-a-prisoner-of-your-possessions-c4b5533e?mod=mw_rss_topstories",
-      "summary": "Seven tips for painlessly moving in retirement.",
-      "author": "Richard Eisenberg",
-      "published": "Fri, 09 Oct 2026 00:03:00 GMT",
+      "title": "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
+      "url": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
+      "summary": "“The house cost $385,000. With my savings, her $50,000 and a small mortgage, I was able to close.”",
+      "author": "Quentin Fottrell",
+      "published": "Sat, 10 Oct 2026 00:15:00 GMT",
       "tags": []
     },
     {
-      "id": "51f9cd8816ec",
+      "id": "2d06b60c94ae",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Feel like a pumpkin-spice burrito? Analysts try to wrap their heads around a possible Starbucks-Chipotle tie-up.",
-      "url": "https://www.marketwatch.com/story/feel-like-a-pumpkin-spice-burrito-analysts-try-to-wrap-their-heads-around-a-possible-starbucks-chipotle-tie-up-5b8519fd?mod=mw_rss_topstories",
-      "summary": "Starbucks investors would likely not be happy about the company adding debt to finance a deal to buy Chipotle, given that it already has a high debt load.",
-      "author": "Bill Peters",
-      "published": "Thu, 08 Oct 2026 23:14:00 GMT",
+      "title": "My brother-in-law convinced his parents to sign over their home and life savings to buy a $3 million compound. Do I intervene?",
+      "url": "https://www.marketwatch.com/story/my-brother-in-law-convinced-his-parents-to-sign-over-their-home-and-savings-to-buy-a-3-million-compound-do-i-intervene-03fb96b7?mod=mw_rss_topstories",
+      "summary": "“Both properties will be solely in his name.”",
+      "author": "Quentin Fottrell",
+      "published": "Fri, 09 Oct 2026 23:15:00 GMT",
       "tags": []
     }
   ],
