@@ -1,6 +1,17 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "items": [
+    {
+      "id": "b35e5f2d2ecb",
+      "platform": "youtube",
+      "videoId": "4fLVq6HJsKc",
+      "title": "DeepSeek Solved AI’s Memory Problem",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
+      "thumb": "https://i1.ytimg.com/vi/4fLVq6HJsKc/hqdefault.jpg",
+      "published": "2026-10-11",
+      "category": "图形学"
+    },
     {
       "id": "b84db8863291",
       "platform": "youtube",
@@ -10,17 +21,6 @@
       "url": "https://www.youtube.com/watch?v=Wkaw03p3BrM",
       "thumb": "https://i4.ytimg.com/vi/Wkaw03p3BrM/hqdefault.jpg",
       "published": "2026-10-07",
-      "category": "图形学"
-    },
-    {
-      "id": "bd6c6dc0e05f",
-      "platform": "youtube",
-      "videoId": "ZHVNTTKu9fU",
-      "title": "The Billion Dollar AI Advantage Is Disappearing",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=ZHVNTTKu9fU",
-      "thumb": "https://i3.ytimg.com/vi/ZHVNTTKu9fU/hqdefault.jpg",
-      "published": "2026-10-05",
       "category": "图形学"
     },
     {
@@ -43,28 +43,6 @@
       "url": "https://www.youtube.com/watch?v=mGuYUEuVDYc",
       "thumb": "https://i2.ytimg.com/vi/mGuYUEuVDYc/hqdefault.jpg",
       "published": "2026-07-12",
-      "category": "图形学"
-    },
-    {
-      "id": "63dfc2ba201c",
-      "platform": "bilibili",
-      "videoId": "BV17aho6iE7k",
-      "title": "GAMES Webinar 416-具身智能专题：从灵巧操作到真机数据闭环-徐志轩-接触驱动的灵巧操作学习",
-      "channel": "GAMES-Webinar",
-      "url": "https://www.bilibili.com/video/BV17aho6iE7k",
-      "thumb": "https://i1.hdslb.com/bfs/archive/ebfd966d9908172eb5fc2a50a8d026962497333c.jpg",
-      "published": "2026-09-26",
-      "category": "图形学"
-    },
-    {
-      "id": "ee2476518bc0",
-      "platform": "bilibili",
-      "videoId": "BV17aho6iEkh",
-      "title": "GAMES Webinar 416-具身智能专题：从灵巧操作到真机数据闭环-李永露-具身模型的真机评测与数据配方",
-      "channel": "GAMES-Webinar",
-      "url": "https://www.bilibili.com/video/BV17aho6iEkh",
-      "thumb": "https://i0.hdslb.com/bfs/archive/67607bbf0a01c26a17497ea0c55aa920bad2986a.jpg",
-      "published": "2026-09-26",
       "category": "图形学"
     },
     {
@@ -134,6 +112,50 @@
       "category": "CS"
     },
     {
+      "id": "9018e970ca98",
+      "platform": "bilibili",
+      "videoId": "BV1ScKR6QEQF",
+      "title": "古法做视频里加一点点科技",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1ScKR6QEQF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/b9d2e88f8d41fe24cecddcf715756265ff68b9d2.jpg",
+      "published": "2026-06-29",
+      "category": "CS"
+    },
+    {
+      "id": "4001551d4ad2",
+      "platform": "bilibili",
+      "videoId": "BV1RfEw6LEfF",
+      "title": "能跟你对话的TTS【开源】",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1RfEw6LEfF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/414b79823c78f30b3e60d27f14c0f44111f0234f.jpg",
+      "published": "2026-06-04",
+      "category": "CS"
+    },
+    {
+      "id": "cdb4fb8040a2",
+      "platform": "bilibili",
+      "videoId": "BV1JGap6LE74",
+      "title": "需求和架构 (2) [07-Raw/26生成式软件工程/NJU]",
+      "channel": "绿导师原谅你了",
+      "url": "https://www.bilibili.com/video/BV1JGap6LE74",
+      "thumb": "https://i2.hdslb.com/bfs/archive/83c1f57d146cd404c922cef190d2c4646dca654b.jpg",
+      "published": "2026-09-29",
+      "category": "CS"
+    },
+    {
+      "id": "9654c0a73770",
+      "platform": "bilibili",
+      "videoId": "BV1Rch76WEfQ",
+      "title": "需求和架构 (1) [06-Raw/26生成式软件工程/NJU]",
+      "channel": "绿导师原谅你了",
+      "url": "https://www.bilibili.com/video/BV1Rch76WEfQ",
+      "thumb": "https://i1.hdslb.com/bfs/archive/e2606ba4314ef35e144efa4436ab30e3c3bbea63.jpg",
+      "published": "2026-09-22",
+      "category": "CS"
+    },
+    {
       "id": "881380eca6dd",
       "platform": "youtube",
       "videoId": "0ZCVKL_PDsg",
@@ -153,28 +175,6 @@
       "url": "https://www.youtube.com/watch?v=mzkdUnCThjc",
       "thumb": "https://i2.ytimg.com/vi/mzkdUnCThjc/hqdefault.jpg",
       "published": "2026-09-25",
-      "category": "金融"
-    },
-    {
-      "id": "c9fc725b1017",
-      "platform": "bilibili",
-      "videoId": "BV1FCps68EGf",
-      "title": "史上最大现金收购案 富二代如何正确拼爹",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV1FCps68EGf",
-      "thumb": "https://i0.hdslb.com/bfs/archive/0a9baee1364519b7f04c7c303d5fb81fd19b0f6f.jpg",
-      "published": "2026-10-09",
-      "category": "金融"
-    },
-    {
-      "id": "09f26dc16757",
-      "platform": "bilibili",
-      "videoId": "BV1ssac6oEL3",
-      "title": "国产医疗设备，怎么样了？",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV1ssac6oEL3",
-      "thumb": "https://i0.hdslb.com/bfs/archive/6920ec9dbfe2032e21d9f2b0375bca002aabf89a.jpg",
-      "published": "2026-09-26",
       "category": "金融"
     },
     {
@@ -219,6 +219,50 @@
       "url": "https://www.youtube.com/watch?v=h6E4_Bcmscg",
       "thumb": "https://i1.ytimg.com/vi/h6E4_Bcmscg/hqdefault.jpg",
       "published": "2025-08-30",
+      "category": "历史"
+    },
+    {
+      "id": "e4ffee7fe887",
+      "platform": "bilibili",
+      "videoId": "BV1XUpn6zEcu",
+      "title": "王掞·前半生：簪缨世族，曾祖明朝首辅，子孙清朝入阁？【康熙王朝】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1XUpn6zEcu",
+      "thumb": "https://i0.hdslb.com/bfs/archive/951408bd511dafe4301a9da6ab6342181569c400.jpg",
+      "published": "2026-10-11",
+      "category": "历史"
+    },
+    {
+      "id": "aa478a918252",
+      "platform": "bilibili",
+      "videoId": "BV1bzaf6YEhk",
+      "title": "富德·平准前奏：基层兵丁，如何十五年，官居二品？【乾隆往事】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1bzaf6YEhk",
+      "thumb": "https://i1.hdslb.com/bfs/archive/c881023880c610091ce90a386137624466a50239.jpg",
+      "published": "2026-09-30",
+      "category": "历史"
+    },
+    {
+      "id": "63cee07f2023",
+      "platform": "bilibili",
+      "videoId": "BV1WhaA6hE7s",
+      "title": "糟糕！我的粮食被勋宗抢走了！【神奇组织54】",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV1WhaA6hE7s",
+      "thumb": "https://i2.hdslb.com/bfs/archive/226f434fef1c833057d85dc5faf20c2862e988e9.jpg",
+      "published": "2026-09-25",
+      "category": "历史"
+    },
+    {
+      "id": "b806d6653432",
+      "platform": "bilibili",
+      "videoId": "BV12RYx6TE9r",
+      "title": "告别伊玛目  伊朗篇（终）",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV12RYx6TE9r",
+      "thumb": "https://i1.hdslb.com/bfs/archive/78b3aa4466a8e541c8191498d2e7dfa3bd6833fb.jpg",
+      "published": "2026-09-11",
       "category": "历史"
     },
     {
@@ -269,23 +313,21 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "图形学 · 512313464: 2 条",
+    "Bilibili 512313464: code=-352 风控校验失败",
+    "图形学 · 512313464: 0 条",
     "引擎 · @TheCherno: 2 条",
-    "Bilibili 437860379: code=-352 风控校验失败",
     "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
-    "Bilibili 1567748478: code=-352 风控校验失败",
-    "CS · 1567748478: 0 条",
-    "CS · 202224425: 0 条",
+    "CS · 1567748478: 2 条",
+    "CS · 202224425: 2 条",
     "金融 · @ThePlainBagel: 2 条",
-    "金融 · 520819684: 2 条",
+    "Bilibili 520819684: code=-352 风控校验失败",
+    "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
-    "Bilibili 11646119: code=-352 风控校验失败",
-    "历史 · 11646119: 0 条",
-    "Bilibili 23947287: code=-352 风控校验失败",
-    "历史 · 23947287: 0 条",
+    "历史 · 11646119: 2 条",
+    "历史 · 23947287: 2 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
   ]
