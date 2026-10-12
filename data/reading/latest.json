@@ -1,223 +1,250 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "items": [
     {
-      "id": "37c0ed7da5f0",
+      "id": "4f4c7d3bc988",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Harald zur Hausen",
-      "url": "https://simple.wikipedia.org/wiki/Harald_zur_Hausen",
-      "summary": "Harald zur Hausen was a German virologist and professor. He won the Nobel Prize in Physiology or Medicine in 2008 for his discoveries on the role of papilloma viruses which he shared with Luc Montagnier and Françoise Barré-Sinoussi.",
+      "title": "Tamsui–Xinyi line",
+      "url": "https://simple.wikipedia.org/wiki/Tamsui%E2%80%93Xinyi_line",
+      "summary": "Tamsui-6 Line is a line of the Taipei Metro in Taipei and New Taipei, Taiwan. This line is also called the Red Line. The line connects Guangci/Fengtian Temple to Tamsui. You can transfer to the Wenhu Line at Daan, to the Bannan Line at Taipei Main Station, to the Songshan-Xindia…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "8cd939ee74c5",
+      "id": "cf29008f3a1e",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Hurricane Kenneth (2005)",
-      "url": "https://simple.wikipedia.org/wiki/Hurricane_Kenneth_(2005)",
-      "summary": "Hurricane Kenneth was the strongest hurricane in the 2005 Pacific hurricane season. After the hurricane died out, what was left of Kenneth came near another weather system, and it caused rain on the Hawaiian Islands. Because of the heavy rain, there was flooding. At Nu‘uanu Pali…",
+      "title": "Bouchon, Somme",
+      "url": "https://simple.wikipedia.org/wiki/Bouchon%2C_Somme",
+      "summary": "Bouchon is a commune. It is in Hauts-de-France in the Somme department in north France.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "abaf3a9de504",
+      "id": "445efc3b20f3",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Build your own decision model",
-      "url": "https://nishtahir.com/build-your-own-decision-model/",
+      "title": "Attack of the Vibe Coded Photoshop Clones",
+      "url": "https://www.shokunin.studio/blog/2026/10/9/attack-of-the-vibe-coded-photoshop-clones",
       "summary": "",
-      "author": "softwaredoug",
-      "published": "2026-10-10",
+      "author": "riffraff",
+      "published": "2026-10-12",
       "tags": [
-        "▲ 232"
+        "▲ 84"
       ]
     },
     {
-      "id": "493a92b75db9",
+      "id": "4a4af4b9e668",
       "category": "tech",
       "source": "Hacker News",
-      "title": "2D Vehicles",
-      "url": "https://patkerr.co.uk/2d-vehicles/",
+      "title": "Type-safe HTML templating in Zig",
+      "url": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
       "summary": "",
-      "author": "Michelangelo11",
-      "published": "2026-10-07",
+      "author": "lukaslalinsky",
+      "published": "2026-10-12",
       "tags": [
-        "▲ 436"
+        "▲ 72"
       ]
     },
     {
-      "id": "1f4b55400949",
+      "id": "09279f7dec36",
       "category": "tech",
       "source": "Hacker News",
-      "title": "A city-building game in which the city would prefer you didn't",
-      "url": "https://housing.over.pizza/",
+      "title": "Fingerprints are the new cookies",
+      "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
       "summary": "",
-      "author": "JumpCrisscross",
-      "published": "2026-10-10",
-      "tags": [
-        "▲ 300"
-      ]
-    },
-    {
-      "id": "436847b193c3",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "AI agents in a stand-up call",
-      "url": "https://atoll92.github.io/agent-standup/",
-      "summary": "",
-      "author": "jonbaer",
+      "author": "royfish",
       "published": "2026-10-11",
       "tags": [
-        "▲ 29"
+        "▲ 302"
       ]
     },
     {
-      "id": "1c7d174bb345",
+      "id": "36ee60902c3e",
       "category": "tech",
       "source": "Hacker News",
-      "title": "How big is a Git commit?",
-      "url": "https://ratfactor.com/cards/git-commit-size",
+      "title": "Total Annihilation, rebuilt for modern computers",
+      "url": "https://nanolathe.gg",
       "summary": "",
-      "author": "theanonymousone",
-      "published": "2026-10-09",
+      "author": "jttnr",
+      "published": "2026-10-11",
       "tags": [
-        "▲ 15"
+        "▲ 463"
       ]
     },
     {
-      "id": "6612db5ecf0e",
+      "id": "07955e7b03bb",
       "category": "tech",
       "source": "Hacker News",
-      "title": "The Lightbulb Computer",
-      "url": "https://lightbulbcomputer.com/",
+      "title": "Calculus with Julia",
+      "url": "https://jverzani.github.io/CalculusWithJuliaNotes.jl/",
       "summary": "",
-      "author": "oskarth",
+      "author": "subset",
       "published": "2026-10-10",
       "tags": [
-        "▲ 360"
+        "▲ 90"
       ]
     },
     {
-      "id": "23be74c37ad2",
+      "id": "1e2da6b0b07c",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Whatever became of holography? (2011)",
+      "url": "https://www.americanscientist.org/article/whatever-became-of-holography",
+      "summary": "",
+      "author": "cainxinth",
+      "published": "2026-10-11",
+      "tags": [
+        "▲ 111"
+      ]
+    },
+    {
+      "id": "f833331f4139",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Writing Readable Tests with the Given–When–Then Pattern",
-      "url": "https://dev.to/miasalazar/writing-readable-tests-with-the-given-when-then-pattern-o5o",
-      "summary": "As applications grow, tests often become harder to understand than the code they are supposed to verify. A common problem is that tests focus heavily on implementation details and not enough on behavior. While the assertions may be correct, someone reading the test can struggle …",
-      "author": "Mía Salazar",
-      "published": "Sun, 11 Oct 2026 07:23:43 +0000",
+      "title": "Building a Document Pipeline for Professional Credential Recognition (Apostille, Translation, Submission)",
+      "url": "https://dev.to/diogoheleno/building-a-document-pipeline-for-professional-credential-recognition-apostille-translation-27o3",
+      "summary": "Credential recognition workflows show up more often than you'd expect in internal tooling: HR platforms for relocating employees, immigration case management systems, university partnership portals, government digital services. If you've ever been asked to build or maintain one …",
+      "author": "Diogo Heleno",
+      "published": "Mon, 12 Oct 2026 07:28:06 +0000",
       "tags": [
-        "frontend",
-        "testing",
-        "gwt",
+        "i18n",
+        "webdev",
+        "productivity",
+        "tutorial"
+      ]
+    },
+    {
+      "id": "c3c5a075159a",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Wiring Android's ML Kit Barcode Scanner to a On-Device LLM for Real-Time Product Intelligence",
+      "url": "https://dev.to/software_mvp-factory/wiring-androids-ml-kit-barcode-scanner-to-a-on-device-llm-for-real-time-product-intelligence-1k34",
+      "summary": "--- title : \" Android Barcode Scanner + On-Device LLM: The Latency Budget That Ships\" published : true description : \" Wire ML Kit barcode detection into MediaPipe LLM Inference with frame throttling and structured JSON output. P95 latency targets for Pixel 9.\" tags : [ kotlin ,…",
+      "author": "SoftwareDevs mvpfactory.io",
+      "published": "Mon, 12 Oct 2026 07:25:16 +0000",
+      "tags": [
+        "webdev",
+        "programming"
+      ]
+    },
+    {
+      "id": "00499d6e62f4",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Technisches SEO-Audit: Systematische Prüfung in 12 Bereichen",
+      "url": "https://dev.to/stanislav_tonkich/technisches-seo-audit-systematische-prufung-in-12-bereichen-16b1",
+      "summary": "Das Problem: Unsichtbare Seiten trotz guter Inhalte Eine Website kann inhaltlich hervorragend sein und dennoch in der Google-Suche nicht erscheinen. Die Ursache liegt dann meist nicht im Text, sondern in technischen Hindernissen: Eine robots.txt blockiert wichtige Verzeichnisse,…",
+      "author": "Stanislav Tonkich",
+      "published": "Mon, 12 Oct 2026 07:24:17 +0000",
+      "tags": [
+        "seo",
+        "webdev",
+        "performance",
+        "a11y"
+      ]
+    },
+    {
+      "id": "691c5d2ee505",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Editable catalogues and course finders are not checkout systems",
+      "url": "https://dev.to/joonas_pekkarinen_ba0a2e2/editable-catalogues-and-course-finders-are-not-checkout-systems-1k26",
+      "summary": "A small business website can need frequent content updates without needing a payment system. The distinction sounds obvious, but it is easy to lose when a quotation starts with a list of technologies instead of the client's daily work. Two projects we describe publicly at Webify…",
+      "author": "Joonas Pekkarinen",
+      "published": "Mon, 12 Oct 2026 07:24:00 +0000",
+      "tags": [
         "webdev"
       ]
     },
     {
-      "id": "fc1115273bbf",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Sending XML E-Invoices and Readable Invoice Copies Together: Legal Requirements and Best Practices",
-      "url": "https://dev.to/thomasdelfing_de/sending-xml-e-invoices-and-readable-invoice-copies-together-legal-requirements-and-best-practices-40lo",
-      "summary": "An XML e-invoice may be sent together with a readable representation of the same invoice. For an additional PDF, the German tax authorities explicitly confirm that this is permitted. An accompanying Word document is also generally possible, although it does not independently mee…",
-      "author": "Thomas Delfing",
-      "published": "Sun, 11 Oct 2026 07:22:03 +0000",
-      "tags": [
-        "management",
-        "webdev",
-        "programming",
-        "law"
-      ]
-    },
-    {
-      "id": "b3eead55c7dc",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "I Built an Open-Source License Compatibility Checker for Developers",
-      "url": "https://dev.to/esdecode/i-built-an-open-source-license-compatibility-checker-for-developers-24ef",
-      "summary": "Software licensing often looks simple until you actually need to combine code from different projects. Can I use an MIT-licensed library inside a proprietary application? What happens if a dependency is GPL? Can I modify the code and distribute only the binary? What changes if t…",
-      "author": "Esdecode",
-      "published": "Sun, 11 Oct 2026 07:21:15 +0000",
-      "tags": [
-        "opensource",
-        "webdev",
-        "programming",
-        "productivity"
-      ]
-    },
-    {
-      "id": "d2eca6b28cd7",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "XML-E-Rechnung und PDF-Kopie: Rechtliche Vorgaben erklärt",
-      "url": "https://dev.to/theforeman024/xml-e-rechnung-und-pdf-kopie-rechtliche-vorgaben-erklart-137",
-      "summary": "Gemeinsamer Versand von XML-E-Rechnungen und lesbaren Rechnungskopien: Rechtliche Anforderungen und Best Practices Eine XML-E-Rechnung darf gemeinsam mit einer lesbaren Darstellung derselben Rechnung versandt werden. Für ein zusätzliches PDF bestätigt die Finanzverwaltung dies a…",
-      "author": "Hugh Foreman",
-      "published": "Sun, 11 Oct 2026 07:19:59 +0000",
-      "tags": [
-        "management",
-        "law",
-        "webdev",
-        "productivity"
-      ]
-    },
-    {
-      "id": "c3fa10da24d0",
+      "id": "b8b28c4037b9",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Userkare",
-      "url": "https://en.wikipedia.org/wiki/Userkare",
-      "summary": "Userkare was the second king of the Sixth Dynasty of Egypt during the Old Kingdom Period. He reigned briefly, two to four years, in the late 24th or the early 23rd century BC. Userkare's relation to his predecessor Teti and successor Pepi I is unknown and his reign remains enigm…",
+      "title": "Poecilia vandepolli",
+      "url": "https://en.wikipedia.org/wiki/Poecilia_vandepolli",
+      "summary": "Poecilia vandepolli, or Van de Poll's molly, is a poeciliid fish native to the Caribbean islands of Aruba, Bonaire, and Curaçao. It is one of the most common fish in its range, inhabiting fresh, brackish, salt, and hypersaline waters such as streams, ponds, bays, salt pans, and …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "8fd635139c0b",
+      "id": "551382d9bff4",
       "category": "news",
       "source": "BBC 世界",
-      "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
-      "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
-      "summary": "Ukraine's leader had said the deal with Russia to release diesel into the US would help Moscow fund the war.",
-      "published": "Sun, 11 Oct 2026 01:41:29 GMT",
+      "title": "Zelensky backs Trump's 'energy ceasefire' but says Russia continues to hit power plants",
+      "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Ukraine's leader says he will support such a truce if Moscow does, after initially expressing surprise at Donald Trump's announcement.",
+      "published": "Sun, 11 Oct 2026 21:36:40 GMT",
       "tags": []
     },
     {
-      "id": "a81bcb82f0c3",
+      "id": "fc4dcfb7709b",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Young men live in fear of being snatched off the streets and sold to Myanmar's army",
-      "url": "https://www.bbc.co.uk/news/articles/c680zlny0gk4o?at_medium=RSS&at_campaign=rss",
-      "summary": "A desperate junta is in a war of attrition against ethnic militias and and civilian resistance.",
-      "published": "Sat, 10 Oct 2026 22:13:08 GMT",
+      "title": "Trump faces growing backlash over plans to import diesel from Russia",
+      "url": "https://www.bbc.co.uk/news/articles/cjn5v21py07vo?at_medium=RSS&at_campaign=rss",
+      "summary": "Both Republican and Democratic lawmakers have criticised the deal, which was announced weeks before the US midterm elections.",
+      "published": "Sun, 11 Oct 2026 23:18:45 GMT",
       "tags": []
     },
     {
-      "id": "fe7b9d6e4727",
+      "id": "a4f40d791855",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Delhi braces for more protests as 'cockroach' group's leaders released",
-      "url": "https://www.bbc.co.uk/news/articles/c84g179n2393o?at_medium=RSS&at_campaign=rss",
-      "summary": "Police say they will keep restricting access to the city centre after 7,000 people were detained and released on Saturday.",
-      "published": "Sun, 11 Oct 2026 07:10:49 GMT",
+      "title": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
+      "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Saudi capital has been hit by multiple attacks from the Iran-backed Yemeni group over the weekend.",
+      "published": "Sun, 11 Oct 2026 22:45:58 GMT",
       "tags": []
     },
     {
-      "id": "9010f2c29372",
+      "id": "f55d23bf00b1",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US murderer Christa Pike discharged from hospital 10 days after failed execution",
-      "url": "https://www.bbc.co.uk/news/articles/cmlyle97pqd7o?at_medium=RSS&at_campaign=rss",
-      "summary": "Pike's lawyers say she is \"grateful\" to the medical team who cared for her after she survived two lethal injections last month.",
-      "published": "Sat, 10 Oct 2026 17:44:26 GMT",
+      "title": "Documents falsified to evade tax on Abramovich's wealth, BBC finds",
+      "url": "https://www.bbc.co.uk/news/articles/c64g1l5389kvo?at_medium=RSS&at_campaign=rss",
+      "summary": "Backdated paperwork also made the Russian oligarch’s yachts and mansions disappear from accounts, investigation finds.",
+      "published": "Mon, 12 Oct 2026 05:00:52 GMT",
       "tags": []
+    },
+    {
+      "id": "eb8e79306fa9",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Review: 4-hour Musk documentary feels like two different films",
+      "url": "https://arstechnica.com/culture/2026/10/review-4-hour-musk-documentary-feels-like-two-different-films/",
+      "summary": "Alex Gibney's provocative film is compelling but overlong, and there's not much new here for Ars readers.",
+      "author": "Jennifer Ouellette",
+      "published": "Sun, 11 Oct 2026 18:10:54 +0000",
+      "tags": [
+        "Culture",
+        "Tech",
+        "Alex Gibney",
+        "Bleecker Street"
+      ]
+    },
+    {
+      "id": "8f7a2e10ebbf",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Prime Video unveils Blade Runner 2099 full trailer at NYCC",
+      "url": "https://arstechnica.com/culture/2026/10/prime-video-unveils-blade-runner-2099-full-trailer-at-nycc/",
+      "summary": "Also: new trailer for Godzilla Minus Zero , the sequel to Takashi Yamazaki’s kaiju epic Godzilla Minus One",
+      "author": "Jennifer Ouellette",
+      "published": "Sun, 11 Oct 2026 14:50:24 +0000",
+      "tags": [
+        "Culture",
+        "Blade Runner 2099",
+        "entertainment",
+        "films"
+      ]
     },
     {
       "id": "8701263ea07b",
@@ -236,68 +263,36 @@
       ]
     },
     {
-      "id": "c16ef3765929",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Neanderthal wooden tools from Spain found preserved in stone",
-      "url": "https://arstechnica.com/science/2026/10/neanderthal-wooden-tools-from-spain-found-preserved-in-stone/",
-      "summary": "Dissolved rock precipitated around the tools, which then decayed.",
-      "author": "Jacek Krywko",
-      "published": "Fri, 09 Oct 2026 22:34:03 +0000",
-      "tags": [
-        "Science",
-        "Archeology",
-        "Neanderthals",
-        "woodworking"
-      ]
-    },
-    {
-      "id": "5df45c581313",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
-      "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
-      "summary": "One damaged data center has supercomputers used for training Yandex’s AI model.",
-      "author": "Jeremy Hsu",
-      "published": "Fri, 09 Oct 2026 22:04:07 +0000",
-      "tags": [
-        "AI",
-        "Tech",
-        "ai data centers",
-        "data centers"
-      ]
-    },
-    {
-      "id": "4e333c57b6fd",
+      "id": "4e18150c9776",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Should I put my nest egg in a 30-year Treasury bond?",
-      "url": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
-      "summary": "Risk comes in many forms, even with “safe” investments.",
-      "author": "Dan Moisand",
-      "published": "Sat, 10 Oct 2026 19:44:00 GMT",
+      "title": "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
+      "url": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
+      "summary": "“The house cost $385,000. With my savings, her $50,000 and a small mortgage, I was able to close.”",
+      "author": "Quentin Fottrell",
+      "published": "Sun, 11 Oct 2026 20:15:00 GMT",
       "tags": []
     },
     {
-      "id": "4c6968db9d0c",
+      "id": "7bb634f5f941",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Worse than taking away your parents’ car keys? Taking away their cell phone. How to protect your aging parents.",
-      "url": "https://www.marketwatch.com/story/worse-than-taking-away-your-parents-car-keys-taking-away-their-cellphone-how-to-protect-your-aging-parents-f01be6e6?mod=mw_rss_topstories",
-      "summary": "Parental controls aren’t just for kids anymore",
-      "author": "Beth Pinsker",
-      "published": "Sat, 10 Oct 2026 19:44:00 GMT",
+      "title": "‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?",
+      "url": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
+      "summary": "“I presume these are sophisticated investors taking a profit.”",
+      "author": "Quentin Fottrell",
+      "published": "Sun, 11 Oct 2026 20:00:00 GMT",
       "tags": []
     },
     {
-      "id": "a1844fd54ec4",
+      "id": "2d06b60c94ae",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "These decisions you make in your 20s — not your income — determine whether you’ll spend decades in debt or retire comfortably",
-      "url": "https://www.marketwatch.com/story/these-decisions-you-make-in-your-20s-not-your-income-determine-whether-youll-spend-decades-in-debt-or-retire-comfortably-7bbb28f9?mod=mw_rss_topstories",
-      "summary": "Don’t just focus on stock picks when you’re thinking of building retirement wealth",
-      "author": "Kurt Supe",
-      "published": "Sat, 10 Oct 2026 19:44:00 GMT",
+      "title": "My brother-in-law convinced his parents to sign over their home and life savings to buy a $3 million compound. Do I intervene?",
+      "url": "https://www.marketwatch.com/story/my-brother-in-law-convinced-his-parents-to-sign-over-their-home-and-savings-to-buy-a-3-million-compound-do-i-intervene-03fb96b7?mod=mw_rss_topstories",
+      "summary": "“Both properties will be solely in his name.”",
+      "author": "Quentin Fottrell",
+      "published": "Sun, 11 Oct 2026 19:32:00 GMT",
       "tags": []
     }
   ],
