@@ -1,6 +1,17 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "items": [
+    {
+      "id": "3c1e366833a4",
+      "platform": "youtube",
+      "videoId": "z_sXLlLVUls",
+      "title": "OpenAI Just Changed What It Means To Do Math",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
+      "thumb": "https://i3.ytimg.com/vi/z_sXLlLVUls/hqdefault.jpg",
+      "published": "2026-10-13",
+      "category": "图形学"
+    },
     {
       "id": "b35e5f2d2ecb",
       "platform": "youtube",
@@ -10,17 +21,6 @@
       "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
       "thumb": "https://i1.ytimg.com/vi/4fLVq6HJsKc/hqdefault.jpg",
       "published": "2026-10-11",
-      "category": "图形学"
-    },
-    {
-      "id": "b84db8863291",
-      "platform": "youtube",
-      "videoId": "Wkaw03p3BrM",
-      "title": "DeepMind's New AI Just Cracked The Code Of Life",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=Wkaw03p3BrM",
-      "thumb": "https://i4.ytimg.com/vi/Wkaw03p3BrM/hqdefault.jpg",
-      "published": "2026-10-07",
       "category": "图形学"
     },
     {
@@ -38,7 +38,7 @@
       "id": "41a44f1be560",
       "platform": "youtube",
       "videoId": "mGuYUEuVDYc",
-      "title": "Understanding TETRIS As a Game Developer (All 58 Games)",
+      "title": "Understanding TETRIS As a Game Developer",
       "channel": "Acerola",
       "url": "https://www.youtube.com/watch?v=mGuYUEuVDYc",
       "thumb": "https://i2.ytimg.com/vi/mGuYUEuVDYc/hqdefault.jpg",
@@ -244,26 +244,15 @@
       "category": "历史"
     },
     {
-      "id": "63cee07f2023",
-      "platform": "bilibili",
-      "videoId": "BV1WhaA6hE7s",
-      "title": "糟糕！我的粮食被勋宗抢走了！【神奇组织54】",
-      "channel": "小约翰可汗",
-      "url": "https://www.bilibili.com/video/BV1WhaA6hE7s",
-      "thumb": "https://i2.hdslb.com/bfs/archive/226f434fef1c833057d85dc5faf20c2862e988e9.jpg",
-      "published": "2026-09-25",
-      "category": "历史"
-    },
-    {
-      "id": "b806d6653432",
-      "platform": "bilibili",
-      "videoId": "BV12RYx6TE9r",
-      "title": "告别伊玛目  伊朗篇（终）",
-      "channel": "小约翰可汗",
-      "url": "https://www.bilibili.com/video/BV12RYx6TE9r",
-      "thumb": "https://i1.hdslb.com/bfs/archive/78b3aa4466a8e541c8191498d2e7dfa3bd6833fb.jpg",
-      "published": "2026-09-11",
-      "category": "历史"
+      "id": "a742213d1995",
+      "platform": "youtube",
+      "videoId": "I4G9TjlbdtM",
+      "title": "Films at home or at the cinema - which is better? 🍿 | Improve your listening with Real Easy English",
+      "channel": "BBC Learning English",
+      "url": "https://www.youtube.com/watch?v=I4G9TjlbdtM",
+      "thumb": "https://i2.ytimg.com/vi/I4G9TjlbdtM/hqdefault.jpg",
+      "published": "2026-10-12",
+      "category": "英语"
     },
     {
       "id": "3cfa47574f97",
@@ -274,17 +263,6 @@
       "url": "https://www.youtube.com/shorts/2Fz1VtJR-9w",
       "thumb": "https://i3.ytimg.com/vi/2Fz1VtJR-9w/hqdefault.jpg",
       "published": "2026-10-09",
-      "category": "英语"
-    },
-    {
-      "id": "26a864a7c0d2",
-      "platform": "youtube",
-      "videoId": "3J5tXT3sLoI",
-      "title": "🗣️ Phrases native speakers use every day: English Class with Sian",
-      "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=3J5tXT3sLoI",
-      "thumb": "https://i4.ytimg.com/vi/3J5tXT3sLoI/hqdefault.jpg",
-      "published": "2026-10-08",
       "category": "英语"
     },
     {
@@ -327,7 +305,8 @@
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
     "历史 · 11646119: 2 条",
-    "历史 · 23947287: 2 条",
+    "Bilibili 23947287: code=-352 风控校验失败",
+    "历史 · 23947287: 0 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
   ]
