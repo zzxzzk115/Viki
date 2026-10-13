@@ -1,303 +1,296 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "items": [
     {
-      "id": "4f4c7d3bc988",
+      "id": "e7b8191617fd",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Tamsui–Xinyi line",
-      "url": "https://simple.wikipedia.org/wiki/Tamsui%E2%80%93Xinyi_line",
-      "summary": "Tamsui-6 Line is a line of the Taipei Metro in Taipei and New Taipei, Taiwan. This line is also called the Red Line. The line connects Guangci/Fengtian Temple to Tamsui. You can transfer to the Wenhu Line at Daan, to the Bannan Line at Taipei Main Station, to the Songshan-Xindia…",
+      "title": "Bowers, Delaware",
+      "url": "https://simple.wikipedia.org/wiki/Bowers%2C_Delaware",
+      "summary": "Bowers is a town in Kent County, Delaware, United States. Bowers had 278 people in 2020.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "cf29008f3a1e",
-      "category": "english",
-      "source": "Simple English Wikipedia",
-      "title": "Bouchon, Somme",
-      "url": "https://simple.wikipedia.org/wiki/Bouchon%2C_Somme",
-      "summary": "Bouchon is a commune. It is in Hauts-de-France in the Somme department in north France.",
-      "published": "",
+      "id": "f9fc70b64a70",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "The baffling intelligence of a single cell (2024)",
+      "url": "https://jsomers.net/e-coli-chemotaxis/",
+      "summary": "",
+      "author": "jsomers",
+      "published": "2026-10-11",
       "tags": [
-        "今日精选"
+        "▲ 227"
       ]
     },
     {
-      "id": "445efc3b20f3",
+      "id": "b6603a0a4aa6",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Attack of the Vibe Coded Photoshop Clones",
-      "url": "https://www.shokunin.studio/blog/2026/10/9/attack-of-the-vibe-coded-photoshop-clones",
+      "title": "GLM-Legal",
+      "url": "https://z.ai/blog/glm-legal",
       "summary": "",
-      "author": "riffraff",
+      "author": "ilreb",
       "published": "2026-10-12",
       "tags": [
-        "▲ 84"
+        "▲ 534"
       ]
     },
     {
-      "id": "4a4af4b9e668",
+      "id": "657a150f08e4",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Type-safe HTML templating in Zig",
-      "url": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
+      "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
       "summary": "",
-      "author": "lukaslalinsky",
+      "author": "hurricanepootis",
       "published": "2026-10-12",
       "tags": [
-        "▲ 72"
+        "▲ 179"
       ]
     },
     {
-      "id": "09279f7dec36",
+      "id": "4aaf92f254c0",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Fingerprints are the new cookies",
-      "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
+      "title": "A Modern Web App in C",
+      "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
       "summary": "",
-      "author": "royfish",
-      "published": "2026-10-11",
+      "author": "prophittcorey",
+      "published": "2026-10-12",
       "tags": [
-        "▲ 302"
+        "▲ 529"
       ]
     },
     {
-      "id": "36ee60902c3e",
+      "id": "ca43aef1e636",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Total Annihilation, rebuilt for modern computers",
-      "url": "https://nanolathe.gg",
-      "summary": "",
-      "author": "jttnr",
-      "published": "2026-10-11",
+      "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+      "summary": "https://www.reuters.com/business/retail-consumer/french-supe... , https://www.bbc.com/news/articles/crq5nzxv9q4yo , https://www.lemonde.fr/en/france/article/2026/10/12/french-s... Related: https://www.claroty.com/team82/research/freeze-the-controlle... I think the military commi…",
+      "author": "Zeekaas",
+      "published": "2026-10-12",
       "tags": [
-        "▲ 463"
+        "▲ 640"
       ]
     },
     {
-      "id": "07955e7b03bb",
+      "id": "09fdf196ad6e",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Calculus with Julia",
-      "url": "https://jverzani.github.io/CalculusWithJuliaNotes.jl/",
+      "title": "Who is vfmaddrnd231pd?",
+      "url": "https://purplesyringa.moe/blog/who-is-vfmaddrnd231pd/",
       "summary": "",
-      "author": "subset",
-      "published": "2026-10-10",
+      "author": "pngmangi",
+      "published": "2026-10-12",
       "tags": [
-        "▲ 90"
+        "▲ 183"
       ]
     },
     {
-      "id": "1e2da6b0b07c",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Whatever became of holography? (2011)",
-      "url": "https://www.americanscientist.org/article/whatever-became-of-holography",
-      "summary": "",
-      "author": "cainxinth",
-      "published": "2026-10-11",
-      "tags": [
-        "▲ 111"
-      ]
-    },
-    {
-      "id": "f833331f4139",
+      "id": "211cfbe25799",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Building a Document Pipeline for Professional Credential Recognition (Apostille, Translation, Submission)",
-      "url": "https://dev.to/diogoheleno/building-a-document-pipeline-for-professional-credential-recognition-apostille-translation-27o3",
-      "summary": "Credential recognition workflows show up more often than you'd expect in internal tooling: HR platforms for relocating employees, immigration case management systems, university partnership portals, government digital services. If you've ever been asked to build or maintain one …",
-      "author": "Diogo Heleno",
-      "published": "Mon, 12 Oct 2026 07:28:06 +0000",
+      "title": "Scopus-Indexed Conference Hanoi, Vietnam 2026: Turning Research into Collective Knowledge",
+      "url": "https://dev.to/prabhleen_kaur_dcbd039a2d/scopus-indexed-conference-hanoi-vietnam-2026-turning-research-into-collective-knowledge-30hb",
+      "summary": "Research involves not only the creation of a new idea but also its validation and the presentation of evidence that can be learned from this idea by others. In the case of researchers, including engineers, scientists, postgraduates, and professionals involved in academia, confer…",
+      "author": "prabhleen kaur",
+      "published": "Tue, 13 Oct 2026 07:46:18 +0000",
       "tags": [
-        "i18n",
+        "learning",
+        "webdev",
+        "writing",
+        "beginners"
+      ]
+    },
+    {
+      "id": "3e5e2213ec96",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Understanding Core Web Vitals: A Beginner-Friendly Guide.",
+      "url": "https://dev.to/sameer_132f2fd384172fce41/understanding-core-web-vitals-a-beginner-friendly-guide-47h8",
+      "summary": "A website can look beautiful and still provide a frustrating user experience. Pages may load slowly, buttons may respond late, or content may unexpectedly move while a visitor is reading. This is where Core Web Vitals come in. Core Web Vitals are Google's metrics for measuring i…",
+      "author": "Sameer",
+      "published": "Tue, 13 Oct 2026 07:45:39 +0000",
+      "tags": [
         "webdev",
         "productivity",
-        "tutorial"
+        "tutorial",
+        "opensource"
       ]
     },
     {
-      "id": "c3c5a075159a",
+      "id": "fa8804388133",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Wiring Android's ML Kit Barcode Scanner to a On-Device LLM for Real-Time Product Intelligence",
-      "url": "https://dev.to/software_mvp-factory/wiring-androids-ml-kit-barcode-scanner-to-a-on-device-llm-for-real-time-product-intelligence-1k34",
-      "summary": "--- title : \" Android Barcode Scanner + On-Device LLM: The Latency Budget That Ships\" published : true description : \" Wire ML Kit barcode detection into MediaPipe LLM Inference with frame throttling and structured JSON output. P95 latency targets for Pixel 9.\" tags : [ kotlin ,…",
-      "author": "SoftwareDevs mvpfactory.io",
-      "published": "Mon, 12 Oct 2026 07:25:16 +0000",
+      "title": "How to Embed Docs and an AI Assistant Inside Your Product with Documentation.AI",
+      "url": "https://dev.to/documentationai_dev/how-to-embed-docs-and-an-ai-assistant-inside-your-product-with-documentationai-46j4",
+      "summary": "A user is configuring an API integration in your product. They hit an unfamiliar setting, open a new tab, search your docs, click through three pages, and finally return to the app to finish what they started. Your documentation may be perfectly accurate. The problem is the dist…",
+      "author": "Harsh",
+      "published": "Tue, 13 Oct 2026 07:38:47 +0000",
+      "tags": [
+        "ai",
+        "webdev",
+        "tutorial",
+        "documentation"
+      ]
+    },
+    {
+      "id": "bdf9895cbd87",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "How to Find and Fix Broken Links on a Website.",
+      "url": "https://dev.to/sameer_132f2fd384172fce41/how-to-find-and-fix-broken-links-on-a-website-44mg",
+      "summary": "Broken links are a common website issue that can affect user experience, website maintenance, and search engine crawling. They occur when a hyperlink points to a page or resource that is no longer available or cannot be accessed. For example, a visitor clicks a link to a service…",
+      "author": "Sameer",
+      "published": "Tue, 13 Oct 2026 07:35:52 +0000",
       "tags": [
         "webdev",
-        "programming"
+        "beginners",
+        "tutorial",
+        "devchallenge"
       ]
     },
     {
-      "id": "00499d6e62f4",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Technisches SEO-Audit: Systematische Prüfung in 12 Bereichen",
-      "url": "https://dev.to/stanislav_tonkich/technisches-seo-audit-systematische-prufung-in-12-bereichen-16b1",
-      "summary": "Das Problem: Unsichtbare Seiten trotz guter Inhalte Eine Website kann inhaltlich hervorragend sein und dennoch in der Google-Suche nicht erscheinen. Die Ursache liegt dann meist nicht im Text, sondern in technischen Hindernissen: Eine robots.txt blockiert wichtige Verzeichnisse,…",
-      "author": "Stanislav Tonkich",
-      "published": "Mon, 12 Oct 2026 07:24:17 +0000",
-      "tags": [
-        "seo",
-        "webdev",
-        "performance",
-        "a11y"
-      ]
-    },
-    {
-      "id": "691c5d2ee505",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Editable catalogues and course finders are not checkout systems",
-      "url": "https://dev.to/joonas_pekkarinen_ba0a2e2/editable-catalogues-and-course-finders-are-not-checkout-systems-1k26",
-      "summary": "A small business website can need frequent content updates without needing a payment system. The distinction sounds obvious, but it is easy to lose when a quotation starts with a list of technologies instead of the client's daily work. Two projects we describe publicly at Webify…",
-      "author": "Joonas Pekkarinen",
-      "published": "Mon, 12 Oct 2026 07:24:00 +0000",
-      "tags": [
-        "webdev"
-      ]
-    },
-    {
-      "id": "b8b28c4037b9",
+      "id": "96b9a88d1ca5",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Poecilia vandepolli",
-      "url": "https://en.wikipedia.org/wiki/Poecilia_vandepolli",
-      "summary": "Poecilia vandepolli, or Van de Poll's molly, is a poeciliid fish native to the Caribbean islands of Aruba, Bonaire, and Curaçao. It is one of the most common fish in its range, inhabiting fresh, brackish, salt, and hypersaline waters such as streams, ponds, bays, salt pans, and …",
+      "title": "Beauty Revealed",
+      "url": "https://en.wikipedia.org/wiki/Beauty_Revealed",
+      "summary": "Beauty Revealed is an 1828 self-portrait by the American artist Sarah Goodridge. Depicting only the artist's bared breasts surrounded by white cloth, the 2.6-by-3.1-inch painting, originally backed with paper, is now in a modern frame. Goodridge, aged forty when she completed th…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "551382d9bff4",
+      "id": "532349d2019f",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Zelensky backs Trump's 'energy ceasefire' but says Russia continues to hit power plants",
-      "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
-      "summary": "Ukraine's leader says he will support such a truce if Moscow does, after initially expressing surprise at Donald Trump's announcement.",
-      "published": "Sun, 11 Oct 2026 21:36:40 GMT",
+      "title": "Russia's offensive ability is broken, Kyiv's former top general tells BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c9y7lgg2vdggo?at_medium=RSS&at_campaign=rss",
+      "summary": "In his first interview since being forced from his post, Gen Syrskyi speaks about Ukraine's future in the war.",
+      "published": "Tue, 13 Oct 2026 05:02:34 GMT",
       "tags": []
     },
     {
-      "id": "fc4dcfb7709b",
+      "id": "7f359cce243c",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump faces growing backlash over plans to import diesel from Russia",
-      "url": "https://www.bbc.co.uk/news/articles/cjn5v21py07vo?at_medium=RSS&at_campaign=rss",
-      "summary": "Both Republican and Democratic lawmakers have criticised the deal, which was announced weeks before the US midterm elections.",
-      "published": "Sun, 11 Oct 2026 23:18:45 GMT",
+      "title": "Breaking Bad actor RJ Mitte dies aged 34",
+      "url": "https://www.bbc.co.uk/news/articles/cmn045en7d88o?at_medium=RSS&at_campaign=rss",
+      "summary": "Mitte, who lived with cerebral palsy, starred as Walter White Jr in the Emmy-winning drama series.",
+      "published": "Tue, 13 Oct 2026 06:26:05 GMT",
       "tags": []
     },
     {
-      "id": "a4f40d791855",
+      "id": "0558a3375b30",
       "category": "news",
       "source": "BBC 世界",
-      "title": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
-      "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Saudi capital has been hit by multiple attacks from the Iran-backed Yemeni group over the weekend.",
-      "published": "Sun, 11 Oct 2026 22:45:58 GMT",
+      "title": "One dead and several hurt after rollercoaster incident at Six Flags",
+      "url": "https://www.bbc.co.uk/news/articles/c6n4ejx8x1z7o?at_medium=RSS&at_campaign=rss",
+      "summary": "Aerial footage at the park after the incident shows a stuck rollercoaster with riders being helped off.",
+      "published": "Tue, 13 Oct 2026 02:26:21 GMT",
       "tags": []
     },
     {
-      "id": "f55d23bf00b1",
+      "id": "1f36888f6b47",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Documents falsified to evade tax on Abramovich's wealth, BBC finds",
-      "url": "https://www.bbc.co.uk/news/articles/c64g1l5389kvo?at_medium=RSS&at_campaign=rss",
-      "summary": "Backdated paperwork also made the Russian oligarch’s yachts and mansions disappear from accounts, investigation finds.",
-      "published": "Mon, 12 Oct 2026 05:00:52 GMT",
+      "title": "Emergency calls from botched Christa Pike execution released to US media",
+      "url": "https://www.bbc.co.uk/news/videos/cqpvgrkp0xpyo?at_medium=RSS&at_campaign=rss",
+      "summary": "A series of calls, obtained by the Associated Press, reveal emergency services were delayed in reaching Pike.",
+      "published": "Tue, 13 Oct 2026 07:49:13 GMT",
       "tags": []
     },
     {
-      "id": "eb8e79306fa9",
+      "id": "e71e24bf397c",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Review: 4-hour Musk documentary feels like two different films",
-      "url": "https://arstechnica.com/culture/2026/10/review-4-hour-musk-documentary-feels-like-two-different-films/",
-      "summary": "Alex Gibney's provocative film is compelling but overlong, and there's not much new here for Ars readers.",
-      "author": "Jennifer Ouellette",
-      "published": "Sun, 11 Oct 2026 18:10:54 +0000",
+      "title": "39-year-old unvaccinated woman becomes 6th measles death in Pennsylvania",
+      "url": "https://arstechnica.com/health/2026/10/39-year-old-unvaccinated-woman-becomes-6th-measles-death-in-pennsylvania/",
+      "summary": "As of Friday, state health officials reported 1,136 cases across 41 counties.",
+      "author": "Beth Mole",
+      "published": "Mon, 12 Oct 2026 21:54:35 +0000",
       "tags": [
-        "Culture",
-        "Tech",
-        "Alex Gibney",
-        "Bleecker Street"
+        "Health",
+        "measles",
+        "outbreak",
+        "Pennsylvania"
       ]
     },
     {
-      "id": "8f7a2e10ebbf",
+      "id": "37b5a1e81dc8",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Prime Video unveils Blade Runner 2099 full trailer at NYCC",
-      "url": "https://arstechnica.com/culture/2026/10/prime-video-unveils-blade-runner-2099-full-trailer-at-nycc/",
-      "summary": "Also: new trailer for Godzilla Minus Zero , the sequel to Takashi Yamazaki’s kaiju epic Godzilla Minus One",
-      "author": "Jennifer Ouellette",
-      "published": "Sun, 11 Oct 2026 14:50:24 +0000",
+      "title": "Epic Games reportedly pivoting to \"AI first\" game development model",
+      "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
+      "summary": "\"No more hand-written code\" or AI-free art for delayed Marvel/Star Wars shooter.",
+      "author": "Kyle Orland",
+      "published": "Mon, 12 Oct 2026 20:59:50 +0000",
       "tags": [
-        "Culture",
-        "Blade Runner 2099",
-        "entertainment",
-        "films"
+        "AI",
+        "Gaming",
+        "Disney",
+        "Epic Games"
       ]
     },
     {
-      "id": "8701263ea07b",
+      "id": "3389ac4661cd",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "One with the world? A new look at brains transformed by psychedelics.",
-      "url": "https://arstechnica.com/science/2026/10/the-psychedelic-brain-looks-like-chaos-underneath-theres-order/",
-      "summary": "Participants meditated inside an MRI tube, with and without psilocybin.",
-      "author": "Jacek Krywko",
-      "published": "Sat, 10 Oct 2026 11:15:35 +0000",
+      "title": "After a 10-year redemption arc, No Man's Sky is coming to the iPhone and iPad",
+      "url": "https://arstechnica.com/gaming/2026/10/after-a-10-year-redemption-arc-no-mans-sky-is-coming-to-the-iphone-and-ipad/",
+      "summary": "You can get a universe in your pocket if you have an iPhone 11 or later.",
+      "author": "Samuel Axon",
+      "published": "Mon, 12 Oct 2026 20:26:14 +0000",
       "tags": [
-        "Science",
-        "brain",
-        "Neuroscience",
-        "psilocybin"
+        "Gaming",
+        "apple",
+        "Hello Games",
+        "iOS"
       ]
     },
     {
-      "id": "4e18150c9776",
+      "id": "bbed8acc3e45",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
-      "url": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
-      "summary": "“The house cost $385,000. With my savings, her $50,000 and a small mortgage, I was able to close.”",
-      "author": "Quentin Fottrell",
-      "published": "Sun, 11 Oct 2026 20:15:00 GMT",
+      "title": "The global economy is starting to look K-shaped. Here are the winners and losers, and where the U.S. fits.",
+      "url": "https://www.marketwatch.com/story/the-global-economy-is-starting-to-look-k-shaped-here-are-the-winners-and-losers-and-where-the-u-s-fits-4ad93ea7?mod=mw_rss_topstories",
+      "summary": "IMF sees a split global economy, with countries less exposed to the oil shock and benefiting from AI demand pulling ahead",
+      "author": "Greg Robb",
+      "published": "Tue, 13 Oct 2026 02:00:00 GMT",
       "tags": []
     },
     {
-      "id": "7bb634f5f941",
+      "id": "d76002589bae",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?",
-      "url": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
-      "summary": "“I presume these are sophisticated investors taking a profit.”",
-      "author": "Quentin Fottrell",
-      "published": "Sun, 11 Oct 2026 20:00:00 GMT",
+      "title": "The SpaceX threat could loom over AT&T’s stock for a prolonged stretch, analyst cautions",
+      "url": "https://www.marketwatch.com/story/the-spacex-threat-could-loom-over-at-ts-stock-for-a-prolonged-stretch-analyst-cautions-71436853?mod=mw_rss_topstories",
+      "summary": "Bernstein analyst Laurent Yoon no longer recommends any of the major telecommunications stocks as he warns of more volatility ahead.",
+      "author": "Emily Bary",
+      "published": "Tue, 13 Oct 2026 00:18:00 GMT",
       "tags": []
     },
     {
-      "id": "2d06b60c94ae",
+      "id": "daef34140f71",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "My brother-in-law convinced his parents to sign over their home and life savings to buy a $3 million compound. Do I intervene?",
-      "url": "https://www.marketwatch.com/story/my-brother-in-law-convinced-his-parents-to-sign-over-their-home-and-savings-to-buy-a-3-million-compound-do-i-intervene-03fb96b7?mod=mw_rss_topstories",
-      "summary": "“Both properties will be solely in his name.”",
+      "title": "‘The house is worth $925,000’: My sister moved in with our mother, 78, and says she deserves the family home. Is she right?",
+      "url": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
+      "summary": "“The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”",
       "author": "Quentin Fottrell",
-      "published": "Sun, 11 Oct 2026 19:32:00 GMT",
+      "published": "Mon, 12 Oct 2026 23:31:00 GMT",
       "tags": []
     }
   ],
   "notes": [
-    "Simple English Wikipedia: 2 条",
+    "Simple English Wikipedia: 1 条（跳过 1 条非中英内容）",
     "Hacker News: 6 条",
     "DEV Community: 4 条",
     "Wikipedia: 1 条",
