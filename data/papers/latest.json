@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "papers": [
     {
       "id": "2608.10423",
@@ -408,7 +408,7 @@
       "score": 21,
       "comment": "",
       "isNew": false,
-      "citedBy": 136,
+      "citedBy": 124,
       "topic": "注视点渲染",
       "kind": "classic"
     },
@@ -439,7 +439,7 @@
       "score": 16,
       "comment": "",
       "isNew": false,
-      "citedBy": 60,
+      "citedBy": 56,
       "topic": "图像变形",
       "kind": "classic"
     },
@@ -468,13 +468,12 @@
       "score": 40,
       "comment": "Accepted to BMVC 2019",
       "isNew": false,
-      "citedBy": 51,
+      "citedBy": 47,
       "topic": "图像补全",
       "kind": "classic"
     }
   ],
   "notes": [
-    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
     "527 篇候选：近期相关 123 篇取 12，经典（>30 被引）5 篇混入 3"
   ]
 }
