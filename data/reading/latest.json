@@ -1,301 +1,271 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "items": [
     {
-      "id": "75b46f5e6f6a",
+      "id": "a866f2c243a6",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Estrée-Cauchy",
-      "url": "https://simple.wikipedia.org/wiki/Estr%C3%A9e-Cauchy",
-      "summary": "Estrée-Cauchy is a commune in Nord-Pas-de-Calais in the Pas-de-Calais department in north France.",
+      "title": "Kurt Westergaard",
+      "url": "https://simple.wikipedia.org/wiki/Kurt_Westergaard",
+      "summary": "Kurt Westergaard was a Danish cartoonist. He was known for creating the controversial cartoon of a terrorist, although not the Islamic prophet Muhammad, wearing a bomb in his turban. Westergaard was born in Døstrup, Denmark.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "cd606246d149",
+      "id": "5a207e9da34c",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Divoká Šárka",
-      "url": "https://simple.wikipedia.org/wiki/Divok%C3%A1_%C5%A0%C3%A1rka",
-      "summary": "Divoká Šárka is a nature reserve in northwestern part of outer Prague, the capital city of the Czech Republic.",
+      "title": "Sean Patrick Maloney",
+      "url": "https://simple.wikipedia.org/wiki/Sean_Patrick_Maloney",
+      "summary": "Sean Patrick Maloney is an American lawyer and politician who has been the United States Ambassador to the OECD since 2024. He was the U.S. representative from New York's 18th congressional district from 2013 to 2023. He is a member of the Democratic Party.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "3377b94c710a",
+      "id": "0c1a0ba99d14",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Felix Rieseberg Homepage",
-      "url": "https://felixrieseberg.com/",
+      "title": "Things to know when you get cancer",
+      "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
       "summary": "",
-      "author": "rglover",
+      "author": "jjmaxwell4",
       "published": "2026-10-14",
       "tags": [
-        "▲ 86"
+        "▲ 1087"
       ]
     },
     {
-      "id": "11ff46a9a047",
+      "id": "325f49327484",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Gemini 4 Argon",
-      "url": "https://deepmind.google/models/gemini/",
-      "summary": "See also: Gemini 4 Argon for Robotics - https://news.ycombinator.com/item?id=50074869",
-      "author": "737max",
-      "published": "2026-10-13",
-      "tags": [
-        "▲ 1179"
-      ]
-    },
-    {
-      "id": "f91a085fcccf",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Sound – Bartosz Ciechanowski (2022)",
-      "url": "https://ciechanow.ski/sound/",
+      "title": "An Apology",
+      "url": "https://www.elevationlab.com/blogs/news/an-apology",
       "summary": "",
-      "author": "dverlaeckt80",
-      "published": "2026-10-11",
+      "author": "cdrnsf",
+      "published": "2026-10-15",
       "tags": [
-        "▲ 61"
+        "▲ 34"
       ]
     },
     {
-      "id": "28da8c245f5d",
+      "id": "a4e6a72e3ac2",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
-      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
-      "summary": "https://www.heise.de/en/news/Crypto-thieves-sell-hardware-wa... https://crypto.news/ledger-confirms-hidden-chip-in-crypto-wa... https://www.youtube.com/watch?v=8JnHdr30v4g https://www.youtube.com/watch?v=Nf4FEFlgv3Q https://www.tibane.net/research/ledger-nano-x-implant",
-      "author": "thm",
+      "title": "OpenCode 2.0",
+      "url": "https://anoma.ly/notes/opencode-2-0/",
+      "summary": "",
+      "author": "gmays",
+      "published": "2026-10-14",
+      "tags": [
+        "▲ 474"
+      ]
+    },
+    {
+      "id": "b618e518b0e7",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Tiny Little Office",
+      "url": "https://tinylittleoffice.com/",
+      "summary": "",
+      "author": "donohoe",
+      "published": "2026-10-14",
+      "tags": [
+        "▲ 278"
+      ]
+    },
+    {
+      "id": "c099e6f9efcc",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "summary": "",
+      "author": "gmays",
+      "published": "2026-10-14",
+      "tags": [
+        "▲ 148"
+      ]
+    },
+    {
+      "id": "ba845e44e60f",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Do dentists know what they're doing?",
+      "url": "https://mapwriting.substack.com/p/dentists",
+      "summary": "",
+      "author": "doitLP",
       "published": "2026-10-12",
       "tags": [
-        "▲ 599"
+        "▲ 575"
       ]
     },
     {
-      "id": "4b1d008af16a",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Is 'Attention' the Essence of Intelligence?",
-      "url": "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/",
-      "summary": "",
-      "author": "bcaulfield",
-      "published": "2026-10-14",
-      "tags": [
-        "▲ 50"
-      ]
-    },
-    {
-      "id": "01b0fbae59fa",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
-      "url": "https://guitoro.com/",
-      "summary": "Guitoro is a free browser guitar using recordings of real instruments. You can strum with your keyboard, mouse, or touchscreen, choose acoustic, classical, electric guitar or bass, and see chord fingering and each stroke. Song practice can be slowed to 20%, and there are free ch…",
-      "author": "talccc",
-      "published": "2026-10-13",
-      "tags": [
-        "▲ 377"
-      ]
-    },
-    {
-      "id": "d65b24773192",
+      "id": "0896ca294c6c",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Best 86 Sites to Buy Edu Email for Student Discounts | PDF",
-      "url": "https://dev.to/usasvcit585/best-86-sites-to-buy-edu-email-for-student-discounts-pdf-2iej",
-      "summary": "Best 86 Sites to Buy Edu Email for Student Discounts | PDF 24 hours response/(Contact US) ➤ WhatsApp: +1 (903) 702-9701 ➤ Telegram: @usasvcit ➤ Email: usasvcit@gmail.com Educational email accounts are an important part of modern academic life. Students, teachers, researchers, an…",
-      "author": "Buy Verified Binance Accounts",
-      "published": "Wed, 14 Oct 2026 06:08:31 +0000",
+      "title": "Refactoring a Laravel API Controller to Reuse AppBaseController Response Helpers",
+      "url": "https://dev.to/vincenttommi/refactoring-a-laravel-api-controller-to-reuse-appbasecontroller-response-helpers-1d3",
+      "summary": "Refactoring a Laravel API Controller to Reuse AppBaseController Response Helpers When building APIs in Laravel, it's easy to create a controller that works correctly but doesn't follow the response conventions already established in a project. I recently worked on a MenuCategory…",
+      "author": "Vincent Tommi",
+      "published": "Thu, 15 Oct 2026 06:00:00 +0000",
       "tags": [
-        "ai",
-        "webdev",
-        "programming",
-        "productivity"
-      ]
-    },
-    {
-      "id": "5818ee46b739",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Why Fintech Startups Are Choosing Custom-Built Trading Platforms",
-      "url": "https://dev.to/theta_technolabs_addb1e87/why-fintech-startups-are-choosing-custom-built-trading-platforms-dac",
-      "summary": "For fintech startups in the USA, launching a trading product involves several connected decisions. Customers need to open accounts, access market information, submit orders, and understand their portfolio. Behind these screens, the application must exchange information reliably …",
-      "author": "Theta Technolabs",
-      "published": "Wed, 14 Oct 2026 06:08:25 +0000",
-      "tags": [
-        "fintech",
-        "webdev",
-        "softwaredevelopment",
-        "startup"
-      ]
-    },
-    {
-      "id": "9a56091dc666",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Building SpiderNode: A Developer-Centric Real-Time Uptime &",
-      "url": "https://dev.to/rakibutsho/building-spidernode-a-developer-centric-real-time-uptime--2m67",
-      "summary": "Hey everyone! 👋 I wanted to share a project I've been working on called SpiderNode : a developer-centric, real-time uptime monitoring tool designed for websites, APIs, and microservices. Why I Built It As developers, keeping track of service health, response times, and unexpect…",
-      "author": "Md. Rakibul Islam",
-      "published": "Wed, 14 Oct 2026 06:06:19 +0000",
-      "tags": [
-        "webdev",
-        "node",
-        "javascript",
-        "monitoring"
-      ]
-    },
-    {
-      "id": "ec767512db86",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "How to build a restaurant staff scheduling app your managers will actually use",
-      "url": "https://dev.to/mythex/how-to-build-a-restaurant-staff-scheduling-app-your-managers-will-actually-use-2ka7",
-      "summary": "Most restaurant schedules start life as a spreadsheet on the manager's laptop. Every Thursday someone copies last week's tab, moves a few names around, prints it, pins it next to the walk-in and texts a photo to the group chat. Then the swap requests start: \"can anyone take my S…",
-      "author": "Mythex",
-      "published": "Wed, 14 Oct 2026 06:04:19 +0000",
-      "tags": [
-        "ai",
+        "laravel",
+        "php",
+        "beginners",
         "webdev"
       ]
     },
     {
-      "id": "366d2e8b5a5c",
+      "id": "ba772dd892e0",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "A fraud risk score for signups and orders in one API call",
+      "url": "https://dev.to/olly_08beff75f1fe547dcb92/a-fraud-risk-score-for-signups-and-orders-in-one-api-call-1pcd",
+      "summary": "Fake signups and card-testing orders tend to share the same tells: a throwaway email, a datacenter IP, a phone number from a different country to the IP, and a headless browser. FraudKit checks all of them in one request and returns a 0–100 risk score with the reasons spelled ou…",
+      "author": "Olly",
+      "published": "Thu, 15 Oct 2026 05:59:23 +0000",
+      "tags": [
+        "security",
+        "api",
+        "webdev",
+        "saas"
+      ]
+    },
+    {
+      "id": "86b939c8aa39",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "How AI Content Detectors Actually Work (and Why They Sometimes Get It Wrong)",
+      "url": "https://dev.to/proofai/how-ai-content-detectors-actually-work-and-why-they-sometimes-get-it-wrong-1d0l",
+      "summary": "Every week someone asks us the same question: \"How does an AI detector actually know?\" Teachers ask it about essays, recruiters about cover letters, and developers about the content flowing through their apps. The honest answer is that no detector knows . It estimates . In this …",
+      "author": "ProofAI | AI Content Detector",
+      "published": "Thu, 15 Oct 2026 05:54:21 +0000",
+      "tags": [
+        "ai",
+        "machinelearning",
+        "python",
+        "webdev"
+      ]
+    },
+    {
+      "id": "f20a4bc39b9c",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "WhatsApp Group Invite Links via API: Read, Share, and Rotate Safely",
+      "url": "https://dev.to/unifyport/whatsapp-group-invite-links-via-api-read-share-and-rotate-safely-40g1",
+      "summary": "A WhatsApp group invite link looks like ordinary text: https://chat.whatsapp.com/... Operationally, it behaves more like a credential. Anyone who receives it may be able to forward it, publish it, store it in a ticket, or turn it into a QR code. Resetting the link in WhatsApp do…",
+      "author": "unifyport",
+      "published": "Thu, 15 Oct 2026 05:42:45 +0000",
+      "tags": [
+        "whatsapp",
+        "api",
+        "security",
+        "webdev"
+      ]
+    },
+    {
+      "id": "700a2fd174a5",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "RAAF area commands",
-      "url": "https://en.wikipedia.org/wiki/RAAF_area_commands",
-      "summary": "Area commands were the major operational and administrative formations of the Royal Australian Air Force (RAAF) between 1940 and 1954. Established in response to the outbreak of World War II, they underpinned the Air Force's geographically based command-and-control system for th…",
+      "title": "Easy on Me",
+      "url": "https://en.wikipedia.org/wiki/Easy_on_Me",
+      "summary": "\"Easy on Me\" is a song by the English singer Adele from her fourth studio album, 30 (2021). Adele wrote the song with its producer, Greg Kurstin. Columbia Records released it as the album's lead single on 15 October 2021. It is a torch song and ballad which places emphasis on Ad…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "3ba9283bc735",
+      "id": "714d1f0b729f",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
-      "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
-      "summary": "Pope Leo had successful surgery to remove a lower lobe of his right lung, the Vatican said.",
-      "published": "Wed, 14 Oct 2026 00:17:00 GMT",
+      "title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+      "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
+      "summary": "Ukraine says Starlink access has improved but it is still facing speed limits which are disrupting its battlefield \"missions\".",
+      "published": "Thu, 15 Oct 2026 04:30:08 GMT",
       "tags": []
     },
     {
-      "id": "aa337c25492c",
+      "id": "2eb83a2c23e7",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
-      "url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss",
-      "summary": "Prosecutors say the device, wrapped in toilet paper, was found inserted in a USB port on the back of a TV in an executive conference room.",
-      "published": "Tue, 13 Oct 2026 21:42:49 GMT",
+      "title": "Student protesters attack government buildings in Albania",
+      "url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Buildings were set alight on the second day of demonstrations from thousands of students who want better university conditions and job prospects.",
+      "published": "Wed, 14 Oct 2026 20:29:05 GMT",
       "tags": []
     },
     {
-      "id": "881c1b6b7738",
+      "id": "10ec149850e5",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
-      "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
-      "summary": "Four years after the attacks, Serhii K will appear in court accused of a plot to destroy Russia's gas pipelines to Germany.",
-      "published": "Tue, 13 Oct 2026 23:42:22 GMT",
+      "title": "Retired US generals call on Pentagon to cancel 'barbaric' execution livestream",
+      "url": "https://www.bbc.co.uk/news/articles/cmp3gnngv3e9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Livestreaming the execution of Nidal Hasan \"will taint the honor of the military that employs it, and a nation that allows it,\" 72 former officers said in a letter.",
+      "published": "Thu, 15 Oct 2026 02:26:07 GMT",
       "tags": []
     },
     {
-      "id": "0b6a8a1d6cec",
+      "id": "6c1b2e285cdc",
       "category": "news",
       "source": "BBC 世界",
-      "title": "MI5 chief warns of threats to UK from Russia, Iran and AI",
-      "url": "https://www.bbc.co.uk/news/articles/c60rl5vwpk02o?at_medium=RSS&at_campaign=rss",
-      "summary": "Sir Ken McCallum says operations to tackle terrorism and state threats are now roughly of an \"equal scale\".",
-      "published": "Tue, 13 Oct 2026 15:52:15 GMT",
+      "title": "White House defends new press secretary amid questions about her legal credentials",
+      "url": "https://www.bbc.co.uk/news/articles/ckqxne2evqreo?at_medium=RSS&at_campaign=rss",
+      "summary": "Katie Zacharia does not appear to be registered to the legal bar in any state where she has lived.",
+      "published": "Thu, 15 Oct 2026 03:03:16 GMT",
       "tags": []
     },
     {
-      "id": "de63a5b31e17",
+      "id": "e0c7d4aa37e1",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Martin Shkreli livestreamed himself violating lifetime pharma ban, FTC says",
-      "url": "https://arstechnica.com/health/2026/10/martin-shkreli-livestreamed-himself-violating-lifetime-pharma-ban-ftc-says/",
-      "summary": "\"I can always find a couple of biotech stocks to smoke,\" Shkreli said in a livestream.",
-      "author": "Beth Mole",
-      "published": "Tue, 13 Oct 2026 22:48:12 +0000",
-      "tags": [
-        "Health",
-        "Pharmaceutical industry",
-        "Shkreli"
-      ]
-    },
-    {
-      "id": "0d95cb46b728",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "ESA targets Anbernic emulation handhelds as \"superfake\" piracy enablers",
-      "url": "https://arstechnica.com/gaming/2026/10/esa-targets-anbernic-emulation-handhelds-as-superfake-piracy-enablers/",
-      "summary": "But third-party sellers, not Anbernic, are the ones routinely selling ROM-filled SD cards.",
-      "author": "Kyle Orland",
-      "published": "Tue, 13 Oct 2026 21:55:49 +0000",
-      "tags": [
-        "Gaming",
-        "anbernic",
-        "emulation",
-        "ESA"
-      ]
-    },
-    {
-      "id": "a61134e8630a",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Topgolf saved over $11.3 million after leaving VMware",
-      "url": "https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/",
-      "summary": "Topgolf and VMware \"ran deep\" before the migration.",
-      "author": "Scharon Harding",
-      "published": "Tue, 13 Oct 2026 21:33:43 +0000",
+      "title": "Fridge hack costing millions and sparking fires stemmed from poor security",
+      "url": "https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/",
+      "summary": "Incident hitting 700 supermarkets exploited outdated devices exposed to the Internet.",
+      "author": "Dan Goodin",
+      "published": "Wed, 14 Oct 2026 21:35:09 +0000",
       "tags": [
         "Biz & IT",
-        "Broadcom",
-        "topgolf",
-        "vmware"
+        "Security",
+        "cybersecurity",
+        "hacking"
       ]
     },
     {
-      "id": "1d7f84b32da5",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "‘I am a pretty cautious person’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?",
-      "url": "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c?mod=mw_rss_topstories",
-      "summary": "“I like my life, but I also like the idea of a big return after years of putting money into my 401(k).”",
-      "author": "Quentin Fottrell",
-      "published": "Wed, 14 Oct 2026 01:31:00 GMT",
-      "tags": []
+      "id": "2af446043d10",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Epic says its new vibe-coded Epic Games Launcher is faster than Steam",
+      "url": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/",
+      "summary": "But the new \"Preview\" app \"will have some bugs,\" Epic warns.",
+      "author": "Kyle Orland",
+      "published": "Wed, 14 Oct 2026 21:15:56 +0000",
+      "tags": [
+        "AI",
+        "Gaming",
+        "epic",
+        "epic games store"
+      ]
     },
     {
-      "id": "2d63366bf522",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "My wife says we can’t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?",
-      "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
-      "summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
-      "author": "Quentin Fottrell",
-      "published": "Wed, 14 Oct 2026 01:25:00 GMT",
-      "tags": []
-    },
-    {
-      "id": "0f85904ac248",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market",
-      "url": "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece?mod=mw_rss_topstories",
-      "summary": "Anticipation is building for Anthropic’s investor day, as Wall Street grows less patient with heavy AI spending.",
-      "author": "Hannah Pedone",
-      "published": "Tue, 13 Oct 2026 21:02:00 GMT",
-      "tags": []
+      "id": "6a3bee3a29ab",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "NATO may redeploy anti-drone defenses as attacks sink more Black Sea shipping",
+      "url": "https://arstechnica.com/gadgets/2026/10/nato-may-redeploy-anti-drone-defenses-as-attacks-sink-more-black-sea-shipping/",
+      "summary": "Suspected Russian drones have sunk or damaged 5 ships near Bulgaria and Romania.",
+      "author": "Jeremy Hsu",
+      "published": "Wed, 14 Oct 2026 21:03:11 +0000",
+      "tags": [
+        "Tech",
+        "Drone strikes",
+        "drones",
+        "military drones"
+      ]
     }
   ],
   "notes": [
@@ -305,6 +275,7 @@
     "Wikipedia: 1 条",
     "BBC 世界: 4 条",
     "Ars Technica: 3 条",
-    "MarketWatch: 3 条"
+    "feeds.marketwatch.com 返回 400，跳过",
+    "MarketWatch: 0 条"
   ]
 }
