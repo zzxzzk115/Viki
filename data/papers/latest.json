@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "papers": [
     {
       "id": "2608.10423",
@@ -473,25 +473,6 @@
     }
   ],
   "notes": [
-    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
-    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，6s 后重试",
-    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，12s 后重试",
-    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，24s 后重试",
-    "arXiv 查询失败: all:SVGF",
-    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
-    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，6s 后重试",
-    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
-    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，24s 后重试",
-    "arXiv 查询失败: abs:\"spatiotemporal variance-guided\"",
-    "export.arxiv.org 返回 429，3s 后重试 (1/4)",
-    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，6s 后重试",
-    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
-    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，6s 后重试",
-    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，12s 后重试",
-    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，24s 后重试",
-    "arXiv 查询失败: abs:\"path tracing\" AND abs:denoising",
-    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
-    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
-    "528 篇候选：近期相关 126 篇取 12，经典（>30 被引）5 篇混入 3"
+    "529 篇候选：近期相关 129 篇取 12，经典（>30 被引）5 篇混入 3"
   ]
 }
