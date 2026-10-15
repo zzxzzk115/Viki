@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "items": [
     {
       "id": "3c1e366833a4",
@@ -68,6 +68,17 @@
       "category": "引擎"
     },
     {
+      "id": "d5596c9f9a37",
+      "platform": "youtube",
+      "videoId": "Zh86i_azaQw",
+      "title": "The End of Mathematical Mountain Climbing - Numberphile",
+      "channel": "Numberphile",
+      "url": "https://www.youtube.com/watch?v=Zh86i_azaQw",
+      "thumb": "https://i3.ytimg.com/vi/Zh86i_azaQw/hqdefault.jpg",
+      "published": "2026-10-14",
+      "category": "CS"
+    },
+    {
       "id": "85302a4caf0b",
       "platform": "youtube",
       "videoId": "g9Exz_tR-nU",
@@ -76,17 +87,6 @@
       "url": "https://www.youtube.com/shorts/g9Exz_tR-nU",
       "thumb": "https://i4.ytimg.com/vi/g9Exz_tR-nU/hqdefault.jpg",
       "published": "2026-10-06",
-      "category": "CS"
-    },
-    {
-      "id": "51335bf22feb",
-      "platform": "youtube",
-      "videoId": "VydHKLBXdVQ",
-      "title": "All the Noble Polyhedra #maths #math #animation",
-      "channel": "Numberphile",
-      "url": "https://www.youtube.com/shorts/VydHKLBXdVQ",
-      "thumb": "https://i3.ytimg.com/vi/VydHKLBXdVQ/hqdefault.jpg",
-      "published": "2026-10-03",
       "category": "CS"
     },
     {
@@ -244,25 +244,25 @@
       "category": "历史"
     },
     {
-      "id": "b7b2bd61c162",
+      "id": "194b8b5a17d3",
       "platform": "youtube",
-      "videoId": "sAumTZ1lkZE",
-      "title": "👄 Office dialogue | Pronunciation Shadowing",
+      "videoId": "E5NIGE-UXoA",
+      "title": "🧸  How to talk about childhood memories",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=sAumTZ1lkZE",
-      "thumb": "https://i4.ytimg.com/vi/sAumTZ1lkZE/hqdefault.jpg",
-      "published": "2026-10-13",
+      "url": "https://www.youtube.com/watch?v=E5NIGE-UXoA",
+      "thumb": "https://i2.ytimg.com/vi/E5NIGE-UXoA/hqdefault.jpg",
+      "published": "2026-10-14",
       "category": "英语"
     },
     {
-      "id": "775c03e4a202",
+      "id": "db0ab8d1cd64",
       "platform": "youtube",
-      "videoId": "EBoKgZR2Zdg",
-      "title": "What are your cinema rules?  #podcast",
+      "videoId": "_2QcoQfXsr8",
+      "title": "The Houthis say they are behind the attacks | BBC Learning English from the News",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/shorts/EBoKgZR2Zdg",
-      "thumb": "https://i2.ytimg.com/vi/EBoKgZR2Zdg/hqdefault.jpg",
-      "published": "2026-10-13",
+      "url": "https://www.youtube.com/watch?v=_2QcoQfXsr8",
+      "thumb": "https://i4.ytimg.com/vi/_2QcoQfXsr8/hqdefault.jpg",
+      "published": "2026-10-14",
       "category": "英语"
     },
     {
@@ -293,12 +293,11 @@
     "图形学 · @Acerola_t: 2 条",
     "图形学 · 512313464: 0 条",
     "引擎 · @TheCherno: 2 条",
-    "Bilibili 437860379: code=-352 风控校验失败",
     "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
+    "Bilibili 1567748478: code=-352 风控校验失败",
     "CS · 1567748478: 0 条",
-    "Bilibili 202224425: code=-352 风控校验失败",
     "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 2 条",
     "金融 · 520819684: 2 条",
