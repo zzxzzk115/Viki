@@ -1,271 +1,304 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "items": [
     {
-      "id": "a866f2c243a6",
+      "id": "22db5b7b832a",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Kurt Westergaard",
-      "url": "https://simple.wikipedia.org/wiki/Kurt_Westergaard",
-      "summary": "Kurt Westergaard was a Danish cartoonist. He was known for creating the controversial cartoon of a terrorist, although not the Islamic prophet Muhammad, wearing a bomb in his turban. Westergaard was born in Døstrup, Denmark.",
+      "title": "Ioannis Tassias",
+      "url": "https://simple.wikipedia.org/wiki/Ioannis_Tassias",
+      "summary": "Ioannis Tassias was a Greek Orthodox bishop. He was the Metropolitan of Langadas as Ioannis of Langada from 2010 until his death in 2020. He was born in Thessaloniki, Greece.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "5a207e9da34c",
+      "id": "9947be669891",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Sean Patrick Maloney",
-      "url": "https://simple.wikipedia.org/wiki/Sean_Patrick_Maloney",
-      "summary": "Sean Patrick Maloney is an American lawyer and politician who has been the United States Ambassador to the OECD since 2024. He was the U.S. representative from New York's 18th congressional district from 2013 to 2023. He is a member of the Democratic Party.",
+      "title": "Mikoyan MiG-31",
+      "url": "https://simple.wikipedia.org/wiki/Mikoyan_MiG-31",
+      "summary": "MiG-31 Foxhound is a Soviet/Russian interceptor aircraft. It first entered into the Soviet Air Force in 1982.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "0c1a0ba99d14",
+      "id": "34bf133078de",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Things to know when you get cancer",
-      "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-      "summary": "",
-      "author": "jjmaxwell4",
-      "published": "2026-10-14",
-      "tags": [
-        "▲ 1087"
-      ]
-    },
-    {
-      "id": "325f49327484",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "An Apology",
-      "url": "https://www.elevationlab.com/blogs/news/an-apology",
-      "summary": "",
-      "author": "cdrnsf",
+      "title": "Muse Spark Open",
+      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "summary": "https://dev.meta.ai/resources/blog/build-with-muse-spark-ope... https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-...",
+      "author": "bigwheels",
       "published": "2026-10-15",
       "tags": [
-        "▲ 34"
+        "▲ 729"
       ]
     },
     {
-      "id": "a4e6a72e3ac2",
+      "id": "7e080edd95ec",
       "category": "tech",
       "source": "Hacker News",
-      "title": "OpenCode 2.0",
-      "url": "https://anoma.ly/notes/opencode-2-0/",
+      "title": "Business accounts will consent to Meta scraping their websites Starting Oct. 30",
+      "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/",
       "summary": "",
-      "author": "gmays",
-      "published": "2026-10-14",
+      "author": "0in",
+      "published": "2026-10-15",
       "tags": [
-        "▲ 474"
+        "▲ 147"
       ]
     },
     {
-      "id": "b618e518b0e7",
+      "id": "7a6f2da01b7a",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Tiny Little Office",
-      "url": "https://tinylittleoffice.com/",
+      "title": "Any window from your Mac, on your iPhone and iPad",
+      "url": "https://github.com/Saffsanity/sill",
       "summary": "",
-      "author": "donohoe",
-      "published": "2026-10-14",
+      "author": "chanana",
+      "published": "2026-10-16",
       "tags": [
-        "▲ 278"
+        "▲ 104"
       ]
     },
     {
-      "id": "c099e6f9efcc",
+      "id": "4eea137244c4",
       "category": "tech",
       "source": "Hacker News",
-      "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
-      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "title": "RPKI now protects 70% of internet routes",
+      "url": "https://ipinfo.io/blog/rpki-protects-70-internet-routes",
       "summary": "",
-      "author": "gmays",
-      "published": "2026-10-14",
+      "author": "emot",
+      "published": "2026-10-16",
       "tags": [
-        "▲ 148"
+        "▲ 100"
       ]
     },
     {
-      "id": "ba845e44e60f",
+      "id": "d9e7bf3e8d7a",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Do dentists know what they're doing?",
-      "url": "https://mapwriting.substack.com/p/dentists",
+      "title": "'500-hour' Order of the Sinking Star is as complex and exhausting as it sounds",
+      "url": "https://www.polygon.com/order-of-the-sinking-star-impressions/",
       "summary": "",
-      "author": "doitLP",
-      "published": "2026-10-12",
+      "author": "cvoss",
+      "published": "2026-10-13",
       "tags": [
-        "▲ 575"
+        "▲ 66"
       ]
     },
     {
-      "id": "0896ca294c6c",
+      "id": "c797ac90ed8b",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Neural networks are clean",
+      "url": "https://already-clean.goodfire.com/",
+      "summary": "https://twitter.com/nickcammarata/status/2110757819427574056",
+      "author": "themgt",
+      "published": "2026-10-15",
+      "tags": [
+        "▲ 604"
+      ]
+    },
+    {
+      "id": "ed171e6487e0",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Refactoring a Laravel API Controller to Reuse AppBaseController Response Helpers",
-      "url": "https://dev.to/vincenttommi/refactoring-a-laravel-api-controller-to-reuse-appbasecontroller-response-helpers-1d3",
-      "summary": "Refactoring a Laravel API Controller to Reuse AppBaseController Response Helpers When building APIs in Laravel, it's easy to create a controller that works correctly but doesn't follow the response conventions already established in a project. I recently worked on a MenuCategory…",
-      "author": "Vincent Tommi",
-      "published": "Thu, 15 Oct 2026 06:00:00 +0000",
+      "title": "PHPBank",
+      "url": "https://dev.to/snipnettech/phpbank-1ghg",
+      "summary": "PHPBank PHPBank — Multi-Currency Online Banking Platform A production-ready, self-hosted banking application you can deploy and brand as your own. PHPBank is a full-featured online banking system written in native PHP 8 with MySQL/MariaDB. It gives your customers a polished digi…",
+      "author": "Snipnet Technologies",
+      "published": "Fri, 16 Oct 2026 05:56:11 +0000",
       "tags": [
-        "laravel",
-        "php",
-        "beginners",
+        "product",
+        "tools",
+        "software",
         "webdev"
       ]
     },
     {
-      "id": "ba772dd892e0",
+      "id": "b51a99f7a198",
       "category": "tech",
       "source": "DEV Community",
-      "title": "A fraud risk score for signups and orders in one API call",
-      "url": "https://dev.to/olly_08beff75f1fe547dcb92/a-fraud-risk-score-for-signups-and-orders-in-one-api-call-1pcd",
-      "summary": "Fake signups and card-testing orders tend to share the same tells: a throwaway email, a datacenter IP, a phone number from a different country to the IP, and a headless browser. FraudKit checks all of them in one request and returns a 0–100 risk score with the reasons spelled ou…",
-      "author": "Olly",
-      "published": "Thu, 15 Oct 2026 05:59:23 +0000",
+      "title": "What Happens When You Optimize a Browser Game for AI Search Engines, Not Just Google",
+      "url": "https://dev.to/instant_games/what-happens-when-you-optimize-a-browser-game-for-ai-search-engines-not-just-google-4pfc",
+      "summary": "Most SEO advice is still written for one audience: Google's crawler. But a growing share of search now happens inside ChatGPT, Perplexity, Gemini and Copilot and those engines don't rank pages, they extract and cite them. Here's what changed when I optimized AgentSlash, a free i…",
+      "author": "Instant Games",
+      "published": "Fri, 16 Oct 2026 05:53:17 +0000",
       "tags": [
-        "security",
-        "api",
         "webdev",
-        "saas"
+        "javascript",
+        "ai",
+        "showdev"
       ]
     },
     {
-      "id": "86b939c8aa39",
+      "id": "fe6e48c59326",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How AI Content Detectors Actually Work (and Why They Sometimes Get It Wrong)",
-      "url": "https://dev.to/proofai/how-ai-content-detectors-actually-work-and-why-they-sometimes-get-it-wrong-1d0l",
-      "summary": "Every week someone asks us the same question: \"How does an AI detector actually know?\" Teachers ask it about essays, recruiters about cover letters, and developers about the content flowing through their apps. The honest answer is that no detector knows . It estimates . In this …",
-      "author": "ProofAI | AI Content Detector",
-      "published": "Thu, 15 Oct 2026 05:54:21 +0000",
+      "title": "How to Create Smooth CSS Hover Effects Without JavaScript",
+      "url": "https://dev.to/smarttoolnexa/how-to-create-smooth-css-hover-effects-without-javascript-2p42",
+      "summary": "How to Create Smooth CSS Hover Effects Without JavaScript Hover effects are a small detail that can make a website feel more responsive. A button that changes color, a card that lifts slightly, or an image that zooms in can help users understand which elements they can interact …",
+      "author": "smarttoolnexa",
+      "published": "Fri, 16 Oct 2026 05:49:01 +0000",
+      "tags": [
+        "webdev",
+        "tutorial",
+        "css",
+        "programming"
+      ]
+    },
+    {
+      "id": "1ad0948aea28",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "AI Automation in 2026: Practical Workflows, Tools, and Lessons for Developers",
+      "url": "https://dev.to/tech_tales_daa8a7eab515b3/ai-automation-in-2026-practical-workflows-tools-and-lessons-for-developers-39a9",
+      "summary": "AI Automation in 2026: Practical Workflows, Tools, and Lessons for Developers AI automation is changing how developers build applications, manage repetitive tasks, and design business workflows. From generating code summaries to processing customer enquiries, AI can help reduce …",
+      "author": "Tech Tales",
+      "published": "Fri, 16 Oct 2026 05:47:45 +0000",
       "tags": [
         "ai",
-        "machinelearning",
+        "webdev",
         "python",
-        "webdev"
+        "automation"
       ]
     },
     {
-      "id": "f20a4bc39b9c",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "WhatsApp Group Invite Links via API: Read, Share, and Rotate Safely",
-      "url": "https://dev.to/unifyport/whatsapp-group-invite-links-via-api-read-share-and-rotate-safely-40g1",
-      "summary": "A WhatsApp group invite link looks like ordinary text: https://chat.whatsapp.com/... Operationally, it behaves more like a credential. Anyone who receives it may be able to forward it, publish it, store it in a ticket, or turn it into a QR code. Resetting the link in WhatsApp do…",
-      "author": "unifyport",
-      "published": "Thu, 15 Oct 2026 05:42:45 +0000",
-      "tags": [
-        "whatsapp",
-        "api",
-        "security",
-        "webdev"
-      ]
-    },
-    {
-      "id": "700a2fd174a5",
+      "id": "fe3a06a2038e",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Easy on Me",
-      "url": "https://en.wikipedia.org/wiki/Easy_on_Me",
-      "summary": "\"Easy on Me\" is a song by the English singer Adele from her fourth studio album, 30 (2021). Adele wrote the song with its producer, Greg Kurstin. Columbia Records released it as the album's lead single on 15 October 2021. It is a torch song and ballad which places emphasis on Ad…",
+      "title": "The Hunger (collection)",
+      "url": "https://en.wikipedia.org/wiki/The_Hunger_(collection)",
+      "summary": "The Hunger is the seventh collection by British designer Alexander McQueen, released for the Spring/Summer 1996 season of his eponymous fashion house. The collection was primarily inspired by The Hunger, a 1983 erotic horror film about vampires. McQueen had limited financial bac…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "714d1f0b729f",
+      "id": "ec13367c2ac3",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
-      "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
-      "summary": "Ukraine says Starlink access has improved but it is still facing speed limits which are disrupting its battlefield \"missions\".",
-      "published": "Thu, 15 Oct 2026 04:30:08 GMT",
+      "title": "Three children and teacher killed in US primary school shooting",
+      "url": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
+      "summary": "The suspect was shot dead by a community member who followed him into the Oregon school, police said.",
+      "published": "Fri, 16 Oct 2026 03:45:09 GMT",
       "tags": []
     },
     {
-      "id": "2eb83a2c23e7",
+      "id": "8e8aea70dcb1",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Student protesters attack government buildings in Albania",
-      "url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Buildings were set alight on the second day of demonstrations from thousands of students who want better university conditions and job prospects.",
-      "published": "Wed, 14 Oct 2026 20:29:05 GMT",
+      "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
+      "url": "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o?at_medium=RSS&at_campaign=rss",
+      "summary": "Three children aged 5, 8 and 11 and a teacher were killed after a 16-year-old suspect opened fire in the city of Bend, local police say.",
+      "published": "Fri, 16 Oct 2026 01:36:45 GMT",
       "tags": []
     },
     {
-      "id": "10ec149850e5",
+      "id": "3cb35e61d8ec",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Retired US generals call on Pentagon to cancel 'barbaric' execution livestream",
-      "url": "https://www.bbc.co.uk/news/articles/cmp3gnngv3e9o?at_medium=RSS&at_campaign=rss",
-      "summary": "Livestreaming the execution of Nidal Hasan \"will taint the honor of the military that employs it, and a nation that allows it,\" 72 former officers said in a letter.",
-      "published": "Thu, 15 Oct 2026 02:26:07 GMT",
+      "title": "Ship attack reports near Hormuz reach record high as oil exports slow",
+      "url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Verify analysis of data from a UK maritime agency shows 12 vessels were struck in a week.",
+      "published": "Fri, 16 Oct 2026 05:00:17 GMT",
       "tags": []
     },
     {
-      "id": "6c1b2e285cdc",
+      "id": "4732b5d0bc28",
       "category": "news",
       "source": "BBC 世界",
-      "title": "White House defends new press secretary amid questions about her legal credentials",
-      "url": "https://www.bbc.co.uk/news/articles/ckqxne2evqreo?at_medium=RSS&at_campaign=rss",
-      "summary": "Katie Zacharia does not appear to be registered to the legal bar in any state where she has lived.",
-      "published": "Thu, 15 Oct 2026 03:03:16 GMT",
+      "title": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
+      "url": "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_medium=RSS&at_campaign=rss",
+      "summary": "Trump said some would \"rather not watch\" the killing of Nidal Hasan, the first military execution in over 60 years.",
+      "published": "Thu, 15 Oct 2026 17:47:22 GMT",
       "tags": []
     },
     {
-      "id": "e0c7d4aa37e1",
+      "id": "05651cde6263",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Fridge hack costing millions and sparking fires stemmed from poor security",
-      "url": "https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/",
-      "summary": "Incident hitting 700 supermarkets exploited outdated devices exposed to the Internet.",
-      "author": "Dan Goodin",
-      "published": "Wed, 14 Oct 2026 21:35:09 +0000",
-      "tags": [
-        "Biz & IT",
-        "Security",
-        "cybersecurity",
-        "hacking"
-      ]
-    },
-    {
-      "id": "2af446043d10",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Epic says its new vibe-coded Epic Games Launcher is faster than Steam",
-      "url": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/",
-      "summary": "But the new \"Preview\" app \"will have some bugs,\" Epic warns.",
-      "author": "Kyle Orland",
-      "published": "Wed, 14 Oct 2026 21:15:56 +0000",
-      "tags": [
-        "AI",
-        "Gaming",
-        "epic",
-        "epic games store"
-      ]
-    },
-    {
-      "id": "6a3bee3a29ab",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "NATO may redeploy anti-drone defenses as attacks sink more Black Sea shipping",
-      "url": "https://arstechnica.com/gadgets/2026/10/nato-may-redeploy-anti-drone-defenses-as-attacks-sink-more-black-sea-shipping/",
-      "summary": "Suspected Russian drones have sunk or damaged 5 ships near Bulgaria and Romania.",
-      "author": "Jeremy Hsu",
-      "published": "Wed, 14 Oct 2026 21:03:11 +0000",
+      "title": "KDE turns 30 with Plasma 6.8, remote upgrades, and an X11 farewell",
+      "url": "https://arstechnica.com/gadgets/2026/10/kde-turns-30-with-plasma-6-8-remote-upgrades-and-an-x11-farewell/",
+      "summary": "KDE celebrates 30 years with a new Plasma release, a farewell to X11, and a movie.",
+      "author": "Nick Indge",
+      "published": "Thu, 15 Oct 2026 22:21:06 +0000",
       "tags": [
         "Tech",
-        "Drone strikes",
-        "drones",
-        "military drones"
+        "KDE 30th birthday",
+        "KDE Documentary",
+        "KDE Plasma 6.8"
       ]
+    },
+    {
+      "id": "faa035cb0353",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Plex now helps sell movie theater tickets",
+      "url": "https://arstechnica.com/gadgets/2026/10/plex-now-helps-sell-movie-theater-tickets/",
+      "summary": "Discovery data from Plex users will help studios, advertisers.",
+      "author": "Scharon Harding",
+      "published": "Thu, 15 Oct 2026 21:22:15 +0000",
+      "tags": [
+        "Tech",
+        "ads",
+        "Plex",
+        "streaming"
+      ]
+    },
+    {
+      "id": "366b67949902",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Hegseth’s dubious low-T screening may flag up to 25 percent of the Army",
+      "url": "https://arstechnica.com/health/2026/10/hegseths-dubious-low-t-screening-may-flag-up-to-25-percent-of-the-army/",
+      "summary": "Medical experts explicitly recommend against blanket screenings.",
+      "author": "Beth Mole",
+      "published": "Thu, 15 Oct 2026 21:09:57 +0000",
+      "tags": [
+        "Health",
+        "ARM",
+        "hegseth",
+        "Military"
+      ]
+    },
+    {
+      "id": "217963996d31",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "Tesla finally delivers on its promise to create a flying car",
+      "url": "https://www.marketwatch.com/story/tesla-may-finally-debut-a-flying-car-today-after-testing-fans-patience-for-nearly-a-decade-9a23c8e8?mod=mw_rss_topstories",
+      "summary": "Tesla’s demonstration of a levitating Roadster sports car was “an engineering flex with no commercial value beyond embarrassing traditional car makers.”",
+      "author": "William Gavin",
+      "published": "Fri, 16 Oct 2026 02:42:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "e1b9e54a23e9",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "Pepsi loses more ground in the soda wars, as KFC switches to Coke",
+      "url": "https://www.marketwatch.com/story/pepsi-loses-more-ground-in-the-soda-wars-as-kfc-switches-to-coke-49b1ef53?mod=mw_rss_topstories",
+      "summary": "As more people switch to Coke, some analysts are getting more worried about the state of archrival Pepsi.",
+      "author": "Bill Peters",
+      "published": "Thu, 15 Oct 2026 23:29:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "a8be9d22dcfc",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
+      "url": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
+      "summary": "”I earn $110,000 a year.”",
+      "author": "Quentin Fottrell",
+      "published": "Thu, 15 Oct 2026 22:31:00 GMT",
+      "tags": []
     }
   ],
   "notes": [
@@ -275,7 +308,6 @@
     "Wikipedia: 1 条",
     "BBC 世界: 4 条",
     "Ars Technica: 3 条",
-    "feeds.marketwatch.com 返回 400，跳过",
-    "MarketWatch: 0 条"
+    "MarketWatch: 3 条"
   ]
 }
