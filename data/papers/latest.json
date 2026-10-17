@@ -1,136 +1,6 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "papers": [
-    {
-      "id": "2608.10423",
-      "source": "arxiv",
-      "title": "Amulet: Frame Extrapolation Through Sparse Layered Scene Representation and Adaptive Shading",
-      "authors": [
-        "Sebastian Künzel",
-        "Fabian Schmierer",
-        "Sergej Geringer",
-        "Guido Reina",
-        "Daniel Weiskopf",
-        "Dieter Schmalstieg"
-      ],
-      "abstract": "We introduce Amulet, a rendering method that transforms a scene into a sparse, tiled and layered intermediate scene representation (cache) for high-frequency frame extrapolation. In contrast to reprojection-based techniques, Amulet explicitly rasterizes and stores potentially visible geometry in its layered image-space cache, allowing accurate shading and inpainting of newly disoccluded regions without hallucination. Our key contribution is a cache that is predictively filled with shading information for future views, amortized over multiple current frames. Novel views are synthesized by hierarchically traversing the cache front to back and refining stale or missing shading on the fly. Using a predictive, gradient-based scheduler that assigns lifetimes for each tile, we enable adaptive shading updates under motion and dynamic lighting. Amulet decouples the rasterization and shading rate from the refresh rate of the display. In many scenarios, our cache can use a single shaded frame to synthesize multiple extrapolated frames with only a few localized updates. In a typical application, we extrapolate a 60 Hz shading rate to a 240 Hz display. Amulet achieves up to 250 Hz at 4K resolution and is competitive with state-of-the-art frame generation methods, including DLSS and neural-flow approaches, in multiple metrics. Amulet explores the design space of sparse layered image-space representation. It enables accurate, non-neural multi frame extrapolation with explicit handling of disocclusions. Our findings show that Amulet can extrapolate many more frames than contemporary methods with high quality, rivaling latency-bound frame interpolation methods with similar quality in many scenes.",
-      "published": "2026-08-11",
-      "url": "https://arxiv.org/abs/2608.10423",
-      "pdf": "https://arxiv.org/pdf/2608.10423",
-      "categories": [
-        "cs.GR"
-      ],
-      "matched": [
-        "frame extrapolation",
-        "disocclusion",
-        "shading rate",
-        "reprojection",
-        "inpainting",
-        "frame interpolation"
-      ],
-      "score": 53,
-      "comment": "Corresponding Author: Sebastian Künzel",
-      "isNew": false,
-      "citedBy": 0,
-      "topic": "图像变形",
-      "kind": "fresh"
-    },
-    {
-      "id": "2609.16385",
-      "source": "arxiv",
-      "title": "Dichoptic Foveation",
-      "authors": [
-        "Henry Kam",
-        "Colin Groth",
-        "Jenna Kang",
-        "Pratham Saraf",
-        "Qi Sun",
-        "Kenneth Chen"
-      ],
-      "abstract": "Interocular differences in visual perception can induce a variety of effects when fused by the brain. For example, prior works have found that carefully crafted binocular differences in local detail can improve contrast. It has also been found that when the frequency content of two stimuli are slightly different, blur suppression leads to a fused percept that is typically dominated by the sharper image. In this paper, we develop a psychophysical framework to measure the perception of natural image stimuli with interocular frequency differences across the visual field. To this end, we study the effect of dichoptic foveation, which we define as the application of blur to one eye and a simultaneous sharpening filter to the other. Stimuli were viewed in a virtual reality (VR) head-mounted display (HMD) and placed at different retinal eccentricities. Study data were scaled to a perceptual just objectionable difference (JOD) scale, and a 4D model was fit to it; our results suggest that interocular frequency differences can be well described by a simple computational model. We applied the model in a realistic VR scenario with free exploration of 360° videos to improve a base foveated rendering system by enhancing high frequency information dichoptically.",
-      "published": "2026-09-14",
-      "url": "https://arxiv.org/abs/2609.16385",
-      "pdf": "https://arxiv.org/pdf/2609.16385",
-      "categories": [
-        "cs.GR",
-        "cs.PF"
-      ],
-      "matched": [
-        "foveat",
-        "psychophysic",
-        "visual perception",
-        "head-mounted",
-        "hmd",
-        "virtual reality"
-      ],
-      "score": 52,
-      "comment": "",
-      "isNew": false,
-      "citedBy": 0,
-      "topic": "注视点渲染",
-      "kind": "fresh"
-    },
-    {
-      "id": "2605.27939",
-      "source": "arxiv",
-      "title": "EyeSpy: Inferring Eye Gaze via Side-Channel Attacks Against Foveated Rendering",
-      "authors": [
-        "Paul Maynard",
-        "Harris Amjad",
-        "Camila Molinares",
-        "Bo Ji",
-        "Brendan David-John"
-      ],
-      "abstract": "While eye tracking provides valuable capabilities for virtual reality, such as gaze interaction and dynamic foveated rendering (DFR), eye-tracking data can inadvertently reveal sensitive user information if not properly protected. Current protections, such as adding permission prompts or gatekeeping gaze data, are insufficient on DFR-enabled systems because gaze data is used internally to drive DFR. When DFR is implemented, objects in the fovea (i.e., immediate gaze area) incur a higher GPU workload than those in the periphery. This gaze-contingent workload creates a novel side channel, which can be leveraged to reconstruct gaze positions. Specifically, we design a novel attack that sweeps imperceptible high-cost objects (HCOs) across the user's field of view and logs rendering performance metrics (e.g., frame rate or frame time) commonly exposed through standard game engines. Then, we correlate variation in these metrics (caused by HCO-foveal overlap) with the known HCOs' positions to infer gaze coordinates directly without using eye-tracking APIs. Our experimental results show that mean gaze prediction errors (1.1-4.4 degrees) across the Meta Quest Pro, Varjo XR-4, and desktop platforms are comparable to typical eye-tracker accuracy. We demonstrate that the attack generalizes across various hardware platforms, standard game engines, and foveated rendering pipelines. Finally, we design defense mechanisms based on supervised and unsupervised detectors that can flag the attack reliably (F1 of 0.99) over short time windows.",
-      "published": "2026-05-27",
-      "url": "https://arxiv.org/abs/2605.27939",
-      "pdf": "https://arxiv.org/pdf/2605.27939",
-      "categories": [
-        "cs.HC"
-      ],
-      "matched": [
-        "foveat",
-        "gaze-contingent",
-        "gaze",
-        "eye tracking",
-        "eye-tracking",
-        "virtual reality"
-      ],
-      "score": 50,
-      "comment": "20 pages, 12 figures. Accepted to the 47th IEEE Symposium on Security and Privacy (IEEE S&P 2026). Artifacts: https://bmdj-vt.github.io/project_pages/xr_side_channels",
-      "isNew": false,
-      "citedBy": 0,
-      "topic": "注视点渲染",
-      "kind": "fresh"
-    },
-    {
-      "id": "2605.11536",
-      "source": "arxiv",
-      "title": "ToF ReSTIR: Time-of-Flight Rendering with Spatio-temporal Reservoir Resampling",
-      "authors": [
-        "Juhyeon Kim",
-        "Wojciech Jarosz",
-        "Adithya Pediredla"
-      ],
-      "abstract": "We present a novel spatio-temporal reuse framework for time-resolved light transport, enabling efficient Monte Carlo rendering of time-of-flight (ToF) phenomena such as time-gated imaging and transient light capture. Existing ToF rendering methods are computationally expensive, scale poorly to complex dynamic scenes, and are therefore unsuitable for applications with strict latency constraints. To address this limitation, we draw inspiration from ReSTIR, a reuse-based technique for steady-state real-time rendering, and adapt its core principles to interactive-rate ToF simulation. However, naively applying existing ReSTIR methods to ToF rendering leads to severe inefficiency, as reused paths frequently violate optical path-length constraints and thus contribute little or no signal. We overcome this challenge by introducing a path reuse formulation that explicitly enforces physically valid optical path lengths. The key idea is path-length-aware shift mapping, a geometric transformation based on Newton's method that adjusts reused light paths to satisfy temporal gating constraints, inspired by specular manifold exploration in steady-state caustics rendering. The resulting framework substantially improves the efficiency of ToF rendering across a wide range of scenarios, including complex scenes with glossy or specular materials and dynamic motion. Our method supports both time-gated and transient rendering at interactive frame rates, enabling simulation under practical latency constraints. We demonstrate the effectiveness of our approach through two downstream applications, including shape reconstruction and navigation.",
-      "published": "2026-05-12",
-      "url": "https://arxiv.org/abs/2605.11536",
-      "pdf": "https://arxiv.org/pdf/2605.11536",
-      "categories": [
-        "cs.GR"
-      ],
-      "matched": [
-        "restir",
-        "reservoir resampling",
-        "reservoir"
-      ],
-      "score": 48,
-      "comment": "",
-      "isNew": false,
-      "citedBy": 0,
-      "topic": "光线追踪",
-      "kind": "fresh"
-    },
     {
       "id": "2607.19316",
       "source": "arxiv",
@@ -155,70 +25,6 @@
       ],
       "score": 47,
       "comment": "Proceedings of the Conference on Cognitive Computational Neuroscience 2026; Contributed Talk; Code: https://github.com/DM-Diaz/eccentricity-constrained-simclr",
-      "isNew": false,
-      "citedBy": 0,
-      "topic": "注视点渲染",
-      "kind": "fresh"
-    },
-    {
-      "id": "2608.16514",
-      "source": "arxiv",
-      "title": "Matched Outcomes, Divergent Gaze: How Foveated MLLMs Search Compared to Humans",
-      "authors": [
-        "Mohamed Amine Kerkouri",
-        "Marouane Tliba",
-        "Aladine Chetouani",
-        "Ulas Bagci",
-        "Alessandro Bruno"
-      ],
-      "abstract": "Human visual search is serial: the fovea must land on a candidate to confirm it, and those landings form a scanpath. Whether multimodal large language models (MLLMs), given the same foveated input, search as humans do bears on their use as models of human vision and on attention-alignment scores. We compare three general-purpose MLLMs with human eye-movement scanpaths on goal-directed search (COCO-Search18), driving each model fixation by fixation through an identical, human-matched foveated view and assessing it along three axes: the decision of target presence, the efficiency of reaching the target, and the gaze process itself. The axes dissociate. On the decision and on target acquisition the models match or exceed humans, detecting present targets near ceiling and reaching them on the first saccade more often than people do. The gaze process is not human. Under the human-matched condition, all three share one signature: low-entropy, large-amplitude, self-consistent scanpaths that agree with themselves far more closely than two humans agree with each other. That is consistent with a single-pass, non-serial architecture rather than a limit of acuity. Matched retinal input reproduces where humans look but not how the looking unfolds in time, and no degradation regime recovers human-like search at human-like success. The gap sits on a process axis that answer-alignment and saliency metrics do not measure. Because they miss it, such metrics cannot certify human-like vision, and zero-shot models suit outcome and spatial questions but not temporal, process-level ones.",
-      "published": "2026-08-17",
-      "url": "https://arxiv.org/abs/2608.16514",
-      "pdf": "https://arxiv.org/pdf/2608.16514",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.CL",
-        "cs.HC",
-        "cs.MM"
-      ],
-      "matched": [
-        "foveat",
-        "saccade",
-        "gaze",
-        "saliency"
-      ],
-      "score": 43,
-      "comment": "Paper accepted at 3rd HCV workshop at ECCV 2026. 12 pages main text, 16 pages supp",
-      "isNew": false,
-      "citedBy": 0,
-      "topic": "注视点渲染",
-      "kind": "fresh"
-    },
-    {
-      "id": "2610.11342",
-      "source": "arxiv",
-      "title": "Point-Focused Attention Meets Context-Scan State Space: Robust Biological Visual Perception for Point Cloud Representation",
-      "authors": [
-        "Kanglin Qu",
-        "Pan Gao",
-        "Qun Dai",
-        "Yuanhao Sun"
-      ],
-      "abstract": "Synergistically capturing intricate local structures and global contextual dependencies has become a critical challenge in point cloud representation learning. To address this, we introduce PointLearner, a point cloud representation learning network that closely aligns with biological vision which employs an active, foveation-inspired processing strategy, thus enabling local geometric modeling and long-range dependency interactions simultaneously. Specifically, we first design a point-focused attention, which simulates foveal vision at the visual focus through a competitive normalized attention mechanism between local neighbors and spatially downsampled features. The spatially downsampled features are extracted by a pooling method based on learnable inducing points, which can flexibly adapt to the non-uniform distribution of point clouds as the number of inducing points is controlled and they interact directly with point clouds. Second, we propose a context-scan state space that mimics eye's saccade inference, which infers the overall semantic structure and spatial content in the scene through a scan path guided by the Hilbert curve for the bidirectional S6. With this focus-then-context biomimetic design, PointLearner demonstrates remarkable robustness and achieves state-of-the-art performance across multiple point cloud tasks.",
-      "published": "2026-10-08",
-      "url": "https://arxiv.org/abs/2610.11342",
-      "pdf": "https://arxiv.org/pdf/2610.11342",
-      "categories": [
-        "cs.CV"
-      ],
-      "matched": [
-        "foveat",
-        "saccade",
-        "visual perception"
-      ],
-      "score": 41,
-      "comment": "Accepted by ICLR'26",
       "isNew": false,
       "citedBy": 0,
       "topic": "注视点渲染",
@@ -257,6 +63,36 @@
       "kind": "fresh"
     },
     {
+      "id": "2605.17823",
+      "source": "arxiv",
+      "title": "Why We Look Where We Look: Emergent Human-like Fixations of a Foveated Visual Language Model Maximizing Scene Understanding",
+      "authors": [
+        "Shravan Murlidaran",
+        "Ziqi Wen",
+        "Sana Shehabi",
+        "Miguel P. Eckstein"
+      ],
+      "abstract": "When humans view scenes without a specific task (free-viewing), they initially direct their eye movements toward the scene center and then fixate on people, text, objects being gazed at or grasped, and semantically meaningful regions. What these signature fixation patterns reflect and whether they optimize an underlying perceptual task remain unknown. We show that a computational agent with simulated foveation, trained to optimize scene comprehension, exhibits emergent human fixation signature patterns. In contrast, versions of the agent trained to search or classify scenes, or equipped with peripheral vision that was better or worse than human vision, predicted human fixation patterns less accurately. Thus, human free-viewing fixation patterns may emerge as a functional byproduct of optimizing scene comprehension under the biological constraints of foveated vision.",
+      "published": "2026-05-18",
+      "url": "https://arxiv.org/abs/2605.17823",
+      "pdf": "https://arxiv.org/pdf/2605.17823",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "matched": [
+        "foveat",
+        "peripheral vision",
+        "gaze"
+      ],
+      "score": 34,
+      "comment": "",
+      "isNew": false,
+      "citedBy": 1,
+      "topic": "注视点渲染",
+      "kind": "fresh"
+    },
+    {
       "id": "2607.22293",
       "source": "arxiv",
       "title": "RadSight: Towards Perceptually Reliable Multimodal Radiology Image Understanding",
@@ -292,187 +128,513 @@
       "kind": "fresh"
     },
     {
-      "id": "2606.31918",
+      "id": "2610.15835",
       "source": "arxiv",
-      "title": "DriveWeaver: Point-Conditioned Video Inpainting for Controllable Vehicle Insertion in Autonomous Driving Simulation",
+      "title": "Emergence of Active Foams in a Minimal Cognitive Flocking Model",
       "authors": [
-        "Junzhe Jiang",
-        "Zipei Ma",
-        "Zijie Pan",
-        "Li Zhang"
+        "Aryan Dwivedi",
+        "Diganta Bhaskar",
+        "Anil Kumar Dasanna"
       ],
-      "abstract": "A pivotal step in autonomous driving simulation involves inserting foreground vehicles with predefined trajectories into simulated scenes. This process enhances scene diversity and facilitates the creation of various corner cases for testing and improving autonomous driving models. However, existing methods often rely on pre-reconstructed 3D assets, which frequently lead to lighting inconsistencies between the inserted foreground and the background. Moreover, the reliance on limited, manually-curated 3D assets hinders large-scale deployment. To address these challenges, we propose DriveWeaver, a novel framework for controllable vehicle insertion in autonomous driving simulation. Specifically, for a masked target insertion area, DriveWeaver performs video inpainting conditioned on vehicle point clouds to generate high-quality, temporally consistent vehicles. This video-inpainting-based approach ensures seamless blending between the foreground and background, while the readily available point cloud conditions enable superior generalization. To support long-term generation, we further design a global-to-local hierarchical inpainting strategy, ensuring the consistent identity and appearance of the inserted vehicles. Meanwhile, we extract explicit 3D Gaussian representations of the inserted vehicles through an urban reconstruction pipeline to enable real-time rendering for autonomous driving simulation. Extensive experiments across diverse datasets demonstrate that our method outperforms existing baselines in visual realism and geometric consistency, providing a robust tool for scalable autonomous driving scene augmentation.",
-      "published": "2026-06-30",
-      "url": "https://arxiv.org/abs/2606.31918",
-      "pdf": "https://arxiv.org/pdf/2606.31918",
+      "abstract": "We investigate a minimal visual perception-driven model of self-propelled particles that interact through purely position-based cohesive steering within a finite vision cone, in the absence of velocity alignment and physical volume exclusion. Building on a previously proposed minimal cognitive model, we extend the interaction range from the previously studied short-range and distance-independent limits to an intermediate regime, enabling a systematic investigation of how a finite vision range influences collective behavior. We find that this regime exhibits a rich state diagram that combines characteristics of both limiting cases while giving rise to qualitatively new collective states. Besides the gas, nematic-band, and polar file states, we uncover the emergence of \\emph{active foams} -- system-spanning fractal-like networks sustained by dynamically evolving particle streams. These structures arise solely from non-reciprocal vision-based interactions and are absent in both the short and long vision-range limits. For larger vision angles, the system self-organizes into a variety of aggregate morphologies, including condensates, rings, and multi-twist filaments, revealing a strong interplay between interaction range and anisotropic perception in shaping collective organization.",
+      "published": "2026-10-11",
+      "url": "https://arxiv.org/abs/2610.15835",
+      "pdf": "https://arxiv.org/pdf/2610.15835",
       "categories": [
-        "cs.CV"
+        "cond-mat.soft",
+        "physics.bio-ph"
       ],
       "matched": [
-        "video inpainting",
-        "inpainting"
+        "perception-driven",
+        "visual perception"
       ],
-      "score": 32,
-      "comment": "Accepted at ECCV 2026, Project Page: https://github.com/LogosRoboticsGroup/DriveWeaver",
-      "isNew": false,
+      "score": 26,
+      "comment": "",
+      "isNew": true,
       "citedBy": 0,
-      "topic": "图像补全",
+      "topic": "感知驱动",
       "kind": "fresh"
     },
     {
-      "id": "2607.04674",
+      "id": "2609.16878",
       "source": "arxiv",
-      "title": "Video Generation Models Are Inherent Lighting Estimators",
+      "title": "VOR-Bench: A Human Perception-Driven Benchmark for Video Object Removal",
       "authors": [
-        "Ziqi Cai",
-        "Shuchen Weng",
-        "Kaiqi Liu",
-        "Zifeng Wang",
-        "Zhiquan Zhang",
-        "Minggui Teng",
-        "Han Jiang",
-        "Boxin Shi"
+        "Haonan Huang",
+        "Tianrui Qiu",
+        "Xianghao Zang",
+        "Yinan Du",
+        "Zhixiang He",
+        "Chi Zhang",
+        "Hao Sun",
+        "Zhongjiang He",
+        "Tianwei Cao",
+        "Xuchong Zhang",
+        "Hongbin Sun",
+        "Kongming Liang",
+        "Zhanyu Ma"
       ],
-      "abstract": "Recovering dynamic environment maps from a single in-the-wild video is crucial for photorealistic rendering, yet remains a challenge. Recent video generation models can produce photorealistic scenes with complex lighting, possessing an inherent understanding of lighting. In this paper, we introduce V-LITE (Video generation models are inherent lighting estimators), a framework that unlocks this internal knowledge by reframing lighting estimation as a guided video inpainting task. Inspired by VFX industry practices, we insert a synthetic chrome ball into the scene to compel the model to generate physically plausible reflections from the surrounding spatio-temporal context. To bridge the gap from LDR-native models to the HDR domain, we design an HDR-aware VAE and employ an efficient LoRA-based fine-tuning strategy. We then construct a mixed dataset comprising high-fidelity HDR images to provide realistic HDR priors, and in-the-wild HDR videos to provide dynamic spatio-temporal context. Extensive experiments demonstrate that V-LITE produces temporally coherent HDR environment maps, revealing that modern video diffusion models are not merely synthesizers but also powerful, inherently capable estimators of physical scene lighting.",
-      "published": "2026-07-06",
-      "url": "https://arxiv.org/abs/2607.04674",
-      "pdf": "https://arxiv.org/pdf/2607.04674",
+      "abstract": "Despite its crucial role in video object removal (VOR), existing evaluation paradigms face two critical limitations: questionable references and a misalignment between tradi- tional metrics and human preference. To address these challenges, we introduce VOR- Bench, which advances VOR evaluation through three integrated components. First, we present the VOR Dataset (VORD), the first benchmark dataset providing both paired edited videos and graffiti masks. Its unique strength lies in a diverse data spectrum, which encompasses model-generated, tool-rendered, and camera-captured data, ensuring robust assessment across real-world scenarios. Second, we develop rMPAF, a realistic Motion- capable Paired-video Acquisition Framework. By combining the strengths of image- based object removal and fine-tuned video generation models, rMPAF automatically generates realistic, motion-coherent paired videos. Finally, we propose three evaluation dimensions and introduce VOR-MDSM, the first perception-driven VLM-based scoring model specifically designed for mask-guided VOR. It bridges the gap between arithmetic metrics and human perception by covering the essential visual attributes and matching nuanced human judgment. Extensive experiments demonstrate that VOR-Bench yields evaluation results that align closely with human perception, achieving a remarkable cor- relation (\\r{ho} > 0.9) with subjective assessments. We will release VOR-Bench along with its documentation to ensure full reproducibility.",
+      "published": "2026-09-15",
+      "url": "https://arxiv.org/abs/2609.16878",
+      "pdf": "https://arxiv.org/pdf/2609.16878",
       "categories": [
-        "cs.CV"
+        "cs.CV",
+        "cs.AI"
       ],
       "matched": [
-        "video inpainting",
-        "inpainting"
+        "perception-driven"
       ],
       "score": 21,
-      "comment": "Project Page: https://caiziqi.com/research/vlite/",
-      "isNew": false,
+      "comment": "BMVC-2026",
+      "isNew": true,
       "citedBy": 0,
-      "topic": "图像补全",
+      "topic": "感知驱动",
       "kind": "fresh"
     },
     {
-      "id": "2604.20558",
+      "id": "2605.06759",
       "source": "arxiv",
-      "title": "Predictive drift compensation of multi-frame STEM via live scan modification",
+      "title": "An Aerial Manipulator for Perception-Driven Flower Targeting Toward Contactless Pollination in Vertical Farming",
       "authors": [
-        "Matthew Mosse",
-        "Jonathan J. P. Peters",
-        "Eoin Moynihan",
-        "James A. Gott",
-        "Ana M. Sanchez",
-        "Michele Conroy",
-        "Lewys Jones"
+        "Chenzhe Jin",
+        "Zhuohang Wu",
+        "Yifan Cai",
+        "Xiangqi Li",
+        "Jan Ming Kevin Tan",
+        "Narsimlu Kemsaram",
+        "Valerio Modugno"
       ],
-      "abstract": "Scanning transmission electron microscopy (STEM) is widely used tool for materials characterisation. However, being a scanned technique, STEM is susceptible to sample, stage or beam drift, manifesting as distortions within images or movement in the field-of-view during multi-frame imaging. Often this is corrected post-acquisition using image registration of multiple frames, but drift reduces the usable area common to all frames. Here we present a method to mitigate sample drift by analysing past frames to predict the sampling-grid points for the immediately future frame. We present this correction across two time-scales and two lengthscales. By offsetting the scan-grid framewise we remove long-range drift, and offsetting pixelwise we minimise intra-image warping. Examples are presented for both atomic-resolution imaging and lower-magnification in-situ video capture. The framework is general to raster, serpentine, interlaced and other scan patterns, as well as sequential or scan-rotation series STEM.",
-      "published": "2026-04-22",
-      "url": "https://arxiv.org/abs/2604.20558",
-      "pdf": "https://arxiv.org/pdf/2604.20558",
+      "abstract": "The decline of natural pollinators has created a major challenge for crop production in controlled indoor agriculture, particularly in vertical farming environments where natural insect pollination is absent. This motivates the development of robotic systems capable of performing precise flower targeting tasks while minimizing physical interference with delicate floral structures. This paper presents an aerial manipulator platform for perception driven flower detection, localization, and approach in vertical farming environments. The proposed system integrates onboard RGBD based perception, model predictive path integral (MPPI) based unmanned aerial vehicle (UAV) control on a PX4 platform, and a lightweight 2DoF manipulator for precise end effector positioning. The platform is evaluated in both MuJoCo simulation and UAV lab experiments using a flower targeting testbed. The experimental results demonstrate stable UAV flight, reliable flower localization, and centimeter level end effector positioning accuracy. In simulation, the proposed controller achieves consistent trajectory convergence and accurate target alignment. In the real world UAV lab environment, the integrated perception control manipulation framework enables stable flower targeted positioning and end effector alignment under constrained aerial operation. These results validate the proposed aerial manipulator as a robust robotic carrier and positioning framework for future contactless pollination systems. While the current study focuses on perception guided targeting and positioning, the developed platform provides a practical foundation for integrating advanced contactless end effectors, including acoustic based pollen manipulation modules, in future work.",
+      "published": "2026-05-07",
+      "url": "https://arxiv.org/abs/2605.06759",
+      "pdf": "https://arxiv.org/pdf/2605.06759",
       "categories": [
-        "physics.ins-det",
-        "cond-mat.mtrl-sci"
+        "cs.RO"
       ],
       "matched": [
-        "image warping"
+        "perception-driven"
+      ],
+      "score": 21,
+      "comment": "This paper has been accepted for publication in the Proceedings of the 2026 4th International Conference on Robotics, Control and Vision Engineering (RCVE 2026), 10-12 July, 2026, Tokyo, Japan",
+      "isNew": true,
+      "citedBy": 0,
+      "topic": "感知驱动",
+      "kind": "fresh"
+    },
+    {
+      "id": "2605.12651",
+      "source": "arxiv",
+      "title": "Runtime Monitoring of Perception-Based Autonomous Systems via Embedding Temporal Logic",
+      "authors": [
+        "Parv Kapoor",
+        "Abigail Hammer",
+        "Ashish Kapoor",
+        "Karen Leung",
+        "Eunsuk Kang"
+      ],
+      "abstract": "Runtime monitoring of autonomous systems traditionally relies on mapping continuous sensor observations to discrete logical propositions defined over low-dimensional state variables. This abstraction breaks down in perception-driven settings, where such mappings require additional learned modules that are often computationally expensive, brittle, and semantically misaligned. In this work, we propose Embedding Temporal Logic (ETL), a temporal logic that performs monitoring directly in learned embedding spaces. ETL defines predicates through distances between observed embeddings and target embeddings derived from reference observations. This formulation allows specifications to capture high-level perceptual concepts, such as similarity to visual goals or avoidance of semantic regions, that are difficult or impossible to express using traditional predicates. By composing these predicates with temporal operators, ETL naturally expresses temporally extended and sequential perceptual behaviors. We introduce ETL monitors for evaluating specifications over bounded embedding traces, along with a conformal calibration procedure that provides reliable and safety-oriented predicate evaluation. We evaluate our approach across multiple manipulation environments to show that ETL achieves strong empirical agreement with ground-truth semantics, including accurate monitoring of temporally composed behaviors.",
+      "published": "2026-05-12",
+      "url": "https://arxiv.org/abs/2605.12651",
+      "pdf": "https://arxiv.org/pdf/2605.12651",
+      "categories": [
+        "cs.LG"
+      ],
+      "matched": [
+        "perception-driven"
+      ],
+      "score": 17,
+      "comment": "",
+      "isNew": true,
+      "citedBy": 0,
+      "topic": "感知驱动",
+      "kind": "fresh"
+    },
+    {
+      "id": "2608.10689",
+      "source": "arxiv",
+      "title": "The Signal Rail: A Deterministic Motion Grammar for Communicating Conversational Agent State in Terminal Interfaces",
+      "authors": [
+        "Matteo Grella"
+      ],
+      "abstract": "Terminal interfaces to conversational agents report rich internal state (listening, thinking, executing tools, awaiting input, failing) almost entirely through text, while the motion channel beside it, the one peripheral vision monitors without reading, carries a single bit: alive. We present the Signal Rail, a one-row terminal status instrument that gives that channel a grammar. Four ideas govern it: spatial semantics (input, processing, and output zones, with direction as meaning), a motion grammar (one kinetic rule per state, never color alone), determinism (frames as a pure function of explicit inputs, golden-frame testable), and honesty (no invented progress or activity). We contribute a 45-section normative specification and a reference implementation inside a working full-duplex local voice agent driven by real signals.",
+      "published": "2026-08-11",
+      "url": "https://arxiv.org/abs/2608.10689",
+      "pdf": "https://arxiv.org/pdf/2608.10689",
+      "categories": [
+        "cs.HC",
+        "cs.CL"
+      ],
+      "matched": [
+        "peripheral vision"
       ],
       "score": 16,
-      "comment": "",
+      "comment": "16 pages, 3 figures. Ancillary files include the Signal Rail 1.0 specification, JavaScript and Python engines, and the cross-implementation conformance harness. Code: https://github.com/matteo-grella/signal-rail",
       "isNew": false,
       "citedBy": 0,
-      "topic": "图像变形",
-      "kind": "fresh"
-    },
-    {
-      "id": "1511.06292",
-      "source": "arxiv",
-      "title": "Foveation-based Mechanisms Alleviate Adversarial Examples",
-      "authors": [
-        "Yan Luo",
-        "Xavier Boix",
-        "Gemma Roig",
-        "Tomaso Poggio",
-        "Qi Zhao"
-      ],
-      "abstract": "We show that adversarial examples, i.e., the visually imperceptible perturbations that result in Convolutional Neural Networks (CNNs) fail, can be alleviated with a mechanism based on foveations---applying the CNN in different image regions. To see this, first, we report results in ImageNet that lead to a revision of the hypothesis that adversarial perturbations are a consequence of CNNs acting as a linear classifier: CNNs act locally linearly to changes in the image regions with objects recognized by the CNN, and in other regions the CNN may act non-linearly. Then, we corroborate that when the neural responses are linear, applying the foveation mechanism to the adversarial example tends to significantly reduce the effect of the perturbation. This is because, hypothetically, the CNNs for ImageNet are robust to changes of scale and translation of the object produced by the foveation, but this property does not generalize to transformations of the perturbation. As a result, the accuracy after a foveation is almost the same as the accuracy of the CNN without the adversarial perturbation, even if the adversarial perturbation is calculated taking into account a foveation.",
-      "published": "2015-11-19",
-      "url": "https://arxiv.org/abs/1511.06292",
-      "pdf": "https://arxiv.org/pdf/1511.06292",
-      "categories": [
-        "cs.LG",
-        "cs.CV"
-      ],
-      "matched": [
-        "foveat"
-      ],
-      "score": 21,
-      "comment": "",
-      "isNew": false,
-      "citedBy": 124,
       "topic": "注视点渲染",
-      "kind": "classic"
+      "kind": "fresh"
     },
     {
-      "id": "2011.10185",
+      "id": "2610.08737",
       "source": "arxiv",
-      "title": "ConvTransformer: A Convolutional Transformer Network for Video Frame Synthesis",
+      "title": "PhoneBot: A Low-Cost Open Humanoid Robot Platform Reusing Smartphones",
       "authors": [
-        "Zhouyong Liu",
-        "Shun Luo",
-        "Wubin Li",
-        "Jingben Lu",
-        "Yufan Wu",
-        "Shilei Sun",
-        "Chunguo Li",
-        "Luxi Yang"
+        "Ruochen Hou",
+        "Quanyou Wang",
+        "Daniel Koh",
+        "Dennis W. Hong"
       ],
-      "abstract": "Deep Convolutional Neural Networks (CNNs) are powerful models that have achieved excellent performance on difficult computer vision tasks. Although CNNs perform well whenever large labeled training samples are available, they work badly on video frame synthesis due to objects deforming and moving, scene lighting changes, and cameras moving in video sequence. In this paper, we present a novel and general end-to-end architecture, called convolutional Transformer or ConvTransformer, for video frame sequence learning and video frame synthesis. The core ingredient of ConvTransformer is the proposed attention layer, i.e., multi-head convolutional self-attention layer, that learns the sequential dependence of video sequence. ConvTransformer uses an encoder, built upon multi-head convolutional self-attention layer, to encode the sequential dependence between the input frames, and then a decoder decodes the long-term dependence between the target synthesized frames and the input frames. Experiments on video future frame extrapolation task show ConvTransformer to be superior in quality while being more parallelizable to recent approaches built upon convolutional LSTM (ConvLSTM). To the best of our knowledge, this is the first time that ConvTransformer architecture is proposed and applied to video frame synthesis.",
-      "published": "2020-11-20",
-      "url": "https://arxiv.org/abs/2011.10185",
-      "pdf": "https://arxiv.org/pdf/2011.10185",
+      "abstract": "The adoption of humanoid robots in education and research remains limited by high hardware costs, complex sensing systems, and substantial computational requirements. This paper presents PhoneBot, a low-cost, open-source humanoid robot platform that repurposes commodity smartphones as its primary sensing and computing unit. By using a smartphone's integrated inertial measurement unit (IMU), camera, wireless connectivity, and onboard processing capabilities, PhoneBot reduces hardware costs and simplifies the system architecture. The robot combines a modular lower-body structure driven by 13 low-cost actuators with a torso-mounted smartphone that supports perception, control computation, and user interaction. We describe the mechanical design, software architecture, and real-time communication framework that support stable locomotion and capabilities including vision-based human following, conversational interaction, filming, and mobile telepresence. Experimental evaluations demonstrate reliable walking, perception-driven interaction, and straightforward deployment using off-the-shelf consumer smartphones. With fully open-source hardware and software designs, PhoneBot provides an affordable, reproducible platform for education, research, and rapid prototyping. More details are available at https://phonebot.dev.",
+      "published": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.08737",
+      "pdf": "https://arxiv.org/pdf/2610.08737",
       "categories": [
-        "cs.CV"
+        "cs.RO"
       ],
       "matched": [
-        "frame extrapolation"
+        "perception-driven"
       ],
       "score": 16,
       "comment": "",
-      "isNew": false,
-      "citedBy": 56,
-      "topic": "图像变形",
-      "kind": "classic"
+      "isNew": true,
+      "citedBy": 0,
+      "topic": "感知驱动",
+      "kind": "fresh"
     },
     {
-      "id": "1907.01131",
+      "id": "2610.08120",
       "source": "arxiv",
-      "title": "Learnable Gated Temporal Shift Module for Deep Video Inpainting",
+      "title": "iGPC: Generative Motion Priors for Object-Aware Humanoid Interaction",
       "authors": [
-        "Ya-Liang Chang",
-        "Zhe Yu Liu",
-        "Kuan-Ying Lee",
-        "Winston Hsu"
+        "Anujith Muraleedharan",
+        "Abdul Ahad Butt",
+        "Nolan Fey",
+        "Yash Prabhu",
+        "Anamika J H",
+        "Sandor Felber",
+        "Maurice Rahme",
+        "Ivan Laptev"
       ],
-      "abstract": "How to efficiently utilize temporal information to recover videos in a consistent way is the main issue for video inpainting problems. Conventional 2D CNNs have achieved good performance on image inpainting but often lead to temporally inconsistent results where frames will flicker when applied to videos (see https://www.youtube.com/watch?v=87Vh1HDBjD0&list=PLPoVtv-xp_dL5uckIzz1PKwNjg1yI0I94&index=1); 3D CNNs can capture temporal information but are computationally intensive and hard to train. In this paper, we present a novel component termed Learnable Gated Temporal Shift Module (LGTSM) for video inpainting models that could effectively tackle arbitrary video masks without additional parameters from 3D convolutions. LGTSM is designed to let 2D convolutions make use of neighboring frames more efficiently, which is crucial for video inpainting. Specifically, in each layer, LGTSM learns to shift some channels to its temporal neighbors so that 2D convolutions could be enhanced to handle temporal information. Meanwhile, a gated convolution is applied to the layer to identify the masked areas that are poisoning for conventional convolutions. On the FaceForensics and Free-form Video Inpainting (FVI) dataset, our model achieves state-of-the-art results with simply 33% of parameters and inference time.",
-      "published": "2019-07-02",
-      "url": "https://arxiv.org/abs/1907.01131",
-      "pdf": "https://arxiv.org/pdf/1907.01131",
+      "abstract": "Humanoid robots operating in unstructured environments must combine robust whole-body control with the ability to perceive and physically interact with surrounding objects. While large-scale human motion data provides powerful priors for natural and versatile humanoid control, effectively transferring such priors to perception-driven object interaction remains challenging. To address this bottleneck, we propose a framework that extends the recently proposed Generative Pretrained Controller (GPC) from general human motion to full-body humanoid-environment interaction. First, we adapt GPC into interaction experts conditioned on scene affordance cues and privileged state information. This adaptation begins with interaction and affordance pre-training on human motions paired with support scenes. These experts leverage the pretrained human motion prior while learning task-specific contact behaviors, including reaching toward objects, grasping environmental supports for stabilization, and pushing movable objects. Second, we introduce a perception-driven student that retains the pretrained GPC policy and distills interaction skills from the experts using onboard sensory observations. To bridge the gap between privileged expert observations and sensory inputs, we train the student's perception not only to reconstruct expert observations, but also to preserve the expert's motion decisions and resulting joint targets. Notably, our experiments across multiple whole-body interaction tasks demonstrate that large-scale generative human motion priors provide an effective foundation for learning deployable policies for humanoid interactions in contact-rich real-world environments.",
+      "published": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.08120",
+      "pdf": "https://arxiv.org/pdf/2610.08120",
       "categories": [
-        "cs.CV"
+        "cs.RO"
       ],
       "matched": [
-        "video inpainting",
-        "image inpainting",
-        "inpainting"
+        "perception-driven"
       ],
-      "score": 40,
-      "comment": "Accepted to BMVC 2019",
-      "isNew": false,
-      "citedBy": 47,
-      "topic": "图像补全",
-      "kind": "classic"
+      "score": 16,
+      "comment": "",
+      "isNew": true,
+      "citedBy": 0,
+      "topic": "感知驱动",
+      "kind": "fresh"
+    },
+    {
+      "id": "2609.08905",
+      "source": "arxiv",
+      "title": "Visible-Reachable Workspace for Perception-Aware Humanoid Design",
+      "authors": [
+        "Boxi Xia",
+        "Zijiang Yang",
+        "Ryan Shin",
+        "Bokuan Li",
+        "Eric Wun-Hao Lu",
+        "Jacob Lee",
+        "Jiaxun Liu",
+        "Boyuan Chen"
+      ],
+      "abstract": "Workspace analysis measures where a robot can place its end effector. For visually guided manipulation, reachability alone is insufficient: a kinematically reachable target may not be visible in the specific pose required to reach it. The robot must then redirect its sensing or move its body to acquire a view, turning a perception limitation into additional motion. Existing humanoids largely inherit this limitation when copying human form factors. We introduce the visible-reachable workspace (VRW), a design-stage measure that conditions visibility on feasible reaching configurations and extends it to concurrent visibility of spatially separated work regions. We apply VRW by building a 31-DoF humanoid with independently actuated RGB-D cameras. On the same robot, camera articulation increases visible-reachable coverage from 38% to 97%. With actuated camera layouts, a second camera raises pairwise coverage from 0.45 to 0.95, while a third changes it only to 0.97. In a controlled two-target reach-and-grasp benchmark, our dual-actuated design reduces mean completion time by 17% and mechanical energy by 19% relative to the same robot with its cameras fixed. Hardware experiments demonstrate simultaneous observation and manipulation of front/back and left/right target pairs without torso reorientation. The results suggest that reachability becomes a more informative design quantity for perception-driven humanoid manipulation when it is evaluated together with the sensing configurations that make the reachable space observable. We will open-source all software and the humanoid hardware design. Our website is https://generalroboticslab.com/DukeHumanoidv2",
+      "published": "2026-09-08",
+      "url": "https://arxiv.org/abs/2609.08905",
+      "pdf": "https://arxiv.org/pdf/2609.08905",
+      "categories": [
+        "cs.RO"
+      ],
+      "matched": [
+        "perception-driven"
+      ],
+      "score": 16,
+      "comment": "9 pages, 7 figures, in submission",
+      "isNew": true,
+      "citedBy": 0,
+      "topic": "感知驱动",
+      "kind": "fresh"
+    },
+    {
+      "id": "2608.24169",
+      "source": "arxiv",
+      "title": "ViSculpt: Visual-Centric Agentic Geometry Editing",
+      "authors": [
+        "Bo Pang",
+        "Jiaqi Pan",
+        "Xiaocheng Zhang",
+        "Jiacheng Xu",
+        "Guoping Wang",
+        "Peng-Shuai Wang"
+      ],
+      "abstract": "3D geometry editing is a critical yet labor-intensive part of the graphics pipeline, requiring artists to translate creative intent into precise operations in complex professional software. Large language models (LLMs) have shown promise for script-based 3D creation, but script generation is less suited to perception-driven editing of arbitrary existing meshes, where execution must remain visually grounded and untouched regions should be preserved. We present a \\emph{visual-centric}, training-free multi-agent system that edits existing 3D meshes directly in Blender by emulating the iterative workflow of human artists. Rather than generating scripts or regenerating geometry, our system operates through the Blender GUI: multimodal LLM agents observe the viewport, reason about the current mesh state, and execute localized edits through simulated user interactions. Experiments on a curated benchmark provide initial evidence that this agentic approach can follow natural language instructions, perform representative localized mesh edits, and preserve the overall identity of the input asset. Our results highlight a complementary regime for language-driven 3D editing: direct in-place modification of existing meshes within the native 3D editing workflow. We view this work as an exploratory step toward visual-centric agentic geometry editing in professional graphics software.",
+      "published": "2026-08-25",
+      "url": "https://arxiv.org/abs/2608.24169",
+      "pdf": "https://arxiv.org/pdf/2608.24169",
+      "categories": [
+        "cs.CV",
+        "cs.GR",
+        "cs.HC"
+      ],
+      "matched": [
+        "perception-driven"
+      ],
+      "score": 16,
+      "comment": "",
+      "isNew": true,
+      "citedBy": 0,
+      "topic": "感知驱动",
+      "kind": "fresh"
+    },
+    {
+      "id": "2608.22983",
+      "source": "arxiv",
+      "title": "CSymPlan: Certified Symbolic Planning and Control for High-DOF Manipulators",
+      "authors": [
+        "Aditya Narendra",
+        "Ashok Kumar Saini",
+        "Mahathi Anand",
+        "Mahmoud Khaled",
+        "Fares J. Abu-Dakka",
+        "Abdalla Swikir"
+      ],
+      "abstract": "Robot manipulators are commonly engineered around a decoupled motion-generation stack: a planner computes a collision-free path and a lower-level controller tracks the resulting reference. This separation is computationally convenient, but it can produce references that are difficult to execute under actuator limits, tracking error, model mismatch, and small obstacle clearances. We present CSymPlan, a certified symbolic planning and control framework for high-DOF manipulators with two complementary implementations: an offline implementation that precomputes certified reach-avoid feedback policies for known workspaces; and an online implementation that synthesizes or updates symbolic policies at runtime from changing task and perception information using parallelization. The offline implementation reduces the manipulator dynamics to a sampled perturbed double-integrator model in operational space through feedback linearization, treats torque-realization errors, modeling inaccuracies, and measurement uncertainty as bounded disturbances, and refines the synthesized symbolic policy to the Franka FR3 through a quantization--lookup--torque realization pipeline. The online implementation uses the same abstraction and refinement interface, but replaces the precomputed policy table with a runtime pFaces request--synthesis--execution loop. In randomized simulated benchmarks and perception-driven Franka FR3 experiments, both implementations complete reach-avoid tasks with zero safety violations; whenever no certified action exists, the robot holds, replans, or stops safely instead of executing an uncertified command.",
+      "published": "2026-08-24",
+      "url": "https://arxiv.org/abs/2608.22983",
+      "pdf": "https://arxiv.org/pdf/2608.22983",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "matched": [
+        "perception-driven"
+      ],
+      "score": 16,
+      "comment": "",
+      "isNew": true,
+      "citedBy": 0,
+      "topic": "感知驱动",
+      "kind": "fresh"
+    },
+    {
+      "id": "2608.24910",
+      "source": "arxiv",
+      "title": "From Plots to Words: Model-Aware Multimodal Explanations as a Foundation for Accessible, Non-Visual Interaction",
+      "authors": [
+        "Nur Keleşoğlu",
+        "Łukasz Sobczak",
+        "Joanna Domańska"
+      ],
+      "abstract": "Multimodal large language models are increasingly used in interactive systems, yet ensuring consistent, trustworthy reasoning across heterogeneous modalities remains challenging. We present a context-aware, multi-agent framework that integrates textual queries, numerical data, visual representations, and model-derived signals for explainable time-series forecasting. A distinctive feature is that it turns predominantly visual forecasting outputs (e.g., trend plots) into structured, model-aware textual explanations. We argue that this makes the approach a natural foundation for non-visual, accessible interaction of particular relevance to blind and visually impaired users, for whom plot-centric interfaces are largely inaccessible. The framework supports three progressively richer pipelines (baseline, interpretable, explainable), enabling systematic comparison of unimodal, perception-driven, and model-aware responses. In an exploratory evaluation using an LLM-based judge as an early-stage proxy for human assessment, the explainable configuration improves overall explanation quality by up to 32% over a numerical baseline, with notable gains in trustworthiness and model awareness. We position user-centered validation with target users, including screen-reader and speech-interface users, as the essential next step rather than a claim established here.",
+      "published": "2026-07-22",
+      "url": "https://arxiv.org/abs/2608.24910",
+      "pdf": "https://arxiv.org/pdf/2608.24910",
+      "categories": [
+        "cs.HC",
+        "cs.AI"
+      ],
+      "matched": [
+        "perception-driven"
+      ],
+      "score": 16,
+      "comment": "",
+      "isNew": true,
+      "citedBy": 0,
+      "topic": "感知驱动",
+      "kind": "fresh"
     }
   ],
   "notes": [
-    "528 篇候选：近期相关 128 篇取 12，经典（>30 被引）5 篇混入 3"
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，6s 后重试",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 返回 429，24s 后重试 (4/4)",
+    "arXiv 查询失败: all:foveated",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，6s 后重试",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，24s 后重试",
+    "arXiv 查询失败: all:foveation",
+    "export.arxiv.org 返回 429，3s 后重试 (1/4)",
+    "export.arxiv.org 返回 429，6s 后重试 (2/4)",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 返回 429，24s 后重试 (4/4)",
+    "arXiv 查询失败: abs:\"gaze-contingent\"",
+    "export.arxiv.org 返回 429，3s 后重试 (1/4)",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，6s 后重试",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 返回 429，3s 后重试 (1/4)",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，6s 后重试",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，12s 后重试",
+    "export.arxiv.org 返回 429，24s 后重试 (4/4)",
+    "arXiv 查询失败: abs:\"visual acuity\"",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
+    "export.arxiv.org 返回 429，6s 后重试 (2/4)",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 返回 429，24s 后重试 (4/4)",
+    "arXiv 查询失败: abs:\"contrast sensitivity\"",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
+    "export.arxiv.org 返回 429，6s 后重试 (2/4)",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，24s 后重试",
+    "arXiv 查询失败: abs:\"perceptual rendering\"",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
+    "export.arxiv.org 返回 429，3s 后重试 (1/4)",
+    "export.arxiv.org 返回 429，6s 后重试 (2/4)",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 返回 429，24s 后重试 (4/4)",
+    "arXiv 查询失败: abs:\"image warping\"",
+    "export.arxiv.org 返回 429，3s 后重试 (1/4)",
+    "export.arxiv.org 返回 429，6s 后重试 (2/4)",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，24s 后重试",
+    "arXiv 查询失败: abs:\"temporal reprojection\"",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
+    "export.arxiv.org 返回 429，6s 后重试 (2/4)",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 返回 429，24s 后重试 (4/4)",
+    "arXiv 查询失败: abs:\"frame extrapolation\"",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，6s 后重试",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 返回 429，24s 后重试 (4/4)",
+    "arXiv 查询失败: abs:\"video inpainting\"",
+    "export.arxiv.org 返回 429，3s 后重试 (1/4)",
+    "export.arxiv.org 返回 429，6s 后重试 (2/4)",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 返回 429，24s 后重试 (4/4)",
+    "arXiv 查询失败: abs:\"hole filling\"",
+    "export.arxiv.org 返回 429，3s 后重试 (1/4)",
+    "export.arxiv.org 返回 429，6s 后重试 (2/4)",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，12s 后重试",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，24s 后重试",
+    "arXiv 查询失败: all:ReSTIR",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，6s 后重试",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 返回 429，24s 后重试 (4/4)",
+    "arXiv 查询失败: abs:\"spatiotemporal variance-guided\"",
+    "export.arxiv.org 返回 429，3s 后重试 (1/4)",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，6s 后重试",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，12s 后重试",
+    "export.arxiv.org 返回 429，24s 后重试 (4/4)",
+    "arXiv 查询失败: abs:\"real-time ray tracing\"",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，6s 后重试",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，12s 后重试",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，24s 后重试",
+    "arXiv 查询失败: abs:\"path tracing\" AND abs:denoising",
+    "export.arxiv.org 返回 429，3s 后重试 (1/4)",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，6s 后重试",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，12s 后重试",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，24s 后重试",
+    "arXiv 查询失败: abs:\"shading rate\"",
+    "export.arxiv.org 返回 429，3s 后重试 (1/4)",
+    "export.arxiv.org 返回 429，6s 后重试 (2/4)",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，24s 后重试",
+    "arXiv 查询失败: all:foveated",
+    "export.arxiv.org 返回 429，3s 后重试 (1/4)",
+    "export.arxiv.org 返回 429，6s 后重试 (2/4)",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 返回 429，24s 后重试 (4/4)",
+    "arXiv 查询失败: all:foveation",
+    "export.arxiv.org 返回 429，3s 后重试 (1/4)",
+    "export.arxiv.org 返回 429，6s 后重试 (2/4)",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，24s 后重试",
+    "arXiv 查询失败: abs:\"gaze-contingent\"",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
+    "export.arxiv.org 返回 429，6s 后重试 (2/4)",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 返回 429，24s 后重试 (4/4)",
+    "arXiv 查询失败: abs:\"peripheral vision\"",
+    "export.arxiv.org 返回 429，3s 后重试 (1/4)",
+    "export.arxiv.org 返回 429，6s 后重试 (2/4)",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 返回 429，24s 后重试 (4/4)",
+    "arXiv 查询失败: abs:\"visual acuity\"",
+    "export.arxiv.org 返回 429，3s 后重试 (1/4)",
+    "export.arxiv.org 返回 429，6s 后重试 (2/4)",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 返回 429，24s 后重试 (4/4)",
+    "arXiv 查询失败: abs:\"contrast sensitivity\"",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
+    "export.arxiv.org 返回 429，6s 后重试 (2/4)",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，12s 后重试",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，24s 后重试",
+    "arXiv 查询失败: abs:\"perceptual rendering\"",
+    "export.arxiv.org 返回 429，3s 后重试 (1/4)",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，6s 后重试",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，24s 后重试",
+    "arXiv 查询失败: abs:\"perception-driven\"",
+    "export.arxiv.org 返回 429，3s 后重试 (1/4)",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，6s 后重试",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，12s 后重试",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，24s 后重试",
+    "arXiv 查询失败: abs:\"image warping\"",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，6s 后重试",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，24s 后重试",
+    "arXiv 查询失败: abs:\"temporal reprojection\"",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
+    "export.arxiv.org 返回 429，6s 后重试 (2/4)",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 返回 429，24s 后重试 (4/4)",
+    "arXiv 查询失败: abs:\"frame extrapolation\"",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
+    "export.arxiv.org 返回 429，6s 后重试 (2/4)",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，24s 后重试",
+    "arXiv 查询失败: abs:\"video inpainting\"",
+    "export.arxiv.org 返回 429，3s 后重试 (1/4)",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，6s 后重试",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，12s 后重试",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，24s 后重试",
+    "arXiv 查询失败: abs:\"hole filling\"",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，6s 后重试",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 返回 429，24s 后重试 (4/4)",
+    "arXiv 查询失败: all:ReSTIR",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
+    "export.arxiv.org 返回 429，3s 后重试 (1/4)",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，6s 后重试",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 返回 429，24s 后重试 (4/4)",
+    "arXiv 查询失败: abs:\"spatiotemporal variance-guided\"",
+    "export.arxiv.org 返回 429，3s 后重试 (1/4)",
+    "export.arxiv.org 返回 429，6s 后重试 (2/4)",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，24s 后重试",
+    "arXiv 查询失败: abs:\"real-time ray tracing\"",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
+    "export.arxiv.org 返回 429，6s 后重试 (2/4)",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，12s 后重试",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，24s 后重试",
+    "arXiv 查询失败: abs:\"path tracing\" AND abs:denoising",
+    "export.arxiv.org 返回 429，3s 后重试 (1/4)",
+    "export.arxiv.org 返回 429，6s 后重试 (2/4)",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 返回 429，24s 后重试 (4/4)",
+    "arXiv 查询失败: abs:\"shading rate\"",
+    "export.arxiv.org 请求失败 (The operation was aborted due to timeout)，3s 后重试",
+    "export.arxiv.org 返回 429，6s 后重试 (2/4)",
+    "export.arxiv.org 返回 429，12s 后重试 (3/4)",
+    "export.arxiv.org 返回 429，24s 后重试 (4/4)",
+    "arXiv 查询失败: cat:cs.GR",
+    "80 篇候选：近期相关 23 篇取 15，经典（>30 被引）0 篇混入 0",
+    "其中 10 篇是首次出现"
   ]
 }
