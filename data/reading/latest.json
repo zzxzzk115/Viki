@@ -1,222 +1,239 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "items": [
     {
-      "id": "96e6cfb35dee",
+      "id": "ad03883bc529",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Lissette Martinez",
-      "url": "https://simple.wikipedia.org/wiki/Lissette_Martinez",
-      "summary": "Lissette Martinez, is the lead electrical engineer for the Space Experiment Module program at the Wallops Flight Facility, which is part of NASA's Goddard Space Flight Center.",
+      "title": "Jenna Elfman",
+      "url": "https://simple.wikipedia.org/wiki/Jenna_Elfman",
+      "summary": "Jennifer Mary \"Jenna\" Elfman is an American movie and television actress. She is highly known for her role as Dharma in the television sitcom Dharma & Greg",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "6b3f6e76dde8",
+      "id": "21521434aa94",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Jeffrey Spalding",
-      "url": "https://simple.wikipedia.org/wiki/Jeffrey_Spalding",
-      "summary": "Jeffrey Spalding was a Scottish-born Canadian artist, curator, author, and educator.",
+      "title": "BBC Radio 2",
+      "url": "https://simple.wikipedia.org/wiki/BBC_Radio_2",
+      "summary": "BBC Radio 2 is a radio station run by the BBC which is heard across the United Kingdom It started in 1967, replacing the BBC Light Programme. It is the most popular of the BBC stations with more than 15 million listeners a week in 2017. The audience is mostly adults over the age…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "d3c35db34ec3",
+      "id": "a5bb32320853",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Show HN: Sphinx – a hook that quizzes you on your AI's code before shipping",
-      "url": "https://sphinx-six-theta.vercel.app/",
-      "summary": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a questionnaire that checks if you understand how the code you're pushing works.",
-      "author": "critiquebrowser",
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "summary": "https://x.com/Jiaru_Zou/status/2110400256647340476 https://github.com/togethercomputer/HybridAgent https://huggingface.co/collections/togethercomputer/hybridag... Evaluations: https://arxiv.org/html/2610.18861v1#S5",
+      "author": "allinonai",
       "published": "2026-10-18",
       "tags": [
-        "▲ 48"
+        "▲ 328"
       ]
     },
     {
-      "id": "f8b040014d2e",
+      "id": "bb0c25ea36bd",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Bleached corals thrive within days when touching healthy neighbour",
-      "url": "https://www.nature.com/articles/d41586-026-03266-x",
-      "summary": "https://archive.ph/zIPG4",
-      "author": "alkyon",
-      "published": "2026-10-16",
-      "tags": [
-        "▲ 402"
-      ]
-    },
-    {
-      "id": "461ce81f51d3",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Lean now ships with verified kernels",
-      "url": "https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/",
+      "title": "William Gibson and the trademarking of cyberspace",
+      "url": "https://colo.to/cyberspace.html",
       "summary": "",
-      "author": "matt_d",
-      "published": "2026-10-16",
-      "tags": [
-        "▲ 84"
-      ]
-    },
-    {
-      "id": "720b8e107983",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Matthew Prince on why Cloudflare offers a free version and always will",
-      "url": "https://webmasters.stackexchange.com/questions/88659/how-can-cloudflare-offer-a-free-cdn-with-unlimited-bandwidth/88685#88685",
-      "summary": "",
-      "author": "thatslast",
+      "author": "Eric_Gullichsen",
       "published": "2026-10-18",
       "tags": [
-        "▲ 17"
+        "▲ 134"
       ]
     },
     {
-      "id": "b67cd8c514c6",
+      "id": "4cfc23948bcb",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Dam removals are bringing fish back across the northeastern United States",
-      "url": "https://www.smithsonianmag.com/science-nature/dam-removals-are-bringing-fish-back-across-the-northeastern-united-states-striking-down-one-tiny-barrier-at-a-time-180989679/",
+      "title": "Rabbits were a medieval royal luxury in England until the Black Death",
+      "url": "https://phys.org/news/2026-10-rabbits-medieval-royal-luxury-england.html",
       "summary": "",
-      "author": "sohkamyung",
-      "published": "2026-10-16",
+      "author": "samizdis",
+      "published": "2026-10-17",
       "tags": [
-        "▲ 250"
+        "▲ 14"
       ]
     },
     {
-      "id": "9fc42ad30e2e",
+      "id": "f39dc488c779",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Show HN: 500 clocks in one 6.3 MB HTML file by Opus 5.5",
-      "url": "https://tkgally.github.io/500-clocks/",
-      "summary": "Lately I've been testing frontier models by having them create self-contained web pages that display clocks--sort of my personal version of Simon Willison’s pelican-on-a-bicycle metric. I have been particularly impressed by the variety, interest, and quality of the clocks create…",
-      "author": "tkgally",
-      "published": "2026-10-18",
+      "title": "There's never been a better time to go into math (by: 3blue1brown) [video]",
+      "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
+      "summary": "",
+      "author": "mdp2021",
+      "published": "2026-10-17",
       "tags": [
-        "▲ 16"
+        "▲ 291"
       ]
     },
     {
-      "id": "32e536aab097",
+      "id": "40fdcddd388c",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Agent-Skills.market",
+      "url": "https://agent-skills.market/",
+      "summary": "",
+      "author": "agentsmithvl",
+      "published": "2026-10-19",
+      "tags": [
+        "▲ 7"
+      ]
+    },
+    {
+      "id": "ce2de30f63f2",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Superlite: A Faster Alternatie to Superpowers",
+      "url": "https://contextfirst.blog/superlite-hand-an-agent-a-spec/",
+      "summary": "",
+      "author": "iheatuchriswogu",
+      "published": "2026-10-19",
+      "tags": [
+        "▲ 46"
+      ]
+    },
+    {
+      "id": "c8005bf0404d",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Claude Code Parallel Subagent Patterns: Fan-Out, Fan-In, and Synchronization Strategies That Actually Work",
-      "url": "https://dev.to/jsmanifest/claude-code-parallel-subagent-patterns-fan-out-fan-in-and-synchronization-strategies-that-4gni",
-      "summary": "Claude Code Parallel Subagent Patterns: Fan-Out, Fan-In, and Synchronization Strategies That Actually Work This article was written with the assistance of AI, under human supervision and review. Most parallel subagent implementations fail because teams treat them like independen…",
-      "author": "jsmanifest",
-      "published": "Sun, 18 Oct 2026 06:05:35 +0000",
+      "title": "OpenAI or Gemini key in your frontend? Move it to an Edge Function",
+      "url": "https://dev.to/ahmed_hassanyaseen_1b7ab/openai-or-gemini-key-in-your-frontend-move-it-to-an-edge-function-3i73",
+      "summary": "If your web app talks to OpenAI or Gemini from the browser, the API key is part of the JavaScript every visitor downloads. Anyone can copy it out and send requests that are billed to your account. Here's the order I fix it in: keep the key as a server secret, call the provider f…",
+      "author": "Ahmed Hassan Yaseen",
+      "published": "Mon, 19 Oct 2026 06:14:52 +0000",
       "tags": [
-        "typescript",
-        "ai",
+        "security",
+        "supabase",
+        "openai",
+        "webdev"
+      ]
+    },
+    {
+      "id": "906bb6a45ba6",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Vue 3.6: When a Watcher Throws, Your Other Watchers Stall",
+      "url": "https://dev.to/parsajiravand/vue-36-when-a-watcher-throws-your-other-watchers-stall-25ge",
+      "summary": "Two watchers, same ref , nothing to do with each other. One of them has a bug and throws. The other one — which has no bug at all — just stops updating. Not forever. It comes back to life the next time some completely unrelated ref changes somewhere else in your app. If you've e…",
+      "author": "Parsa Jiravand",
+      "published": "Mon, 19 Oct 2026 06:10:58 +0000",
+      "tags": [
+        "vue",
         "javascript",
+        "tutorial",
         "webdev"
       ]
     },
     {
-      "id": "3b6ad88ee450",
+      "id": "ad4122bb0c29",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Stripe vs Creem vs Polar.sh vs Paddle vs Lemon Squeezy in 2026: The Real Effective Fee Math on $5,800/mo SaaS Revenue",
-      "url": "https://dev.to/brian_a2eebd5059c1c2/stripe-vs-creem-vs-polarsh-vs-paddle-vs-lemon-squeezy-in-2026-the-real-effective-fee-math-on-114d",
-      "summary": "Most SaaS founders choose their payment infrastructure based on a single headline number: Stripe's 2.9% + $0.30 processing fee versus a Merchant of Record (MoR) quoting 4% to 5% . On paper, Stripe looks 1.5% to 2.0% cheaper. In production—once you sell recurring subscriptions gl…",
-      "author": "StackOps Labs",
-      "published": "Sun, 18 Oct 2026 06:05:28 +0000",
+      "title": "Your 'Expand All' Button Is Quietly Causing Layout Thrashing",
+      "url": "https://dev.to/parsajiravand/your-expand-all-button-is-quietly-causing-layout-thrashing-2lpj",
+      "summary": "You click \"Expand all\" on a settings page or an FAQ list, and for a moment, nothing happens. Not nothing-nothing — the click registered, the network tab is quiet, there's no spinner. The page is just... stuck, for a beat, before every row snaps open at once. Nobody wrote a slow …",
+      "author": "Parsa Jiravand",
+      "published": "Mon, 19 Oct 2026 06:10:27 +0000",
       "tags": [
-        "saas",
-        "startup",
-        "webdev"
-      ]
-    },
-    {
-      "id": "fc33e5cd3737",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "5 SEO Tools for Next.js: What Do You Actually Need?",
-      "url": "https://dev.to/mustafaydemir/5-seo-tools-for-nextjs-what-do-you-actually-need-2c4h",
-      "summary": "For a public Next.js site, start with Google Search Console to understand indexing and PageSpeed Insights to investigate performance. Add a crawler when you need to inspect many routes, and pay for monitoring when repeated manual checks become a problem. That is the useful way t…",
-      "author": "Mustafa Aydemir",
-      "published": "Sun, 18 Oct 2026 06:04:56 +0000",
-      "tags": [
-        "nextjs",
-        "seo",
+        "javascript",
+        "performance",
         "webdev",
-        "tools"
+        "browser"
       ]
     },
     {
-      "id": "9f542fb405b0",
+      "id": "3a94a3efbc4d",
       "category": "tech",
       "source": "DEV Community",
-      "title": "What are the essential first-time security setup steps after logging into a new VPS?",
-      "url": "https://dev.to/plabonasad/what-are-the-essential-first-time-security-setup-steps-after-logging-into-a-new-vps-pfe",
-      "summary": "Essential First-Time VPS Security Setup Guide A step-by-step checklist to secure a fresh Linux VPS (Ubuntu/Debian) immediately after creation to prevent unauthorized access and automated brute-force attacks. 📋 Security Checklist Overview Update System Packages Create a Non-Root…",
-      "author": "Md Asaduzzaman",
-      "published": "Sun, 18 Oct 2026 06:03:41 +0000",
+      "title": "Writing C for the Web in 2026 Isn't Insane. It Might Be the Future",
+      "url": "https://dev.to/james_anderson_h/writing-c-for-the-web-in-2026-isnt-insane-it-might-be-the-future-529c",
+      "summary": "Someone shipped a modern, commercial web product — user accounts, Stripe payments, a search dashboard, transactional emails — written entirely in C , served over CGI , the technology we all quietly agreed died somewhere around 2004. Your first instinct is probably to laugh. Or t…",
+      "author": "James Anderson",
+      "published": "Mon, 19 Oct 2026 06:08:31 +0000",
       "tags": [
         "webdev",
-        "programming",
-        "devops",
-        "linux"
+        "c",
+        "architecture",
+        "discuss"
       ]
     },
     {
-      "id": "a990cc0e2057",
+      "id": "9ce6e0f4cb27",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "The Demi-Virgin",
-      "url": "https://en.wikipedia.org/wiki/The_Demi-Virgin",
-      "summary": "The Demi-Virgin is a three-act play written by Avery Hopwood. Producer Albert H. Woods staged it on Broadway, where it was a hit during the 1921–22 season. The play is a bedroom farce about former couple Gloria Graham and Wally Deane, both movie actors, whose brief marriage caus…",
+      "title": "Ancient Cappadocian language",
+      "url": "https://en.wikipedia.org/wiki/Ancient_Cappadocian_language",
+      "summary": "The ancient Cappadocian language is an unattested language once spoken in antiquity in Cappadocia, a historical region of central Anatolia in modern-day Turkey. There are no known texts written in Cappadocian, although classical Greek writers identified Cappadocian as distinct f…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "677a5979cfb8",
+      "id": "8ec001383bac",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Violent clashes, looting and buildings ablaze in France as over 1,200 arrested after protests",
-      "url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss",
-      "summary": "Disorder broke out in cities across the country on a day in which more than half a million joined cost of living protests.",
-      "published": "Sun, 18 Oct 2026 05:56:20 GMT",
+      "title": "France's government under pressure after weekend of widespread violence",
+      "url": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo?at_medium=RSS&at_campaign=rss",
+      "summary": "Political tension grips France after rioting marred protests over the cost of living and struggling public services, Katya Adler writes.",
+      "published": "Mon, 19 Oct 2026 04:16:46 GMT",
       "tags": []
     },
     {
-      "id": "a2cd27a9770d",
+      "id": "ec0c1d0c4c6c",
       "category": "news",
       "source": "BBC 世界",
-      "title": "A wave of homemade, synthetic drugs sweeps US and deepens crisis",
-      "url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC News hears from users, dealers, prison and recovery workers as the country battles with a deadly new drug epidemic.",
-      "published": "Sun, 18 Oct 2026 05:04:31 GMT",
+      "title": "Funding shortages force World Food Programme to cut aid to Gaza",
+      "url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss",
+      "summary": "The number of people helped by the UN agency in the Palestinian territory will drop by about a third - from 1.6 million to 1.1 million.",
+      "published": "Mon, 19 Oct 2026 06:00:18 GMT",
       "tags": []
     },
     {
-      "id": "46647e002280",
+      "id": "dbaffab862f4",
       "category": "news",
       "source": "BBC 世界",
-      "title": "European diplomats attacked by Israeli settlers in West Bank",
-      "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Israeli military condemns the violence but the prime minister's office says it is part of a \"smear\" campaign.",
-      "published": "Sat, 17 Oct 2026 23:52:38 GMT",
+      "title": "Inside the shadowy world of anti-Putin sabotage from within Russia",
+      "url": "https://www.bbc.co.uk/news/articles/c6pwgzkj8zzgo?at_medium=RSS&at_campaign=rss",
+      "summary": "Two men tell of the work they say they have been doing to support Ukrainian intelligence during the war.",
+      "published": "Mon, 19 Oct 2026 00:06:25 GMT",
       "tags": []
     },
     {
-      "id": "351390f82ca4",
+      "id": "455fc0cf2128",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Deaths confirmed in major fire at Canada military base",
-      "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Number of casualties unknown in \"very, very active and delicate\" situation in Alberta, says defence minister.",
-      "published": "Sun, 18 Oct 2026 04:00:50 GMT",
+      "title": "Major fire at Canada military base leaves four dead, dozens injured",
+      "url": "https://www.bbc.co.uk/news/articles/cxj0ly1m3q81o?at_medium=RSS&at_campaign=rss",
+      "summary": "Prime Minister Carney said military and emergency crews fought the flames throughout the night in \"some of the worst conditions imaginable\".",
+      "published": "Sun, 18 Oct 2026 23:06:09 GMT",
       "tags": []
+    },
+    {
+      "id": "c82b8eb2cf96",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Anthropic gives outside AI watchdog “employee-like” access",
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+      "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
+      "author": "Cristina Criddle, Financial Times",
+      "published": "Sun, 18 Oct 2026 16:25:19 +0000",
+      "tags": [
+        "AI",
+        "AI agents",
+        "AI oversight",
+        "Anthropic"
+      ]
     },
     {
       "id": "acbf29a736c2",
@@ -251,52 +268,36 @@
       ]
     },
     {
-      "id": "b140e0bf691c",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "OpenAI models hacked a crypto wallet and breached more websites",
-      "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-      "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
-      "author": "Dan Goodin",
-      "published": "Fri, 16 Oct 2026 20:59:01 +0000",
-      "tags": [
-        "AI",
-        "Biz & IT",
-        "Security",
-        "LLMs"
-      ]
-    },
-    {
-      "id": "5f6c3e850729",
+      "id": "2d63366bf522",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Can a $55,000 robot load the dishwasher? Inside my afternoon with two humanoid housekeepers.",
-      "url": "https://www.marketwatch.com/story/can-a-55-000-plus-robot-load-the-dishwasher-inside-my-afternoon-with-two-humanoid-housekeepers-0a9569ab?mod=mw_rss_topstories",
-      "summary": "Tau Robotics’ humanoids vacuumed my floors and wiped my counters — with some help from humans behind the scenes.",
-      "author": "Christine Ji",
-      "published": "Sat, 17 Oct 2026 20:53:00 GMT",
+      "title": "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
+      "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+      "summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
+      "author": "Quentin Fottrell",
+      "published": "Sun, 18 Oct 2026 17:00:00 GMT",
       "tags": []
     },
     {
-      "id": "23b2e695c9f7",
+      "id": "a8be9d22dcfc",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Fake shopping sprees and ‘happiness insurance’: The latest fintech apps reveal our financial anxieties",
-      "url": "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories",
-      "summary": "Fintech companies are catching on to how Americans are altering their financial habits, and they’ve created new products to try to meet the moment.",
-      "author": "Genna Contino",
-      "published": "Sat, 17 Oct 2026 18:52:00 GMT",
+      "title": "‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
+      "url": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
+      "summary": "”I earn $110,000 a year.”",
+      "author": "Quentin Fottrell",
+      "published": "Sun, 18 Oct 2026 16:15:00 GMT",
       "tags": []
     },
     {
-      "id": "5259fa813f10",
+      "id": "daef34140f71",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Investing, not homeownership, is the No. 1 milestone that makes Gen Z renters feel successful",
-      "url": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
-      "summary": "“Instead of focusing on homeownership, many are prioritizing financial freedom and debt-free living.”",
-      "author": "Venessa Wong",
-      "published": "Sat, 17 Oct 2026 18:40:00 GMT",
+      "title": "My sister moved in with our mother, 78, and says she deserves the $925,000 family home. Is she right?",
+      "url": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
+      "summary": "“The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”",
+      "author": "Quentin Fottrell",
+      "published": "Sun, 18 Oct 2026 16:00:00 GMT",
       "tags": []
     }
   ],
