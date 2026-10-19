@@ -1,0 +1,478 @@
+{
+  "date": "2026-10-19",
+  "papers": [
+    {
+      "id": "2608.10423",
+      "source": "arxiv",
+      "title": "Amulet: Frame Extrapolation Through Sparse Layered Scene Representation and Adaptive Shading",
+      "authors": [
+        "Sebastian Künzel",
+        "Fabian Schmierer",
+        "Sergej Geringer",
+        "Guido Reina",
+        "Daniel Weiskopf",
+        "Dieter Schmalstieg"
+      ],
+      "abstract": "We introduce Amulet, a rendering method that transforms a scene into a sparse, tiled and layered intermediate scene representation (cache) for high-frequency frame extrapolation. In contrast to reprojection-based techniques, Amulet explicitly rasterizes and stores potentially visible geometry in its layered image-space cache, allowing accurate shading and inpainting of newly disoccluded regions without hallucination. Our key contribution is a cache that is predictively filled with shading information for future views, amortized over multiple current frames. Novel views are synthesized by hierarchically traversing the cache front to back and refining stale or missing shading on the fly. Using a predictive, gradient-based scheduler that assigns lifetimes for each tile, we enable adaptive shading updates under motion and dynamic lighting. Amulet decouples the rasterization and shading rate from the refresh rate of the display. In many scenarios, our cache can use a single shaded frame to synthesize multiple extrapolated frames with only a few localized updates. In a typical application, we extrapolate a 60 Hz shading rate to a 240 Hz display. Amulet achieves up to 250 Hz at 4K resolution and is competitive with state-of-the-art frame generation methods, including DLSS and neural-flow approaches, in multiple metrics. Amulet explores the design space of sparse layered image-space representation. It enables accurate, non-neural multi frame extrapolation with explicit handling of disocclusions. Our findings show that Amulet can extrapolate many more frames than contemporary methods with high quality, rivaling latency-bound frame interpolation methods with similar quality in many scenes.",
+      "published": "2026-08-11",
+      "url": "https://arxiv.org/abs/2608.10423",
+      "pdf": "https://arxiv.org/pdf/2608.10423",
+      "categories": [
+        "cs.GR"
+      ],
+      "matched": [
+        "frame extrapolation",
+        "disocclusion",
+        "shading rate",
+        "reprojection",
+        "inpainting",
+        "frame interpolation"
+      ],
+      "score": 53,
+      "comment": "Corresponding Author: Sebastian Künzel",
+      "isNew": false,
+      "citedBy": 0,
+      "topic": "图像变形",
+      "kind": "fresh"
+    },
+    {
+      "id": "2609.16385",
+      "source": "arxiv",
+      "title": "Dichoptic Foveation",
+      "authors": [
+        "Henry Kam",
+        "Colin Groth",
+        "Jenna Kang",
+        "Pratham Saraf",
+        "Qi Sun",
+        "Kenneth Chen"
+      ],
+      "abstract": "Interocular differences in visual perception can induce a variety of effects when fused by the brain. For example, prior works have found that carefully crafted binocular differences in local detail can improve contrast. It has also been found that when the frequency content of two stimuli are slightly different, blur suppression leads to a fused percept that is typically dominated by the sharper image. In this paper, we develop a psychophysical framework to measure the perception of natural image stimuli with interocular frequency differences across the visual field. To this end, we study the effect of dichoptic foveation, which we define as the application of blur to one eye and a simultaneous sharpening filter to the other. Stimuli were viewed in a virtual reality (VR) head-mounted display (HMD) and placed at different retinal eccentricities. Study data were scaled to a perceptual just objectionable difference (JOD) scale, and a 4D model was fit to it; our results suggest that interocular frequency differences can be well described by a simple computational model. We applied the model in a realistic VR scenario with free exploration of 360° videos to improve a base foveated rendering system by enhancing high frequency information dichoptically.",
+      "published": "2026-09-14",
+      "url": "https://arxiv.org/abs/2609.16385",
+      "pdf": "https://arxiv.org/pdf/2609.16385",
+      "categories": [
+        "cs.GR",
+        "cs.PF"
+      ],
+      "matched": [
+        "foveat",
+        "psychophysic",
+        "visual perception",
+        "head-mounted",
+        "hmd",
+        "virtual reality"
+      ],
+      "score": 52,
+      "comment": "",
+      "isNew": false,
+      "citedBy": 0,
+      "topic": "注视点渲染",
+      "kind": "fresh"
+    },
+    {
+      "id": "2605.27939",
+      "source": "arxiv",
+      "title": "EyeSpy: Inferring Eye Gaze via Side-Channel Attacks Against Foveated Rendering",
+      "authors": [
+        "Paul Maynard",
+        "Harris Amjad",
+        "Camila Molinares",
+        "Bo Ji",
+        "Brendan David-John"
+      ],
+      "abstract": "While eye tracking provides valuable capabilities for virtual reality, such as gaze interaction and dynamic foveated rendering (DFR), eye-tracking data can inadvertently reveal sensitive user information if not properly protected. Current protections, such as adding permission prompts or gatekeeping gaze data, are insufficient on DFR-enabled systems because gaze data is used internally to drive DFR. When DFR is implemented, objects in the fovea (i.e., immediate gaze area) incur a higher GPU workload than those in the periphery. This gaze-contingent workload creates a novel side channel, which can be leveraged to reconstruct gaze positions. Specifically, we design a novel attack that sweeps imperceptible high-cost objects (HCOs) across the user's field of view and logs rendering performance metrics (e.g., frame rate or frame time) commonly exposed through standard game engines. Then, we correlate variation in these metrics (caused by HCO-foveal overlap) with the known HCOs' positions to infer gaze coordinates directly without using eye-tracking APIs. Our experimental results show that mean gaze prediction errors (1.1-4.4 degrees) across the Meta Quest Pro, Varjo XR-4, and desktop platforms are comparable to typical eye-tracker accuracy. We demonstrate that the attack generalizes across various hardware platforms, standard game engines, and foveated rendering pipelines. Finally, we design defense mechanisms based on supervised and unsupervised detectors that can flag the attack reliably (F1 of 0.99) over short time windows.",
+      "published": "2026-05-27",
+      "url": "https://arxiv.org/abs/2605.27939",
+      "pdf": "https://arxiv.org/pdf/2605.27939",
+      "categories": [
+        "cs.HC"
+      ],
+      "matched": [
+        "foveat",
+        "gaze-contingent",
+        "gaze",
+        "eye tracking",
+        "eye-tracking",
+        "virtual reality"
+      ],
+      "score": 50,
+      "comment": "20 pages, 12 figures. Accepted to the 47th IEEE Symposium on Security and Privacy (IEEE S&P 2026). Artifacts: https://bmdj-vt.github.io/project_pages/xr_side_channels",
+      "isNew": false,
+      "citedBy": 0,
+      "topic": "注视点渲染",
+      "kind": "fresh"
+    },
+    {
+      "id": "2605.11536",
+      "source": "arxiv",
+      "title": "ToF ReSTIR: Time-of-Flight Rendering with Spatio-temporal Reservoir Resampling",
+      "authors": [
+        "Juhyeon Kim",
+        "Wojciech Jarosz",
+        "Adithya Pediredla"
+      ],
+      "abstract": "We present a novel spatio-temporal reuse framework for time-resolved light transport, enabling efficient Monte Carlo rendering of time-of-flight (ToF) phenomena such as time-gated imaging and transient light capture. Existing ToF rendering methods are computationally expensive, scale poorly to complex dynamic scenes, and are therefore unsuitable for applications with strict latency constraints. To address this limitation, we draw inspiration from ReSTIR, a reuse-based technique for steady-state real-time rendering, and adapt its core principles to interactive-rate ToF simulation. However, naively applying existing ReSTIR methods to ToF rendering leads to severe inefficiency, as reused paths frequently violate optical path-length constraints and thus contribute little or no signal. We overcome this challenge by introducing a path reuse formulation that explicitly enforces physically valid optical path lengths. The key idea is path-length-aware shift mapping, a geometric transformation based on Newton's method that adjusts reused light paths to satisfy temporal gating constraints, inspired by specular manifold exploration in steady-state caustics rendering. The resulting framework substantially improves the efficiency of ToF rendering across a wide range of scenarios, including complex scenes with glossy or specular materials and dynamic motion. Our method supports both time-gated and transient rendering at interactive frame rates, enabling simulation under practical latency constraints. We demonstrate the effectiveness of our approach through two downstream applications, including shape reconstruction and navigation.",
+      "published": "2026-05-12",
+      "url": "https://arxiv.org/abs/2605.11536",
+      "pdf": "https://arxiv.org/pdf/2605.11536",
+      "categories": [
+        "cs.GR"
+      ],
+      "matched": [
+        "restir",
+        "reservoir resampling",
+        "reservoir"
+      ],
+      "score": 48,
+      "comment": "",
+      "isNew": false,
+      "citedBy": 0,
+      "topic": "光线追踪",
+      "kind": "fresh"
+    },
+    {
+      "id": "2607.19316",
+      "source": "arxiv",
+      "title": "Eccentricity-Constrained CNN Training Reveals Adaptive Information Coding Around the Visual Field",
+      "authors": [
+        "Dylan M. Diaz",
+        "Margaret M. Henderson"
+      ],
+      "abstract": "In the primate visual system, center-preferring cortical populations have higher spatial resolution and overlap face- and word-selective regions while periphery-preferring populations have lower spatial resolution and overlap scene-selective regions. This \"eccentricity bias\" may reflect differential task-relevance: central vision may better support fine-grained tasks like face recognition and reading, while peripheral vision may better support scene understanding. To test whether eccentricity-dependent coding can emerge from natural experience, we used egocentric video and eye-tracking data from the Visual Experience Dataset (VEDB). We trained ResNet-18 models using contrastive learning (SimCLR) on frames modified to isolate different eccentricities (gaze-contingent fovea-only crops, periphery-only crops, and periphery-only crops with a NeuroFovea transform applied). We evaluated downstream task performance and model alignment with human fMRI data (Natural Scenes Dataset; encoding models). In-domain VEDB frame classification showed systematic differences between fovea- and periphery-only models across categories, indicating differential informativeness across tasks. On downstream classification, VEDB-pretrained models generalized better to scene categorization (Places365) than face recognition (VGGFace2), with fovea-only models stronger on both. Across visual cortex, VEDB-pretrained models matched neural predictivity of models trained on mid-sized non-egocentric datasets (ImageNet-100), suggesting egocentric data supports emergence of cortically-aligned representations. In scene-selective cortex (PPA, RSC), periphery-only models held a small but consistent advantage in explained variance over fovea-only models, suggesting these regions are aligned with peripheral statistics. Together, these results suggest egocentric experience may adaptively constrain cortical information processing.",
+      "published": "2026-07-21",
+      "url": "https://arxiv.org/abs/2607.19316",
+      "pdf": "https://arxiv.org/pdf/2607.19316",
+      "categories": [
+        "q-bio.NC"
+      ],
+      "matched": [
+        "gaze-contingent",
+        "peripheral vision",
+        "eccentricity",
+        "gaze",
+        "eye-tracking"
+      ],
+      "score": 47,
+      "comment": "Proceedings of the Conference on Cognitive Computational Neuroscience 2026; Contributed Talk; Code: https://github.com/DM-Diaz/eccentricity-constrained-simclr",
+      "isNew": false,
+      "citedBy": 0,
+      "topic": "注视点渲染",
+      "kind": "fresh"
+    },
+    {
+      "id": "2608.16514",
+      "source": "arxiv",
+      "title": "Matched Outcomes, Divergent Gaze: How Foveated MLLMs Search Compared to Humans",
+      "authors": [
+        "Mohamed Amine Kerkouri",
+        "Marouane Tliba",
+        "Aladine Chetouani",
+        "Ulas Bagci",
+        "Alessandro Bruno"
+      ],
+      "abstract": "Human visual search is serial: the fovea must land on a candidate to confirm it, and those landings form a scanpath. Whether multimodal large language models (MLLMs), given the same foveated input, search as humans do bears on their use as models of human vision and on attention-alignment scores. We compare three general-purpose MLLMs with human eye-movement scanpaths on goal-directed search (COCO-Search18), driving each model fixation by fixation through an identical, human-matched foveated view and assessing it along three axes: the decision of target presence, the efficiency of reaching the target, and the gaze process itself. The axes dissociate. On the decision and on target acquisition the models match or exceed humans, detecting present targets near ceiling and reaching them on the first saccade more often than people do. The gaze process is not human. Under the human-matched condition, all three share one signature: low-entropy, large-amplitude, self-consistent scanpaths that agree with themselves far more closely than two humans agree with each other. That is consistent with a single-pass, non-serial architecture rather than a limit of acuity. Matched retinal input reproduces where humans look but not how the looking unfolds in time, and no degradation regime recovers human-like search at human-like success. The gap sits on a process axis that answer-alignment and saliency metrics do not measure. Because they miss it, such metrics cannot certify human-like vision, and zero-shot models suit outcome and spatial questions but not temporal, process-level ones.",
+      "published": "2026-08-17",
+      "url": "https://arxiv.org/abs/2608.16514",
+      "pdf": "https://arxiv.org/pdf/2608.16514",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL",
+        "cs.HC",
+        "cs.MM"
+      ],
+      "matched": [
+        "foveat",
+        "saccade",
+        "gaze",
+        "saliency"
+      ],
+      "score": 43,
+      "comment": "Paper accepted at 3rd HCV workshop at ECCV 2026. 12 pages main text, 16 pages supp",
+      "isNew": false,
+      "citedBy": 0,
+      "topic": "注视点渲染",
+      "kind": "fresh"
+    },
+    {
+      "id": "2610.11342",
+      "source": "arxiv",
+      "title": "Point-Focused Attention Meets Context-Scan State Space: Robust Biological Visual Perception for Point Cloud Representation",
+      "authors": [
+        "Kanglin Qu",
+        "Pan Gao",
+        "Qun Dai",
+        "Yuanhao Sun"
+      ],
+      "abstract": "Synergistically capturing intricate local structures and global contextual dependencies has become a critical challenge in point cloud representation learning. To address this, we introduce PointLearner, a point cloud representation learning network that closely aligns with biological vision which employs an active, foveation-inspired processing strategy, thus enabling local geometric modeling and long-range dependency interactions simultaneously. Specifically, we first design a point-focused attention, which simulates foveal vision at the visual focus through a competitive normalized attention mechanism between local neighbors and spatially downsampled features. The spatially downsampled features are extracted by a pooling method based on learnable inducing points, which can flexibly adapt to the non-uniform distribution of point clouds as the number of inducing points is controlled and they interact directly with point clouds. Second, we propose a context-scan state space that mimics eye's saccade inference, which infers the overall semantic structure and spatial content in the scene through a scan path guided by the Hilbert curve for the bidirectional S6. With this focus-then-context biomimetic design, PointLearner demonstrates remarkable robustness and achieves state-of-the-art performance across multiple point cloud tasks.",
+      "published": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.11342",
+      "pdf": "https://arxiv.org/pdf/2610.11342",
+      "categories": [
+        "cs.CV"
+      ],
+      "matched": [
+        "foveat",
+        "saccade",
+        "visual perception"
+      ],
+      "score": 41,
+      "comment": "Accepted by ICLR'26",
+      "isNew": false,
+      "citedBy": 0,
+      "topic": "注视点渲染",
+      "kind": "fresh"
+    },
+    {
+      "id": "2606.00122",
+      "source": "arxiv",
+      "title": "Mathematical framework for perception-driven parameter choice in image denoising",
+      "authors": [
+        "Saara Isoranta",
+        "Emilia L. K. Blåsten",
+        "Lílian Ferreira de Freitas",
+        "Jukka Häkkinen",
+        "Markus Juvonen",
+        "Samuli Siltanen"
+      ],
+      "abstract": "We approach image denoising from a perception-driven perspective: how can we select the parameters that are best suited for human visual perception? We combine research methods in mathematics and psychology to develop a mathematical framework for measuring perceived similarity. We construct a sample set of differently denoised photographs by using the same base image as input data and by tuning the parameter value in a total variation denoising algorithm. A comparison test is conducted with human participants to survey perceived differences between the images. Analyzing the results with psychometric scaling provides us with a HaarPSI value to use as a threshold in discretizing parameter grids. As a result, we obtain psychometrically scaled, openly available image sets that are ready to use in further experiments in perception-driven imaging, as well as a framework for ensuing experiments involving comparison tests.",
+      "published": "2026-05-28",
+      "url": "https://arxiv.org/abs/2606.00122",
+      "pdf": "https://arxiv.org/pdf/2606.00122",
+      "categories": [
+        "eess.IV",
+        "math.NA"
+      ],
+      "matched": [
+        "perception-driven",
+        "visual perception",
+        "denois"
+      ],
+      "score": 39,
+      "comment": "",
+      "isNew": false,
+      "citedBy": 0,
+      "topic": "感知驱动",
+      "kind": "fresh"
+    },
+    {
+      "id": "2607.22293",
+      "source": "arxiv",
+      "title": "RadSight: Towards Perceptually Reliable Multimodal Radiology Image Understanding",
+      "authors": [
+        "Jianqin Liu",
+        "Weiwei Cao",
+        "Wanxing Chang",
+        "Ruifeng Yuan",
+        "Bowen Shi",
+        "Zhilin Zheng",
+        "Xianjie Zhang",
+        "Ling Zhang",
+        "Peng Wang",
+        "Jianpeng Zhang"
+      ],
+      "abstract": "Medical multimodal large language models (MLLMs) are increasingly expected to perform complex image understanding tasks, yet their reliability is often compromised by frequent errors in visual interpretation. To systematically trace these failures, we traverse the hierarchy from high-level clinical tasks down to fundamental visual perception. We therefore introduce Perception-Bench, a large-scale benchmark comprising 1.13 million samples that assesses medical MLLMs across six dimensions: attribute judgment, spatial grounding, spatial understanding, disease prediction, anomaly detection, and report generation, spanning both 2D and 3D radiology images. Our analysis on Perception-Bench reveals that existing MLLMs lack the ability to capture even the most basic lesion attributes, such as location, size, and density. This inability to ground clinical outputs in primary visual evidence reveals that the models' diagnostic unreliability is rooted in a critical but overlooked bottleneck in low-level visual perception. Motivated by this, we propose RadSight, a perception-driven MLLM built upon a dual 2D/3D encoder architecture that preserves native imaging spatial structures. RadSight formulates medical image understanding as a four-stage progressive process: visual-language alignment, fine-grained visual perception, clinical diagnosis, and diagnostic interpretation. The model is trained on an 8.37 million perception-oriented corpus using progressive curriculum learning. On Perception-Bench, RadSight consistently outperforms existing MLLMs across all six evaluation dimensions, with particularly strong gains in spatial grounding and clinical diagnosis. It also achieves consistent improvements on public 2D and 3D medical benchmarks, further demonstrating that robust low-level visual perception is a critical foundation for reliable clinical understanding. Code and model will be publicly available.",
+      "published": "2026-07-24",
+      "url": "https://arxiv.org/abs/2607.22293",
+      "pdf": "https://arxiv.org/pdf/2607.22293",
+      "categories": [
+        "cs.CV"
+      ],
+      "matched": [
+        "perception-driven",
+        "visual perception",
+        "perceptually"
+      ],
+      "score": 34,
+      "comment": "",
+      "isNew": false,
+      "citedBy": 0,
+      "topic": "感知驱动",
+      "kind": "fresh"
+    },
+    {
+      "id": "2606.31918",
+      "source": "arxiv",
+      "title": "DriveWeaver: Point-Conditioned Video Inpainting for Controllable Vehicle Insertion in Autonomous Driving Simulation",
+      "authors": [
+        "Junzhe Jiang",
+        "Zipei Ma",
+        "Zijie Pan",
+        "Li Zhang"
+      ],
+      "abstract": "A pivotal step in autonomous driving simulation involves inserting foreground vehicles with predefined trajectories into simulated scenes. This process enhances scene diversity and facilitates the creation of various corner cases for testing and improving autonomous driving models. However, existing methods often rely on pre-reconstructed 3D assets, which frequently lead to lighting inconsistencies between the inserted foreground and the background. Moreover, the reliance on limited, manually-curated 3D assets hinders large-scale deployment. To address these challenges, we propose DriveWeaver, a novel framework for controllable vehicle insertion in autonomous driving simulation. Specifically, for a masked target insertion area, DriveWeaver performs video inpainting conditioned on vehicle point clouds to generate high-quality, temporally consistent vehicles. This video-inpainting-based approach ensures seamless blending between the foreground and background, while the readily available point cloud conditions enable superior generalization. To support long-term generation, we further design a global-to-local hierarchical inpainting strategy, ensuring the consistent identity and appearance of the inserted vehicles. Meanwhile, we extract explicit 3D Gaussian representations of the inserted vehicles through an urban reconstruction pipeline to enable real-time rendering for autonomous driving simulation. Extensive experiments across diverse datasets demonstrate that our method outperforms existing baselines in visual realism and geometric consistency, providing a robust tool for scalable autonomous driving scene augmentation.",
+      "published": "2026-06-30",
+      "url": "https://arxiv.org/abs/2606.31918",
+      "pdf": "https://arxiv.org/pdf/2606.31918",
+      "categories": [
+        "cs.CV"
+      ],
+      "matched": [
+        "video inpainting",
+        "inpainting"
+      ],
+      "score": 32,
+      "comment": "Accepted at ECCV 2026, Project Page: https://github.com/LogosRoboticsGroup/DriveWeaver",
+      "isNew": false,
+      "citedBy": 0,
+      "topic": "图像补全",
+      "kind": "fresh"
+    },
+    {
+      "id": "2607.04674",
+      "source": "arxiv",
+      "title": "Video Generation Models Are Inherent Lighting Estimators",
+      "authors": [
+        "Ziqi Cai",
+        "Shuchen Weng",
+        "Kaiqi Liu",
+        "Zifeng Wang",
+        "Zhiquan Zhang",
+        "Minggui Teng",
+        "Han Jiang",
+        "Boxin Shi"
+      ],
+      "abstract": "Recovering dynamic environment maps from a single in-the-wild video is crucial for photorealistic rendering, yet remains a challenge. Recent video generation models can produce photorealistic scenes with complex lighting, possessing an inherent understanding of lighting. In this paper, we introduce V-LITE (Video generation models are inherent lighting estimators), a framework that unlocks this internal knowledge by reframing lighting estimation as a guided video inpainting task. Inspired by VFX industry practices, we insert a synthetic chrome ball into the scene to compel the model to generate physically plausible reflections from the surrounding spatio-temporal context. To bridge the gap from LDR-native models to the HDR domain, we design an HDR-aware VAE and employ an efficient LoRA-based fine-tuning strategy. We then construct a mixed dataset comprising high-fidelity HDR images to provide realistic HDR priors, and in-the-wild HDR videos to provide dynamic spatio-temporal context. Extensive experiments demonstrate that V-LITE produces temporally coherent HDR environment maps, revealing that modern video diffusion models are not merely synthesizers but also powerful, inherently capable estimators of physical scene lighting.",
+      "published": "2026-07-06",
+      "url": "https://arxiv.org/abs/2607.04674",
+      "pdf": "https://arxiv.org/pdf/2607.04674",
+      "categories": [
+        "cs.CV"
+      ],
+      "matched": [
+        "video inpainting",
+        "inpainting"
+      ],
+      "score": 21,
+      "comment": "Project Page: https://caiziqi.com/research/vlite/",
+      "isNew": false,
+      "citedBy": 0,
+      "topic": "图像补全",
+      "kind": "fresh"
+    },
+    {
+      "id": "2604.20558",
+      "source": "arxiv",
+      "title": "Predictive drift compensation of multi-frame STEM via live scan modification",
+      "authors": [
+        "Matthew Mosse",
+        "Jonathan J. P. Peters",
+        "Eoin Moynihan",
+        "James A. Gott",
+        "Ana M. Sanchez",
+        "Michele Conroy",
+        "Lewys Jones"
+      ],
+      "abstract": "Scanning transmission electron microscopy (STEM) is widely used tool for materials characterisation. However, being a scanned technique, STEM is susceptible to sample, stage or beam drift, manifesting as distortions within images or movement in the field-of-view during multi-frame imaging. Often this is corrected post-acquisition using image registration of multiple frames, but drift reduces the usable area common to all frames. Here we present a method to mitigate sample drift by analysing past frames to predict the sampling-grid points for the immediately future frame. We present this correction across two time-scales and two lengthscales. By offsetting the scan-grid framewise we remove long-range drift, and offsetting pixelwise we minimise intra-image warping. Examples are presented for both atomic-resolution imaging and lower-magnification in-situ video capture. The framework is general to raster, serpentine, interlaced and other scan patterns, as well as sequential or scan-rotation series STEM.",
+      "published": "2026-04-22",
+      "url": "https://arxiv.org/abs/2604.20558",
+      "pdf": "https://arxiv.org/pdf/2604.20558",
+      "categories": [
+        "physics.ins-det",
+        "cond-mat.mtrl-sci"
+      ],
+      "matched": [
+        "image warping"
+      ],
+      "score": 16,
+      "comment": "",
+      "isNew": false,
+      "citedBy": 0,
+      "topic": "图像变形",
+      "kind": "fresh"
+    },
+    {
+      "id": "1511.06292",
+      "source": "arxiv",
+      "title": "Foveation-based Mechanisms Alleviate Adversarial Examples",
+      "authors": [
+        "Yan Luo",
+        "Xavier Boix",
+        "Gemma Roig",
+        "Tomaso Poggio",
+        "Qi Zhao"
+      ],
+      "abstract": "We show that adversarial examples, i.e., the visually imperceptible perturbations that result in Convolutional Neural Networks (CNNs) fail, can be alleviated with a mechanism based on foveations---applying the CNN in different image regions. To see this, first, we report results in ImageNet that lead to a revision of the hypothesis that adversarial perturbations are a consequence of CNNs acting as a linear classifier: CNNs act locally linearly to changes in the image regions with objects recognized by the CNN, and in other regions the CNN may act non-linearly. Then, we corroborate that when the neural responses are linear, applying the foveation mechanism to the adversarial example tends to significantly reduce the effect of the perturbation. This is because, hypothetically, the CNNs for ImageNet are robust to changes of scale and translation of the object produced by the foveation, but this property does not generalize to transformations of the perturbation. As a result, the accuracy after a foveation is almost the same as the accuracy of the CNN without the adversarial perturbation, even if the adversarial perturbation is calculated taking into account a foveation.",
+      "published": "2015-11-19",
+      "url": "https://arxiv.org/abs/1511.06292",
+      "pdf": "https://arxiv.org/pdf/1511.06292",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "matched": [
+        "foveat"
+      ],
+      "score": 21,
+      "comment": "",
+      "isNew": false,
+      "citedBy": 128,
+      "topic": "注视点渲染",
+      "kind": "classic"
+    },
+    {
+      "id": "2011.10185",
+      "source": "arxiv",
+      "title": "ConvTransformer: A Convolutional Transformer Network for Video Frame Synthesis",
+      "authors": [
+        "Zhouyong Liu",
+        "Shun Luo",
+        "Wubin Li",
+        "Jingben Lu",
+        "Yufan Wu",
+        "Shilei Sun",
+        "Chunguo Li",
+        "Luxi Yang"
+      ],
+      "abstract": "Deep Convolutional Neural Networks (CNNs) are powerful models that have achieved excellent performance on difficult computer vision tasks. Although CNNs perform well whenever large labeled training samples are available, they work badly on video frame synthesis due to objects deforming and moving, scene lighting changes, and cameras moving in video sequence. In this paper, we present a novel and general end-to-end architecture, called convolutional Transformer or ConvTransformer, for video frame sequence learning and video frame synthesis. The core ingredient of ConvTransformer is the proposed attention layer, i.e., multi-head convolutional self-attention layer, that learns the sequential dependence of video sequence. ConvTransformer uses an encoder, built upon multi-head convolutional self-attention layer, to encode the sequential dependence between the input frames, and then a decoder decodes the long-term dependence between the target synthesized frames and the input frames. Experiments on video future frame extrapolation task show ConvTransformer to be superior in quality while being more parallelizable to recent approaches built upon convolutional LSTM (ConvLSTM). To the best of our knowledge, this is the first time that ConvTransformer architecture is proposed and applied to video frame synthesis.",
+      "published": "2020-11-20",
+      "url": "https://arxiv.org/abs/2011.10185",
+      "pdf": "https://arxiv.org/pdf/2011.10185",
+      "categories": [
+        "cs.CV"
+      ],
+      "matched": [
+        "frame extrapolation"
+      ],
+      "score": 16,
+      "comment": "",
+      "isNew": false,
+      "citedBy": 66,
+      "topic": "图像变形",
+      "kind": "classic"
+    },
+    {
+      "id": "1907.01131",
+      "source": "arxiv",
+      "title": "Learnable Gated Temporal Shift Module for Deep Video Inpainting",
+      "authors": [
+        "Ya-Liang Chang",
+        "Zhe Yu Liu",
+        "Kuan-Ying Lee",
+        "Winston Hsu"
+      ],
+      "abstract": "How to efficiently utilize temporal information to recover videos in a consistent way is the main issue for video inpainting problems. Conventional 2D CNNs have achieved good performance on image inpainting but often lead to temporally inconsistent results where frames will flicker when applied to videos (see https://www.youtube.com/watch?v=87Vh1HDBjD0&list=PLPoVtv-xp_dL5uckIzz1PKwNjg1yI0I94&index=1); 3D CNNs can capture temporal information but are computationally intensive and hard to train. In this paper, we present a novel component termed Learnable Gated Temporal Shift Module (LGTSM) for video inpainting models that could effectively tackle arbitrary video masks without additional parameters from 3D convolutions. LGTSM is designed to let 2D convolutions make use of neighboring frames more efficiently, which is crucial for video inpainting. Specifically, in each layer, LGTSM learns to shift some channels to its temporal neighbors so that 2D convolutions could be enhanced to handle temporal information. Meanwhile, a gated convolution is applied to the layer to identify the masked areas that are poisoning for conventional convolutions. On the FaceForensics and Free-form Video Inpainting (FVI) dataset, our model achieves state-of-the-art results with simply 33% of parameters and inference time.",
+      "published": "2019-07-02",
+      "url": "https://arxiv.org/abs/1907.01131",
+      "pdf": "https://arxiv.org/pdf/1907.01131",
+      "categories": [
+        "cs.CV"
+      ],
+      "matched": [
+        "video inpainting",
+        "image inpainting",
+        "inpainting"
+      ],
+      "score": 40,
+      "comment": "Accepted to BMVC 2019",
+      "isNew": false,
+      "citedBy": 59,
+      "topic": "图像补全",
+      "kind": "classic"
+    }
+  ],
+  "notes": [
+    "528 篇候选：近期相关 128 篇取 12，经典（>30 被引）5 篇混入 3"
+  ]
+}
