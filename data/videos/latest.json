@@ -1,6 +1,17 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "items": [
+    {
+      "id": "5565a81df603",
+      "platform": "youtube",
+      "videoId": "LWxX6vvHfrc",
+      "title": "Gemini 4 Argon Really Surprised Me",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
+      "thumb": "https://i1.ytimg.com/vi/LWxX6vvHfrc/hqdefault.jpg",
+      "published": "2026-10-19",
+      "category": "图形学"
+    },
     {
       "id": "3c1e366833a4",
       "platform": "youtube",
@@ -10,17 +21,6 @@
       "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
       "thumb": "https://i3.ytimg.com/vi/z_sXLlLVUls/hqdefault.jpg",
       "published": "2026-10-13",
-      "category": "图形学"
-    },
-    {
-      "id": "b35e5f2d2ecb",
-      "platform": "youtube",
-      "videoId": "4fLVq6HJsKc",
-      "title": "DeepSeek Solved AI’s Memory Problem",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
-      "thumb": "https://i1.ytimg.com/vi/4fLVq6HJsKc/hqdefault.jpg",
-      "published": "2026-10-11",
       "category": "图形学"
     },
     {
@@ -200,26 +200,15 @@
       "category": "历史"
     },
     {
-      "id": "3fe09620e0be",
-      "platform": "bilibili",
-      "videoId": "BV18SJa6ZEKb",
-      "title": "王掞·下半生：一份奏折，为啥让王掞的祖坟，差点儿都没了？【康熙王朝】",
-      "channel": "正直讲史-李正Str",
-      "url": "https://www.bilibili.com/video/BV18SJa6ZEKb",
-      "thumb": "https://i0.hdslb.com/bfs/archive/efdd390aa1ad1f2f4f216341a81019046163e6fd.jpg",
-      "published": "2026-10-17",
-      "category": "历史"
-    },
-    {
-      "id": "e4ffee7fe887",
-      "platform": "bilibili",
-      "videoId": "BV1XUpn6zEcu",
-      "title": "王掞·前半生：簪缨世族，曾祖明朝首辅，子孙清朝入阁？【康熙王朝】",
-      "channel": "正直讲史-李正Str",
-      "url": "https://www.bilibili.com/video/BV1XUpn6zEcu",
-      "thumb": "https://i0.hdslb.com/bfs/archive/951408bd511dafe4301a9da6ab6342181569c400.jpg",
-      "published": "2026-10-11",
-      "category": "历史"
+      "id": "f0caabbd3ccf",
+      "platform": "youtube",
+      "videoId": "KHimUkNBDiQ",
+      "title": "What are your favourite famous sites? 🎡 | Improve your listening with Real Easy English",
+      "channel": "BBC Learning English",
+      "url": "https://www.youtube.com/watch?v=KHimUkNBDiQ",
+      "thumb": "https://i4.ytimg.com/vi/KHimUkNBDiQ/hqdefault.jpg",
+      "published": "2026-10-19",
+      "category": "英语"
     },
     {
       "id": "42a8edae70fd",
@@ -230,17 +219,6 @@
       "url": "https://www.youtube.com/shorts/Cyh_lCLozdI",
       "thumb": "https://i4.ytimg.com/vi/Cyh_lCLozdI/hqdefault.jpg",
       "published": "2026-10-16",
-      "category": "英语"
-    },
-    {
-      "id": "194b8b5a17d3",
-      "platform": "youtube",
-      "videoId": "E5NIGE-UXoA",
-      "title": "🧸  How to talk about childhood memories",
-      "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=E5NIGE-UXoA",
-      "thumb": "https://i2.ytimg.com/vi/E5NIGE-UXoA/hqdefault.jpg",
-      "published": "2026-10-15",
       "category": "英语"
     },
     {
@@ -269,22 +247,21 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "Bilibili 512313464: code=-352 风控校验失败",
     "图形学 · 512313464: 0 条",
     "引擎 · @TheCherno: 2 条",
     "Bilibili 437860379: code=-352 风控校验失败",
     "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
-    "Bilibili 1567748478: code=-352 风控校验失败",
     "CS · 1567748478: 0 条",
-    "Bilibili 202224425: code=-352 风控校验失败",
     "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 2 条",
     "金融 · 520819684: 2 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
-    "历史 · 11646119: 2 条",
+    "Bilibili 11646119: code=-352 风控校验失败",
+    "历史 · 11646119: 0 条",
+    "Bilibili 23947287: code=-352 风控校验失败",
     "历史 · 23947287: 0 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
