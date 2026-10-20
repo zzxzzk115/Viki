@@ -1,303 +1,303 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "items": [
     {
-      "id": "ad03883bc529",
+      "id": "1e60d2bc9000",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Jenna Elfman",
-      "url": "https://simple.wikipedia.org/wiki/Jenna_Elfman",
-      "summary": "Jennifer Mary \"Jenna\" Elfman is an American movie and television actress. She is highly known for her role as Dharma in the television sitcom Dharma & Greg",
+      "title": "Stone Forest",
+      "url": "https://simple.wikipedia.org/wiki/Stone_Forest",
+      "summary": "Stone Forest (Shilin) is a remarkable region of limestone columns. It is in Yunnan Province, China. Two parts of the site, the Naigu Stone Forest and Suogeyi Village are UNESCO World Heritage Sites. They are part of the South China Karst. The site is classified as a AAAAA-class …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "21521434aa94",
+      "id": "3a29da2451e0",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "BBC Radio 2",
-      "url": "https://simple.wikipedia.org/wiki/BBC_Radio_2",
-      "summary": "BBC Radio 2 is a radio station run by the BBC which is heard across the United Kingdom It started in 1967, replacing the BBC Light Programme. It is the most popular of the BBC stations with more than 15 million listeners a week in 2017. The audience is mostly adults over the age…",
+      "title": "Mohammad Alizadeh (footballer)",
+      "url": "https://simple.wikipedia.org/wiki/Mohammad_Alizadeh_(footballer)",
+      "summary": "Mohammad Alizadeh is an Iranian professional football player. He plays as a winger or midfielder for Pars Jonoubi Jam in the Iranian leagues.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "a5bb32320853",
+      "id": "8e87036d11b5",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
-      "url": "https://arxiv.org/abs/2610.18861",
-      "summary": "https://x.com/Jiaru_Zou/status/2110400256647340476 https://github.com/togethercomputer/HybridAgent https://huggingface.co/collections/togethercomputer/hybridag... Evaluations: https://arxiv.org/html/2610.18861v1#S5",
-      "author": "allinonai",
-      "published": "2026-10-18",
+      "title": "OpenBSD 8.0",
+      "url": "https://www.openbsd.org/80.html",
+      "summary": "",
+      "author": "privong",
+      "published": "2026-10-20",
       "tags": [
-        "▲ 328"
+        "▲ 159"
       ]
     },
     {
-      "id": "bb0c25ea36bd",
+      "id": "efa8c4c666c6",
       "category": "tech",
       "source": "Hacker News",
-      "title": "William Gibson and the trademarking of cyberspace",
-      "url": "https://colo.to/cyberspace.html",
+      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
       "summary": "",
-      "author": "Eric_Gullichsen",
-      "published": "2026-10-18",
-      "tags": [
-        "▲ 134"
-      ]
-    },
-    {
-      "id": "4cfc23948bcb",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Rabbits were a medieval royal luxury in England until the Black Death",
-      "url": "https://phys.org/news/2026-10-rabbits-medieval-royal-luxury-england.html",
-      "summary": "",
-      "author": "samizdis",
-      "published": "2026-10-17",
-      "tags": [
-        "▲ 14"
-      ]
-    },
-    {
-      "id": "f39dc488c779",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "There's never been a better time to go into math (by: 3blue1brown) [video]",
-      "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
-      "summary": "",
-      "author": "mdp2021",
-      "published": "2026-10-17",
-      "tags": [
-        "▲ 291"
-      ]
-    },
-    {
-      "id": "40fdcddd388c",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Agent-Skills.market",
-      "url": "https://agent-skills.market/",
-      "summary": "",
-      "author": "agentsmithvl",
+      "author": "ds",
       "published": "2026-10-19",
       "tags": [
-        "▲ 7"
+        "▲ 235"
       ]
     },
     {
-      "id": "ce2de30f63f2",
+      "id": "e4980aa15f21",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Superlite: A Faster Alternatie to Superpowers",
-      "url": "https://contextfirst.blog/superlite-hand-an-agent-a-spec/",
+      "title": "Show HN: Death Plan Switch, a self-hosted dead man's switch for solo devs",
+      "url": "https://deathplanswitch.com/",
+      "summary": "Hi HN, I'm Peter Bishop and I've been working in graphics and web tech for over 25yrs. I've recently launched Death Plan Switch to solve a major problem in my succession plan. What if I go missing or die? The right people are told and my business can continue to operate for my c…",
+      "author": "romeo19361",
+      "published": "2026-10-20",
+      "tags": [
+        "▲ 22"
+      ]
+    },
+    {
+      "id": "98f4bf4049cf",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "MiniMax M3.1 Flash",
+      "url": "https://www.minimax.io/blog/minimax-m31f",
       "summary": "",
-      "author": "iheatuchriswogu",
+      "author": "jtg",
       "published": "2026-10-19",
+      "tags": [
+        "▲ 431"
+      ]
+    },
+    {
+      "id": "d2d456617f7c",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "France's supermarket fridges were vulnerable online for months",
+      "url": "https://ipinfo.io/blog/france-fridges-hack",
+      "summary": "Related: Hackers activate automatic defrosting in supermarket fridges across Europe - https://news.ycombinator.com/item?id=50055304 - Oct 2026 (1007 comments)",
+      "author": "emot",
+      "published": "2026-10-20",
+      "tags": [
+        "▲ 101"
+      ]
+    },
+    {
+      "id": "c5d69ce6a750",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Go will reject certificate chains containing eight distrusted SPKIs",
+      "url": "https://github.com/golang/go/issues/82345",
+      "summary": "",
+      "author": "mendym",
+      "published": "2026-10-20",
       "tags": [
         "▲ 46"
       ]
     },
     {
-      "id": "c8005bf0404d",
+      "id": "26939a1aea2c",
       "category": "tech",
       "source": "DEV Community",
-      "title": "OpenAI or Gemini key in your frontend? Move it to an Edge Function",
-      "url": "https://dev.to/ahmed_hassanyaseen_1b7ab/openai-or-gemini-key-in-your-frontend-move-it-to-an-edge-function-3i73",
-      "summary": "If your web app talks to OpenAI or Gemini from the browser, the API key is part of the JavaScript every visitor downloads. Anyone can copy it out and send requests that are billed to your account. Here's the order I fix it in: keep the key as a server secret, call the provider f…",
-      "author": "Ahmed Hassan Yaseen",
-      "published": "Mon, 19 Oct 2026 06:14:52 +0000",
+      "title": "Your API Timed Out. Did the Payment Still Go Through?",
+      "url": "https://dev.to/robertadam987_/your-api-timed-out-did-the-payment-still-go-through-4ed0",
+      "summary": "A customer clicks Pay . The screen keeps loading. Then an error appears: “Request timed out. Please try again.” They click again. Now there are two requests—and potentially two charges. Disabling the button helps with accidental clicks. But what happens when the network fails, t…",
+      "author": "Robert Adamson",
+      "published": "Tue, 20 Oct 2026 06:11:30 +0000",
       "tags": [
-        "security",
-        "supabase",
-        "openai",
-        "webdev"
+        "webdev",
+        "backend",
+        "programming",
+        "beginners"
       ]
     },
     {
-      "id": "906bb6a45ba6",
+      "id": "a1a8f5c95ba1",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Vue 3.6: When a Watcher Throws, Your Other Watchers Stall",
-      "url": "https://dev.to/parsajiravand/vue-36-when-a-watcher-throws-your-other-watchers-stall-25ge",
-      "summary": "Two watchers, same ref , nothing to do with each other. One of them has a bug and throws. The other one — which has no bug at all — just stops updating. Not forever. It comes back to life the next time some completely unrelated ref changes somewhere else in your app. If you've e…",
+      "title": "Next.js 16.3 Instant Navigations: How Partial Prefetching Works",
+      "url": "https://dev.to/parsajiravand/nextjs-163-instant-navigations-how-partial-prefetching-works-5a6h",
+      "summary": "You add a <Suspense> boundary around the slow part of a page, ship it, and client-side navigations into that route still show a blank screen for a beat before anything renders. The boundary is real. It works on the first load. It does nothing on a click. This is written against …",
       "author": "Parsa Jiravand",
-      "published": "Mon, 19 Oct 2026 06:10:58 +0000",
+      "published": "Tue, 20 Oct 2026 06:10:59 +0000",
       "tags": [
-        "vue",
-        "javascript",
+        "nextjs",
+        "webdev",
         "tutorial",
+        "javascript"
+      ]
+    },
+    {
+      "id": "c1df75a8920d",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "I fixed my Google Sheets AI automation by stopping it from pretending to be a CRM",
+      "url": "https://dev.to/lars_winstand/i-fixed-my-google-sheets-ai-automation-by-stopping-it-from-pretending-to-be-a-crm-4990",
+      "summary": "I knew the spreadsheet was cooked when somebody added a column named last_followup_status_v2_final . That was the moment it stopped being a Google Sheet and started becoming a hostage situation. The original workflow was fine: Google Form submits a row Google Sheets stores it AI…",
+      "author": "Lars Winstand",
+      "published": "Tue, 20 Oct 2026 06:10:32 +0000",
+      "tags": [
+        "googlesheets",
+        "automation",
+        "ai",
         "webdev"
       ]
     },
     {
-      "id": "ad4122bb0c29",
+      "id": "2eba66be3b4d",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Your 'Expand All' Button Is Quietly Causing Layout Thrashing",
-      "url": "https://dev.to/parsajiravand/your-expand-all-button-is-quietly-causing-layout-thrashing-2lpj",
-      "summary": "You click \"Expand all\" on a settings page or an FAQ list, and for a moment, nothing happens. Not nothing-nothing — the click registered, the network tab is quiet, there's no spinner. The page is just... stuck, for a beat, before every row snaps open at once. Nobody wrote a slow …",
+      "title": "Stop Formatting Currency With Regex. `Intl.NumberFormat` Does It.",
+      "url": "https://dev.to/parsajiravand/stop-formatting-currency-with-regex-intlnumberformat-does-it-220b",
+      "summary": "Open any finance dashboard's test suite and there's a decent chance you'll find a function like this, usually written once, two years ago, by someone who is no longer on the team: function formatMoney ( amount ) { return ' $ ' + amount . toFixed ( 2 ). replace ( / \\B(?=(\\d{3}) +…",
       "author": "Parsa Jiravand",
-      "published": "Mon, 19 Oct 2026 06:10:27 +0000",
+      "published": "Tue, 20 Oct 2026 06:10:28 +0000",
       "tags": [
         "javascript",
-        "performance",
         "webdev",
-        "browser"
+        "typescript",
+        "programming"
       ]
     },
     {
-      "id": "3a94a3efbc4d",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Writing C for the Web in 2026 Isn't Insane. It Might Be the Future",
-      "url": "https://dev.to/james_anderson_h/writing-c-for-the-web-in-2026-isnt-insane-it-might-be-the-future-529c",
-      "summary": "Someone shipped a modern, commercial web product — user accounts, Stripe payments, a search dashboard, transactional emails — written entirely in C , served over CGI , the technology we all quietly agreed died somewhere around 2004. Your first instinct is probably to laugh. Or t…",
-      "author": "James Anderson",
-      "published": "Mon, 19 Oct 2026 06:08:31 +0000",
-      "tags": [
-        "webdev",
-        "c",
-        "architecture",
-        "discuss"
-      ]
-    },
-    {
-      "id": "9ce6e0f4cb27",
+      "id": "3831997f5aa4",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Ancient Cappadocian language",
-      "url": "https://en.wikipedia.org/wiki/Ancient_Cappadocian_language",
-      "summary": "The ancient Cappadocian language is an unattested language once spoken in antiquity in Cappadocia, a historical region of central Anatolia in modern-day Turkey. There are no known texts written in Cappadocian, although classical Greek writers identified Cappadocian as distinct f…",
+      "title": "London Monster",
+      "url": "https://en.wikipedia.org/wiki/London_Monster",
+      "summary": "The London Monster was the name given to an attacker of women in London between 1788 and 1790. Renwick Williams, a Welsh maker of artificial flowers, was arrested for the attacks in June 1790, given two trials and sent to Newgate Prison for six years. The Monster's modus operand…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "8ec001383bac",
+      "id": "7604d8c4829b",
       "category": "news",
       "source": "BBC 世界",
-      "title": "France's government under pressure after weekend of widespread violence",
-      "url": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo?at_medium=RSS&at_campaign=rss",
-      "summary": "Political tension grips France after rioting marred protests over the cost of living and struggling public services, Katya Adler writes.",
-      "published": "Mon, 19 Oct 2026 04:16:46 GMT",
+      "title": "Curfew imposed in parts of central Paris and other cities after rioting across France",
+      "url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss",
+      "summary": "The country's interior minister admits that police \"lost control\" in some cities following a weekend of riots.",
+      "published": "Mon, 19 Oct 2026 21:14:53 GMT",
       "tags": []
     },
     {
-      "id": "ec0c1d0c4c6c",
+      "id": "a47baae252f4",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Funding shortages force World Food Programme to cut aid to Gaza",
-      "url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss",
-      "summary": "The number of people helped by the UN agency in the Palestinian territory will drop by about a third - from 1.6 million to 1.1 million.",
-      "published": "Mon, 19 Oct 2026 06:00:18 GMT",
+      "title": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Serhii Beskrestnov says there has not been enough time to warn people about incoming missile attacks. The White House said there had been no changes to intelligence sharing.",
+      "published": "Mon, 19 Oct 2026 20:49:00 GMT",
       "tags": []
     },
     {
-      "id": "dbaffab862f4",
+      "id": "26da7bffb335",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Inside the shadowy world of anti-Putin sabotage from within Russia",
-      "url": "https://www.bbc.co.uk/news/articles/c6pwgzkj8zzgo?at_medium=RSS&at_campaign=rss",
-      "summary": "Two men tell of the work they say they have been doing to support Ukrainian intelligence during the war.",
-      "published": "Mon, 19 Oct 2026 00:06:25 GMT",
+      "title": "Seventh day of violent clashes between Albanian protesters and police",
+      "url": "https://www.bbc.co.uk/news/articles/cmy4xjlpqgd3o?at_medium=RSS&at_campaign=rss",
+      "summary": "Almost 300 people have been injured, more than half of them police, as violent anti-government demonstrations show no sign of easing.",
+      "published": "Tue, 20 Oct 2026 02:45:05 GMT",
       "tags": []
     },
     {
-      "id": "455fc0cf2128",
+      "id": "6ed17c07556e",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Major fire at Canada military base leaves four dead, dozens injured",
-      "url": "https://www.bbc.co.uk/news/articles/cxj0ly1m3q81o?at_medium=RSS&at_campaign=rss",
-      "summary": "Prime Minister Carney said military and emergency crews fought the flames throughout the night in \"some of the worst conditions imaginable\".",
-      "published": "Sun, 18 Oct 2026 23:06:09 GMT",
+      "title": "Canadian tourist found guilty of animal cruelty after stealing Las Vegas flamingo from enclosure",
+      "url": "https://www.bbc.co.uk/news/articles/cq398rjewd1jo?at_medium=RSS&at_campaign=rss",
+      "summary": "The man testified that he snatched Peachy from its enclosure at the Flamingo hotel and casino after drinking 30 to 40 beers, but did not mean any harm.",
+      "published": "Tue, 20 Oct 2026 03:10:39 GMT",
       "tags": []
     },
     {
-      "id": "c82b8eb2cf96",
+      "id": "bc26a53f6a05",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Anthropic gives outside AI watchdog “employee-like” access",
-      "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
-      "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
-      "author": "Cristina Criddle, Financial Times",
-      "published": "Sun, 18 Oct 2026 16:25:19 +0000",
+      "title": "Pennsylvania issues alert on congenital measles—something US hasn't seen for decades",
+      "url": "https://arstechnica.com/health/2026/10/pennsylvania-issues-alert-on-congenital-measles-something-us-hasnt-seen-for-decades/",
+      "summary": "Congenital measles can be fatal, and survivors require monitoring for years.",
+      "author": "Beth Mole",
+      "published": "Mon, 19 Oct 2026 22:44:26 +0000",
       "tags": [
-        "AI",
-        "AI agents",
-        "AI oversight",
-        "Anthropic"
+        "Health",
+        "congenital",
+        "measles",
+        "Pennsylvania"
       ]
     },
     {
-      "id": "acbf29a736c2",
+      "id": "fe83ce01af3a",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Science says your boss should talk less in meetings",
-      "url": "https://arstechnica.com/science/2026/10/science-says-your-boss-should-talk-less-in-meetings/",
-      "summary": "Research suggests listening more while talking less. Killing aimless meetings can help, too.",
-      "author": "Lesley Evans Ogden, Knowable Magazine",
-      "published": "Sat, 17 Oct 2026 11:15:11 +0000",
+      "title": "Russian spacecraft maneuvers in \"extreme proximity\" to satellite used by Ukraine",
+      "url": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/",
+      "summary": "\"Kosmos 2612 closed from hundreds of kilometers away to extreme proximity to ICEYE-X36.\"",
+      "author": "Stephen Clark",
+      "published": "Mon, 19 Oct 2026 20:54:17 +0000",
       "tags": [
         "Science",
-        "meetings",
-        "productivity",
-        "Social science"
+        "Space",
+        "anti-satellite tests",
+        "iceye"
       ]
     },
     {
-      "id": "8bef9ae3cc55",
+      "id": "71a28de11a06",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Why BioWare's Neverwinter Nights still has thousands of active players",
-      "url": "https://arstechnica.com/gaming/2026/10/why-biowares-neverwinter-nights-still-has-thousands-of-active-players/",
-      "summary": "The single-player is just OK, but according to the players, that doesn't matter.",
-      "author": "Samuel Axon",
-      "published": "Sat, 17 Oct 2026 11:00:21 +0000",
+      "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
+      "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+      "summary": "US fears Saudi government will help ex-OpenAI engineer flee spying charges.",
+      "author": "Ashley Belanger",
+      "published": "Mon, 19 Oct 2026 20:21:53 +0000",
       "tags": [
-        "Gaming",
-        "Shopping",
-        "Bioware",
-        "C:\\ArsGames"
+        "AI",
+        "Policy",
+        "Artificial Intelligence",
+        "espionage"
       ]
     },
     {
-      "id": "2d63366bf522",
+      "id": "b69895462d0b",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
-      "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
-      "summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
-      "author": "Quentin Fottrell",
-      "published": "Sun, 18 Oct 2026 17:00:00 GMT",
+      "title": "Blood clots are ‘incredibly common,’ even for pro athletes like Jalen Hurts. Here’s what to know.",
+      "url": "https://www.marketwatch.com/story/blood-clots-are-incredibly-common-even-for-pro-athletes-like-jalen-hurts-heres-what-to-know-e20071ef?mod=mw_rss_topstories",
+      "summary": "Research has found that it can take more than six months for professional athletes to return to play after being treated for a deep-vein thrombosis or pulmonary embolism.",
+      "author": "Jaimy Lee",
+      "published": "Mon, 19 Oct 2026 21:58:00 GMT",
       "tags": []
     },
     {
-      "id": "a8be9d22dcfc",
+      "id": "a22594a33610",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
-      "url": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
-      "summary": "”I earn $110,000 a year.”",
-      "author": "Quentin Fottrell",
-      "published": "Sun, 18 Oct 2026 16:15:00 GMT",
+      "title": "When should you dump your target-date funds?",
+      "url": "https://www.marketwatch.com/story/when-should-you-dump-your-target-date-funds-18082148?mod=mw_rss_topstories",
+      "summary": "Target-date funds aren’t necessarily built to handle many of the decisions retirees face.",
+      "author": "Jessica Hall",
+      "published": "Mon, 19 Oct 2026 21:37:00 GMT",
       "tags": []
     },
     {
-      "id": "daef34140f71",
+      "id": "da1ef6ccfeae",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "My sister moved in with our mother, 78, and says she deserves the $925,000 family home. Is she right?",
-      "url": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
-      "summary": "“The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”",
-      "author": "Quentin Fottrell",
-      "published": "Sun, 18 Oct 2026 16:00:00 GMT",
+      "title": "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors",
+      "url": "https://www.marketwatch.com/story/credit-markets-have-entered-uncharted-territory-as-the-riskiest-junk-bonds-send-a-warning-to-investors-816a05d5?mod=mw_rss_topstories",
+      "summary": "Credit markets are sending unusually mixed messages to investors right now, and it’s making some people nervous.",
+      "author": "Christine Idzelis",
+      "published": "Mon, 19 Oct 2026 21:36:00 GMT",
       "tags": []
     }
   ],
