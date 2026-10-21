@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "items": [
     {
       "id": "5565a81df603",
       "platform": "youtube",
       "videoId": "LWxX6vvHfrc",
-      "title": "Gemini 4 Argon Really Surprised Me",
+      "title": "Gemini 4 Argon Is Not What I Expected",
       "channel": "Two Minute Papers",
       "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
       "thumb": "https://i1.ytimg.com/vi/LWxX6vvHfrc/hqdefault.jpg",
@@ -65,6 +65,28 @@
       "url": "https://www.youtube.com/watch?v=sY_U3-ih4Bs",
       "thumb": "https://i4.ytimg.com/vi/sY_U3-ih4Bs/hqdefault.jpg",
       "published": "2022-05-05",
+      "category": "引擎"
+    },
+    {
+      "id": "74d5969623e3",
+      "platform": "bilibili",
+      "videoId": "BV1BTnxzKEVv",
+      "title": "2025.9月编程语言排行榜 C++、C、JAVA亚军之争异常激烈 Perl的火爆与人工智能无关",
+      "channel": "原子之音",
+      "url": "https://www.bilibili.com/video/BV1BTnxzKEVv",
+      "thumb": "https://i0.hdslb.com/bfs/archive/57a35f617d5a79a0ce357179e98382a0c2786185.jpg",
+      "published": "2025-09-26",
+      "category": "引擎"
+    },
+    {
+      "id": "20c78ca36141",
+      "platform": "bilibili",
+      "videoId": "BV1TXWVzZEx4",
+      "title": "虚幻中的C++: 输入系统(Input与Enhanced Input)",
+      "channel": "原子之音",
+      "url": "https://www.bilibili.com/video/BV1TXWVzZEx4",
+      "thumb": "https://i0.hdslb.com/bfs/archive/56b88c2f99c47fd48d8dd518d296fa8697902d72.jpg",
+      "published": "2025-09-20",
       "category": "引擎"
     },
     {
@@ -134,26 +156,15 @@
       "category": "金融"
     },
     {
-      "id": "c9fc725b1017",
-      "platform": "bilibili",
-      "videoId": "BV1FCps68EGf",
-      "title": "史上最大现金收购案 富二代如何正确拼爹",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV1FCps68EGf",
-      "thumb": "https://i0.hdslb.com/bfs/archive/0a9baee1364519b7f04c7c303d5fb81fd19b0f6f.jpg",
-      "published": "2026-10-09",
-      "category": "金融"
-    },
-    {
-      "id": "09f26dc16757",
-      "platform": "bilibili",
-      "videoId": "BV1ssac6oEL3",
-      "title": "国产医疗设备，怎么样了？",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV1ssac6oEL3",
-      "thumb": "https://i0.hdslb.com/bfs/archive/6920ec9dbfe2032e21d9f2b0375bca002aabf89a.jpg",
-      "published": "2026-09-26",
-      "category": "金融"
+      "id": "648ad9a945c0",
+      "platform": "youtube",
+      "videoId": "9Q9WAe_aqPs",
+      "title": "Is the Electoral College Broken?: Crash Course US Government #5",
+      "channel": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=9Q9WAe_aqPs",
+      "thumb": "https://i2.ytimg.com/vi/9Q9WAe_aqPs/hqdefault.jpg",
+      "published": "2026-10-20",
+      "category": "历史"
     },
     {
       "id": "00c608895b4c",
@@ -164,17 +175,6 @@
       "url": "https://www.youtube.com/watch?v=9-JFgpMIb_I",
       "thumb": "https://i2.ytimg.com/vi/9-JFgpMIb_I/hqdefault.jpg",
       "published": "2026-10-15",
-      "category": "历史"
-    },
-    {
-      "id": "bc1f724074e2",
-      "platform": "youtube",
-      "videoId": "xsxcuVjn3NA",
-      "title": "Why Don’t More People Vote?: Crash Course US Government #4",
-      "channel": "CrashCourse",
-      "url": "https://www.youtube.com/watch?v=xsxcuVjn3NA",
-      "thumb": "https://i1.ytimg.com/vi/xsxcuVjn3NA/hqdefault.jpg",
-      "published": "2026-10-13",
       "category": "历史"
     },
     {
@@ -200,25 +200,25 @@
       "category": "历史"
     },
     {
-      "id": "f0caabbd3ccf",
+      "id": "029086e5f1f9",
       "platform": "youtube",
-      "videoId": "KHimUkNBDiQ",
-      "title": "What are your favourite famous sites? 🎡 | Improve your listening with Real Easy English",
+      "videoId": "AC_1dVQq-jA",
+      "title": "Talk about landmarks in English 🏛🎡 #englishpodcast  #bbclearningenglish  #podcast #learnenglish",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=KHimUkNBDiQ",
-      "thumb": "https://i4.ytimg.com/vi/KHimUkNBDiQ/hqdefault.jpg",
-      "published": "2026-10-19",
+      "url": "https://www.youtube.com/shorts/AC_1dVQq-jA",
+      "thumb": "https://i2.ytimg.com/vi/AC_1dVQq-jA/hqdefault.jpg",
+      "published": "2026-10-20",
       "category": "英语"
     },
     {
-      "id": "42a8edae70fd",
+      "id": "8953e278979e",
       "platform": "youtube",
-      "videoId": "Cyh_lCLozdI",
-      "title": "🇺🇸 American English or 🇬🇧 British English: vocabulary #shorts #vocabulary",
+      "videoId": "Z5sjzG4ZF_w",
+      "title": "👄George's travel hot spots | Pronunciation Shadowing",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/shorts/Cyh_lCLozdI",
-      "thumb": "https://i4.ytimg.com/vi/Cyh_lCLozdI/hqdefault.jpg",
-      "published": "2026-10-16",
+      "url": "https://www.youtube.com/watch?v=Z5sjzG4ZF_w",
+      "thumb": "https://i3.ytimg.com/vi/Z5sjzG4ZF_w/hqdefault.jpg",
+      "published": "2026-10-20",
       "category": "英语"
     },
     {
@@ -247,19 +247,18 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
+    "Bilibili 512313464: code=-352 风控校验失败",
     "图形学 · 512313464: 0 条",
     "引擎 · @TheCherno: 2 条",
-    "Bilibili 437860379: code=-352 风控校验失败",
-    "引擎 · 437860379: 0 条",
+    "引擎 · 437860379: 2 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
     "CS · 1567748478: 0 条",
     "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 2 条",
-    "金融 · 520819684: 2 条",
+    "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
-    "Bilibili 11646119: code=-352 风控校验失败",
     "历史 · 11646119: 0 条",
     "Bilibili 23947287: code=-352 风控校验失败",
     "历史 · 23947287: 0 条",
