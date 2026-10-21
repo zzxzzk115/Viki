@@ -1,303 +1,303 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "items": [
     {
-      "id": "1e60d2bc9000",
+      "id": "8a8bc1c07779",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Stone Forest",
-      "url": "https://simple.wikipedia.org/wiki/Stone_Forest",
-      "summary": "Stone Forest (Shilin) is a remarkable region of limestone columns. It is in Yunnan Province, China. Two parts of the site, the Naigu Stone Forest and Suogeyi Village are UNESCO World Heritage Sites. They are part of the South China Karst. The site is classified as a AAAAA-class …",
+      "title": "Lahore Resolution",
+      "url": "https://simple.wikipedia.org/wiki/Lahore_Resolution",
+      "summary": "The Lahore Resolution, commonly known as the Pakistan Resolution was a political resolution, or statement drafted between 22nd to 23 rd March 1940, by the 25-member Working Committee of the All-India Muslim League, and then formally adopted by the Muslim League membership at its…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "3a29da2451e0",
+      "id": "1339f8458944",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Mohammad Alizadeh (footballer)",
-      "url": "https://simple.wikipedia.org/wiki/Mohammad_Alizadeh_(footballer)",
-      "summary": "Mohammad Alizadeh is an Iranian professional football player. He plays as a winger or midfielder for Pars Jonoubi Jam in the Iranian leagues.",
+      "title": "Thailand",
+      "url": "https://simple.wikipedia.org/wiki/Thailand",
+      "summary": "Thailand, officially the Kingdom of Thailand ), is a country in Southeast Asia. Its neighbours are Laos, Cambodia, Malaysia, and Myanmar. Its name was Siam until June 1939 and between 1945 and May 11 1949. The word Thai (ไทย) comes from the ethnic group in the center of Thailand.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "8e87036d11b5",
+      "id": "e7bdc4707706",
       "category": "tech",
       "source": "Hacker News",
-      "title": "OpenBSD 8.0",
-      "url": "https://www.openbsd.org/80.html",
+      "title": "The Future of CSS",
+      "url": "https://www.joshwcomeau.com/css/interop-2027/",
       "summary": "",
-      "author": "privong",
+      "author": "soheilpro",
+      "published": "2026-10-21",
+      "tags": [
+        "▲ 180"
+      ]
+    },
+    {
+      "id": "3e2f34074954",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Show HN: SimCity, but with Permits",
+      "url": "https://permit.petercai.com/",
+      "summary": "",
+      "author": "pcai",
       "published": "2026-10-20",
       "tags": [
-        "▲ 159"
+        "▲ 689"
       ]
     },
     {
-      "id": "efa8c4c666c6",
+      "id": "e1c84590a5b9",
       "category": "tech",
       "source": "Hacker News",
-      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
-      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "title": "Alibaba hikes DeepSeek V4 Flash 0731 output prices by 230%",
+      "url": "https://www.stork.ai/newsletter/2026-10-20-alibaba-quietly-tripled-deepseek-prices#lead",
       "summary": "",
-      "author": "ds",
-      "published": "2026-10-19",
+      "author": "GloVin",
+      "published": "2026-10-21",
       "tags": [
-        "▲ 235"
+        "▲ 10"
       ]
     },
     {
-      "id": "e4980aa15f21",
+      "id": "8b33aa5b0d4c",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Show HN: Death Plan Switch, a self-hosted dead man's switch for solo devs",
-      "url": "https://deathplanswitch.com/",
-      "summary": "Hi HN, I'm Peter Bishop and I've been working in graphics and web tech for over 25yrs. I've recently launched Death Plan Switch to solve a major problem in my succession plan. What if I go missing or die? The right people are told and my business can continue to operate for my c…",
-      "author": "romeo19361",
+      "title": "In Hilbert space, all things are quantumly possible",
+      "url": "https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/",
+      "summary": "",
+      "author": "unprovable",
+      "published": "2026-10-21",
+      "tags": [
+        "▲ 60"
+      ]
+    },
+    {
+      "id": "5f2037864b2f",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Feds suspect ransom negotiator ran ShinyHunters extortion site",
+      "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+      "summary": "",
+      "author": "Bender",
       "published": "2026-10-20",
       "tags": [
-        "▲ 22"
+        "▲ 161"
       ]
     },
     {
-      "id": "98f4bf4049cf",
+      "id": "c38194d9a934",
       "category": "tech",
       "source": "Hacker News",
-      "title": "MiniMax M3.1 Flash",
-      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "title": "Four Years with Decker",
+      "url": "https://beyondloom.com/blog/fouryearsdecker.html",
       "summary": "",
-      "author": "jtg",
-      "published": "2026-10-19",
-      "tags": [
-        "▲ 431"
-      ]
-    },
-    {
-      "id": "d2d456617f7c",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "France's supermarket fridges were vulnerable online for months",
-      "url": "https://ipinfo.io/blog/france-fridges-hack",
-      "summary": "Related: Hackers activate automatic defrosting in supermarket fridges across Europe - https://news.ycombinator.com/item?id=50055304 - Oct 2026 (1007 comments)",
-      "author": "emot",
+      "author": "ibobev",
       "published": "2026-10-20",
       "tags": [
-        "▲ 101"
+        "▲ 17"
       ]
     },
     {
-      "id": "c5d69ce6a750",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Go will reject certificate chains containing eight distrusted SPKIs",
-      "url": "https://github.com/golang/go/issues/82345",
-      "summary": "",
-      "author": "mendym",
-      "published": "2026-10-20",
-      "tags": [
-        "▲ 46"
-      ]
-    },
-    {
-      "id": "26939a1aea2c",
+      "id": "e05ed45c322a",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Your API Timed Out. Did the Payment Still Go Through?",
-      "url": "https://dev.to/robertadam987_/your-api-timed-out-did-the-payment-still-go-through-4ed0",
-      "summary": "A customer clicks Pay . The screen keeps loading. Then an error appears: “Request timed out. Please try again.” They click again. Now there are two requests—and potentially two charges. Disabling the button helps with accidental clicks. But what happens when the network fails, t…",
-      "author": "Robert Adamson",
-      "published": "Tue, 20 Oct 2026 06:11:30 +0000",
+      "title": "Vibe Coding Bugs vs. Preetest: the 5 bugs AI builders leave behind, from our own 36/100 report",
+      "url": "https://dev.to/preetest/vibe-coding-bugs-vs-preetest-the-5-bugs-ai-builders-leave-behind-from-our-own-36100-report-m7i",
+      "summary": "Disclosure first: I'm on the team behind Preetest , an AI website-testing platform built by Yamama Software. Every number and every bug below comes from Preetest reports on Yamama Software's own apps, most of which were themselves built with AI coding agents. Our own apps scanne…",
+      "author": "Preetest Team",
+      "published": "Wed, 21 Oct 2026 06:07:41 +0000",
       "tags": [
         "webdev",
-        "backend",
-        "programming",
-        "beginners"
-      ]
-    },
-    {
-      "id": "a1a8f5c95ba1",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Next.js 16.3 Instant Navigations: How Partial Prefetching Works",
-      "url": "https://dev.to/parsajiravand/nextjs-163-instant-navigations-how-partial-prefetching-works-5a6h",
-      "summary": "You add a <Suspense> boundary around the slow part of a page, ship it, and client-side navigations into that route still show a blank screen for a beat before anything renders. The boundary is real. It works on the first load. It does nothing on a click. This is written against …",
-      "author": "Parsa Jiravand",
-      "published": "Tue, 20 Oct 2026 06:10:59 +0000",
-      "tags": [
-        "nextjs",
-        "webdev",
-        "tutorial",
-        "javascript"
-      ]
-    },
-    {
-      "id": "c1df75a8920d",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "I fixed my Google Sheets AI automation by stopping it from pretending to be a CRM",
-      "url": "https://dev.to/lars_winstand/i-fixed-my-google-sheets-ai-automation-by-stopping-it-from-pretending-to-be-a-crm-4990",
-      "summary": "I knew the spreadsheet was cooked when somebody added a column named last_followup_status_v2_final . That was the moment it stopped being a Google Sheet and started becoming a hostage situation. The original workflow was fine: Google Form submits a row Google Sheets stores it AI…",
-      "author": "Lars Winstand",
-      "published": "Tue, 20 Oct 2026 06:10:32 +0000",
-      "tags": [
-        "googlesheets",
-        "automation",
         "ai",
+        "testing",
+        "vibecoding"
+      ]
+    },
+    {
+      "id": "b3b4bf22820b",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "TypeScript `StrictPropertyInitialization` in Real Codebases: Patterns That Pass the Compiler Without Lying",
+      "url": "https://dev.to/jsmanifest/typescript-strictpropertyinitialization-in-real-codebases-patterns-that-pass-the-compiler-2e85",
+      "summary": "TypeScript strictPropertyInitialization in Real Codebases: Patterns That Pass the Compiler Without Lying This article was written with the assistance of AI, under human supervision and review. TypeScript's strictPropertyInitialization flag catches a specific class of bug: class …",
+      "author": "jsmanifest",
+      "published": "Wed, 21 Oct 2026 06:06:52 +0000",
+      "tags": [
+        "typescript",
+        "javascript",
+        "webdev",
+        "react"
+      ]
+    },
+    {
+      "id": "127093dc09b5",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Editors Choice - Business Marketplace for Companies & Professionals",
+      "url": "https://dev.to/simon_peterson_91d942e4ea/editors-choice-business-marketplace-for-companies-professionals-3mp7",
+      "summary": "Search, discover, and compare businesses through Editorchoice. Business owners can list their companies to attract qualified customers and build credibility.",
+      "author": "Simon Peterson",
+      "published": "Wed, 21 Oct 2026 06:04:54 +0000",
+      "tags": [
+        "seo",
+        "marketing",
+        "product",
         "webdev"
       ]
     },
     {
-      "id": "2eba66be3b4d",
+      "id": "0c854b1c051b",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Stop Formatting Currency With Regex. `Intl.NumberFormat` Does It.",
-      "url": "https://dev.to/parsajiravand/stop-formatting-currency-with-regex-intlnumberformat-does-it-220b",
-      "summary": "Open any finance dashboard's test suite and there's a decent chance you'll find a function like this, usually written once, two years ago, by someone who is no longer on the team: function formatMoney ( amount ) { return ' $ ' + amount . toFixed ( 2 ). replace ( / \\B(?=(\\d{3}) +…",
-      "author": "Parsa Jiravand",
-      "published": "Tue, 20 Oct 2026 06:10:28 +0000",
+      "title": "I measured what Safari actually gives your web page on iPhone Duo",
+      "url": "https://dev.to/tyoukyou23/i-measured-what-safari-actually-gives-your-web-page-on-iphone-duo-8jp",
+      "summary": "iPhone Duo ships on October 23. Most \"is my site ready?\" guides quote viewport sizes worked out from the spec sheet — screen pixels divided by three: 466 × 678 folded, 626 × 890 or 890 × 626 unfolded. That isn't what your page gets. I opened a probe page in Safari on the iPhone …",
+      "author": "tyoukyou23",
+      "published": "Wed, 21 Oct 2026 06:02:49 +0000",
       "tags": [
-        "javascript",
         "webdev",
-        "typescript",
-        "programming"
+        "css",
+        "ios",
+        "react"
       ]
     },
     {
-      "id": "3831997f5aa4",
+      "id": "674fc56615b4",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "London Monster",
-      "url": "https://en.wikipedia.org/wiki/London_Monster",
-      "summary": "The London Monster was the name given to an attacker of women in London between 1788 and 1790. Renwick Williams, a Welsh maker of artificial flowers, was arrested for the attacks in June 1790, given two trials and sent to Newgate Prison for six years. The Monster's modus operand…",
+      "title": "Hongwu Emperor",
+      "url": "https://en.wikipedia.org/wiki/Hongwu_Emperor",
+      "summary": "The Hongwu Emperor, personal name Zhu Yuanzhang, was the founding emperor of the Ming dynasty of China, reigning from 1368 to 1398.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "7604d8c4829b",
+      "id": "0f70e7615542",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Curfew imposed in parts of central Paris and other cities after rioting across France",
-      "url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss",
-      "summary": "The country's interior minister admits that police \"lost control\" in some cities following a weekend of riots.",
-      "published": "Mon, 19 Oct 2026 21:14:53 GMT",
+      "title": "US envoy to meet Putin in Russia as Zelensky says intelligence sharing 'works now'",
+      "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+      "summary": "Ukraine had accused the US of withholding key intelligence - a claim rejected as \"scandalous\" by Washington.",
+      "published": "Wed, 21 Oct 2026 03:59:18 GMT",
       "tags": []
     },
     {
-      "id": "a47baae252f4",
+      "id": "e59d4d5cb311",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss",
-      "summary": "Serhii Beskrestnov says there has not been enough time to warn people about incoming missile attacks. The White House said there had been no changes to intelligence sharing.",
-      "published": "Mon, 19 Oct 2026 20:49:00 GMT",
+      "title": "France is divided over who to blame for weekend riots and what to learn from them",
+      "url": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o?at_medium=RSS&at_campaign=rss",
+      "summary": "In France and beyond there is widespread disagreement over what led to some of the worst unrest seen in French cities in modern history.",
+      "published": "Wed, 21 Oct 2026 01:22:51 GMT",
       "tags": []
     },
     {
-      "id": "26da7bffb335",
+      "id": "b17a25d8c48a",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Seventh day of violent clashes between Albanian protesters and police",
-      "url": "https://www.bbc.co.uk/news/articles/cmy4xjlpqgd3o?at_medium=RSS&at_campaign=rss",
-      "summary": "Almost 300 people have been injured, more than half of them police, as violent anti-government demonstrations show no sign of easing.",
-      "published": "Tue, 20 Oct 2026 02:45:05 GMT",
+      "title": "Elon Musk considering Tesla-SpaceX merger",
+      "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
+      "published": "Wed, 21 Oct 2026 05:48:46 GMT",
       "tags": []
     },
     {
-      "id": "6ed17c07556e",
+      "id": "5809f4efee9b",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Canadian tourist found guilty of animal cruelty after stealing Las Vegas flamingo from enclosure",
-      "url": "https://www.bbc.co.uk/news/articles/cq398rjewd1jo?at_medium=RSS&at_campaign=rss",
-      "summary": "The man testified that he snatched Peachy from its enclosure at the Flamingo hotel and casino after drinking 30 to 40 beers, but did not mean any harm.",
-      "published": "Tue, 20 Oct 2026 03:10:39 GMT",
+      "title": "Pakistan arrests man hunted by US over $126m postage fraud case",
+      "url": "https://www.bbc.co.uk/news/articles/ckdd8m1z1z3yo?at_medium=RSS&at_campaign=rss",
+      "summary": "Faheem Akram allegedly sold more than 5 million fake postage labels for a fixed price of $2 a piece.",
+      "published": "Wed, 21 Oct 2026 05:46:33 GMT",
       "tags": []
     },
     {
-      "id": "bc26a53f6a05",
+      "id": "cd066e93db9f",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Pennsylvania issues alert on congenital measles—something US hasn't seen for decades",
-      "url": "https://arstechnica.com/health/2026/10/pennsylvania-issues-alert-on-congenital-measles-something-us-hasnt-seen-for-decades/",
-      "summary": "Congenital measles can be fatal, and survivors require monitoring for years.",
+      "title": "PHP warns it plans to release 2 emergency patches imminently",
+      "url": "https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/",
+      "summary": "Unconfirmed report claims PHP2Shell exploit remotely executes code on PHP sites.",
+      "author": "Dan Goodin",
+      "published": "Wed, 21 Oct 2026 02:12:18 +0000",
+      "tags": [
+        "Biz & IT",
+        "Security",
+        "exploits",
+        "patches"
+      ]
+    },
+    {
+      "id": "ed05f4b9715a",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says",
+      "url": "https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/",
+      "summary": "\"I do think there's a lot of merit to combining the companies.\"",
+      "author": "Eric Berger",
+      "published": "Tue, 20 Oct 2026 22:04:54 +0000",
+      "tags": [
+        "Cars",
+        "Space",
+        "Elon Musk",
+        "merger"
+      ]
+    },
+    {
+      "id": "4bbccc72fb25",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Cops raid office of RFK Jr. allies planning “unethical” vaccine trial on babies",
+      "url": "https://arstechnica.com/health/2026/10/cops-raid-office-of-rfk-jr-allies-planning-unethical-vaccine-trial-on-babies/",
+      "summary": "Guinea-Bissau police said hepatitis B vaccine doses were taken as part of an investigation.",
       "author": "Beth Mole",
-      "published": "Mon, 19 Oct 2026 22:44:26 +0000",
+      "published": "Tue, 20 Oct 2026 21:44:34 +0000",
       "tags": [
         "Health",
-        "congenital",
-        "measles",
-        "Pennsylvania"
+        "Guinae-Bissau",
+        "hepatitis B",
+        "robert f kennedy jr"
       ]
     },
     {
-      "id": "fe83ce01af3a",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Russian spacecraft maneuvers in \"extreme proximity\" to satellite used by Ukraine",
-      "url": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/",
-      "summary": "\"Kosmos 2612 closed from hundreds of kilometers away to extreme proximity to ICEYE-X36.\"",
-      "author": "Stephen Clark",
-      "published": "Mon, 19 Oct 2026 20:54:17 +0000",
-      "tags": [
-        "Science",
-        "Space",
-        "anti-satellite tests",
-        "iceye"
-      ]
-    },
-    {
-      "id": "71a28de11a06",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
-      "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
-      "summary": "US fears Saudi government will help ex-OpenAI engineer flee spying charges.",
-      "author": "Ashley Belanger",
-      "published": "Mon, 19 Oct 2026 20:21:53 +0000",
-      "tags": [
-        "AI",
-        "Policy",
-        "Artificial Intelligence",
-        "espionage"
-      ]
-    },
-    {
-      "id": "b69895462d0b",
+      "id": "464d99041f9b",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Blood clots are ‘incredibly common,’ even for pro athletes like Jalen Hurts. Here’s what to know.",
-      "url": "https://www.marketwatch.com/story/blood-clots-are-incredibly-common-even-for-pro-athletes-like-jalen-hurts-heres-what-to-know-e20071ef?mod=mw_rss_topstories",
-      "summary": "Research has found that it can take more than six months for professional athletes to return to play after being treated for a deep-vein thrombosis or pulmonary embolism.",
-      "author": "Jaimy Lee",
-      "published": "Mon, 19 Oct 2026 21:58:00 GMT",
+      "title": "Bull markets tend to peak with a whimper, not a bang — but a 15% correction for the S&P 500 may be next",
+      "url": "https://www.marketwatch.com/story/bull-markets-tend-to-peak-with-a-whimper-not-a-bang-but-a-15-correction-for-the-s-p-500-may-be-next-dab40e2c?mod=mw_rss_topstories",
+      "summary": "Unlike bear-market bottoms, which typically end with a spasm of despair as traders throw in the towel, bull-market tops are far more gradual and less dramatic.",
+      "author": "Mark Hulbert",
+      "published": "Wed, 21 Oct 2026 00:24:00 GMT",
       "tags": []
     },
     {
-      "id": "a22594a33610",
+      "id": "56068b281c74",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "When should you dump your target-date funds?",
-      "url": "https://www.marketwatch.com/story/when-should-you-dump-your-target-date-funds-18082148?mod=mw_rss_topstories",
-      "summary": "Target-date funds aren’t necessarily built to handle many of the decisions retirees face.",
-      "author": "Jessica Hall",
-      "published": "Mon, 19 Oct 2026 21:37:00 GMT",
+      "title": "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally",
+      "url": "https://www.marketwatch.com/story/super-micros-stock-soars-after-surprise-update-with-dell-and-hpe-shares-joining-the-rally-1837a69f?mod=mw_rss_topstories",
+      "summary": "Super Micro unexpectedly disclosed that its revenue and profitability could be much stronger than originally anticipated.",
+      "author": "Emily Bary",
+      "published": "Wed, 21 Oct 2026 00:15:00 GMT",
       "tags": []
     },
     {
-      "id": "da1ef6ccfeae",
+      "id": "de1e69419e81",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors",
-      "url": "https://www.marketwatch.com/story/credit-markets-have-entered-uncharted-territory-as-the-riskiest-junk-bonds-send-a-warning-to-investors-816a05d5?mod=mw_rss_topstories",
-      "summary": "Credit markets are sending unusually mixed messages to investors right now, and it’s making some people nervous.",
-      "author": "Christine Idzelis",
-      "published": "Mon, 19 Oct 2026 21:36:00 GMT",
+      "title": "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger",
+      "url": "https://www.marketwatch.com/story/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger-8cc44fc2?mod=mw_rss_topstories",
+      "summary": "Special committees at both companies are assessing merger prospects but a combination is no sure thing, Musk says.",
+      "author": "William Gavin",
+      "published": "Wed, 21 Oct 2026 00:14:00 GMT",
       "tags": []
     }
   ],
