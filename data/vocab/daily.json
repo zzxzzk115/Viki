@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-21",
-  "word": "predominant",
-  "ipa": "prɪˈdɒm.ɪ.nənt",
-  "ipaUs": "prɪˈdɑː.mə.nənt",
+  "date": "2026-10-22",
+  "word": "preliminary",
+  "ipa": "prɪˈlɪm.ɪ.n",
+  "ipaUs": "prɪˈlɪm.ə.ner.i",
   "pos": "adjective",
-  "definition": "more noticeable or important, or larger in number, than others",
-  "definitionZh": "占主导地位的",
-  "example": "Research forms the predominant part of my job.",
-  "exampleZh": "研究是我工作中的重要部分。",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/ukp/ukpre/ukpredi013.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/p/pre/predo/predominant.mp3"
+  "definition": "coming before a more important action or event, especially introducing or preparing for it",
+  "definitionZh": "初步的",
+  "example": "Preliminary results show that the vaccine is effective, but this has to be confirmed by further medical trials.",
+  "exampleZh": "初查结果表明疫苗是有效的，但这有待于进一步医学实验的证实。",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/ukp/ukpre/ukprefe019.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/p/pre/preli/preliminary.mp3"
 }

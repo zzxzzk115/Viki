@@ -1,303 +1,301 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "items": [
     {
-      "id": "8a8bc1c07779",
+      "id": "c8431677d5c9",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Lahore Resolution",
-      "url": "https://simple.wikipedia.org/wiki/Lahore_Resolution",
-      "summary": "The Lahore Resolution, commonly known as the Pakistan Resolution was a political resolution, or statement drafted between 22nd to 23 rd March 1940, by the 25-member Working Committee of the All-India Muslim League, and then formally adopted by the Muslim League membership at its…",
+      "title": "Earwax",
+      "url": "https://simple.wikipedia.org/wiki/Earwax",
+      "summary": "Earwax is a sticky substance like wax produced by the ears. Most of the time it is yellow, orange, brown, black or gold. The earwax sticks to dust and other foreign matter that gets in the ears and keeps the ears clean. It also protects the skin of ear and protects the ear from …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "1339f8458944",
+      "id": "c59ef1934d12",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Thailand",
-      "url": "https://simple.wikipedia.org/wiki/Thailand",
-      "summary": "Thailand, officially the Kingdom of Thailand ), is a country in Southeast Asia. Its neighbours are Laos, Cambodia, Malaysia, and Myanmar. Its name was Siam until June 1939 and between 1945 and May 11 1949. The word Thai (ไทย) comes from the ethnic group in the center of Thailand.",
+      "title": "John A. Ruthven",
+      "url": "https://simple.wikipedia.org/wiki/John_A._Ruthven",
+      "summary": "John Aldrich Ruthven was an American artist best known for his paintings of wildlife. He was born in Cincinnati, Ohio. In 2004, President George W. Bush honored him with the National Medal of Arts. Ruthven's wildlife paintings are on display at many museums including the Smithso…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "e7bdc4707706",
+      "id": "4f2612832168",
       "category": "tech",
       "source": "Hacker News",
-      "title": "The Future of CSS",
-      "url": "https://www.joshwcomeau.com/css/interop-2027/",
+      "title": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
+      "url": "https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf",
       "summary": "",
-      "author": "soheilpro",
+      "author": "craigcitro",
+      "published": "2026-10-22",
+      "tags": [
+        "▲ 119"
+      ]
+    },
+    {
+      "id": "eaed7b6a72f1",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "There isn't an easy exploit for this PHP vulnerability",
+      "url": "https://eliastaylor.com/noexploit/",
+      "summary": "",
+      "author": "zkldi",
       "published": "2026-10-21",
       "tags": [
-        "▲ 180"
+        "▲ 384"
       ]
     },
     {
-      "id": "3e2f34074954",
+      "id": "7561119c6ee1",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Show HN: SimCity, but with Permits",
-      "url": "https://permit.petercai.com/",
+      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
       "summary": "",
-      "author": "pcai",
-      "published": "2026-10-20",
+      "author": "alphax314",
+      "published": "2026-10-22",
       "tags": [
-        "▲ 689"
+        "▲ 55"
       ]
     },
     {
-      "id": "e1c84590a5b9",
+      "id": "5699ea0146a9",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Alibaba hikes DeepSeek V4 Flash 0731 output prices by 230%",
-      "url": "https://www.stork.ai/newsletter/2026-10-20-alibaba-quietly-tripled-deepseek-prices#lead",
+      "title": "Security Disclosure",
+      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
       "summary": "",
-      "author": "GloVin",
+      "author": "passenger",
       "published": "2026-10-21",
       "tags": [
-        "▲ 10"
+        "▲ 401"
       ]
     },
     {
-      "id": "8b33aa5b0d4c",
+      "id": "9c3fe8f01f4a",
       "category": "tech",
       "source": "Hacker News",
-      "title": "In Hilbert space, all things are quantumly possible",
-      "url": "https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/",
+      "title": "GitLab critical patch release",
+      "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
       "summary": "",
-      "author": "unprovable",
+      "author": "artooro",
       "published": "2026-10-21",
       "tags": [
-        "▲ 60"
+        "▲ 300"
       ]
     },
     {
-      "id": "5f2037864b2f",
+      "id": "ca78317f24e4",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Feds suspect ransom negotiator ran ShinyHunters extortion site",
-      "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+      "title": "Rust Style Guide",
+      "url": "https://google.github.io/styleguide/rustguide.html",
       "summary": "",
-      "author": "Bender",
-      "published": "2026-10-20",
+      "author": "kaycebasques",
+      "published": "2026-10-21",
       "tags": [
-        "▲ 161"
+        "▲ 268"
       ]
     },
     {
-      "id": "c38194d9a934",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Four Years with Decker",
-      "url": "https://beyondloom.com/blog/fouryearsdecker.html",
-      "summary": "",
-      "author": "ibobev",
-      "published": "2026-10-20",
-      "tags": [
-        "▲ 17"
-      ]
-    },
-    {
-      "id": "e05ed45c322a",
+      "id": "e24c2fbeef4c",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Vibe Coding Bugs vs. Preetest: the 5 bugs AI builders leave behind, from our own 36/100 report",
-      "url": "https://dev.to/preetest/vibe-coding-bugs-vs-preetest-the-5-bugs-ai-builders-leave-behind-from-our-own-36100-report-m7i",
-      "summary": "Disclosure first: I'm on the team behind Preetest , an AI website-testing platform built by Yamama Software. Every number and every bug below comes from Preetest reports on Yamama Software's own apps, most of which were themselves built with AI coding agents. Our own apps scanne…",
-      "author": "Preetest Team",
-      "published": "Wed, 21 Oct 2026 06:07:41 +0000",
-      "tags": [
-        "webdev",
-        "ai",
-        "testing",
-        "vibecoding"
-      ]
-    },
-    {
-      "id": "b3b4bf22820b",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "TypeScript `StrictPropertyInitialization` in Real Codebases: Patterns That Pass the Compiler Without Lying",
-      "url": "https://dev.to/jsmanifest/typescript-strictpropertyinitialization-in-real-codebases-patterns-that-pass-the-compiler-2e85",
-      "summary": "TypeScript strictPropertyInitialization in Real Codebases: Patterns That Pass the Compiler Without Lying This article was written with the assistance of AI, under human supervision and review. TypeScript's strictPropertyInitialization flag catches a specific class of bug: class …",
+      "title": "Claude Code Token Usage Introspection in 2026: Reading the `usage` Field and Building Your Own Cost Dashboard",
+      "url": "https://dev.to/jsmanifest/claude-code-token-usage-introspection-in-2026-reading-the-usage-field-and-building-your-own-cost-4ago",
+      "summary": "Claude Code Token Usage Introspection in 2026: Reading the usage Field and Building Your Own Cost Dashboard This article was written with the assistance of AI, under human supervision and review. Engineering teams that shipped Claude Code to production in early 2026 discovered t…",
       "author": "jsmanifest",
-      "published": "Wed, 21 Oct 2026 06:06:52 +0000",
+      "published": "Thu, 22 Oct 2026 06:08:14 +0000",
       "tags": [
         "typescript",
+        "ai",
         "javascript",
-        "webdev",
-        "react"
-      ]
-    },
-    {
-      "id": "127093dc09b5",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Editors Choice - Business Marketplace for Companies & Professionals",
-      "url": "https://dev.to/simon_peterson_91d942e4ea/editors-choice-business-marketplace-for-companies-professionals-3mp7",
-      "summary": "Search, discover, and compare businesses through Editorchoice. Business owners can list their companies to attract qualified customers and build credibility.",
-      "author": "Simon Peterson",
-      "published": "Wed, 21 Oct 2026 06:04:54 +0000",
-      "tags": [
-        "seo",
-        "marketing",
-        "product",
         "webdev"
       ]
     },
     {
-      "id": "0c854b1c051b",
+      "id": "6b62abd6538f",
       "category": "tech",
       "source": "DEV Community",
-      "title": "I measured what Safari actually gives your web page on iPhone Duo",
-      "url": "https://dev.to/tyoukyou23/i-measured-what-safari-actually-gives-your-web-page-on-iphone-duo-8jp",
-      "summary": "iPhone Duo ships on October 23. Most \"is my site ready?\" guides quote viewport sizes worked out from the spec sheet — screen pixels divided by three: 466 × 678 folded, 626 × 890 or 890 × 626 unfolded. That isn't what your page gets. I opened a probe page in Safari on the iPhone …",
-      "author": "tyoukyou23",
-      "published": "Wed, 21 Oct 2026 06:02:49 +0000",
+      "title": "PHP Website at Risk? Need a Security Fix Within 1 Hour?",
+      "url": "https://dev.to/thefoxlab/php-website-at-risk-need-a-security-fix-within-1-hour-1pj1",
+      "summary": "A critical PHP security issue can put your website and business data at risk. When an urgent vulnerability appears, you need a development partner who understands the importance of acting quickly. With the recent PHP2Shell security alert, businesses running WordPress, Laravel, C…",
+      "author": "Thefoxlab",
+      "published": "Thu, 22 Oct 2026 06:06:22 +0000",
       "tags": [
+        "php",
+        "wordpress",
         "webdev",
-        "css",
-        "ios",
-        "react"
+        "applicationsecurity"
       ]
     },
     {
-      "id": "674fc56615b4",
+      "id": "ff99609f7f96",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Designing a Prompt Contract for a Photo-to-Coloring-Page App",
+      "url": "https://dev.to/gabriel_626f8beaf77c/designing-a-prompt-contract-for-a-photo-to-coloring-page-app-3ph8",
+      "summary": "A photo-to-coloring-page feature sounds like a small image-generation task: send a photo, ask for outlines, and return an image. The more interesting engineering problem is defining what the output is allowed to change. Should a cartoon style add more detail? Should tracing use …",
+      "author": "孙鹤岩（Gabriel）",
+      "published": "Thu, 22 Oct 2026 06:02:12 +0000",
+      "tags": [
+        "ai",
+        "webdev",
+        "typescript"
+      ]
+    },
+    {
+      "id": "9f7b87fdaed6",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "I built a colour-season analysis app as one HTML file (with a live camera \"drape\" mirror)",
+      "url": "https://dev.to/playnightlit/i-built-a-colour-season-analysis-app-as-one-html-file-with-a-live-camera-drape-mirror-n2g",
+      "summary": "Colour analysis is huge on TikTok right now: people hold coloured fabric (\"drapes\") under their face to see whether they're a Soft Summer, a Deep Winter, and so on. The paid apps in this space do very well, but most of them want an account, an app install, or a selfie uploaded t…",
+      "author": "Jacko (Nightlit)",
+      "published": "Thu, 22 Oct 2026 06:00:43 +0000",
+      "tags": [
+        "webdev",
+        "javascript",
+        "showdev",
+        "pwa"
+      ]
+    },
+    {
+      "id": "83f10819965f",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Hongwu Emperor",
-      "url": "https://en.wikipedia.org/wiki/Hongwu_Emperor",
-      "summary": "The Hongwu Emperor, personal name Zhu Yuanzhang, was the founding emperor of the Ming dynasty of China, reigning from 1368 to 1398.",
+      "title": "1986–87 Gillingham F.C. season",
+      "url": "https://en.wikipedia.org/wiki/1986%E2%80%9387_Gillingham_F.C._season",
+      "summary": "During the 1986–87 English football season, Gillingham F.C. competed in the Football League Third Division. It was the 55th season in which the club competed in the Football League, and the 37th since the club was voted back into the league in 1950. Gillingham began the season s…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "0f70e7615542",
+      "id": "c71dec0cc1c1",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US envoy to meet Putin in Russia as Zelensky says intelligence sharing 'works now'",
-      "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
-      "summary": "Ukraine had accused the US of withholding key intelligence - a claim rejected as \"scandalous\" by Washington.",
-      "published": "Wed, 21 Oct 2026 03:59:18 GMT",
+      "title": "How Arab parties could hold critical balance of power in Israeli election",
+      "url": "https://www.bbc.co.uk/news/articles/cx8dzrp768j8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Disaffection has often driven down turnout among Arab Israelis, but there is a strong push to get rid of the right-wing governing coalition.",
+      "published": "Thu, 22 Oct 2026 05:30:22 GMT",
       "tags": []
     },
     {
-      "id": "e59d4d5cb311",
+      "id": "8a8fa553fff5",
       "category": "news",
       "source": "BBC 世界",
-      "title": "France is divided over who to blame for weekend riots and what to learn from them",
-      "url": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o?at_medium=RSS&at_campaign=rss",
-      "summary": "In France and beyond there is widespread disagreement over what led to some of the worst unrest seen in French cities in modern history.",
-      "published": "Wed, 21 Oct 2026 01:22:51 GMT",
+      "title": "Governments working to identify exposure after global cyber-security warning",
+      "url": "https://www.bbc.co.uk/news/articles/cmx23d0k57d3o?at_medium=RSS&at_campaign=rss",
+      "summary": "Governments and companies are scrambling to protect their websites, as Amazon says it experienced attacks before the warning was made public.",
+      "published": "Thu, 22 Oct 2026 06:05:03 GMT",
       "tags": []
     },
     {
-      "id": "b17a25d8c48a",
+      "id": "c75360ac724b",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Elon Musk considering Tesla-SpaceX merger",
-      "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
-      "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
-      "published": "Wed, 21 Oct 2026 05:48:46 GMT",
+      "title": "What is PHP and why did it spark a global cyber-security scramble?",
+      "url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
+      "summary": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
+      "published": "Thu, 22 Oct 2026 03:48:50 GMT",
       "tags": []
     },
     {
-      "id": "5809f4efee9b",
+      "id": "020c23c2780c",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Pakistan arrests man hunted by US over $126m postage fraud case",
-      "url": "https://www.bbc.co.uk/news/articles/ckdd8m1z1z3yo?at_medium=RSS&at_campaign=rss",
-      "summary": "Faheem Akram allegedly sold more than 5 million fake postage labels for a fixed price of $2 a piece.",
-      "published": "Wed, 21 Oct 2026 05:46:33 GMT",
+      "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+      "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+      "summary": "Moscow says it is \"ready in principle\" to resume peace talks and US President Donald Trump says the world is \"the closest we've been\" to ending the war.",
+      "published": "Wed, 21 Oct 2026 21:27:41 GMT",
       "tags": []
     },
     {
-      "id": "cd066e93db9f",
+      "id": "7edb1a939aec",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "PHP warns it plans to release 2 emergency patches imminently",
-      "url": "https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/",
-      "summary": "Unconfirmed report claims PHP2Shell exploit remotely executes code on PHP sites.",
-      "author": "Dan Goodin",
-      "published": "Wed, 21 Oct 2026 02:12:18 +0000",
+      "title": "FCC chair warns media not to run the \"fake polls\" Trump keeps complaining about",
+      "url": "https://arstechnica.com/tech-policy/2026/10/fcc-chair-warns-media-not-to-run-the-fake-polls-trump-keeps-complaining-about/",
+      "summary": "Ex-FCC chairs say Brendan Carr aims to scare broadcasters into self-censorship.",
+      "author": "Jon Brodkin",
+      "published": "Wed, 21 Oct 2026 22:17:50 +0000",
+      "tags": [
+        "Policy",
+        "brendan carr",
+        "fake polls",
+        "FCC"
+      ]
+    },
+    {
+      "id": "56259d9e9e19",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you already bought",
+      "url": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/",
+      "summary": "Time-based a la carte charges come on top of the purchase price for the games themselves.",
+      "author": "Kyle Orland",
+      "published": "Wed, 21 Oct 2026 22:06:07 +0000",
+      "tags": [
+        "Gaming",
+        "cloud gaming",
+        "microsoft",
+        "streaming"
+      ]
+    },
+    {
+      "id": "3b4c4293f21f",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Enterprises keep buying software upgrades that IT thinks will make things worse",
+      "url": "https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/",
+      "summary": "Survey of 2,018 IT heads at big firms points to a lack of leverage.",
+      "author": "Scharon Harding",
+      "published": "Wed, 21 Oct 2026 21:48:52 +0000",
       "tags": [
         "Biz & IT",
-        "Security",
-        "exploits",
-        "patches"
+        "IT",
+        "software"
       ]
     },
     {
-      "id": "ed05f4b9715a",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says",
-      "url": "https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/",
-      "summary": "\"I do think there's a lot of merit to combining the companies.\"",
-      "author": "Eric Berger",
-      "published": "Tue, 20 Oct 2026 22:04:54 +0000",
-      "tags": [
-        "Cars",
-        "Space",
-        "Elon Musk",
-        "merger"
-      ]
-    },
-    {
-      "id": "4bbccc72fb25",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Cops raid office of RFK Jr. allies planning “unethical” vaccine trial on babies",
-      "url": "https://arstechnica.com/health/2026/10/cops-raid-office-of-rfk-jr-allies-planning-unethical-vaccine-trial-on-babies/",
-      "summary": "Guinea-Bissau police said hepatitis B vaccine doses were taken as part of an investigation.",
-      "author": "Beth Mole",
-      "published": "Tue, 20 Oct 2026 21:44:34 +0000",
-      "tags": [
-        "Health",
-        "Guinae-Bissau",
-        "hepatitis B",
-        "robert f kennedy jr"
-      ]
-    },
-    {
-      "id": "464d99041f9b",
+      "id": "4e3ea013b333",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Bull markets tend to peak with a whimper, not a bang — but a 15% correction for the S&P 500 may be next",
-      "url": "https://www.marketwatch.com/story/bull-markets-tend-to-peak-with-a-whimper-not-a-bang-but-a-15-correction-for-the-s-p-500-may-be-next-dab40e2c?mod=mw_rss_topstories",
-      "summary": "Unlike bear-market bottoms, which typically end with a spasm of despair as traders throw in the towel, bull-market tops are far more gradual and less dramatic.",
-      "author": "Mark Hulbert",
-      "published": "Wed, 21 Oct 2026 00:24:00 GMT",
+      "title": "My father-in-law, 81, sold his $75,000 home and paid off his daughter’s $50,000 debt. What happens to him now?",
+      "url": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
+      "summary": "“Nothing has been set aside for his needs.”",
+      "author": "Quentin Fottrell",
+      "published": "Thu, 22 Oct 2026 03:15:00 GMT",
       "tags": []
     },
     {
-      "id": "56068b281c74",
+      "id": "f5ebcbbd1955",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally",
-      "url": "https://www.marketwatch.com/story/super-micros-stock-soars-after-surprise-update-with-dell-and-hpe-shares-joining-the-rally-1837a69f?mod=mw_rss_topstories",
-      "summary": "Super Micro unexpectedly disclosed that its revenue and profitability could be much stronger than originally anticipated.",
-      "author": "Emily Bary",
-      "published": "Wed, 21 Oct 2026 00:15:00 GMT",
+      "title": "The Social Security Administration wants more babies signed up for ‘Trump accounts.’ But there’s still a catch.",
+      "url": "https://www.marketwatch.com/story/the-social-security-administration-wants-more-babies-signed-up-for-trump-accounts-but-theres-still-a-catch-4096f16e?mod=mw_rss_topstories",
+      "summary": "Social Security is looking to reverse an initially slow uptake on Trump accounts",
+      "author": "Jessica Hall",
+      "published": "Thu, 22 Oct 2026 01:50:00 GMT",
       "tags": []
     },
     {
-      "id": "de1e69419e81",
+      "id": "ae1058f1d92c",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger",
-      "url": "https://www.marketwatch.com/story/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger-8cc44fc2?mod=mw_rss_topstories",
-      "summary": "Special committees at both companies are assessing merger prospects but a combination is no sure thing, Musk says.",
-      "author": "William Gavin",
-      "published": "Wed, 21 Oct 2026 00:14:00 GMT",
+      "title": "This wonky maneuver kept Mark Zuckerberg from fleeing a California billionaire tax",
+      "url": "https://www.marketwatch.com/story/this-wonky-maneuver-kept-mark-zuckerberg-from-fleeing-a-california-billionaire-tax-1de34562?mod=mw_rss_topstories",
+      "summary": "Facing a potentially giant tax bill that could threaten his voting power, Zuckerberg was days away from listing his Palo Alto home when Meta agreed to create a new class of stock.",
+      "author": "Christine Ji",
+      "published": "Thu, 22 Oct 2026 00:48:00 GMT",
       "tags": []
     }
   ],
