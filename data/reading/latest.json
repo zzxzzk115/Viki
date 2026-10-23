@@ -1,301 +1,303 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "items": [
     {
-      "id": "c8431677d5c9",
+      "id": "c847ee7d37ce",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Earwax",
-      "url": "https://simple.wikipedia.org/wiki/Earwax",
-      "summary": "Earwax is a sticky substance like wax produced by the ears. Most of the time it is yellow, orange, brown, black or gold. The earwax sticks to dust and other foreign matter that gets in the ears and keeps the ears clean. It also protects the skin of ear and protects the ear from …",
+      "title": "Ladislav Krejčí (footballer, born 1992)",
+      "url": "https://simple.wikipedia.org/wiki/Ladislav_Krej%C4%8D%C3%AD_(footballer%2C_born_1992)",
+      "summary": "Ladislav Krejčí is a Czech professional footballer. He plays as a left-winger for Teplice. He played for the Czech Republic national team between 2012 and 2019, where he scored five goals in 41 matches, and was part of their team at the 2016 UEFA European Championship.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "c59ef1934d12",
+      "id": "d59c35c31a2d",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "John A. Ruthven",
-      "url": "https://simple.wikipedia.org/wiki/John_A._Ruthven",
-      "summary": "John Aldrich Ruthven was an American artist best known for his paintings of wildlife. He was born in Cincinnati, Ohio. In 2004, President George W. Bush honored him with the National Medal of Arts. Ruthven's wildlife paintings are on display at many museums including the Smithso…",
+      "title": "Raisin Bombers",
+      "url": "https://simple.wikipedia.org/wiki/Raisin_Bombers",
+      "summary": "Raisin Bombers, also known as Candy Bombers in American English, was the nickname given to airplanes flown by American command pilot Gail Seymour \"Hal\" Halvorsen that dropped candy for German children.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "4f2612832168",
+      "id": "46a214f27141",
       "category": "tech",
       "source": "Hacker News",
-      "title": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
-      "url": "https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf",
+      "title": "Docker is weird",
+      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
       "summary": "",
-      "author": "craigcitro",
+      "author": "psxuaw",
       "published": "2026-10-22",
       "tags": [
-        "▲ 119"
+        "▲ 313"
       ]
     },
     {
-      "id": "eaed7b6a72f1",
+      "id": "1360bd8eb5a8",
       "category": "tech",
       "source": "Hacker News",
-      "title": "There isn't an easy exploit for this PHP vulnerability",
-      "url": "https://eliastaylor.com/noexploit/",
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "url": "https://www.anthropic.com/research/formal-verification",
       "summary": "",
-      "author": "zkldi",
-      "published": "2026-10-21",
-      "tags": [
-        "▲ 384"
-      ]
-    },
-    {
-      "id": "7561119c6ee1",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-      "summary": "",
-      "author": "alphax314",
+      "author": "johnbender",
       "published": "2026-10-22",
       "tags": [
-        "▲ 55"
+        "▲ 248"
       ]
     },
     {
-      "id": "5699ea0146a9",
+      "id": "385d3a65ec1c",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Security Disclosure",
-      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+      "title": "This I Believe (1952)",
+      "url": "https://www.awakin.org/v2/read/view.php?tid=468",
       "summary": "",
-      "author": "passenger",
-      "published": "2026-10-21",
+      "author": "ctoth",
+      "published": "2026-10-23",
       "tags": [
-        "▲ 401"
+        "▲ 39"
       ]
     },
     {
-      "id": "9c3fe8f01f4a",
+      "id": "4dcdb9557827",
       "category": "tech",
       "source": "Hacker News",
-      "title": "GitLab critical patch release",
-      "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "url": "https://github.com/NVIDIA/OpenShell",
       "summary": "",
-      "author": "artooro",
-      "published": "2026-10-21",
+      "author": "niemandhier",
+      "published": "2026-10-22",
       "tags": [
-        "▲ 300"
+        "▲ 354"
       ]
     },
     {
-      "id": "ca78317f24e4",
+      "id": "36b89264973f",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Rust Style Guide",
-      "url": "https://google.github.io/styleguide/rustguide.html",
+      "title": "Every AI model has the same \"controversial\" take on humans",
+      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
       "summary": "",
-      "author": "kaycebasques",
-      "published": "2026-10-21",
+      "author": "rakannimer",
+      "published": "2026-10-22",
       "tags": [
-        "▲ 268"
+        "▲ 326"
       ]
     },
     {
-      "id": "e24c2fbeef4c",
+      "id": "562092bac9df",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "The foolishness of \"natural language programming\" (1978)",
+      "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
+      "summary": "",
+      "author": "xiaoyu2006",
+      "published": "2026-10-23",
+      "tags": [
+        "▲ 97"
+      ]
+    },
+    {
+      "id": "5ccc034417da",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Claude Code Token Usage Introspection in 2026: Reading the `usage` Field and Building Your Own Cost Dashboard",
-      "url": "https://dev.to/jsmanifest/claude-code-token-usage-introspection-in-2026-reading-the-usage-field-and-building-your-own-cost-4ago",
-      "summary": "Claude Code Token Usage Introspection in 2026: Reading the usage Field and Building Your Own Cost Dashboard This article was written with the assistance of AI, under human supervision and review. Engineering teams that shipped Claude Code to production in early 2026 discovered t…",
-      "author": "jsmanifest",
-      "published": "Thu, 22 Oct 2026 06:08:14 +0000",
+      "title": "Rebar Estimation And Detailing Services In USA: A Guide to Complex Reinforcement Projects",
+      "url": "https://dev.to/kryptosrebar/rebar-estimation-and-detailing-services-in-usa-a-guide-to-complex-reinforcement-projects-16ji",
+      "summary": "Introduction Reinforced concrete structures require more than strong materials and sound structural design. Every reinforcement bar must be identified, measured, detailed, and coordinated with the requirements of the structure. When projects involve irregular geometries, congest…",
+      "author": "Kryptos Rebar",
+      "published": "Fri, 23 Oct 2026 06:02:30 +0000",
       "tags": [
-        "typescript",
+        "webdev",
         "ai",
-        "javascript",
-        "webdev"
+        "programming",
+        "productivity"
       ]
     },
     {
-      "id": "6b62abd6538f",
+      "id": "7ed80fcff897",
       "category": "tech",
       "source": "DEV Community",
-      "title": "PHP Website at Risk? Need a Security Fix Within 1 Hour?",
-      "url": "https://dev.to/thefoxlab/php-website-at-risk-need-a-security-fix-within-1-hour-1pj1",
-      "summary": "A critical PHP security issue can put your website and business data at risk. When an urgent vulnerability appears, you need a development partner who understands the importance of acting quickly. With the recent PHP2Shell security alert, businesses running WordPress, Laravel, C…",
-      "author": "Thefoxlab",
-      "published": "Thu, 22 Oct 2026 06:06:22 +0000",
+      "title": "Affiliate Marketing vs. D2C Subscriptions: The Digital Nomad's Frontier",
+      "url": "https://dev.to/kevin_jang_200b10826b3a5d/affiliate-marketing-vs-d2c-subscriptions-the-digital-nomads-frontier-22m",
+      "summary": "Affiliate Marketing vs. D2C Subscriptions: The Digital Nomad's Frontier Burnout isn't a buzzword; it's a reality. As a solo tech entrepreneur, isolation and relentless workloads are your default setting. Here's the brutal truth: in our quest to outpace the competition, staying u…",
+      "author": "Kevin Jang",
+      "published": "Fri, 23 Oct 2026 06:00:35 +0000",
       "tags": [
-        "php",
-        "wordpress",
+        "saas",
         "webdev",
-        "applicationsecurity"
+        "productivity",
+        "startup"
       ]
     },
     {
-      "id": "ff99609f7f96",
+      "id": "beefd5a4de4c",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Designing a Prompt Contract for a Photo-to-Coloring-Page App",
-      "url": "https://dev.to/gabriel_626f8beaf77c/designing-a-prompt-contract-for-a-photo-to-coloring-page-app-3ph8",
-      "summary": "A photo-to-coloring-page feature sounds like a small image-generation task: send a photo, ask for outlines, and return an image. The more interesting engineering problem is defining what the output is allowed to change. Should a cartoon style add more detail? Should tracing use …",
-      "author": "孙鹤岩（Gabriel）",
-      "published": "Thu, 22 Oct 2026 06:02:12 +0000",
+      "title": "Pourquoi le texte de ton PDF ressort en lettres séparées",
+      "url": "https://dev.to/amineaffif/pourquoi-le-texte-de-ton-pdf-ressort-en-lettres-separees-1j4g",
+      "summary": "J'ai généré un PDF depuis du HTML avec Chrome en ligne de commande. À l'œil, il était parfait. Mais quand j'en ai extrait le texte avec un outil basé sur pdf.js, mes titres de section sortaient comme ça : E X P É R I E N C E STA C K Avec pdftotext (poppler), les mêmes mots sorta…",
+      "author": "Amine Affif",
+      "published": "Fri, 23 Oct 2026 06:00:00 +0000",
+      "tags": [
+        "pdf",
+        "webdev",
+        "debugging",
+        "javascript"
+      ]
+    },
+    {
+      "id": "cd4770d5ab9f",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Beyond ChatGPT: How Multi-Model AI Platforms Are Changing the Way We Build, Code, and Create",
+      "url": "https://dev.to/allgpt_ai/beyond-chatgpt-how-multi-model-ai-platforms-are-changing-the-way-we-build-code-and-create-11po",
+      "summary": "Liquid syntax error: Tag '{% https://allgpt.com/ AllGPT %}' was not properly terminated with regexp: /\\%\\}/",
+      "author": "AllGPT",
+      "published": "Fri, 23 Oct 2026 05:55:47 +0000",
       "tags": [
         "ai",
         "webdev",
-        "typescript"
+        "productivity",
+        "programming"
       ]
     },
     {
-      "id": "9f7b87fdaed6",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "I built a colour-season analysis app as one HTML file (with a live camera \"drape\" mirror)",
-      "url": "https://dev.to/playnightlit/i-built-a-colour-season-analysis-app-as-one-html-file-with-a-live-camera-drape-mirror-n2g",
-      "summary": "Colour analysis is huge on TikTok right now: people hold coloured fabric (\"drapes\") under their face to see whether they're a Soft Summer, a Deep Winter, and so on. The paid apps in this space do very well, but most of them want an account, an app install, or a selfie uploaded t…",
-      "author": "Jacko (Nightlit)",
-      "published": "Thu, 22 Oct 2026 06:00:43 +0000",
-      "tags": [
-        "webdev",
-        "javascript",
-        "showdev",
-        "pwa"
-      ]
-    },
-    {
-      "id": "83f10819965f",
+      "id": "4ea1f57e8288",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "1986–87 Gillingham F.C. season",
-      "url": "https://en.wikipedia.org/wiki/1986%E2%80%9387_Gillingham_F.C._season",
-      "summary": "During the 1986–87 English football season, Gillingham F.C. competed in the Football League Third Division. It was the 55th season in which the club competed in the Football League, and the 37th since the club was voted back into the league in 1950. Gillingham began the season s…",
+      "title": "Thuggee",
+      "url": "https://en.wikipedia.org/wiki/Thuggee",
+      "summary": "Thuggee was a phenomenon of highway robbery in the Indian subcontinent that saw gangs of Thugs murder and rob travellers, often by strangling. During the British colonial era, thuggee was represented and popularised as a secret pan-Indian fraternity of ritual stranglers with anc…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "c71dec0cc1c1",
+      "id": "550a37e4dbfb",
       "category": "news",
       "source": "BBC 世界",
-      "title": "How Arab parties could hold critical balance of power in Israeli election",
-      "url": "https://www.bbc.co.uk/news/articles/cx8dzrp768j8o?at_medium=RSS&at_campaign=rss",
-      "summary": "Disaffection has often driven down turnout among Arab Israelis, but there is a strong push to get rid of the right-wing governing coalition.",
-      "published": "Thu, 22 Oct 2026 05:30:22 GMT",
+      "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds",
+      "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
+      "summary": "The UN human rights chief Volker Türk says the multiple attacks may amount to war crimes.",
+      "published": "Thu, 22 Oct 2026 23:16:16 GMT",
       "tags": []
     },
     {
-      "id": "8a8fa553fff5",
+      "id": "bc35bf371d86",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Governments working to identify exposure after global cyber-security warning",
-      "url": "https://www.bbc.co.uk/news/articles/cmx23d0k57d3o?at_medium=RSS&at_campaign=rss",
-      "summary": "Governments and companies are scrambling to protect their websites, as Amazon says it experienced attacks before the warning was made public.",
-      "published": "Thu, 22 Oct 2026 06:05:03 GMT",
+      "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
+      "url": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
+      "summary": "The quake hit a mountainous, sparsely-populated area in what China calls the Tibet Autonomous Region.",
+      "published": "Fri, 23 Oct 2026 05:16:37 GMT",
       "tags": []
     },
     {
-      "id": "c75360ac724b",
+      "id": "9c464aa25357",
       "category": "news",
       "source": "BBC 世界",
-      "title": "What is PHP and why did it spark a global cyber-security scramble?",
-      "url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
-      "summary": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
-      "published": "Thu, 22 Oct 2026 03:48:50 GMT",
+      "title": "Trump says Musk has restored access to Ukraine's Starlink network",
+      "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Ukraine relies on Starlink for a range of military uses - its owner Elon Musk has repeatedly denied restricting access.",
+      "published": "Thu, 22 Oct 2026 21:42:39 GMT",
       "tags": []
     },
     {
-      "id": "020c23c2780c",
+      "id": "84738a388b9c",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
-      "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
-      "summary": "Moscow says it is \"ready in principle\" to resume peace talks and US President Donald Trump says the world is \"the closest we've been\" to ending the war.",
-      "published": "Wed, 21 Oct 2026 21:27:41 GMT",
+      "title": "L'Oreal says weight loss drugs are impacting beauty and skincare sales",
+      "url": "https://www.bbc.co.uk/news/articles/cvglwgwpgrlpo?at_medium=RSS&at_campaign=rss",
+      "summary": "The beauty giant's CEO says the use of GLP-1s is \"a very important phenomenon for us\".",
+      "published": "Thu, 22 Oct 2026 22:27:53 GMT",
       "tags": []
     },
     {
-      "id": "7edb1a939aec",
+      "id": "47234b822080",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "FCC chair warns media not to run the \"fake polls\" Trump keeps complaining about",
-      "url": "https://arstechnica.com/tech-policy/2026/10/fcc-chair-warns-media-not-to-run-the-fake-polls-trump-keeps-complaining-about/",
-      "summary": "Ex-FCC chairs say Brendan Carr aims to scare broadcasters into self-censorship.",
-      "author": "Jon Brodkin",
-      "published": "Wed, 21 Oct 2026 22:17:50 +0000",
-      "tags": [
-        "Policy",
-        "brendan carr",
-        "fake polls",
-        "FCC"
-      ]
-    },
-    {
-      "id": "56259d9e9e19",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you already bought",
-      "url": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/",
-      "summary": "Time-based a la carte charges come on top of the purchase price for the games themselves.",
+      "title": "Switch 2 security takes a hit as hackers unlock homebrew access",
+      "url": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
+      "summary": "\"Userland\" exploit relies on integer overflow found in \"SmileBasic\" interpreter.",
       "author": "Kyle Orland",
-      "published": "Wed, 21 Oct 2026 22:06:07 +0000",
+      "published": "Thu, 22 Oct 2026 22:25:33 +0000",
       "tags": [
         "Gaming",
-        "cloud gaming",
-        "microsoft",
-        "streaming"
+        "exploit",
+        "hack",
+        "Nintendo"
       ]
     },
     {
-      "id": "3b4c4293f21f",
+      "id": "9423c8063b2e",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Enterprises keep buying software upgrades that IT thinks will make things worse",
-      "url": "https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/",
-      "summary": "Survey of 2,018 IT heads at big firms points to a lack of leverage.",
-      "author": "Scharon Harding",
-      "published": "Wed, 21 Oct 2026 21:48:52 +0000",
+      "title": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
+      "url": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/",
+      "summary": "Markers released top-line results today after previously reporting the trial succeeded.",
+      "author": "Beth Mole",
+      "published": "Thu, 22 Oct 2026 22:12:19 +0000",
       "tags": [
-        "Biz & IT",
-        "IT",
-        "software"
+        "Health",
+        "cancer",
+        "melanoma",
+        "merck"
       ]
     },
     {
-      "id": "4e3ea013b333",
+      "id": "724bb9eec32d",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Latest estimate for Starship launches required to support a Moon landing? 22.",
+      "url": "https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/",
+      "summary": "\"We need to keep our eyes on numerous required fuelings for the lander.\"",
+      "author": "Eric Berger",
+      "published": "Thu, 22 Oct 2026 21:52:31 +0000",
+      "tags": [
+        "Space",
+        "artemis",
+        "space",
+        "starship"
+      ]
+    },
+    {
+      "id": "53edf89bc9aa",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "My father-in-law, 81, sold his $75,000 home and paid off his daughter’s $50,000 debt. What happens to him now?",
-      "url": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
-      "summary": "“Nothing has been set aside for his needs.”",
+      "title": "My partner of 17 years left me his $1 million home. His children are crying foul. Am I obliged to split it with them?",
+      "url": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
+      "summary": "“I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”",
       "author": "Quentin Fottrell",
-      "published": "Thu, 22 Oct 2026 03:15:00 GMT",
+      "published": "Thu, 22 Oct 2026 23:15:00 GMT",
       "tags": []
     },
     {
-      "id": "f5ebcbbd1955",
+      "id": "1a41f3b5e5df",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "The Social Security Administration wants more babies signed up for ‘Trump accounts.’ But there’s still a catch.",
-      "url": "https://www.marketwatch.com/story/the-social-security-administration-wants-more-babies-signed-up-for-trump-accounts-but-theres-still-a-catch-4096f16e?mod=mw_rss_topstories",
-      "summary": "Social Security is looking to reverse an initially slow uptake on Trump accounts",
-      "author": "Jessica Hall",
-      "published": "Thu, 22 Oct 2026 01:50:00 GMT",
+      "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?",
+      "url": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
+      "summary": "“I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”",
+      "author": "Quentin Fottrell",
+      "published": "Thu, 22 Oct 2026 23:00:00 GMT",
       "tags": []
     },
     {
-      "id": "ae1058f1d92c",
+      "id": "1faf2dc28010",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "This wonky maneuver kept Mark Zuckerberg from fleeing a California billionaire tax",
-      "url": "https://www.marketwatch.com/story/this-wonky-maneuver-kept-mark-zuckerberg-from-fleeing-a-california-billionaire-tax-1de34562?mod=mw_rss_topstories",
-      "summary": "Facing a potentially giant tax bill that could threaten his voting power, Zuckerberg was days away from listing his Palo Alto home when Meta agreed to create a new class of stock.",
-      "author": "Christine Ji",
-      "published": "Thu, 22 Oct 2026 00:48:00 GMT",
+      "title": "CoreWeave set off a wave of anxiety — but Wall Street’s dire prognosis is premature",
+      "url": "https://www.marketwatch.com/story/coreweave-set-off-a-wave-of-anxiety-but-wall-streets-dire-prognosis-is-premature-edc3f5dd?mod=mw_rss_topstories",
+      "summary": "Stop listening to market pundits and start looking at market performance.",
+      "author": "David Weidner",
+      "published": "Thu, 22 Oct 2026 22:54:00 GMT",
       "tags": []
     }
   ],
