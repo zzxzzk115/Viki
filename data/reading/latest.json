@@ -1,149 +1,149 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "items": [
     {
-      "id": "c847ee7d37ce",
+      "id": "1f610c7d0a6a",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Ladislav Krejčí (footballer, born 1992)",
-      "url": "https://simple.wikipedia.org/wiki/Ladislav_Krej%C4%8D%C3%AD_(footballer%2C_born_1992)",
-      "summary": "Ladislav Krejčí is a Czech professional footballer. He plays as a left-winger for Teplice. He played for the Czech Republic national team between 2012 and 2019, where he scored five goals in 41 matches, and was part of their team at the 2016 UEFA European Championship.",
+      "title": "Alternative splicing",
+      "url": "https://simple.wikipedia.org/wiki/Alternative_splicing",
+      "summary": "Alternative splicing allows DNA to code for more than one protein. It varies the exon make-up of the messenger RNA.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "d59c35c31a2d",
+      "id": "d2c25dfeeede",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Raisin Bombers",
-      "url": "https://simple.wikipedia.org/wiki/Raisin_Bombers",
-      "summary": "Raisin Bombers, also known as Candy Bombers in American English, was the nickname given to airplanes flown by American command pilot Gail Seymour \"Hal\" Halvorsen that dropped candy for German children.",
+      "title": "Ben-Hur (1959 movie)",
+      "url": "https://simple.wikipedia.org/wiki/Ben-Hur_(1959_movie)",
+      "summary": "Ben-Hur is a 1959 American religious epic movie directed by William Wyler, produced by Sam Zimbalist, and starring Charlton Heston as the title character. A remake of the 1925 silent movie with a similar title, it was adapted from Lew Wallace's 1880 novel Ben-Hur: A Tale of the …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "46a214f27141",
+      "id": "1fd8476b4493",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Docker is weird",
-      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
-      "summary": "",
-      "author": "psxuaw",
-      "published": "2026-10-22",
-      "tags": [
-        "▲ 313"
-      ]
-    },
-    {
-      "id": "1360bd8eb5a8",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "LLMs are making formal software verification feasible at a much larger scale",
-      "url": "https://www.anthropic.com/research/formal-verification",
-      "summary": "",
-      "author": "johnbender",
-      "published": "2026-10-22",
-      "tags": [
-        "▲ 248"
-      ]
-    },
-    {
-      "id": "385d3a65ec1c",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "This I Believe (1952)",
-      "url": "https://www.awakin.org/v2/read/view.php?tid=468",
-      "summary": "",
-      "author": "ctoth",
+      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "summary": "https://www.kimi.com/code/docs/en/kimi-code/models.html https://artificialanalysis.ai/models/kimi-k3-1-pro https://www.modelcompare.ai/blog/china-open-source-ai",
+      "author": "Jowsey",
       "published": "2026-10-23",
       "tags": [
-        "▲ 39"
+        "▲ 832"
       ]
     },
     {
-      "id": "4dcdb9557827",
+      "id": "d6452a029695",
       "category": "tech",
       "source": "Hacker News",
-      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
-      "url": "https://github.com/NVIDIA/OpenShell",
+      "title": "Twelve years of distributed SQLite",
+      "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
       "summary": "",
-      "author": "niemandhier",
-      "published": "2026-10-22",
+      "author": "otoolep",
+      "published": "2026-10-24",
       "tags": [
-        "▲ 354"
+        "▲ 112"
       ]
     },
     {
-      "id": "36b89264973f",
+      "id": "adb9608fdcbc",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Every AI model has the same \"controversial\" take on humans",
-      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
-      "summary": "",
-      "author": "rakannimer",
-      "published": "2026-10-22",
-      "tags": [
-        "▲ 326"
-      ]
-    },
-    {
-      "id": "562092bac9df",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "The foolishness of \"natural language programming\" (1978)",
-      "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
-      "summary": "",
-      "author": "xiaoyu2006",
+      "title": "Apple Music 404 Not Found",
+      "url": "https://music.apple.com/this-url-doesnt-exist",
+      "summary": "https://www.macrumors.com/2026/10/23/apple-music-has-a-hidde...",
+      "author": "frizlab",
       "published": "2026-10-23",
       "tags": [
-        "▲ 97"
+        "▲ 696"
       ]
     },
     {
-      "id": "5ccc034417da",
+      "id": "937563ab7080",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "How close can pure functional programming get to C?",
+      "url": "https://rtfeldman.com/fp-vs-c",
+      "summary": "",
+      "author": "stmonty",
+      "published": "2026-10-24",
+      "tags": [
+        "▲ 38"
+      ]
+    },
+    {
+      "id": "76226e9df68a",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "url": "https://edjefferson.com/localwiki/",
+      "summary": "",
+      "author": "sohkamyung",
+      "published": "2026-10-22",
+      "tags": [
+        "▲ 1334"
+      ]
+    },
+    {
+      "id": "2ca67924f9fc",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Dessa: Conversation Model trained only on speech",
+      "url": "https://block.xyz/dessa",
+      "summary": "",
+      "author": "dsr12",
+      "published": "2026-10-23",
+      "tags": [
+        "▲ 330"
+      ]
+    },
+    {
+      "id": "1dab1919762b",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Rebar Estimation And Detailing Services In USA: A Guide to Complex Reinforcement Projects",
-      "url": "https://dev.to/kryptosrebar/rebar-estimation-and-detailing-services-in-usa-a-guide-to-complex-reinforcement-projects-16ji",
-      "summary": "Introduction Reinforced concrete structures require more than strong materials and sound structural design. Every reinforcement bar must be identified, measured, detailed, and coordinated with the requirements of the structure. When projects involve irregular geometries, congest…",
-      "author": "Kryptos Rebar",
-      "published": "Fri, 23 Oct 2026 06:02:30 +0000",
+      "title": "19 days, 546 messages, 141 users: building my app by mostly talking to Claude Code",
+      "url": "https://dev.to/taewoo/19-days-546-messages-141-users-building-my-app-by-mostly-talking-to-claude-code-1mgb",
+      "summary": "I make Tabby, a free tab manager for Chrome, Firefox and Edge. This week I shipped version 1.2 and made a \"lock in\" short for TikTok and YouTube in three languages. I barely wrote code for any of it. Mostly I talked to Claude Code in plain Vietnamese (\"this looks ugly\", \"the tex…",
+      "author": "taewoo",
+      "published": "Sat, 24 Oct 2026 06:00:59 +0000",
       "tags": [
-        "webdev",
         "ai",
-        "programming",
-        "productivity"
-      ]
-    },
-    {
-      "id": "7ed80fcff897",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Affiliate Marketing vs. D2C Subscriptions: The Digital Nomad's Frontier",
-      "url": "https://dev.to/kevin_jang_200b10826b3a5d/affiliate-marketing-vs-d2c-subscriptions-the-digital-nomads-frontier-22m",
-      "summary": "Affiliate Marketing vs. D2C Subscriptions: The Digital Nomad's Frontier Burnout isn't a buzzword; it's a reality. As a solo tech entrepreneur, isolation and relentless workloads are your default setting. Here's the brutal truth: in our quest to outpace the competition, staying u…",
-      "author": "Kevin Jang",
-      "published": "Fri, 23 Oct 2026 06:00:35 +0000",
-      "tags": [
-        "saas",
-        "webdev",
         "productivity",
-        "startup"
+        "showdev",
+        "webdev"
       ]
     },
     {
-      "id": "beefd5a4de4c",
+      "id": "1df0be398f8c",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Pourquoi le texte de ton PDF ressort en lettres séparées",
-      "url": "https://dev.to/amineaffif/pourquoi-le-texte-de-ton-pdf-ressort-en-lettres-separees-1j4g",
-      "summary": "J'ai généré un PDF depuis du HTML avec Chrome en ligne de commande. À l'œil, il était parfait. Mais quand j'en ai extrait le texte avec un outil basé sur pdf.js, mes titres de section sortaient comme ça : E X P É R I E N C E STA C K Avec pdftotext (poppler), les mêmes mots sorta…",
+      "title": "Everyone Is Figuring Out AI. Here's What We Know So Far.",
+      "url": "https://dev.to/bilalshahdev/everyone-is-figuring-out-ai-heres-what-we-know-so-far-hil",
+      "summary": "Artificial intelligence is improving faster than most organizations can decide what to do with it. New models arrive, coding agents become more capable, and impressive demos spread across social media. At the same time, many companies are still asking basic questions: Which work…",
+      "author": "Bilal Shah",
+      "published": "Sat, 24 Oct 2026 06:00:00 +0000",
+      "tags": [
+        "ai",
+        "webdev",
+        "programming",
+        "javascript"
+      ]
+    },
+    {
+      "id": "eb73ac1ebcef",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Why your PDF's text comes out as separate letters",
+      "url": "https://dev.to/amineaffif/why-your-pdfs-text-comes-out-as-separate-letters-1hdj",
+      "summary": "I generated a PDF from HTML with Chrome on the command line. To the eye, it was perfect. But when I extracted its text with a pdf.js-based tool, my section headings came out like this: E X P É R I E N C E STA C K With pdftotext (poppler), the same words came out whole. Same file…",
       "author": "Amine Affif",
-      "published": "Fri, 23 Oct 2026 06:00:00 +0000",
+      "published": "Sat, 24 Oct 2026 06:00:00 +0000",
       "tags": [
         "pdf",
         "webdev",
@@ -152,131 +152,118 @@
       ]
     },
     {
-      "id": "cd4770d5ab9f",
+      "id": "5a38b8052528",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Beyond ChatGPT: How Multi-Model AI Platforms Are Changing the Way We Build, Code, and Create",
-      "url": "https://dev.to/allgpt_ai/beyond-chatgpt-how-multi-model-ai-platforms-are-changing-the-way-we-build-code-and-create-11po",
-      "summary": "Liquid syntax error: Tag '{% https://allgpt.com/ AllGPT %}' was not properly terminated with regexp: /\\%\\}/",
-      "author": "AllGPT",
-      "published": "Fri, 23 Oct 2026 05:55:47 +0000",
+      "title": "Every State Now Charges EV Drivers a Yearly Surcharge. I Checked All 50.",
+      "url": "https://dev.to/statefeecalculator/every-state-now-charges-ev-drivers-a-yearly-surcharge-i-checked-all-50-90m",
+      "summary": "Think your EV will cost less than a gas car? Then the first registration renewal arrives. And there's an extra line item you never saw before. It's called an EV surcharge, or an EV registration fee. Dozens of states charge it now, and more join the list every year. It replaces t…",
+      "author": "Niam Hocaine",
+      "published": "Sat, 24 Oct 2026 05:59:16 +0000",
       "tags": [
-        "ai",
+        "showdev",
         "webdev",
-        "productivity",
-        "programming"
+        "fintech"
       ]
     },
     {
-      "id": "4ea1f57e8288",
+      "id": "e3ee20b5c933",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Thuggee",
-      "url": "https://en.wikipedia.org/wiki/Thuggee",
-      "summary": "Thuggee was a phenomenon of highway robbery in the Indian subcontinent that saw gangs of Thugs murder and rob travellers, often by strangling. During the British colonial era, thuggee was represented and popularised as a secret pan-Indian fraternity of ritual stranglers with anc…",
+      "title": "Battle of Schliengen",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Schliengen",
+      "summary": "The Battle of Schliengen took place on 24 October 1796 between the French Army of the Rhine and Moselle and the Austrian army near the village of Schliengen during the War of the First Coalition. The French army was under the command of Jean-Victor Moreau and the Austrian army w…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "550a37e4dbfb",
+      "id": "7ef5328c98db",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds",
-      "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
-      "summary": "The UN human rights chief Volker Türk says the multiple attacks may amount to war crimes.",
-      "published": "Thu, 22 Oct 2026 23:16:16 GMT",
+      "title": "France prepares for day of protest a week after nationwide riots",
+      "url": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
+      "summary": "More than 70,000 police officers are to be deployed over fears protesters will defy restrictions on demonstrations.",
+      "published": "Sat, 24 Oct 2026 04:03:46 GMT",
       "tags": []
     },
     {
-      "id": "bc35bf371d86",
+      "id": "70dec74f838f",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
-      "url": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
-      "summary": "The quake hit a mountainous, sparsely-populated area in what China calls the Tibet Autonomous Region.",
-      "published": "Fri, 23 Oct 2026 05:16:37 GMT",
+      "title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss",
+      "summary": "She was a close family member of the first victim, a man who had travelled from the Democratic Republic of Congo.",
+      "published": "Sat, 24 Oct 2026 00:05:43 GMT",
       "tags": []
     },
     {
-      "id": "9c464aa25357",
+      "id": "3c59e84754ba",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump says Musk has restored access to Ukraine's Starlink network",
-      "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
-      "summary": "Ukraine relies on Starlink for a range of military uses - its owner Elon Musk has repeatedly denied restricting access.",
-      "published": "Thu, 22 Oct 2026 21:42:39 GMT",
+      "title": "Arrest made after fire at Hitler's Eagle's Nest retreat",
+      "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
+      "summary": "Around 200 emergency personnel are deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
+      "published": "Sat, 24 Oct 2026 03:51:25 GMT",
       "tags": []
     },
     {
-      "id": "84738a388b9c",
+      "id": "c4c48ac64982",
       "category": "news",
       "source": "BBC 世界",
-      "title": "L'Oreal says weight loss drugs are impacting beauty and skincare sales",
-      "url": "https://www.bbc.co.uk/news/articles/cvglwgwpgrlpo?at_medium=RSS&at_campaign=rss",
-      "summary": "The beauty giant's CEO says the use of GLP-1s is \"a very important phenomenon for us\".",
-      "published": "Thu, 22 Oct 2026 22:27:53 GMT",
+      "title": "Student movement takes Serbia's Vučić to the wire in neck-and-neck election",
+      "url": "https://www.bbc.co.uk/news/articles/cm1dwz311476o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Student List has emerged from almost two years of anti-corruption protests to form the biggest challenge to Vučić's rule.",
+      "published": "Fri, 23 Oct 2026 23:08:23 GMT",
       "tags": []
     },
     {
-      "id": "47234b822080",
+      "id": "5dac0b35abef",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Switch 2 security takes a hit as hackers unlock homebrew access",
-      "url": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
-      "summary": "\"Userland\" exploit relies on integer overflow found in \"SmileBasic\" interpreter.",
-      "author": "Kyle Orland",
-      "published": "Thu, 22 Oct 2026 22:25:33 +0000",
-      "tags": [
-        "Gaming",
-        "exploit",
-        "hack",
-        "Nintendo"
-      ]
-    },
-    {
-      "id": "9423c8063b2e",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
-      "url": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/",
-      "summary": "Markers released top-line results today after previously reporting the trial succeeded.",
-      "author": "Beth Mole",
-      "published": "Thu, 22 Oct 2026 22:12:19 +0000",
-      "tags": [
-        "Health",
-        "cancer",
-        "melanoma",
-        "merck"
-      ]
-    },
-    {
-      "id": "724bb9eec32d",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Latest estimate for Starship launches required to support a Moon landing? 22.",
-      "url": "https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/",
-      "summary": "\"We need to keep our eyes on numerous required fuelings for the lander.\"",
+      "title": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
+      "url": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
+      "summary": "\"We have the mandate, we have the resources, and the support from our stakeholders.\"",
       "author": "Eric Berger",
-      "published": "Thu, 22 Oct 2026 21:52:31 +0000",
+      "published": "Fri, 23 Oct 2026 22:48:25 +0000",
       "tags": [
         "Space",
-        "artemis",
-        "space",
-        "starship"
+        "blue moon",
+        "NASA",
+        "orion"
       ]
     },
     {
-      "id": "53edf89bc9aa",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "My partner of 17 years left me his $1 million home. His children are crying foul. Am I obliged to split it with them?",
-      "url": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
-      "summary": "“I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”",
-      "author": "Quentin Fottrell",
-      "published": "Thu, 22 Oct 2026 23:15:00 GMT",
-      "tags": []
+      "id": "32c644453d6d",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Hegseth warns prediction market bets warp military judgment, endanger troops",
+      "url": "https://arstechnica.com/tech-policy/2026/10/pentagon-memo-on-prediction-markets-says-insider-bets-put-troops-lives-at-risk/",
+      "summary": "Pentagon memo: Insider trading gives US enemies key intel on military operations.",
+      "author": "Jon Brodkin",
+      "published": "Fri, 23 Oct 2026 20:28:43 +0000",
+      "tags": [
+        "Policy",
+        "Pentagon",
+        "prediction markets"
+      ]
+    },
+    {
+      "id": "3e249e7fc631",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+      "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+      "summary": "Turning on Personal Intelligence gives the company more data for ad targeting.",
+      "author": "Ryan Whitwam",
+      "published": "Fri, 23 Oct 2026 20:19:55 +0000",
+      "tags": [
+        "AI",
+        "Google",
+        "Tech",
+        "advertising"
+      ]
     },
     {
       "id": "1a41f3b5e5df",
@@ -286,18 +273,29 @@
       "url": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
       "summary": "“I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”",
       "author": "Quentin Fottrell",
-      "published": "Thu, 22 Oct 2026 23:00:00 GMT",
+      "published": "Fri, 23 Oct 2026 22:49:00 GMT",
       "tags": []
     },
     {
-      "id": "1faf2dc28010",
+      "id": "a4e91d7cb178",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "CoreWeave set off a wave of anxiety — but Wall Street’s dire prognosis is premature",
-      "url": "https://www.marketwatch.com/story/coreweave-set-off-a-wave-of-anxiety-but-wall-streets-dire-prognosis-is-premature-edc3f5dd?mod=mw_rss_topstories",
-      "summary": "Stop listening to market pundits and start looking at market performance.",
-      "author": "David Weidner",
-      "published": "Thu, 22 Oct 2026 22:54:00 GMT",
+      "title": "Will Anthropic pull off a November IPO? Time is running out to file key paperwork.",
+      "url": "https://www.marketwatch.com/story/will-anthropic-pull-off-a-november-ipo-time-is-running-out-to-file-key-paperwork-52677343?mod=mw_rss_topstories",
+      "summary": "If market pressures keep building, Anthropic “could reasonably decide it is better to stay private and wait for a better opportunity,” one portfolio manager says.",
+      "author": "William Gavin",
+      "published": "Fri, 23 Oct 2026 22:00:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "58a0205a35cc",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn’t work out.",
+      "url": "https://www.marketwatch.com/story/investors-piled-a-record-sum-into-a-leveraged-semiconductor-etf-last-week-things-didnt-work-out-4680b2f3?mod=mw_rss_topstories",
+      "summary": "Traders making bullish bets on chip stocks are getting walloped this month, as renewed fears emerged about investment returns on the buildout of artificial intelligence.",
+      "author": "Christine Idzelis",
+      "published": "Fri, 23 Oct 2026 21:46:00 GMT",
       "tags": []
     }
   ],
