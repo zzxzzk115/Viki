@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "items": [
     {
       "id": "5565a81df603",
@@ -46,28 +46,6 @@
       "category": "图形学"
     },
     {
-      "id": "dc49fc3eddfc",
-      "platform": "bilibili",
-      "videoId": "BV1k2Jy6jEbX",
-      "title": "GAMES Webinar 418-具身智能专题-郝策-迈向通用具身智能：机器人操作与腿足运动中的学习范式",
-      "channel": "GAMES-Webinar",
-      "url": "https://www.bilibili.com/video/BV1k2Jy6jEbX",
-      "thumb": "https://i1.hdslb.com/bfs/archive/9b7da275d7926d6c07f10c37601ff51b9ecb2e35.jpg",
-      "published": "2026-10-15",
-      "category": "图形学"
-    },
-    {
-      "id": "b2c1ea0ea2c5",
-      "platform": "bilibili",
-      "videoId": "BV1P2Jy6EEFo",
-      "title": "GAMES Webinar 418-具身智能专题-汪怡暄-面向机器人策略训练与评估的交互式世界模拟器",
-      "channel": "GAMES-Webinar",
-      "url": "https://www.bilibili.com/video/BV1P2Jy6EEFo",
-      "thumb": "https://i1.hdslb.com/bfs/archive/f4819d4bfae6103b77d6c87bbac800dcbaa43101.jpg",
-      "published": "2026-10-15",
-      "category": "图形学"
-    },
-    {
       "id": "9fa31e74074c",
       "platform": "youtube",
       "videoId": "YRwtopFzRZ0",
@@ -87,6 +65,28 @@
       "url": "https://www.youtube.com/watch?v=sY_U3-ih4Bs",
       "thumb": "https://i4.ytimg.com/vi/sY_U3-ih4Bs/hqdefault.jpg",
       "published": "2022-05-05",
+      "category": "引擎"
+    },
+    {
+      "id": "74d5969623e3",
+      "platform": "bilibili",
+      "videoId": "BV1BTnxzKEVv",
+      "title": "2025.9月编程语言排行榜 C++、C、JAVA亚军之争异常激烈 Perl的火爆与人工智能无关",
+      "channel": "原子之音",
+      "url": "https://www.bilibili.com/video/BV1BTnxzKEVv",
+      "thumb": "https://i0.hdslb.com/bfs/archive/57a35f617d5a79a0ce357179e98382a0c2786185.jpg",
+      "published": "2025-09-26",
+      "category": "引擎"
+    },
+    {
+      "id": "20c78ca36141",
+      "platform": "bilibili",
+      "videoId": "BV1TXWVzZEx4",
+      "title": "虚幻中的C++: 输入系统(Input与Enhanced Input)",
+      "channel": "原子之音",
+      "url": "https://www.bilibili.com/video/BV1TXWVzZEx4",
+      "thumb": "https://i0.hdslb.com/bfs/archive/56b88c2f99c47fd48d8dd518d296fa8697902d72.jpg",
+      "published": "2025-09-20",
       "category": "引擎"
     },
     {
@@ -222,6 +222,61 @@
       "category": "历史"
     },
     {
+      "id": "7ae6d44c47b3",
+      "platform": "bilibili",
+      "videoId": "BV1ydni6AE65",
+      "title": "乾隆·和孝公主：和珅儿媳卖家当，竟有官员敢赖账？【乾隆往事】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1ydni6AE65",
+      "thumb": "https://i2.hdslb.com/bfs/archive/88de2dd64376a5f7704adceb7392592f761c3fdb.jpg",
+      "published": "2026-10-21",
+      "category": "历史"
+    },
+    {
+      "id": "3fe09620e0be",
+      "platform": "bilibili",
+      "videoId": "BV18SJa6ZEKb",
+      "title": "王掞·下半生：一份奏折，为啥让王掞的祖坟，差点儿都没了？【康熙王朝】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV18SJa6ZEKb",
+      "thumb": "https://i0.hdslb.com/bfs/archive/efdd390aa1ad1f2f4f216341a81019046163e6fd.jpg",
+      "published": "2026-10-17",
+      "category": "历史"
+    },
+    {
+      "id": "d6afa35923dd",
+      "platform": "bilibili",
+      "videoId": "BV1Vbnn6iEfG",
+      "title": "法国影响力最大的八卦是什么？【神奇组织56】",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV1Vbnn6iEfG",
+      "thumb": "https://i0.hdslb.com/bfs/archive/39daf0b1339701666c0fe1d787af51b7413e3ac4.jpg",
+      "published": "2026-10-20",
+      "category": "历史"
+    },
+    {
+      "id": "dbb9e84ec1ac",
+      "platform": "bilibili",
+      "videoId": "BV1Cgpd6pEBR",
+      "title": "苏联版“空中监狱”是什么？【神奇组织55】",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV1Cgpd6pEBR",
+      "thumb": "https://i2.hdslb.com/bfs/archive/6b05de9e015c24f9c96e932f58274a2180b9c540.jpg",
+      "published": "2026-10-13",
+      "category": "历史"
+    },
+    {
+      "id": "4484b4226121",
+      "platform": "youtube",
+      "videoId": "3tyG0hkQJ-w",
+      "title": "🤓 Can you say these advanced English phrases before I do?",
+      "channel": "BBC Learning English",
+      "url": "https://www.youtube.com/shorts/3tyG0hkQJ-w",
+      "thumb": "https://i4.ytimg.com/vi/3tyG0hkQJ-w/hqdefault.jpg",
+      "published": "2026-10-23",
+      "category": "英语"
+    },
+    {
       "id": "9e96c84b8c14",
       "platform": "youtube",
       "videoId": "WXKilGiOQy8",
@@ -229,17 +284,6 @@
       "channel": "BBC Learning English",
       "url": "https://www.youtube.com/watch?v=WXKilGiOQy8",
       "thumb": "https://i4.ytimg.com/vi/WXKilGiOQy8/hqdefault.jpg",
-      "published": "2026-10-22",
-      "category": "英语"
-    },
-    {
-      "id": "9ab4ff37313a",
-      "platform": "youtube",
-      "videoId": "pjFlVc-EDzc",
-      "title": "What should you eat for a better night’s sleep? ⏲️ 6 Minute English",
-      "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=pjFlVc-EDzc",
-      "thumb": "https://i1.ytimg.com/vi/pjFlVc-EDzc/hqdefault.jpg",
       "published": "2026-10-22",
       "category": "英语"
     },
@@ -269,9 +313,9 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "图形学 · 512313464: 2 条",
+    "图形学 · 512313464: 0 条",
     "引擎 · @TheCherno: 2 条",
-    "引擎 · 437860379: 0 条",
+    "引擎 · 437860379: 2 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
     "CS · 1567748478: 0 条",
@@ -280,10 +324,8 @@
     "金融 · 520819684: 2 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
-    "Bilibili 11646119: code=-352 风控校验失败",
-    "历史 · 11646119: 0 条",
-    "Bilibili 23947287: code=-352 风控校验失败",
-    "历史 · 23947287: 0 条",
+    "历史 · 11646119: 2 条",
+    "历史 · 23947287: 2 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
   ]
