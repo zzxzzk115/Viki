@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "items": [
     {
       "id": "5565a81df603",
@@ -43,6 +43,28 @@
       "url": "https://www.youtube.com/watch?v=mGuYUEuVDYc",
       "thumb": "https://i2.ytimg.com/vi/mGuYUEuVDYc/hqdefault.jpg",
       "published": "2026-07-12",
+      "category": "图形学"
+    },
+    {
+      "id": "dc49fc3eddfc",
+      "platform": "bilibili",
+      "videoId": "BV1k2Jy6jEbX",
+      "title": "GAMES Webinar 418-具身智能专题-郝策-迈向通用具身智能：机器人操作与腿足运动中的学习范式",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV1k2Jy6jEbX",
+      "thumb": "https://i1.hdslb.com/bfs/archive/9b7da275d7926d6c07f10c37601ff51b9ecb2e35.jpg",
+      "published": "2026-10-15",
+      "category": "图形学"
+    },
+    {
+      "id": "b2c1ea0ea2c5",
+      "platform": "bilibili",
+      "videoId": "BV1P2Jy6EEFo",
+      "title": "GAMES Webinar 418-具身智能专题-汪怡暄-面向机器人策略训练与评估的交互式世界模拟器",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV1P2Jy6EEFo",
+      "thumb": "https://i1.hdslb.com/bfs/archive/f4819d4bfae6103b77d6c87bbac800dcbaa43101.jpg",
+      "published": "2026-10-15",
       "category": "图形学"
     },
     {
@@ -134,6 +156,28 @@
       "category": "CS"
     },
     {
+      "id": "9018e970ca98",
+      "platform": "bilibili",
+      "videoId": "BV1ScKR6QEQF",
+      "title": "古法做视频里加一点点科技",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1ScKR6QEQF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/b9d2e88f8d41fe24cecddcf715756265ff68b9d2.jpg",
+      "published": "2026-06-29",
+      "category": "CS"
+    },
+    {
+      "id": "4001551d4ad2",
+      "platform": "bilibili",
+      "videoId": "BV1RfEw6LEfF",
+      "title": "能跟你对话的TTS【开源】",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1RfEw6LEfF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/414b79823c78f30b3e60d27f14c0f44111f0234f.jpg",
+      "published": "2026-06-04",
+      "category": "CS"
+    },
+    {
       "id": "a033df46a3fb",
       "platform": "youtube",
       "videoId": "27JRiGRlVaQ",
@@ -153,28 +197,6 @@
       "url": "https://www.youtube.com/watch?v=0ZCVKL_PDsg",
       "thumb": "https://i1.ytimg.com/vi/0ZCVKL_PDsg/hqdefault.jpg",
       "published": "2026-10-09",
-      "category": "金融"
-    },
-    {
-      "id": "c9fc725b1017",
-      "platform": "bilibili",
-      "videoId": "BV1FCps68EGf",
-      "title": "史上最大现金收购案 富二代如何正确拼爹",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV1FCps68EGf",
-      "thumb": "https://i0.hdslb.com/bfs/archive/0a9baee1364519b7f04c7c303d5fb81fd19b0f6f.jpg",
-      "published": "2026-10-09",
-      "category": "金融"
-    },
-    {
-      "id": "09f26dc16757",
-      "platform": "bilibili",
-      "videoId": "BV1ssac6oEL3",
-      "title": "国产医疗设备，怎么样了？",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV1ssac6oEL3",
-      "thumb": "https://i0.hdslb.com/bfs/archive/6920ec9dbfe2032e21d9f2b0375bca002aabf89a.jpg",
-      "published": "2026-09-26",
       "category": "金融"
     },
     {
@@ -313,15 +335,16 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "图形学 · 512313464: 0 条",
+    "图形学 · 512313464: 2 条",
     "引擎 · @TheCherno: 2 条",
     "引擎 · 437860379: 2 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
-    "CS · 1567748478: 0 条",
+    "CS · 1567748478: 2 条",
+    "Bilibili 202224425: code=-352 风控校验失败",
     "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 2 条",
-    "金融 · 520819684: 2 条",
+    "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
     "历史 · 11646119: 2 条",
