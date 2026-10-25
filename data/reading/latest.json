@@ -1,222 +1,255 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "items": [
     {
-      "id": "1f610c7d0a6a",
+      "id": "f8da64e3a055",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Alternative splicing",
-      "url": "https://simple.wikipedia.org/wiki/Alternative_splicing",
-      "summary": "Alternative splicing allows DNA to code for more than one protein. It varies the exon make-up of the messenger RNA.",
+      "title": "Numeral system",
+      "url": "https://simple.wikipedia.org/wiki/Numeral_system",
+      "summary": "A numeral system is a way to write numbers. Roman numerals and tally marks are examples. \"11\" usually means eleven, but if the numeral system is binary, then \"11\" means three.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "d2c25dfeeede",
+      "id": "6a3a275eb494",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Ben-Hur (1959 movie)",
-      "url": "https://simple.wikipedia.org/wiki/Ben-Hur_(1959_movie)",
-      "summary": "Ben-Hur is a 1959 American religious epic movie directed by William Wyler, produced by Sam Zimbalist, and starring Charlton Heston as the title character. A remake of the 1925 silent movie with a similar title, it was adapted from Lew Wallace's 1880 novel Ben-Hur: A Tale of the …",
+      "title": "Niederbergkirchen",
+      "url": "https://simple.wikipedia.org/wiki/Niederbergkirchen",
+      "summary": "Niederbergkirchen is a municipality in Mühldorf in Bavaria in Germany.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "1fd8476b4493",
+      "id": "325a829b858d",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
-      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-      "summary": "https://www.kimi.com/code/docs/en/kimi-code/models.html https://artificialanalysis.ai/models/kimi-k3-1-pro https://www.modelcompare.ai/blog/china-open-source-ai",
-      "author": "Jowsey",
-      "published": "2026-10-23",
+      "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+      "url": "https://github.com/slee-persis/GVS5H",
+      "summary": "",
+      "author": "rzk",
+      "published": "2026-10-25",
       "tags": [
-        "▲ 832"
+        "▲ 114"
       ]
     },
     {
-      "id": "d6452a029695",
+      "id": "90bf1782f390",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Twelve years of distributed SQLite",
-      "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+      "title": "We should be more ambitious with the software we build",
+      "url": "https://danluu.com/ambitious/",
       "summary": "",
-      "author": "otoolep",
+      "author": "ltratt",
       "published": "2026-10-24",
       "tags": [
-        "▲ 112"
+        "▲ 308"
       ]
     },
     {
-      "id": "adb9608fdcbc",
+      "id": "2325af3360e0",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Apple Music 404 Not Found",
-      "url": "https://music.apple.com/this-url-doesnt-exist",
-      "summary": "https://www.macrumors.com/2026/10/23/apple-music-has-a-hidde...",
-      "author": "frizlab",
-      "published": "2026-10-23",
-      "tags": [
-        "▲ 696"
-      ]
-    },
-    {
-      "id": "937563ab7080",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "How close can pure functional programming get to C?",
-      "url": "https://rtfeldman.com/fp-vs-c",
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
       "summary": "",
-      "author": "stmonty",
+      "author": "gmays",
+      "published": "2026-10-25",
+      "tags": [
+        "▲ 84"
+      ]
+    },
+    {
+      "id": "01ffbd34f502",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "The Goose Programming Language",
+      "url": "https://aardappel.github.io/goose/",
+      "summary": "https://twitter.com/ID_AA_Carmack/status/2113704269274636568",
+      "author": "bobbydigitales",
       "published": "2026-10-24",
       "tags": [
-        "▲ 38"
+        "▲ 329"
       ]
     },
     {
-      "id": "76226e9df68a",
+      "id": "ae070390298f",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
-      "url": "https://edjefferson.com/localwiki/",
+      "title": "Picasa Photo Viewer Rebuilt for Linux, Project Named Licasa",
+      "url": "https://github.com/sanxchep/licasa",
       "summary": "",
-      "author": "sohkamyung",
+      "author": "UncleJo7",
       "published": "2026-10-22",
       "tags": [
-        "▲ 1334"
+        "▲ 9"
       ]
     },
     {
-      "id": "2ca67924f9fc",
+      "id": "391734dd2e4c",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Dessa: Conversation Model trained only on speech",
-      "url": "https://block.xyz/dessa",
+      "title": "Small Programs and Languages",
+      "url": "https://ratfactor.com/cards/pl-small",
       "summary": "",
-      "author": "dsr12",
-      "published": "2026-10-23",
+      "author": "andsoitis",
+      "published": "2026-10-24",
       "tags": [
-        "▲ 330"
+        "▲ 80"
       ]
     },
     {
-      "id": "1dab1919762b",
+      "id": "aa56a9a9ebdc",
       "category": "tech",
       "source": "DEV Community",
-      "title": "19 days, 546 messages, 141 users: building my app by mostly talking to Claude Code",
-      "url": "https://dev.to/taewoo/19-days-546-messages-141-users-building-my-app-by-mostly-talking-to-claude-code-1mgb",
-      "summary": "I make Tabby, a free tab manager for Chrome, Firefox and Edge. This week I shipped version 1.2 and made a \"lock in\" short for TikTok and YouTube in three languages. I barely wrote code for any of it. Mostly I talked to Claude Code in plain Vietnamese (\"this looks ugly\", \"the tex…",
-      "author": "taewoo",
-      "published": "Sat, 24 Oct 2026 06:00:59 +0000",
+      "title": "Why Patch Labels Belong in the Data Model of a Game Guide",
+      "url": "https://dev.to/bingkun_zhao_3a12f63f3f41/why-patch-labels-belong-in-the-data-model-of-a-game-guide-514i",
+      "summary": "Game guides have a quiet data problem: a recommendation can be correct when it is written and misleading after the next patch. That is especially common in idle RPGs. A build may depend on a Rune effect, a stage reward, a chest table, or an event deadline. If one of those inputs…",
+      "author": "bingkun zhao",
+      "published": "Sun, 25 Oct 2026 06:17:44 +0000",
       "tags": [
-        "ai",
-        "productivity",
-        "showdev",
+        "ux",
+        "gamedev",
+        "architecture",
         "webdev"
       ]
     },
     {
-      "id": "1df0be398f8c",
+      "id": "e285ae34323a",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Everyone Is Figuring Out AI. Here's What We Know So Far.",
-      "url": "https://dev.to/bilalshahdev/everyone-is-figuring-out-ai-heres-what-we-know-so-far-hil",
-      "summary": "Artificial intelligence is improving faster than most organizations can decide what to do with it. New models arrive, coding agents become more capable, and impressive demos spread across social media. At the same time, many companies are still asking basic questions: Which work…",
-      "author": "Bilal Shah",
-      "published": "Sat, 24 Oct 2026 06:00:00 +0000",
+      "title": "Building the directory or job board was the easy part. Here's what 20 builders say comes next",
+      "url": "https://dev.to/wbcomdesigns/building-the-directory-or-job-board-was-the-easy-part-heres-what-20-builders-say-comes-next-2a2k",
+      "summary": "If you hang around indie-builder corners of the internet right now, you'll notice a wave of niche directories and job boards: local services, AI tools, peer reviewers, football jobs, nonprofit resources, even a club's book catalogue. We read posts from about twenty different peo…",
+      "author": "Wbcom Designs 💡",
+      "published": "Sun, 25 Oct 2026 06:12:32 +0000",
       "tags": [
-        "ai",
+        "startup",
+        "seo",
         "webdev",
-        "programming",
+        "discuss"
+      ]
+    },
+    {
+      "id": "a807aa7f7722",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Rented land: what 30+ creators told us about leaving Skool, Whop, Discord and YouTube",
+      "url": "https://dev.to/wbcomdesigns/rented-land-what-30-creators-told-us-this-month-about-leaving-skool-whop-discord-and-youtube-1a7i",
+      "summary": "Every week our team reads a lot of posts from people who run communities, sell courses or build an audience online. We build community and membership software for a living, so it's partly our job and partly our habit. Again and again, one theme keeps turning up, from people who …",
+      "author": "Wbcom Designs 💡",
+      "published": "Sun, 25 Oct 2026 06:12:31 +0000",
+      "tags": [
+        "community",
+        "creators",
+        "webdev",
+        "discuss"
+      ]
+    },
+    {
+      "id": "3b09039da79f",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Next.js `headers()` and `cookies()` in 2026: Dynamic APIs, Opt-Out Semantics, and the Static Rendering Traps Teams Hit",
+      "url": "https://dev.to/jsmanifest/nextjs-headers-and-cookies-in-2026-dynamic-apis-opt-out-semantics-and-the-static-4hil",
+      "summary": "Next.js headers() and cookies() in 2026: Dynamic APIs, Opt-Out Semantics, and the Static Rendering Traps Teams Hit This article was written with the assistance of AI, under human supervision and review. The most expensive Next.js performance regressions in 2026 trace back to a s…",
+      "author": "jsmanifest",
+      "published": "Sun, 25 Oct 2026 06:06:38 +0000",
+      "tags": [
+        "react",
+        "nextjs",
+        "webdev",
         "javascript"
       ]
     },
     {
-      "id": "eb73ac1ebcef",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Why your PDF's text comes out as separate letters",
-      "url": "https://dev.to/amineaffif/why-your-pdfs-text-comes-out-as-separate-letters-1hdj",
-      "summary": "I generated a PDF from HTML with Chrome on the command line. To the eye, it was perfect. But when I extracted its text with a pdf.js-based tool, my section headings came out like this: E X P É R I E N C E STA C K With pdftotext (poppler), the same words came out whole. Same file…",
-      "author": "Amine Affif",
-      "published": "Sat, 24 Oct 2026 06:00:00 +0000",
-      "tags": [
-        "pdf",
-        "webdev",
-        "debugging",
-        "javascript"
-      ]
-    },
-    {
-      "id": "5a38b8052528",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Every State Now Charges EV Drivers a Yearly Surcharge. I Checked All 50.",
-      "url": "https://dev.to/statefeecalculator/every-state-now-charges-ev-drivers-a-yearly-surcharge-i-checked-all-50-90m",
-      "summary": "Think your EV will cost less than a gas car? Then the first registration renewal arrives. And there's an extra line item you never saw before. It's called an EV surcharge, or an EV registration fee. Dozens of states charge it now, and more join the list every year. It replaces t…",
-      "author": "Niam Hocaine",
-      "published": "Sat, 24 Oct 2026 05:59:16 +0000",
-      "tags": [
-        "showdev",
-        "webdev",
-        "fintech"
-      ]
-    },
-    {
-      "id": "e3ee20b5c933",
+      "id": "3fc46a7a8e36",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Battle of Schliengen",
-      "url": "https://en.wikipedia.org/wiki/Battle_of_Schliengen",
-      "summary": "The Battle of Schliengen took place on 24 October 1796 between the French Army of the Rhine and Moselle and the Austrian army near the village of Schliengen during the War of the First Coalition. The French army was under the command of Jean-Victor Moreau and the Austrian army w…",
+      "title": "The Kinks",
+      "url": "https://en.wikipedia.org/wiki/The_Kinks",
+      "summary": "The Kinks were an English rock band formed in London in 1962. The band's classic line-up comprised brothers Ray Davies and Dave Davies, Pete Quaife (bass), and Mick Avory. Emerging during the height of British rhythm and blues and Merseybeat, their breakthrough third single, the…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "7ef5328c98db",
+      "id": "0a5bd0ce690d",
       "category": "news",
       "source": "BBC 世界",
-      "title": "France prepares for day of protest a week after nationwide riots",
-      "url": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
-      "summary": "More than 70,000 police officers are to be deployed over fears protesters will defy restrictions on demonstrations.",
-      "published": "Sat, 24 Oct 2026 04:03:46 GMT",
+      "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+      "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+      "summary": "Hundreds of thousands took part in demonstrations in France, with protests also taking place in other European countries.",
+      "published": "Sun, 25 Oct 2026 04:16:52 GMT",
       "tags": []
     },
     {
-      "id": "70dec74f838f",
+      "id": "8b4dc9f3945d",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
-      "url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss",
-      "summary": "She was a close family member of the first victim, a man who had travelled from the Democratic Republic of Congo.",
-      "published": "Sat, 24 Oct 2026 00:05:43 GMT",
+      "title": "Ukraine says Starlink connection 'now stable' after network limits",
+      "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
+      "summary": "The slowed Starlink connections had affected the Ukraine's military and drone operations for a week.",
+      "published": "Sat, 24 Oct 2026 12:12:40 GMT",
+      "tags": []
+    },
+    {
+      "id": "32151483ad18",
+      "category": "news",
+      "source": "BBC 世界",
+      "title": "Palestinian families displaced as Israeli forces demolish Hebron homes",
+      "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss",
+      "summary": "The crackdown follows the killing of two Israeli soldiers by two Palestinian gunmen on Friday - and comes just days ahead of Israel's election.",
+      "published": "Sat, 24 Oct 2026 23:02:06 GMT",
       "tags": []
     },
     {
       "id": "3c59e84754ba",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Arrest made after fire at Hitler's Eagle's Nest retreat",
+      "title": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
       "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
-      "summary": "Around 200 emergency personnel are deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
-      "published": "Sat, 24 Oct 2026 03:51:25 GMT",
+      "summary": "Some 200 emergency personnel were deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
+      "published": "Sat, 24 Oct 2026 15:21:44 GMT",
       "tags": []
     },
     {
-      "id": "c4c48ac64982",
-      "category": "news",
-      "source": "BBC 世界",
-      "title": "Student movement takes Serbia's Vučić to the wire in neck-and-neck election",
-      "url": "https://www.bbc.co.uk/news/articles/cm1dwz311476o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Student List has emerged from almost two years of anti-corruption protests to form the biggest challenge to Vučić's rule.",
-      "published": "Fri, 23 Oct 2026 23:08:23 GMT",
-      "tags": []
+      "id": "7e7984ce45f7",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "A 1,000-mile cloud on Mars may reveal physics never seen in nature",
+      "url": "https://arstechnica.com/science/2026/10/a-1000-mile-cloud-on-mars-may-reveal-physics-never-seen-in-nature/",
+      "summary": "A new model suggests Mars may host ice-forming physics never directly observed before.",
+      "author": "Tereza Ondráčková, wired.com",
+      "published": "Sat, 24 Oct 2026 11:50:28 +0000",
+      "tags": [
+        "Science",
+        "Arsia Mons",
+        "Mars",
+        "planetary science"
+      ]
+    },
+    {
+      "id": "6ca78a386877",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Ice sheet expansion may have started 2,000 years ago, but we canceled that",
+      "url": "https://arstechnica.com/science/2026/10/ice-sheet-expansion-may-have-started-2000-years-go-but-we-canceled-that/",
+      "summary": "The tiny remains of the Laurentide Ice Sheet began getting somewhat less tiny.",
+      "author": "Jacek Krywko",
+      "published": "Sat, 24 Oct 2026 11:00:09 +0000",
+      "tags": [
+        "Science",
+        "climate change",
+        "Earth science",
+        "glaciation"
+      ]
     },
     {
       "id": "5dac0b35abef",
@@ -235,67 +268,36 @@
       ]
     },
     {
-      "id": "32c644453d6d",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Hegseth warns prediction market bets warp military judgment, endanger troops",
-      "url": "https://arstechnica.com/tech-policy/2026/10/pentagon-memo-on-prediction-markets-says-insider-bets-put-troops-lives-at-risk/",
-      "summary": "Pentagon memo: Insider trading gives US enemies key intel on military operations.",
-      "author": "Jon Brodkin",
-      "published": "Fri, 23 Oct 2026 20:28:43 +0000",
-      "tags": [
-        "Policy",
-        "Pentagon",
-        "prediction markets"
-      ]
-    },
-    {
-      "id": "3e249e7fc631",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Updated Google privacy policy says your Gmail might be used for advertising",
-      "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
-      "summary": "Turning on Personal Intelligence gives the company more data for ad targeting.",
-      "author": "Ryan Whitwam",
-      "published": "Fri, 23 Oct 2026 20:19:55 +0000",
-      "tags": [
-        "AI",
-        "Google",
-        "Tech",
-        "advertising"
-      ]
-    },
-    {
-      "id": "1a41f3b5e5df",
+      "id": "4e3ea013b333",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?",
-      "url": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
-      "summary": "“I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”",
+      "title": "My father-in-law, 81, sold his $75,000 home to pay his daughter’s $50,000 debt. How can I keep him from becoming destitute?",
+      "url": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
+      "summary": "“Nothing has been set aside for his needs.”",
       "author": "Quentin Fottrell",
-      "published": "Fri, 23 Oct 2026 22:49:00 GMT",
+      "published": "Sat, 24 Oct 2026 20:15:00 GMT",
       "tags": []
     },
     {
-      "id": "a4e91d7cb178",
+      "id": "8e2b93abe37f",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Will Anthropic pull off a November IPO? Time is running out to file key paperwork.",
-      "url": "https://www.marketwatch.com/story/will-anthropic-pull-off-a-november-ipo-time-is-running-out-to-file-key-paperwork-52677343?mod=mw_rss_topstories",
-      "summary": "If market pressures keep building, Anthropic “could reasonably decide it is better to stay private and wait for a better opportunity,” one portfolio manager says.",
-      "author": "William Gavin",
-      "published": "Fri, 23 Oct 2026 22:00:00 GMT",
+      "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
+      "url": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
+      "summary": "“My late father bought our house for $250,000 in the 1990s.”",
+      "author": "Quentin Fottrell",
+      "published": "Sat, 24 Oct 2026 20:00:00 GMT",
       "tags": []
     },
     {
-      "id": "58a0205a35cc",
+      "id": "38bfe08d353a",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn’t work out.",
-      "url": "https://www.marketwatch.com/story/investors-piled-a-record-sum-into-a-leveraged-semiconductor-etf-last-week-things-didnt-work-out-4680b2f3?mod=mw_rss_topstories",
-      "summary": "Traders making bullish bets on chip stocks are getting walloped this month, as renewed fears emerged about investment returns on the buildout of artificial intelligence.",
-      "author": "Christine Idzelis",
-      "published": "Fri, 23 Oct 2026 21:46:00 GMT",
+      "title": "My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids — and I can’t bear to leave.",
+      "url": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
+      "summary": "“He wants to buy something for $600,000 now that we are empty-nesters.”",
+      "author": "Quentin Fottrell",
+      "published": "Sat, 24 Oct 2026 19:45:00 GMT",
       "tags": []
     }
   ],
