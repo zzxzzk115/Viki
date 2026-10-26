@@ -1,222 +1,222 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "items": [
     {
-      "id": "f8da64e3a055",
+      "id": "62784a3507b8",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Numeral system",
-      "url": "https://simple.wikipedia.org/wiki/Numeral_system",
-      "summary": "A numeral system is a way to write numbers. Roman numerals and tally marks are examples. \"11\" usually means eleven, but if the numeral system is binary, then \"11\" means three.",
+      "title": "Särkänniemi",
+      "url": "https://simple.wikipedia.org/wiki/S%C3%A4rk%C3%A4nniemi",
+      "summary": "Särkänniemi is a theme park in Tampere, Finland. It covers 50,000 square metres (540,000 sq ft). It opened in 1969.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "6a3a275eb494",
+      "id": "1b5f81875cd5",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Niederbergkirchen",
-      "url": "https://simple.wikipedia.org/wiki/Niederbergkirchen",
-      "summary": "Niederbergkirchen is a municipality in Mühldorf in Bavaria in Germany.",
+      "title": "Biological pigment",
+      "url": "https://simple.wikipedia.org/wiki/Biological_pigment",
+      "summary": "Biological pigments are pigments which are chemical colours.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "325a829b858d",
+      "id": "a2181227bfa3",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
-      "url": "https://github.com/slee-persis/GVS5H",
+      "title": "Show HN: TitleArt – Make text like it's 1997",
+      "url": "https://titleart.dvy.io/",
       "summary": "",
-      "author": "rzk",
+      "author": "davidbarker",
+      "published": "2026-10-26",
+      "tags": [
+        "▲ 98"
+      ]
+    },
+    {
+      "id": "38d74fada354",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+      "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+      "summary": "",
+      "author": "vardhan1237",
+      "published": "2026-10-26",
+      "tags": [
+        "▲ 66"
+      ]
+    },
+    {
+      "id": "1bb180ff2772",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+      "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+      "summary": "",
+      "author": "ianand",
+      "published": "2026-10-26",
+      "tags": [
+        "▲ 32"
+      ]
+    },
+    {
+      "id": "89e06d81e035",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Dolly Parton's Imagination Library",
+      "url": "https://imaginationlibrary.com/",
+      "summary": "With today's news, I thought I'd share this great program: “When I was growing up in the hills of East Tennessee, I knew my dreams would come true. I know there are children in your community with their own dreams. They dream of becoming a doctor or an inventor or a minister. Wh…",
+      "author": "jumploops",
       "published": "2026-10-25",
       "tags": [
-        "▲ 114"
+        "▲ 492"
       ]
     },
     {
-      "id": "90bf1782f390",
+      "id": "79133f51c7f5",
       "category": "tech",
       "source": "Hacker News",
-      "title": "We should be more ambitious with the software we build",
-      "url": "https://danluu.com/ambitious/",
+      "title": "Behind the scenes at the NeXT Computer office",
+      "url": "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry",
       "summary": "",
-      "author": "ltratt",
-      "published": "2026-10-24",
+      "author": "Austin_Conlon",
+      "published": "2026-10-26",
       "tags": [
-        "▲ 308"
+        "▲ 58"
       ]
     },
     {
-      "id": "2325af3360e0",
+      "id": "68e16cd5b49c",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Cerebras Deploys Trillion-Parameter AI Models",
-      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "title": "Show HN: A Truly Modular Keyboard",
+      "url": "https://github.com/notaroomba/keybytes",
       "summary": "",
-      "author": "gmays",
+      "author": "NotARoomba",
       "published": "2026-10-25",
       "tags": [
-        "▲ 84"
+        "▲ 81"
       ]
     },
     {
-      "id": "01ffbd34f502",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "The Goose Programming Language",
-      "url": "https://aardappel.github.io/goose/",
-      "summary": "https://twitter.com/ID_AA_Carmack/status/2113704269274636568",
-      "author": "bobbydigitales",
-      "published": "2026-10-24",
-      "tags": [
-        "▲ 329"
-      ]
-    },
-    {
-      "id": "ae070390298f",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Picasa Photo Viewer Rebuilt for Linux, Project Named Licasa",
-      "url": "https://github.com/sanxchep/licasa",
-      "summary": "",
-      "author": "UncleJo7",
-      "published": "2026-10-22",
-      "tags": [
-        "▲ 9"
-      ]
-    },
-    {
-      "id": "391734dd2e4c",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Small Programs and Languages",
-      "url": "https://ratfactor.com/cards/pl-small",
-      "summary": "",
-      "author": "andsoitis",
-      "published": "2026-10-24",
-      "tags": [
-        "▲ 80"
-      ]
-    },
-    {
-      "id": "aa56a9a9ebdc",
+      "id": "087660d38ab0",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Why Patch Labels Belong in the Data Model of a Game Guide",
-      "url": "https://dev.to/bingkun_zhao_3a12f63f3f41/why-patch-labels-belong-in-the-data-model-of-a-game-guide-514i",
-      "summary": "Game guides have a quiet data problem: a recommendation can be correct when it is written and misleading after the next patch. That is especially common in idle RPGs. A build may depend on a Rune effect, a stage reward, a chest table, or an event deadline. If one of those inputs…",
-      "author": "bingkun zhao",
-      "published": "Sun, 25 Oct 2026 06:17:44 +0000",
+      "title": "I built domo-doctor to catch configuration issues in Domo custom apps — looking for feedback",
+      "url": "https://dev.to/shubham_e6d10e6909de436f4/i-built-domo-doctor-to-catch-configuration-issues-in-domo-custom-apps-looking-for-feedback-319b",
+      "summary": "Hey developers! 👋 I work with Domo custom apps and built domo-doctor, an offline-first diagnostic CLI for checking project configuration and source code. It helps identify issues such as: Invalid manifests and malformed mappings. Duplicate dataset or field aliases. Dataset requ…",
+      "author": "Shubham",
+      "published": "Mon, 26 Oct 2026 06:18:31 +0000",
       "tags": [
-        "ux",
-        "gamedev",
-        "architecture",
+        "webdev",
+        "programming",
+        "productivity",
+        "beginners"
+      ]
+    },
+    {
+      "id": "f48c20017f13",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Lazy Flow Ai",
+      "url": "https://dev.to/iron_man_a45eb48b7f7b754e/lazy-flow-ai-2265",
+      "summary": "LazyFlow AI — Let AI Handle the Boring Stuff 🦥 This is a submission for the \"Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady\" ( https://dev.to/challenges/hacktoberfest-week3-2026-10-19 ) What I Built I built LazyFlow AI, a lightweight AI-powered file organizer de…",
+      "author": "Arslan SA",
+      "published": "Mon, 26 Oct 2026 06:17:59 +0000",
+      "tags": [
+        "webdev",
+        "hacktoberfest",
+        "mlh",
+        "ai"
+      ]
+    },
+    {
+      "id": "17452c6d70d2",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Diff two API responses without the noise",
+      "url": "https://dev.to/kdkumawat/diff-two-api-responses-without-the-noise-9pj",
+      "summary": "You changed a serializer, bumped a dependency, or moved an endpoint to a new service. Now you want to know one thing: did the response change? The usual move is to save both responses and run diff before.json after.json . That works until it doesn't. Why text diffs lie about JSO…",
+      "author": "kdkumawat",
+      "published": "Mon, 26 Oct 2026 06:17:25 +0000",
+      "tags": [
+        "api",
+        "json",
+        "testing",
         "webdev"
       ]
     },
     {
-      "id": "e285ae34323a",
+      "id": "f921766f51cb",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Building the directory or job board was the easy part. Here's what 20 builders say comes next",
-      "url": "https://dev.to/wbcomdesigns/building-the-directory-or-job-board-was-the-easy-part-heres-what-20-builders-say-comes-next-2a2k",
-      "summary": "If you hang around indie-builder corners of the internet right now, you'll notice a wave of niche directories and job boards: local services, AI tools, peer reviewers, football jobs, nonprofit resources, even a club's book catalogue. We read posts from about twenty different peo…",
-      "author": "Wbcom Designs 💡",
-      "published": "Sun, 25 Oct 2026 06:12:32 +0000",
+      "title": "Transparent Background Video Export: Alpha Channels, ProRes 4444 vs WebM VP9",
+      "url": "https://dev.to/demovexa/transparent-background-video-export-alpha-channels-prores-4444-vs-webm-vp9-5991",
+      "summary": "A transparent background video stores a fourth channel, alpha, next to the color data, so an editor or browser knows which pixels to show. In practice you choose between two files: ProRes 4444 in a MOV for editing, and VP9 in a WebM for the web. This post covers how alpha is sto…",
+      "author": "DemoVexa",
+      "published": "Mon, 26 Oct 2026 06:16:14 +0000",
       "tags": [
-        "startup",
-        "seo",
+        "video",
+        "ffmpeg",
         "webdev",
-        "discuss"
+        "tutorial"
       ]
     },
     {
-      "id": "a807aa7f7722",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Rented land: what 30+ creators told us about leaving Skool, Whop, Discord and YouTube",
-      "url": "https://dev.to/wbcomdesigns/rented-land-what-30-creators-told-us-this-month-about-leaving-skool-whop-discord-and-youtube-1a7i",
-      "summary": "Every week our team reads a lot of posts from people who run communities, sell courses or build an audience online. We build community and membership software for a living, so it's partly our job and partly our habit. Again and again, one theme keeps turning up, from people who …",
-      "author": "Wbcom Designs 💡",
-      "published": "Sun, 25 Oct 2026 06:12:31 +0000",
-      "tags": [
-        "community",
-        "creators",
-        "webdev",
-        "discuss"
-      ]
-    },
-    {
-      "id": "3b09039da79f",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Next.js `headers()` and `cookies()` in 2026: Dynamic APIs, Opt-Out Semantics, and the Static Rendering Traps Teams Hit",
-      "url": "https://dev.to/jsmanifest/nextjs-headers-and-cookies-in-2026-dynamic-apis-opt-out-semantics-and-the-static-4hil",
-      "summary": "Next.js headers() and cookies() in 2026: Dynamic APIs, Opt-Out Semantics, and the Static Rendering Traps Teams Hit This article was written with the assistance of AI, under human supervision and review. The most expensive Next.js performance regressions in 2026 trace back to a s…",
-      "author": "jsmanifest",
-      "published": "Sun, 25 Oct 2026 06:06:38 +0000",
-      "tags": [
-        "react",
-        "nextjs",
-        "webdev",
-        "javascript"
-      ]
-    },
-    {
-      "id": "3fc46a7a8e36",
+      "id": "10a786f9a75f",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "The Kinks",
-      "url": "https://en.wikipedia.org/wiki/The_Kinks",
-      "summary": "The Kinks were an English rock band formed in London in 1962. The band's classic line-up comprised brothers Ray Davies and Dave Davies, Pete Quaife (bass), and Mick Avory. Emerging during the height of British rhythm and blues and Merseybeat, their breakthrough third single, the…",
+      "title": "Eyebrow Talk",
+      "url": "https://en.wikipedia.org/wiki/Eyebrow_Talk",
+      "summary": "Eyebrow Talk was a Chinese monthly literary magazine published in 18 issues from November 1914 to around April or May 1916. It was among the first literary magazines in China to be marketed towards women and the first to be primarily edited by women. Its founder and editor-in-ch…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "0a5bd0ce690d",
+      "id": "81bc7b0e59c4",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
-      "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
-      "summary": "Hundreds of thousands took part in demonstrations in France, with protests also taking place in other European countries.",
-      "published": "Sun, 25 Oct 2026 04:16:52 GMT",
+      "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
+      "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
+      "summary": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
+      "published": "Mon, 26 Oct 2026 01:07:05 GMT",
       "tags": []
     },
     {
-      "id": "8b4dc9f3945d",
+      "id": "b4c30b6342df",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Ukraine says Starlink connection 'now stable' after network limits",
-      "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
-      "summary": "The slowed Starlink connections had affected the Ukraine's military and drone operations for a week.",
-      "published": "Sat, 24 Oct 2026 12:12:40 GMT",
+      "title": "Venezuelan opposition leader María Machado returns after months in exile",
+      "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+      "summary": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
+      "published": "Mon, 26 Oct 2026 05:20:19 GMT",
       "tags": []
     },
     {
-      "id": "32151483ad18",
+      "id": "d33d24266c27",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Palestinian families displaced as Israeli forces demolish Hebron homes",
-      "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss",
-      "summary": "The crackdown follows the killing of two Israeli soldiers by two Palestinian gunmen on Friday - and comes just days ahead of Israel's election.",
-      "published": "Sat, 24 Oct 2026 23:02:06 GMT",
+      "title": "Deeply divided Israel braces for pivotal election",
+      "url": "https://www.bbc.co.uk/news/articles/ckpdgy6pl7xlo?at_medium=RSS&at_campaign=rss",
+      "summary": "After three years of regional war, this is a battle Israel always knew was coming, writes Lucy Williamson.",
+      "published": "Sun, 25 Oct 2026 22:11:13 GMT",
       "tags": []
     },
     {
-      "id": "3c59e84754ba",
+      "id": "b06ee7809909",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
-      "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
-      "summary": "Some 200 emergency personnel were deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
-      "published": "Sat, 24 Oct 2026 15:21:44 GMT",
+      "title": "Australian murderer loses bid to eat Vegemite in prison",
+      "url": "https://www.bbc.co.uk/news/articles/cvwy7wz9x12go?at_medium=RSS&at_campaign=rss",
+      "summary": "Andre McKechnie, who murdered a property developer, argued it was his right to enjoy Australian culture.",
+      "published": "Mon, 26 Oct 2026 04:05:28 GMT",
       "tags": []
     },
     {
@@ -268,14 +268,14 @@
       ]
     },
     {
-      "id": "4e3ea013b333",
+      "id": "df98bea0a55a",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "My father-in-law, 81, sold his $75,000 home to pay his daughter’s $50,000 debt. How can I keep him from becoming destitute?",
-      "url": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
-      "summary": "“Nothing has been set aside for his needs.”",
-      "author": "Quentin Fottrell",
-      "published": "Sat, 24 Oct 2026 20:15:00 GMT",
+      "title": "Musk says SpaceX landed a $40 billion debt deal — and forecasts doom for some AI rivals",
+      "url": "https://www.marketwatch.com/story/musk-says-spacex-landed-a-40-billion-debt-deal-and-forecasts-doom-for-some-ai-rivals-a0a4991e?mod=mw_rss_topstories",
+      "summary": "SpaceX is rapidly growing an AI business that rents out access to advanced chips.",
+      "author": "Emily Bary",
+      "published": "Mon, 26 Oct 2026 01:50:00 GMT",
       "tags": []
     },
     {
@@ -286,18 +286,18 @@
       "url": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
       "summary": "“My late father bought our house for $250,000 in the 1990s.”",
       "author": "Quentin Fottrell",
-      "published": "Sat, 24 Oct 2026 20:00:00 GMT",
+      "published": "Sun, 25 Oct 2026 20:15:00 GMT",
       "tags": []
     },
     {
-      "id": "38bfe08d353a",
+      "id": "1a41f3b5e5df",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids — and I can’t bear to leave.",
-      "url": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
-      "summary": "“He wants to buy something for $600,000 now that we are empty-nesters.”",
+      "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?",
+      "url": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
+      "summary": "“I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”",
       "author": "Quentin Fottrell",
-      "published": "Sat, 24 Oct 2026 19:45:00 GMT",
+      "published": "Sun, 25 Oct 2026 20:00:00 GMT",
       "tags": []
     }
   ],
