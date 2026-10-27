@@ -1,303 +1,303 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "items": [
     {
-      "id": "62784a3507b8",
+      "id": "376a6d8d15d4",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Särkänniemi",
-      "url": "https://simple.wikipedia.org/wiki/S%C3%A4rk%C3%A4nniemi",
-      "summary": "Särkänniemi is a theme park in Tampere, Finland. It covers 50,000 square metres (540,000 sq ft). It opened in 1969.",
+      "title": "Bilawal Bhutto Zardari",
+      "url": "https://simple.wikipedia.org/wiki/Bilawal_Bhutto_Zardari",
+      "summary": "Bilawal Bhutto Zardari is co-chairman of the Pakistan Peoples Party (PPP), and the eldest child and only son of the late Pakistani politician and former Prime Minister Benazir Bhutto and her husband Asif Ali Zardari, the former President of Pakistan. Chairman Bhutto Zardari is a…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "1b5f81875cd5",
+      "id": "7f200d42ad46",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Biological pigment",
-      "url": "https://simple.wikipedia.org/wiki/Biological_pigment",
-      "summary": "Biological pigments are pigments which are chemical colours.",
+      "title": "CBS Corporation",
+      "url": "https://simple.wikipedia.org/wiki/CBS_Corporation",
+      "summary": "CBS Corporation was an American mass media corporation focused on broadcasting, publishing, and television production. Until 2005, the company was known as Viacom. A new company, keeping the Viacom name, was spun off from CBS.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "a2181227bfa3",
+      "id": "0db83d2728d9",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Show HN: TitleArt – Make text like it's 1997",
-      "url": "https://titleart.dvy.io/",
-      "summary": "",
-      "author": "davidbarker",
+      "title": "Three new discoveries in mathematics, computer science, and physics",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "summary": "Related: The Exponential Time Hypothesis Is False [pdf] - https://news.ycombinator.com/item?id=50251661",
+      "author": "jonluca",
       "published": "2026-10-26",
       "tags": [
-        "▲ 98"
+        "▲ 738"
       ]
     },
     {
-      "id": "38d74fada354",
+      "id": "820116fa460f",
       "category": "tech",
       "source": "Hacker News",
-      "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
-      "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
-      "summary": "",
-      "author": "vardhan1237",
+      "title": "The Exponential Time Hypothesis Is False [pdf]",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "summary": "See also: Announcing three new discoveries in mathematics, computer science, and physics - https://news.ycombinator.com/item?id=50251344",
+      "author": "vok",
       "published": "2026-10-26",
       "tags": [
-        "▲ 66"
+        "▲ 512"
       ]
     },
     {
-      "id": "1bb180ff2772",
+      "id": "d1a3b4fa5d93",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
-      "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+      "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
       "summary": "",
-      "author": "ianand",
+      "author": "sgiannopoulos",
       "published": "2026-10-26",
       "tags": [
-        "▲ 32"
+        "▲ 649"
       ]
     },
     {
-      "id": "89e06d81e035",
+      "id": "0d8cdf08f809",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Dolly Parton's Imagination Library",
-      "url": "https://imaginationlibrary.com/",
-      "summary": "With today's news, I thought I'd share this great program: “When I was growing up in the hills of East Tennessee, I knew my dreams would come true. I know there are children in your community with their own dreams. They dream of becoming a doctor or an inventor or a minister. Wh…",
-      "author": "jumploops",
-      "published": "2026-10-25",
-      "tags": [
-        "▲ 492"
-      ]
-    },
-    {
-      "id": "79133f51c7f5",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Behind the scenes at the NeXT Computer office",
-      "url": "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry",
+      "title": "Oldest GUI application that still runs on Windows 11",
+      "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
       "summary": "",
-      "author": "Austin_Conlon",
+      "author": "enlyth",
       "published": "2026-10-26",
       "tags": [
-        "▲ 58"
+        "▲ 373"
       ]
     },
     {
-      "id": "68e16cd5b49c",
+      "id": "b6c028fd4bed",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Show HN: A Truly Modular Keyboard",
-      "url": "https://github.com/notaroomba/keybytes",
+      "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
+      "url": "https://github.com/otya128/winevdm",
       "summary": "",
-      "author": "NotARoomba",
-      "published": "2026-10-25",
+      "author": "doener",
+      "published": "2026-10-27",
       "tags": [
-        "▲ 81"
+        "▲ 64"
       ]
     },
     {
-      "id": "087660d38ab0",
+      "id": "2693f45a7074",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Type Server Protocol",
+      "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+      "summary": "",
+      "author": "adamnemecek",
+      "published": "2026-10-26",
+      "tags": [
+        "▲ 225"
+      ]
+    },
+    {
+      "id": "650545f05aa8",
       "category": "tech",
       "source": "DEV Community",
-      "title": "I built domo-doctor to catch configuration issues in Domo custom apps — looking for feedback",
-      "url": "https://dev.to/shubham_e6d10e6909de436f4/i-built-domo-doctor-to-catch-configuration-issues-in-domo-custom-apps-looking-for-feedback-319b",
-      "summary": "Hey developers! 👋 I work with Domo custom apps and built domo-doctor, an offline-first diagnostic CLI for checking project configuration and source code. It helps identify issues such as: Invalid manifests and malformed mappings. Duplicate dataset or field aliases. Dataset requ…",
-      "author": "Shubham",
-      "published": "Mon, 26 Oct 2026 06:18:31 +0000",
+      "title": "How I built a zero-knowledge, self-destructing secret sharing tool",
+      "url": "https://dev.to/pradeepsng30/how-i-built-a-zero-knowledge-self-destructing-secret-sharing-tool-2kj8",
+      "summary": "Most of us have pasted a password or API key into Slack or email because it was the quickest option. That message then sits in search indexes, backups, and inboxes, often long after anyone needs it. Privnote and OneTimeSecret exist for this. I wanted one where the server can't r…",
+      "author": "Pradeep Singh",
+      "published": "Tue, 27 Oct 2026 06:15:03 +0000",
       "tags": [
+        "security",
         "webdev",
-        "programming",
-        "productivity",
-        "beginners"
+        "opensource",
+        "privacy"
       ]
     },
     {
-      "id": "f48c20017f13",
+      "id": "5bb3d07d31e0",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Lazy Flow Ai",
-      "url": "https://dev.to/iron_man_a45eb48b7f7b754e/lazy-flow-ai-2265",
-      "summary": "LazyFlow AI — Let AI Handle the Boring Stuff 🦥 This is a submission for the \"Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady\" ( https://dev.to/challenges/hacktoberfest-week3-2026-10-19 ) What I Built I built LazyFlow AI, a lightweight AI-powered file organizer de…",
-      "author": "Arslan SA",
-      "published": "Mon, 26 Oct 2026 06:17:59 +0000",
+      "title": "Next.js 16 updateTag vs revalidateTag: What Changed",
+      "url": "https://dev.to/parsajiravand/nextjs-16-updatetag-vs-revalidatetag-what-changed-1mci",
+      "summary": "Your team upgrades to Next.js 16, the build passes, and nothing in the diff touches caching. A week later, publishing a blog post starts taking noticeably longer — not to save, but for the next reader to see it. Somewhere in a Server Action sits a line nobody touched: revalidate…",
+      "author": "Parsa J",
+      "published": "Tue, 27 Oct 2026 06:11:02 +0000",
       "tags": [
-        "webdev",
-        "hacktoberfest",
-        "mlh",
-        "ai"
-      ]
-    },
-    {
-      "id": "17452c6d70d2",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Diff two API responses without the noise",
-      "url": "https://dev.to/kdkumawat/diff-two-api-responses-without-the-noise-9pj",
-      "summary": "You changed a serializer, bumped a dependency, or moved an endpoint to a new service. Now you want to know one thing: did the response change? The usual move is to save both responses and run diff before.json after.json . That works until it doesn't. Why text diffs lie about JSO…",
-      "author": "kdkumawat",
-      "published": "Mon, 26 Oct 2026 06:17:25 +0000",
-      "tags": [
-        "api",
-        "json",
-        "testing",
-        "webdev"
-      ]
-    },
-    {
-      "id": "f921766f51cb",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Transparent Background Video Export: Alpha Channels, ProRes 4444 vs WebM VP9",
-      "url": "https://dev.to/demovexa/transparent-background-video-export-alpha-channels-prores-4444-vs-webm-vp9-5991",
-      "summary": "A transparent background video stores a fourth channel, alpha, next to the color data, so an editor or browser knows which pixels to show. In practice you choose between two files: ProRes 4444 in a MOV for editing, and VP9 in a WebM for the web. This post covers how alpha is sto…",
-      "author": "DemoVexa",
-      "published": "Mon, 26 Oct 2026 06:16:14 +0000",
-      "tags": [
-        "video",
-        "ffmpeg",
+        "nextjs",
+        "caching",
         "webdev",
         "tutorial"
       ]
     },
     {
-      "id": "10a786f9a75f",
+      "id": "ffea08c4ff61",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Stop Writing JS to Detect a Stuck Header. `scroll-state()` Fixes It.",
+      "url": "https://dev.to/parsajiravand/stop-writing-js-to-detect-a-stuck-header-scroll-state-fixes-it-4h40",
+      "summary": "The brief was one sentence: \"the header should get a shadow once it's stuck to the top.\" Not while it's visible — only once it's actually locked there, mid-scroll, floating over the content instead of sitting in it. Someone had already built it, eight months earlier, and it had …",
+      "author": "Parsa J",
+      "published": "Tue, 27 Oct 2026 06:10:31 +0000",
+      "tags": [
+        "css",
+        "webdev",
+        "frontend",
+        "browser"
+      ]
+    },
+    {
+      "id": "7e7333fdde77",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "CSS Grid Explained: Two-Dimensional Layout, Finally Easy",
+      "url": "https://dev.to/practicaldevblog/css-grid-explained-two-dimensional-layout-finally-easy-2b4d",
+      "summary": "Introduction The Flexbox post covered one direction: a row or a column. Real page layouts need two directions at once — a header across the top, a sidebar and main content side by side, a footer across the bottom. That is CSS Grid's job, and it does it with remarkably little cod…",
+      "author": "The Practical Developer",
+      "published": "Tue, 27 Oct 2026 06:08:39 +0000",
+      "tags": [
+        "css",
+        "webdev",
+        "beginners",
+        "programming"
+      ]
+    },
+    {
+      "id": "f59ceff9a96d",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Eyebrow Talk",
-      "url": "https://en.wikipedia.org/wiki/Eyebrow_Talk",
-      "summary": "Eyebrow Talk was a Chinese monthly literary magazine published in 18 issues from November 1914 to around April or May 1916. It was among the first literary magazines in China to be marketed towards women and the first to be primarily edited by women. Its founder and editor-in-ch…",
+      "title": "1986 New York Mets season",
+      "url": "https://en.wikipedia.org/wiki/1986_New_York_Mets_season",
+      "summary": "The 1986 New York Mets season was the 25th season for the New York Mets as a franchise of Major League Baseball, and their 22nd season playing at Shea Stadium in Queens. The team was managed by Davey Johnson, with their general manager being Frank Cashen. The Mets won the Nation…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "81bc7b0e59c4",
+      "id": "199eecef3d47",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
-      "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
-      "summary": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
-      "published": "Mon, 26 Oct 2026 01:07:05 GMT",
+      "title": "Lula wins fourth term in dramatic Brazil election comeback",
+      "url": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
+      "summary": "The left-wing incumbent president had lost the first round to right-wing challenger Flávio Bolsonaro.",
+      "published": "Mon, 26 Oct 2026 21:02:47 GMT",
       "tags": []
     },
     {
-      "id": "b4c30b6342df",
+      "id": "1ab5871f3434",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Venezuelan opposition leader María Machado returns after months in exile",
-      "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
-      "summary": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
-      "published": "Mon, 26 Oct 2026 05:20:19 GMT",
+      "title": "Ex-FBI chief James Comey faces federal charges for third time",
+      "url": "https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo?at_medium=RSS&at_campaign=rss",
+      "summary": "Comey's lawyers say the case stems from alleged disclosure of classified information to the New York Times in 2016.",
+      "published": "Tue, 27 Oct 2026 02:01:27 GMT",
       "tags": []
     },
     {
-      "id": "d33d24266c27",
+      "id": "12bda8609c19",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Deeply divided Israel braces for pivotal election",
-      "url": "https://www.bbc.co.uk/news/articles/ckpdgy6pl7xlo?at_medium=RSS&at_campaign=rss",
-      "summary": "After three years of regional war, this is a battle Israel always knew was coming, writes Lucy Williamson.",
-      "published": "Sun, 25 Oct 2026 22:11:13 GMT",
+      "title": "Jordan carries out deadly strike in Syria in retaliation for church attack",
+      "url": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss",
+      "summary": "The attack on a village in Syria killed five people, including women and children, Syrian health officials said.",
+      "published": "Tue, 27 Oct 2026 02:40:17 GMT",
       "tags": []
     },
     {
-      "id": "b06ee7809909",
+      "id": "8a7169ca9484",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Australian murderer loses bid to eat Vegemite in prison",
-      "url": "https://www.bbc.co.uk/news/articles/cvwy7wz9x12go?at_medium=RSS&at_campaign=rss",
-      "summary": "Andre McKechnie, who murdered a property developer, argued it was his right to enjoy Australian culture.",
-      "published": "Mon, 26 Oct 2026 04:05:28 GMT",
+      "title": "Meghan to co-host Junior MasterChef Australia",
+      "url": "https://www.bbc.co.uk/news/articles/crgqwg3ll1v1o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Duchess of Sussex says she \"can't wait\" to take part in the programme, which will air next year.",
+      "published": "Tue, 27 Oct 2026 04:43:56 GMT",
       "tags": []
     },
     {
-      "id": "7e7984ce45f7",
+      "id": "594899e8d92e",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "A 1,000-mile cloud on Mars may reveal physics never seen in nature",
-      "url": "https://arstechnica.com/science/2026/10/a-1000-mile-cloud-on-mars-may-reveal-physics-never-seen-in-nature/",
-      "summary": "A new model suggests Mars may host ice-forming physics never directly observed before.",
-      "author": "Tereza Ondráčková, wired.com",
-      "published": "Sat, 24 Oct 2026 11:50:28 +0000",
+      "title": "Microsoft offers to buy out a quarter of its workforce",
+      "url": "https://arstechnica.com/gadgets/2026/10/microsoft-offers-voluntary-buyouts-to-60000-employees/",
+      "summary": "Employees in the US, Canada, India, and the UK may receive offers to leave MS today.",
+      "author": "Nick Indge",
+      "published": "Mon, 26 Oct 2026 22:36:06 +0000",
       "tags": [
+        "Tech",
+        "buyout",
+        "force reduction",
+        "layoffs"
+      ]
+    },
+    {
+      "id": "3013e4fb2f56",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Worms mate in man's eyes, get plucked out right before larvae burst out",
+      "url": "https://arstechnica.com/health/2026/10/whats-worse-than-having-eye-worms-having-eye-worms-with-babies/",
+      "summary": "Case study gives a whole new meaning to \"bedroom eyes.\"",
+      "author": "Beth Mole",
+      "published": "Mon, 26 Oct 2026 20:27:00 +0000",
+      "tags": [
+        "Health",
+        "eye",
+        "infections",
+        "larvae"
+      ]
+    },
+    {
+      "id": "283bfb813f45",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Meet the real-life Scottish surgeon who inspired Sherlock Holmes",
+      "url": "https://arstechnica.com/science/2026/10/meet-the-real-life-scottish-surgeon-who-inspired-sherlock-holmes/",
+      "summary": "Lindsey Fitzharris chats with Ars about her new book, Sleuth-Hound: The Case of the Real Sherlock Holmes .",
+      "author": "Jennifer Ouellette",
+      "published": "Mon, 26 Oct 2026 20:15:07 +0000",
+      "tags": [
+        "Culture",
         "Science",
-        "Arsia Mons",
-        "Mars",
-        "planetary science"
+        "books",
+        "forensics"
       ]
     },
     {
-      "id": "6ca78a386877",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Ice sheet expansion may have started 2,000 years ago, but we canceled that",
-      "url": "https://arstechnica.com/science/2026/10/ice-sheet-expansion-may-have-started-2000-years-go-but-we-canceled-that/",
-      "summary": "The tiny remains of the Laurentide Ice Sheet began getting somewhat less tiny.",
-      "author": "Jacek Krywko",
-      "published": "Sat, 24 Oct 2026 11:00:09 +0000",
-      "tags": [
-        "Science",
-        "climate change",
-        "Earth science",
-        "glaciation"
-      ]
-    },
-    {
-      "id": "5dac0b35abef",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
-      "url": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
-      "summary": "\"We have the mandate, we have the resources, and the support from our stakeholders.\"",
-      "author": "Eric Berger",
-      "published": "Fri, 23 Oct 2026 22:48:25 +0000",
-      "tags": [
-        "Space",
-        "blue moon",
-        "NASA",
-        "orion"
-      ]
-    },
-    {
-      "id": "df98bea0a55a",
+      "id": "9d8b2e1623b7",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Musk says SpaceX landed a $40 billion debt deal — and forecasts doom for some AI rivals",
-      "url": "https://www.marketwatch.com/story/musk-says-spacex-landed-a-40-billion-debt-deal-and-forecasts-doom-for-some-ai-rivals-a0a4991e?mod=mw_rss_topstories",
-      "summary": "SpaceX is rapidly growing an AI business that rents out access to advanced chips.",
-      "author": "Emily Bary",
-      "published": "Mon, 26 Oct 2026 01:50:00 GMT",
+      "title": "What gave this city its ‘best place to retire’ crown? You can actually afford to live there.",
+      "url": "https://www.marketwatch.com/story/what-gave-this-city-its-best-place-to-retire-crown-you-can-actually-afford-to-live-there-a06f8f4d?mod=mw_rss_topstories",
+      "summary": "Low cost of living, high quality of life and favorable taxes for retirees, for the win.",
+      "author": "Jessica Hall",
+      "published": "Tue, 27 Oct 2026 04:01:00 GMT",
       "tags": []
     },
     {
-      "id": "8e2b93abe37f",
+      "id": "53d10c0e937a",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
-      "url": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
-      "summary": "“My late father bought our house for $250,000 in the 1990s.”",
+      "title": "‘You need only watch episodes of Judge Judy’: I’m in my 70s. Why do people keep making the same avoidable financial mistakes?",
+      "url": "https://www.marketwatch.com/story/you-need-only-watch-episodes-of-judge-judy-im-in-my-70s-why-do-people-keep-making-the-same-avoidable-financial-mistakes-bbf60fe4?mod=mw_rss_topstories",
+      "summary": "“Consider some familiar examples of poor decisions: accumulating credit-card debt or failing to plan for retirement.”",
       "author": "Quentin Fottrell",
-      "published": "Sun, 25 Oct 2026 20:15:00 GMT",
+      "published": "Mon, 26 Oct 2026 22:30:00 GMT",
       "tags": []
     },
     {
-      "id": "1a41f3b5e5df",
+      "id": "8d049f773268",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?",
-      "url": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
-      "summary": "“I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”",
-      "author": "Quentin Fottrell",
-      "published": "Sun, 25 Oct 2026 20:00:00 GMT",
+      "title": "Dividend stocks are having an excellent October as tech sector struggles",
+      "url": "https://www.marketwatch.com/story/dividend-stocks-are-having-an-excellent-october-as-tech-sector-struggles-5ae40b02?mod=mw_rss_topstories",
+      "summary": "ETFs focused on dividend stocks are seeing a powerful rally in October, adding to huge gains in 2026.",
+      "author": "Christine Idzelis",
+      "published": "Mon, 26 Oct 2026 22:10:00 GMT",
       "tags": []
     }
   ],
