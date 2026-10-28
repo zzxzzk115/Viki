@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "items": [
     {
       "id": "5565a81df603",
@@ -90,6 +90,39 @@
       "category": "引擎"
     },
     {
+      "id": "74d5969623e3",
+      "platform": "bilibili",
+      "videoId": "BV1BTnxzKEVv",
+      "title": "2025.9月编程语言排行榜 C++、C、JAVA亚军之争异常激烈 Perl的火爆与人工智能无关",
+      "channel": "原子之音",
+      "url": "https://www.bilibili.com/video/BV1BTnxzKEVv",
+      "thumb": "https://i0.hdslb.com/bfs/archive/57a35f617d5a79a0ce357179e98382a0c2786185.jpg",
+      "published": "2025-09-26",
+      "category": "引擎"
+    },
+    {
+      "id": "20c78ca36141",
+      "platform": "bilibili",
+      "videoId": "BV1TXWVzZEx4",
+      "title": "虚幻中的C++: 输入系统(Input与Enhanced Input)",
+      "channel": "原子之音",
+      "url": "https://www.bilibili.com/video/BV1TXWVzZEx4",
+      "thumb": "https://i0.hdslb.com/bfs/archive/56b88c2f99c47fd48d8dd518d296fa8697902d72.jpg",
+      "published": "2025-09-20",
+      "category": "引擎"
+    },
+    {
+      "id": "28553792b050",
+      "platform": "youtube",
+      "videoId": "33_jJ4kIxfc",
+      "title": "Blind Ranking Numbers (Terence Tao)",
+      "channel": "Numberphile",
+      "url": "https://www.youtube.com/shorts/33_jJ4kIxfc",
+      "thumb": "https://i4.ytimg.com/vi/33_jJ4kIxfc/hqdefault.jpg",
+      "published": "2026-10-27",
+      "category": "CS"
+    },
+    {
       "id": "7e854f60d357",
       "platform": "youtube",
       "videoId": "EgnAN0ZUl08",
@@ -98,17 +131,6 @@
       "url": "https://www.youtube.com/watch?v=EgnAN0ZUl08",
       "thumb": "https://i2.ytimg.com/vi/EgnAN0ZUl08/hqdefault.jpg",
       "published": "2026-10-25",
-      "category": "CS"
-    },
-    {
-      "id": "ecdff21cf6e0",
-      "platform": "youtube",
-      "videoId": "Uvy5Cs9FDLg",
-      "title": "A New Math Meme - Numberphile",
-      "channel": "Numberphile",
-      "url": "https://www.youtube.com/watch?v=Uvy5Cs9FDLg",
-      "thumb": "https://i2.ytimg.com/vi/Uvy5Cs9FDLg/hqdefault.jpg",
-      "published": "2026-10-18",
       "category": "CS"
     },
     {
@@ -134,25 +156,25 @@
       "category": "CS"
     },
     {
-      "id": "4a1e7e2c2fa7",
+      "id": "9018e970ca98",
       "platform": "bilibili",
-      "videoId": "BV144nc6KEA4",
-      "title": "DeepSeek Harness (1) [09-Raw/26生成式软件工程/NJU]",
-      "channel": "绿导师原谅你了",
-      "url": "https://www.bilibili.com/video/BV144nc6KEA4",
-      "thumb": "https://i0.hdslb.com/bfs/archive/42232c3515ecb0e7b27b1bfb1744f611a0ba78f6.jpg",
-      "published": "2026-10-20",
+      "videoId": "BV1ScKR6QEQF",
+      "title": "古法做视频里加一点点科技",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1ScKR6QEQF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/b9d2e88f8d41fe24cecddcf715756265ff68b9d2.jpg",
+      "published": "2026-06-29",
       "category": "CS"
     },
     {
-      "id": "773c8322e8c2",
+      "id": "4001551d4ad2",
       "platform": "bilibili",
-      "videoId": "BV11LWw6VEHW",
-      "title": "Agent-native 开发 [08-Raw/26生成式软件工程/NJU]",
-      "channel": "绿导师原谅你了",
-      "url": "https://www.bilibili.com/video/BV11LWw6VEHW",
-      "thumb": "https://i2.hdslb.com/bfs/archive/0d158531dc3bf9bb99c742b51baae8306735a785.jpg",
-      "published": "2026-10-13",
+      "videoId": "BV1RfEw6LEfF",
+      "title": "能跟你对话的TTS【开源】",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1RfEw6LEfF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/414b79823c78f30b3e60d27f14c0f44111f0234f.jpg",
+      "published": "2026-06-04",
       "category": "CS"
     },
     {
@@ -178,6 +200,17 @@
       "category": "金融"
     },
     {
+      "id": "c73d8b29bce3",
+      "platform": "youtube",
+      "videoId": "2b-H-rxQ8m8",
+      "title": "How Big of a Problem is Voter Fraud?: Crash Course US Government #6",
+      "channel": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=2b-H-rxQ8m8",
+      "thumb": "https://i3.ytimg.com/vi/2b-H-rxQ8m8/hqdefault.jpg",
+      "published": "2026-10-27",
+      "category": "历史"
+    },
+    {
       "id": "e616f7897269",
       "platform": "youtube",
       "videoId": "uJA1qZirWVc",
@@ -186,17 +219,6 @@
       "url": "https://www.youtube.com/watch?v=uJA1qZirWVc",
       "thumb": "https://i2.ytimg.com/vi/uJA1qZirWVc/hqdefault.jpg",
       "published": "2026-10-22",
-      "category": "历史"
-    },
-    {
-      "id": "648ad9a945c0",
-      "platform": "youtube",
-      "videoId": "9Q9WAe_aqPs",
-      "title": "Is the Electoral College Broken?: Crash Course US Government #5",
-      "channel": "CrashCourse",
-      "url": "https://www.youtube.com/watch?v=9Q9WAe_aqPs",
-      "thumb": "https://i2.ytimg.com/vi/9Q9WAe_aqPs/hqdefault.jpg",
-      "published": "2026-10-20",
       "category": "历史"
     },
     {
@@ -222,25 +244,47 @@
       "category": "历史"
     },
     {
-      "id": "62405d39b7be",
+      "id": "d6afa35923dd",
+      "platform": "bilibili",
+      "videoId": "BV1Vbnn6iEfG",
+      "title": "法国影响力最大的八卦是什么？【神奇组织56】",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV1Vbnn6iEfG",
+      "thumb": "https://i0.hdslb.com/bfs/archive/39daf0b1339701666c0fe1d787af51b7413e3ac4.jpg",
+      "published": "2026-10-20",
+      "category": "历史"
+    },
+    {
+      "id": "dbb9e84ec1ac",
+      "platform": "bilibili",
+      "videoId": "BV1Cgpd6pEBR",
+      "title": "苏联版“空中监狱”是什么？【神奇组织55】",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV1Cgpd6pEBR",
+      "thumb": "https://i2.hdslb.com/bfs/archive/6b05de9e015c24f9c96e932f58274a2180b9c540.jpg",
+      "published": "2026-10-13",
+      "category": "历史"
+    },
+    {
+      "id": "ba9daab0c0d3",
       "platform": "youtube",
-      "videoId": "VFA53-P4yPo",
-      "title": "Tips for feeling confident in job interviews 🤝 | Improve your listening with Real Easy English",
+      "videoId": "4uviHrd2Zh4",
+      "title": "BOX SET: 6 Minute English - 'Weird & wonderful' English mega-class! 30 minutes of new vocab!",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=VFA53-P4yPo",
-      "thumb": "https://i3.ytimg.com/vi/VFA53-P4yPo/hqdefault.jpg",
-      "published": "2026-10-26",
+      "url": "https://www.youtube.com/watch?v=4uviHrd2Zh4",
+      "thumb": "https://i1.ytimg.com/vi/4uviHrd2Zh4/hqdefault.jpg",
+      "published": "2026-10-27",
       "category": "英语"
     },
     {
-      "id": "4484b4226121",
+      "id": "649053c7b239",
       "platform": "youtube",
-      "videoId": "3tyG0hkQJ-w",
-      "title": "🤓 Can you say these advanced English phrases before I do?",
+      "videoId": "bpEh_sEsYok",
+      "title": "Talk about job interviews in English 🤝 #englishpodcast  #bbclearningenglish  #job #interview",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/shorts/3tyG0hkQJ-w",
-      "thumb": "https://i4.ytimg.com/vi/3tyG0hkQJ-w/hqdefault.jpg",
-      "published": "2026-10-23",
+      "url": "https://www.youtube.com/shorts/bpEh_sEsYok",
+      "thumb": "https://i3.ytimg.com/vi/bpEh_sEsYok/hqdefault.jpg",
+      "published": "2026-10-27",
       "category": "英语"
     },
     {
@@ -271,21 +315,18 @@
     "图形学 · @Acerola_t: 2 条",
     "图形学 · 512313464: 2 条",
     "引擎 · @TheCherno: 2 条",
-    "Bilibili 437860379: code=-352 风控校验失败",
-    "引擎 · 437860379: 0 条",
+    "引擎 · 437860379: 2 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
-    "Bilibili 1567748478: code=-352 风控校验失败",
-    "CS · 1567748478: 0 条",
-    "CS · 202224425: 2 条",
+    "CS · 1567748478: 2 条",
+    "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 2 条",
     "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
     "Bilibili 11646119: code=-352 风控校验失败",
     "历史 · 11646119: 0 条",
-    "Bilibili 23947287: code=-352 风控校验失败",
-    "历史 · 23947287: 0 条",
+    "历史 · 23947287: 2 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
   ]
