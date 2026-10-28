@@ -1,303 +1,303 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "items": [
     {
-      "id": "376a6d8d15d4",
+      "id": "83a0a65e7bbf",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Bilawal Bhutto Zardari",
-      "url": "https://simple.wikipedia.org/wiki/Bilawal_Bhutto_Zardari",
-      "summary": "Bilawal Bhutto Zardari is co-chairman of the Pakistan Peoples Party (PPP), and the eldest child and only son of the late Pakistani politician and former Prime Minister Benazir Bhutto and her husband Asif Ali Zardari, the former President of Pakistan. Chairman Bhutto Zardari is a…",
+      "title": "Élie Ducommun",
+      "url": "https://simple.wikipedia.org/wiki/%C3%89lie_Ducommun",
+      "summary": "Élie Ducommun was a Swiss peace activist. He won the 1902 Nobel Peace Prize, which he shared with Charles Albert Gobat.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "7f200d42ad46",
+      "id": "bcf5b28b85c2",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "CBS Corporation",
-      "url": "https://simple.wikipedia.org/wiki/CBS_Corporation",
-      "summary": "CBS Corporation was an American mass media corporation focused on broadcasting, publishing, and television production. Until 2005, the company was known as Viacom. A new company, keeping the Viacom name, was spun off from CBS.",
+      "title": "Category theory",
+      "url": "https://simple.wikipedia.org/wiki/Category_theory",
+      "summary": "Category theory is a type of mathematics. Category theorists show how different ideas in mathematics are alike. For example, some ideas from topology and abstract algebra are similar. Ideas in category theory are written down in formulas or diagrams. Category theory can be used …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "0db83d2728d9",
+      "id": "ec58d21b88c5",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Three new discoveries in mathematics, computer science, and physics",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-      "summary": "Related: The Exponential Time Hypothesis Is False [pdf] - https://news.ycombinator.com/item?id=50251661",
-      "author": "jonluca",
-      "published": "2026-10-26",
-      "tags": [
-        "▲ 738"
-      ]
-    },
-    {
-      "id": "820116fa460f",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "The Exponential Time Hypothesis Is False [pdf]",
-      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
-      "summary": "See also: Announcing three new discoveries in mathematics, computer science, and physics - https://news.ycombinator.com/item?id=50251344",
-      "author": "vok",
-      "published": "2026-10-26",
-      "tags": [
-        "▲ 512"
-      ]
-    },
-    {
-      "id": "d1a3b4fa5d93",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
-      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "title": "Git for the US Code",
+      "url": "https://lexifina.com/blog/git-for-the-us-code",
       "summary": "",
-      "author": "sgiannopoulos",
-      "published": "2026-10-26",
+      "author": "alansaber",
+      "published": "2026-10-28",
       "tags": [
-        "▲ 649"
+        "▲ 183"
       ]
     },
     {
-      "id": "0d8cdf08f809",
+      "id": "945d36bd24c9",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Oldest GUI application that still runs on Windows 11",
-      "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
+      "title": "Artificial Analysis Intelligence Index v5.0",
+      "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
       "summary": "",
-      "author": "enlyth",
-      "published": "2026-10-26",
+      "author": "scooby7430",
+      "published": "2026-10-28",
       "tags": [
-        "▲ 373"
+        "▲ 34"
       ]
     },
     {
-      "id": "b6c028fd4bed",
+      "id": "d17d13a0006a",
       "category": "tech",
       "source": "Hacker News",
-      "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
-      "url": "https://github.com/otya128/winevdm",
+      "title": "Genie 4",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
       "summary": "",
-      "author": "doener",
+      "author": "acossta",
       "published": "2026-10-27",
       "tags": [
-        "▲ 64"
+        "▲ 831"
       ]
     },
     {
-      "id": "2693f45a7074",
+      "id": "068ca2c5cfac",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Type Server Protocol",
-      "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+      "title": "Ghostty 1.4",
+      "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
       "summary": "",
-      "author": "adamnemecek",
-      "published": "2026-10-26",
+      "author": "deaux",
+      "published": "2026-10-27",
       "tags": [
-        "▲ 225"
+        "▲ 914"
       ]
     },
     {
-      "id": "650545f05aa8",
+      "id": "fbb542eeca40",
       "category": "tech",
-      "source": "DEV Community",
-      "title": "How I built a zero-knowledge, self-destructing secret sharing tool",
-      "url": "https://dev.to/pradeepsng30/how-i-built-a-zero-knowledge-self-destructing-secret-sharing-tool-2kj8",
-      "summary": "Most of us have pasted a password or API key into Slack or email because it was the quickest option. That message then sits in search indexes, backups, and inboxes, often long after anyone needs it. Privnote and OneTimeSecret exist for this. I wanted one where the server can't r…",
-      "author": "Pradeep Singh",
-      "published": "Tue, 27 Oct 2026 06:15:03 +0000",
+      "source": "Hacker News",
+      "title": "Ink droplets in motion snag top prize in Nikon Small World contest",
+      "url": "https://arstechnica.com/science/2026/10/meet-the-2026-winner-of-nikons-small-world-photomicrography-contest/",
+      "summary": "",
+      "author": "_Microft",
+      "published": "2026-10-25",
       "tags": [
-        "security",
-        "webdev",
-        "opensource",
-        "privacy"
+        "▲ 170"
       ]
     },
     {
-      "id": "5bb3d07d31e0",
+      "id": "62b1fcdba263",
       "category": "tech",
-      "source": "DEV Community",
-      "title": "Next.js 16 updateTag vs revalidateTag: What Changed",
-      "url": "https://dev.to/parsajiravand/nextjs-16-updatetag-vs-revalidatetag-what-changed-1mci",
-      "summary": "Your team upgrades to Next.js 16, the build passes, and nothing in the diff touches caching. A week later, publishing a blog post starts taking noticeably longer — not to save, but for the next reader to see it. Somewhere in a Server Action sits a line nobody touched: revalidate…",
-      "author": "Parsa J",
-      "published": "Tue, 27 Oct 2026 06:11:02 +0000",
+      "source": "Hacker News",
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "url": "https://www.brangus.io/survival-llm",
+      "summary": "",
+      "author": "Luc",
+      "published": "2026-10-27",
       "tags": [
-        "nextjs",
-        "caching",
-        "webdev",
-        "tutorial"
+        "▲ 291"
       ]
     },
     {
-      "id": "ffea08c4ff61",
+      "id": "d24a06388866",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Stop Writing JS to Detect a Stuck Header. `scroll-state()` Fixes It.",
-      "url": "https://dev.to/parsajiravand/stop-writing-js-to-detect-a-stuck-header-scroll-state-fixes-it-4h40",
-      "summary": "The brief was one sentence: \"the header should get a shadow once it's stuck to the top.\" Not while it's visible — only once it's actually locked there, mid-scroll, floating over the content instead of sitting in it. Someone had already built it, eight months earlier, and it had …",
-      "author": "Parsa J",
-      "published": "Tue, 27 Oct 2026 06:10:31 +0000",
+      "title": "JSON to Zod Schema: Free Online JSON to Zod Converter — How-To Guide",
+      "url": "https://dev.to/layoffatlas/json-to-zod-schema-free-online-json-to-zod-converter-how-to-guide-i5j",
+      "summary": "JSON to Zod Schema: Free Online JSON to Zod Converter — How-To Guide If you work with TypeScript and Zod, you have probably typed out a schema by hand from a JSON sample at least once — and then fixed the field you forgot. ToolsFam's JSON to Zod Schema tool does that first draft…",
+      "author": "Layoff Atlas",
+      "published": "Wed, 28 Oct 2026 06:56:19 +0000",
       "tags": [
-        "css",
+        "productivity",
         "webdev",
-        "frontend",
-        "browser"
+        "tutorial",
+        "howto"
       ]
     },
     {
-      "id": "7e7333fdde77",
+      "id": "d1c92b63a80d",
       "category": "tech",
       "source": "DEV Community",
-      "title": "CSS Grid Explained: Two-Dimensional Layout, Finally Easy",
-      "url": "https://dev.to/practicaldevblog/css-grid-explained-two-dimensional-layout-finally-easy-2b4d",
-      "summary": "Introduction The Flexbox post covered one direction: a row or a column. Real page layouts need two directions at once — a header across the top, a sidebar and main content side by side, a footer across the bottom. That is CSS Grid's job, and it does it with remarkably little cod…",
-      "author": "The Practical Developer",
-      "published": "Tue, 27 Oct 2026 06:08:39 +0000",
+      "title": "How Meta prices WhatsApp API messages per country (2026), with code to estimate your bill",
+      "url": "https://dev.to/tobachat/how-meta-prices-whatsapp-api-messages-per-country-2026-with-code-to-estimate-your-bill-i26",
+      "summary": "If you send WhatsApp messages through Meta's Cloud API, the invoice is not a flat fee and not a price per seat. Three things decide it: the category of each message, the country of the person who receives it, and, since 1 October 2026, how many service replies each of your phone…",
+      "author": "Tobachat",
+      "published": "Wed, 28 Oct 2026 06:54:59 +0000",
       "tags": [
-        "css",
+        "whatsapp",
+        "api",
+        "python",
+        "webdev"
+      ]
+    },
+    {
+      "id": "5dce0b2102d5",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Fitness App Security: Protecting Tokens, APIs, and Sensitive Logs",
+      "url": "https://dev.to/m_techubllc_de541735eca5/fitness-app-security-protecting-tokens-apis-and-sensitive-logs-ajf",
+      "summary": "Imagine a fitness app that lets users track workouts, connect wearables, and monitor their progress. The login system works. Users can view their workout history, update their goals, and synchronize activity data. But behind the scenes, three potential problems remain: An authen…",
+      "author": "M TECHUB LLc",
+      "published": "Wed, 28 Oct 2026 06:54:01 +0000",
+      "tags": [
+        "ai",
         "webdev",
-        "beginners",
+        "programming",
+        "productivity"
+      ]
+    },
+    {
+      "id": "43d726c3fc29",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Why PHP should be upgraded?",
+      "url": "https://dev.to/yogeshgalav7/why-php-should-be-dead-edo",
+      "summary": "Hello guys, If you are reading this blog then you must have already gone through so much trauma of \"Php is dead\". But I'm not going to say that, neither disrespect any language. I have always respected experience and PHP has experience of handling 70% internet of 30 years. I hav…",
+      "author": "Yogesh Galav",
+      "published": "Wed, 28 Oct 2026 06:52:47 +0000",
+      "tags": [
+        "php",
+        "rust",
+        "webdev",
         "programming"
       ]
     },
     {
-      "id": "f59ceff9a96d",
+      "id": "bc5591ba2880",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "1986 New York Mets season",
-      "url": "https://en.wikipedia.org/wiki/1986_New_York_Mets_season",
-      "summary": "The 1986 New York Mets season was the 25th season for the New York Mets as a franchise of Major League Baseball, and their 22nd season playing at Shea Stadium in Queens. The team was managed by Davey Johnson, with their general manager being Frank Cashen. The Mets won the Nation…",
+      "title": "Second Battle of Newtonia",
+      "url": "https://en.wikipedia.org/wiki/Second_Battle_of_Newtonia",
+      "summary": "The Second Battle of Newtonia was fought on October 28, 1864, near Newtonia, Missouri, between cavalry commanded by Major General James G. Blunt of the Union Army and Brigadier General Joseph O. Shelby's rear guard of the Confederate Army of Missouri. In September 1864, Confeder…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "199eecef3d47",
+      "id": "5da481dc97b7",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Lula wins fourth term in dramatic Brazil election comeback",
-      "url": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
-      "summary": "The left-wing incumbent president had lost the first round to right-wing challenger Flávio Bolsonaro.",
-      "published": "Mon, 26 Oct 2026 21:02:47 GMT",
+      "title": "Norway and Finland leaders hold rare call with Putin",
+      "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
+      "summary": "An end to the conflict in Ukraine \"will not be achieved through silence,\" Finland's President Alexander Stubb said.",
+      "published": "Tue, 27 Oct 2026 18:28:23 GMT",
       "tags": []
     },
     {
-      "id": "1ab5871f3434",
+      "id": "4ce40386cade",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Ex-FBI chief James Comey faces federal charges for third time",
-      "url": "https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo?at_medium=RSS&at_campaign=rss",
-      "summary": "Comey's lawyers say the case stems from alleged disclosure of classified information to the New York Times in 2016.",
-      "published": "Tue, 27 Oct 2026 02:01:27 GMT",
+      "title": "Ceasefire extended across Ukraine's Kherson region, officials say",
+      "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss",
+      "summary": "The truce was originally planned for the stranded residents of Oleshky, and Russia and Ukraine say no breaches have been reported.",
+      "published": "Tue, 27 Oct 2026 22:11:08 GMT",
       "tags": []
     },
     {
-      "id": "12bda8609c19",
+      "id": "f8a0b434e80f",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Jordan carries out deadly strike in Syria in retaliation for church attack",
-      "url": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss",
-      "summary": "The attack on a village in Syria killed five people, including women and children, Syrian health officials said.",
-      "published": "Tue, 27 Oct 2026 02:40:17 GMT",
+      "title": "Mbappé sorry for 'ill-judged' Mao remark after backlash in China",
+      "url": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
+      "summary": "The France star had referred to the former Chinese leader as a \"dictator\" during an interview about memes.",
+      "published": "Tue, 27 Oct 2026 13:25:54 GMT",
       "tags": []
     },
     {
-      "id": "8a7169ca9484",
+      "id": "4ad22d4bdfab",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Meghan to co-host Junior MasterChef Australia",
-      "url": "https://www.bbc.co.uk/news/articles/crgqwg3ll1v1o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Duchess of Sussex says she \"can't wait\" to take part in the programme, which will air next year.",
-      "published": "Tue, 27 Oct 2026 04:43:56 GMT",
+      "title": "Lula's comeback in Brazil dents Trump's ambitions for Latin America",
+      "url": "https://www.bbc.co.uk/news/articles/cq62yg6rggj0o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Trump-Lula relationship may have thawed, but several issues could reignite tensions between the two leaders.",
+      "published": "Tue, 27 Oct 2026 01:46:38 GMT",
       "tags": []
     },
     {
-      "id": "594899e8d92e",
+      "id": "5b2f53c32341",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Microsoft offers to buy out a quarter of its workforce",
-      "url": "https://arstechnica.com/gadgets/2026/10/microsoft-offers-voluntary-buyouts-to-60000-employees/",
-      "summary": "Employees in the US, Canada, India, and the UK may receive offers to leave MS today.",
-      "author": "Nick Indge",
-      "published": "Mon, 26 Oct 2026 22:36:06 +0000",
+      "title": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip",
+      "url": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
+      "summary": "Additionally, the N1 chip brings Wi-Fi 7 and Bluetooth 6.",
+      "author": "Samuel Axon",
+      "published": "Tue, 27 Oct 2026 22:37:30 +0000",
       "tags": [
-        "Tech",
-        "buyout",
-        "force reduction",
-        "layoffs"
+        "Apple",
+        "apple",
+        "iMac",
+        "M6"
       ]
     },
     {
-      "id": "3013e4fb2f56",
+      "id": "60c506bba53d",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Worms mate in man's eyes, get plucked out right before larvae burst out",
-      "url": "https://arstechnica.com/health/2026/10/whats-worse-than-having-eye-worms-having-eye-worms-with-babies/",
-      "summary": "Case study gives a whole new meaning to \"bedroom eyes.\"",
+      "title": "South Carolina's measles outbreak jumped to Washington state 5 times in 2 weeks",
+      "url": "https://arstechnica.com/health/2026/10/domestic-travel-poses-growing-risk-for-measles-and-a-new-challenge-for-states/",
+      "summary": "International travel used to be the main risk of measles cases in the US—not anymore.",
       "author": "Beth Mole",
-      "published": "Mon, 26 Oct 2026 20:27:00 +0000",
+      "published": "Tue, 27 Oct 2026 22:22:32 +0000",
       "tags": [
         "Health",
-        "eye",
-        "infections",
-        "larvae"
+        "anti-vaccine",
+        "measles",
+        "outbreak"
       ]
     },
     {
-      "id": "283bfb813f45",
+      "id": "c0a45b82d2e0",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Meet the real-life Scottish surgeon who inspired Sherlock Holmes",
-      "url": "https://arstechnica.com/science/2026/10/meet-the-real-life-scottish-surgeon-who-inspired-sherlock-holmes/",
-      "summary": "Lindsey Fitzharris chats with Ars about her new book, Sleuth-Hound: The Case of the Real Sherlock Holmes .",
-      "author": "Jennifer Ouellette",
-      "published": "Mon, 26 Oct 2026 20:15:07 +0000",
+      "title": "China's top-secret spaceplane can't hide in low-Earth orbit",
+      "url": "https://arstechnica.com/space/2026/10/chinas-top-secret-spaceplane-cant-hide-in-low-earth-orbit/",
+      "summary": "The DIA's threat assessment suggests China may soon place directed energy weapons in space.",
+      "author": "Stephen Clark",
+      "published": "Tue, 27 Oct 2026 22:04:50 +0000",
       "tags": [
-        "Culture",
-        "Science",
-        "books",
-        "forensics"
+        "Space",
+        "china",
+        "Maxar",
+        "military space"
       ]
     },
     {
-      "id": "9d8b2e1623b7",
+      "id": "10e48c4b510e",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "What gave this city its ‘best place to retire’ crown? You can actually afford to live there.",
-      "url": "https://www.marketwatch.com/story/what-gave-this-city-its-best-place-to-retire-crown-you-can-actually-afford-to-live-there-a06f8f4d?mod=mw_rss_topstories",
-      "summary": "Low cost of living, high quality of life and favorable taxes for retirees, for the win.",
-      "author": "Jessica Hall",
-      "published": "Tue, 27 Oct 2026 04:01:00 GMT",
+      "title": "A leading Silicon Valley cheerleader just showed all the reasons to be worried about the AI bubble",
+      "url": "https://www.marketwatch.com/story/a-leading-silicon-valley-cheerleader-just-showed-all-the-reasons-to-be-worried-about-the-ai-bubble-e3b32fe1?mod=mw_rss_topstories",
+      "summary": "If you needed any further reasons to be worried about the bubble that has inflated the stock market, look no further.",
+      "author": "Brett Arends",
+      "published": "Wed, 28 Oct 2026 02:15:00 GMT",
       "tags": []
     },
     {
-      "id": "53d10c0e937a",
+      "id": "b455bff606d5",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘You need only watch episodes of Judge Judy’: I’m in my 70s. Why do people keep making the same avoidable financial mistakes?",
-      "url": "https://www.marketwatch.com/story/you-need-only-watch-episodes-of-judge-judy-im-in-my-70s-why-do-people-keep-making-the-same-avoidable-financial-mistakes-bbf60fe4?mod=mw_rss_topstories",
-      "summary": "“Consider some familiar examples of poor decisions: accumulating credit-card debt or failing to plan for retirement.”",
+      "title": "Retail traders buy the dip on chip stocks — but Robinhood gets burned by the crypto market",
+      "url": "https://www.marketwatch.com/story/retail-traders-buy-the-dip-on-chip-stocks-but-robinhood-gets-burned-by-the-crypto-market-33cea913?mod=mw_rss_topstories",
+      "summary": "Robinhood CFO says market volatility didn’t scare traders away from buying chip stocks “that they had really done research on.”",
+      "author": "Bill Peters",
+      "published": "Tue, 27 Oct 2026 22:51:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "8e2b93abe37f",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
+      "url": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
+      "summary": "“My late father bought our house for $250,000 in the 1990s.”",
       "author": "Quentin Fottrell",
-      "published": "Mon, 26 Oct 2026 22:30:00 GMT",
-      "tags": []
-    },
-    {
-      "id": "8d049f773268",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "Dividend stocks are having an excellent October as tech sector struggles",
-      "url": "https://www.marketwatch.com/story/dividend-stocks-are-having-an-excellent-october-as-tech-sector-struggles-5ae40b02?mod=mw_rss_topstories",
-      "summary": "ETFs focused on dividend stocks are seeing a powerful rally in October, adding to huge gains in 2026.",
-      "author": "Christine Idzelis",
-      "published": "Mon, 26 Oct 2026 22:10:00 GMT",
+      "published": "Tue, 27 Oct 2026 22:18:00 GMT",
       "tags": []
     }
   ],
