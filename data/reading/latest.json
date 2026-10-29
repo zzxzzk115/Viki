@@ -1,303 +1,299 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "items": [
     {
-      "id": "83a0a65e7bbf",
+      "id": "943f54ddbd5d",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Élie Ducommun",
-      "url": "https://simple.wikipedia.org/wiki/%C3%89lie_Ducommun",
-      "summary": "Élie Ducommun was a Swiss peace activist. He won the 1902 Nobel Peace Prize, which he shared with Charles Albert Gobat.",
+      "title": "Hervé Blanc",
+      "url": "https://simple.wikipedia.org/wiki/Herv%C3%A9_Blanc",
+      "summary": "Hervé Blanc was a French actor. He was born in Lyon. He was known for his role in the 1980 drama movie A Week's Vacation. He also starred in L'Été ardent (1982), L'émir préfère les blondes (1983), Un fils (2003) and in Ceci est mon corps (2014).",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "bcf5b28b85c2",
+      "id": "0d0d05f6f8d1",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Category theory",
-      "url": "https://simple.wikipedia.org/wiki/Category_theory",
-      "summary": "Category theory is a type of mathematics. Category theorists show how different ideas in mathematics are alike. For example, some ideas from topology and abstract algebra are similar. Ideas in category theory are written down in formulas or diagrams. Category theory can be used …",
+      "title": "Cella Monte",
+      "url": "https://simple.wikipedia.org/wiki/Cella_Monte",
+      "summary": "Cella Monte is a comune in the Province of Alessandria in the Piedmont region in Italy.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "ec58d21b88c5",
+      "id": "44e3e5f137f8",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Git for the US Code",
-      "url": "https://lexifina.com/blog/git-for-the-us-code",
+      "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+      "url": "https://divagr.com/blog/qwenputer",
       "summary": "",
-      "author": "alansaber",
+      "author": "csmantle",
+      "published": "2026-10-29",
+      "tags": [
+        "▲ 331"
+      ]
+    },
+    {
+      "id": "2365cd15a328",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Why is this fingerprinting script creating bioweapons?",
+      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "summary": "",
+      "author": "hazebooth",
       "published": "2026-10-28",
       "tags": [
-        "▲ 183"
+        "▲ 1071"
       ]
     },
     {
-      "id": "945d36bd24c9",
+      "id": "d272a19a3aa1",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Artificial Analysis Intelligence Index v5.0",
-      "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+      "title": "A new faster algorithm to compute 64-bit signed floor division",
+      "url": "https://www.benjoffe.com/fast-floordiv",
       "summary": "",
-      "author": "scooby7430",
+      "author": "benjoffe",
+      "published": "2026-10-27",
+      "tags": [
+        "▲ 28"
+      ]
+    },
+    {
+      "id": "c6d25904346f",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
+      "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
+      "summary": "",
+      "author": "sashk",
       "published": "2026-10-28",
       "tags": [
-        "▲ 34"
+        "▲ 151"
       ]
     },
     {
-      "id": "d17d13a0006a",
+      "id": "e9c465a65bcb",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Genie 4",
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "title": "A Health Update",
+      "url": "https://furbo.org/2026/10/28/a-health-update/",
       "summary": "",
-      "author": "acossta",
-      "published": "2026-10-27",
+      "author": "frizlab",
+      "published": "2026-10-28",
       "tags": [
-        "▲ 831"
+        "▲ 198"
       ]
     },
     {
-      "id": "068ca2c5cfac",
+      "id": "271134257c4a",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Ghostty 1.4",
-      "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+      "title": "Claude Code regularly sends each background agent’s transcript to its model",
+      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
       "summary": "",
-      "author": "deaux",
-      "published": "2026-10-27",
+      "author": "NikZaal",
+      "published": "2026-10-29",
       "tags": [
-        "▲ 914"
+        "▲ 270"
       ]
     },
     {
-      "id": "fbb542eeca40",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Ink droplets in motion snag top prize in Nikon Small World contest",
-      "url": "https://arstechnica.com/science/2026/10/meet-the-2026-winner-of-nikons-small-world-photomicrography-contest/",
-      "summary": "",
-      "author": "_Microft",
-      "published": "2026-10-25",
-      "tags": [
-        "▲ 170"
-      ]
-    },
-    {
-      "id": "62b1fcdba263",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
-      "url": "https://www.brangus.io/survival-llm",
-      "summary": "",
-      "author": "Luc",
-      "published": "2026-10-27",
-      "tags": [
-        "▲ 291"
-      ]
-    },
-    {
-      "id": "d24a06388866",
+      "id": "a7b8d119afe2",
       "category": "tech",
       "source": "DEV Community",
-      "title": "JSON to Zod Schema: Free Online JSON to Zod Converter — How-To Guide",
-      "url": "https://dev.to/layoffatlas/json-to-zod-schema-free-online-json-to-zod-converter-how-to-guide-i5j",
-      "summary": "JSON to Zod Schema: Free Online JSON to Zod Converter — How-To Guide If you work with TypeScript and Zod, you have probably typed out a schema by hand from a JSON sample at least once — and then fixed the field you forgot. ToolsFam's JSON to Zod Schema tool does that first draft…",
-      "author": "Layoff Atlas",
-      "published": "Wed, 28 Oct 2026 06:56:19 +0000",
+      "title": "Block patterns as a handoff contract: reusable sections non-coders can edit",
+      "url": "https://dev.to/aumcreate/block-patterns-as-a-handoff-contract-reusable-sections-non-coders-can-edit-245a",
+      "summary": "Two weeks after the handover call, the homepage has three button sizes, two heading colours, and a section copied from another page with the old phone number still in it. The person editing did what anyone would do with an empty editor and no vocabulary for the design. Patterns …",
+      "author": "AumCreate",
+      "published": "Thu, 29 Oct 2026 07:14:29 +0000",
       "tags": [
-        "productivity",
+        "frontend",
         "webdev",
-        "tutorial",
-        "howto"
+        "wordpress"
       ]
     },
     {
-      "id": "d1c92b63a80d",
+      "id": "d40b922a65ef",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How Meta prices WhatsApp API messages per country (2026), with code to estimate your bill",
-      "url": "https://dev.to/tobachat/how-meta-prices-whatsapp-api-messages-per-country-2026-with-code-to-estimate-your-bill-i26",
-      "summary": "If you send WhatsApp messages through Meta's Cloud API, the invoice is not a flat fee and not a price per seat. Three things decide it: the category of each message, the country of the person who receives it, and, since 1 October 2026, how many service replies each of your phone…",
-      "author": "Tobachat",
-      "published": "Wed, 28 Oct 2026 06:54:59 +0000",
+      "title": "How to stop alert fatigue in uptime monitoring: 7 practical fixes",
+      "url": "https://dev.to/halvyn_53656c6858286ebc34/how-to-stop-alert-fatigue-in-uptime-monitoring-7-practical-fixes-138p",
+      "summary": "One outage should be one alert. In practice, most teams get something closer to forty: a check fails every minute, every failure sends a notification, and by the time someone opens their laptop the channel is a wall of red. People start muting the channel, and then a real outage…",
+      "author": "Halvyn.win",
+      "published": "Thu, 29 Oct 2026 07:13:09 +0000",
       "tags": [
-        "whatsapp",
-        "api",
-        "python",
+        "monitoring",
+        "devops",
+        "sre",
         "webdev"
       ]
     },
     {
-      "id": "5dce0b2102d5",
+      "id": "3e28473f35f2",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Fitness App Security: Protecting Tokens, APIs, and Sensitive Logs",
-      "url": "https://dev.to/m_techubllc_de541735eca5/fitness-app-security-protecting-tokens-apis-and-sensitive-logs-ajf",
-      "summary": "Imagine a fitness app that lets users track workouts, connect wearables, and monitor their progress. The login system works. Users can view their workout history, update their goals, and synchronize activity data. But behind the scenes, three potential problems remain: An authen…",
-      "author": "M TECHUB LLc",
-      "published": "Wed, 28 Oct 2026 06:54:01 +0000",
+      "title": "Exorcist: a ghost hunter for your package.json",
+      "url": "https://dev.to/ibrahimiqbal/exorcist-a-ghost-hunter-for-your-packagejson-4oij",
+      "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine What I Built Exorcist is a dependency health scanner for package.json — the checks npm audit doesn't run. Drop in a file (or paste a GitHub repo URL) and it finds the slow rot every …",
+      "author": "Mohd. Ibrahim Iqbal",
+      "published": "Thu, 29 Oct 2026 07:08:46 +0000",
+      "tags": [
+        "hf26challenge",
+        "devchallenge",
+        "opensource",
+        "webdev"
+      ]
+    },
+    {
+      "id": "3ddc23445ac4",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "WSP MCP: Connect WordPress with AI Agents",
+      "url": "https://dev.to/wspmcp67/wsp-mcp-connect-wordpress-with-ai-agents-1pcd",
+      "summary": "Artificial intelligence is changing the way website owners manage their WordPress websites. Tasks that once required multiple dashboard visits, manual editing, and repetitive work can now be handled through AI-powered assistants. From writing blog posts to reviewing SEO metadata…",
+      "author": "WSP MCP",
+      "published": "Thu, 29 Oct 2026 07:02:25 +0000",
       "tags": [
         "ai",
-        "webdev",
-        "programming",
-        "productivity"
+        "webdev"
       ]
     },
     {
-      "id": "43d726c3fc29",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Why PHP should be upgraded?",
-      "url": "https://dev.to/yogeshgalav7/why-php-should-be-dead-edo",
-      "summary": "Hello guys, If you are reading this blog then you must have already gone through so much trauma of \"Php is dead\". But I'm not going to say that, neither disrespect any language. I have always respected experience and PHP has experience of handling 70% internet of 30 years. I hav…",
-      "author": "Yogesh Galav",
-      "published": "Wed, 28 Oct 2026 06:52:47 +0000",
-      "tags": [
-        "php",
-        "rust",
-        "webdev",
-        "programming"
-      ]
-    },
-    {
-      "id": "bc5591ba2880",
+      "id": "2d9f06c9549e",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Second Battle of Newtonia",
-      "url": "https://en.wikipedia.org/wiki/Second_Battle_of_Newtonia",
-      "summary": "The Second Battle of Newtonia was fought on October 28, 1864, near Newtonia, Missouri, between cavalry commanded by Major General James G. Blunt of the Union Army and Brigadier General Joseph O. Shelby's rear guard of the Confederate Army of Missouri. In September 1864, Confeder…",
+      "title": "Chimacum Creek",
+      "url": "https://en.wikipedia.org/wiki/Chimacum_Creek",
+      "summary": "Chimacum Creek is a stream in Jefferson County, Washington, United States. Located on the base of the Quimper Peninsula in the northeast of the larger Olympic Peninsula, the main stem originates from a series of springs and ponds in the forested hills south of Discovery Bay. It …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "5da481dc97b7",
+      "id": "57cf444b547f",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Norway and Finland leaders hold rare call with Putin",
-      "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
-      "summary": "An end to the conflict in Ukraine \"will not be achieved through silence,\" Finland's President Alexander Stubb said.",
-      "published": "Tue, 27 Oct 2026 18:28:23 GMT",
+      "title": "High-speed train crash kills at least 68 people in Spain",
+      "url": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss",
+      "summary": "The crash, between a moving train and another that was stopped further up the track, was caused by an \"inexplicable\" error, the transport minister said.",
+      "published": "Wed, 28 Oct 2026 21:38:54 GMT",
       "tags": []
     },
     {
-      "id": "4ce40386cade",
+      "id": "c2cf1e6fc552",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Ceasefire extended across Ukraine's Kherson region, officials say",
-      "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss",
-      "summary": "The truce was originally planned for the stranded residents of Oleshky, and Russia and Ukraine say no breaches have been reported.",
-      "published": "Tue, 27 Oct 2026 22:11:08 GMT",
+      "title": "Bloodied, dazed and angry - how passengers' rail journey turned to disaster in Spain",
+      "url": "https://www.bbc.co.uk/news/articles/cm9qzd47ng98o?at_medium=RSS&at_campaign=rss",
+      "summary": "Survivors of the train crash in Spain have spoken of their shock, panic and anger at the accident in Toledo province on Wednesday.",
+      "published": "Wed, 28 Oct 2026 21:24:41 GMT",
       "tags": []
     },
     {
-      "id": "f8a0b434e80f",
+      "id": "a813b60a7f3c",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Mbappé sorry for 'ill-judged' Mao remark after backlash in China",
-      "url": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
-      "summary": "The France star had referred to the former Chinese leader as a \"dictator\" during an interview about memes.",
-      "published": "Tue, 27 Oct 2026 13:25:54 GMT",
+      "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+      "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
+      "summary": "The defeated Brazilian candidate claims to be the victim of a coup d’état and political persecution, recycling unsubstantiated allegations of “electoral fraud”.",
+      "published": "Thu, 29 Oct 2026 01:14:01 GMT",
       "tags": []
     },
     {
-      "id": "4ad22d4bdfab",
+      "id": "066ab2051e99",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Lula's comeback in Brazil dents Trump's ambitions for Latin America",
-      "url": "https://www.bbc.co.uk/news/articles/cq62yg6rggj0o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Trump-Lula relationship may have thawed, but several issues could reignite tensions between the two leaders.",
-      "published": "Tue, 27 Oct 2026 01:46:38 GMT",
+      "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+      "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
+      "summary": "With 85% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
+      "published": "Wed, 28 Oct 2026 20:24:39 GMT",
       "tags": []
     },
     {
-      "id": "5b2f53c32341",
+      "id": "f1032294b76f",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip",
-      "url": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
-      "summary": "Additionally, the N1 chip brings Wi-Fi 7 and Bluetooth 6.",
-      "author": "Samuel Axon",
-      "published": "Tue, 27 Oct 2026 22:37:30 +0000",
+      "title": "ULA's Vulcan rocket is set to return to flight on Friday the 13th",
+      "url": "https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th/",
+      "summary": "This Vulcan launch will be the first to utilize a full complement of six solid rocket boosters.",
+      "author": "Stephen Clark",
+      "published": "Wed, 28 Oct 2026 22:51:15 +0000",
       "tags": [
-        "Apple",
-        "apple",
-        "iMac",
-        "M6"
+        "Science",
+        "Space",
+        "Amazon",
+        "amazon leo"
       ]
     },
     {
-      "id": "60c506bba53d",
+      "id": "47ebb1c951d4",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "South Carolina's measles outbreak jumped to Washington state 5 times in 2 weeks",
-      "url": "https://arstechnica.com/health/2026/10/domestic-travel-poses-growing-risk-for-measles-and-a-new-challenge-for-states/",
-      "summary": "International travel used to be the main risk of measles cases in the US—not anymore.",
+      "title": "As US ties fray, Europe plans first undersea cable link to Greenland",
+      "url": "https://arstechnica.com/gadgets/2026/10/as-us-ties-fray-europe-plans-first-undersea-cable-link-to-greenland/",
+      "summary": "Europe's Pan-Arctic Cable will bypass US to link Canada, Japan, and South Korea.",
+      "author": "Jeremy Hsu",
+      "published": "Wed, 28 Oct 2026 22:35:50 +0000",
+      "tags": [
+        "Tech",
+        "Arctic",
+        "Canada",
+        "european union"
+      ]
+    },
+    {
+      "id": "4af1c4c13109",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Peptide peddlers cheer as RFK Jr. unilaterally grants access, overruling FDA",
+      "url": "https://arstechnica.com/health/2026/10/peptide-peddlers-cheer-as-rfk-jr-unilaterally-grants-access-overruling-fda/",
+      "summary": "Six unproven peptides popular with MAHA now under \"enforcement discretion policy.\"",
       "author": "Beth Mole",
-      "published": "Tue, 27 Oct 2026 22:22:32 +0000",
+      "published": "Wed, 28 Oct 2026 22:17:15 +0000",
       "tags": [
         "Health",
-        "anti-vaccine",
-        "measles",
-        "outbreak"
+        "fda",
+        "Peptides"
       ]
     },
     {
-      "id": "c0a45b82d2e0",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "China's top-secret spaceplane can't hide in low-Earth orbit",
-      "url": "https://arstechnica.com/space/2026/10/chinas-top-secret-spaceplane-cant-hide-in-low-earth-orbit/",
-      "summary": "The DIA's threat assessment suggests China may soon place directed energy weapons in space.",
-      "author": "Stephen Clark",
-      "published": "Tue, 27 Oct 2026 22:04:50 +0000",
-      "tags": [
-        "Space",
-        "china",
-        "Maxar",
-        "military space"
-      ]
-    },
-    {
-      "id": "10e48c4b510e",
+      "id": "5525c8574c19",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "A leading Silicon Valley cheerleader just showed all the reasons to be worried about the AI bubble",
-      "url": "https://www.marketwatch.com/story/a-leading-silicon-valley-cheerleader-just-showed-all-the-reasons-to-be-worried-about-the-ai-bubble-e3b32fe1?mod=mw_rss_topstories",
-      "summary": "If you needed any further reasons to be worried about the bubble that has inflated the stock market, look no further.",
-      "author": "Brett Arends",
-      "published": "Wed, 28 Oct 2026 02:15:00 GMT",
+      "title": "Why Alphabet’s stock could see its worst drop in years after the latest results",
+      "url": "https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98?mod=mw_rss_topstories",
+      "summary": "A doubling of cloud revenue wasn’t enough to appease Wall Street as investors grew more concerned that AI is hurting the company’s ability to make money off search queries.",
+      "author": "Christine Ji",
+      "published": "Thu, 29 Oct 2026 01:58:00 GMT",
       "tags": []
     },
     {
-      "id": "b455bff606d5",
+      "id": "90fc6b01b04c",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Retail traders buy the dip on chip stocks — but Robinhood gets burned by the crypto market",
-      "url": "https://www.marketwatch.com/story/retail-traders-buy-the-dip-on-chip-stocks-but-robinhood-gets-burned-by-the-crypto-market-33cea913?mod=mw_rss_topstories",
-      "summary": "Robinhood CFO says market volatility didn’t scare traders away from buying chip stocks “that they had really done research on.”",
-      "author": "Bill Peters",
-      "published": "Tue, 27 Oct 2026 22:51:00 GMT",
+      "title": "Lumentum’s stock pops as investors cheer a possible sale to Marvell",
+      "url": "https://www.marketwatch.com/story/lumentums-stock-pops-as-investors-cheer-a-possible-sale-to-marvell-07c1d0e8?mod=mw_rss_topstories",
+      "summary": "An agreement between the companies could come next week, Bloomberg reported",
+      "author": "Britney Nguyen",
+      "published": "Thu, 29 Oct 2026 00:20:00 GMT",
       "tags": []
     },
     {
-      "id": "8e2b93abe37f",
+      "id": "53d10c0e937a",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
-      "url": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
-      "summary": "“My late father bought our house for $250,000 in the 1990s.”",
+      "title": "‘Just watch Judge Judy’: I’m in my 70s. Why do people keep making the same avoidable financial mistakes?",
+      "url": "https://www.marketwatch.com/story/you-need-only-watch-episodes-of-judge-judy-im-in-my-70s-why-do-people-keep-making-the-same-avoidable-financial-mistakes-bbf60fe4?mod=mw_rss_topstories",
+      "summary": "“Consider some familiar examples of poor decisions: accumulating credit-card debt or failing to plan for retirement.”",
       "author": "Quentin Fottrell",
-      "published": "Tue, 27 Oct 2026 22:18:00 GMT",
+      "published": "Thu, 29 Oct 2026 00:15:00 GMT",
       "tags": []
     }
   ],
