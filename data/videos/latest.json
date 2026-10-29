@@ -1,6 +1,17 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "items": [
+    {
+      "id": "c66d1bea7b6b",
+      "platform": "youtube",
+      "videoId": "pryCaGv8wuo",
+      "title": "Deepseek's New AI Has A Secret",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=pryCaGv8wuo",
+      "thumb": "https://i1.ytimg.com/vi/pryCaGv8wuo/hqdefault.jpg",
+      "published": "2026-10-28",
+      "category": "图形学"
+    },
     {
       "id": "5565a81df603",
       "platform": "youtube",
@@ -10,17 +21,6 @@
       "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
       "thumb": "https://i1.ytimg.com/vi/LWxX6vvHfrc/hqdefault.jpg",
       "published": "2026-10-19",
-      "category": "图形学"
-    },
-    {
-      "id": "3c1e366833a4",
-      "platform": "youtube",
-      "videoId": "z_sXLlLVUls",
-      "title": "OpenAI’s New AI Is Doing Things We Barely Understand",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
-      "thumb": "https://i3.ytimg.com/vi/z_sXLlLVUls/hqdefault.jpg",
-      "published": "2026-10-13",
       "category": "图形学"
     },
     {
@@ -46,28 +46,6 @@
       "category": "图形学"
     },
     {
-      "id": "dc49fc3eddfc",
-      "platform": "bilibili",
-      "videoId": "BV1k2Jy6jEbX",
-      "title": "GAMES Webinar 418-具身智能专题-郝策-迈向通用具身智能：机器人操作与腿足运动中的学习范式",
-      "channel": "GAMES-Webinar",
-      "url": "https://www.bilibili.com/video/BV1k2Jy6jEbX",
-      "thumb": "https://i1.hdslb.com/bfs/archive/9b7da275d7926d6c07f10c37601ff51b9ecb2e35.jpg",
-      "published": "2026-10-15",
-      "category": "图形学"
-    },
-    {
-      "id": "b2c1ea0ea2c5",
-      "platform": "bilibili",
-      "videoId": "BV1P2Jy6EEFo",
-      "title": "GAMES Webinar 418-具身智能专题-汪怡暄-面向机器人策略训练与评估的交互式世界模拟器",
-      "channel": "GAMES-Webinar",
-      "url": "https://www.bilibili.com/video/BV1P2Jy6EEFo",
-      "thumb": "https://i1.hdslb.com/bfs/archive/f4819d4bfae6103b77d6c87bbac800dcbaa43101.jpg",
-      "published": "2026-10-15",
-      "category": "图形学"
-    },
-    {
       "id": "9fa31e74074c",
       "platform": "youtube",
       "videoId": "YRwtopFzRZ0",
@@ -87,28 +65,6 @@
       "url": "https://www.youtube.com/watch?v=sY_U3-ih4Bs",
       "thumb": "https://i4.ytimg.com/vi/sY_U3-ih4Bs/hqdefault.jpg",
       "published": "2022-05-05",
-      "category": "引擎"
-    },
-    {
-      "id": "74d5969623e3",
-      "platform": "bilibili",
-      "videoId": "BV1BTnxzKEVv",
-      "title": "2025.9月编程语言排行榜 C++、C、JAVA亚军之争异常激烈 Perl的火爆与人工智能无关",
-      "channel": "原子之音",
-      "url": "https://www.bilibili.com/video/BV1BTnxzKEVv",
-      "thumb": "https://i0.hdslb.com/bfs/archive/57a35f617d5a79a0ce357179e98382a0c2786185.jpg",
-      "published": "2025-09-26",
-      "category": "引擎"
-    },
-    {
-      "id": "20c78ca36141",
-      "platform": "bilibili",
-      "videoId": "BV1TXWVzZEx4",
-      "title": "虚幻中的C++: 输入系统(Input与Enhanced Input)",
-      "channel": "原子之音",
-      "url": "https://www.bilibili.com/video/BV1TXWVzZEx4",
-      "thumb": "https://i0.hdslb.com/bfs/archive/56b88c2f99c47fd48d8dd518d296fa8697902d72.jpg",
-      "published": "2025-09-20",
       "category": "引擎"
     },
     {
@@ -156,26 +112,15 @@
       "category": "CS"
     },
     {
-      "id": "9018e970ca98",
-      "platform": "bilibili",
-      "videoId": "BV1ScKR6QEQF",
-      "title": "古法做视频里加一点点科技",
-      "channel": "跟李沐学AI",
-      "url": "https://www.bilibili.com/video/BV1ScKR6QEQF",
-      "thumb": "https://i0.hdslb.com/bfs/archive/b9d2e88f8d41fe24cecddcf715756265ff68b9d2.jpg",
-      "published": "2026-06-29",
-      "category": "CS"
-    },
-    {
-      "id": "4001551d4ad2",
-      "platform": "bilibili",
-      "videoId": "BV1RfEw6LEfF",
-      "title": "能跟你对话的TTS【开源】",
-      "channel": "跟李沐学AI",
-      "url": "https://www.bilibili.com/video/BV1RfEw6LEfF",
-      "thumb": "https://i0.hdslb.com/bfs/archive/414b79823c78f30b3e60d27f14c0f44111f0234f.jpg",
-      "published": "2026-06-04",
-      "category": "CS"
+      "id": "9b29f2e25077",
+      "platform": "youtube",
+      "videoId": "6ZrgRjdJs3o",
+      "title": "The Numbers Behind Anthropic",
+      "channel": "The Plain Bagel",
+      "url": "https://www.youtube.com/watch?v=6ZrgRjdJs3o",
+      "thumb": "https://i3.ytimg.com/vi/6ZrgRjdJs3o/hqdefault.jpg",
+      "published": "2026-10-28",
+      "category": "金融"
     },
     {
       "id": "a033df46a3fb",
@@ -189,13 +134,24 @@
       "category": "金融"
     },
     {
-      "id": "881380eca6dd",
-      "platform": "youtube",
-      "videoId": "0ZCVKL_PDsg",
-      "title": "How BAD Are Stock Valuations Really?",
-      "channel": "The Plain Bagel",
-      "url": "https://www.youtube.com/watch?v=0ZCVKL_PDsg",
-      "thumb": "https://i1.ytimg.com/vi/0ZCVKL_PDsg/hqdefault.jpg",
+      "id": "6102a6307195",
+      "platform": "bilibili",
+      "videoId": "BV1yUHP6rEYD",
+      "title": "你需要多少钱，才能财富自由？",
+      "channel": "小Lin说",
+      "url": "https://www.bilibili.com/video/BV1yUHP6rEYD",
+      "thumb": "https://i2.hdslb.com/bfs/archive/1cf9eb5cb876083499ce040ac49f31e9ffc21cdd.jpg",
+      "published": "2026-10-24",
+      "category": "金融"
+    },
+    {
+      "id": "c9fc725b1017",
+      "platform": "bilibili",
+      "videoId": "BV1FCps68EGf",
+      "title": "史上最大现金收购案 富二代如何正确拼爹",
+      "channel": "小Lin说",
+      "url": "https://www.bilibili.com/video/BV1FCps68EGf",
+      "thumb": "https://i0.hdslb.com/bfs/archive/0a9baee1364519b7f04c7c303d5fb81fd19b0f6f.jpg",
       "published": "2026-10-09",
       "category": "金融"
     },
@@ -244,6 +200,17 @@
       "category": "历史"
     },
     {
+      "id": "b91ea9b965e8",
+      "platform": "bilibili",
+      "videoId": "BV1ocsd6jErz",
+      "title": "韦维尔的疯人院  英属印度·1914",
+      "channel": "小约翰可汗",
+      "url": "https://www.bilibili.com/video/BV1ocsd6jErz",
+      "thumb": "https://i1.hdslb.com/bfs/archive/7778c081cfc11f68f2ea6ca5ef786f5f8a6f4f18.jpg",
+      "published": "2026-10-29",
+      "category": "历史"
+    },
+    {
       "id": "d6afa35923dd",
       "platform": "bilibili",
       "videoId": "BV1Vbnn6iEfG",
@@ -255,36 +222,25 @@
       "category": "历史"
     },
     {
-      "id": "dbb9e84ec1ac",
-      "platform": "bilibili",
-      "videoId": "BV1Cgpd6pEBR",
-      "title": "苏联版“空中监狱”是什么？【神奇组织55】",
-      "channel": "小约翰可汗",
-      "url": "https://www.bilibili.com/video/BV1Cgpd6pEBR",
-      "thumb": "https://i2.hdslb.com/bfs/archive/6b05de9e015c24f9c96e932f58274a2180b9c540.jpg",
-      "published": "2026-10-13",
-      "category": "历史"
-    },
-    {
-      "id": "ba9daab0c0d3",
+      "id": "8cd4da16de71",
       "platform": "youtube",
-      "videoId": "4uviHrd2Zh4",
-      "title": "BOX SET: 6 Minute English - 'Weird & wonderful' English mega-class! 30 minutes of new vocab!",
+      "videoId": "Yxnvq6dxXXw",
+      "title": "How to make polite conversation 💬",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=4uviHrd2Zh4",
-      "thumb": "https://i1.ytimg.com/vi/4uviHrd2Zh4/hqdefault.jpg",
-      "published": "2026-10-27",
+      "url": "https://www.youtube.com/watch?v=Yxnvq6dxXXw",
+      "thumb": "https://i2.ytimg.com/vi/Yxnvq6dxXXw/hqdefault.jpg",
+      "published": "2026-10-28",
       "category": "英语"
     },
     {
-      "id": "649053c7b239",
+      "id": "f816e39ea9cb",
       "platform": "youtube",
-      "videoId": "bpEh_sEsYok",
-      "title": "Talk about job interviews in English 🤝 #englishpodcast  #bbclearningenglish  #job #interview",
+      "videoId": "8P1StZMmGJ8",
+      "title": "Lula surprises many with fourth election win | BBC Learning English from the News",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/shorts/bpEh_sEsYok",
-      "thumb": "https://i3.ytimg.com/vi/bpEh_sEsYok/hqdefault.jpg",
-      "published": "2026-10-27",
+      "url": "https://www.youtube.com/watch?v=8P1StZMmGJ8",
+      "thumb": "https://i1.ytimg.com/vi/8P1StZMmGJ8/hqdefault.jpg",
+      "published": "2026-10-28",
       "category": "英语"
     },
     {
@@ -313,18 +269,18 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "图形学 · 512313464: 2 条",
+    "图形学 · 512313464: 0 条",
     "引擎 · @TheCherno: 2 条",
-    "引擎 · 437860379: 2 条",
+    "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
-    "CS · 1567748478: 2 条",
+    "CS · 1567748478: 0 条",
+    "Bilibili 202224425: code=-352 风控校验失败",
     "CS · 202224425: 0 条",
     "金融 · @ThePlainBagel: 2 条",
-    "金融 · 520819684: 0 条",
+    "金融 · 520819684: 2 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
-    "Bilibili 11646119: code=-352 风控校验失败",
     "历史 · 11646119: 0 条",
     "历史 · 23947287: 2 条",
     "英语 · @bbclearningenglish: 2 条",
