@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "items": [
     {
       "id": "c66d1bea7b6b",
       "platform": "youtube",
       "videoId": "pryCaGv8wuo",
-      "title": "Deepseek's New AI Has A Secret",
+      "title": "DeepSeek's New AI Is An Absolute Monster",
       "channel": "Two Minute Papers",
       "url": "https://www.youtube.com/watch?v=pryCaGv8wuo",
       "thumb": "https://i1.ytimg.com/vi/pryCaGv8wuo/hqdefault.jpg",
@@ -46,26 +46,37 @@
       "category": "图形学"
     },
     {
-      "id": "9fa31e74074c",
+      "id": "231b709e401b",
       "platform": "youtube",
-      "videoId": "YRwtopFzRZ0",
-      "title": "The Matrix Awakens - Unreal Engine 5 \"Experience\" // Game Engine Dev Reacts",
-      "channel": "More Cherno",
-      "url": "https://www.youtube.com/watch?v=YRwtopFzRZ0",
-      "thumb": "https://i2.ytimg.com/vi/YRwtopFzRZ0/hqdefault.jpg",
-      "published": "2022-07-08",
+      "videoId": "R_uf5OfMGio",
+      "title": "Can AI Make a Game Engine?",
+      "channel": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=R_uf5OfMGio",
+      "thumb": "https://i3.ytimg.com/vi/R_uf5OfMGio/hqdefault.jpg",
+      "published": "2026-10-04",
       "category": "引擎"
     },
     {
-      "id": "984c56e48d53",
+      "id": "1bd7e3d429df",
       "platform": "youtube",
-      "videoId": "sY_U3-ih4Bs",
-      "title": "BLACK and WHITE Game!  // Game Engine Dev Reacts to Trek to Yomi",
-      "channel": "More Cherno",
-      "url": "https://www.youtube.com/watch?v=sY_U3-ih4Bs",
-      "thumb": "https://i4.ytimg.com/vi/sY_U3-ih4Bs/hqdefault.jpg",
-      "published": "2022-05-05",
+      "videoId": "KL1Q9PS6Lzs",
+      "title": "Using AI to Finish Multiplayer for My Game Engine",
+      "channel": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=KL1Q9PS6Lzs",
+      "thumb": "https://i4.ytimg.com/vi/KL1Q9PS6Lzs/hqdefault.jpg",
+      "published": "2026-09-27",
       "category": "引擎"
+    },
+    {
+      "id": "427f315ce6db",
+      "platform": "youtube",
+      "videoId": "iJU6csQs_no",
+      "title": "Blind Ranking Numbers (Daniel Litt)",
+      "channel": "Numberphile",
+      "url": "https://www.youtube.com/shorts/iJU6csQs_no",
+      "thumb": "https://i2.ytimg.com/vi/iJU6csQs_no/hqdefault.jpg",
+      "published": "2026-10-29",
+      "category": "CS"
     },
     {
       "id": "28553792b050",
@@ -76,17 +87,6 @@
       "url": "https://www.youtube.com/shorts/33_jJ4kIxfc",
       "thumb": "https://i4.ytimg.com/vi/33_jJ4kIxfc/hqdefault.jpg",
       "published": "2026-10-27",
-      "category": "CS"
-    },
-    {
-      "id": "7e854f60d357",
-      "platform": "youtube",
-      "videoId": "EgnAN0ZUl08",
-      "title": "Squaring the Triangle - Numberphile",
-      "channel": "Numberphile",
-      "url": "https://www.youtube.com/watch?v=EgnAN0ZUl08",
-      "thumb": "https://i2.ytimg.com/vi/EgnAN0ZUl08/hqdefault.jpg",
-      "published": "2026-10-25",
       "category": "CS"
     },
     {
@@ -112,6 +112,50 @@
       "category": "CS"
     },
     {
+      "id": "9018e970ca98",
+      "platform": "bilibili",
+      "videoId": "BV1ScKR6QEQF",
+      "title": "古法做视频里加一点点科技",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1ScKR6QEQF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/b9d2e88f8d41fe24cecddcf715756265ff68b9d2.jpg",
+      "published": "2026-06-29",
+      "category": "CS"
+    },
+    {
+      "id": "4001551d4ad2",
+      "platform": "bilibili",
+      "videoId": "BV1RfEw6LEfF",
+      "title": "能跟你对话的TTS【开源】",
+      "channel": "跟李沐学AI",
+      "url": "https://www.bilibili.com/video/BV1RfEw6LEfF",
+      "thumb": "https://i0.hdslb.com/bfs/archive/414b79823c78f30b3e60d27f14c0f44111f0234f.jpg",
+      "published": "2026-06-04",
+      "category": "CS"
+    },
+    {
+      "id": "c968d5b53752",
+      "platform": "bilibili",
+      "videoId": "BV1Guxu6EERa",
+      "title": "软件的演化 (航母是怎么造出来的) [10-Raw/26生成式软件工程/NJU]",
+      "channel": "绿导师原谅你了",
+      "url": "https://www.bilibili.com/video/BV1Guxu6EERa",
+      "thumb": "https://i0.hdslb.com/bfs/archive/eb373fdabc648063281498c98333a26bbe699034.jpg",
+      "published": "2026-10-27",
+      "category": "CS"
+    },
+    {
+      "id": "4a1e7e2c2fa7",
+      "platform": "bilibili",
+      "videoId": "BV144nc6KEA4",
+      "title": "DeepSeek Harness [09-Raw/26生成式软件工程/NJU]",
+      "channel": "绿导师原谅你了",
+      "url": "https://www.bilibili.com/video/BV144nc6KEA4",
+      "thumb": "https://i0.hdslb.com/bfs/archive/42232c3515ecb0e7b27b1bfb1744f611a0ba78f6.jpg",
+      "published": "2026-10-20",
+      "category": "CS"
+    },
+    {
       "id": "9b29f2e25077",
       "platform": "youtube",
       "videoId": "6ZrgRjdJs3o",
@@ -134,26 +178,15 @@
       "category": "金融"
     },
     {
-      "id": "6102a6307195",
-      "platform": "bilibili",
-      "videoId": "BV1yUHP6rEYD",
-      "title": "你需要多少钱，才能财富自由？",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV1yUHP6rEYD",
-      "thumb": "https://i2.hdslb.com/bfs/archive/1cf9eb5cb876083499ce040ac49f31e9ffc21cdd.jpg",
-      "published": "2026-10-24",
-      "category": "金融"
-    },
-    {
-      "id": "c9fc725b1017",
-      "platform": "bilibili",
-      "videoId": "BV1FCps68EGf",
-      "title": "史上最大现金收购案 富二代如何正确拼爹",
-      "channel": "小Lin说",
-      "url": "https://www.bilibili.com/video/BV1FCps68EGf",
-      "thumb": "https://i0.hdslb.com/bfs/archive/0a9baee1364519b7f04c7c303d5fb81fd19b0f6f.jpg",
-      "published": "2026-10-09",
-      "category": "金融"
+      "id": "923097dc1e2f",
+      "platform": "youtube",
+      "videoId": "y5RqfQvCaBY",
+      "title": "How Geologists Can Tell if the World is Warming : Crash Course Geology #23",
+      "channel": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=y5RqfQvCaBY",
+      "thumb": "https://i2.ytimg.com/vi/y5RqfQvCaBY/hqdefault.jpg",
+      "published": "2026-10-29",
+      "category": "历史"
     },
     {
       "id": "c73d8b29bce3",
@@ -164,17 +197,6 @@
       "url": "https://www.youtube.com/watch?v=2b-H-rxQ8m8",
       "thumb": "https://i3.ytimg.com/vi/2b-H-rxQ8m8/hqdefault.jpg",
       "published": "2026-10-27",
-      "category": "历史"
-    },
-    {
-      "id": "e616f7897269",
-      "platform": "youtube",
-      "videoId": "uJA1qZirWVc",
-      "title": "How do we Mine Minerals?: Crash Course Geology #22",
-      "channel": "CrashCourse",
-      "url": "https://www.youtube.com/watch?v=uJA1qZirWVc",
-      "thumb": "https://i2.ytimg.com/vi/uJA1qZirWVc/hqdefault.jpg",
-      "published": "2026-10-22",
       "category": "历史"
     },
     {
@@ -225,22 +247,22 @@
       "id": "8cd4da16de71",
       "platform": "youtube",
       "videoId": "Yxnvq6dxXXw",
-      "title": "How to make polite conversation 💬",
+      "title": "How to make polite conversation 💬 in this English class with Georgie",
       "channel": "BBC Learning English",
       "url": "https://www.youtube.com/watch?v=Yxnvq6dxXXw",
       "thumb": "https://i2.ytimg.com/vi/Yxnvq6dxXXw/hqdefault.jpg",
-      "published": "2026-10-28",
+      "published": "2026-10-29",
       "category": "英语"
     },
     {
-      "id": "f816e39ea9cb",
+      "id": "99a4ae8935ff",
       "platform": "youtube",
-      "videoId": "8P1StZMmGJ8",
-      "title": "Lula surprises many with fourth election win | BBC Learning English from the News",
+      "videoId": "npka43vhwNo",
+      "title": "Is aircon the answer to a heating world? ⏲️ 6 Minute English",
       "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=8P1StZMmGJ8",
-      "thumb": "https://i1.ytimg.com/vi/8P1StZMmGJ8/hqdefault.jpg",
-      "published": "2026-10-28",
+      "url": "https://www.youtube.com/watch?v=npka43vhwNo",
+      "thumb": "https://i3.ytimg.com/vi/npka43vhwNo/hqdefault.jpg",
+      "published": "2026-10-29",
       "category": "英语"
     },
     {
@@ -271,14 +293,15 @@
     "图形学 · @Acerola_t: 2 条",
     "图形学 · 512313464: 0 条",
     "引擎 · @TheCherno: 2 条",
+    "Bilibili 437860379: code=-352 风控校验失败",
     "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
-    "CS · 1567748478: 0 条",
-    "Bilibili 202224425: code=-352 风控校验失败",
-    "CS · 202224425: 0 条",
+    "CS · 1567748478: 2 条",
+    "CS · 202224425: 2 条",
     "金融 · @ThePlainBagel: 2 条",
-    "金融 · 520819684: 2 条",
+    "Bilibili 520819684: code=-352 风控校验失败",
+    "金融 · 520819684: 0 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
     "历史 · 11646119: 0 条",
