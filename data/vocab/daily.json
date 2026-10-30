@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-29",
-  "word": "redundant",
-  "ipa": "rɪˈdʌn.d",
-  "ipaUs": "rɪˈdʌn.d",
-  "pos": "adjective",
-  "definition": "(especially of a word, phrase, etc.) unnecessary because it is more than is needed",
-  "definitionZh": "（尤指词、短语等） 多余的",
-  "example": "In the sentence \"She is a single unmarried woman\", the word \" unmarried \" is redundant.",
-  "exampleZh": "在句子 She is a single unmarried woman 中，unmarried 一词是多余的。",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/ukr/ukred/ukredou009.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/r/red/redun/redundant.mp3"
+  "date": "2026-10-30",
+  "word": "validate",
+  "ipa": "ˈvæl.ɪ.deɪt",
+  "ipaUs": "ˈvæl.ə.deɪt",
+  "pos": "verb",
+  "definition": "to make something officially acceptable or approved, especially after examining it",
+  "definitionZh": "（尤指经检查后） 批准",
+  "example": "The data is validated automatically by the computer after it has been entered.",
+  "exampleZh": "数据输入后，计算机会自动识别其有效性。",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/ukv/ukvag/ukvagra015.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/v/val/valid/validate.mp3"
 }

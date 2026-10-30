@@ -1,299 +1,301 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "items": [
     {
-      "id": "943f54ddbd5d",
+      "id": "b52c9398ef11",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Hervé Blanc",
-      "url": "https://simple.wikipedia.org/wiki/Herv%C3%A9_Blanc",
-      "summary": "Hervé Blanc was a French actor. He was born in Lyon. He was known for his role in the 1980 drama movie A Week's Vacation. He also starred in L'Été ardent (1982), L'émir préfère les blondes (1983), Un fils (2003) and in Ceci est mon corps (2014).",
+      "title": "Karin Kock-Lindberg",
+      "url": "https://simple.wikipedia.org/wiki/Karin_Kock-Lindberg",
+      "summary": "Karin Kock-Lindberg, née Kock, born 2 July 1891, dead 28 July 1976, was a Swedish social democrat politician and professor of economics. In 1947 she became the first woman to hold a Ministerial position in Sweden. She also became the first female professor of national economy in…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "0d0d05f6f8d1",
+      "id": "72a018ed46f6",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Cella Monte",
-      "url": "https://simple.wikipedia.org/wiki/Cella_Monte",
-      "summary": "Cella Monte is a comune in the Province of Alessandria in the Piedmont region in Italy.",
+      "title": "New Castle, New Hampshire",
+      "url": "https://simple.wikipedia.org/wiki/New_Castle%2C_New_Hampshire",
+      "summary": "New Castle is a town in Rockingham County, New Hampshire, United States. As of the 2020 census, the town had a population of 1000.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "44e3e5f137f8",
+      "id": "4c4b30fd3641",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
-      "url": "https://divagr.com/blog/qwenputer",
+      "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+      "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
       "summary": "",
-      "author": "csmantle",
+      "author": "Tiberium",
       "published": "2026-10-29",
       "tags": [
-        "▲ 331"
+        "▲ 1151"
       ]
     },
     {
-      "id": "2365cd15a328",
+      "id": "779b541ff77b",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Why is this fingerprinting script creating bioweapons?",
-      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "title": "We're releasing the weights of Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
       "summary": "",
-      "author": "hazebooth",
-      "published": "2026-10-28",
+      "author": "kuberwastaken",
+      "published": "2026-10-29",
       "tags": [
-        "▲ 1071"
+        "▲ 1368"
       ]
     },
     {
-      "id": "d272a19a3aa1",
+      "id": "abd68cdbf75b",
       "category": "tech",
       "source": "Hacker News",
-      "title": "A new faster algorithm to compute 64-bit signed floor division",
-      "url": "https://www.benjoffe.com/fast-floordiv",
+      "title": "Cuis: The Modern Smalltalk-80",
+      "url": "https://cuis.st/",
       "summary": "",
-      "author": "benjoffe",
+      "author": "theanonymousone",
       "published": "2026-10-27",
       "tags": [
-        "▲ 28"
+        "▲ 77"
       ]
     },
     {
-      "id": "c6d25904346f",
+      "id": "badc57942b75",
       "category": "tech",
       "source": "Hacker News",
-      "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
-      "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
+      "title": "Astroterm: A Planetarium for Your Terminal",
+      "url": "https://github.com/da-luce/astroterm",
       "summary": "",
-      "author": "sashk",
+      "author": "nvmdbljstm",
       "published": "2026-10-28",
       "tags": [
-        "▲ 151"
+        "▲ 89"
       ]
     },
     {
-      "id": "e9c465a65bcb",
+      "id": "1bcb144cf6f8",
       "category": "tech",
       "source": "Hacker News",
-      "title": "A Health Update",
-      "url": "https://furbo.org/2026/10/28/a-health-update/",
+      "title": "I'm so bad at billiards that I ended up in the hyperbolic plane [video]",
+      "url": "https://www.youtube.com/watch?v=kL9BTbIGxLg",
       "summary": "",
-      "author": "frizlab",
+      "author": "surprisetalk",
       "published": "2026-10-28",
       "tags": [
-        "▲ 198"
+        "▲ 81"
       ]
     },
     {
-      "id": "271134257c4a",
+      "id": "d20004732056",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Claude Code regularly sends each background agent’s transcript to its model",
-      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "title": "Herdr has released native app",
+      "url": "https://github.com/herdrdev/herdr-app",
       "summary": "",
-      "author": "NikZaal",
-      "published": "2026-10-29",
+      "author": "cherioo",
+      "published": "2026-10-30",
       "tags": [
-        "▲ 270"
+        "▲ 138"
       ]
     },
     {
-      "id": "a7b8d119afe2",
+      "id": "7cacedfcfaa7",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Block patterns as a handoff contract: reusable sections non-coders can edit",
-      "url": "https://dev.to/aumcreate/block-patterns-as-a-handoff-contract-reusable-sections-non-coders-can-edit-245a",
-      "summary": "Two weeks after the handover call, the homepage has three button sizes, two heading colours, and a section copied from another page with the old phone number still in it. The person editing did what anyone would do with an empty editor and no vocabulary for the design. Patterns …",
-      "author": "AumCreate",
-      "published": "Thu, 29 Oct 2026 07:14:29 +0000",
+      "title": "Building an API Rate Limiter from Scratch with Node.js and Redis",
+      "url": "https://dev.to/sruthi_sri/building-an-api-rate-limiter-from-scratch-with-nodejs-and-redis-4na0",
+      "summary": "Building an API Rate Limiter from Scratch with Node.js and Redis When building public APIs, unthrottled endpoints are an invitation for trouble. A rogue client script, a scraping bot, or a distributed denial-of-service (DDoS) spike can exhaust your database connections and crash…",
+      "author": "Sruthi sri G",
+      "published": "Fri, 30 Oct 2026 07:15:10 +0000",
       "tags": [
-        "frontend",
+        "node",
+        "typescript",
+        "redis",
+        "webdev"
+      ]
+    },
+    {
+      "id": "2ef0fbf544ce",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "React Accessibility Issues That Audits Keep Finding in Next.js",
+      "url": "https://dev.to/chille87/react-accessibility-issues-that-audits-keep-finding-in-nextjs-27l0",
+      "summary": "Originally published at AccessGuard . You inherit a React or Next.js build. The markup looks tidy, the components are typed, and Lighthouse is green. Then somebody tabs through it with a screen reader running, and the page changes without a word, a menu cannot be opened from the…",
+      "author": "Denis Omerovic",
+      "published": "Fri, 30 Oct 2026 07:14:45 +0000",
+      "tags": [
+        "a11y",
         "webdev",
-        "wordpress"
+        "react"
       ]
     },
     {
-      "id": "d40b922a65ef",
+      "id": "a82ab5db44ce",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How to stop alert fatigue in uptime monitoring: 7 practical fixes",
-      "url": "https://dev.to/halvyn_53656c6858286ebc34/how-to-stop-alert-fatigue-in-uptime-monitoring-7-practical-fixes-138p",
-      "summary": "One outage should be one alert. In practice, most teams get something closer to forty: a check fails every minute, every failure sends a notification, and by the time someone opens their laptop the channel is a wall of red. People start muting the channel, and then a real outage…",
-      "author": "Halvyn.win",
-      "published": "Thu, 29 Oct 2026 07:13:09 +0000",
-      "tags": [
-        "monitoring",
-        "devops",
-        "sre",
-        "webdev"
-      ]
-    },
-    {
-      "id": "3e28473f35f2",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Exorcist: a ghost hunter for your package.json",
-      "url": "https://dev.to/ibrahimiqbal/exorcist-a-ghost-hunter-for-your-packagejson-4oij",
-      "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine What I Built Exorcist is a dependency health scanner for package.json — the checks npm audit doesn't run. Drop in a file (or paste a GitHub repo URL) and it finds the slow rot every …",
-      "author": "Mohd. Ibrahim Iqbal",
-      "published": "Thu, 29 Oct 2026 07:08:46 +0000",
-      "tags": [
-        "hf26challenge",
-        "devchallenge",
-        "opensource",
-        "webdev"
-      ]
-    },
-    {
-      "id": "3ddc23445ac4",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "WSP MCP: Connect WordPress with AI Agents",
-      "url": "https://dev.to/wspmcp67/wsp-mcp-connect-wordpress-with-ai-agents-1pcd",
-      "summary": "Artificial intelligence is changing the way website owners manage their WordPress websites. Tasks that once required multiple dashboard visits, manual editing, and repetitive work can now be handled through AI-powered assistants. From writing blog posts to reviewing SEO metadata…",
-      "author": "WSP MCP",
-      "published": "Thu, 29 Oct 2026 07:02:25 +0000",
+      "title": "Day 1 of an AI agent trying to make a developer famous",
+      "url": "https://dev.to/fbrzlarosa/day-1-of-an-ai-agent-trying-to-make-a-developer-famous-m7d",
+      "summary": "I am an AI agent. Every day I get one job: make my owner, Fabrizio La Rosa, known as a developer. He does not run the experiment; I do the work and write down what happens, the parts that fail included. The rules I work under: Only public information about him: his public GitHub…",
+      "author": "Fabrizio La Rosa",
+      "published": "Fri, 30 Oct 2026 07:12:17 +0000",
       "tags": [
         "ai",
-        "webdev"
+        "webdev",
+        "a11y",
+        "nextjs"
       ]
     },
     {
-      "id": "2d9f06c9549e",
+      "id": "2289bc5a6e45",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "WordPress Not Sending Emails? Why It Happens and How to Fix It",
+      "url": "https://dev.to/kushkrg/wordpress-not-sending-emails-why-it-happens-and-how-to-fix-it-4g37",
+      "summary": "Originally published on CodingCush . If WordPress is not sending emails — password resets, contact form messages, order confirmations — the most common reason is that WordPress sends mail the old, unauthenticated way, and modern inbox providers like Gmail and Outlook quietly dis…",
+      "author": "Lavkush kumar",
+      "published": "Fri, 30 Oct 2026 07:11:01 +0000",
+      "tags": [
+        "wordpress",
+        "smtp",
+        "webdev",
+        "tutorial"
+      ]
+    },
+    {
+      "id": "3c17025cfb03",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Chimacum Creek",
-      "url": "https://en.wikipedia.org/wiki/Chimacum_Creek",
-      "summary": "Chimacum Creek is a stream in Jefferson County, Washington, United States. Located on the base of the Quimper Peninsula in the northeast of the larger Olympic Peninsula, the main stem originates from a series of springs and ponds in the forested hills south of Discovery Bay. It …",
+      "title": "John Adams",
+      "url": "https://en.wikipedia.org/wiki/John_Adams",
+      "summary": "John Adams was a Founding Father and the second president of the United States from 1797 to 1801. Before his presidency, he was a leader of the American Revolution that achieved independence from Great Britain. During the latter part of the Revolutionary War and in the early yea…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "57cf444b547f",
+      "id": "1b2161d396ca",
       "category": "news",
       "source": "BBC 世界",
-      "title": "High-speed train crash kills at least 68 people in Spain",
-      "url": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss",
-      "summary": "The crash, between a moving train and another that was stopped further up the track, was caused by an \"inexplicable\" error, the transport minister said.",
-      "published": "Wed, 28 Oct 2026 21:38:54 GMT",
+      "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
+      "url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Two analytics firms have attributed the incident to a North Korean hacking unit called TraderTraitor.",
+      "published": "Fri, 30 Oct 2026 07:16:05 GMT",
       "tags": []
     },
     {
-      "id": "c2cf1e6fc552",
+      "id": "e7ad0659165b",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Bloodied, dazed and angry - how passengers' rail journey turned to disaster in Spain",
-      "url": "https://www.bbc.co.uk/news/articles/cm9qzd47ng98o?at_medium=RSS&at_campaign=rss",
-      "summary": "Survivors of the train crash in Spain have spoken of their shock, panic and anger at the accident in Toledo province on Wednesday.",
-      "published": "Wed, 28 Oct 2026 21:24:41 GMT",
+      "title": "Mushroom murderer fails to overturn convictions in Australian court challenge",
+      "url": "https://www.bbc.co.uk/news/articles/ck8dz8j5n993o?at_medium=RSS&at_campaign=rss",
+      "summary": "Erin Patterson argued her trial was unfair due to seven grounds but three appeal judges dismissed them all.",
+      "published": "Fri, 30 Oct 2026 01:35:40 GMT",
       "tags": []
     },
     {
-      "id": "a813b60a7f3c",
+      "id": "ed6620184fed",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
-      "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
-      "summary": "The defeated Brazilian candidate claims to be the victim of a coup d’état and political persecution, recycling unsubstantiated allegations of “electoral fraud”.",
-      "published": "Thu, 29 Oct 2026 01:14:01 GMT",
+      "title": "Record number of purges as Xi emphasises 'party discipline' at China political gathering",
+      "url": "https://www.bbc.co.uk/news/articles/cq5ynw94k7kzo?at_medium=RSS&at_campaign=rss",
+      "summary": "Xi's anti-corruption campaign has become \"an effort to consolidate and maintain authority\", observers say.",
+      "published": "Fri, 30 Oct 2026 03:24:12 GMT",
       "tags": []
     },
     {
-      "id": "066ab2051e99",
+      "id": "f1d1ce3d9d32",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
-      "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
-      "summary": "With 85% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
-      "published": "Wed, 28 Oct 2026 20:24:39 GMT",
+      "title": "Syrians struggle with soaring prices as crisis challenges post-Assad recovery",
+      "url": "https://www.bbc.co.uk/news/articles/cmn4egvez1yzo?at_medium=RSS&at_campaign=rss",
+      "summary": "End of subsidies and rising prices drive discontent, testing support for Ahmed al-Sharaa's government.",
+      "published": "Fri, 30 Oct 2026 06:02:23 GMT",
       "tags": []
     },
     {
-      "id": "f1032294b76f",
+      "id": "adc226400758",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "ULA's Vulcan rocket is set to return to flight on Friday the 13th",
-      "url": "https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th/",
-      "summary": "This Vulcan launch will be the first to utilize a full complement of six solid rocket boosters.",
-      "author": "Stephen Clark",
-      "published": "Wed, 28 Oct 2026 22:51:15 +0000",
-      "tags": [
-        "Science",
-        "Space",
-        "Amazon",
-        "amazon leo"
-      ]
-    },
-    {
-      "id": "47ebb1c951d4",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "As US ties fray, Europe plans first undersea cable link to Greenland",
-      "url": "https://arstechnica.com/gadgets/2026/10/as-us-ties-fray-europe-plans-first-undersea-cable-link-to-greenland/",
-      "summary": "Europe's Pan-Arctic Cable will bypass US to link Canada, Japan, and South Korea.",
-      "author": "Jeremy Hsu",
-      "published": "Wed, 28 Oct 2026 22:35:50 +0000",
+      "title": "Reddit is moving to “a logged-in-only experience,” CEO says",
+      "url": "https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms/",
+      "summary": "Reddit's search traffic \"was down meaningfully\" last quarter.",
+      "author": "Scharon Harding",
+      "published": "Thu, 29 Oct 2026 21:47:57 +0000",
       "tags": [
         "Tech",
-        "Arctic",
-        "Canada",
-        "european union"
+        "reddit",
+        "social media"
       ]
     },
     {
-      "id": "4af1c4c13109",
+      "id": "ca205e978a06",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Peptide peddlers cheer as RFK Jr. unilaterally grants access, overruling FDA",
-      "url": "https://arstechnica.com/health/2026/10/peptide-peddlers-cheer-as-rfk-jr-unilaterally-grants-access-overruling-fda/",
-      "summary": "Six unproven peptides popular with MAHA now under \"enforcement discretion policy.\"",
-      "author": "Beth Mole",
-      "published": "Wed, 28 Oct 2026 22:17:15 +0000",
+      "title": "Microsoft fixes a Windows 11 annoyance as PC revenue declines",
+      "url": "https://arstechnica.com/gadgets/2026/10/windows-11-gets-right-click-menu-improvements-as-pc-revenue-slides/",
+      "summary": "The latest update also brings a cloud recovery option for PCs that won't boot.",
+      "author": "Nick Indge",
+      "published": "Thu, 29 Oct 2026 20:18:49 +0000",
       "tags": [
-        "Health",
-        "fda",
-        "Peptides"
+        "Tech",
+        "Financial Report",
+        "KB5127936",
+        "microsoft"
       ]
     },
     {
-      "id": "5525c8574c19",
+      "id": "69e91b7f989d",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Pentagon IG refuses to investigate Starlink/Starshield slowdown in Ukraine",
+      "url": "https://arstechnica.com/tech-policy/2026/10/pentagon-ig-refuses-to-investigate-starlink-starshield-slowdown-in-ukraine/",
+      "summary": "Inspector general rejected request from Democratic and Republican senators.",
+      "author": "Jon Brodkin",
+      "published": "Thu, 29 Oct 2026 20:08:10 +0000",
+      "tags": [
+        "Policy",
+        "Pentagon",
+        "starlink",
+        "starshield"
+      ]
+    },
+    {
+      "id": "9d8b2e1623b7",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Why Alphabet’s stock could see its worst drop in years after the latest results",
-      "url": "https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98?mod=mw_rss_topstories",
-      "summary": "A doubling of cloud revenue wasn’t enough to appease Wall Street as investors grew more concerned that AI is hurting the company’s ability to make money off search queries.",
+      "title": "What gave this city its ‘best place to retire’ crown? You can actually afford to live there.",
+      "url": "https://www.marketwatch.com/story/what-gave-this-city-its-best-place-to-retire-crown-you-can-actually-afford-to-live-there-a06f8f4d?mod=mw_rss_topstories",
+      "summary": "Low cost of living, high quality of life and favorable taxes for retirees, for the win.",
+      "author": "Jessica Hall",
+      "published": "Fri, 30 Oct 2026 03:16:00 GMT",
+      "tags": []
+    },
+    {
+      "id": "ac91edab3a78",
+      "category": "finance",
+      "source": "MarketWatch",
+      "title": "Amazon’s stock drops — even in the face of a bold new cloud forecast",
+      "url": "https://www.marketwatch.com/story/amazons-bold-cloud-forecast-isnt-enough-to-stave-off-a-stock-drop-ee23c1bb?mod=mw_rss_topstories",
+      "summary": "Modest AWS results and weak advertising growth left Wall Street disappointed in Amazon’s third-quarter earnings",
       "author": "Christine Ji",
-      "published": "Thu, 29 Oct 2026 01:58:00 GMT",
+      "published": "Fri, 30 Oct 2026 00:15:00 GMT",
       "tags": []
     },
     {
-      "id": "90fc6b01b04c",
+      "id": "f718eb312380",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Lumentum’s stock pops as investors cheer a possible sale to Marvell",
-      "url": "https://www.marketwatch.com/story/lumentums-stock-pops-as-investors-cheer-a-possible-sale-to-marvell-07c1d0e8?mod=mw_rss_topstories",
-      "summary": "An agreement between the companies could come next week, Bloomberg reported",
-      "author": "Britney Nguyen",
-      "published": "Thu, 29 Oct 2026 00:20:00 GMT",
-      "tags": []
-    },
-    {
-      "id": "53d10c0e937a",
-      "category": "finance",
-      "source": "MarketWatch",
-      "title": "‘Just watch Judge Judy’: I’m in my 70s. Why do people keep making the same avoidable financial mistakes?",
-      "url": "https://www.marketwatch.com/story/you-need-only-watch-episodes-of-judge-judy-im-in-my-70s-why-do-people-keep-making-the-same-avoidable-financial-mistakes-bbf60fe4?mod=mw_rss_topstories",
-      "summary": "“Consider some familiar examples of poor decisions: accumulating credit-card debt or failing to plan for retirement.”",
-      "author": "Quentin Fottrell",
-      "published": "Thu, 29 Oct 2026 00:15:00 GMT",
+      "title": "A Starbucks turnaround is brewing — but perhaps not quickly enough for investors",
+      "url": "https://www.marketwatch.com/story/a-starbucks-turnaround-is-brewing-but-perhaps-not-quickly-enough-3b5f57ac?mod=mw_rss_topstories",
+      "summary": "The coffee chain beat expectations on a key sales metric, but its stock was still moving lower.",
+      "author": "Bill Peters",
+      "published": "Fri, 30 Oct 2026 00:14:00 GMT",
       "tags": []
     }
   ],
