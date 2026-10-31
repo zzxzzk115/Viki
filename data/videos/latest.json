@@ -1,6 +1,17 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "items": [
+    {
+      "id": "ce14acab8d98",
+      "platform": "youtube",
+      "videoId": "CWdTBLsbaQs",
+      "title": "OpenAI Claims It Just Did The Impossible",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=CWdTBLsbaQs",
+      "thumb": "https://i4.ytimg.com/vi/CWdTBLsbaQs/hqdefault.jpg",
+      "published": "2026-10-30",
+      "category": "图形学"
+    },
     {
       "id": "c66d1bea7b6b",
       "platform": "youtube",
@@ -10,17 +21,6 @@
       "url": "https://www.youtube.com/watch?v=pryCaGv8wuo",
       "thumb": "https://i1.ytimg.com/vi/pryCaGv8wuo/hqdefault.jpg",
       "published": "2026-10-28",
-      "category": "图形学"
-    },
-    {
-      "id": "5565a81df603",
-      "platform": "youtube",
-      "videoId": "LWxX6vvHfrc",
-      "title": "Gemini 4 Argon Is Not What I Expected",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
-      "thumb": "https://i1.ytimg.com/vi/LWxX6vvHfrc/hqdefault.jpg",
-      "published": "2026-10-19",
       "category": "图形学"
     },
     {
@@ -46,25 +46,47 @@
       "category": "图形学"
     },
     {
-      "id": "231b709e401b",
+      "id": "dc49fc3eddfc",
+      "platform": "bilibili",
+      "videoId": "BV1k2Jy6jEbX",
+      "title": "GAMES Webinar 418-具身智能专题-郝策-迈向通用具身智能：机器人操作与腿足运动中的学习范式",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV1k2Jy6jEbX",
+      "thumb": "https://i1.hdslb.com/bfs/archive/9b7da275d7926d6c07f10c37601ff51b9ecb2e35.jpg",
+      "published": "2026-10-15",
+      "category": "图形学"
+    },
+    {
+      "id": "b2c1ea0ea2c5",
+      "platform": "bilibili",
+      "videoId": "BV1P2Jy6EEFo",
+      "title": "GAMES Webinar 418-具身智能专题-汪怡暄-面向机器人策略训练与评估的交互式世界模拟器",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV1P2Jy6EEFo",
+      "thumb": "https://i1.hdslb.com/bfs/archive/f4819d4bfae6103b77d6c87bbac800dcbaa43101.jpg",
+      "published": "2026-10-15",
+      "category": "图形学"
+    },
+    {
+      "id": "9fa31e74074c",
       "platform": "youtube",
-      "videoId": "R_uf5OfMGio",
-      "title": "Can AI Make a Game Engine?",
-      "channel": "The Cherno",
-      "url": "https://www.youtube.com/watch?v=R_uf5OfMGio",
-      "thumb": "https://i3.ytimg.com/vi/R_uf5OfMGio/hqdefault.jpg",
-      "published": "2026-10-04",
+      "videoId": "YRwtopFzRZ0",
+      "title": "The Matrix Awakens - Unreal Engine 5 \"Experience\" // Game Engine Dev Reacts",
+      "channel": "More Cherno",
+      "url": "https://www.youtube.com/watch?v=YRwtopFzRZ0",
+      "thumb": "https://i2.ytimg.com/vi/YRwtopFzRZ0/hqdefault.jpg",
+      "published": "2022-07-08",
       "category": "引擎"
     },
     {
-      "id": "1bd7e3d429df",
+      "id": "984c56e48d53",
       "platform": "youtube",
-      "videoId": "KL1Q9PS6Lzs",
-      "title": "Using AI to Finish Multiplayer for My Game Engine",
-      "channel": "The Cherno",
-      "url": "https://www.youtube.com/watch?v=KL1Q9PS6Lzs",
-      "thumb": "https://i4.ytimg.com/vi/KL1Q9PS6Lzs/hqdefault.jpg",
-      "published": "2026-09-27",
+      "videoId": "sY_U3-ih4Bs",
+      "title": "BLACK and WHITE Game!  // Game Engine Dev Reacts to Trek to Yomi",
+      "channel": "More Cherno",
+      "url": "https://www.youtube.com/watch?v=sY_U3-ih4Bs",
+      "thumb": "https://i4.ytimg.com/vi/sY_U3-ih4Bs/hqdefault.jpg",
+      "published": "2022-05-05",
       "category": "引擎"
     },
     {
@@ -112,28 +134,6 @@
       "category": "CS"
     },
     {
-      "id": "9018e970ca98",
-      "platform": "bilibili",
-      "videoId": "BV1ScKR6QEQF",
-      "title": "古法做视频里加一点点科技",
-      "channel": "跟李沐学AI",
-      "url": "https://www.bilibili.com/video/BV1ScKR6QEQF",
-      "thumb": "https://i0.hdslb.com/bfs/archive/b9d2e88f8d41fe24cecddcf715756265ff68b9d2.jpg",
-      "published": "2026-06-29",
-      "category": "CS"
-    },
-    {
-      "id": "4001551d4ad2",
-      "platform": "bilibili",
-      "videoId": "BV1RfEw6LEfF",
-      "title": "能跟你对话的TTS【开源】",
-      "channel": "跟李沐学AI",
-      "url": "https://www.bilibili.com/video/BV1RfEw6LEfF",
-      "thumb": "https://i0.hdslb.com/bfs/archive/414b79823c78f30b3e60d27f14c0f44111f0234f.jpg",
-      "published": "2026-06-04",
-      "category": "CS"
-    },
-    {
       "id": "c968d5b53752",
       "platform": "bilibili",
       "videoId": "BV1Guxu6EERa",
@@ -175,6 +175,28 @@
       "url": "https://www.youtube.com/watch?v=27JRiGRlVaQ",
       "thumb": "https://i3.ytimg.com/vi/27JRiGRlVaQ/hqdefault.jpg",
       "published": "2026-10-22",
+      "category": "金融"
+    },
+    {
+      "id": "6102a6307195",
+      "platform": "bilibili",
+      "videoId": "BV1yUHP6rEYD",
+      "title": "你需要多少钱，才能财富自由？",
+      "channel": "小Lin说",
+      "url": "https://www.bilibili.com/video/BV1yUHP6rEYD",
+      "thumb": "https://i2.hdslb.com/bfs/archive/1cf9eb5cb876083499ce040ac49f31e9ffc21cdd.jpg",
+      "published": "2026-10-24",
+      "category": "金融"
+    },
+    {
+      "id": "c9fc725b1017",
+      "platform": "bilibili",
+      "videoId": "BV1FCps68EGf",
+      "title": "史上最大现金收购案 富二代如何正确拼爹",
+      "channel": "小Lin说",
+      "url": "https://www.bilibili.com/video/BV1FCps68EGf",
+      "thumb": "https://i0.hdslb.com/bfs/archive/0a9baee1364519b7f04c7c303d5fb81fd19b0f6f.jpg",
+      "published": "2026-10-09",
       "category": "金融"
     },
     {
@@ -222,6 +244,28 @@
       "category": "历史"
     },
     {
+      "id": "7ae6d44c47b3",
+      "platform": "bilibili",
+      "videoId": "BV1ydni6AE65",
+      "title": "乾隆·和孝公主：和珅儿媳卖家当，竟有官员敢赖账？【乾隆往事】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1ydni6AE65",
+      "thumb": "https://i2.hdslb.com/bfs/archive/88de2dd64376a5f7704adceb7392592f761c3fdb.jpg",
+      "published": "2026-10-21",
+      "category": "历史"
+    },
+    {
+      "id": "3fe09620e0be",
+      "platform": "bilibili",
+      "videoId": "BV18SJa6ZEKb",
+      "title": "王掞·下半生：一份奏折，为啥让王掞的祖坟，差点儿都没了？【康熙王朝】",
+      "channel": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV18SJa6ZEKb",
+      "thumb": "https://i0.hdslb.com/bfs/archive/efdd390aa1ad1f2f4f216341a81019046163e6fd.jpg",
+      "published": "2026-10-17",
+      "category": "历史"
+    },
+    {
       "id": "b91ea9b965e8",
       "platform": "bilibili",
       "videoId": "BV1ocsd6jErz",
@@ -244,6 +288,17 @@
       "category": "历史"
     },
     {
+      "id": "e937615f81b7",
+      "platform": "youtube",
+      "videoId": "PjlmLzqvESk",
+      "title": "Talking about parts in English #shorts #english",
+      "channel": "BBC Learning English",
+      "url": "https://www.youtube.com/shorts/PjlmLzqvESk",
+      "thumb": "https://i1.ytimg.com/vi/PjlmLzqvESk/hqdefault.jpg",
+      "published": "2026-10-30",
+      "category": "英语"
+    },
+    {
       "id": "8cd4da16de71",
       "platform": "youtube",
       "videoId": "Yxnvq6dxXXw",
@@ -251,17 +306,6 @@
       "channel": "BBC Learning English",
       "url": "https://www.youtube.com/watch?v=Yxnvq6dxXXw",
       "thumb": "https://i2.ytimg.com/vi/Yxnvq6dxXXw/hqdefault.jpg",
-      "published": "2026-10-29",
-      "category": "英语"
-    },
-    {
-      "id": "99a4ae8935ff",
-      "platform": "youtube",
-      "videoId": "npka43vhwNo",
-      "title": "Is aircon the answer to a heating world? ⏲️ 6 Minute English",
-      "channel": "BBC Learning English",
-      "url": "https://www.youtube.com/watch?v=npka43vhwNo",
-      "thumb": "https://i3.ytimg.com/vi/npka43vhwNo/hqdefault.jpg",
       "published": "2026-10-29",
       "category": "英语"
     },
@@ -291,20 +335,18 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "图形学 · 512313464: 0 条",
+    "图形学 · 512313464: 2 条",
     "引擎 · @TheCherno: 2 条",
-    "Bilibili 437860379: code=-352 风控校验失败",
     "引擎 · 437860379: 0 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
-    "CS · 1567748478: 2 条",
+    "CS · 1567748478: 0 条",
     "CS · 202224425: 2 条",
     "金融 · @ThePlainBagel: 2 条",
-    "Bilibili 520819684: code=-352 风控校验失败",
-    "金融 · 520819684: 0 条",
+    "金融 · 520819684: 2 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
-    "历史 · 11646119: 0 条",
+    "历史 · 11646119: 2 条",
     "历史 · 23947287: 2 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
