@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-30",
-  "word": "validate",
-  "ipa": "ˈvæl.ɪ.deɪt",
-  "ipaUs": "ˈvæl.ə.deɪt",
-  "pos": "verb",
-  "definition": "to make something officially acceptable or approved, especially after examining it",
-  "definitionZh": "（尤指经检查后） 批准",
-  "example": "The data is validated automatically by the computer after it has been entered.",
-  "exampleZh": "数据输入后，计算机会自动识别其有效性。",
-  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/ukv/ukvag/ukvagra015.mp3",
-  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/v/val/valid/validate.mp3"
+  "date": "2026-10-31",
+  "word": "versatile",
+  "ipa": "ˈvɜː.sə.taɪl",
+  "ipaUs": "ˈvɝː.sə.t̬",
+  "pos": "adjective",
+  "definition": "able to change easily from one activity to another or able to be used for many different purposes",
+  "definitionZh": "多种用途的",
+  "example": "He's a very versatile young actor who's as happy in highbrow dramas as he is in TV comedies.",
+  "exampleZh": "他是一个非常多才多艺的年轻演员，无论是高雅电影还是电视喜剧都一样得心应手。",
+  "audioUk": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/uk_pron/u/ukv/ukver/ukverit015.mp3",
+  "audioUs": "https://dictionary.cambridge.org/zhs/media/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/us_pron/e/eus/eus74/eus74831.mp3"
 }
