@@ -1,223 +1,254 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "items": [
     {
-      "id": "2d7c5163e984",
+      "id": "44a18350aba6",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Ô-de-Selle",
-      "url": "https://simple.wikipedia.org/wiki/%C3%94-de-Selle",
-      "summary": "Ô-de-Selle is a commune. It is in Hauts-de-France in the Somme department in north France. The municipality was created on 1 January 2019 and consists of the former communes of Lœuilly, Neuville-lès-Lœuilly and Tilloy-lès-Conty.",
+      "title": "Nero Julius Caesar",
+      "url": "https://simple.wikipedia.org/wiki/Nero_Julius_Caesar",
+      "summary": "Nero Julius Caesar was an inheritor of the Roman Emperor Tiberius. Nero with his brother, Drusus, made successful political careers. Nero was a close relative of every Julio-Claudian emperor.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "06c0efad9f69",
+      "id": "8057400fd8c0",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Mug shot of Donald Trump",
-      "url": "https://simple.wikipedia.org/wiki/Mug_shot_of_Donald_Trump",
-      "summary": "On August 24, 2023, after being formally charged on racketeering and similar charges, Donald Trump agreed to turn himself in to police at the Fulton County Jail in Atlanta, Georgia, where a mug shot of him was taken. It is the first and only police booking mug shot of a U.S. pre…",
+      "title": "Jeremy Roenick",
+      "url": "https://simple.wikipedia.org/wiki/Jeremy_Roenick",
+      "summary": "Jeremy Shaffer \"J.R.\" Roenick is a retired American professional ice hockey center that played in the National Hockey League. Roenick was drafted by the Chicago Blackhawks with the 8th overall pick in the 1988 NHL Draft.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "cc6218d32d5b",
+      "id": "c241855c2841",
       "category": "tech",
       "source": "Hacker News",
-      "title": "My favourite PowerMac is a Nintendo Wii",
-      "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "summary": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007. https://hackertube.org/",
+      "author": "karpathy",
+      "published": "2026-10-31",
+      "tags": [
+        "▲ 1134"
+      ]
+    },
+    {
+      "id": "8774e31fd6aa",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+      "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
       "summary": "",
-      "author": "DHowett",
+      "author": "ecares",
+      "published": "2026-10-31",
+      "tags": [
+        "▲ 344"
+      ]
+    },
+    {
+      "id": "64d3dd787cef",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Running a bootstrapped SaaS for 20 years with my brother",
+      "url": "https://blog.zamzar.com/2026/10/30/20-years-766-million-files-two-chameleons/",
+      "summary": "",
+      "author": "whyleyc",
       "published": "2026-10-30",
       "tags": [
-        "▲ 282"
+        "▲ 35"
       ]
     },
     {
-      "id": "4ea719f27d0f",
+      "id": "a391a59c0933",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Cloudflare Turnstile solver library (no headless browser required)",
-      "url": "https://github.com/chris124567/cfsolve",
+      "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+      "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
       "summary": "",
-      "author": "costco",
-      "published": "2026-10-28",
+      "author": "doodlesdev",
+      "published": "2026-11-01",
       "tags": [
-        "▲ 161"
+        "▲ 89"
       ]
     },
     {
-      "id": "0e232296f4e5",
+      "id": "6bd209feefbe",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Northflank Breached",
-      "url": "https://status.northflank.com",
+      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
       "summary": "",
-      "author": "js4ever",
-      "published": "2026-10-30",
+      "author": "oger",
+      "published": "2026-10-31",
       "tags": [
-        "▲ 410"
+        "▲ 472"
       ]
     },
     {
-      "id": "b192f74f0acd",
+      "id": "f9b8a9efbf26",
       "category": "tech",
       "source": "Hacker News",
-      "title": "The $6.3B Binance hack was pulled off in just 20 minutes",
-      "url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
+      "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+      "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
       "summary": "",
-      "author": "domhudson",
-      "published": "2026-10-30",
+      "author": "guregodevo",
+      "published": "2026-10-31",
       "tags": [
-        "▲ 414"
+        "▲ 194"
       ]
     },
     {
-      "id": "59b72d4d3aed",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Breaking the open web won't stop the bad bots",
-      "url": "https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/",
-      "summary": "",
-      "author": "raybb",
-      "published": "2026-10-27",
-      "tags": [
-        "▲ 239"
-      ]
-    },
-    {
-      "id": "41d95f4480ff",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Longitudinal Changes InWearable-Captured PhysiologyBefore Sudden Cardiac Death",
-      "url": "https://www.jacc.org/doi/epdf/10.1016/j.jaccas.2026.110397",
-      "summary": "",
-      "author": "brandonb",
-      "published": "2026-10-28",
-      "tags": [
-        "▲ 20"
-      ]
-    },
-    {
-      "id": "5c0aa64400fa",
+      "id": "ca35d699123c",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How we keep game thumbnails fast when a page lists hundreds of games",
-      "url": "https://dev.to/danielmercer/how-we-keep-game-thumbnails-fast-when-a-page-lists-hundreds-of-games-1fap",
-      "summary": "A game portal page that lists hundreds of games has a thumbnail problem. Each thumbnail is small, but hundreds of small images add up to a page that feels heavy, especially on a phone or a slow connection. The fix is not one trick. It is a set of small decisions that keep the pa…",
+      "title": "Ảnh mà Google không thấy: CSS background, lazy load sai cách và cách audit thẻ img",
+      "url": "https://dev.to/onicai/anh-ma-google-khong-thay-css-background-lazy-load-sai-cach-va-cach-audit-the-img-3024",
+      "summary": "Developer thường tối ưu ảnh theo hướng hiệu năng: nén, lazy load, chuyển sang ảnh nền cho dễ căn chỉnh. Một số lựa chọn trong đó làm ảnh biến mất khỏi Google Hình ảnh mà không ai để ý. Bài này đi qua những gì tài liệu Google Search Central nói về cách Google tìm và hiểu ảnh, và …",
+      "author": "Onic Ai",
+      "published": "Sun, 01 Nov 2026 07:32:07 +0000",
+      "tags": [
+        "seo",
+        "html",
+        "css",
+        "webdev"
+      ]
+    },
+    {
+      "id": "20f633c953ae",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Crediting a booking to the AI agent that sent it, without cookies",
+      "url": "https://dev.to/tablejourney/crediting-a-booking-to-the-ai-agent-that-sent-it-without-cookies-116",
+      "summary": "When an AI agent recommends a food tour and the person books it, the booking platform pays a commission to whoever owns the link. We wanted that money to reach the agent, or the person or company behind it, so we opened a partner program that pays out half of what we earn. The h…",
+      "author": "Elliot Marsh",
+      "published": "Sun, 01 Nov 2026 07:29:13 +0000",
+      "tags": [
+        "ai",
+        "mcp",
+        "affiliate",
+        "webdev"
+      ]
+    },
+    {
+      "id": "14decb6eb015",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "How we handle quote requests for routes we have never priced",
+      "url": "https://dev.to/danielmercer/how-we-handle-quote-requests-for-routes-we-have-never-priced-3fhk",
+      "summary": "My Fast Movers publishes cost estimates for 27,854 long-distance moving routes. That number sounds comprehensive until a user types in a route we have not published, and then the honest answer is that we do not have a specific number for that pair of places. How we handle that m…",
       "author": "Daniel Mercer",
-      "published": "Sat, 31 Oct 2026 07:03:03 +0000",
+      "published": "Sun, 01 Nov 2026 07:26:41 +0000",
       "tags": [
         "webdev",
-        "performance",
-        "javascript",
-        "indiedev"
+        "product",
+        "data",
+        "javascript"
       ]
     },
     {
-      "id": "5f4cf3b95449",
+      "id": "fa96ed54cd78",
       "category": "tech",
       "source": "DEV Community",
-      "title": "CodeRef.xyz: A Developer's Workspace for Cheat Sheets, Tools, Design Systems, and More",
-      "url": "https://dev.to/asrarihaque/coderefxyz-a-developers-workspace-for-cheat-sheets-tools-design-systems-and-more-1a8o",
-      "summary": "As developers, we constantly switch between documentation, online tools, code references, design resources, and browser compatibility websites. Sometimes we just need a quick reference. Other times, we need a tool to format JSON, test an API, work with regex, or explore a design…",
-      "author": "ANWAARUL HAQUE",
-      "published": "Sat, 31 Oct 2026 07:01:19 +0000",
+      "title": "Why every family gets its own link: building wedding invitations for Indian weddings",
+      "url": "https://dev.to/shaadimode/why-every-family-gets-its-own-link-building-wedding-invitations-for-indian-weddings-3heb",
+      "summary": "I am Khushi, and I build ShaadiMode , a web app for Indian weddings. This post is about one design decision that shaped the whole product: every family gets its own invitation link. The problem with one card for everyone An Indian wedding is not one event. There is often a haldi…",
+      "author": "Khushi Goyal",
+      "published": "Sun, 01 Nov 2026 07:26:31 +0000",
       "tags": [
-        "showdev",
-        "tools",
         "webdev",
-        "productivity"
-      ]
-    },
-    {
-      "id": "1fa06d17bd86",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Why Two Tabs Silently Overwrote Each Other: Field Notes on Lost Updates, Version Columns, and ETags",
-      "url": "https://dev.to/ahmed_mahmoud360/why-two-tabs-silently-overwrote-each-other-field-notes-on-lost-updates-version-columns-and-etags-1gem",
-      "summary": "Headline: A lost update happens when two clients read the same record, both edit it, and the second save silently overwrites the first. Database transactions do not prevent it when the read and the write happen in separate HTTP requests; optimistic concurrency control does — an …",
-      "author": "Ahmed Mahmoud",
-      "published": "Sat, 31 Oct 2026 07:00:12 +0000",
-      "tags": [
-        "postgres",
         "nextjs",
-        "typescript",
-        "webdev"
+        "showdev",
+        "startup"
       ]
     },
     {
-      "id": "33b4446e64c3",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Server-Driven Data Tables with Laravel, Inertia and React: Filters, Sorting and Pagination in the URL",
-      "url": "https://dev.to/developertugrul/server-driven-data-tables-with-laravel-inertia-and-react-filters-sorting-and-pagination-in-the-3m34",
-      "summary": "Every business app eventually grows a table that people live in: products, invoices, suppliers, open orders. The first version is easy. Load everything, render a <table> , maybe add a client-side filter. Then the table hits 40,000 rows, someone asks for \"sort by stock, only acti…",
-      "author": "Tuğrul Yıldırım",
-      "published": "Sat, 31 Oct 2026 07:00:01 +0000",
-      "tags": [
-        "laravel",
-        "react",
-        "javascript",
-        "webdev"
-      ]
-    },
-    {
-      "id": "80691742db34",
+      "id": "bfa89efb8cf1",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Zombie Nightmare",
-      "url": "https://en.wikipedia.org/wiki/Zombie_Nightmare",
-      "summary": "Zombie Nightmare is a 1987 Canadian zombie film produced and directed by Jack Bravman, written by John Fasano, and starring Adam West, Jon Mikl Thor, Tia Carrere, Frank Dietz, and Linda Singer. The film centres on a baseball player who is killed by a group of teenagers and resur…",
+      "title": "Europejara",
+      "url": "https://en.wikipedia.org/wiki/Europejara",
+      "summary": "Europejara is a genus of tapejarid pterosaur, a flying reptile that lived during the Barremian age of the Early Cretaceous epoch in what is now Spain. The only known specimen was found at the Las Hoyas site of Cuenca, a location noted for its exceptional Konservat-Lagerstätte pr…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "008e0f544cd2",
+      "id": "de77300dcc63",
       "category": "news",
       "source": "BBC 世界",
-      "title": "US approves sale of 500 Patriot missiles to Ukraine",
-      "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
-      "summary": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles.",
-      "published": "Sat, 31 Oct 2026 00:40:43 GMT",
+      "title": "Shops looted as German cost of living protests turn violent",
+      "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+      "summary": "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France.",
+      "published": "Sun, 01 Nov 2026 07:36:18 GMT",
       "tags": []
     },
     {
-      "id": "31077fabb6a0",
+      "id": "c02cb42c8aa4",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-      "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
-      "summary": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
-      "published": "Fri, 30 Oct 2026 21:13:14 GMT",
+      "title": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
+      "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
+      "summary": "One evacuated couple says they crossed minefields in Oleshky in search of food.",
+      "published": "Sat, 31 Oct 2026 19:22:26 GMT",
       "tags": []
     },
     {
-      "id": "a2f28390745f",
+      "id": "763a99da6625",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
-      "url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
-      "summary": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.",
-      "published": "Sat, 31 Oct 2026 02:12:19 GMT",
+      "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
+      "summary": "Oleshky residents had been without food, water and electricity, with many resorting to cooking garden weeds to survive.",
+      "published": "Sat, 31 Oct 2026 17:53:35 GMT",
       "tags": []
     },
     {
-      "id": "2983ac9f31ae",
+      "id": "641fcec3e146",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Police deployed during stand-off over control of top Poland court",
-      "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
-      "summary": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them.",
-      "published": "Sat, 31 Oct 2026 01:11:43 GMT",
+      "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+      "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack.",
+      "published": "Sat, 31 Oct 2026 22:11:45 GMT",
       "tags": []
+    },
+    {
+      "id": "e58df0c82cd4",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Seabirds racing home over the ocean can get jet-lagged",
+      "url": "https://arstechnica.com/science/2026/10/seabirds-racing-home-over-the-ocean-can-get-jet-lagged/",
+      "summary": "A long flight home from feeding grounds messes with birds' internal clocks.",
+      "author": "Jacek Krywko",
+      "published": "Sat, 31 Oct 2026 11:15:26 +0000",
+      "tags": [
+        "Science",
+        "Behavioral science",
+        "Biology",
+        "chronobiology"
+      ]
+    },
+    {
+      "id": "58f1874bf514",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "The FDA wants to pull its approval of a drug. It’s not so easy.",
+      "url": "https://arstechnica.com/science/2026/10/the-fda-wants-to-pull-its-approval-of-a-drug-its-not-so-easy/",
+      "summary": "The regulator says Tavneos was approved on the basis of manipulated study data. Should patients still have access to it?",
+      "author": "Sara Talpos, Undark Magazine",
+      "published": "Sat, 31 Oct 2026 11:02:34 +0000",
+      "tags": [
+        "Science",
+        "fda",
+        "syndication"
+      ]
     },
     {
       "id": "e7a0d7ebfffd",
@@ -236,68 +267,36 @@
       ]
     },
     {
-      "id": "b1311b7a9510",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Flesh-eating screwworms spread to third state and are attacking pets",
-      "url": "https://arstechnica.com/health/2026/10/flesh-eating-screwworms-are-feasting-on-pets-4-dogs-and-cat-attacked-this-week/",
-      "summary": "USDA has identified 74 animal cases in US since parasitic flies invaded in June.",
-      "author": "Beth Mole",
-      "published": "Fri, 30 Oct 2026 22:36:41 +0000",
-      "tags": [
-        "Health",
-        "arizona",
-        "livestock",
-        "mexico"
-      ]
-    },
-    {
-      "id": "df4feec8b4d8",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Oh captain, our captain: Ars staff remembers Patrick Stewart",
-      "url": "https://arstechnica.com/culture/2026/10/oh-captain-our-captain-ars-staff-remembers-patrick-stewart/",
-      "summary": "\"For huge numbers of people, I will always be Jean-Luc Picard. ... We created an admirable individual.\"",
-      "author": "Jennifer Ouellette",
-      "published": "Fri, 30 Oct 2026 22:21:05 +0000",
-      "tags": [
-        "Culture",
-        "Jean Luc Picard",
-        "Obituaries",
-        "patrick stewart"
-      ]
-    },
-    {
-      "id": "f0f797ea85c3",
+      "id": "c0f1269a8a34",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Grand Theft Callout: ‘GTA 6’ fans are missing work on the game’s release day because they ‘don’t want to wait’ anymore",
-      "url": "https://www.marketwatch.com/story/grand-theft-callout-gta-6-fans-are-missing-work-on-the-games-release-day-because-they-dont-want-to-wait-anymore-5f2fa2e3?mod=mw_rss_topstories",
-      "summary": "After waiting 13 years for this videogame, almost one-fifth of workers plan to take the day off to play ‘Grand Theft Auto VI’ when it drops on Nov. 19",
-      "author": "Aditi Shrikant",
-      "published": "Sat, 31 Oct 2026 04:30:00 GMT",
+      "title": "My abusive ex-husband promised $20,000 for our kids’ education. Now he refuses to pay. Is he legally obligated?",
+      "url": "https://www.marketwatch.com/story/my-abusive-ex-husband-promised-20-000-for-our-kids-education-now-he-refuses-to-pay-is-he-legally-obligated-325ef50f?mod=mw_rss_topstories",
+      "summary": "“Before our divorce, my former mother-in-law entrusted him with $20,000 for each of our daughters to invest on their behalf.”",
+      "author": "Quentin Fottrell",
+      "published": "Sat, 31 Oct 2026 20:15:00 GMT",
       "tags": []
     },
     {
-      "id": "96c2dff01623",
+      "id": "33e01c5eafae",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.",
-      "url": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
-      "summary": "Friday’s big plunge raises disturbing parallels with the top of the dot-com bubble",
-      "author": "Mark Hulbert",
-      "published": "Fri, 30 Oct 2026 23:14:00 GMT",
+      "title": "‘Showy jewelry and fancy cars hold no appeal’: We have a 99% chance of outliving our life savings. Why not spend it all?",
+      "url": "https://www.marketwatch.com/story/fancy-cars-hold-no-appeal-my-wife-and-i-have-a-99-chance-of-outliving-our-savings-why-dont-we-spend-it-all-932a2166?mod=mw_rss_topstories",
+      "summary": "“I’m 68, she’s 74, and we’re both in good health. We married later in life and have no children.”",
+      "author": "Quentin Fottrell",
+      "published": "Sat, 31 Oct 2026 19:30:00 GMT",
       "tags": []
     },
     {
-      "id": "fa6ae4c7695c",
+      "id": "b920bc5e7779",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "This cybersecurity stock will be the next to join the S&P 500",
-      "url": "https://www.marketwatch.com/story/this-cybersecurity-stock-will-be-the-next-to-join-the-s-p-500-dc976803?mod=mw_rss_topstories",
-      "summary": "Okta is slated to join the index on Wednesday, replacing Kenvue.",
-      "author": "Bill Peters",
-      "published": "Fri, 30 Oct 2026 22:20:00 GMT",
+      "title": "This is where most people go wrong in their 30s and 40s",
+      "url": "https://www.marketwatch.com/story/the-house-the-kids-college-and-the-raise-where-people-in-their-30s-and-40s-go-wrong-69ec6c90?mod=mw_rss_topstories",
+      "summary": "These big life decisions will determine just how well you retire.",
+      "author": "Kurt Supe",
+      "published": "Sat, 31 Oct 2026 19:02:00 GMT",
       "tags": []
     }
   ],
