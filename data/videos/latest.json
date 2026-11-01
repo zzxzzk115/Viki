@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "items": [
     {
       "id": "ce14acab8d98",
@@ -46,28 +46,6 @@
       "category": "图形学"
     },
     {
-      "id": "dc49fc3eddfc",
-      "platform": "bilibili",
-      "videoId": "BV1k2Jy6jEbX",
-      "title": "GAMES Webinar 418-具身智能专题-郝策-迈向通用具身智能：机器人操作与腿足运动中的学习范式",
-      "channel": "GAMES-Webinar",
-      "url": "https://www.bilibili.com/video/BV1k2Jy6jEbX",
-      "thumb": "https://i1.hdslb.com/bfs/archive/9b7da275d7926d6c07f10c37601ff51b9ecb2e35.jpg",
-      "published": "2026-10-15",
-      "category": "图形学"
-    },
-    {
-      "id": "b2c1ea0ea2c5",
-      "platform": "bilibili",
-      "videoId": "BV1P2Jy6EEFo",
-      "title": "GAMES Webinar 418-具身智能专题-汪怡暄-面向机器人策略训练与评估的交互式世界模拟器",
-      "channel": "GAMES-Webinar",
-      "url": "https://www.bilibili.com/video/BV1P2Jy6EEFo",
-      "thumb": "https://i1.hdslb.com/bfs/archive/f4819d4bfae6103b77d6c87bbac800dcbaa43101.jpg",
-      "published": "2026-10-15",
-      "category": "图形学"
-    },
-    {
       "id": "9fa31e74074c",
       "platform": "youtube",
       "videoId": "YRwtopFzRZ0",
@@ -87,6 +65,28 @@
       "url": "https://www.youtube.com/watch?v=sY_U3-ih4Bs",
       "thumb": "https://i4.ytimg.com/vi/sY_U3-ih4Bs/hqdefault.jpg",
       "published": "2022-05-05",
+      "category": "引擎"
+    },
+    {
+      "id": "74d5969623e3",
+      "platform": "bilibili",
+      "videoId": "BV1BTnxzKEVv",
+      "title": "2025.9月编程语言排行榜 C++、C、JAVA亚军之争异常激烈 Perl的火爆与人工智能无关",
+      "channel": "原子之音",
+      "url": "https://www.bilibili.com/video/BV1BTnxzKEVv",
+      "thumb": "https://i0.hdslb.com/bfs/archive/57a35f617d5a79a0ce357179e98382a0c2786185.jpg",
+      "published": "2025-09-26",
+      "category": "引擎"
+    },
+    {
+      "id": "20c78ca36141",
+      "platform": "bilibili",
+      "videoId": "BV1TXWVzZEx4",
+      "title": "虚幻中的C++: 输入系统(Input与Enhanced Input)",
+      "channel": "原子之音",
+      "url": "https://www.bilibili.com/video/BV1TXWVzZEx4",
+      "thumb": "https://i0.hdslb.com/bfs/archive/56b88c2f99c47fd48d8dd518d296fa8697902d72.jpg",
+      "published": "2025-09-20",
       "category": "引擎"
     },
     {
@@ -335,9 +335,9 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "图形学 · 512313464: 2 条",
+    "图形学 · 512313464: 0 条",
     "引擎 · @TheCherno: 2 条",
-    "引擎 · 437860379: 0 条",
+    "引擎 · 437860379: 2 条",
     "CS · @Computerphile: 2 条",
     "CS · @javidx9: 2 条",
     "CS · 1567748478: 0 条",
