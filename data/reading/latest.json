@@ -1,28 +1,80 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "items": [
     {
-      "id": "44a18350aba6",
+      "id": "b21dcfacdd8b",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Nero Julius Caesar",
-      "url": "https://simple.wikipedia.org/wiki/Nero_Julius_Caesar",
-      "summary": "Nero Julius Caesar was an inheritor of the Roman Emperor Tiberius. Nero with his brother, Drusus, made successful political careers. Nero was a close relative of every Julio-Claudian emperor.",
+      "title": "Esquimalt",
+      "url": "https://simple.wikipedia.org/wiki/Esquimalt",
+      "summary": "The Township of Esquimalt is a district municipality in the province of British Columbia, Canada. It is located on Vancouver Island and is in the Capital regional district.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "8057400fd8c0",
+      "id": "2f21e70fe76e",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Jeremy Roenick",
-      "url": "https://simple.wikipedia.org/wiki/Jeremy_Roenick",
-      "summary": "Jeremy Shaffer \"J.R.\" Roenick is a retired American professional ice hockey center that played in the National Hockey League. Roenick was drafted by the Chicago Blackhawks with the 8th overall pick in the 1988 NHL Draft.",
+      "title": "Ed Gillespie",
+      "url": "https://simple.wikipedia.org/wiki/Ed_Gillespie",
+      "summary": "Edward Walter \"Ed\" Gillespie is an American Republican politician. He served as the 61st Chairman of the Republican National Committee and Counselor to the President during George W. Bush's administration.",
       "published": "",
       "tags": [
         "今日精选"
+      ]
+    },
+    {
+      "id": "5bbad0fbe174",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN",
+      "url": "https://wikihack.netlify.app",
+      "summary": "After seeing Karpathy's Hackertube and Hackerbooks, I just had to make Wikihack. I scraped all mentions of wikipedia on hackernews and ranked them, and turn them into a scrollable feed to make it a bit more easy to digest / interact with. You can see where people submitted the a…",
+      "author": "aizk",
+      "published": "2026-11-02",
+      "tags": [
+        "▲ 61"
+      ]
+    },
+    {
+      "id": "664224e893fc",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "url": "https://hackerbooks.org",
+      "summary": "Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5). It's ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the …",
+      "author": "roansh",
+      "published": "2026-11-01",
+      "tags": [
+        "▲ 1275"
+      ]
+    },
+    {
+      "id": "bb0036b97413",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Postgres 19 is late because so many more bugs are being found now",
+      "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+      "summary": "",
+      "author": "soheilpro",
+      "published": "2026-10-31",
+      "tags": [
+        "▲ 318"
+      ]
+    },
+    {
+      "id": "d0c01d3200b9",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix",
+      "url": "https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/",
+      "summary": "",
+      "author": "joonehur",
+      "published": "2026-11-02",
+      "tags": [
+        "▲ 92"
       ]
     },
     {
@@ -35,188 +87,135 @@
       "author": "karpathy",
       "published": "2026-10-31",
       "tags": [
-        "▲ 1134"
+        "▲ 2490"
       ]
     },
     {
-      "id": "8774e31fd6aa",
+      "id": "8be567a5acd8",
       "category": "tech",
       "source": "Hacker News",
-      "title": "An Italian farmer found some unknown seeds in his attic and planted them",
-      "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+      "title": "Mystery of 60-Second Fluctuations in Power Grids Solved",
+      "url": "https://www.fz-juelich.de/en/news/archive/press-release/2026/mystery-of-60-second-fluctuations-in-power-grids-solved",
       "summary": "",
-      "author": "ecares",
+      "author": "_Microft",
       "published": "2026-10-31",
       "tags": [
-        "▲ 344"
+        "▲ 96"
       ]
     },
     {
-      "id": "64d3dd787cef",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Running a bootstrapped SaaS for 20 years with my brother",
-      "url": "https://blog.zamzar.com/2026/10/30/20-years-766-million-files-two-chameleons/",
-      "summary": "",
-      "author": "whyleyc",
-      "published": "2026-10-30",
-      "tags": [
-        "▲ 35"
-      ]
-    },
-    {
-      "id": "a391a59c0933",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
-      "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
-      "summary": "",
-      "author": "doodlesdev",
-      "published": "2026-11-01",
-      "tags": [
-        "▲ 89"
-      ]
-    },
-    {
-      "id": "6bd209feefbe",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
-      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
-      "summary": "",
-      "author": "oger",
-      "published": "2026-10-31",
-      "tags": [
-        "▲ 472"
-      ]
-    },
-    {
-      "id": "f9b8a9efbf26",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
-      "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
-      "summary": "",
-      "author": "guregodevo",
-      "published": "2026-10-31",
-      "tags": [
-        "▲ 194"
-      ]
-    },
-    {
-      "id": "ca35d699123c",
+      "id": "7179306b38e8",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Ảnh mà Google không thấy: CSS background, lazy load sai cách và cách audit thẻ img",
-      "url": "https://dev.to/onicai/anh-ma-google-khong-thay-css-background-lazy-load-sai-cach-va-cach-audit-the-img-3024",
-      "summary": "Developer thường tối ưu ảnh theo hướng hiệu năng: nén, lazy load, chuyển sang ảnh nền cho dễ căn chỉnh. Một số lựa chọn trong đó làm ảnh biến mất khỏi Google Hình ảnh mà không ai để ý. Bài này đi qua những gì tài liệu Google Search Central nói về cách Google tìm và hiểu ảnh, và …",
-      "author": "Onic Ai",
-      "published": "Sun, 01 Nov 2026 07:32:07 +0000",
+      "title": "A Website Reached Your Localhost Server by Changing Its Own DNS",
+      "url": "https://dev.to/sergueyasaelshinder/a-website-reached-your-localhost-server-by-changing-its-own-dns-441",
+      "summary": "Your tool runs a small server on localhost. A dashboard, a debug API, a helper for the desktop app. It has no password. Why would it. It only listens on 127.0.0.1, so only your machine can reach it. That sentence is true. It is also not the protection you think it is. Your brows…",
+      "author": "Serguey Asael Shinder",
+      "published": "Mon, 02 Nov 2026 07:42:47 +0000",
       "tags": [
-        "seo",
-        "html",
-        "css",
+        "sergueyasaelshinder",
+        "security",
+        "dns",
         "webdev"
       ]
     },
     {
-      "id": "20f633c953ae",
+      "id": "0c119fad1621",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Crediting a booking to the AI agent that sent it, without cookies",
-      "url": "https://dev.to/tablejourney/crediting-a-booking-to-the-ai-agent-that-sent-it-without-cookies-116",
-      "summary": "When an AI agent recommends a food tour and the person books it, the booking platform pays a commission to whoever owns the link. We wanted that money to reach the agent, or the person or company behind it, so we opened a partner program that pays out half of what we earn. The h…",
-      "author": "Elliot Marsh",
-      "published": "Sun, 01 Nov 2026 07:29:13 +0000",
+      "title": "Publier sur Dev.to depuis un serveur, avec 130 lignes de Python et zéro dépendance",
+      "url": "https://dev.to/devdusud/publier-sur-devto-depuis-un-serveur-avec-130-lignes-de-python-et-zero-dependance-2ec2",
+      "summary": "Écrire dans un éditeur web, coller son markdown, choisir ses tags, cliquer sur publier : quand on écrit une fois par mois, c'est très bien. Quand on écrit deux fois par semaine, ça devient une corvée — et les corvées finissent par ne plus être faites. Mon besoin était simple : j…",
+      "author": "Dev du Sud",
+      "published": "Mon, 02 Nov 2026 07:40:55 +0000",
       "tags": [
-        "ai",
-        "mcp",
-        "affiliate",
-        "webdev"
+        "python",
+        "automation",
+        "webdev",
+        "tutorial"
       ]
     },
     {
-      "id": "14decb6eb015",
+      "id": "a599d55ef898",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How we handle quote requests for routes we have never priced",
-      "url": "https://dev.to/danielmercer/how-we-handle-quote-requests-for-routes-we-have-never-priced-3fhk",
-      "summary": "My Fast Movers publishes cost estimates for 27,854 long-distance moving routes. That number sounds comprehensive until a user types in a route we have not published, and then the honest answer is that we do not have a specific number for that pair of places. How we handle that m…",
-      "author": "Daniel Mercer",
-      "published": "Sun, 01 Nov 2026 07:26:41 +0000",
+      "title": "Daily Career Digest",
+      "url": "https://dev.to/abhishek-tiwari-dev/daily-career-digest-4ice",
+      "summary": "Unauthorized spam post attempt",
+      "author": "Abhishek tiwari",
+      "published": "Mon, 02 Nov 2026 07:38:36 +0000",
       "tags": [
         "webdev",
-        "product",
-        "data",
-        "javascript"
+        "javascript",
+        "programming"
       ]
     },
     {
-      "id": "fa96ed54cd78",
+      "id": "afea09525836",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Why every family gets its own link: building wedding invitations for Indian weddings",
-      "url": "https://dev.to/shaadimode/why-every-family-gets-its-own-link-building-wedding-invitations-for-indian-weddings-3heb",
-      "summary": "I am Khushi, and I build ShaadiMode , a web app for Indian weddings. This post is about one design decision that shaped the whole product: every family gets its own invitation link. The problem with one card for everyone An Indian wedding is not one event. There is often a haldi…",
-      "author": "Khushi Goyal",
-      "published": "Sun, 01 Nov 2026 07:26:31 +0000",
+      "title": "How to Speed Up a WordPress Website Without a Redesign",
+      "url": "https://dev.to/msdevseo/how-to-speed-up-a-wordpress-website-without-a-redesign-9ao",
+      "summary": "Most Pakistani business websites do not need a redesign to get faster. They need a cleanup. A slow site loses visitors before anyone reads a headline, and Google treats speed as a ranking factor — so performance work is usually the cheapest win a business can buy. Measure first,…",
+      "author": "MSDevSEO",
+      "published": "Mon, 02 Nov 2026 07:36:14 +0000",
       "tags": [
+        "wordpress",
         "webdev",
-        "nextjs",
-        "showdev",
-        "startup"
+        "performance",
+        "seo"
       ]
     },
     {
-      "id": "bfa89efb8cf1",
+      "id": "cde03e78d609",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Europejara",
-      "url": "https://en.wikipedia.org/wiki/Europejara",
-      "summary": "Europejara is a genus of tapejarid pterosaur, a flying reptile that lived during the Barremian age of the Early Cretaceous epoch in what is now Spain. The only known specimen was found at the Las Hoyas site of Cuenca, a location noted for its exceptional Konservat-Lagerstätte pr…",
+      "title": "Sovetsky Soyuz-class battleship",
+      "url": "https://en.wikipedia.org/wiki/Sovetsky_Soyuz-class_battleship",
+      "summary": "The Sovetsky Soyuz-class battleships, also known as \"Stalin's Republics\", were a class of battleships begun by the Soviet Union in the late 1930s but never brought into service. They were designed in response to the Bismarck-class battleships being built by Germany.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "de77300dcc63",
+      "id": "660903c7e4d9",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Shops looted as German cost of living protests turn violent",
-      "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-      "summary": "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France.",
-      "published": "Sun, 01 Nov 2026 07:36:18 GMT",
+      "title": "How a Democrat in Michigan rocked the party days before the US midterms",
+      "url": "https://www.bbc.co.uk/news/videos/cqvgjljj74n8o?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC's Nada Tawfik visited Detroit, Michigan where the party spat unfolded.",
+      "published": "Mon, 02 Nov 2026 04:40:00 GMT",
       "tags": []
     },
     {
-      "id": "c02cb42c8aa4",
+      "id": "192330b7d972",
       "category": "news",
       "source": "BBC 世界",
-      "title": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
-      "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
-      "summary": "One evacuated couple says they crossed minefields in Oleshky in search of food.",
-      "published": "Sat, 31 Oct 2026 19:22:26 GMT",
+      "title": "Trump makes fevered campaign push in final weekend before election",
+      "url": "https://www.bbc.co.uk/news/articles/c3j47gjx29vro?at_medium=RSS&at_campaign=rss",
+      "summary": "The US president rallied in states that Republicans previously won - showcasing how tight Tuesday's elections could be in determining control of Congress.",
+      "published": "Mon, 02 Nov 2026 04:04:28 GMT",
       "tags": []
     },
     {
-      "id": "763a99da6625",
+      "id": "27c8c1facaf4",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
-      "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
-      "summary": "Oleshky residents had been without food, water and electricity, with many resorting to cooking garden weeds to survive.",
-      "published": "Sat, 31 Oct 2026 17:53:35 GMT",
+      "title": "Nine killed as small jet crashes on Florida street",
+      "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
+      "summary": "Transportation Secretary Sean Duffy described the crash, which happened near President Trump's Mar-a-Lago resort, as a \"horrific tragedy\".",
+      "published": "Mon, 02 Nov 2026 07:33:17 GMT",
       "tags": []
     },
     {
-      "id": "641fcec3e146",
+      "id": "bc46b33a5267",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
-      "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
-      "summary": "The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack.",
-      "published": "Sat, 31 Oct 2026 22:11:45 GMT",
+      "title": "Binance users withdraw $3.6bn after largest-ever crypto hack",
+      "url": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss",
+      "summary": "The exchange froze transactions following the incident which has been linked to a North Korean group.",
+      "published": "Mon, 02 Nov 2026 07:42:33 GMT",
       "tags": []
     },
     {
@@ -267,36 +266,36 @@
       ]
     },
     {
-      "id": "c0f1269a8a34",
+      "id": "81125055cca3",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "My abusive ex-husband promised $20,000 for our kids’ education. Now he refuses to pay. Is he legally obligated?",
-      "url": "https://www.marketwatch.com/story/my-abusive-ex-husband-promised-20-000-for-our-kids-education-now-he-refuses-to-pay-is-he-legally-obligated-325ef50f?mod=mw_rss_topstories",
-      "summary": "“Before our divorce, my former mother-in-law entrusted him with $20,000 for each of our daughters to invest on their behalf.”",
-      "author": "Quentin Fottrell",
-      "published": "Sat, 31 Oct 2026 20:15:00 GMT",
+      "title": "Marine sniper turned macro strategist says this bull market has six to 12 months left. Here’s his playbook.",
+      "url": "https://www.marketwatch.com/story/marine-sniper-turned-macro-strategist-says-this-bull-market-has-six-to-12-months-left-heres-his-playbook-8b48ce6e?mod=mw_rss_topstories",
+      "summary": "Alex Barrow, founder of Macro Ops, says the bull market is on borrowed time and will ratchet back painfully for investors who aren’t prepared.",
+      "author": "Barbara Kollmeyer",
+      "published": "Mon, 02 Nov 2026 07:25:00 GMT",
       "tags": []
     },
     {
-      "id": "33e01c5eafae",
+      "id": "f834851c6f10",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘Showy jewelry and fancy cars hold no appeal’: We have a 99% chance of outliving our life savings. Why not spend it all?",
-      "url": "https://www.marketwatch.com/story/fancy-cars-hold-no-appeal-my-wife-and-i-have-a-99-chance-of-outliving-our-savings-why-dont-we-spend-it-all-932a2166?mod=mw_rss_topstories",
-      "summary": "“I’m 68, she’s 74, and we’re both in good health. We married later in life and have no children.”",
-      "author": "Quentin Fottrell",
-      "published": "Sat, 31 Oct 2026 19:30:00 GMT",
+      "title": "Want to help your adult kids and grandkids? Give them money while you’re still alive.",
+      "url": "https://www.marketwatch.com/story/if-you-really-want-to-help-your-adult-kids-and-grandkids-give-them-money-while-youre-still-alive-bef6b056?mod=mw_rss_topstories",
+      "summary": "How to manage “giving while living” without endangering your own retirement.",
+      "author": "Richard Eisenberg",
+      "published": "Mon, 02 Nov 2026 03:23:00 GMT",
       "tags": []
     },
     {
-      "id": "b920bc5e7779",
+      "id": "afaec3edbdf7",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "This is where most people go wrong in their 30s and 40s",
-      "url": "https://www.marketwatch.com/story/the-house-the-kids-college-and-the-raise-where-people-in-their-30s-and-40s-go-wrong-69ec6c90?mod=mw_rss_topstories",
-      "summary": "These big life decisions will determine just how well you retire.",
-      "author": "Kurt Supe",
-      "published": "Sat, 31 Oct 2026 19:02:00 GMT",
+      "title": "This is the biggest threat to the AI-powered bull market",
+      "url": "https://www.marketwatch.com/story/this-is-the-biggest-threat-to-the-ai-powered-bull-market-e757ca37?mod=mw_rss_topstories",
+      "summary": "Blockbuster earnings growth has helped to power the stock market higher in 2026. In 2027, that engine might stall.",
+      "author": "Joseph Adinolfi",
+      "published": "Mon, 02 Nov 2026 00:22:00 GMT",
       "tags": []
     }
   ],
