@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "items": [
     {
       "id": "ce14acab8d98",
@@ -43,6 +43,28 @@
       "url": "https://www.youtube.com/watch?v=mGuYUEuVDYc",
       "thumb": "https://i2.ytimg.com/vi/mGuYUEuVDYc/hqdefault.jpg",
       "published": "2026-07-12",
+      "category": "图形学"
+    },
+    {
+      "id": "dc49fc3eddfc",
+      "platform": "bilibili",
+      "videoId": "BV1k2Jy6jEbX",
+      "title": "GAMES Webinar 418-具身智能专题-郝策-迈向通用具身智能：机器人操作与腿足运动中的学习范式",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV1k2Jy6jEbX",
+      "thumb": "https://i1.hdslb.com/bfs/archive/9b7da275d7926d6c07f10c37601ff51b9ecb2e35.jpg",
+      "published": "2026-10-15",
+      "category": "图形学"
+    },
+    {
+      "id": "b2c1ea0ea2c5",
+      "platform": "bilibili",
+      "videoId": "BV1P2Jy6EEFo",
+      "title": "GAMES Webinar 418-具身智能专题-汪怡暄-面向机器人策略训练与评估的交互式世界模拟器",
+      "channel": "GAMES-Webinar",
+      "url": "https://www.bilibili.com/video/BV1P2Jy6EEFo",
+      "thumb": "https://i1.hdslb.com/bfs/archive/f4819d4bfae6103b77d6c87bbac800dcbaa43101.jpg",
+      "published": "2026-10-15",
       "category": "图形学"
     },
     {
@@ -90,6 +112,17 @@
       "category": "引擎"
     },
     {
+      "id": "c2966d3673a5",
+      "platform": "youtube",
+      "videoId": "vCAD3W43lIk",
+      "title": "Who's Richer, Mario or Sonic? - Numberphile",
+      "channel": "Numberphile",
+      "url": "https://www.youtube.com/watch?v=vCAD3W43lIk",
+      "thumb": "https://i3.ytimg.com/vi/vCAD3W43lIk/hqdefault.jpg",
+      "published": "2026-11-01",
+      "category": "CS"
+    },
+    {
       "id": "427f315ce6db",
       "platform": "youtube",
       "videoId": "iJU6csQs_no",
@@ -98,17 +131,6 @@
       "url": "https://www.youtube.com/shorts/iJU6csQs_no",
       "thumb": "https://i2.ytimg.com/vi/iJU6csQs_no/hqdefault.jpg",
       "published": "2026-10-29",
-      "category": "CS"
-    },
-    {
-      "id": "28553792b050",
-      "platform": "youtube",
-      "videoId": "33_jJ4kIxfc",
-      "title": "Blind Ranking Numbers (Terence Tao)",
-      "channel": "Numberphile",
-      "url": "https://www.youtube.com/shorts/33_jJ4kIxfc",
-      "thumb": "https://i4.ytimg.com/vi/33_jJ4kIxfc/hqdefault.jpg",
-      "published": "2026-10-27",
       "category": "CS"
     },
     {
@@ -244,28 +266,6 @@
       "category": "历史"
     },
     {
-      "id": "7ae6d44c47b3",
-      "platform": "bilibili",
-      "videoId": "BV1ydni6AE65",
-      "title": "乾隆·和孝公主：和珅儿媳卖家当，竟有官员敢赖账？【乾隆往事】",
-      "channel": "正直讲史-李正Str",
-      "url": "https://www.bilibili.com/video/BV1ydni6AE65",
-      "thumb": "https://i2.hdslb.com/bfs/archive/88de2dd64376a5f7704adceb7392592f761c3fdb.jpg",
-      "published": "2026-10-21",
-      "category": "历史"
-    },
-    {
-      "id": "3fe09620e0be",
-      "platform": "bilibili",
-      "videoId": "BV18SJa6ZEKb",
-      "title": "王掞·下半生：一份奏折，为啥让王掞的祖坟，差点儿都没了？【康熙王朝】",
-      "channel": "正直讲史-李正Str",
-      "url": "https://www.bilibili.com/video/BV18SJa6ZEKb",
-      "thumb": "https://i0.hdslb.com/bfs/archive/efdd390aa1ad1f2f4f216341a81019046163e6fd.jpg",
-      "published": "2026-10-17",
-      "category": "历史"
-    },
-    {
       "id": "b91ea9b965e8",
       "platform": "bilibili",
       "videoId": "BV1ocsd6jErz",
@@ -335,7 +335,7 @@
   "notes": [
     "图形学 · @TwoMinutePapers: 2 条",
     "图形学 · @Acerola_t: 2 条",
-    "图形学 · 512313464: 0 条",
+    "图形学 · 512313464: 2 条",
     "引擎 · @TheCherno: 2 条",
     "引擎 · 437860379: 2 条",
     "CS · @Computerphile: 2 条",
@@ -346,7 +346,7 @@
     "金融 · 520819684: 2 条",
     "历史 · @CrashCourse: 2 条",
     "历史 · @HistoriaCivilis: 2 条",
-    "历史 · 11646119: 2 条",
+    "历史 · 11646119: 0 条",
     "历史 · 23947287: 2 条",
     "英语 · @bbclearningenglish: 2 条",
     "英语 · @EnglishwithLucy: 2 条"
