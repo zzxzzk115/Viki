@@ -1,301 +1,301 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "items": [
     {
-      "id": "b21dcfacdd8b",
+      "id": "e36728c9b1df",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Esquimalt",
-      "url": "https://simple.wikipedia.org/wiki/Esquimalt",
-      "summary": "The Township of Esquimalt is a district municipality in the province of British Columbia, Canada. It is located on Vancouver Island and is in the Capital regional district.",
+      "title": "Digital camera",
+      "url": "https://simple.wikipedia.org/wiki/Digital_camera",
+      "summary": "A digital camera, also known as a digicam, is a camera that stores pictures on digital storage instead of film. Because of this, a digital camera can hold many more pictures than a traditional film camera. A digital camera can sometimes hold hundreds or thousands of pictures. Ma…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "2f21e70fe76e",
+      "id": "9aad1b712a0c",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Ed Gillespie",
-      "url": "https://simple.wikipedia.org/wiki/Ed_Gillespie",
-      "summary": "Edward Walter \"Ed\" Gillespie is an American Republican politician. He served as the 61st Chairman of the Republican National Committee and Counselor to the President during George W. Bush's administration.",
+      "title": "Robin Stjernberg",
+      "url": "https://simple.wikipedia.org/wiki/Robin_Stjernberg",
+      "summary": "Robin James Olof Stjernberg born 22 February 1991, Hässleholm, Sweden) is a Swedish pop singer. He represented Sweden in the Eurovision Song Contest 2013 in Malmö on 18 May 2013 with the song \"You\".",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "5bbad0fbe174",
+      "id": "4c0db1cca201",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN",
-      "url": "https://wikihack.netlify.app",
-      "summary": "After seeing Karpathy's Hackertube and Hackerbooks, I just had to make Wikihack. I scraped all mentions of wikipedia on hackernews and ranked them, and turn them into a scrollable feed to make it a bit more easy to digest / interact with. You can see where people submitted the a…",
-      "author": "aizk",
+      "title": "uBlock Origin filter to block autoplay videos in TechCrunch",
+      "url": "https://cornfieldlabs.github.io/posts/ublock-stop-techcrunch-autoplay-video/post.html",
+      "summary": "",
+      "author": "cornfieldlabs",
+      "published": "2026-11-03",
+      "tags": [
+        "▲ 26"
+      ]
+    },
+    {
+      "id": "3c51f6aa7437",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Astra can read and write weights to improve Qwen",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "summary": "",
+      "author": "dbreunig",
       "published": "2026-11-02",
       "tags": [
-        "▲ 61"
+        "▲ 2470"
       ]
     },
     {
-      "id": "664224e893fc",
+      "id": "6eaa64434e8d",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
-      "url": "https://hackerbooks.org",
-      "summary": "Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5). It's ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the …",
-      "author": "roansh",
-      "published": "2026-11-01",
-      "tags": [
-        "▲ 1275"
-      ]
-    },
-    {
-      "id": "bb0036b97413",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Postgres 19 is late because so many more bugs are being found now",
-      "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+      "title": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
+      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
       "summary": "",
-      "author": "soheilpro",
-      "published": "2026-10-31",
+      "author": "bpierre",
+      "published": "2026-11-03",
       "tags": [
-        "▲ 318"
+        "▲ 160"
       ]
     },
     {
-      "id": "d0c01d3200b9",
+      "id": "01025415992b",
       "category": "tech",
       "source": "Hacker News",
-      "title": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix",
-      "url": "https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/",
+      "title": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
+      "url": "https://hackertimes.ca/",
+      "summary": "I thought it would be fun to browse HN as if it were a newspaper. The site updates once an hour. Enjoy!",
+      "author": "polpenn",
+      "published": "2026-11-03",
+      "tags": [
+        "▲ 209"
+      ]
+    },
+    {
+      "id": "72f52294c5cf",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "European RISC-V Industrial Computing Initiative",
+      "url": "https://erici.eu",
       "summary": "",
-      "author": "joonehur",
+      "author": "ymz5",
       "published": "2026-11-02",
       "tags": [
-        "▲ 92"
+        "▲ 64"
       ]
     },
     {
-      "id": "c241855c2841",
+      "id": "8ac198972094",
       "category": "tech",
       "source": "Hacker News",
-      "title": "HackerTube: YouTube built from videos recommended by HN",
-      "url": "https://karpathy.bearblog.dev/hacker-tube/",
-      "summary": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007. https://hackertube.org/",
-      "author": "karpathy",
-      "published": "2026-10-31",
-      "tags": [
-        "▲ 2490"
-      ]
-    },
-    {
-      "id": "8be567a5acd8",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Mystery of 60-Second Fluctuations in Power Grids Solved",
-      "url": "https://www.fz-juelich.de/en/news/archive/press-release/2026/mystery-of-60-second-fluctuations-in-power-grids-solved",
+      "title": "Nvidia – open-source auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
       "summary": "",
-      "author": "_Microft",
-      "published": "2026-10-31",
+      "author": "campervans",
+      "published": "2026-11-03",
       "tags": [
-        "▲ 96"
+        "▲ 10"
       ]
     },
     {
-      "id": "7179306b38e8",
+      "id": "692cd07f5017",
       "category": "tech",
       "source": "DEV Community",
-      "title": "A Website Reached Your Localhost Server by Changing Its Own DNS",
-      "url": "https://dev.to/sergueyasaelshinder/a-website-reached-your-localhost-server-by-changing-its-own-dns-441",
-      "summary": "Your tool runs a small server on localhost. A dashboard, a debug API, a helper for the desktop app. It has no password. Why would it. It only listens on 127.0.0.1, so only your machine can reach it. That sentence is true. It is also not the protection you think it is. Your brows…",
-      "author": "Serguey Asael Shinder",
-      "published": "Mon, 02 Nov 2026 07:42:47 +0000",
+      "title": "I built 60+ free browser tools for game devs. Here is what I learned.",
+      "url": "https://dev.to/jaehyun_cho_0dff271e0d2e5/i-built-60-free-browser-tools-for-game-devs-here-is-what-i-learned-3fd3",
+      "summary": "A year ago I could not write code. I did not even know what a game engine was. Today I run GameShipKit , a set of 63 small browser tools for game developers. I built all of it by describing what I wanted to an AI and testing the result. Here is what that taught me. Why small too…",
+      "author": "Johmisking",
+      "published": "Tue, 03 Nov 2026 08:02:29 +0000",
       "tags": [
-        "sergueyasaelshinder",
-        "security",
-        "dns",
+        "showdev",
+        "gamedev",
+        "godot",
         "webdev"
       ]
     },
     {
-      "id": "0c119fad1621",
+      "id": "a2449402984f",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Publier sur Dev.to depuis un serveur, avec 130 lignes de Python et zéro dépendance",
-      "url": "https://dev.to/devdusud/publier-sur-devto-depuis-un-serveur-avec-130-lignes-de-python-et-zero-dependance-2ec2",
-      "summary": "Écrire dans un éditeur web, coller son markdown, choisir ses tags, cliquer sur publier : quand on écrit une fois par mois, c'est très bien. Quand on écrit deux fois par semaine, ça devient une corvée — et les corvées finissent par ne plus être faites. Mon besoin était simple : j…",
-      "author": "Dev du Sud",
-      "published": "Mon, 02 Nov 2026 07:40:55 +0000",
+      "title": "Where a not-worth-re-encoding check belongs in a video transcode pipeline",
+      "url": "https://dev.to/pm_cheng_3f36acecfb9c59f5/where-a-not-worth-re-encoding-check-belongs-in-a-video-transcode-pipeline-3cnj",
+      "summary": "The simplest batch transcode job has one stage: for each file, encode. I wanted to know where a \"not worth it\" check should live in front of that stage. The trigger was a small comparison on five Creative Commons clips from Wikimedia Commons (WebM, VP8 and VP9, not phone footage…",
+      "author": "Lank_M",
+      "published": "Tue, 03 Nov 2026 08:02:13 +0000",
       "tags": [
-        "python",
-        "automation",
+        "webdev",
+        "javascript"
+      ]
+    },
+    {
+      "id": "ea68d2e76221",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "XSS en PHP: cómo evitarlo escapando la salida (guía rápida)",
+      "url": "https://dev.to/marius_podar/xss-en-php-como-evitarlo-escapando-la-salida-guia-rapida-450h",
+      "summary": "El XSS ( Cross-Site Scripting ) es uno de los problemas de seguridad más comunes en aplicaciones web: alguien consigue colar código JavaScript en tu página y ese código se ejecuta en el navegador de tus usuarios. Importa porque permite robar cookies de sesión o actuar en nombre …",
+      "author": "Marius Podar",
+      "published": "Tue, 03 Nov 2026 08:00:00 +0000",
+      "tags": [
+        "php",
+        "security",
         "webdev",
         "tutorial"
       ]
     },
     {
-      "id": "a599d55ef898",
+      "id": "3536f32b6b02",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Daily Career Digest",
-      "url": "https://dev.to/abhishek-tiwari-dev/daily-career-digest-4ice",
-      "summary": "Unauthorized spam post attempt",
-      "author": "Abhishek tiwari",
-      "published": "Mon, 02 Nov 2026 07:38:36 +0000",
+      "title": "The paid AI visibility tools charge $24 to $295 per month. Here's what open source gives you for free.",
+      "url": "https://dev.to/juanauriti/the-paid-ai-visibility-tools-charge-24-to-295-per-month-heres-what-open-source-gives-you-for-5hki",
+      "summary": "The AI visibility tool market has a pricing floor of $24/month and a ceiling of $295/month. There are at least 15 paid products tracking how brands appear in ChatGPT, Perplexity, Gemini, and Google AI Overviews. Most of them do something useful. None of them do what an open-sour…",
+      "author": "Juan Camilo Auriti",
+      "published": "Tue, 03 Nov 2026 08:00:00 +0000",
       "tags": [
+        "ai",
+        "opensource",
         "webdev",
-        "javascript",
-        "programming"
+        "showdev"
       ]
     },
     {
-      "id": "afea09525836",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "How to Speed Up a WordPress Website Without a Redesign",
-      "url": "https://dev.to/msdevseo/how-to-speed-up-a-wordpress-website-without-a-redesign-9ao",
-      "summary": "Most Pakistani business websites do not need a redesign to get faster. They need a cleanup. A slow site loses visitors before anyone reads a headline, and Google treats speed as a ranking factor — so performance work is usually the cheapest win a business can buy. Measure first,…",
-      "author": "MSDevSEO",
-      "published": "Mon, 02 Nov 2026 07:36:14 +0000",
-      "tags": [
-        "wordpress",
-        "webdev",
-        "performance",
-        "seo"
-      ]
-    },
-    {
-      "id": "cde03e78d609",
+      "id": "10be2fb2cfde",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Sovetsky Soyuz-class battleship",
-      "url": "https://en.wikipedia.org/wiki/Sovetsky_Soyuz-class_battleship",
-      "summary": "The Sovetsky Soyuz-class battleships, also known as \"Stalin's Republics\", were a class of battleships begun by the Soviet Union in the late 1930s but never brought into service. They were designed in response to the Bismarck-class battleships being built by Germany.",
+      "title": "Ich geh und suche mit Verlangen, BWV 49",
+      "url": "https://en.wikipedia.org/wiki/Ich_geh_und_suche_mit_Verlangen%2C_BWV_49",
+      "summary": "Johann Sebastian Bach composed the church cantata Ich geh und suche mit Verlangen, BWV 49, in Leipzig for the twentieth Sunday after Trinity Sunday and first performed it on 3 November 1726. It is a solo cantata, a dialogue for soprano and bass.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "660903c7e4d9",
+      "id": "dbe976cec8b7",
       "category": "news",
       "source": "BBC 世界",
-      "title": "How a Democrat in Michigan rocked the party days before the US midterms",
-      "url": "https://www.bbc.co.uk/news/videos/cqvgjljj74n8o?at_medium=RSS&at_campaign=rss",
-      "summary": "BBC's Nada Tawfik visited Detroit, Michigan where the party spat unfolded.",
-      "published": "Mon, 02 Nov 2026 04:40:00 GMT",
+      "title": "Americans head to the polls for elections that could define Trump's closing chapter",
+      "url": "https://www.bbc.co.uk/news/articles/cq2d6k4r5n9ro?at_medium=RSS&at_campaign=rss",
+      "summary": "The midterms will shape Congress for the last years of his presidency, writes Sarah Smith, but they are also a test of what politics may look like without him.",
+      "published": "Tue, 03 Nov 2026 05:00:43 GMT",
       "tags": []
     },
     {
-      "id": "192330b7d972",
+      "id": "7062a3beba16",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump makes fevered campaign push in final weekend before election",
-      "url": "https://www.bbc.co.uk/news/articles/c3j47gjx29vro?at_medium=RSS&at_campaign=rss",
-      "summary": "The US president rallied in states that Republicans previously won - showcasing how tight Tuesday's elections could be in determining control of Congress.",
-      "published": "Mon, 02 Nov 2026 04:04:28 GMT",
+      "title": "US strikes Iran ahead of midterm elections",
+      "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+      "summary": "US officials described the attacks on Qeshm Island as limited and defensive, according to CBS, the BBC's US partner.",
+      "published": "Tue, 03 Nov 2026 03:39:08 GMT",
       "tags": []
     },
     {
-      "id": "27c8c1facaf4",
+      "id": "8597eb1bcf6f",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Nine killed as small jet crashes on Florida street",
-      "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
-      "summary": "Transportation Secretary Sean Duffy described the crash, which happened near President Trump's Mar-a-Lago resort, as a \"horrific tragedy\".",
-      "published": "Mon, 02 Nov 2026 07:33:17 GMT",
+      "title": "Supreme Court rejects Trump's request to stop California counting disputed votes",
+      "url": "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko?at_medium=RSS&at_campaign=rss",
+      "summary": "The ruling, which comes on the eve of the midterm elections, essentially ends the Trump administration's bid to disqualify the ballots in the state.",
+      "published": "Tue, 03 Nov 2026 03:32:36 GMT",
       "tags": []
     },
     {
-      "id": "bc46b33a5267",
+      "id": "7584627279c2",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Binance users withdraw $3.6bn after largest-ever crypto hack",
-      "url": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss",
-      "summary": "The exchange froze transactions following the incident which has been linked to a North Korean group.",
-      "published": "Mon, 02 Nov 2026 07:42:33 GMT",
+      "title": "Russian bombing kills 29 people at Ukraine aid centre, Kyiv says",
+      "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Officials say at least nine 3,000kg aerial bombs hit a southern Ukrainian village in what the president called an \"utterly horrific\" attack.",
+      "published": "Tue, 03 Nov 2026 07:24:12 GMT",
       "tags": []
     },
     {
-      "id": "e58df0c82cd4",
+      "id": "0dfcca5dfebc",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Seabirds racing home over the ocean can get jet-lagged",
-      "url": "https://arstechnica.com/science/2026/10/seabirds-racing-home-over-the-ocean-can-get-jet-lagged/",
-      "summary": "A long flight home from feeding grounds messes with birds' internal clocks.",
-      "author": "Jacek Krywko",
-      "published": "Sat, 31 Oct 2026 11:15:26 +0000",
-      "tags": [
-        "Science",
-        "Behavioral science",
-        "Biology",
-        "chronobiology"
-      ]
-    },
-    {
-      "id": "58f1874bf514",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "The FDA wants to pull its approval of a drug. It’s not so easy.",
-      "url": "https://arstechnica.com/science/2026/10/the-fda-wants-to-pull-its-approval-of-a-drug-its-not-so-easy/",
-      "summary": "The regulator says Tavneos was approved on the basis of manipulated study data. Should patients still have access to it?",
-      "author": "Sara Talpos, Undark Magazine",
-      "published": "Sat, 31 Oct 2026 11:02:34 +0000",
-      "tags": [
-        "Science",
-        "fda",
-        "syndication"
-      ]
-    },
-    {
-      "id": "e7a0d7ebfffd",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Once again, NASA is asking for ideas to rescue Hubble from certain death",
-      "url": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/",
-      "summary": "The space agency solicited ideas for reboosting Hubble four years ago, but they didn't go anywhere.",
-      "author": "Stephen Clark",
-      "published": "Sat, 31 Oct 2026 00:07:22 +0000",
+      "title": "\"At Home in Space\" opens, caps Air and Space Museum renovation",
+      "url": "https://arstechnica.com/space/2026/11/at-home-in-space-opens-caps-air-and-space-museum-renovation/",
+      "summary": "The Smithsonian's National Air and Space Museum has all of its \"space\" back open.",
+      "author": "Robert Pearlman",
+      "published": "Mon, 02 Nov 2026 23:30:16 +0000",
       "tags": [
         "Space",
-        "astronomy",
-        "astrophysics",
-        "Commercial space"
+        "artemis",
+        "At Home in Space",
+        "Destiny module"
       ]
     },
     {
-      "id": "81125055cca3",
+      "id": "187838088a8f",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Why large dogs age faster than small ones, and other October research highlights",
+      "url": "https://arstechnica.com/science/2026/11/research-roundup-6-cool-science-stories-we-almost-missed-7/",
+      "summary": "Plus invisible tattoos, medieval skeleton gets an ID, trapping a single antimatter particle, and more.",
+      "author": "Jennifer Ouellette",
+      "published": "Mon, 02 Nov 2026 22:54:35 +0000",
+      "tags": [
+        "Science",
+        "Archaeology",
+        "art history",
+        "astronomy"
+      ]
+    },
+    {
+      "id": "f329f77c5b55",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Third person dies of bird flu since virus started jumping to livestock",
+      "url": "https://arstechnica.com/health/2026/11/third-person-dies-of-bird-flu-since-virus-started-jumping-to-livestock/",
+      "summary": "The threat is still considered to be low, but the virus continues to spread.",
+      "author": "Beth Mole",
+      "published": "Mon, 02 Nov 2026 21:21:43 +0000",
+      "tags": [
+        "Health",
+        "bird flu",
+        "birds",
+        "CDC"
+      ]
+    },
+    {
+      "id": "6630e7d9eda0",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Marine sniper turned macro strategist says this bull market has six to 12 months left. Here’s his playbook.",
-      "url": "https://www.marketwatch.com/story/marine-sniper-turned-macro-strategist-says-this-bull-market-has-six-to-12-months-left-heres-his-playbook-8b48ce6e?mod=mw_rss_topstories",
-      "summary": "Alex Barrow, founder of Macro Ops, says the bull market is on borrowed time and will ratchet back painfully for investors who aren’t prepared.",
-      "author": "Barbara Kollmeyer",
-      "published": "Mon, 02 Nov 2026 07:25:00 GMT",
+      "title": "Here’s why Palantir’s stock is down despite a ‘bombastic’ quarter",
+      "url": "https://www.marketwatch.com/story/heres-why-palantirs-stock-is-down-despite-a-bombastic-quarter-42c9fdb8?mod=mw_rss_topstories",
+      "summary": "A deceleration in U.S. commercial contract growth gave some Wall Street analysts pause despite Palantir’s earnings beat.",
+      "author": "Christine Ji,Emily Bary",
+      "published": "Tue, 03 Nov 2026 00:59:00 GMT",
       "tags": []
     },
     {
-      "id": "f834851c6f10",
+      "id": "c319fc172622",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Want to help your adult kids and grandkids? Give them money while you’re still alive.",
-      "url": "https://www.marketwatch.com/story/if-you-really-want-to-help-your-adult-kids-and-grandkids-give-them-money-while-youre-still-alive-bef6b056?mod=mw_rss_topstories",
-      "summary": "How to manage “giving while living” without endangering your own retirement.",
-      "author": "Richard Eisenberg",
-      "published": "Mon, 02 Nov 2026 03:23:00 GMT",
+      "title": "Apple’s iPhone business is booming. Here’s why the stock is falling anyway.",
+      "url": "https://www.marketwatch.com/story/apples-iphone-business-is-booming-heres-why-the-stock-is-falling-anyway-07de9fff?mod=mw_rss_topstories",
+      "summary": "Although iPhone demand remains strong, Apple faces a worsening memory crunch and a slowing services business.",
+      "author": "Christine Ji",
+      "published": "Tue, 03 Nov 2026 00:52:00 GMT",
       "tags": []
     },
     {
-      "id": "afaec3edbdf7",
+      "id": "21073f470dab",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "This is the biggest threat to the AI-powered bull market",
-      "url": "https://www.marketwatch.com/story/this-is-the-biggest-threat-to-the-ai-powered-bull-market-e757ca37?mod=mw_rss_topstories",
-      "summary": "Blockbuster earnings growth has helped to power the stock market higher in 2026. In 2027, that engine might stall.",
-      "author": "Joseph Adinolfi",
-      "published": "Mon, 02 Nov 2026 00:22:00 GMT",
+      "title": "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
+      "url": "https://www.marketwatch.com/story/nasdaq-100-tumbles-into-its-third-correction-this-year-as-ai-worries-mount-abee4c0d?mod=mw_rss_topstories",
+      "summary": "The “tech wreck” from October continues. Is a bear market next?",
+      "author": "Joy Wiltermuth",
+      "published": "Tue, 03 Nov 2026 00:03:00 GMT",
       "tags": []
     }
   ],
