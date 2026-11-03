@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "papers": [
     {
       "id": "2608.10423",
@@ -320,23 +320,19 @@
       "kind": "fresh"
     },
     {
-      "id": "2607.04674",
+      "id": "2611.01578",
       "source": "arxiv",
-      "title": "Video Generation Models Are Inherent Lighting Estimators",
+      "title": "Recoverability-Aware Evaluation of Diffusion Video Inpainting and Object Removal",
       "authors": [
-        "Ziqi Cai",
-        "Shuchen Weng",
-        "Kaiqi Liu",
-        "Zifeng Wang",
-        "Zhiquan Zhang",
-        "Minggui Teng",
-        "Han Jiang",
-        "Boxin Shi"
+        "Yanliang Qi",
+        "Jiacheng Ding",
+        "Cong Guo",
+        "Peihua Mai"
       ],
-      "abstract": "Recovering dynamic environment maps from a single in-the-wild video is crucial for photorealistic rendering, yet remains a challenge. Recent video generation models can produce photorealistic scenes with complex lighting, possessing an inherent understanding of lighting. In this paper, we introduce V-LITE (Video generation models are inherent lighting estimators), a framework that unlocks this internal knowledge by reframing lighting estimation as a guided video inpainting task. Inspired by VFX industry practices, we insert a synthetic chrome ball into the scene to compel the model to generate physically plausible reflections from the surrounding spatio-temporal context. To bridge the gap from LDR-native models to the HDR domain, we design an HDR-aware VAE and employ an efficient LoRA-based fine-tuning strategy. We then construct a mixed dataset comprising high-fidelity HDR images to provide realistic HDR priors, and in-the-wild HDR videos to provide dynamic spatio-temporal context. Extensive experiments demonstrate that V-LITE produces temporally coherent HDR environment maps, revealing that modern video diffusion models are not merely synthesizers but also powerful, inherently capable estimators of physical scene lighting.",
-      "published": "2026-07-06",
-      "url": "https://arxiv.org/abs/2607.04674",
-      "pdf": "https://arxiv.org/pdf/2607.04674",
+      "abstract": "Video inpainting for object removal is scored over the whole hole, although the background behind the object is visible in other frames of the shot for some hole pixels and in no frame for others. A whole-hole score therefore mixes copying with generation and cannot show which of the two a remover does well. To separate the two, we propose recoverability-stratified evaluation, in which a point tracker run on the clean video labels each hole pixel by whether and how far away it is observed, so that fidelity and temporal stability can be reported per stratum against a copy reference. To reuse the observed content, we also propose evidence-guided sampling (EGS), which blends tracked colors into the clean-latent prediction of a video diffusion remover without training. On DAVIS, the perceptual advantage of three diffusion removers over flow propagation shrinks where the content is visible a few frames away (LPIPS difference-in-differences +0.046 to +0.056 against E2FGVI-HQ), and real paired captures show the same pattern for two of them. Their DAVIS hole warping error is two to four times that of ProPainter, and copying along clean-video tracks lowers their recoverable LPIPS by a quarter to two fifths. EGS closes 43% and 56% of the gap to this copy reference on held-out DAVIS when its colors come from clean-video tracks. With colors tracked on the masked input, a pre-registered confirmation finds no gain on MiniMax-Remover and a loss on ROSE. Diffusion removers thus leave observed content unused on DAVIS, and training-free reuse does not yet hold with tracked evidence.",
+      "published": "2026-11-01",
+      "url": "https://arxiv.org/abs/2611.01578",
+      "pdf": "https://arxiv.org/pdf/2611.01578",
       "categories": [
         "cs.CV"
       ],
@@ -344,34 +340,41 @@
         "video inpainting",
         "inpainting"
       ],
-      "score": 21,
-      "comment": "Project Page: https://caiziqi.com/research/vlite/",
-      "isNew": false,
+      "score": 30,
+      "comment": "10 pages, 6 figures, 7 tables",
+      "isNew": true,
       "citedBy": 0,
       "topic": "图像补全",
       "kind": "fresh"
     },
     {
-      "id": "2605.10586",
+      "id": "2611.02695",
       "source": "arxiv",
-      "title": "CausalGS: Learning Physical Causality of 3D Dynamic Scenes with Gaussian Representations",
+      "title": "3L-D: A Low-Light Level Dataset from a Sensor-Agnostic, Alignment-Preserving Acquisition Framework",
       "authors": [
-        "Nengbo Lu",
-        "Minghua Pan"
+        "Léo Rueff",
+        "Maurgène Ghezal",
+        "Valentin Gorse",
+        "Astrid Dufaure",
+        "Esteban Monsalvo",
+        "François Atteia",
+        "Ludovic Escoubas"
       ],
-      "abstract": "Learning a physical model from video data that can comprehend physical laws and predict the future trajectories of objects is a formidable challenge in artificial intelligence. Prior approaches either leverage various Partial Differential Equations (PDEs) as soft constraints in the form of PINN losses, or integrate physics simulators into neural networks; however, they often rely on strong priors or high-quality geometry reconstruction. In this paper, we propose CausalGS, a framework that learns the causal dynamics of complex dynamic 3D scenes solely from multi-view videos, while dispensing with the reliance on explicit priors. At its core is an inverse physics inference module that decouples the complex dynamics problem from the video into the joint inference of two factors: the initial velocity field representing the scene's kinematics, and the intrinsic material properties governing its dynamics. This inferred physical information is then utilized within a differentiable physics simulator to guide the learning process in a physics-regularized manner. Extensive experiments demonstrate that CausalGS surpasses the state-of-the-art on the highly challenging task of long-term future frame extrapolation, while also exhibiting advanced performance in novel view interpolation. Crucially, our work shows that, without any human annotation, the model is able to learn the complex interactions between multiple physical properties and understand the causal relationships driving the scene's dynamic evolution, solely from visual observations.",
-      "published": "2026-05-11",
-      "url": "https://arxiv.org/abs/2605.10586",
-      "pdf": "https://arxiv.org/pdf/2605.10586",
+      "abstract": "Supervised low-light image and video enhancement has achieved remarkable progress, yet current models remain fundamentally constrained by the limitations of existing datasets. Prevailing methods typically rely on uncontrolled ambient captures, camera parameter manipulation (e.g., exposure or ISO adjustments), or neutral density filters, failing to replicate authentic night-sky near-infrared spectral content and genuine low-photon noise distributions. Furthermore, capturing dynamic paired sequences without introducing warping artifacts or sensor-specific biases remains an open challenge. In this paper, we introduce 3L-Dataset, a physically calibrated low-light image and video dataset generated using a modular, sensor-agnostic acquisition framework. Our test bench faithfully reproduces the standardized Midavaine night level scale from Level 1 (full moon, approximately 1000 mlx) down to Level 5 (overcast moonless night, approximately 0.1 mlx), spanning the visible to near-infrared spectrum across diverse realistic environments, including countryside, forest, urban, and desert scale models. Using high-precision programmable mechanical actuation, our acquisition framework guarantees sub-pixel spatial alignment across synchronized sextuplets, each composed of one reference image and five corresponding images acquired at the five standardized night levels, without post-processing image warping. We evaluate multiple representative deep learning baselines across varying night levels, revealing critical trade-offs between reconstruction fidelity, perceptual quality, and inference latency under severe photon starvation. The modular acquisition framework can be adapted to different cameras, optical systems, sensor technologies, and resolutions, enabling the dataset to be continuously expanded.",
+      "published": "2026-11-02",
+      "url": "https://arxiv.org/abs/2611.02695",
+      "pdf": "https://arxiv.org/pdf/2611.02695",
       "categories": [
-        "cs.CV"
+        "cs.CV",
+        "cs.DB"
       ],
       "matched": [
-        "frame extrapolation"
+        "image warping",
+        "perceptual quality"
       ],
-      "score": 16,
-      "comment": "ICMR2026 Accepted",
-      "isNew": false,
+      "score": 20,
+      "comment": "",
+      "isNew": true,
       "citedBy": 0,
       "topic": "图像变形",
       "kind": "fresh"
@@ -467,6 +470,7 @@
     }
   ],
   "notes": [
-    "532 篇候选：近期相关 128 篇取 12，经典（>30 被引）5 篇混入 3"
+    "531 篇候选：近期相关 128 篇取 12，经典（>30 被引）5 篇混入 3",
+    "其中 2 篇是首次出现"
   ]
 }
