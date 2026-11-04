@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "papers": [
     {
       "id": "2608.10423",
@@ -342,7 +342,7 @@
       ],
       "score": 30,
       "comment": "10 pages, 6 figures, 7 tables",
-      "isNew": true,
+      "isNew": false,
       "citedBy": 0,
       "topic": "图像补全",
       "kind": "fresh"
@@ -374,7 +374,7 @@
       ],
       "score": 20,
       "comment": "",
-      "isNew": true,
+      "isNew": false,
       "citedBy": 0,
       "topic": "图像变形",
       "kind": "fresh"
@@ -404,7 +404,7 @@
       "score": 21,
       "comment": "",
       "isNew": false,
-      "citedBy": 128,
+      "citedBy": 137,
       "topic": "注视点渲染",
       "kind": "classic"
     },
@@ -435,7 +435,7 @@
       "score": 16,
       "comment": "",
       "isNew": false,
-      "citedBy": 66,
+      "citedBy": 67,
       "topic": "图像变形",
       "kind": "classic"
     },
@@ -464,13 +464,12 @@
       "score": 40,
       "comment": "Accepted to BMVC 2019",
       "isNew": false,
-      "citedBy": 59,
+      "citedBy": 61,
       "topic": "图像补全",
       "kind": "classic"
     }
   ],
   "notes": [
-    "531 篇候选：近期相关 128 篇取 12，经典（>30 被引）5 篇混入 3",
-    "其中 2 篇是首次出现"
+    "532 篇候选：近期相关 128 篇取 12，经典（>30 被引）5 篇混入 3"
   ]
 }
