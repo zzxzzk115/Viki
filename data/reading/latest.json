@@ -1,302 +1,303 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "items": [
     {
-      "id": "a4c609f57c31",
+      "id": "b8caede3fed2",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Gallows letter",
-      "url": "https://simple.wikipedia.org/wiki/Gallows_letter",
-      "summary": "In postal history, a gallows letter was a letter with a \"gallows\" mark meaning \"very quickly\".",
+      "title": "The Boss (roller coaster)",
+      "url": "https://simple.wikipedia.org/wiki/The_Boss_(roller_coaster)",
+      "summary": "The Boss is a wooden roller coaster. It is at Six Flags St. Louis in Eureka, Missouri. It has a lift of 122 feet (37 m) and a first drop of 150 feet (46 m). It also has four drops of 150', 112', 103' and 72'. The ride also has a 570 degree helix. The Boss opened in 2000. It is k…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "e44250a6a53d",
+      "id": "f215f155e987",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Nitro compound",
-      "url": "https://simple.wikipedia.org/wiki/Nitro_compound",
-      "summary": "A nitro compound is a molecule that has the nitro group. The nitro group is made of one nitrogen atom connected with two oxygen atoms (-NO2). The nitrogen is also bonded to the rest of the molecule.",
+      "title": "Bird Averitt",
+      "url": "https://simple.wikipedia.org/wiki/Bird_Averitt",
+      "summary": "William Rodney \"Bird\" Averitt was an American professional basketball player in the American Basketball Association (ABA) and the National Basketball Association (NBA). He was born in Hopkinsville, Kentucky. His career lasted from 1973 to 1978. Averitt played for the San Antonio…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "f14e1d8ec0f9",
+      "id": "ecbe88ccc357",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Jelly Sheet",
-      "url": "https://mrdoob.github.io/codevember-2026/01/",
+      "title": "Residential proxies detected on White House network",
+      "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
       "summary": "",
-      "author": "memalign",
+      "author": "Rasbora",
       "published": "2026-11-04",
       "tags": [
-        "▲ 147"
+        "▲ 957"
       ]
     },
     {
-      "id": "402640666ca7",
+      "id": "a5ebd0a813d9",
       "category": "tech",
       "source": "Hacker News",
-      "title": "C++26 Disapproved",
-      "url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/",
+      "title": "Lemmings CSS Animation",
+      "url": "https://markblah.github.io/lemmings/",
       "summary": "",
-      "author": "thatxliner",
-      "published": "2026-11-04",
+      "author": "MarkBlah",
+      "published": "2026-11-05",
       "tags": [
-        "▲ 246"
+        "▲ 99"
       ]
     },
     {
-      "id": "76457a280aad",
+      "id": "9320bcda5f3a",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Distinct cellular and genetic differences in colorectal cancer in young patients",
-      "url": "https://www.dana-farber.org/newsroom/news-releases/2026/study-reveals-distinct-cellular-and-genetic-differences-in-colorectal-cancer-in-younger-patients",
+      "title": "Images 2.6",
+      "url": "https://openai.com/index/introducing-images-2-6/",
       "summary": "",
-      "author": "gmays",
+      "author": "davidbarker",
       "published": "2026-11-04",
       "tags": [
-        "▲ 59"
+        "▲ 248"
       ]
     },
     {
-      "id": "c86abb872b9b",
+      "id": "f730feda13ee",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Jailbreaking my car's navigation system just so I can change the time",
-      "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+      "title": "A thousand fewer paths to root",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
       "summary": "",
-      "author": "xx_ns",
+      "author": "dangelosaurus",
+      "published": "2026-11-04",
+      "tags": [
+        "▲ 291"
+      ]
+    },
+    {
+      "id": "7f82dfcb9d98",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Partial Operator Precedence",
+      "url": "https://ziglang.org/devlog/2026/#2026-10-24",
+      "summary": "",
+      "author": "tosh",
       "published": "2026-11-02",
       "tags": [
-        "▲ 747"
+        "▲ 13"
       ]
     },
     {
-      "id": "67bf24197a0c",
+      "id": "bce0e1e1b695",
       "category": "tech",
       "source": "Hacker News",
-      "title": "The Internals of PostgreSQL",
-      "url": "https://www.interdb.jp/pg/index.html",
+      "title": "Altera Announces Agilex 2X, a Complete FPGA and SoC Portfolio",
+      "url": "https://www.altera.com/newsroom/agilex-2x",
       "summary": "",
-      "author": "ibobev",
-      "published": "2026-11-03",
+      "author": "gmays",
+      "published": "2026-11-05",
       "tags": [
-        "▲ 240"
+        "▲ 18"
       ]
     },
     {
-      "id": "95dce5da618a",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Stringman, an $800 open-source room scale gripper robot",
-      "url": "https://neufangled.com/",
-      "summary": "",
-      "author": "nharada",
-      "published": "2026-11-03",
-      "tags": [
-        "▲ 535"
-      ]
-    },
-    {
-      "id": "5ab23edf64fd",
+      "id": "a4bff3a7a3bd",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Kiểm tra bài viết có sẵn sàng cho featured snippet không: một script soi heading và câu trả lời",
-      "url": "https://dev.to/onicai/kiem-tra-bai-viet-co-san-sang-cho-featured-snippet-khong-mot-script-soi-heading-va-cau-tra-loi-58j",
-      "summary": "Featured snippet không có markup nào để thêm. Tài liệu của Google nói chủ website không thể đánh dấu trang thành đoạn trích nổi bật; Google tự chọn. Nhưng cấu trúc HTML vẫn quyết định Google có tách được câu trả lời gọn hay không. Bài này viết một script soi những điểm cấu trúc …",
-      "author": "Onic Ai",
-      "published": "Wed, 04 Nov 2026 07:33:41 +0000",
+      "title": "Your docs already answer your FAQs. Extract them.",
+      "url": "https://dev.to/lixingliangsy/your-docs-already-answer-your-faqs-extract-them-1pi0",
+      "summary": "The FAQ page is the most rewritten, least read page on most sites — and the source material for it already exists. Help-center articles and READMEs answer the questions; they're just not shaped as Q&A, and they're not marked up for search. I built FaqForge because writing FAQs f…",
+      "author": "LXSAIHUB",
+      "published": "Thu, 05 Nov 2026 07:49:26 +0000",
       "tags": [
         "seo",
-        "html",
-        "python",
-        "webdev"
+        "content",
+        "webdev",
+        "productivity"
       ]
     },
     {
-      "id": "2372ac8d2721",
+      "id": "37d926a4e8eb",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Find Your Dream Home at Godrej Plots Thiruporur Chennai",
-      "url": "https://dev.to/propsreal/find-your-dream-home-at-godrej-plots-thiruporur-chennai-5hb8",
-      "summary": "Godrej Plots Thiruporur Chennai marks a monumental entry by Godrej Properties into South Chennai’s burgeoning real estate landscape. Situated across a sprawling 50-acre expanse near Wonderla Chennai and Eachangadu Village, this pre-launch plotted development offers homeowners a …",
-      "author": "Props Real",
-      "published": "Wed, 04 Nov 2026 07:31:27 +0000",
+      "title": "Content-Disposition: the header that makes the browser download instead of play",
+      "url": "https://dev.to/mobeenahmedgondal/content-disposition-the-header-that-makes-the-browser-download-instead-of-play-4730",
+      "summary": "I learned this one the hard way. When I first built ramrom.io, my PHP download proxy worked fine in one sense: it fetched the video file and sent it back to the visitor. The problem was what the browser did with it. Instead of saving the file, Chrome opened the video in a new ta…",
+      "author": "Mobeen Ahmed",
+      "published": "Thu, 05 Nov 2026 07:49:17 +0000",
+      "tags": [
+        "php",
+        "webdev",
+        "tools",
+        "api"
+      ]
+    },
+    {
+      "id": "5dc52f7f4a98",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "How AI Helps Find Bugs and Debug Software Faster",
+      "url": "https://dev.to/software_solutions_740799/how-ai-helps-find-bugs-and-debug-software-faster-4bnc",
+      "summary": "Debugging is often cited by software engineers as one of the most time-consuming parts of the development lifecycle. Sifting through thousands of lines of code, parsing cryptic stack traces, and isolating edge-case race conditions can drain hours—or even days—from a sprint. With…",
+      "author": "Software Solutions",
+      "published": "Thu, 05 Nov 2026 07:48:43 +0000",
       "tags": [
         "ai",
-        "webdev",
         "productivity",
-        "programming"
-      ]
-    },
-    {
-      "id": "ae59f6824622",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Hébergement web c’est quoi ? Définition simple",
-      "url": "https://dev.to/raphael_marieux_5546bf2a9/hebergement-web-cest-quoi-definition-simple-373k",
-      "summary": "📌 En bref : hébergement web c’est quoi ? C’est l’ordinateur allumé en permanence qui stocke votre site et le renvoie aux visiteurs. Le forfait recouvre l’espace de stockage, la puissance de calcul, la bande passante, les sauvegardes et le plus souvent le certificat HTTPS. Ce n’…",
-      "author": "Raphael Marieux",
-      "published": "Wed, 04 Nov 2026 07:30:31 +0000",
-      "tags": [
-        "seo",
-        "webdev",
-        "ia"
-      ]
-    },
-    {
-      "id": "667e72fdc180",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "How I Cut Google Antigravity CLI Token Waste by 80% (Open Source Kit)",
-      "url": "https://dev.to/davidyehuda45byte/how-i-cut-google-antigravity-cli-token-waste-by-80-open-source-kit-2gph",
-      "summary": "Hi everyone, If you use Google Antigravity CLI or IDE for coding, you might have noticed how quickly token quotas burn out from: - Full instruction reloading on every turn - Terminal logs dumping hundreds of lines into context - Blind scans indexing node_modules, lockfiles, and …",
-      "author": "David Yehuda Surbakti | full - Stack developer",
-      "published": "Wed, 04 Nov 2026 07:30:04 +0000",
-      "tags": [
         "programming",
-        "ai",
-        "devtools",
         "webdev"
       ]
     },
     {
-      "id": "b69e17945c23",
+      "id": "c8e110428317",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Introducing Hayavo Meet: Video Conferencing, Voice Calling, Real-Time Messaging & Live Streaming",
+      "url": "https://dev.to/hayavo_3671ee5ba9/introducing-hayavo-meet-video-conferencing-voice-calling-real-time-messaging-live-streaming-5126",
+      "summary": "Hayavo Meet is a real-time communication platform providing video conferencing, voice calling, real-time messaging, and live streaming solutions for developers and businesses. Modern applications need more than traditional communication tools. They need reliable real-time experi…",
+      "author": "Hayavo",
+      "published": "Thu, 05 Nov 2026 07:48:05 +0000",
+      "tags": [
+        "api",
+        "softwaredevelopment",
+        "productivity",
+        "webdev"
+      ]
+    },
+    {
+      "id": "9451a99084ab",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Eunos MRT station",
-      "url": "https://en.wikipedia.org/wiki/Eunos_MRT_station",
-      "summary": "Eunos MRT station is an elevated Mass Rapid Transit (MRT) station on the East–West Line in Geylang, Singapore. Operated by SMRT Trains, the station is connected to the Eunos Bus Interchange. It also provides access to other surrounding landmarks such as the Masjid Darul Aman, Eu…",
+      "title": "Nikolai Kulikovsky",
+      "url": "https://en.wikipedia.org/wiki/Nikolai_Kulikovsky",
+      "summary": "Nikolai Alexandrovich Kulikovsky was the second husband of Grand Duchess Olga Alexandrovna of Russia, the sister of Tsar Nicholas II and daughter of Tsar Alexander III. He was born into a military landowning family from the south of the Russian Empire, and followed the family tr…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "788172991436",
+      "id": "e8db9958c58d",
       "category": "news",
       "source": "BBC 世界",
-      "title": "South Carolina elects Democratic senator for first time in almost three decades",
-      "url": "https://www.bbc.co.uk/news/articles/cjy56z440nl9o?at_medium=RSS&at_campaign=rss",
-      "summary": "Annie Andrews is projected to defeat Darline Graham, who was handpicked by President Trump to take her brother's seat after his death.",
-      "published": "Wed, 04 Nov 2026 07:32:02 GMT",
+      "title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
+      "url": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
+      "summary": "The vice-president's blunt assessment of Republican election defeat marked one of the sharpest breaks with a sitting president in recent memory.",
+      "published": "Thu, 05 Nov 2026 03:47:56 GMT",
       "tags": []
     },
     {
-      "id": "74dab33a4157",
+      "id": "be5639c6e297",
       "category": "news",
       "source": "BBC 世界",
-      "title": "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
-      "url": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
-      "summary": "\"This wasn't just a tsunami, not just a referendum, but this was a bloodbath,\" one expert told the BBC on Democrats' historic wins in Texas.",
-      "published": "Wed, 04 Nov 2026 05:39:36 GMT",
+      "title": "What Democrats can and can't do with their new power after taking Congress",
+      "url": "https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo?at_medium=RSS&at_campaign=rss",
+      "summary": "Democrats can vote legislation through. But Trump still has veto power.",
+      "published": "Wed, 04 Nov 2026 18:01:27 GMT",
       "tags": []
     },
     {
-      "id": "364b5244fc6d",
+      "id": "79e2afd27123",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Florida Republicans fend off Democrats as state elects first black governor",
-      "url": "https://www.bbc.co.uk/news/articles/c9146d88pl32o?at_medium=RSS&at_campaign=rss",
-      "summary": "Republican Byron Donalds, who was backed by President Donald Trump, will be the first black governor of Florida.",
-      "published": "Wed, 04 Nov 2026 07:12:21 GMT",
+      "title": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
+      "url": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss",
+      "summary": "Wong, 30, is among hundreds of Hongkongers detained under the controversial national security law.",
+      "published": "Thu, 05 Nov 2026 06:35:25 GMT",
       "tags": []
     },
     {
-      "id": "cf064f177920",
+      "id": "ca70ab29b22d",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Four tankers destroyed by naval mines in Strait of Hormuz, Iran's IRGC says",
-      "url": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
-      "summary": "Iran's Islamic Revolutionary Guard Corps says the vessels had hit sea mines while trying to cross a prohibited route.",
-      "published": "Wed, 04 Nov 2026 07:17:08 GMT",
+      "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
+      "url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
+      "summary": "The French Blood Establishment (EFS) said cold rooms storing blood were impacted by hackers.",
+      "published": "Wed, 04 Nov 2026 16:26:15 GMT",
       "tags": []
     },
     {
-      "id": "5f58c4321f5d",
+      "id": "c2991dcf58cf",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "California fights \"preposterous\" Trump admin demand to scrap state broadband laws",
-      "url": "https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws/",
-      "summary": "State tries to obtain broadband funds despite rejecting Trump admin condition.",
-      "author": "Jon Brodkin",
-      "published": "Tue, 03 Nov 2026 22:39:37 +0000",
+      "title": "Nintendo's biggest ROM chip supplier is bowing out of the business",
+      "url": "https://arstechnica.com/gaming/2026/11/the-tech-memory-shortage-comes-for-nintendos-cartridge-supply-chain/",
+      "summary": "And what that could mean for physical Switch game costs.",
+      "author": "Kyle Orland",
+      "published": "Wed, 04 Nov 2026 22:47:51 +0000",
       "tags": [
-        "Policy",
-        "BEAD program",
-        "Broadband Equity Access and Deployment program",
-        "California"
-      ]
-    },
-    {
-      "id": "2f70d6c369eb",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
-      "url": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
-      "summary": "Russia tries to fix exposed digital infrastructure as data center war backfires.",
-      "author": "Jeremy Hsu",
-      "published": "Tue, 03 Nov 2026 20:39:55 +0000",
-      "tags": [
+        "Gaming",
         "AI",
-        "ai data centers",
-        "data centers",
-        "Drone strikes"
+        "chips",
+        "GPU"
       ]
     },
     {
-      "id": "e9e1cc36cc97",
+      "id": "bc594cd9fbf9",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "NYT demands Brave shut down its paywall blocker and end deals with AI firms",
-      "url": "https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/",
-      "summary": "Lawsuit calls Brave \"supplier, dealer, and distributor\" of stolen news content.",
-      "author": "Jon Brodkin",
-      "published": "Tue, 03 Nov 2026 18:30:27 +0000",
+      "title": "Hackers exploited iOS and Android flaws to infect phones",
+      "url": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/",
+      "summary": "Researchers say group may have been Kremlin-sponsored in search of diplomatic targets.",
+      "author": "Dan Goodin",
+      "published": "Wed, 04 Nov 2026 22:26:49 +0000",
       "tags": [
-        "Policy",
-        "AI",
-        "brave",
-        "new york times"
+        "Biz & IT",
+        "Security",
+        "adversary in the middle",
+        "kremlin"
       ]
     },
     {
-      "id": "40a636257c23",
+      "id": "3b2ef923cb90",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Uranium cubes reveal why the German nuclear project failed",
+      "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
+      "summary": "\"Our calculations suggest Heisenberg significantly underestimated the materials required.\"",
+      "author": "Jennifer Ouellette",
+      "published": "Wed, 04 Nov 2026 21:56:29 +0000",
+      "tags": [
+        "Science",
+        "history of physics",
+        "nuclear archaeology",
+        "nuclear physics"
+      ]
+    },
+    {
+      "id": "90df4aceea65",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Democrats win the House and Senate. Here’s what it means for your finances.",
-      "url": "https://www.marketwatch.com/story/democrats-win-the-senate-but-control-of-the-house-is-still-up-in-the-air-heres-what-it-means-for-your-finances-ed78cd6e?mod=mw_rss_topstories",
-      "summary": "The results from the U.S. midterm elections are now clear and look likely to have effects on Americans’ investments and their wallets.",
-      "author": "Victor Reklaitis",
-      "published": "Wed, 04 Nov 2026 06:27:00 GMT",
+      "title": "Most investors are blind to the possibility of a market crash. Here is the five-part strategy to survive one.",
+      "url": "https://www.marketwatch.com/story/most-investors-are-blind-to-the-possibility-of-a-market-crash-here-is-the-five-part-strategy-to-survive-one-a1762911?mod=mw_rss_topstories",
+      "summary": "Wall Street veteran Jared Dillian says the biggest problem is many investors these days have not lived through a major downturn. He’s got a portfolio that offers protection.",
+      "author": "Barbara Kollmeyer",
+      "published": "Thu, 05 Nov 2026 07:15:00 GMT",
       "tags": []
     },
     {
-      "id": "6efe41ce4148",
+      "id": "eca281252075",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Here’s why AMD’s stock is rising — and sending a confident message about the AI trade",
-      "url": "https://www.marketwatch.com/story/heres-why-amds-stock-is-rising-and-sending-a-confident-message-about-the-ai-trade-11cb4d8a?mod=mw_rss_topstories",
-      "summary": "The chip maker is showing “real” revenue from AI, shrugging off sustainability concerns and leading to an upbeat forecast.",
+      "title": "Qualcomm’s stock falls as twin forces pressure sales",
+      "url": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159?mod=mw_rss_topstories",
+      "summary": "Qualcomm faces the loss of Apple’s business and the negative impact of high memory costs on overall smartphone demand.",
       "author": "Britney Nguyen",
-      "published": "Wed, 04 Nov 2026 01:16:00 GMT",
+      "published": "Thu, 05 Nov 2026 01:06:00 GMT",
       "tags": []
     },
     {
-      "id": "762ed2d7c00c",
+      "id": "98a9f5007d31",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Super Micro’s stock pops as earnings show booming demand for AI servers",
-      "url": "https://www.marketwatch.com/story/super-micros-stock-pops-as-earnings-show-booming-demand-for-ai-servers-2d179658?mod=mw_rss_topstories",
-      "summary": "Super Micro is building out a “high-quality customer base” that’s fueling revenue growth, CFO Mark Long told MarketWatch.",
-      "author": "Christine Ji",
-      "published": "Wed, 04 Nov 2026 01:12:00 GMT",
+      "title": "This year’s worst-performing S&P 500 stock is finally seeing some major relief",
+      "url": "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
+      "summary": "AppLovin’s stock is popping after “clearly positive” earnings results.",
+      "author": "William Gavin",
+      "published": "Thu, 05 Nov 2026 01:05:00 GMT",
       "tags": []
     }
   ],
