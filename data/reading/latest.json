@@ -1,303 +1,301 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "items": [
     {
-      "id": "b8caede3fed2",
+      "id": "1f3e5fa04c0d",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "The Boss (roller coaster)",
-      "url": "https://simple.wikipedia.org/wiki/The_Boss_(roller_coaster)",
-      "summary": "The Boss is a wooden roller coaster. It is at Six Flags St. Louis in Eureka, Missouri. It has a lift of 122 feet (37 m) and a first drop of 150 feet (46 m). It also has four drops of 150', 112', 103' and 72'. The ride also has a 570 degree helix. The Boss opened in 2000. It is k…",
+      "title": "Margaret Woodrow Wilson",
+      "url": "https://simple.wikipedia.org/wiki/Margaret_Woodrow_Wilson",
+      "summary": "Margaret Woodrow Wilson was the eldest daughter of US President Woodrow Wilson and Ellen Louise Axson.",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "f215f155e987",
+      "id": "f59e243b987a",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Bird Averitt",
-      "url": "https://simple.wikipedia.org/wiki/Bird_Averitt",
-      "summary": "William Rodney \"Bird\" Averitt was an American professional basketball player in the American Basketball Association (ABA) and the National Basketball Association (NBA). He was born in Hopkinsville, Kentucky. His career lasted from 1973 to 1978. Averitt played for the San Antonio…",
+      "title": "Matt Luff",
+      "url": "https://simple.wikipedia.org/wiki/Matt_Luff",
+      "summary": "Matt Luff is a Canadian professional ice hockey winger. He currently plays for the Hamilton Hammers of the American Hockey League (AHL) and is a prospect with the New York Islanders of the National Hockey League (NHL). He has also played for the Los Angeles Kings, Nashville Pred…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "ecbe88ccc357",
+      "id": "3b58ffb304e7",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Residential proxies detected on White House network",
-      "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+      "title": "Claude Code sends your email address to websites",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
       "summary": "",
-      "author": "Rasbora",
-      "published": "2026-11-04",
-      "tags": [
-        "▲ 957"
-      ]
-    },
-    {
-      "id": "a5ebd0a813d9",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Lemmings CSS Animation",
-      "url": "https://markblah.github.io/lemmings/",
-      "summary": "",
-      "author": "MarkBlah",
+      "author": "motoroco",
       "published": "2026-11-05",
       "tags": [
-        "▲ 99"
+        "▲ 984"
       ]
     },
     {
-      "id": "9320bcda5f3a",
+      "id": "8d1473191036",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Images 2.6",
-      "url": "https://openai.com/index/introducing-images-2-6/",
-      "summary": "",
-      "author": "davidbarker",
-      "published": "2026-11-04",
-      "tags": [
-        "▲ 248"
-      ]
-    },
-    {
-      "id": "f730feda13ee",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "A thousand fewer paths to root",
-      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-      "summary": "",
-      "author": "dangelosaurus",
-      "published": "2026-11-04",
-      "tags": [
-        "▲ 291"
-      ]
-    },
-    {
-      "id": "7f82dfcb9d98",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Partial Operator Precedence",
-      "url": "https://ziglang.org/devlog/2026/#2026-10-24",
-      "summary": "",
-      "author": "tosh",
-      "published": "2026-11-02",
-      "tags": [
-        "▲ 13"
-      ]
-    },
-    {
-      "id": "bce0e1e1b695",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Altera Announces Agilex 2X, a Complete FPGA and SoC Portfolio",
-      "url": "https://www.altera.com/newsroom/agilex-2x",
-      "summary": "",
-      "author": "gmays",
+      "title": "sshole",
+      "url": "https://sshhole.com",
+      "summary": "Related: https://hachyderm.io/@damienmiller/117563026759098135 / https://news.ycombinator.com/item?id=50377221 https://www.openssh.org/releasenotes.html#10.6p2 https://alpinelinux.org/posts/2026-11-05-openssh-password-au...",
+      "author": "josemrb",
       "published": "2026-11-05",
       "tags": [
-        "▲ 18"
+        "▲ 2613"
       ]
     },
     {
-      "id": "a4bff3a7a3bd",
+      "id": "296687f94cd4",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "MS Paint Remote Code Execution Vulnerability",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+      "summary": "",
+      "author": "kuberwastaken",
+      "published": "2026-11-05",
+      "tags": [
+        "▲ 492"
+      ]
+    },
+    {
+      "id": "d2bb7ea65855",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Pwn.college",
+      "url": "https://pwn.college/",
+      "summary": "",
+      "author": "tripdout",
+      "published": "2026-11-06",
+      "tags": [
+        "▲ 123"
+      ]
+    },
+    {
+      "id": "b95f6aa29001",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Nvidia Kubernetes Engine (NVKE)",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "summary": "",
+      "author": "gkapur",
+      "published": "2026-11-06",
+      "tags": [
+        "▲ 67"
+      ]
+    },
+    {
+      "id": "d54bee17fb9e",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "From Linux to Wikipedia: How Volunteers Build the Internet",
+      "url": "https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/",
+      "summary": "",
+      "author": "jonbaer",
+      "published": "2026-11-06",
+      "tags": [
+        "▲ 48"
+      ]
+    },
+    {
+      "id": "34b483754e4e",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Your docs already answer your FAQs. Extract them.",
-      "url": "https://dev.to/lixingliangsy/your-docs-already-answer-your-faqs-extract-them-1pi0",
-      "summary": "The FAQ page is the most rewritten, least read page on most sites — and the source material for it already exists. Help-center articles and READMEs answer the questions; they're just not shaped as Q&A, and they're not marked up for search. I built FaqForge because writing FAQs f…",
-      "author": "LXSAIHUB",
-      "published": "Thu, 05 Nov 2026 07:49:26 +0000",
+      "title": "How a Static Game Guide Keeps Its Sitemap and Navigation in Sync",
+      "url": "https://dev.to/toni_liu_901860180e2da47d/how-a-static-game-guide-keeps-its-sitemap-and-navigation-in-sync-2hcp",
+      "summary": "A small game wiki can become difficult to maintain when its navigation, sitemap and article files are edited separately. For Underkeep Wiki , we use one content inventory to drive the generated site. The content model Each guide has a slug, publication status, title, summary, up…",
+      "author": "toni liu",
+      "published": "Fri, 06 Nov 2026 08:00:21 +0000",
       "tags": [
-        "seo",
-        "content",
+        "architecture",
+        "softwaredevelopment",
+        "webdev"
+      ]
+    },
+    {
+      "id": "15a1f321edef",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "Why Your Weekly Review Is More Important Than Your Daily To-Do List",
+      "url": "https://dev.to/dhaval_bhanderi_55b5be30c/why-your-weekly-review-is-more-important-than-your-daily-to-do-list-419e",
+      "summary": "Description: A daily to-do list helps you stay organized, but a weekly review helps you understand your progress. Discover how reviewing your week can improve focus, manage priorities, and make your productivity more meaningful. Tags: productivity, weeklyplanning, timemanagement…",
+      "author": "Dhaval Bhanderi",
+      "published": "Fri, 06 Nov 2026 07:56:02 +0000",
+      "tags": [
+        "ai",
         "webdev",
         "productivity"
       ]
     },
     {
-      "id": "37d926a4e8eb",
+      "id": "e31be8ea2603",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Content-Disposition: the header that makes the browser download instead of play",
-      "url": "https://dev.to/mobeenahmedgondal/content-disposition-the-header-that-makes-the-browser-download-instead-of-play-4730",
-      "summary": "I learned this one the hard way. When I first built ramrom.io, my PHP download proxy worked fine in one sense: it fetched the video file and sent it back to the visitor. The problem was what the browser did with it. Instead of saving the file, Chrome opened the video in a new ta…",
-      "author": "Mobeen Ahmed",
-      "published": "Thu, 05 Nov 2026 07:49:17 +0000",
-      "tags": [
-        "php",
-        "webdev",
-        "tools",
-        "api"
-      ]
-    },
-    {
-      "id": "5dc52f7f4a98",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "How AI Helps Find Bugs and Debug Software Faster",
-      "url": "https://dev.to/software_solutions_740799/how-ai-helps-find-bugs-and-debug-software-faster-4bnc",
-      "summary": "Debugging is often cited by software engineers as one of the most time-consuming parts of the development lifecycle. Sifting through thousands of lines of code, parsing cryptic stack traces, and isolating edge-case race conditions can drain hours—or even days—from a sprint. With…",
-      "author": "Software Solutions",
-      "published": "Thu, 05 Nov 2026 07:48:43 +0000",
+      "title": "Oracle vs PostgreSQL: Schema-Level Privileges and Access to Future Tables",
+      "url": "https://dev.to/vahidusefzadeh/oracle-vs-postgresql-schema-level-privileges-and-access-to-future-tables-ejp",
+      "summary": "Managing privileges across multiple database objects can become challenging, especially when users need access to all tables within a particular schema . For example, suppose we have a schema named MAZANDARAN and want to grant a user named VAHID read access to all its tables. Th…",
+      "author": "Vahid Yousefzadeh",
+      "published": "Fri, 06 Nov 2026 07:55:23 +0000",
       "tags": [
         "ai",
+        "webdev",
         "productivity",
-        "programming",
-        "webdev"
+        "programming"
       ]
     },
     {
-      "id": "c8e110428317",
+      "id": "af5cf4d3f7ff",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Introducing Hayavo Meet: Video Conferencing, Voice Calling, Real-Time Messaging & Live Streaming",
-      "url": "https://dev.to/hayavo_3671ee5ba9/introducing-hayavo-meet-video-conferencing-voice-calling-real-time-messaging-live-streaming-5126",
-      "summary": "Hayavo Meet is a real-time communication platform providing video conferencing, voice calling, real-time messaging, and live streaming solutions for developers and businesses. Modern applications need more than traditional communication tools. They need reliable real-time experi…",
-      "author": "Hayavo",
-      "published": "Thu, 05 Nov 2026 07:48:05 +0000",
+      "title": "My Python function remembered data from the last call. The bug was a mutable default argument",
+      "url": "https://dev.to/renev3408/my-python-function-remembered-data-from-the-last-call-the-bug-was-a-mutable-default-argument-113",
+      "summary": "I called the same function twice and the second call returned the first call's data. No global variable, no cache, nothing obvious. The cause was one line in the function signature. The bug def add_item ( item , items = []): items . append ( item ) return items print ( add_item …",
+      "author": "rene",
+      "published": "Fri, 06 Nov 2026 07:50:37 +0000",
       "tags": [
-        "api",
-        "softwaredevelopment",
-        "productivity",
+        "python",
+        "beginners",
+        "tutorial",
         "webdev"
       ]
     },
     {
-      "id": "9451a99084ab",
+      "id": "03e86c509673",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Nikolai Kulikovsky",
-      "url": "https://en.wikipedia.org/wiki/Nikolai_Kulikovsky",
-      "summary": "Nikolai Alexandrovich Kulikovsky was the second husband of Grand Duchess Olga Alexandrovna of Russia, the sister of Tsar Nicholas II and daughter of Tsar Alexander III. He was born into a military landowning family from the south of the Russian Empire, and followed the family tr…",
+      "title": "Bill Madden (soldier)",
+      "url": "https://en.wikipedia.org/wiki/Bill_Madden_(soldier)",
+      "summary": "Horace William Madden was an Australian Army soldier who was posthumously awarded the George Cross, the highest award for extraordinary acts of gallantry away from the field of battle that could be awarded to a member of the Australian armed forces at the time. The citation for …",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "e8db9958c58d",
+      "id": "70c2d1cce37e",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
-      "url": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
-      "summary": "The vice-president's blunt assessment of Republican election defeat marked one of the sharpest breaks with a sitting president in recent memory.",
-      "published": "Thu, 05 Nov 2026 03:47:56 GMT",
+      "title": "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
+      "url": "https://www.bbc.co.uk/news/articles/cqg7xxg4jdv5o?at_medium=RSS&at_campaign=rss",
+      "summary": "US media reports there are calls to replace Pete Hegseth, who also faces a possible impeachment vote, while Mark Rubio is rumoured to be eyeing a presidential run.",
+      "published": "Fri, 06 Nov 2026 02:08:57 GMT",
       "tags": []
     },
     {
-      "id": "be5639c6e297",
+      "id": "d81699aabec8",
       "category": "news",
       "source": "BBC 世界",
-      "title": "What Democrats can and can't do with their new power after taking Congress",
-      "url": "https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo?at_medium=RSS&at_campaign=rss",
-      "summary": "Democrats can vote legislation through. But Trump still has veto power.",
-      "published": "Wed, 04 Nov 2026 18:01:27 GMT",
+      "title": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+      "url": "https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&at_campaign=rss",
+      "summary": "Pope Leo, who had part of a lung removed last month, will visit Uruguay, Argentina and Peru.",
+      "published": "Fri, 06 Nov 2026 00:02:57 GMT",
       "tags": []
     },
     {
-      "id": "79e2afd27123",
+      "id": "462c6288e813",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
-      "url": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Wong, 30, is among hundreds of Hongkongers detained under the controversial national security law.",
-      "published": "Thu, 05 Nov 2026 06:35:25 GMT",
+      "title": "Trump signs order to preserve Oval Office as national monument",
+      "url": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
+      "summary": "The order comes after Trump made a series of big changes to the decor of the Oval Office and tore down the White House East Wing.",
+      "published": "Fri, 06 Nov 2026 04:29:25 GMT",
       "tags": []
     },
     {
-      "id": "ca70ab29b22d",
+      "id": "3a7b00a96496",
       "category": "news",
       "source": "BBC 世界",
-      "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
-      "url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
-      "summary": "The French Blood Establishment (EFS) said cold rooms storing blood were impacted by hackers.",
-      "published": "Wed, 04 Nov 2026 16:26:15 GMT",
+      "title": "Major construction ongoing near Iran missile bases, satellite images suggest",
+      "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss",
+      "summary": "Evidence of digging and new buildings are visible in satellite imagery taken in November, satellite images suggest.",
+      "published": "Fri, 06 Nov 2026 07:33:41 GMT",
       "tags": []
     },
     {
-      "id": "c2991dcf58cf",
+      "id": "e024b4cae3ca",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Nintendo's biggest ROM chip supplier is bowing out of the business",
-      "url": "https://arstechnica.com/gaming/2026/11/the-tech-memory-shortage-comes-for-nintendos-cartridge-supply-chain/",
-      "summary": "And what that could mean for physical Switch game costs.",
-      "author": "Kyle Orland",
-      "published": "Wed, 04 Nov 2026 22:47:51 +0000",
+      "title": "Blue Origin says it is building a higher-performing rocket engine at 1/4 the cost",
+      "url": "https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/",
+      "summary": "\"This is going to be a game-changer.\"",
+      "author": "Eric Berger",
+      "published": "Fri, 06 Nov 2026 00:17:06 +0000",
       "tags": [
-        "Gaming",
-        "AI",
-        "chips",
-        "GPU"
+        "Space",
+        "blue origin",
+        "GS3",
+        "new glenn"
       ]
     },
     {
-      "id": "bc594cd9fbf9",
+      "id": "9ed3b44bda29",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Hackers exploited iOS and Android flaws to infect phones",
-      "url": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/",
-      "summary": "Researchers say group may have been Kremlin-sponsored in search of diplomatic targets.",
+      "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
+      "url": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
+      "summary": "Certain configurations of Alpine are affected. Other distros may be as well.",
       "author": "Dan Goodin",
-      "published": "Wed, 04 Nov 2026 22:26:49 +0000",
+      "published": "Thu, 05 Nov 2026 23:09:36 +0000",
       "tags": [
         "Biz & IT",
         "Security",
-        "adversary in the middle",
-        "kremlin"
+        "alpine",
+        "Linux"
       ]
     },
     {
-      "id": "3b2ef923cb90",
+      "id": "a6dd2447219f",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Uranium cubes reveal why the German nuclear project failed",
-      "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
-      "summary": "\"Our calculations suggest Heisenberg significantly underestimated the materials required.\"",
-      "author": "Jennifer Ouellette",
-      "published": "Wed, 04 Nov 2026 21:56:29 +0000",
+      "title": "NASA unveils mysterious X-70 experimental aircraft using AI-generated image",
+      "url": "https://arstechnica.com/gadgets/2026/11/nasas-experimental-x-70-aircraft-is-a-big-question-mark/",
+      "summary": "NASA’s X-70 Fractal announcement comes as agency aims to grow X-plane fleet.",
+      "author": "Jeremy Hsu",
+      "published": "Thu, 05 Nov 2026 22:49:03 +0000",
       "tags": [
-        "Science",
-        "history of physics",
-        "nuclear archaeology",
-        "nuclear physics"
+        "Tech",
+        "aircraft",
+        "experimental aircraft",
+        "jared isaacman"
       ]
     },
     {
-      "id": "90df4aceea65",
+      "id": "51f41770a322",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Most investors are blind to the possibility of a market crash. Here is the five-part strategy to survive one.",
-      "url": "https://www.marketwatch.com/story/most-investors-are-blind-to-the-possibility-of-a-market-crash-here-is-the-five-part-strategy-to-survive-one-a1762911?mod=mw_rss_topstories",
-      "summary": "Wall Street veteran Jared Dillian says the biggest problem is many investors these days have not lived through a major downturn. He’s got a portfolio that offers protection.",
-      "author": "Barbara Kollmeyer",
-      "published": "Thu, 05 Nov 2026 07:15:00 GMT",
+      "title": "‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?",
+      "url": "https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories",
+      "summary": "“Our basic living expenses are covered by $110,000 in annual pensions and Social Security.”",
+      "author": "Quentin Fottrell",
+      "published": "Fri, 06 Nov 2026 03:15:00 GMT",
       "tags": []
     },
     {
-      "id": "eca281252075",
+      "id": "b062b2819cee",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Qualcomm’s stock falls as twin forces pressure sales",
-      "url": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159?mod=mw_rss_topstories",
-      "summary": "Qualcomm faces the loss of Apple’s business and the negative impact of high memory costs on overall smartphone demand.",
-      "author": "Britney Nguyen",
-      "published": "Thu, 05 Nov 2026 01:06:00 GMT",
+      "title": "‘My life could be cut short’: I’m 55, married and have a brain tumor. Should I splash out on a $210,000 Porsche?",
+      "url": "https://www.marketwatch.com/story/my-life-could-be-cut-short-im-55-married-with-4-3-million-and-have-a-brain-tumor-should-i-buy-a-210-000-custom-porsche-ed825ada?mod=mw_rss_topstories",
+      "summary": "“I also want to preserve the opportunity to leave a meaningful legacy for my two sons.”",
+      "author": "Quentin Fottrell",
+      "published": "Fri, 06 Nov 2026 03:00:00 GMT",
       "tags": []
     },
     {
-      "id": "98a9f5007d31",
+      "id": "cd39b9bf44be",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "This year’s worst-performing S&P 500 stock is finally seeing some major relief",
-      "url": "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
-      "summary": "AppLovin’s stock is popping after “clearly positive” earnings results.",
-      "author": "William Gavin",
-      "published": "Thu, 05 Nov 2026 01:05:00 GMT",
+      "title": "Here’s what’s driving Iren’s stock higher after a brutal selloff",
+      "url": "https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0?mod=mw_rss_topstories",
+      "summary": "Iren announced a new cloud-computing deal and noted that much of its backlog is tied to “investment-grade counterparties.”",
+      "author": "Claudia Assis,Emily Bary",
+      "published": "Fri, 06 Nov 2026 01:07:00 GMT",
       "tags": []
     }
   ],
