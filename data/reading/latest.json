@@ -1,301 +1,303 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "items": [
     {
-      "id": "1f3e5fa04c0d",
+      "id": "b15e5f2e6cb0",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Margaret Woodrow Wilson",
-      "url": "https://simple.wikipedia.org/wiki/Margaret_Woodrow_Wilson",
-      "summary": "Margaret Woodrow Wilson was the eldest daughter of US President Woodrow Wilson and Ellen Louise Axson.",
+      "title": "Mario Vargas Llosa",
+      "url": "https://simple.wikipedia.org/wiki/Mario_Vargas_Llosa",
+      "summary": "Jorge Mario Pedro Vargas Llosa, 1st Marquess of Vargas Llosa, was a Peruvian writer, politician, journalist and essayist. Winner of the Nobel prize for literature, he was one of the most renown writers of modern times. He has written many books, plays and essays. A few famous bo…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "f59e243b987a",
+      "id": "95017ae24f36",
       "category": "english",
       "source": "Simple English Wikipedia",
-      "title": "Matt Luff",
-      "url": "https://simple.wikipedia.org/wiki/Matt_Luff",
-      "summary": "Matt Luff is a Canadian professional ice hockey winger. He currently plays for the Hamilton Hammers of the American Hockey League (AHL) and is a prospect with the New York Islanders of the National Hockey League (NHL). He has also played for the Los Angeles Kings, Nashville Pred…",
+      "title": "Wollongong, New South Wales",
+      "url": "https://simple.wikipedia.org/wiki/Wollongong%2C_New_South_Wales",
+      "summary": "Wollongong is a city in New South Wales, Australia. It is on the eastern coast of Australia, 82 km (51.0 mi), just over one hour from the south of Sydney and 2.5 hours from Canberra. It is the third largest city in New South Wales, after Sydney and Newcastle. It has passenger tr…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "3b58ffb304e7",
+      "id": "1039f331aefc",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Claude Code sends your email address to websites",
-      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "title": "Asahi Linux Progress Linux 7.3",
+      "url": "https://asahilinux.org/2026/11/progress-report-7-3/",
       "summary": "",
-      "author": "motoroco",
-      "published": "2026-11-05",
+      "author": "ackyshake",
+      "published": "2026-11-07",
       "tags": [
-        "▲ 984"
+        "▲ 81"
       ]
     },
     {
-      "id": "8d1473191036",
+      "id": "68be897c8b54",
       "category": "tech",
       "source": "Hacker News",
-      "title": "sshole",
-      "url": "https://sshhole.com",
-      "summary": "Related: https://hachyderm.io/@damienmiller/117563026759098135 / https://news.ycombinator.com/item?id=50377221 https://www.openssh.org/releasenotes.html#10.6p2 https://alpinelinux.org/posts/2026-11-05-openssh-password-au...",
-      "author": "josemrb",
-      "published": "2026-11-05",
-      "tags": [
-        "▲ 2613"
-      ]
-    },
-    {
-      "id": "296687f94cd4",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "MS Paint Remote Code Execution Vulnerability",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+      "title": "Libghostty 1.0",
+      "url": "https://mitchellh.com/writing/libghostty-1-0",
       "summary": "",
-      "author": "kuberwastaken",
-      "published": "2026-11-05",
-      "tags": [
-        "▲ 492"
-      ]
-    },
-    {
-      "id": "d2bb7ea65855",
-      "category": "tech",
-      "source": "Hacker News",
-      "title": "Pwn.college",
-      "url": "https://pwn.college/",
-      "summary": "",
-      "author": "tripdout",
+      "author": "mfiguiere",
       "published": "2026-11-06",
       "tags": [
-        "▲ 123"
+        "▲ 503"
       ]
     },
     {
-      "id": "b95f6aa29001",
+      "id": "d482c20de9cd",
       "category": "tech",
       "source": "Hacker News",
-      "title": "Nvidia Kubernetes Engine (NVKE)",
-      "url": "https://github.com/dsx-ai-factory/nvke",
+      "title": "A barbarian tribe's mythic origin story is true, ancient DNA reveals",
+      "url": "https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals",
       "summary": "",
-      "author": "gkapur",
-      "published": "2026-11-06",
+      "author": "benbreen",
+      "published": "2026-11-07",
       "tags": [
-        "▲ 67"
+        "▲ 49"
       ]
     },
     {
-      "id": "d54bee17fb9e",
+      "id": "ef2a83f7f3a4",
       "category": "tech",
       "source": "Hacker News",
-      "title": "From Linux to Wikipedia: How Volunteers Build the Internet",
-      "url": "https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/",
+      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
       "summary": "",
-      "author": "jonbaer",
+      "author": "theanomaly",
       "published": "2026-11-06",
       "tags": [
-        "▲ 48"
+        "▲ 434"
       ]
     },
     {
-      "id": "34b483754e4e",
+      "id": "119dda2f4fb7",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "Tesla to wind down Cybertruck production",
+      "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+      "summary": "",
+      "author": "PLenz",
+      "published": "2026-11-06",
+      "tags": [
+        "▲ 971"
+      ]
+    },
+    {
+      "id": "4e82298f18d8",
+      "category": "tech",
+      "source": "Hacker News",
+      "title": "RealPage rent-pricing case wraps with nearly $360M to renters",
+      "url": "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/",
+      "summary": "",
+      "author": "raybb",
+      "published": "2026-11-06",
+      "tags": [
+        "▲ 103"
+      ]
+    },
+    {
+      "id": "40a7a60ab83b",
       "category": "tech",
       "source": "DEV Community",
-      "title": "How a Static Game Guide Keeps Its Sitemap and Navigation in Sync",
-      "url": "https://dev.to/toni_liu_901860180e2da47d/how-a-static-game-guide-keeps-its-sitemap-and-navigation-in-sync-2hcp",
-      "summary": "A small game wiki can become difficult to maintain when its navigation, sitemap and article files are edited separately. For Underkeep Wiki , we use one content inventory to drive the generated site. The content model Each guide has a slug, publication status, title, summary, up…",
-      "author": "toni liu",
-      "published": "Fri, 06 Nov 2026 08:00:21 +0000",
+      "title": "Building Google Ads Landing Pages in Next.js for Local Service Businesses",
+      "url": "https://dev.to/codehunterz/building-google-ads-landing-pages-in-nextjs-for-local-service-businesses-43gg",
+      "summary": "Paid search for plumbers, HVAC shops, dentists, and similar trades has a simple failure mode: the ad promises a job, and the page the click opens is the homepage. The visitor has to hunt for the service, the phone number, and the service area. Many of them bounce before they cal…",
+      "author": "CodeHunterz",
+      "published": "Sat, 07 Nov 2026 07:15:40 +0000",
       "tags": [
-        "architecture",
-        "softwaredevelopment",
-        "webdev"
-      ]
-    },
-    {
-      "id": "15a1f321edef",
-      "category": "tech",
-      "source": "DEV Community",
-      "title": "Why Your Weekly Review Is More Important Than Your Daily To-Do List",
-      "url": "https://dev.to/dhaval_bhanderi_55b5be30c/why-your-weekly-review-is-more-important-than-your-daily-to-do-list-419e",
-      "summary": "Description: A daily to-do list helps you stay organized, but a weekly review helps you understand your progress. Discover how reviewing your week can improve focus, manage priorities, and make your productivity more meaningful. Tags: productivity, weeklyplanning, timemanagement…",
-      "author": "Dhaval Bhanderi",
-      "published": "Fri, 06 Nov 2026 07:56:02 +0000",
-      "tags": [
-        "ai",
+        "nextjs",
+        "react",
         "webdev",
-        "productivity"
+        "googleads"
       ]
     },
     {
-      "id": "e31be8ea2603",
+      "id": "0c10214f9d14",
       "category": "tech",
       "source": "DEV Community",
-      "title": "Oracle vs PostgreSQL: Schema-Level Privileges and Access to Future Tables",
-      "url": "https://dev.to/vahidusefzadeh/oracle-vs-postgresql-schema-level-privileges-and-access-to-future-tables-ejp",
-      "summary": "Managing privileges across multiple database objects can become challenging, especially when users need access to all tables within a particular schema . For example, suppose we have a schema named MAZANDARAN and want to grant a user named VAHID read access to all its tables. Th…",
-      "author": "Vahid Yousefzadeh",
-      "published": "Fri, 06 Nov 2026 07:55:23 +0000",
+      "title": "I Replaced 5 npm Packages With Native JavaScript",
+      "url": "https://dev.to/synfinity-dynamics-pvt-ltd/i-replaced-5-npm-packages-with-native-javascript-476h",
+      "summary": "JavaScript developers often install npm packages for everyday tasks such as making HTTP requests, generating unique IDs, handling URL parameters, and cloning objects. However, modern JavaScript and Node.js already provide built-in APIs that can handle many of these operations wi…",
+      "author": "Synfinity Dynamics Pvt Ltd",
+      "published": "Sat, 07 Nov 2026 07:14:55 +0000",
       "tags": [
-        "ai",
+        "javascript",
         "webdev",
-        "productivity",
+        "node",
         "programming"
       ]
     },
     {
-      "id": "af5cf4d3f7ff",
+      "id": "31896509b3db",
       "category": "tech",
       "source": "DEV Community",
-      "title": "My Python function remembered data from the last call. The bug was a mutable default argument",
-      "url": "https://dev.to/renev3408/my-python-function-remembered-data-from-the-last-call-the-bug-was-a-mutable-default-argument-113",
-      "summary": "I called the same function twice and the second call returned the first call's data. No global variable, no cache, nothing obvious. The cause was one line in the function signature. The bug def add_item ( item , items = []): items . append ( item ) return items print ( add_item …",
-      "author": "rene",
-      "published": "Fri, 06 Nov 2026 07:50:37 +0000",
+      "title": "Whiteout Survival Pet Tier List",
+      "url": "https://dev.to/seodevto95642drfg/whiteout-survival-pet-tier-list-1f1d",
+      "summary": "Whiteout Survival Pet Tier List: Best Pets for Every Mode Learn the best pets in Whiteout Survival with this complete pet tier list. Find out which pets are best for PvP, rallies, defense, utility, F2P players, and long-term account growth. Build the Right Pet Setup Before You W…",
+      "author": "Leo Sen",
+      "published": "Sat, 07 Nov 2026 07:14:48 +0000",
       "tags": [
-        "python",
-        "beginners",
+        "webdev",
+        "programming",
         "tutorial",
+        "beginners"
+      ]
+    },
+    {
+      "id": "a709f6067aad",
+      "category": "tech",
+      "source": "DEV Community",
+      "title": "A New JsonSerializerOptions Every Call Cost Me 120x",
+      "url": "https://dev.to/ssukhpinder/a-new-jsonserializeroptions-every-call-cost-me-120x-299f",
+      "summary": "A list endpoint on one of my services started showing up heavier in the traces than it had any right to be. It pulled a small object, serialized it, returned it. The payload was tiny — an order with three line items. But under load the thing allocated like it was streaming a vid…",
+      "author": "Sukhpinder Singh",
+      "published": "Sat, 07 Nov 2026 07:14:09 +0000",
+      "tags": [
+        "csharp",
+        "dotnet",
+        "programming",
         "webdev"
       ]
     },
     {
-      "id": "03e86c509673",
+      "id": "387c63634ff3",
       "category": "culture",
       "source": "Wikipedia",
-      "title": "Bill Madden (soldier)",
-      "url": "https://en.wikipedia.org/wiki/Bill_Madden_(soldier)",
-      "summary": "Horace William Madden was an Australian Army soldier who was posthumously awarded the George Cross, the highest award for extraordinary acts of gallantry away from the field of battle that could be awarded to a member of the Australian armed forces at the time. The citation for …",
+      "title": "Premise",
+      "url": "https://en.wikipedia.org/wiki/Premise",
+      "summary": "A premise is a proposition offered to support a conclusion. Premises are true or false statements that act as the starting points of arguments by presenting reasons to substantiate or refute assertions. Each argument is made up of a set of premises together with a conclusion. Fo…",
       "published": "",
       "tags": [
         "今日精选"
       ]
     },
     {
-      "id": "70c2d1cce37e",
+      "id": "a41907c82a62",
       "category": "news",
       "source": "BBC 世界",
-      "title": "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
-      "url": "https://www.bbc.co.uk/news/articles/cqg7xxg4jdv5o?at_medium=RSS&at_campaign=rss",
-      "summary": "US media reports there are calls to replace Pete Hegseth, who also faces a possible impeachment vote, while Mark Rubio is rumoured to be eyeing a presidential run.",
-      "published": "Fri, 06 Nov 2026 02:08:57 GMT",
+      "title": "Paraguay's President Santiago Peña impeached and arrested after bank collapse",
+      "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Santiago Peña was ousted due to a banking crisis which left millions of people unable to access their money.",
+      "published": "Sat, 07 Nov 2026 07:20:00 GMT",
       "tags": []
     },
     {
-      "id": "d81699aabec8",
+      "id": "8fc8e90c6b31",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
-      "url": "https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&at_campaign=rss",
-      "summary": "Pope Leo, who had part of a lung removed last month, will visit Uruguay, Argentina and Peru.",
-      "published": "Fri, 06 Nov 2026 00:02:57 GMT",
+      "title": "AI stocks climb after trillions wiped from market values",
+      "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+      "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
+      "published": "Fri, 06 Nov 2026 21:06:25 GMT",
       "tags": []
     },
     {
-      "id": "462c6288e813",
+      "id": "fe773657f48e",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Trump signs order to preserve Oval Office as national monument",
-      "url": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
-      "summary": "The order comes after Trump made a series of big changes to the decor of the Oval Office and tore down the White House East Wing.",
-      "published": "Fri, 06 Nov 2026 04:29:25 GMT",
+      "title": "Four midterms takeaways for 2028 White House race",
+      "url": "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo?at_medium=RSS&at_campaign=rss",
+      "summary": "The buzz about the presidential election is already under way - here's what we learned this week.",
+      "published": "Fri, 06 Nov 2026 16:12:22 GMT",
       "tags": []
     },
     {
-      "id": "3a7b00a96496",
+      "id": "d022c40745fe",
       "category": "news",
       "source": "BBC 世界",
-      "title": "Major construction ongoing near Iran missile bases, satellite images suggest",
-      "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss",
-      "summary": "Evidence of digging and new buildings are visible in satellite imagery taken in November, satellite images suggest.",
-      "published": "Fri, 06 Nov 2026 07:33:41 GMT",
+      "title": "Pope in 'pretty good health' as he starts Latin America tour",
+      "url": "https://www.bbc.co.uk/news/articles/c60e0001ve9wo?at_medium=RSS&at_campaign=rss",
+      "summary": "Pope Leo travels to Uruguay just three weeks after having surgery for lung cancer.",
+      "published": "Sat, 07 Nov 2026 06:59:48 GMT",
       "tags": []
     },
     {
-      "id": "e024b4cae3ca",
+      "id": "4185e767d8b8",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Blue Origin says it is building a higher-performing rocket engine at 1/4 the cost",
-      "url": "https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/",
-      "summary": "\"This is going to be a game-changer.\"",
-      "author": "Eric Berger",
-      "published": "Fri, 06 Nov 2026 00:17:06 +0000",
+      "title": "Doctors pull knife from man's eye that went through his brain—and he's fine now",
+      "url": "https://arstechnica.com/health/2026/11/man-unexpectedly-recovers-from-a-knife-wound-through-his-eye-and-brain/",
+      "summary": "It's the exact path, not the apparent severity that matters most, doctors say.",
+      "author": "Beth Mole",
+      "published": "Fri, 06 Nov 2026 23:09:45 +0000",
       "tags": [
-        "Space",
-        "blue origin",
-        "GS3",
-        "new glenn"
+        "Health",
+        "BMJ",
+        "brain",
+        "eye"
       ]
     },
     {
-      "id": "9ed3b44bda29",
+      "id": "5e8dffb0e5fd",
       "category": "tech",
       "source": "Ars Technica",
-      "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
-      "url": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
-      "summary": "Certain configurations of Alpine are affected. Other distros may be as well.",
-      "author": "Dan Goodin",
-      "published": "Thu, 05 Nov 2026 23:09:36 +0000",
-      "tags": [
-        "Biz & IT",
-        "Security",
-        "alpine",
-        "Linux"
-      ]
-    },
-    {
-      "id": "a6dd2447219f",
-      "category": "tech",
-      "source": "Ars Technica",
-      "title": "NASA unveils mysterious X-70 experimental aircraft using AI-generated image",
-      "url": "https://arstechnica.com/gadgets/2026/11/nasas-experimental-x-70-aircraft-is-a-big-question-mark/",
-      "summary": "NASA’s X-70 Fractal announcement comes as agency aims to grow X-plane fleet.",
+      "title": "Ships loiter near subsea cables amid Iran's warnings to Trump",
+      "url": "https://arstechnica.com/gadgets/2026/11/ships-loiter-near-subsea-cables-amid-irans-warnings-to-trump/",
+      "summary": "Iran threatened to attack subsea cables if US escalates military strikes again.",
       "author": "Jeremy Hsu",
-      "published": "Thu, 05 Nov 2026 22:49:03 +0000",
+      "published": "Fri, 06 Nov 2026 22:41:37 +0000",
       "tags": [
         "Tech",
-        "aircraft",
-        "experimental aircraft",
-        "jared isaacman"
+        "donald trump iran war",
+        "Iran",
+        "Iran Revolutionary Guard Corps"
       ]
     },
     {
-      "id": "51f41770a322",
+      "id": "0e26b90ba74d",
+      "category": "tech",
+      "source": "Ars Technica",
+      "title": "Re-releases of Wing Commander, Ultima titles hit Steam and GOG",
+      "url": "https://arstechnica.com/gaming/2026/11/ea-producer-tells-the-inside-story-behind-new-wing-commander-remasters/",
+      "summary": "It's mostly bad news from EA lately, but preservation efforts are nice to see.",
+      "author": "Samuel Axon",
+      "published": "Fri, 06 Nov 2026 22:08:47 +0000",
+      "tags": [
+        "Gaming",
+        "EA",
+        "gog",
+        "Privateer 2"
+      ]
+    },
+    {
+      "id": "d4fad7f1562e",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?",
-      "url": "https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories",
-      "summary": "“Our basic living expenses are covered by $110,000 in annual pensions and Social Security.”",
+      "title": "‘I have no financial safety net’: I’m 66, rely on Social Security and have just $500 in savings. What hope do I have?",
+      "url": "https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories",
+      "summary": "“Sometimes I wonder whether wealthier Americans should trade places with people like me.”",
       "author": "Quentin Fottrell",
-      "published": "Fri, 06 Nov 2026 03:15:00 GMT",
+      "published": "Fri, 06 Nov 2026 21:45:00 GMT",
       "tags": []
     },
     {
-      "id": "b062b2819cee",
+      "id": "51bde5af114e",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "‘My life could be cut short’: I’m 55, married and have a brain tumor. Should I splash out on a $210,000 Porsche?",
-      "url": "https://www.marketwatch.com/story/my-life-could-be-cut-short-im-55-married-with-4-3-million-and-have-a-brain-tumor-should-i-buy-a-210-000-custom-porsche-ed825ada?mod=mw_rss_topstories",
-      "summary": "“I also want to preserve the opportunity to leave a meaningful legacy for my two sons.”",
-      "author": "Quentin Fottrell",
-      "published": "Fri, 06 Nov 2026 03:00:00 GMT",
+      "title": "Elon Musk opens the door for a big SpaceX acquisition",
+      "url": "https://www.marketwatch.com/story/elon-musk-opens-the-door-for-a-big-spacex-acquisition-4f62bcad?mod=mw_rss_topstories",
+      "summary": "The rocket and satellite-internet company is looking to challenge telecom giants.",
+      "author": "William Gavin",
+      "published": "Fri, 06 Nov 2026 21:45:00 GMT",
       "tags": []
     },
     {
-      "id": "cd39b9bf44be",
+      "id": "4a68b09ce74d",
       "category": "finance",
       "source": "MarketWatch",
-      "title": "Here’s what’s driving Iren’s stock higher after a brutal selloff",
-      "url": "https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0?mod=mw_rss_topstories",
-      "summary": "Iren announced a new cloud-computing deal and noted that much of its backlog is tied to “investment-grade counterparties.”",
-      "author": "Claudia Assis,Emily Bary",
-      "published": "Fri, 06 Nov 2026 01:07:00 GMT",
+      "title": "Data centers run on debt. That was a problem for bonds this year — and it’s only going to get worse.",
+      "url": "https://www.marketwatch.com/story/data-centers-run-on-debt-that-was-a-problem-for-bonds-this-year-and-its-only-going-to-get-worse-09c03be6?mod=mw_rss_topstories",
+      "summary": "AI debt issuance this year overwhelmed investor portfolios, and has disappointed from a performance perspective. The funding need won’t get any better with Democrats in control of Congress.",
+      "author": "Joy Wiltermuth",
+      "published": "Fri, 06 Nov 2026 21:37:00 GMT",
       "tags": []
     }
   ],
